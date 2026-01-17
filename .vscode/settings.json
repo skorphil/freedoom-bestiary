@@ -1,0 +1,8 @@
+{
+    "[typescript]": {
+        "editor.defaultFormatter": "denoland.vscode-deno",
+        "editor.suggest.insertMode": "replace",
+        "editor.tabSize": 2,
+        "editor.formatOnSave": true
+  },
+}
