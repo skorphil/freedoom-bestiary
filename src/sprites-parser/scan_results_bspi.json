@@ -1,0 +1,1427 @@
+[
+  {
+    "sha": "57246cae8f7901d4bc63072f9632685d1e3b507d",
+    "date": "2023-07-16T23:14:24-07:00",
+    "author": "Steven Elliott",
+    "message": "png: Map color 255 to color 133 (#1003)",
+    "files": [
+      {
+        "path": "sprites/bspia1d1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspia1d1.png"
+      },
+      {
+        "path": "sprites/bspia2a8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspia2a8.png"
+      },
+      {
+        "path": "sprites/bspia3a7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspia3a7.png"
+      },
+      {
+        "path": "sprites/bspia4a6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspia4a6.png"
+      },
+      {
+        "path": "sprites/bspia5d5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspia5d5.png"
+      },
+      {
+        "path": "sprites/bspib1e1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspib1e1.png"
+      },
+      {
+        "path": "sprites/bspib2b8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspib2b8.png"
+      },
+      {
+        "path": "sprites/bspib3b7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspib3b7.png"
+      },
+      {
+        "path": "sprites/bspib4b6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspib4b6.png"
+      },
+      {
+        "path": "sprites/bspib5e5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspib5e5.png"
+      },
+      {
+        "path": "sprites/bspic1f1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspic1f1.png"
+      },
+      {
+        "path": "sprites/bspic2c8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspic2c8.png"
+      },
+      {
+        "path": "sprites/bspic3c7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspic3c7.png"
+      },
+      {
+        "path": "sprites/bspic4c6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspic4c6.png"
+      },
+      {
+        "path": "sprites/bspic5f5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspic5f5.png"
+      },
+      {
+        "path": "sprites/bspid2d8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspid2d8.png"
+      },
+      {
+        "path": "sprites/bspid3d7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspid3d7.png"
+      },
+      {
+        "path": "sprites/bspid4d6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspid4d6.png"
+      },
+      {
+        "path": "sprites/bspie2e8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspie2e8.png"
+      },
+      {
+        "path": "sprites/bspie3e7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspie3e7.png"
+      },
+      {
+        "path": "sprites/bspie4e6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspie4e6.png"
+      },
+      {
+        "path": "sprites/bspif2f8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspif2f8.png"
+      },
+      {
+        "path": "sprites/bspif3f7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspif3f7.png"
+      },
+      {
+        "path": "sprites/bspif4f6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspif4f6.png"
+      },
+      {
+        "path": "sprites/bspig1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspig1.png"
+      },
+      {
+        "path": "sprites/bspig2g8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspig2g8.png"
+      },
+      {
+        "path": "sprites/bspig3g7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspig3g7.png"
+      },
+      {
+        "path": "sprites/bspig4g6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspig4g6.png"
+      },
+      {
+        "path": "sprites/bspig5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspig5.png"
+      },
+      {
+        "path": "sprites/bspih1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspih1.png"
+      },
+      {
+        "path": "sprites/bspih2h8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspih2h8.png"
+      },
+      {
+        "path": "sprites/bspih3h7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspih3h7.png"
+      },
+      {
+        "path": "sprites/bspih4h6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspih4h6.png"
+      },
+      {
+        "path": "sprites/bspih5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspih5.png"
+      },
+      {
+        "path": "sprites/bspii1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspii1.png"
+      },
+      {
+        "path": "sprites/bspii2i8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspii2i8.png"
+      },
+      {
+        "path": "sprites/bspii3i7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspii3i7.png"
+      },
+      {
+        "path": "sprites/bspii4i6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspii4i6.png"
+      },
+      {
+        "path": "sprites/bspii5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspii5.png"
+      },
+      {
+        "path": "sprites/bspij0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspij0.png"
+      },
+      {
+        "path": "sprites/bspik0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspik0.png"
+      },
+      {
+        "path": "sprites/bspil0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspil0.png"
+      },
+      {
+        "path": "sprites/bspim0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspim0.png"
+      },
+      {
+        "path": "sprites/bspin0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspin0.png"
+      },
+      {
+        "path": "sprites/bspio0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspio0.png"
+      },
+      {
+        "path": "sprites/bspip0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspip0.png"
+      }
+    ],
+    "id": "57246cae8f7901d4bc63072f9632685d1e3b507d--2023-07-16T23:14:24-07:00"
+  },
+  {
+    "sha": "717f9bfe1e145931e90dc09d97a6dc16c2e3da31",
+    "date": "2019-09-22T12:18:43-07:00",
+    "author": "Craneo",
+    "message": "sprites: rework technospider with good shading",
+    "files": [
+      {
+        "path": "sprites/bspia1d1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspia1d1.png"
+      },
+      {
+        "path": "sprites/bspia2a8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspia2a8.png"
+      },
+      {
+        "path": "sprites/bspia3a7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspia3a7.png"
+      },
+      {
+        "path": "sprites/bspia4a6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspia4a6.png"
+      },
+      {
+        "path": "sprites/bspia5d5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspia5d5.png"
+      },
+      {
+        "path": "sprites/bspib1e1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspib1e1.png"
+      },
+      {
+        "path": "sprites/bspib2b8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspib2b8.png"
+      },
+      {
+        "path": "sprites/bspib3b7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspib3b7.png"
+      },
+      {
+        "path": "sprites/bspib4b6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspib4b6.png"
+      },
+      {
+        "path": "sprites/bspib5e5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspib5e5.png"
+      },
+      {
+        "path": "sprites/bspic1f1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspic1f1.png"
+      },
+      {
+        "path": "sprites/bspic2c8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspic2c8.png"
+      },
+      {
+        "path": "sprites/bspic3c7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspic3c7.png"
+      },
+      {
+        "path": "sprites/bspic4c6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspic4c6.png"
+      },
+      {
+        "path": "sprites/bspic5f5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspic5f5.png"
+      },
+      {
+        "path": "sprites/bspid2d8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspid2d8.png"
+      },
+      {
+        "path": "sprites/bspid3d7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspid3d7.png"
+      },
+      {
+        "path": "sprites/bspid4d6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspid4d6.png"
+      },
+      {
+        "path": "sprites/bspie2e8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspie2e8.png"
+      },
+      {
+        "path": "sprites/bspie3e7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspie3e7.png"
+      },
+      {
+        "path": "sprites/bspie4e6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspie4e6.png"
+      },
+      {
+        "path": "sprites/bspif2f8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspif2f8.png"
+      },
+      {
+        "path": "sprites/bspif3f7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspif3f7.png"
+      },
+      {
+        "path": "sprites/bspif4f6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspif4f6.png"
+      },
+      {
+        "path": "sprites/bspig1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspig1.png"
+      },
+      {
+        "path": "sprites/bspig2g8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspig2g8.png"
+      },
+      {
+        "path": "sprites/bspig3g7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspig3g7.png"
+      },
+      {
+        "path": "sprites/bspig4g6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspig4g6.png"
+      },
+      {
+        "path": "sprites/bspig5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspig5.png"
+      },
+      {
+        "path": "sprites/bspih1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspih1.png"
+      },
+      {
+        "path": "sprites/bspih2h8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspih2h8.png"
+      },
+      {
+        "path": "sprites/bspih3h7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspih3h7.png"
+      },
+      {
+        "path": "sprites/bspih4h6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspih4h6.png"
+      },
+      {
+        "path": "sprites/bspih5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspih5.png"
+      },
+      {
+        "path": "sprites/bspii1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspii1.png"
+      },
+      {
+        "path": "sprites/bspii2i8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspii2i8.png"
+      },
+      {
+        "path": "sprites/bspii3i7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspii3i7.png"
+      },
+      {
+        "path": "sprites/bspii4i6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspii4i6.png"
+      },
+      {
+        "path": "sprites/bspii5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspii5.png"
+      },
+      {
+        "path": "sprites/bspij0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspij0.png"
+      },
+      {
+        "path": "sprites/bspik0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspik0.png"
+      },
+      {
+        "path": "sprites/bspil0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspil0.png"
+      },
+      {
+        "path": "sprites/bspim0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspim0.png"
+      },
+      {
+        "path": "sprites/bspin0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspin0.png"
+      },
+      {
+        "path": "sprites/bspio0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspio0.png"
+      },
+      {
+        "path": "sprites/bspip0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspip0.png"
+      }
+    ],
+    "id": "717f9bfe1e145931e90dc09d97a6dc16c2e3da31--2019-09-22T12:18:43-07:00"
+  },
+  {
+    "sha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
+    "date": "2017-07-18T22:26:52-07:00",
+    "author": "Mike Swanson",
+    "message": "Burn all GIFs: Convert everything to PNGs.",
+    "files": [
+      {
+        "path": "sprites/bspia1d1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspia1d1.png"
+      },
+      {
+        "path": "sprites/bspia2a8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspia2a8.png"
+      },
+      {
+        "path": "sprites/bspia3a7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspia3a7.png"
+      },
+      {
+        "path": "sprites/bspia4a6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspia4a6.png"
+      },
+      {
+        "path": "sprites/bspia5d5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspia5d5.png"
+      },
+      {
+        "path": "sprites/bspib1e1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspib1e1.png"
+      },
+      {
+        "path": "sprites/bspib2b8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspib2b8.png"
+      },
+      {
+        "path": "sprites/bspib3b7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspib3b7.png"
+      },
+      {
+        "path": "sprites/bspib4b6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspib4b6.png"
+      },
+      {
+        "path": "sprites/bspib5e5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspib5e5.png"
+      },
+      {
+        "path": "sprites/bspic1f1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspic1f1.png"
+      },
+      {
+        "path": "sprites/bspic2c8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspic2c8.png"
+      },
+      {
+        "path": "sprites/bspic3c7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspic3c7.png"
+      },
+      {
+        "path": "sprites/bspic4c6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspic4c6.png"
+      },
+      {
+        "path": "sprites/bspic5f5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspic5f5.png"
+      },
+      {
+        "path": "sprites/bspid2d8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspid2d8.png"
+      },
+      {
+        "path": "sprites/bspid3d7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspid3d7.png"
+      },
+      {
+        "path": "sprites/bspid4d6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspid4d6.png"
+      },
+      {
+        "path": "sprites/bspie2e8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspie2e8.png"
+      },
+      {
+        "path": "sprites/bspie3e7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspie3e7.png"
+      },
+      {
+        "path": "sprites/bspie4e6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspie4e6.png"
+      },
+      {
+        "path": "sprites/bspif2f8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspif2f8.png"
+      },
+      {
+        "path": "sprites/bspif3f7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspif3f7.png"
+      },
+      {
+        "path": "sprites/bspif4f6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspif4f6.png"
+      },
+      {
+        "path": "sprites/bspig1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspig1.png"
+      },
+      {
+        "path": "sprites/bspig2g8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspig2g8.png"
+      },
+      {
+        "path": "sprites/bspig3g7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspig3g7.png"
+      },
+      {
+        "path": "sprites/bspig4g6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspig4g6.png"
+      },
+      {
+        "path": "sprites/bspig5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspig5.png"
+      },
+      {
+        "path": "sprites/bspih1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspih1.png"
+      },
+      {
+        "path": "sprites/bspih2h8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspih2h8.png"
+      },
+      {
+        "path": "sprites/bspih3h7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspih3h7.png"
+      },
+      {
+        "path": "sprites/bspih4h6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspih4h6.png"
+      },
+      {
+        "path": "sprites/bspih5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspih5.png"
+      },
+      {
+        "path": "sprites/bspii1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspii1.png"
+      },
+      {
+        "path": "sprites/bspii2i8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspii2i8.png"
+      },
+      {
+        "path": "sprites/bspii3i7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspii3i7.png"
+      },
+      {
+        "path": "sprites/bspii4i6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspii4i6.png"
+      },
+      {
+        "path": "sprites/bspii5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspii5.png"
+      },
+      {
+        "path": "sprites/bspij0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspij0.png"
+      },
+      {
+        "path": "sprites/bspik0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspik0.png"
+      },
+      {
+        "path": "sprites/bspil0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspil0.png"
+      },
+      {
+        "path": "sprites/bspim0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspim0.png"
+      },
+      {
+        "path": "sprites/bspin0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspin0.png"
+      },
+      {
+        "path": "sprites/bspio0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspio0.png"
+      },
+      {
+        "path": "sprites/bspip0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspip0.png"
+      }
+    ],
+    "id": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3--2017-07-18T22:26:52-07:00"
+  },
+  {
+    "sha": "814e3447c6201d8f4ceaf42f047b05dc06e0aa1c",
+    "date": "2015-12-17T01:22:19-08:00",
+    "author": "Mike Swanson",
+    "message": "de-symlinkify: mouse",
+    "files": [
+      {
+        "path": "sprites/bspia1d1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspia1d1.gif"
+      },
+      {
+        "path": "sprites/bspia2a8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspia2a8.gif"
+      },
+      {
+        "path": "sprites/bspia3a7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspia3a7.gif"
+      },
+      {
+        "path": "sprites/bspia4a6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspia4a6.gif"
+      },
+      {
+        "path": "sprites/bspia5d5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspia5d5.gif"
+      },
+      {
+        "path": "sprites/bspib1e1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspib1e1.gif"
+      },
+      {
+        "path": "sprites/bspib2b8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspib2b8.gif"
+      },
+      {
+        "path": "sprites/bspib3b7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspib3b7.gif"
+      },
+      {
+        "path": "sprites/bspib4b6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspib4b6.gif"
+      },
+      {
+        "path": "sprites/bspib5e5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspib5e5.gif"
+      },
+      {
+        "path": "sprites/bspic1f1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspic1f1.gif"
+      },
+      {
+        "path": "sprites/bspic2c8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspic2c8.gif"
+      },
+      {
+        "path": "sprites/bspic3c7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspic3c7.gif"
+      },
+      {
+        "path": "sprites/bspic4c6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspic4c6.gif"
+      },
+      {
+        "path": "sprites/bspic5f5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspic5f5.gif"
+      },
+      {
+        "path": "sprites/bspid2d8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspid2d8.gif"
+      },
+      {
+        "path": "sprites/bspid3d7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspid3d7.gif"
+      },
+      {
+        "path": "sprites/bspid4d6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspid4d6.gif"
+      },
+      {
+        "path": "sprites/bspie2e8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspie2e8.gif"
+      },
+      {
+        "path": "sprites/bspie3e7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspie3e7.gif"
+      },
+      {
+        "path": "sprites/bspie4e6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspie4e6.gif"
+      },
+      {
+        "path": "sprites/bspif2f8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspif2f8.gif"
+      },
+      {
+        "path": "sprites/bspif3f7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspif3f7.gif"
+      },
+      {
+        "path": "sprites/bspif4f6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspif4f6.gif"
+      },
+      {
+        "path": "sprites/bspig1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspig1.gif"
+      },
+      {
+        "path": "sprites/bspig2g8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspig2g8.gif"
+      },
+      {
+        "path": "sprites/bspig3g7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspig3g7.gif"
+      },
+      {
+        "path": "sprites/bspig4g6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspig4g6.gif"
+      },
+      {
+        "path": "sprites/bspig5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspig5.gif"
+      },
+      {
+        "path": "sprites/bspih1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspih1.gif"
+      },
+      {
+        "path": "sprites/bspih2h8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspih2h8.gif"
+      },
+      {
+        "path": "sprites/bspih3h7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspih3h7.gif"
+      },
+      {
+        "path": "sprites/bspih4h6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspih4h6.gif"
+      },
+      {
+        "path": "sprites/bspih5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspih5.gif"
+      },
+      {
+        "path": "sprites/bspii1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspii1.gif"
+      },
+      {
+        "path": "sprites/bspii2i8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspii2i8.gif"
+      },
+      {
+        "path": "sprites/bspii3i7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspii3i7.gif"
+      },
+      {
+        "path": "sprites/bspii4i6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspii4i6.gif"
+      },
+      {
+        "path": "sprites/bspii5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspii5.gif"
+      },
+      {
+        "path": "sprites/bspij0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspij0.gif"
+      },
+      {
+        "path": "sprites/bspik0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspik0.gif"
+      },
+      {
+        "path": "sprites/bspil0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspil0.gif"
+      },
+      {
+        "path": "sprites/bspim0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspim0.gif"
+      },
+      {
+        "path": "sprites/bspin0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspin0.gif"
+      },
+      {
+        "path": "sprites/bspio0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspio0.gif"
+      },
+      {
+        "path": "sprites/bspip0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspip0.gif"
+      }
+    ],
+    "id": "814e3447c6201d8f4ceaf42f047b05dc06e0aa1c--2015-12-17T01:22:19-08:00"
+  },
+  {
+    "sha": "27aca39126c0f021e543516119c9d3b2500575ac",
+    "date": "2006-05-09T16:06:11Z",
+    "author": "Simon Howard",
+    "message": "Import sprites",
+    "files": [
+      {
+        "path": "sprites/bspia1d1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspia1d1.gif"
+      },
+      {
+        "path": "sprites/bspia2a8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspia2a8.gif"
+      },
+      {
+        "path": "sprites/bspia3a7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspia3a7.gif"
+      },
+      {
+        "path": "sprites/bspia4a6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspia4a6.gif"
+      },
+      {
+        "path": "sprites/bspia5d5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspia5d5.gif"
+      },
+      {
+        "path": "sprites/bspib1e1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspib1e1.gif"
+      },
+      {
+        "path": "sprites/bspib2b8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspib2b8.gif"
+      },
+      {
+        "path": "sprites/bspib3b7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspib3b7.gif"
+      },
+      {
+        "path": "sprites/bspib4b6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspib4b6.gif"
+      },
+      {
+        "path": "sprites/bspib5e5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspib5e5.gif"
+      },
+      {
+        "path": "sprites/bspic1f1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspic1f1.gif"
+      },
+      {
+        "path": "sprites/bspic2c8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspic2c8.gif"
+      },
+      {
+        "path": "sprites/bspic3c7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspic3c7.gif"
+      },
+      {
+        "path": "sprites/bspic4c6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspic4c6.gif"
+      },
+      {
+        "path": "sprites/bspic5f5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspic5f5.gif"
+      },
+      {
+        "path": "sprites/bspid2d8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspid2d8.gif"
+      },
+      {
+        "path": "sprites/bspid3d7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspid3d7.gif"
+      },
+      {
+        "path": "sprites/bspid4d6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspid4d6.gif"
+      },
+      {
+        "path": "sprites/bspie2e8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspie2e8.gif"
+      },
+      {
+        "path": "sprites/bspie3e7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspie3e7.gif"
+      },
+      {
+        "path": "sprites/bspie4e6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspie4e6.gif"
+      },
+      {
+        "path": "sprites/bspif2f8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspif2f8.gif"
+      },
+      {
+        "path": "sprites/bspif3f7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspif3f7.gif"
+      },
+      {
+        "path": "sprites/bspif4f6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspif4f6.gif"
+      },
+      {
+        "path": "sprites/bspig1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspig1.gif"
+      },
+      {
+        "path": "sprites/bspig2g8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspig2g8.gif"
+      },
+      {
+        "path": "sprites/bspig3g7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspig3g7.gif"
+      },
+      {
+        "path": "sprites/bspig4g6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspig4g6.gif"
+      },
+      {
+        "path": "sprites/bspig5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspig5.gif"
+      },
+      {
+        "path": "sprites/bspih1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspih1.gif"
+      },
+      {
+        "path": "sprites/bspih2h8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspih2h8.gif"
+      },
+      {
+        "path": "sprites/bspih3h7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspih3h7.gif"
+      },
+      {
+        "path": "sprites/bspih4h6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspih4h6.gif"
+      },
+      {
+        "path": "sprites/bspih5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspih5.gif"
+      },
+      {
+        "path": "sprites/bspii1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspii1.gif"
+      },
+      {
+        "path": "sprites/bspii2i8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspii2i8.gif"
+      },
+      {
+        "path": "sprites/bspii3i7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspii3i7.gif"
+      },
+      {
+        "path": "sprites/bspii4i6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspii4i6.gif"
+      },
+      {
+        "path": "sprites/bspii5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspii5.gif"
+      },
+      {
+        "path": "sprites/bspij0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspij0.gif"
+      },
+      {
+        "path": "sprites/bspik0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspik0.gif"
+      },
+      {
+        "path": "sprites/bspil0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspil0.gif"
+      },
+      {
+        "path": "sprites/bspim0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspim0.gif"
+      },
+      {
+        "path": "sprites/bspin0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspin0.gif"
+      },
+      {
+        "path": "sprites/bspio0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspio0.gif"
+      },
+      {
+        "path": "sprites/bspip0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/bspip0.gif"
+      },
+      {
+        "path": "sprites/mouse/bspia1d1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspia1d1.gif"
+      },
+      {
+        "path": "sprites/mouse/bspia2a8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspia2a8.gif"
+      },
+      {
+        "path": "sprites/mouse/bspia3a7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspia3a7.gif"
+      },
+      {
+        "path": "sprites/mouse/bspia4a6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspia4a6.gif"
+      },
+      {
+        "path": "sprites/mouse/bspia5d5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspia5d5.gif"
+      },
+      {
+        "path": "sprites/mouse/bspib1e1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspib1e1.gif"
+      },
+      {
+        "path": "sprites/mouse/bspib2b8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspib2b8.gif"
+      },
+      {
+        "path": "sprites/mouse/bspib3b7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspib3b7.gif"
+      },
+      {
+        "path": "sprites/mouse/bspib4b6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspib4b6.gif"
+      },
+      {
+        "path": "sprites/mouse/bspib5e5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspib5e5.gif"
+      },
+      {
+        "path": "sprites/mouse/bspic1f1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspic1f1.gif"
+      },
+      {
+        "path": "sprites/mouse/bspic2c8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspic2c8.gif"
+      },
+      {
+        "path": "sprites/mouse/bspic3c7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspic3c7.gif"
+      },
+      {
+        "path": "sprites/mouse/bspic4c6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspic4c6.gif"
+      },
+      {
+        "path": "sprites/mouse/bspic5f5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspic5f5.gif"
+      },
+      {
+        "path": "sprites/mouse/bspid2d8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspid2d8.gif"
+      },
+      {
+        "path": "sprites/mouse/bspid3d7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspid3d7.gif"
+      },
+      {
+        "path": "sprites/mouse/bspid4d6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspid4d6.gif"
+      },
+      {
+        "path": "sprites/mouse/bspie2e8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspie2e8.gif"
+      },
+      {
+        "path": "sprites/mouse/bspie3e7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspie3e7.gif"
+      },
+      {
+        "path": "sprites/mouse/bspie4e6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspie4e6.gif"
+      },
+      {
+        "path": "sprites/mouse/bspif2f8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspif2f8.gif"
+      },
+      {
+        "path": "sprites/mouse/bspif3f7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspif3f7.gif"
+      },
+      {
+        "path": "sprites/mouse/bspif4f6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspif4f6.gif"
+      },
+      {
+        "path": "sprites/mouse/bspig1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspig1.gif"
+      },
+      {
+        "path": "sprites/mouse/bspig2g8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspig2g8.gif"
+      },
+      {
+        "path": "sprites/mouse/bspig3g7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspig3g7.gif"
+      },
+      {
+        "path": "sprites/mouse/bspig4g6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspig4g6.gif"
+      },
+      {
+        "path": "sprites/mouse/bspig5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspig5.gif"
+      },
+      {
+        "path": "sprites/mouse/bspih1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspih1.gif"
+      },
+      {
+        "path": "sprites/mouse/bspih2h8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspih2h8.gif"
+      },
+      {
+        "path": "sprites/mouse/bspih3h7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspih3h7.gif"
+      },
+      {
+        "path": "sprites/mouse/bspih4h6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspih4h6.gif"
+      },
+      {
+        "path": "sprites/mouse/bspih5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspih5.gif"
+      },
+      {
+        "path": "sprites/mouse/bspii1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspii1.gif"
+      },
+      {
+        "path": "sprites/mouse/bspii2i8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspii2i8.gif"
+      },
+      {
+        "path": "sprites/mouse/bspii3i7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspii3i7.gif"
+      },
+      {
+        "path": "sprites/mouse/bspii4i6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspii4i6.gif"
+      },
+      {
+        "path": "sprites/mouse/bspii5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspii5.gif"
+      },
+      {
+        "path": "sprites/mouse/bspij0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspij0.gif"
+      },
+      {
+        "path": "sprites/mouse/bspik0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspik0.gif"
+      },
+      {
+        "path": "sprites/mouse/bspil0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspil0.gif"
+      },
+      {
+        "path": "sprites/mouse/bspim0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspim0.gif"
+      },
+      {
+        "path": "sprites/mouse/bspin0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspin0.gif"
+      },
+      {
+        "path": "sprites/mouse/bspio0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspio0.gif"
+      },
+      {
+        "path": "sprites/mouse/bspip0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspip0.gif"
+      }
+    ],
+    "id": "27aca39126c0f021e543516119c9d3b2500575ac--2006-05-09T16:06:11Z"
+  }
+]

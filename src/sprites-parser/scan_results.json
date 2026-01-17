@@ -6,1218 +6,184 @@
     "message": "png: Map color 255 to color 133 (#1003)",
     "files": [
       {
-        "path": "sprites/possb6.png",
+        "path": "sprites/headc1.png",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possb6.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc1.png"
       },
       {
-        "path": "sprites/possd4.png",
+        "path": "sprites/headc5.png",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possd4.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc5.png"
       },
       {
-        "path": "sprites/possd8.png",
+        "path": "sprites/headd1.png",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possd8.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd1.png"
       },
       {
-        "path": "sprites/posse7.png",
+        "path": "sprites/headf4f6.png",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/posse7.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf4f6.png"
       },
       {
-        "path": "sprites/posse8.png",
+        "path": "sprites/headk0.png",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/posse8.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headk0.png"
       },
       {
-        "path": "sprites/possf7.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possf7.png"
-      },
-      {
-        "path": "sprites/possa1.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possa1.png"
-      },
-      {
-        "path": "sprites/possa2.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possa2.png"
-      },
-      {
-        "path": "sprites/possa3.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possa3.png"
-      },
-      {
-        "path": "sprites/possa4.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possa4.png"
-      },
-      {
-        "path": "sprites/possa5.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possa5.png"
-      },
-      {
-        "path": "sprites/possa6.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possa6.png"
-      },
-      {
-        "path": "sprites/possa7.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possa7.png"
-      },
-      {
-        "path": "sprites/possa8.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possa8.png"
-      },
-      {
-        "path": "sprites/possb1.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possb1.png"
-      },
-      {
-        "path": "sprites/possb2.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possb2.png"
-      },
-      {
-        "path": "sprites/possb3.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possb3.png"
-      },
-      {
-        "path": "sprites/possb4.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possb4.png"
-      },
-      {
-        "path": "sprites/possb5.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possb5.png"
-      },
-      {
-        "path": "sprites/possb7.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possb7.png"
-      },
-      {
-        "path": "sprites/possb8.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possb8.png"
-      },
-      {
-        "path": "sprites/possc1.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possc1.png"
-      },
-      {
-        "path": "sprites/possc2.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possc2.png"
-      },
-      {
-        "path": "sprites/possc3.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possc3.png"
-      },
-      {
-        "path": "sprites/possc4.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possc4.png"
-      },
-      {
-        "path": "sprites/possc5.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possc5.png"
-      },
-      {
-        "path": "sprites/possc6.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possc6.png"
-      },
-      {
-        "path": "sprites/possc7.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possc7.png"
-      },
-      {
-        "path": "sprites/possc8.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possc8.png"
-      },
-      {
-        "path": "sprites/possd1.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possd1.png"
-      },
-      {
-        "path": "sprites/possd2.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possd2.png"
-      },
-      {
-        "path": "sprites/possd3.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possd3.png"
-      },
-      {
-        "path": "sprites/possd5.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possd5.png"
-      },
-      {
-        "path": "sprites/possd6.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possd6.png"
-      },
-      {
-        "path": "sprites/possd7.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possd7.png"
-      },
-      {
-        "path": "sprites/posse1.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/posse1.png"
-      },
-      {
-        "path": "sprites/posse2.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/posse2.png"
-      },
-      {
-        "path": "sprites/posse3.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/posse3.png"
-      },
-      {
-        "path": "sprites/posse4.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/posse4.png"
-      },
-      {
-        "path": "sprites/posse5.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/posse5.png"
-      },
-      {
-        "path": "sprites/posse6.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/posse6.png"
-      },
-      {
-        "path": "sprites/possf1.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possf1.png"
-      },
-      {
-        "path": "sprites/possf2.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possf2.png"
-      },
-      {
-        "path": "sprites/possf3.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possf3.png"
-      },
-      {
-        "path": "sprites/possf4.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possf4.png"
-      },
-      {
-        "path": "sprites/possf5.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possf5.png"
-      },
-      {
-        "path": "sprites/possf6.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possf6.png"
-      },
-      {
-        "path": "sprites/possf8.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possf8.png"
-      },
-      {
-        "path": "sprites/possg1.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possg1.png"
-      },
-      {
-        "path": "sprites/possg2.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possg2.png"
-      },
-      {
-        "path": "sprites/possg3.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possg3.png"
-      },
-      {
-        "path": "sprites/possg4.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possg4.png"
-      },
-      {
-        "path": "sprites/possg5.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possg5.png"
-      },
-      {
-        "path": "sprites/possg6.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possg6.png"
-      },
-      {
-        "path": "sprites/possg7.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possg7.png"
-      },
-      {
-        "path": "sprites/possg8.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possg8.png"
-      },
-      {
-        "path": "sprites/possh0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possh0.png"
-      },
-      {
-        "path": "sprites/possi0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possi0.png"
-      },
-      {
-        "path": "sprites/possj0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possj0.png"
-      },
-      {
-        "path": "sprites/possk0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possk0.png"
-      },
-      {
-        "path": "sprites/possl0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possl0.png"
-      },
-      {
-        "path": "sprites/possm0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possm0.png"
-      },
-      {
-        "path": "sprites/possn0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possn0.png"
-      },
-      {
-        "path": "sprites/posso0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/posso0.png"
-      },
-      {
-        "path": "sprites/possp0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possp0.png"
-      },
-      {
-        "path": "sprites/possq0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possq0.png"
-      },
-      {
-        "path": "sprites/possr0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possr0.png"
-      },
-      {
-        "path": "sprites/posss0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/posss0.png"
-      },
-      {
-        "path": "sprites/posst0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/posst0.png"
-      },
-      {
-        "path": "sprites/possu0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possu0.png"
-      }
-    ]
-  },
-  {
-    "sha": "e1a73c3528b831d6754fc6ab7e686d3e6e714bb7",
-    "date": "2021-03-30T09:59:23-03:00",
-    "author": "Xindage",
-    "message": "New Zombieman by MothraMaster and Korp.",
-    "files": [
-      {
-        "path": "sprites/possa1.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possa1.png"
-      },
-      {
-        "path": "sprites/possa2.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possa2.png"
-      },
-      {
-        "path": "sprites/possa3.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possa3.png"
-      },
-      {
-        "path": "sprites/possa4.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possa4.png"
-      },
-      {
-        "path": "sprites/possa5.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possa5.png"
-      },
-      {
-        "path": "sprites/possa6.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possa6.png"
-      },
-      {
-        "path": "sprites/possa7.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possa7.png"
-      },
-      {
-        "path": "sprites/possa8.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possa8.png"
-      },
-      {
-        "path": "sprites/possb1.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possb1.png"
-      },
-      {
-        "path": "sprites/possb2.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possb2.png"
-      },
-      {
-        "path": "sprites/possb3.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possb3.png"
-      },
-      {
-        "path": "sprites/possb4.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possb4.png"
-      },
-      {
-        "path": "sprites/possb5.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possb5.png"
-      },
-      {
-        "path": "sprites/possb6.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possb6.png"
-      },
-      {
-        "path": "sprites/possb7.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possb7.png"
-      },
-      {
-        "path": "sprites/possb8.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possb8.png"
-      },
-      {
-        "path": "sprites/possc1.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possc1.png"
-      },
-      {
-        "path": "sprites/possc2.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possc2.png"
-      },
-      {
-        "path": "sprites/possc3.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possc3.png"
-      },
-      {
-        "path": "sprites/possc4.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possc4.png"
-      },
-      {
-        "path": "sprites/possc5.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possc5.png"
-      },
-      {
-        "path": "sprites/possc6.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possc6.png"
-      },
-      {
-        "path": "sprites/possc7.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possc7.png"
-      },
-      {
-        "path": "sprites/possc8.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possc8.png"
-      },
-      {
-        "path": "sprites/possd1.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possd1.png"
-      },
-      {
-        "path": "sprites/possd2.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possd2.png"
-      },
-      {
-        "path": "sprites/possd3.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possd3.png"
-      },
-      {
-        "path": "sprites/possd4.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possd4.png"
-      },
-      {
-        "path": "sprites/possd5.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possd5.png"
-      },
-      {
-        "path": "sprites/possd6.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possd6.png"
-      },
-      {
-        "path": "sprites/possd7.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possd7.png"
-      },
-      {
-        "path": "sprites/possd8.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possd8.png"
-      },
-      {
-        "path": "sprites/posse1.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/posse1.png"
-      },
-      {
-        "path": "sprites/posse2.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/posse2.png"
-      },
-      {
-        "path": "sprites/posse3.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/posse3.png"
-      },
-      {
-        "path": "sprites/posse4.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/posse4.png"
-      },
-      {
-        "path": "sprites/posse5.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/posse5.png"
-      },
-      {
-        "path": "sprites/posse6.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/posse6.png"
-      },
-      {
-        "path": "sprites/posse7.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/posse7.png"
-      },
-      {
-        "path": "sprites/posse8.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/posse8.png"
-      },
-      {
-        "path": "sprites/possf1.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possf1.png"
-      },
-      {
-        "path": "sprites/possf2.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possf2.png"
-      },
-      {
-        "path": "sprites/possf3.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possf3.png"
-      },
-      {
-        "path": "sprites/possf4.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possf4.png"
-      },
-      {
-        "path": "sprites/possf5.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possf5.png"
-      },
-      {
-        "path": "sprites/possf6.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possf6.png"
-      },
-      {
-        "path": "sprites/possf7.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possf7.png"
-      },
-      {
-        "path": "sprites/possf8.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possf8.png"
-      },
-      {
-        "path": "sprites/possg1.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possg1.png"
-      },
-      {
-        "path": "sprites/possg2.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possg2.png"
-      },
-      {
-        "path": "sprites/possg3.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possg3.png"
-      },
-      {
-        "path": "sprites/possg4.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possg4.png"
-      },
-      {
-        "path": "sprites/possg5.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possg5.png"
-      },
-      {
-        "path": "sprites/possg6.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possg6.png"
-      },
-      {
-        "path": "sprites/possg7.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possg7.png"
-      },
-      {
-        "path": "sprites/possg8.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possg8.png"
-      },
-      {
-        "path": "sprites/possh0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possh0.png"
-      },
-      {
-        "path": "sprites/possi0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possi0.png"
-      },
-      {
-        "path": "sprites/possj0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possj0.png"
-      },
-      {
-        "path": "sprites/possk0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possk0.png"
-      },
-      {
-        "path": "sprites/possl0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possl0.png"
-      },
-      {
-        "path": "sprites/possm0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possm0.png"
-      },
-      {
-        "path": "sprites/possn0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possn0.png"
-      },
-      {
-        "path": "sprites/posso0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/posso0.png"
-      },
-      {
-        "path": "sprites/possp0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possp0.png"
-      },
-      {
-        "path": "sprites/possq0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possq0.png"
-      },
-      {
-        "path": "sprites/possr0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possr0.png"
-      },
-      {
-        "path": "sprites/posss0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/posss0.png"
-      },
-      {
-        "path": "sprites/posst0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/posst0.png"
-      },
-      {
-        "path": "sprites/possu0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possu0.png"
-      }
-    ]
-  },
-  {
-    "sha": "cd219982f0118c5b692d76c04863a241732b5e8b",
-    "date": "2020-08-20T04:00:31-03:00",
-    "author": "HorroMovieGuy",
-    "message": "sprites: new gib animations (zombie and shotgunner)",
-    "files": [
-      {
-        "path": "sprites/possm0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possm0.png"
-      },
-      {
-        "path": "sprites/possn0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possn0.png"
-      },
-      {
-        "path": "sprites/posso0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/posso0.png"
-      },
-      {
-        "path": "sprites/possp0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possp0.png"
-      },
-      {
-        "path": "sprites/possq0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possq0.png"
-      },
-      {
-        "path": "sprites/possr0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possr0.png"
-      },
-      {
-        "path": "sprites/posss0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/posss0.png"
-      },
-      {
-        "path": "sprites/posst0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/posst0.png"
-      },
-      {
-        "path": "sprites/possu0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possu0.png"
-      },
-      {
-        "path": "sprites/possa1.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possa1.png"
-      },
-      {
-        "path": "sprites/possa2a8.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possa2a8.png"
-      },
-      {
-        "path": "sprites/possa3a7.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possa3a7.png"
-      },
-      {
-        "path": "sprites/possa4a6.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possa4a6.png"
-      },
-      {
-        "path": "sprites/possa5.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possa5.png"
-      },
-      {
-        "path": "sprites/possb1.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possb1.png"
-      },
-      {
-        "path": "sprites/possb2b8.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possb2b8.png"
-      },
-      {
-        "path": "sprites/possb3b7.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possb3b7.png"
-      },
-      {
-        "path": "sprites/possb4b6.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possb4b6.png"
-      },
-      {
-        "path": "sprites/possb5.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possb5.png"
-      },
-      {
-        "path": "sprites/possc1.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possc1.png"
-      },
-      {
-        "path": "sprites/possc2c8.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possc2c8.png"
-      },
-      {
-        "path": "sprites/possc3c7.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possc3c7.png"
-      },
-      {
-        "path": "sprites/possc4c6.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possc4c6.png"
-      },
-      {
-        "path": "sprites/possc5.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possc5.png"
-      },
-      {
-        "path": "sprites/possd1.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possd1.png"
-      },
-      {
-        "path": "sprites/possd2d8.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possd2d8.png"
-      },
-      {
-        "path": "sprites/possd3d7.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possd3d7.png"
-      },
-      {
-        "path": "sprites/possd4d6.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possd4d6.png"
-      },
-      {
-        "path": "sprites/possd5.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possd5.png"
-      },
-      {
-        "path": "sprites/posse1.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/posse1.png"
-      },
-      {
-        "path": "sprites/posse2e8.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/posse2e8.png"
-      },
-      {
-        "path": "sprites/posse3e7.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/posse3e7.png"
-      },
-      {
-        "path": "sprites/posse4e6.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/posse4e6.png"
-      },
-      {
-        "path": "sprites/posse5.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/posse5.png"
-      },
-      {
-        "path": "sprites/possf1.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possf1.png"
-      },
-      {
-        "path": "sprites/possf2f8.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possf2f8.png"
-      },
-      {
-        "path": "sprites/possf3f7.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possf3f7.png"
-      },
-      {
-        "path": "sprites/possf4f6.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possf4f6.png"
-      },
-      {
-        "path": "sprites/possf5.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possf5.png"
-      },
-      {
-        "path": "sprites/possg1.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possg1.png"
-      },
-      {
-        "path": "sprites/possg2g8.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possg2g8.png"
-      },
-      {
-        "path": "sprites/possg3g7.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possg3g7.png"
-      },
-      {
-        "path": "sprites/possg4g6.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possg4g6.png"
-      },
-      {
-        "path": "sprites/possg5.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possg5.png"
-      },
-      {
-        "path": "sprites/possh0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possh0.png"
-      },
-      {
-        "path": "sprites/possi0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possi0.png"
-      },
-      {
-        "path": "sprites/possj0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possj0.png"
-      },
-      {
-        "path": "sprites/possk0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possk0.png"
-      },
-      {
-        "path": "sprites/possl0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/possl0.png"
-      }
-    ]
-  },
-  {
-    "sha": "72bb41fca8b8e3519a027749797912de993c3809",
-    "date": "2020-08-14T00:20:55-03:00",
-    "author": "HorroMovieGuy",
-    "message": "sprites: new gib animations (zombie and shotgunner)",
-    "files": [
-      {
-        "path": "sprites/possm0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possm0.png"
-      },
-      {
-        "path": "sprites/possn0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possn0.png"
-      },
-      {
-        "path": "sprites/posso0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/posso0.png"
-      },
-      {
-        "path": "sprites/possp0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possp0.png"
-      },
-      {
-        "path": "sprites/possq0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possq0.png"
-      },
-      {
-        "path": "sprites/possr0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possr0.png"
-      },
-      {
-        "path": "sprites/posss0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/posss0.png"
-      },
-      {
-        "path": "sprites/posst0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/posst0.png"
-      },
-      {
-        "path": "sprites/possu0.png",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possu0.png"
-      },
-      {
-        "path": "sprites/possa1.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possa1.png"
-      },
-      {
-        "path": "sprites/possa2a8.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possa2a8.png"
-      },
-      {
-        "path": "sprites/possa3a7.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possa3a7.png"
-      },
-      {
-        "path": "sprites/possa4a6.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possa4a6.png"
-      },
-      {
-        "path": "sprites/possa5.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possa5.png"
-      },
-      {
-        "path": "sprites/possb1.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possb1.png"
-      },
-      {
-        "path": "sprites/possb2b8.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possb2b8.png"
-      },
-      {
-        "path": "sprites/possb3b7.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possb3b7.png"
-      },
-      {
-        "path": "sprites/possb4b6.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possb4b6.png"
-      },
-      {
-        "path": "sprites/possb5.png",
+        "path": "sprites/heada1.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possb5.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada1.png"
       },
       {
-        "path": "sprites/possc1.png",
+        "path": "sprites/heada2a8.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possc1.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada2a8.png"
       },
       {
-        "path": "sprites/possc2c8.png",
+        "path": "sprites/heada3a7.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possc2c8.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada3a7.png"
       },
       {
-        "path": "sprites/possc3c7.png",
+        "path": "sprites/heada4a6.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possc3c7.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada4a6.png"
       },
       {
-        "path": "sprites/possc4c6.png",
+        "path": "sprites/heada5.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possc4c6.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada5.png"
       },
       {
-        "path": "sprites/possc5.png",
+        "path": "sprites/headb1.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possc5.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb1.png"
       },
       {
-        "path": "sprites/possd1.png",
+        "path": "sprites/headb2b8.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possd1.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb2b8.png"
       },
       {
-        "path": "sprites/possd2d8.png",
+        "path": "sprites/headb3b7.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possd2d8.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb3b7.png"
       },
       {
-        "path": "sprites/possd3d7.png",
+        "path": "sprites/headb4b6.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possd3d7.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb4b6.png"
       },
       {
-        "path": "sprites/possd4d6.png",
+        "path": "sprites/headb5.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possd4d6.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb5.png"
       },
       {
-        "path": "sprites/possd5.png",
+        "path": "sprites/headc2c8.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possd5.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc2c8.png"
       },
       {
-        "path": "sprites/posse1.png",
+        "path": "sprites/headc3c7.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/posse1.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc3c7.png"
       },
       {
-        "path": "sprites/posse2e8.png",
+        "path": "sprites/headc4c6.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/posse2e8.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc4c6.png"
       },
       {
-        "path": "sprites/posse3e7.png",
+        "path": "sprites/headd2d8.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/posse3e7.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd2d8.png"
       },
       {
-        "path": "sprites/posse4e6.png",
+        "path": "sprites/headd3d7.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/posse4e6.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd3d7.png"
       },
       {
-        "path": "sprites/posse5.png",
+        "path": "sprites/headd4d6.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/posse5.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd4d6.png"
       },
       {
-        "path": "sprites/possf1.png",
+        "path": "sprites/headd5.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possf1.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd5.png"
       },
       {
-        "path": "sprites/possf2f8.png",
+        "path": "sprites/heade1.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possf2f8.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade1.png"
       },
       {
-        "path": "sprites/possf3f7.png",
+        "path": "sprites/heade2e8.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possf3f7.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade2e8.png"
       },
       {
-        "path": "sprites/possf4f6.png",
+        "path": "sprites/heade3e7.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possf4f6.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade3e7.png"
       },
       {
-        "path": "sprites/possf5.png",
+        "path": "sprites/heade4e6.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possf5.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade4e6.png"
       },
       {
-        "path": "sprites/possg1.png",
+        "path": "sprites/heade5.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possg1.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade5.png"
       },
       {
-        "path": "sprites/possg2g8.png",
+        "path": "sprites/headf1.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possg2g8.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf1.png"
       },
       {
-        "path": "sprites/possg3g7.png",
+        "path": "sprites/headf2f8.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possg3g7.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf2f8.png"
       },
       {
-        "path": "sprites/possg4g6.png",
+        "path": "sprites/headf3f7.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possg4g6.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf3f7.png"
       },
       {
-        "path": "sprites/possg5.png",
+        "path": "sprites/headf5.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possg5.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf5.png"
       },
       {
-        "path": "sprites/possh0.png",
+        "path": "sprites/headg0.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possh0.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headg0.png"
       },
       {
-        "path": "sprites/possi0.png",
+        "path": "sprites/headh0.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possi0.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headh0.png"
       },
       {
-        "path": "sprites/possj0.png",
+        "path": "sprites/headi0.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possj0.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headi0.png"
       },
       {
-        "path": "sprites/possk0.png",
+        "path": "sprites/headj0.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possk0.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headj0.png"
       },
       {
-        "path": "sprites/possl0.png",
+        "path": "sprites/headl0.png",
         "status": "Existing",
-        "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/possl0.png"
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headl0.png"
       }
     ]
   },
@@ -1228,502 +194,372 @@
     "message": "Burn all GIFs: Convert everything to PNGs.",
     "files": [
       {
-        "path": "sprites/possa1.png",
+        "path": "sprites/heada1.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possa1.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada1.png"
       },
       {
-        "path": "sprites/possa2a8.png",
+        "path": "sprites/heada2a8.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possa2a8.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada2a8.png"
       },
       {
-        "path": "sprites/possa3a7.png",
+        "path": "sprites/heada3a7.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possa3a7.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada3a7.png"
       },
       {
-        "path": "sprites/possa4a6.png",
+        "path": "sprites/heada4a6.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possa4a6.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada4a6.png"
       },
       {
-        "path": "sprites/possa5.png",
+        "path": "sprites/heada5.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possa5.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada5.png"
       },
       {
-        "path": "sprites/possb1.png",
+        "path": "sprites/headb1.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possb1.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb1.png"
       },
       {
-        "path": "sprites/possb2b8.png",
+        "path": "sprites/headb2b8.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possb2b8.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb2b8.png"
       },
       {
-        "path": "sprites/possb3b7.png",
+        "path": "sprites/headb3b7.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possb3b7.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb3b7.png"
       },
       {
-        "path": "sprites/possb4b6.png",
+        "path": "sprites/headb4b6.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possb4b6.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb4b6.png"
       },
       {
-        "path": "sprites/possb5.png",
+        "path": "sprites/headb5.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possb5.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb5.png"
       },
       {
-        "path": "sprites/possc1.png",
+        "path": "sprites/headc1.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possc1.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc1.png"
       },
       {
-        "path": "sprites/possc2c8.png",
+        "path": "sprites/headc2c8.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possc2c8.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc2c8.png"
       },
       {
-        "path": "sprites/possc3c7.png",
+        "path": "sprites/headc3c7.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possc3c7.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc3c7.png"
       },
       {
-        "path": "sprites/possc4c6.png",
+        "path": "sprites/headc4c6.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possc4c6.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc4c6.png"
       },
       {
-        "path": "sprites/possc5.png",
+        "path": "sprites/headc5.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possc5.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc5.png"
       },
       {
-        "path": "sprites/possd1.png",
+        "path": "sprites/headd1.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possd1.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd1.png"
       },
       {
-        "path": "sprites/possd2d8.png",
+        "path": "sprites/headd2d8.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possd2d8.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd2d8.png"
       },
       {
-        "path": "sprites/possd3d7.png",
+        "path": "sprites/headd3d7.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possd3d7.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd3d7.png"
       },
       {
-        "path": "sprites/possd4d6.png",
+        "path": "sprites/headd4d6.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possd4d6.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd4d6.png"
       },
       {
-        "path": "sprites/possd5.png",
+        "path": "sprites/headd5.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possd5.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd5.png"
       },
       {
-        "path": "sprites/posse1.png",
+        "path": "sprites/heade1.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/posse1.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade1.png"
       },
       {
-        "path": "sprites/posse2e8.png",
+        "path": "sprites/heade2e8.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/posse2e8.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade2e8.png"
       },
       {
-        "path": "sprites/posse3e7.png",
+        "path": "sprites/heade3e7.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/posse3e7.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade3e7.png"
       },
       {
-        "path": "sprites/posse4e6.png",
+        "path": "sprites/heade4e6.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/posse4e6.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade4e6.png"
       },
       {
-        "path": "sprites/posse5.png",
+        "path": "sprites/heade5.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/posse5.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade5.png"
       },
       {
-        "path": "sprites/possf1.png",
+        "path": "sprites/headf1.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possf1.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf1.png"
       },
       {
-        "path": "sprites/possf2f8.png",
+        "path": "sprites/headf2f8.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possf2f8.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf2f8.png"
       },
       {
-        "path": "sprites/possf3f7.png",
+        "path": "sprites/headf3f7.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possf3f7.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf3f7.png"
       },
       {
-        "path": "sprites/possf4f6.png",
+        "path": "sprites/headf4f6.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possf4f6.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf4f6.png"
       },
       {
-        "path": "sprites/possf5.png",
+        "path": "sprites/headf5.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possf5.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf5.png"
       },
       {
-        "path": "sprites/possg1.png",
+        "path": "sprites/headg0.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possg1.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headg0.png"
       },
       {
-        "path": "sprites/possg2g8.png",
+        "path": "sprites/headh0.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possg2g8.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headh0.png"
       },
       {
-        "path": "sprites/possg3g7.png",
+        "path": "sprites/headi0.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possg3g7.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headi0.png"
       },
       {
-        "path": "sprites/possg4g6.png",
+        "path": "sprites/headj0.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possg4g6.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headj0.png"
       },
       {
-        "path": "sprites/possg5.png",
+        "path": "sprites/headk0.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possg5.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headk0.png"
       },
       {
-        "path": "sprites/possh0.png",
+        "path": "sprites/headl0.png",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possh0.png"
-      },
-      {
-        "path": "sprites/possi0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possi0.png"
-      },
-      {
-        "path": "sprites/possj0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possj0.png"
-      },
-      {
-        "path": "sprites/possk0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possk0.png"
-      },
-      {
-        "path": "sprites/possl0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possl0.png"
-      },
-      {
-        "path": "sprites/possm0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possm0.png"
-      },
-      {
-        "path": "sprites/possn0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possn0.png"
-      },
-      {
-        "path": "sprites/posso0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/posso0.png"
-      },
-      {
-        "path": "sprites/possp0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possp0.png"
-      },
-      {
-        "path": "sprites/possq0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possq0.png"
-      },
-      {
-        "path": "sprites/possr0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possr0.png"
-      },
-      {
-        "path": "sprites/posss0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/posss0.png"
-      },
-      {
-        "path": "sprites/posst0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/posst0.png"
-      },
-      {
-        "path": "sprites/possu0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/possu0.png"
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headl0.png"
       }
     ]
   },
   {
-    "sha": "45d013f18679f412b7cbd8c79f1cd2b6a25fa35a",
-    "date": "2014-09-27T20:56:10-04:00",
-    "author": "Simon Howard",
-    "message": "sprites: New zombie sprites from raymoohawk.",
+    "sha": "5b716f83766ea2c6c06ebb346f831906cc1e21d0",
+    "date": "2015-07-20T13:53:38-07:00",
+    "author": "Adrian Cabrera",
+    "message": "sprites: new orb monster",
     "files": [
       {
-        "path": "sprites/possa1.gif",
+        "path": "sprites/heada1.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possa1.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/heada1.gif"
       },
       {
-        "path": "sprites/possa2a8.gif",
+        "path": "sprites/heada2a8.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possa2a8.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/heada2a8.gif"
       },
       {
-        "path": "sprites/possa3a7.gif",
+        "path": "sprites/heada3a7.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possa3a7.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/heada3a7.gif"
       },
       {
-        "path": "sprites/possa4a6.gif",
+        "path": "sprites/heada4a6.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possa4a6.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/heada4a6.gif"
       },
       {
-        "path": "sprites/possa5.gif",
+        "path": "sprites/heada5.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possa5.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/heada5.gif"
       },
       {
-        "path": "sprites/possb1.gif",
+        "path": "sprites/headb1.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possb1.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headb1.gif"
       },
       {
-        "path": "sprites/possb2b8.gif",
+        "path": "sprites/headb2b8.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possb2b8.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headb2b8.gif"
       },
       {
-        "path": "sprites/possb3b7.gif",
+        "path": "sprites/headb3b7.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possb3b7.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headb3b7.gif"
       },
       {
-        "path": "sprites/possb4b6.gif",
+        "path": "sprites/headb4b6.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possb4b6.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headb4b6.gif"
       },
       {
-        "path": "sprites/possb5.gif",
+        "path": "sprites/headb5.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possb5.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headb5.gif"
       },
       {
-        "path": "sprites/possc1.gif",
+        "path": "sprites/headc1.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possc1.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headc1.gif"
       },
       {
-        "path": "sprites/possc2c8.gif",
+        "path": "sprites/headc2c8.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possc2c8.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headc2c8.gif"
       },
       {
-        "path": "sprites/possc3c7.gif",
+        "path": "sprites/headc3c7.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possc3c7.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headc3c7.gif"
       },
       {
-        "path": "sprites/possc4c6.gif",
+        "path": "sprites/headc4c6.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possc4c6.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headc4c6.gif"
       },
       {
-        "path": "sprites/possc5.gif",
+        "path": "sprites/headc5.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possc5.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headc5.gif"
       },
       {
-        "path": "sprites/possd1.gif",
+        "path": "sprites/headd1.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possd1.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headd1.gif"
       },
       {
-        "path": "sprites/possd2d8.gif",
+        "path": "sprites/headd2d8.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possd2d8.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headd2d8.gif"
       },
       {
-        "path": "sprites/possd3d7.gif",
+        "path": "sprites/headd3d7.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possd3d7.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headd3d7.gif"
       },
       {
-        "path": "sprites/possd4d6.gif",
+        "path": "sprites/headd4d6.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possd4d6.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headd4d6.gif"
       },
       {
-        "path": "sprites/possd5.gif",
+        "path": "sprites/headd5.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possd5.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headd5.gif"
       },
       {
-        "path": "sprites/posse1.gif",
+        "path": "sprites/heade1.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/posse1.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/heade1.gif"
       },
       {
-        "path": "sprites/posse2e8.gif",
+        "path": "sprites/heade2e8.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/posse2e8.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/heade2e8.gif"
       },
       {
-        "path": "sprites/posse3e7.gif",
+        "path": "sprites/heade3e7.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/posse3e7.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/heade3e7.gif"
       },
       {
-        "path": "sprites/posse4e6.gif",
+        "path": "sprites/heade4e6.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/posse4e6.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/heade4e6.gif"
       },
       {
-        "path": "sprites/posse5.gif",
+        "path": "sprites/heade5.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/posse5.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/heade5.gif"
       },
       {
-        "path": "sprites/possf1.gif",
+        "path": "sprites/headf1.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possf1.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headf1.gif"
       },
       {
-        "path": "sprites/possf2f8.gif",
+        "path": "sprites/headf2f8.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possf2f8.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headf2f8.gif"
       },
       {
-        "path": "sprites/possf3f7.gif",
+        "path": "sprites/headf3f7.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possf3f7.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headf3f7.gif"
       },
       {
-        "path": "sprites/possf4f6.gif",
+        "path": "sprites/headf4f6.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possf4f6.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headf4f6.gif"
       },
       {
-        "path": "sprites/possf5.gif",
+        "path": "sprites/headf5.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possf5.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headf5.gif"
       },
       {
-        "path": "sprites/possg1.gif",
+        "path": "sprites/headg0.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possg1.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headg0.gif"
       },
       {
-        "path": "sprites/possg2g8.gif",
+        "path": "sprites/headh0.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possg2g8.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headh0.gif"
       },
       {
-        "path": "sprites/possg3g7.gif",
+        "path": "sprites/headi0.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possg3g7.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headi0.gif"
       },
       {
-        "path": "sprites/possg4g6.gif",
+        "path": "sprites/headj0.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possg4g6.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headj0.gif"
       },
       {
-        "path": "sprites/possg5.gif",
+        "path": "sprites/headk0.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possg5.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headk0.gif"
       },
       {
-        "path": "sprites/possh0.gif",
+        "path": "sprites/headl0.gif",
         "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possh0.gif"
-      },
-      {
-        "path": "sprites/possi0.gif",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possi0.gif"
-      },
-      {
-        "path": "sprites/possj0.gif",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possj0.gif"
-      },
-      {
-        "path": "sprites/possk0.gif",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possk0.gif"
-      },
-      {
-        "path": "sprites/possl0.gif",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possl0.gif"
-      },
-      {
-        "path": "sprites/possm0.gif",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possm0.gif"
-      },
-      {
-        "path": "sprites/possn0.gif",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possn0.gif"
-      },
-      {
-        "path": "sprites/posso0.gif",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/posso0.gif"
-      },
-      {
-        "path": "sprites/possp0.gif",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possp0.gif"
-      },
-      {
-        "path": "sprites/possq0.gif",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possq0.gif"
-      },
-      {
-        "path": "sprites/possr0.gif",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possr0.gif"
-      },
-      {
-        "path": "sprites/posss0.gif",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/posss0.gif"
-      },
-      {
-        "path": "sprites/posst0.gif",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/posst0.gif"
-      },
-      {
-        "path": "sprites/possu0.gif",
-        "status": "M",
-        "url": "https://github.com/freedoom/freedoom/blob/45d013f18679f412b7cbd8c79f1cd2b6a25fa35a/sprites/possu0.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/headl0.gif"
       }
     ]
   },
@@ -1734,254 +570,184 @@
     "message": "Import sprites",
     "files": [
       {
-        "path": "sprites/possa1.gif",
+        "path": "sprites/heada1.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possa1.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/heada1.gif"
       },
       {
-        "path": "sprites/possa2a8.gif",
+        "path": "sprites/heada2a8.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possa2a8.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/heada2a8.gif"
       },
       {
-        "path": "sprites/possa3a7.gif",
+        "path": "sprites/heada3a7.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possa3a7.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/heada3a7.gif"
       },
       {
-        "path": "sprites/possa4a6.gif",
+        "path": "sprites/heada4a6.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possa4a6.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/heada4a6.gif"
       },
       {
-        "path": "sprites/possa5.gif",
+        "path": "sprites/heada5.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possa5.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/heada5.gif"
       },
       {
-        "path": "sprites/possb1.gif",
+        "path": "sprites/headb1.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possb1.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headb1.gif"
       },
       {
-        "path": "sprites/possb2b8.gif",
+        "path": "sprites/headb2b8.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possb2b8.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headb2b8.gif"
       },
       {
-        "path": "sprites/possb3b7.gif",
+        "path": "sprites/headb3b7.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possb3b7.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headb3b7.gif"
       },
       {
-        "path": "sprites/possb4b6.gif",
+        "path": "sprites/headb4b6.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possb4b6.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headb4b6.gif"
       },
       {
-        "path": "sprites/possb5.gif",
+        "path": "sprites/headb5.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possb5.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headb5.gif"
       },
       {
-        "path": "sprites/possc1.gif",
+        "path": "sprites/headc1.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possc1.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headc1.gif"
       },
       {
-        "path": "sprites/possc2c8.gif",
+        "path": "sprites/headc2c8.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possc2c8.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headc2c8.gif"
       },
       {
-        "path": "sprites/possc3c7.gif",
+        "path": "sprites/headc3c7.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possc3c7.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headc3c7.gif"
       },
       {
-        "path": "sprites/possc4c6.gif",
+        "path": "sprites/headc4c6.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possc4c6.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headc4c6.gif"
       },
       {
-        "path": "sprites/possc5.gif",
+        "path": "sprites/headc5.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possc5.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headc5.gif"
       },
       {
-        "path": "sprites/possd1.gif",
+        "path": "sprites/headd1.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possd1.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headd1.gif"
       },
       {
-        "path": "sprites/possd2d8.gif",
+        "path": "sprites/headd2d8.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possd2d8.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headd2d8.gif"
       },
       {
-        "path": "sprites/possd3d7.gif",
+        "path": "sprites/headd3d7.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possd3d7.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headd3d7.gif"
       },
       {
-        "path": "sprites/possd4d6.gif",
+        "path": "sprites/headd4d6.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possd4d6.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headd4d6.gif"
       },
       {
-        "path": "sprites/possd5.gif",
+        "path": "sprites/headd5.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possd5.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headd5.gif"
       },
       {
-        "path": "sprites/posse1.gif",
+        "path": "sprites/heade1.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/posse1.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/heade1.gif"
       },
       {
-        "path": "sprites/posse2e8.gif",
+        "path": "sprites/heade2e8.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/posse2e8.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/heade2e8.gif"
       },
       {
-        "path": "sprites/posse3e7.gif",
+        "path": "sprites/heade3e7.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/posse3e7.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/heade3e7.gif"
       },
       {
-        "path": "sprites/posse4e6.gif",
+        "path": "sprites/heade4e6.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/posse4e6.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/heade4e6.gif"
       },
       {
-        "path": "sprites/posse5.gif",
+        "path": "sprites/heade5.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/posse5.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/heade5.gif"
       },
       {
-        "path": "sprites/possf1.gif",
+        "path": "sprites/headf1.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possf1.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headf1.gif"
       },
       {
-        "path": "sprites/possf2f8.gif",
+        "path": "sprites/headf2f8.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possf2f8.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headf2f8.gif"
       },
       {
-        "path": "sprites/possf3f7.gif",
+        "path": "sprites/headf3f7.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possf3f7.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headf3f7.gif"
       },
       {
-        "path": "sprites/possf4f6.gif",
+        "path": "sprites/headf4f6.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possf4f6.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headf4f6.gif"
       },
       {
-        "path": "sprites/possf5.gif",
+        "path": "sprites/headf5.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possf5.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headf5.gif"
       },
       {
-        "path": "sprites/possg1.gif",
+        "path": "sprites/headg0.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possg1.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headg0.gif"
       },
       {
-        "path": "sprites/possg2g8.gif",
+        "path": "sprites/headh0.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possg2g8.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headh0.gif"
       },
       {
-        "path": "sprites/possg3g7.gif",
+        "path": "sprites/headi0.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possg3g7.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headi0.gif"
       },
       {
-        "path": "sprites/possg4g6.gif",
+        "path": "sprites/headj0.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possg4g6.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headj0.gif"
       },
       {
-        "path": "sprites/possg5.gif",
+        "path": "sprites/headk0.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possg5.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headk0.gif"
       },
       {
-        "path": "sprites/possh0.gif",
+        "path": "sprites/headl0.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possh0.gif"
-      },
-      {
-        "path": "sprites/possi0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possi0.gif"
-      },
-      {
-        "path": "sprites/possio0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possio0.gif"
-      },
-      {
-        "path": "sprites/possj0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possj0.gif"
-      },
-      {
-        "path": "sprites/possk0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possk0.gif"
-      },
-      {
-        "path": "sprites/possl0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possl0.gif"
-      },
-      {
-        "path": "sprites/possm0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possm0.gif"
-      },
-      {
-        "path": "sprites/possn0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possn0.gif"
-      },
-      {
-        "path": "sprites/posso0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/posso0.gif"
-      },
-      {
-        "path": "sprites/possp0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possp0.gif"
-      },
-      {
-        "path": "sprites/possq0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possq0.gif"
-      },
-      {
-        "path": "sprites/possr0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possr0.gif"
-      },
-      {
-        "path": "sprites/posss0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/posss0.gif"
-      },
-      {
-        "path": "sprites/posst0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/posst0.gif"
-      },
-      {
-        "path": "sprites/possu0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/possu0.gif"
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/headl0.gif"
       }
     ]
   }

@@ -1,766 +1,271 @@
 [
   {
-    "id": "3dac73290304149df980448cc7c98b21a683eb6e--sprites-saint_of_killers-oldposs",
-    "sha": "3dac73290304149df980448cc7c98b21a683eb6e",
-    "date": "2024-05-27T00:54:34+05:00",
-    "folder": "sprites/saint_of_killers/oldposs",
-    "message": "Add map07, map27, first versions of monsters, CREDITS-LEVELS",
-    "author": "Georgy Samoilov",
-    "files": [
-      {
-        "path": "sprites/saint_of_killers/oldposs/possa1.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possa1.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possa2a8.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possa2a8.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possa3a7.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possa3a7.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possa4a6.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possa4a6.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possa5.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possa5.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possb1.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possb1.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possb2b8.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possb2b8.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possb3b7.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possb3b7.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possb4b6.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possb4b6.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possb5.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possb5.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possc1.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possc1.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possc2c8.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possc2c8.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possc3c7.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possc3c7.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possc4c6.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possc4c6.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possc5.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possc5.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possd1.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possd1.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possd2d8.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possd2d8.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possd3d7.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possd3d7.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possd4d6.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possd4d6.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possd5.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possd5.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/posse1.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/posse1.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/posse2e8.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/posse2e8.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/posse3e7.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/posse3e7.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/posse4e6.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/posse4e6.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/posse5.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/posse5.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possf1.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possf1.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possf2f8.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possf2f8.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possf3f7.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possf3f7.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possf4f6.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possf4f6.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possf5.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possf5.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possg1.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possg1.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possg2g8.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possg2g8.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possg3g7.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possg3g7.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possg4g6.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possg4g6.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possg5.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possg5.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possh0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possh0.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possi0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possi0.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possio0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possio0.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possj0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possj0.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possk0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possk0.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possl0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possl0.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possm0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possm0.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possn0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possn0.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/posso0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/posso0.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possp0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possp0.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possq0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possq0.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possr0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possr0.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/posss0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/posss0.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/posst0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/posst0.gif"
-      },
-      {
-        "path": "sprites/saint_of_killers/oldposs/possu0.gif",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3dac73290304149df980448cc7c98b21a683eb6e/sprites/saint_of_killers/oldposs/possu0.gif"
-      }
-    ]
-  },
-  {
-    "id": "ae45f0a23d0ec4840c72141015411c85fe5bf1e8--horrormovierei-sprites-old-zombieman-new-gib",
-    "sha": "ae45f0a23d0ec4840c72141015411c85fe5bf1e8",
-    "date": "2024-05-21T18:07:29+05:00",
-    "folder": "horrormovierei/sprites/old-zombieman-new-gib",
-    "message": "Some more patches, missing offsets, old zombieman",
-    "author": "Georgy Samoilov",
-    "files": [
-      {
-        "path": "horrormovierei/sprites/old-zombieman-new-gib/possm0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/horrormovierei/sprites/old-zombieman-new-gib/possm0.png"
-      },
-      {
-        "path": "horrormovierei/sprites/old-zombieman-new-gib/possn0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/horrormovierei/sprites/old-zombieman-new-gib/possn0.png"
-      },
-      {
-        "path": "horrormovierei/sprites/old-zombieman-new-gib/posso0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/horrormovierei/sprites/old-zombieman-new-gib/posso0.png"
-      },
-      {
-        "path": "horrormovierei/sprites/old-zombieman-new-gib/possp0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/horrormovierei/sprites/old-zombieman-new-gib/possp0.png"
-      },
-      {
-        "path": "horrormovierei/sprites/old-zombieman-new-gib/possq0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/horrormovierei/sprites/old-zombieman-new-gib/possq0.png"
-      },
-      {
-        "path": "horrormovierei/sprites/old-zombieman-new-gib/possr0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/horrormovierei/sprites/old-zombieman-new-gib/possr0.png"
-      },
-      {
-        "path": "horrormovierei/sprites/old-zombieman-new-gib/posss0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/horrormovierei/sprites/old-zombieman-new-gib/posss0.png"
-      },
-      {
-        "path": "horrormovierei/sprites/old-zombieman-new-gib/posst0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/horrormovierei/sprites/old-zombieman-new-gib/posst0.png"
-      },
-      {
-        "path": "horrormovierei/sprites/old-zombieman-new-gib/possu0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/horrormovierei/sprites/old-zombieman-new-gib/possu0.png"
-      }
-    ]
-  },
-  {
-    "id": "ae45f0a23d0ec4840c72141015411c85fe5bf1e8--raymoohawk-sprites-old-zombieman",
-    "sha": "ae45f0a23d0ec4840c72141015411c85fe5bf1e8",
-    "date": "2024-05-21T18:07:29+05:00",
-    "folder": "raymoohawk/sprites/old-zombieman",
-    "message": "Some more patches, missing offsets, old zombieman",
-    "author": "Georgy Samoilov",
-    "files": [
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possa1.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possa1.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possa2a8.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possa2a8.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possa3a7.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possa3a7.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possa4a6.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possa4a6.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possa5.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possa5.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possb1.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possb1.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possb2b8.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possb2b8.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possb3b7.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possb3b7.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possb4b6.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possb4b6.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possb5.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possb5.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possc1.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possc1.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possc2c8.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possc2c8.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possc3c7.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possc3c7.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possc4c6.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possc4c6.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possc5.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possc5.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possd1.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possd1.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possd2d8.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possd2d8.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possd3d7.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possd3d7.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possd4d6.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possd4d6.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possd5.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possd5.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/posse1.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/posse1.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/posse2e8.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/posse2e8.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/posse3e7.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/posse3e7.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/posse4e6.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/posse4e6.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/posse5.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/posse5.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possf1.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possf1.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possf2f8.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possf2f8.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possf3f7.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possf3f7.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possf4f6.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possf4f6.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possf5.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possf5.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possg1.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possg1.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possg2g8.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possg2g8.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possg3g7.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possg3g7.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possg4g6.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possg4g6.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possg5.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possg5.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possh0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possh0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possi0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possi0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possj0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possj0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possk0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possk0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possl0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possl0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possm0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possm0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possn0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possn0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/posso0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/posso0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possp0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possp0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possq0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possq0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possr0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possr0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/posss0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/posss0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/posst0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/posst0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-zombieman/possu0.png",
-        "status": "Existing",
-        "url": "https://github.com/freedoom/attic/blob/ae45f0a23d0ec4840c72141015411c85fe5bf1e8/raymoohawk/sprites/old-zombieman/possu0.png"
-      }
-    ]
-  },
-  {
-    "id": "f8f3370f718c6823ba8441c5f5cdec0a5c16a884--geekmarine-sprites-chaingunner",
-    "sha": "f8f3370f718c6823ba8441c5f5cdec0a5c16a884",
-    "date": "2024-05-20T18:38:57+05:00",
-    "folder": "geekmarine/sprites/chaingunner",
-    "message": "Another big update",
-    "author": "Georgy Samoilov",
-    "files": [
-      {
-        "path": "geekmarine/sprites/chaingunner/cposs0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/geekmarine/sprites/chaingunner/cposs0.png"
-      }
-    ]
-  },
-  {
-    "id": "f8f3370f718c6823ba8441c5f5cdec0a5c16a884--raymoohawk-sprites-old-gib",
-    "sha": "f8f3370f718c6823ba8441c5f5cdec0a5c16a884",
-    "date": "2024-05-20T18:38:57+05:00",
-    "folder": "raymoohawk/sprites/old-gib",
-    "message": "Another big update",
-    "author": "Georgy Samoilov",
-    "files": [
-      {
-        "path": "raymoohawk/sprites/old-gib/possm0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/possm0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-gib/possn0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/possn0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-gib/posso0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/posso0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-gib/possp0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/possp0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-gib/possq0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/possq0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-gib/possr0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/possr0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-gib/posss0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/posss0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-gib/posst0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/posst0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-gib/possu0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/possu0.png"
-      },
-      {
-        "path": "raymoohawk/sprites/old-gib/sposs0.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/sposs0.png"
-      }
-    ]
-  },
-  {
-    "id": "3145154efcc05396dde074d1e62d6fd2cda59340--mc776-sprites",
-    "sha": "3145154efcc05396dde074d1e62d6fd2cda59340",
-    "date": "2024-05-19T18:52:53+05:00",
-    "folder": "mc776/sprites",
-    "message": "Big update",
-    "author": "Georgy Samoilov",
-    "files": [
-      {
-        "path": "mc776/sprites/posse1.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/posse1.png"
-      },
-      {
-        "path": "mc776/sprites/posse2e8.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/posse2e8.png"
-      },
-      {
-        "path": "mc776/sprites/posse3e7.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/posse3e7.png"
-      },
-      {
-        "path": "mc776/sprites/posse4e6.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/posse4e6.png"
-      },
-      {
-        "path": "mc776/sprites/posse5.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/posse5.png"
-      },
-      {
-        "path": "mc776/sprites/possf1.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/possf1.png"
-      },
-      {
-        "path": "mc776/sprites/possf2f8.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/possf2f8.png"
-      },
-      {
-        "path": "mc776/sprites/possf3f7.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/possf3f7.png"
-      },
-      {
-        "path": "mc776/sprites/possf4f6.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/possf4f6.png"
-      },
-      {
-        "path": "mc776/sprites/possf5.png",
-        "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/possf5.png"
-      }
-    ]
-  },
-  {
-    "id": "6a267b6305913507838aafa900b84340c22e26a3--saint_of_killers-spos_pre_touchup3",
-    "sha": "6a267b6305913507838aafa900b84340c22e26a3",
-    "date": "2014-10-13T20:15:04-07:00",
-    "folder": "saint_of_killers/spos_pre_touchup3",
-    "message": "Move SoK's shotgun zombie to the attic",
+    "id": "2950754c4fabc7c5e217204839c84a95a7436189--nightfang-orbmonster",
+    "sha": "2950754c4fabc7c5e217204839c84a95a7436189",
+    "date": "2015-07-20T13:43:10-07:00",
+    "folder": "nightfang/orbmonster",
+    "message": "Move Nightfang's Orb Monster to the attic",
     "author": "Mike Swanson",
     "files": [
       {
-        "path": "saint_of_killers/spos_pre_touchup3/sposs0.gif",
+        "path": "nightfang/orbmonster/heada1.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposs0.gif"
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada1.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/heada2a8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada2a8.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/heada3a7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada3a7.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/heada4a6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada4a6.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/heada5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada5.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headb1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb1.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headb2b8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb2b8.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headb3b7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb3b7.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headb4b6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb4b6.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headb5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb5.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headc1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc1.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headc2c8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc2c8.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headc3c7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc3c7.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headc4c6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc4c6.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headc5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc5.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headd1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd1.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headd2d8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd2d8.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headd3d7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd3d7.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headd4d6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd4d6.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headd5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd5.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/heade1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade1.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/heade2e8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade2e8.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/heade3e7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade3e7.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/heade4e6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade4e6.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/heade5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade5.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headf1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf1.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headf2f8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf2f8.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headf3f7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf3f7.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headf4f6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf4f6.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headf5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf5.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headg0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headg0.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headh0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headh0.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headi0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headi0.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headj0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headj0.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headk0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headk0.gif"
+      },
+      {
+        "path": "nightfang/orbmonster/headl0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headl0.gif"
       }
     ]
   },
   {
-    "id": "c93121a673d75059e3174c2feade10acb1a75985--saint_of_killers-spos_pre_touchup",
-    "sha": "c93121a673d75059e3174c2feade10acb1a75985",
-    "date": "2006-05-13T00:56:18Z",
-    "folder": "saint_of_killers/spos_pre_touchup",
-    "message": "Move old versions of Saint of Killer's shotgun guy sprites to attic.",
-    "author": "Simon Howard",
+    "id": "0761e03f493de6a0e2e5c7c3b1e95a1391e6ab8c--meathead-patches",
+    "sha": "0761e03f493de6a0e2e5c7c3b1e95a1391e6ab8c",
+    "date": "2006-09-18T10:08:47Z",
+    "folder": "meathead/patches",
+    "message": "attic unused resources",
+    "author": "Jon Dowland",
     "files": [
       {
-        "path": "saint_of_killers/spos_pre_touchup/sposs0.gif",
+        "path": "meathead/patches/wall78_1_fullcolor_256x256.png",
         "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposs0.gif"
+        "url": "https://github.com/freedoom/attic/blob/0761e03f493de6a0e2e5c7c3b1e95a1391e6ab8c/meathead/patches/wall78_1_fullcolor_256x256.png"
       }
     ]
   },
   {
-    "id": "b8007c6b534e3c89143de8d3a61977d74eb8774b--saint_of_killers-oldspos",
-    "sha": "b8007c6b534e3c89143de8d3a61977d74eb8774b",
-    "date": "2006-05-13T00:23:13Z",
-    "folder": "saint_of_killers/oldspos",
-    "message": "Move old versions of Saint of Killer's sprites to the attic.",
-    "author": "Simon Howard",
+    "id": "57f92e4ca2ba1bef83253a6c53741bf1d34fa375--jonr",
+    "sha": "57f92e4ca2ba1bef83253a6c53741bf1d34fa375",
+    "date": "2006-09-18T09:06:31Z",
+    "folder": "jonr",
+    "message": "attic",
+    "author": "Jon Dowland",
     "files": [
       {
-        "path": "saint_of_killers/oldspos/sposs0.gif",
+        "path": "jonr/head.png",
         "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/oldspos/sposs0.gif"
+        "url": "https://github.com/freedoom/attic/blob/57f92e4ca2ba1bef83253a6c53741bf1d34fa375/jonr/head.png"
       }
     ]
   },
   {
-    "id": "b8007c6b534e3c89143de8d3a61977d74eb8774b--saint_of_killers-pretouchup",
-    "sha": "b8007c6b534e3c89143de8d3a61977d74eb8774b",
-    "date": "2006-05-13T00:23:13Z",
-    "folder": "saint_of_killers/pretouchup",
-    "message": "Move old versions of Saint of Killer's sprites to the attic.",
+    "id": "8beb4dc3ed868d1524977116d6d5db0c600f7288--meathead-misc_flats",
+    "sha": "8beb4dc3ed868d1524977116d6d5db0c600f7288",
+    "date": "2006-05-15T19:56:06Z",
+    "folder": "meathead/misc_flats",
+    "message": "Move last of the unused flats to the attic.",
     "author": "Simon Howard",
     "files": [
       {
-        "path": "saint_of_killers/pretouchup/sposs0.gif",
+        "path": "meathead/misc_flats/gate4.gif",
         "status": "A",
-        "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/pretouchup/sposs0.gif"
+        "url": "https://github.com/freedoom/attic/blob/8beb4dc3ed868d1524977116d6d5db0c600f7288/meathead/misc_flats/gate4.gif"
+      },
+      {
+        "path": "meathead/misc_flats/meat_heads-freedoom_flat_desc.txt",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/8beb4dc3ed868d1524977116d6d5db0c600f7288/meathead/misc_flats/meat_heads-freedoom_flat_desc.txt"
+      }
+    ]
+  },
+  {
+    "id": "56503d9c064e56c354929ce85e4697b743a91156--meathead-misc_patches",
+    "sha": "56503d9c064e56c354929ce85e4697b743a91156",
+    "date": "2006-05-15T19:02:45Z",
+    "folder": "meathead/misc_patches",
+    "message": "Move various miscellaneous patches to the attic.",
+    "author": "Simon Howard",
+    "files": [
+      {
+        "path": "meathead/misc_patches/w65b_1_fullcolor_256x256.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/56503d9c064e56c354929ce85e4697b743a91156/meathead/misc_patches/w65b_1_fullcolor_256x256.png"
+      },
+      {
+        "path": "meathead/misc_patches/w65b_1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/56503d9c064e56c354929ce85e4697b743a91156/meathead/misc_patches/w65b_1.gif"
+      },
+      {
+        "path": "meathead/misc_patches/w65b_2_fullcolor_256x256.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/56503d9c064e56c354929ce85e4697b743a91156/meathead/misc_patches/w65b_2_fullcolor_256x256.png"
+      },
+      {
+        "path": "meathead/misc_patches/w65b_2.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/56503d9c064e56c354929ce85e4697b743a91156/meathead/misc_patches/w65b_2.gif"
       }
     ]
   }
