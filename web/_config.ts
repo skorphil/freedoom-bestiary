@@ -7,5 +7,6 @@ const site = lume({
 });
 site.use(jsx());
 site.add("styles.css");
+site.copy("animations");
 
 export default site;
