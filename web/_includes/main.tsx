@@ -4,9 +4,9 @@ export default ({ title, children }: Lume.Data) => {
 			<head>
 				<meta charset="UTF-8" />
 				<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-				<base href="/freedoom-bestiary/" />
+				<base href="https://skorphil.github.io/freedoom-bestiary/" />
 				<title>{title || "Freedoom Bestiary"}</title>
-				<link rel="stylesheet" href="/styles.css" />
+				<link rel="stylesheet" href="styles.css" />
 			</head>
 			<body>
 				<main>{children}</main>
