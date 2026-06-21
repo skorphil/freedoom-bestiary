@@ -21,13 +21,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-        with:
-          submodules: recursive
 
       - name: Setup Deno
         uses: denoland/setup-deno@v2
         with:
           deno-version: v2.x
+
+      - name: Ensure animations symlink
+        run: |
+          if [ ! -e web/animations ]; then
+            ln -s ../historical-parser/animations web/animations
+          fi
 
       - name: Build site
         working-directory: web
