@@ -1,0 +1,3100 @@
+[
+  {
+    "sha": "57246cae8f7901d4bc63072f9632685d1e3b507d",
+    "date": "2023-07-16T23:14:24-07:00",
+    "author": "Steven Elliott",
+    "message": "png: Map color 255 to color 133 (#1003)",
+    "files": [
+      {
+        "path": "sprites/fatta1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatta1.png"
+      },
+      {
+        "path": "sprites/fatta2a8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatta2a8.png"
+      },
+      {
+        "path": "sprites/fatta3a7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatta3a7.png"
+      },
+      {
+        "path": "sprites/fatta4a6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatta4a6.png"
+      },
+      {
+        "path": "sprites/fatta5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatta5.png"
+      },
+      {
+        "path": "sprites/fattb1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattb1.png"
+      },
+      {
+        "path": "sprites/fattb2b8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattb2b8.png"
+      },
+      {
+        "path": "sprites/fattb3b7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattb3b7.png"
+      },
+      {
+        "path": "sprites/fattb4b6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattb4b6.png"
+      },
+      {
+        "path": "sprites/fattb5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattb5.png"
+      },
+      {
+        "path": "sprites/fattc1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattc1.png"
+      },
+      {
+        "path": "sprites/fattc2c8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattc2c8.png"
+      },
+      {
+        "path": "sprites/fattc3c7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattc3c7.png"
+      },
+      {
+        "path": "sprites/fattc4c6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattc4c6.png"
+      },
+      {
+        "path": "sprites/fattc5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattc5.png"
+      },
+      {
+        "path": "sprites/fattd1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattd1.png"
+      },
+      {
+        "path": "sprites/fattd2d8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattd2d8.png"
+      },
+      {
+        "path": "sprites/fattd3d7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattd3d7.png"
+      },
+      {
+        "path": "sprites/fattd4d6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattd4d6.png"
+      },
+      {
+        "path": "sprites/fattd5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattd5.png"
+      },
+      {
+        "path": "sprites/fatte1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatte1.png"
+      },
+      {
+        "path": "sprites/fatte2e8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatte2e8.png"
+      },
+      {
+        "path": "sprites/fatte3e7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatte3e7.png"
+      },
+      {
+        "path": "sprites/fatte4e6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatte4e6.png"
+      },
+      {
+        "path": "sprites/fatte5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatte5.png"
+      },
+      {
+        "path": "sprites/fattf1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattf1.png"
+      },
+      {
+        "path": "sprites/fattf2f8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattf2f8.png"
+      },
+      {
+        "path": "sprites/fattf3f7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattf3f7.png"
+      },
+      {
+        "path": "sprites/fattf4f6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattf4f6.png"
+      },
+      {
+        "path": "sprites/fattf5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattf5.png"
+      },
+      {
+        "path": "sprites/fattg1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattg1.png"
+      },
+      {
+        "path": "sprites/fattg2g8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattg2g8.png"
+      },
+      {
+        "path": "sprites/fattg3g7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattg3g7.png"
+      },
+      {
+        "path": "sprites/fattg4g6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattg4g6.png"
+      },
+      {
+        "path": "sprites/fattg5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattg5.png"
+      },
+      {
+        "path": "sprites/fatth1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatth1.png"
+      },
+      {
+        "path": "sprites/fatth2h8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatth2h8.png"
+      },
+      {
+        "path": "sprites/fatth3h7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatth3h7.png"
+      },
+      {
+        "path": "sprites/fatth4h6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatth4h6.png"
+      },
+      {
+        "path": "sprites/fatth5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatth5.png"
+      },
+      {
+        "path": "sprites/fatti1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatti1.png"
+      },
+      {
+        "path": "sprites/fatti2i8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatti2i8.png"
+      },
+      {
+        "path": "sprites/fatti3i7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatti3i7.png"
+      },
+      {
+        "path": "sprites/fatti4i6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatti4i6.png"
+      },
+      {
+        "path": "sprites/fatti5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatti5.png"
+      },
+      {
+        "path": "sprites/fattj1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattj1.png"
+      },
+      {
+        "path": "sprites/fattj2.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattj2.png"
+      },
+      {
+        "path": "sprites/fattj3.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattj3.png"
+      },
+      {
+        "path": "sprites/fattj4.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattj4.png"
+      },
+      {
+        "path": "sprites/fattj5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattj5.png"
+      },
+      {
+        "path": "sprites/fattj6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattj6.png"
+      },
+      {
+        "path": "sprites/fattj7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattj7.png"
+      },
+      {
+        "path": "sprites/fattj8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattj8.png"
+      },
+      {
+        "path": "sprites/fattk0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattk0.png"
+      },
+      {
+        "path": "sprites/fattl0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattl0.png"
+      },
+      {
+        "path": "sprites/fattm0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattm0.png"
+      },
+      {
+        "path": "sprites/fattn0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattn0.png"
+      },
+      {
+        "path": "sprites/fatto0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatto0.png"
+      },
+      {
+        "path": "sprites/fattp0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattp0.png"
+      },
+      {
+        "path": "sprites/fattq0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattq0.png"
+      },
+      {
+        "path": "sprites/fattr0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattr0.png"
+      },
+      {
+        "path": "sprites/fatts0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fatts0.png"
+      },
+      {
+        "path": "sprites/fattt0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/fattt0.png"
+      }
+    ],
+    "id": "57246cae8f7901d4bc63072f9632685d1e3b507d--2023-07-16T23:14:24-07:00"
+  },
+  {
+    "sha": "4876ba41eee3749b8a3785fa5ecaec107553081f",
+    "date": "2021-04-12T17:02:33-04:00",
+    "author": "Kevin Caccamo",
+    "message": "sprites: new Combat Slug muzzle flash by Craneo",
+    "files": [
+      {
+        "path": "sprites/fatta1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatta1.png"
+      },
+      {
+        "path": "sprites/fatta2a8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatta2a8.png"
+      },
+      {
+        "path": "sprites/fatta3a7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatta3a7.png"
+      },
+      {
+        "path": "sprites/fatta4a6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatta4a6.png"
+      },
+      {
+        "path": "sprites/fatta5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatta5.png"
+      },
+      {
+        "path": "sprites/fattb1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattb1.png"
+      },
+      {
+        "path": "sprites/fattb2b8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattb2b8.png"
+      },
+      {
+        "path": "sprites/fattb3b7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattb3b7.png"
+      },
+      {
+        "path": "sprites/fattb4b6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattb4b6.png"
+      },
+      {
+        "path": "sprites/fattb5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattb5.png"
+      },
+      {
+        "path": "sprites/fattc1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattc1.png"
+      },
+      {
+        "path": "sprites/fattc2c8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattc2c8.png"
+      },
+      {
+        "path": "sprites/fattc3c7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattc3c7.png"
+      },
+      {
+        "path": "sprites/fattc4c6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattc4c6.png"
+      },
+      {
+        "path": "sprites/fattc5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattc5.png"
+      },
+      {
+        "path": "sprites/fattd1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattd1.png"
+      },
+      {
+        "path": "sprites/fattd2d8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattd2d8.png"
+      },
+      {
+        "path": "sprites/fattd3d7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattd3d7.png"
+      },
+      {
+        "path": "sprites/fattd4d6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattd4d6.png"
+      },
+      {
+        "path": "sprites/fattd5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattd5.png"
+      },
+      {
+        "path": "sprites/fatte1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatte1.png"
+      },
+      {
+        "path": "sprites/fatte2e8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatte2e8.png"
+      },
+      {
+        "path": "sprites/fatte3e7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatte3e7.png"
+      },
+      {
+        "path": "sprites/fatte4e6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatte4e6.png"
+      },
+      {
+        "path": "sprites/fatte5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatte5.png"
+      },
+      {
+        "path": "sprites/fattf1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattf1.png"
+      },
+      {
+        "path": "sprites/fattf2f8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattf2f8.png"
+      },
+      {
+        "path": "sprites/fattf3f7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattf3f7.png"
+      },
+      {
+        "path": "sprites/fattf4f6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattf4f6.png"
+      },
+      {
+        "path": "sprites/fattf5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattf5.png"
+      },
+      {
+        "path": "sprites/fattg1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattg1.png"
+      },
+      {
+        "path": "sprites/fattg2g8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattg2g8.png"
+      },
+      {
+        "path": "sprites/fattg3g7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattg3g7.png"
+      },
+      {
+        "path": "sprites/fattg4g6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattg4g6.png"
+      },
+      {
+        "path": "sprites/fattg5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattg5.png"
+      },
+      {
+        "path": "sprites/fatth1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatth1.png"
+      },
+      {
+        "path": "sprites/fatth2h8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatth2h8.png"
+      },
+      {
+        "path": "sprites/fatth3h7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatth3h7.png"
+      },
+      {
+        "path": "sprites/fatth4h6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatth4h6.png"
+      },
+      {
+        "path": "sprites/fatth5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatth5.png"
+      },
+      {
+        "path": "sprites/fatti1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatti1.png"
+      },
+      {
+        "path": "sprites/fatti2i8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatti2i8.png"
+      },
+      {
+        "path": "sprites/fatti3i7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatti3i7.png"
+      },
+      {
+        "path": "sprites/fatti4i6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatti4i6.png"
+      },
+      {
+        "path": "sprites/fatti5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatti5.png"
+      },
+      {
+        "path": "sprites/fattj1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattj1.png"
+      },
+      {
+        "path": "sprites/fattj2.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattj2.png"
+      },
+      {
+        "path": "sprites/fattj3.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattj3.png"
+      },
+      {
+        "path": "sprites/fattj4.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattj4.png"
+      },
+      {
+        "path": "sprites/fattj5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattj5.png"
+      },
+      {
+        "path": "sprites/fattj6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattj6.png"
+      },
+      {
+        "path": "sprites/fattj7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattj7.png"
+      },
+      {
+        "path": "sprites/fattj8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattj8.png"
+      },
+      {
+        "path": "sprites/fattk0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattk0.png"
+      },
+      {
+        "path": "sprites/fattl0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattl0.png"
+      },
+      {
+        "path": "sprites/fattm0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattm0.png"
+      },
+      {
+        "path": "sprites/fattn0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattn0.png"
+      },
+      {
+        "path": "sprites/fatto0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatto0.png"
+      },
+      {
+        "path": "sprites/fattp0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattp0.png"
+      },
+      {
+        "path": "sprites/fattq0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattq0.png"
+      },
+      {
+        "path": "sprites/fattr0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattr0.png"
+      },
+      {
+        "path": "sprites/fatts0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fatts0.png"
+      },
+      {
+        "path": "sprites/fattt0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/4876ba41eee3749b8a3785fa5ecaec107553081f/sprites/fattt0.png"
+      }
+    ],
+    "id": "4876ba41eee3749b8a3785fa5ecaec107553081f--2021-04-12T17:02:33-04:00"
+  },
+  {
+    "sha": "3292f865a91d0dcdca8c144e828deb49e8f43663",
+    "date": "2020-05-14T13:05:35-04:00",
+    "author": "Samuel Oliver",
+    "message": "Updated the combat slug",
+    "files": [
+      {
+        "path": "sprites/fatta1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatta1.png"
+      },
+      {
+        "path": "sprites/fatta2a8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatta2a8.png"
+      },
+      {
+        "path": "sprites/fatta3a7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatta3a7.png"
+      },
+      {
+        "path": "sprites/fatta4a6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatta4a6.png"
+      },
+      {
+        "path": "sprites/fatta5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatta5.png"
+      },
+      {
+        "path": "sprites/fattb1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattb1.png"
+      },
+      {
+        "path": "sprites/fattb2b8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattb2b8.png"
+      },
+      {
+        "path": "sprites/fattb3b7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattb3b7.png"
+      },
+      {
+        "path": "sprites/fattb4b6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattb4b6.png"
+      },
+      {
+        "path": "sprites/fattb5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattb5.png"
+      },
+      {
+        "path": "sprites/fattc1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattc1.png"
+      },
+      {
+        "path": "sprites/fattc2c8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattc2c8.png"
+      },
+      {
+        "path": "sprites/fattc3c7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattc3c7.png"
+      },
+      {
+        "path": "sprites/fattc4c6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattc4c6.png"
+      },
+      {
+        "path": "sprites/fattc5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattc5.png"
+      },
+      {
+        "path": "sprites/fattd1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattd1.png"
+      },
+      {
+        "path": "sprites/fattd2d8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattd2d8.png"
+      },
+      {
+        "path": "sprites/fattd3d7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattd3d7.png"
+      },
+      {
+        "path": "sprites/fattd4d6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattd4d6.png"
+      },
+      {
+        "path": "sprites/fattd5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattd5.png"
+      },
+      {
+        "path": "sprites/fatte1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatte1.png"
+      },
+      {
+        "path": "sprites/fatte2e8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatte2e8.png"
+      },
+      {
+        "path": "sprites/fatte3e7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatte3e7.png"
+      },
+      {
+        "path": "sprites/fatte4e6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatte4e6.png"
+      },
+      {
+        "path": "sprites/fatte5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatte5.png"
+      },
+      {
+        "path": "sprites/fattf1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattf1.png"
+      },
+      {
+        "path": "sprites/fattf2f8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattf2f8.png"
+      },
+      {
+        "path": "sprites/fattf3f7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattf3f7.png"
+      },
+      {
+        "path": "sprites/fattf4f6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattf4f6.png"
+      },
+      {
+        "path": "sprites/fattf5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattf5.png"
+      },
+      {
+        "path": "sprites/fattg1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattg1.png"
+      },
+      {
+        "path": "sprites/fattg2g8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattg2g8.png"
+      },
+      {
+        "path": "sprites/fattg3g7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattg3g7.png"
+      },
+      {
+        "path": "sprites/fattg4g6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattg4g6.png"
+      },
+      {
+        "path": "sprites/fattg5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattg5.png"
+      },
+      {
+        "path": "sprites/fatth1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatth1.png"
+      },
+      {
+        "path": "sprites/fatth2h8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatth2h8.png"
+      },
+      {
+        "path": "sprites/fatth3h7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatth3h7.png"
+      },
+      {
+        "path": "sprites/fatth4h6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatth4h6.png"
+      },
+      {
+        "path": "sprites/fatth5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatth5.png"
+      },
+      {
+        "path": "sprites/fatti1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatti1.png"
+      },
+      {
+        "path": "sprites/fatti2i8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatti2i8.png"
+      },
+      {
+        "path": "sprites/fatti3i7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatti3i7.png"
+      },
+      {
+        "path": "sprites/fatti4i6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatti4i6.png"
+      },
+      {
+        "path": "sprites/fatti5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatti5.png"
+      },
+      {
+        "path": "sprites/fattj1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattj1.png"
+      },
+      {
+        "path": "sprites/fattj2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattj2.png"
+      },
+      {
+        "path": "sprites/fattj3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattj3.png"
+      },
+      {
+        "path": "sprites/fattj4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattj4.png"
+      },
+      {
+        "path": "sprites/fattj5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattj5.png"
+      },
+      {
+        "path": "sprites/fattj6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattj6.png"
+      },
+      {
+        "path": "sprites/fattj7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattj7.png"
+      },
+      {
+        "path": "sprites/fattj8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattj8.png"
+      },
+      {
+        "path": "sprites/fattk0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattk0.png"
+      },
+      {
+        "path": "sprites/fattl0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattl0.png"
+      },
+      {
+        "path": "sprites/fattm0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattm0.png"
+      },
+      {
+        "path": "sprites/fattn0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattn0.png"
+      },
+      {
+        "path": "sprites/fatto0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatto0.png"
+      },
+      {
+        "path": "sprites/fattp0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattp0.png"
+      },
+      {
+        "path": "sprites/fattq0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattq0.png"
+      },
+      {
+        "path": "sprites/fattr0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattr0.png"
+      },
+      {
+        "path": "sprites/fatts0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fatts0.png"
+      },
+      {
+        "path": "sprites/fattt0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/3292f865a91d0dcdca8c144e828deb49e8f43663/sprites/fattt0.png"
+      }
+    ],
+    "id": "3292f865a91d0dcdca8c144e828deb49e8f43663--2020-05-14T13:05:35-04:00"
+  },
+  {
+    "sha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
+    "date": "2017-07-18T22:26:52-07:00",
+    "author": "Mike Swanson",
+    "message": "Burn all GIFs: Convert everything to PNGs.",
+    "files": [
+      {
+        "path": "sprites/fatta1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatta1.png"
+      },
+      {
+        "path": "sprites/fatta2a8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatta2a8.png"
+      },
+      {
+        "path": "sprites/fatta3a7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatta3a7.png"
+      },
+      {
+        "path": "sprites/fatta4a6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatta4a6.png"
+      },
+      {
+        "path": "sprites/fatta5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatta5.png"
+      },
+      {
+        "path": "sprites/fattb1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattb1.png"
+      },
+      {
+        "path": "sprites/fattb2b8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattb2b8.png"
+      },
+      {
+        "path": "sprites/fattb3b7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattb3b7.png"
+      },
+      {
+        "path": "sprites/fattb4b6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattb4b6.png"
+      },
+      {
+        "path": "sprites/fattb5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattb5.png"
+      },
+      {
+        "path": "sprites/fattc1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattc1.png"
+      },
+      {
+        "path": "sprites/fattc2c8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattc2c8.png"
+      },
+      {
+        "path": "sprites/fattc3c7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattc3c7.png"
+      },
+      {
+        "path": "sprites/fattc4c6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattc4c6.png"
+      },
+      {
+        "path": "sprites/fattc5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattc5.png"
+      },
+      {
+        "path": "sprites/fattd1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattd1.png"
+      },
+      {
+        "path": "sprites/fattd2d8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattd2d8.png"
+      },
+      {
+        "path": "sprites/fattd3d7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattd3d7.png"
+      },
+      {
+        "path": "sprites/fattd4d6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattd4d6.png"
+      },
+      {
+        "path": "sprites/fattd5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattd5.png"
+      },
+      {
+        "path": "sprites/fatte1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatte1.png"
+      },
+      {
+        "path": "sprites/fatte2e8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatte2e8.png"
+      },
+      {
+        "path": "sprites/fatte3e7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatte3e7.png"
+      },
+      {
+        "path": "sprites/fatte4e6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatte4e6.png"
+      },
+      {
+        "path": "sprites/fatte5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatte5.png"
+      },
+      {
+        "path": "sprites/fattf1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattf1.png"
+      },
+      {
+        "path": "sprites/fattf2f8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattf2f8.png"
+      },
+      {
+        "path": "sprites/fattf3f7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattf3f7.png"
+      },
+      {
+        "path": "sprites/fattf4f6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattf4f6.png"
+      },
+      {
+        "path": "sprites/fattf5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattf5.png"
+      },
+      {
+        "path": "sprites/fattg1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattg1.png"
+      },
+      {
+        "path": "sprites/fattg2g8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattg2g8.png"
+      },
+      {
+        "path": "sprites/fattg3g7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattg3g7.png"
+      },
+      {
+        "path": "sprites/fattg4g6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattg4g6.png"
+      },
+      {
+        "path": "sprites/fattg5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattg5.png"
+      },
+      {
+        "path": "sprites/fatth1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatth1.png"
+      },
+      {
+        "path": "sprites/fatth2h8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatth2h8.png"
+      },
+      {
+        "path": "sprites/fatth3h7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatth3h7.png"
+      },
+      {
+        "path": "sprites/fatth4h6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatth4h6.png"
+      },
+      {
+        "path": "sprites/fatth5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatth5.png"
+      },
+      {
+        "path": "sprites/fatti1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatti1.png"
+      },
+      {
+        "path": "sprites/fatti2i8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatti2i8.png"
+      },
+      {
+        "path": "sprites/fatti3i7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatti3i7.png"
+      },
+      {
+        "path": "sprites/fatti4i6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatti4i6.png"
+      },
+      {
+        "path": "sprites/fatti5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatti5.png"
+      },
+      {
+        "path": "sprites/fattj1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattj1.png"
+      },
+      {
+        "path": "sprites/fattj2.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattj2.png"
+      },
+      {
+        "path": "sprites/fattj3.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattj3.png"
+      },
+      {
+        "path": "sprites/fattj4.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattj4.png"
+      },
+      {
+        "path": "sprites/fattj5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattj5.png"
+      },
+      {
+        "path": "sprites/fattj6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattj6.png"
+      },
+      {
+        "path": "sprites/fattj7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattj7.png"
+      },
+      {
+        "path": "sprites/fattj8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattj8.png"
+      },
+      {
+        "path": "sprites/fattk0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattk0.png"
+      },
+      {
+        "path": "sprites/fattl0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattl0.png"
+      },
+      {
+        "path": "sprites/fattm0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattm0.png"
+      },
+      {
+        "path": "sprites/fattn0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattn0.png"
+      },
+      {
+        "path": "sprites/fatto0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatto0.png"
+      },
+      {
+        "path": "sprites/fattp0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattp0.png"
+      },
+      {
+        "path": "sprites/fattq0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattq0.png"
+      },
+      {
+        "path": "sprites/fattr0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattr0.png"
+      },
+      {
+        "path": "sprites/fatts0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fatts0.png"
+      },
+      {
+        "path": "sprites/fattt0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/fattt0.png"
+      }
+    ],
+    "id": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3--2017-07-18T22:26:52-07:00"
+  },
+  {
+    "sha": "1d75335ab02d70b6b8739d233715db140872d82c",
+    "date": "2015-12-17T01:22:25-08:00",
+    "author": "Mike Swanson",
+    "message": "de-symlinkify: saint_of_killers",
+    "files": [
+      {
+        "path": "sprites/fatta1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatta1.gif"
+      },
+      {
+        "path": "sprites/fatta2a8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatta2a8.gif"
+      },
+      {
+        "path": "sprites/fatta3a7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatta3a7.gif"
+      },
+      {
+        "path": "sprites/fatta4a6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatta4a6.gif"
+      },
+      {
+        "path": "sprites/fatta5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatta5.gif"
+      },
+      {
+        "path": "sprites/fattb1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattb1.gif"
+      },
+      {
+        "path": "sprites/fattb2b8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattb2b8.gif"
+      },
+      {
+        "path": "sprites/fattb3b7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattb3b7.gif"
+      },
+      {
+        "path": "sprites/fattb4b6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattb4b6.gif"
+      },
+      {
+        "path": "sprites/fattb5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattb5.gif"
+      },
+      {
+        "path": "sprites/fattc1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattc1.gif"
+      },
+      {
+        "path": "sprites/fattc2c8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattc2c8.gif"
+      },
+      {
+        "path": "sprites/fattc3c7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattc3c7.gif"
+      },
+      {
+        "path": "sprites/fattc4c6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattc4c6.gif"
+      },
+      {
+        "path": "sprites/fattc5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattc5.gif"
+      },
+      {
+        "path": "sprites/fattd1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattd1.gif"
+      },
+      {
+        "path": "sprites/fattd2d8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattd2d8.gif"
+      },
+      {
+        "path": "sprites/fattd3d7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattd3d7.gif"
+      },
+      {
+        "path": "sprites/fattd4d6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattd4d6.gif"
+      },
+      {
+        "path": "sprites/fattd5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattd5.gif"
+      },
+      {
+        "path": "sprites/fatte1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatte1.gif"
+      },
+      {
+        "path": "sprites/fatte2e8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatte2e8.gif"
+      },
+      {
+        "path": "sprites/fatte3e7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatte3e7.gif"
+      },
+      {
+        "path": "sprites/fatte4e6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatte4e6.gif"
+      },
+      {
+        "path": "sprites/fatte5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatte5.gif"
+      },
+      {
+        "path": "sprites/fattf1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattf1.gif"
+      },
+      {
+        "path": "sprites/fattf2f8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattf2f8.gif"
+      },
+      {
+        "path": "sprites/fattf3f7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattf3f7.gif"
+      },
+      {
+        "path": "sprites/fattf4f6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattf4f6.gif"
+      },
+      {
+        "path": "sprites/fattf5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattf5.gif"
+      },
+      {
+        "path": "sprites/fattg1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattg1.gif"
+      },
+      {
+        "path": "sprites/fattg2g8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattg2g8.gif"
+      },
+      {
+        "path": "sprites/fattg3g7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattg3g7.gif"
+      },
+      {
+        "path": "sprites/fattg4g6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattg4g6.gif"
+      },
+      {
+        "path": "sprites/fattg5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattg5.gif"
+      },
+      {
+        "path": "sprites/fatth1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatth1.gif"
+      },
+      {
+        "path": "sprites/fatth2h8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatth2h8.gif"
+      },
+      {
+        "path": "sprites/fatth3h7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatth3h7.gif"
+      },
+      {
+        "path": "sprites/fatth4h6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatth4h6.gif"
+      },
+      {
+        "path": "sprites/fatth5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatth5.gif"
+      },
+      {
+        "path": "sprites/fatti1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatti1.gif"
+      },
+      {
+        "path": "sprites/fatti2i8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatti2i8.gif"
+      },
+      {
+        "path": "sprites/fatti3i7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatti3i7.gif"
+      },
+      {
+        "path": "sprites/fatti4i6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatti4i6.gif"
+      },
+      {
+        "path": "sprites/fatti5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatti5.gif"
+      },
+      {
+        "path": "sprites/fattj1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattj1.gif"
+      },
+      {
+        "path": "sprites/fattj2.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattj2.gif"
+      },
+      {
+        "path": "sprites/fattj3.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattj3.gif"
+      },
+      {
+        "path": "sprites/fattj4.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattj4.gif"
+      },
+      {
+        "path": "sprites/fattj5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattj5.gif"
+      },
+      {
+        "path": "sprites/fattj6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattj6.gif"
+      },
+      {
+        "path": "sprites/fattj7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattj7.gif"
+      },
+      {
+        "path": "sprites/fattj8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattj8.gif"
+      },
+      {
+        "path": "sprites/fattk0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattk0.gif"
+      },
+      {
+        "path": "sprites/fattl0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattl0.gif"
+      },
+      {
+        "path": "sprites/fattm0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattm0.gif"
+      },
+      {
+        "path": "sprites/fattn0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattn0.gif"
+      },
+      {
+        "path": "sprites/fatto0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatto0.gif"
+      },
+      {
+        "path": "sprites/fattp0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattp0.gif"
+      },
+      {
+        "path": "sprites/fattq0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattq0.gif"
+      },
+      {
+        "path": "sprites/fattr0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattr0.gif"
+      },
+      {
+        "path": "sprites/fatts0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fatts0.gif"
+      },
+      {
+        "path": "sprites/fattt0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/fattt0.gif"
+      }
+    ],
+    "id": "1d75335ab02d70b6b8739d233715db140872d82c--2015-12-17T01:22:25-08:00"
+  },
+  {
+    "sha": "7097cd9ce900b03ca2c948d8e597e105c68ea4be",
+    "date": "2006-06-16T17:13:58Z",
+    "author": "Simon Howard",
+    "message": "Improved mancubus death sprites.",
+    "files": [
+      {
+        "path": "sprites/saint_of_killers/fatta1.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatta1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatta2a8.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatta2a8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatta3a7.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatta3a7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatta4a6.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatta4a6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatta5.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatta5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattb1.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattb1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattb2b8.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattb2b8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattb3b7.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattb3b7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattb4b6.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattb4b6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattb5.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattb5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattc1.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattc1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattc2c8.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattc2c8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattc3c7.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattc3c7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattc4c6.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattc4c6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattc5.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattc5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattd1.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattd1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattd2d8.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattd2d8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattd3d7.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattd3d7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattd4d6.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattd4d6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattd5.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattd5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatte1.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatte1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatte2e8.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatte2e8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatte3e7.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatte3e7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatte4e6.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatte4e6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatte5.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatte5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattf1.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattf1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattf2f8.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattf2f8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattf3f7.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattf3f7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattf4f6.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattf4f6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattf5.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattf5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattg1.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattg1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattg2g8.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattg2g8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattg3g7.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattg3g7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattg4g6.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattg4g6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattg5.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattg5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatth1.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatth1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatth2h8.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatth2h8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatth3h7.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatth3h7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatth4h6.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatth4h6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatth5.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatth5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatti1.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatti1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatti2i8.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatti2i8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatti3i7.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatti3i7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatti4i6.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatti4i6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatti5.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatti5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattj1.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattj1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattj2.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattj2.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattj3.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattj3.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattj4.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattj4.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattj5.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattj5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattj6.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattj6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattj7.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattj7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattj8.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattj8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattk0.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattk0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattl0.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattl0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattm0.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattm0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattn0.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattn0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatto0.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatto0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattp0.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattp0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattq0.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattq0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattr0.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattr0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatts0.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fatts0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattt0.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/7097cd9ce900b03ca2c948d8e597e105c68ea4be/sprites/saint_of_killers/fattt0.gif"
+      }
+    ],
+    "id": "7097cd9ce900b03ca2c948d8e597e105c68ea4be--2006-06-16T17:13:58Z"
+  },
+  {
+    "sha": "27aca39126c0f021e543516119c9d3b2500575ac",
+    "date": "2006-05-09T16:06:11Z",
+    "author": "Simon Howard",
+    "message": "Import sprites",
+    "files": [
+      {
+        "path": "sprites/saint_of_killers/fatta1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatta1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatta2a8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatta2a8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatta3a7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatta3a7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatta4a6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatta4a6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatta5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatta5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattb1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattb1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattb2b8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattb2b8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattb3b7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattb3b7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattb4b6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattb4b6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattb5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattb5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattc1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattc1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattc2c8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattc2c8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattc3c7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattc3c7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattc4c6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattc4c6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattc5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattc5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattd1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattd1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattd2d8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattd2d8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattd3d7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattd3d7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattd4d6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattd4d6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattd5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattd5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatte1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatte1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatte2e8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatte2e8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatte3e7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatte3e7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatte4e6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatte4e6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatte5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatte5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattf1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattf1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattf2f8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattf2f8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattf3f7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattf3f7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattf4f6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattf4f6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattf5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattf5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattg1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattg1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattg2g8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattg2g8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattg3g7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattg3g7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattg4g6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattg4g6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattg5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattg5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatth1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatth1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatth2h8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatth2h8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatth3h7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatth3h7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatth4h6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatth4h6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatth5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatth5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatti1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatti1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatti2i8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatti2i8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatti3i7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatti3i7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatti4i6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatti4i6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatti5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatti5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattj1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattj1.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattj2.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattj2.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattj3.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattj3.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattj4.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattj4.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattj5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattj5.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattj6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattj6.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattj7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattj7.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattj8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattj8.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattk0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattk0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattl0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattl0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattm0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattm0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattn0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattn0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatto0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatto0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattp0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattp0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattq0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattq0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattr0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattr0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fatts0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fatts0.gif"
+      },
+      {
+        "path": "sprites/saint_of_killers/fattt0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/fattt0.gif"
+      }
+    ],
+    "id": "27aca39126c0f021e543516119c9d3b2500575ac--2006-05-09T16:06:11Z"
+  },
+  {
+    "sha": "a6e465a7e9d8ab2655af4586b68558a18df1c7da",
+    "date": "2024-05-22T17:47:28+05:00",
+    "author": "Georgy Samoilov",
+    "message": "Reorganize everything",
+    "files": [
+      {
+        "path": "sprites/craneo/fattg1.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/craneo/fattg1.png"
+      },
+      {
+        "path": "sprites/craneo/fattg2g8.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/craneo/fattg2g8.png"
+      },
+      {
+        "path": "sprites/craneo/fatth1.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/craneo/fatth1.png"
+      },
+      {
+        "path": "sprites/craneo/fatth2h8.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/craneo/fatth2h8.png"
+      },
+      {
+        "path": "sprites/craneo/fatth3h7.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/craneo/fatth3h7.png"
+      },
+      {
+        "path": "sprites/craneo/fatth4h6.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/craneo/fatth4h6.png"
+      },
+      {
+        "path": "sprites/craneo/fatth5.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/craneo/fatth5.png"
+      },
+      {
+        "path": "sprites/craneo/fatti1.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/craneo/fatti1.png"
+      },
+      {
+        "path": "sprites/craneo/fatti2i8.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/craneo/fatti2i8.png"
+      },
+      {
+        "path": "sprites/craneo/fatti3i7.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/craneo/fatti3i7.png"
+      },
+      {
+        "path": "sprites/craneo/fatti4i6.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/craneo/fatti4i6.png"
+      },
+      {
+        "path": "sprites/craneo/fatti5.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/craneo/fatti5.png"
+      },
+      {
+        "path": "sprites/craneo/fattk0.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/craneo/fattk0.png"
+      },
+      {
+        "path": "sprites/craneo/fattl0.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/craneo/fattl0.png"
+      },
+      {
+        "path": "sprites/craneo/fattm0.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/craneo/fattm0.png"
+      },
+      {
+        "path": "sprites/craneo/fattn0.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/craneo/fattn0.png"
+      }
+    ],
+    "id": "a6e465a7e9d8ab2655af4586b68558a18df1c7da--sprites-craneo",
+    "folder": "sprites/craneo"
+  },
+  {
+    "sha": "a6e465a7e9d8ab2655af4586b68558a18df1c7da",
+    "date": "2024-05-22T17:47:28+05:00",
+    "author": "Georgy Samoilov",
+    "message": "Reorganize everything",
+    "files": [
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatta1.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatta1.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatta2a8.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatta2a8.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatta3a7.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatta3a7.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatta4a6.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatta4a6.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatta5.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatta5.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattb1.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattb1.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattb2b8.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattb2b8.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattb3b7.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattb3b7.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattb4b6.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattb4b6.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattb5.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattb5.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattc1.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattc1.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattc2c8.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattc2c8.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattc3c7.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattc3c7.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattc4c6.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattc4c6.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattc5.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattc5.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattd1.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattd1.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattd2d8.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattd2d8.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattd3d7.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattd3d7.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattd4d6.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattd4d6.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattd5.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattd5.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatte1.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatte1.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatte2e8.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatte2e8.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatte3e7.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatte3e7.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatte4e6.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatte4e6.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatte5.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatte5.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattf1.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattf1.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattf2f8.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattf2f8.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattf3f7.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattf3f7.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattf4f6.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattf4f6.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattf5.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattf5.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattg1.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattg1.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattg2g8.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattg2g8.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattg3g7.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattg3g7.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattg4g6.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattg4g6.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattg5.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattg5.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatth1.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatth1.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatth2h8.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatth2h8.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatth3h7.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatth3h7.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatth4h6.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatth4h6.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatth5.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatth5.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatti1.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatti1.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatti2i8.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatti2i8.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatti3i7.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatti3i7.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatti4i6.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatti4i6.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatti5.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatti5.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattj1.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattj1.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattj2.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattj2.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattj3.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattj3.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattj4.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattj4.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattj5.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattj5.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattj6.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattj6.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattj7.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattj7.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattj8.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattj8.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattk0.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattk0.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattl0.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattl0.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattm0.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattm0.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattn0.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattn0.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatto0.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatto0.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattp0.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattp0.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattq0.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattq0.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattr0.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattr0.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fatts0.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fatts0.png"
+      },
+      {
+        "path": "sprites/saint_of_killers/combat_slug/fattt0.png",
+        "status": "R100",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/saint_of_killers/combat_slug/fattt0.png"
+      }
+    ],
+    "id": "a6e465a7e9d8ab2655af4586b68558a18df1c7da--sprites-saint-of-killers-combat-slug",
+    "folder": "sprites/saint_of_killers/combat_slug"
+  },
+  {
+    "sha": "3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1",
+    "date": "2024-05-21T23:52:56+05:00",
+    "author": "Georgy Samoilov",
+    "message": "Music by J.Astartes",
+    "files": [
+      {
+        "path": "craneo/sprites/fattg1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fattg1.png"
+      },
+      {
+        "path": "craneo/sprites/fattg2g8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fattg2g8.png"
+      },
+      {
+        "path": "craneo/sprites/fatth1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatth1.png"
+      },
+      {
+        "path": "craneo/sprites/fatth2h8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatth2h8.png"
+      },
+      {
+        "path": "craneo/sprites/fatth3h7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatth3h7.png"
+      },
+      {
+        "path": "craneo/sprites/fatth4h6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatth4h6.png"
+      },
+      {
+        "path": "craneo/sprites/fatth5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatth5.png"
+      },
+      {
+        "path": "craneo/sprites/fatti1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatti1.png"
+      },
+      {
+        "path": "craneo/sprites/fatti2i8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatti2i8.png"
+      },
+      {
+        "path": "craneo/sprites/fatti3i7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatti3i7.png"
+      },
+      {
+        "path": "craneo/sprites/fatti4i6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatti4i6.png"
+      },
+      {
+        "path": "craneo/sprites/fatti5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatti5.png"
+      },
+      {
+        "path": "craneo/sprites/fattk0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fattk0.png"
+      },
+      {
+        "path": "craneo/sprites/fattl0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fattl0.png"
+      },
+      {
+        "path": "craneo/sprites/fattm0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fattm0.png"
+      },
+      {
+        "path": "craneo/sprites/fattn0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fattn0.png"
+      }
+    ],
+    "id": "3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1--craneo-sprites",
+    "folder": "craneo/sprites"
+  },
+  {
+    "sha": "f8f3370f718c6823ba8441c5f5cdec0a5c16a884",
+    "date": "2024-05-20T18:38:57+05:00",
+    "author": "Georgy Samoilov",
+    "message": "Another big update",
+    "files": [
+      {
+        "path": "saint_of_killers/combat_slug/fatta1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatta1.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatta2a8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatta2a8.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatta3a7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatta3a7.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatta4a6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatta4a6.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatta5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatta5.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattb1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattb1.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattb2b8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattb2b8.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattb3b7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattb3b7.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattb4b6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattb4b6.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattb5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattb5.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattc1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattc1.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattc2c8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattc2c8.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattc3c7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattc3c7.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattc4c6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattc4c6.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattc5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattc5.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattd1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattd1.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattd2d8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattd2d8.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattd3d7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattd3d7.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattd4d6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattd4d6.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattd5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattd5.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatte1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatte1.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatte2e8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatte2e8.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatte3e7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatte3e7.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatte4e6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatte4e6.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatte5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatte5.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattf1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattf1.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattf2f8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattf2f8.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattf3f7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattf3f7.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattf4f6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattf4f6.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattf5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattf5.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattg1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattg1.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattg2g8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattg2g8.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattg3g7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattg3g7.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattg4g6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattg4g6.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattg5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattg5.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatth1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatth1.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatth2h8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatth2h8.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatth3h7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatth3h7.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatth4h6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatth4h6.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatth5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatth5.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatti1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatti1.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatti2i8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatti2i8.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatti3i7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatti3i7.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatti4i6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatti4i6.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatti5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatti5.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattj1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattj1.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattj2.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattj2.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattj3.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattj3.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattj4.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattj4.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattj5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattj5.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattj6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattj6.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattj7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattj7.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattj8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattj8.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattk0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattk0.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattl0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattl0.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattm0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattm0.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattn0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattn0.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatto0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatto0.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattp0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattp0.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattq0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattq0.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattr0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattr0.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fatts0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatts0.png"
+      },
+      {
+        "path": "saint_of_killers/combat_slug/fattt0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattt0.png"
+      }
+    ],
+    "id": "f8f3370f718c6823ba8441c5f5cdec0a5c16a884--saint-of-killers-combat-slug",
+    "folder": "saint_of_killers/combat_slug"
+  }
+]

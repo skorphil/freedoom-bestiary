@@ -2,3 +2,8 @@
 .DS_Store
 *.git
 webp*/
+historical-parser/out/
+
+# AI Tools
+.kilo
+AGENTS.md

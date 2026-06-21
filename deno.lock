@@ -3,7 +3,11 @@
   "specifiers": {
     "jsr:@std/assert@1": "1.0.16",
     "jsr:@std/bytes@^1.0.6": "1.0.6",
-    "jsr:@std/internal@^1.0.12": "1.0.12",
+    "jsr:@std/fs@^1.0.24": "1.0.24",
+    "jsr:@std/internal@^1.0.12": "1.0.14",
+    "jsr:@std/internal@^1.0.14": "1.0.14",
+    "jsr:@std/path@1.1.4": "1.1.4",
+    "jsr:@std/path@^1.1.5": "1.1.5",
     "jsr:@std/streams@*": "1.0.16",
     "jsr:@std/streams@^1.0.16": "1.0.16"
   },
@@ -11,14 +15,36 @@
     "@std/assert@1.0.16": {
       "integrity": "6a7272ed1eaa77defe76e5ff63ca705d9c495077e2d5fd0126d2b53fc5bd6532",
       "dependencies": [
-        "jsr:@std/internal"
+        "jsr:@std/internal@^1.0.12"
       ]
     },
     "@std/bytes@1.0.6": {
       "integrity": "f6ac6adbd8ccd99314045f5703e23af0a68d7f7e58364b47d2c7f408aeb5820a"
     },
+    "@std/fs@1.0.24": {
+      "integrity": "f3061b45b81673a2bece689da041df32d174be064c89eb6397fb5718d3fb7877",
+      "dependencies": [
+        "jsr:@std/internal@^1.0.14",
+        "jsr:@std/path@^1.1.5"
+      ]
+    },
     "@std/internal@1.0.12": {
       "integrity": "972a634fd5bc34b242024402972cd5143eac68d8dffaca5eaa4dba30ce17b027"
+    },
+    "@std/internal@1.0.14": {
+      "integrity": "291516b3d4c35024d6ffbc0a9df5bf4c64116e05b50012cf846710152d2ffdf7"
+    },
+    "@std/path@1.1.4": {
+      "integrity": "1d2d43f39efb1b42f0b1882a25486647cb851481862dc7313390b2bb044314b5",
+      "dependencies": [
+        "jsr:@std/internal@^1.0.12"
+      ]
+    },
+    "@std/path@1.1.5": {
+      "integrity": "ccea00982ea28c36becaf6e62f855406c76a8c32d462f66f415bbb7d83a271bc",
+      "dependencies": [
+        "jsr:@std/internal@^1.0.14"
+      ]
     },
     "@std/streams@1.0.16": {
       "integrity": "85030627befb1767c60d4f65cb30fa2f94af1d6ee6e5b2515b76157a542e89c4",
@@ -28,6 +54,10 @@
     }
   },
   "remote": {
+    "https://cdn.jsdelivr.net/gh/lumeland/lume@3.2.6/core/utils/lume_config.ts": "20eca22ebba2c8c2d99da73b463e09104e1335e3ea588a35602dcefae56679f8",
+    "https://cdn.jsdelivr.net/gh/lumeland/lume@3.2.6/core/utils/path.ts": "73db7b3bf8df81b7af4085a9fef4d5648ac083a4e826ae98c0dcb96b0fa64e6b",
+    "https://cdn.jsdelivr.net/gh/lumeland/lume@3.2.6/deps/path.ts": "173ff2317c7a2efefb79aa51e09a6b2a6618a705c802c7fe24c912a50afb0818",
+    "https://cdn.jsdelivr.net/gh/lumeland/lume@3.2.6/lint.ts": "41c1bb62434eb9d8e39a255c0dd9cd10734451dd208e3263b5e1c9835732556e",
     "https://deno.land/std@0.220.0/assert/assert.ts": "bec068b2fccdd434c138a555b19a2c2393b71dfaada02b7d568a01541e67cdc5",
     "https://deno.land/std@0.220.0/assert/assertion_error.ts": "9f689a101ee586c4ce92f52fa7ddd362e86434ffdf1f848e45987dc7689976b8",
     "https://deno.land/std@0.220.0/async/delay.ts": "8e1d18fe8b28ff95885e2bc54eccec1713f57f756053576d8228e6ca110793ad",
@@ -124,6 +154,7 @@
     "https://deno.land/std@0.224.0/io/reader_from_stream_reader.ts": "a75bbc93f39df8b0e372cc1fbdc416a7cbf2a39fc4c09ddb057f1241100191c5",
     "https://deno.land/std@0.224.0/io/to_readable_stream.ts": "ed03a44a1ec1cc55a85a857acf6cac472035298f6f3b6207ea209f93b4aefb39",
     "https://deno.land/std@0.224.0/io/to_writable_stream.ts": "ef422e0425963c8a1e0481674e66c3023da50f0acbe5ef51ec9789efc3c1e2ed",
+    "https://deno.land/std@0.224.0/io/types.ts": "acecb3074c730b5ff487ba4fe9ce51e67bd982aa07c95e5f5679b7b2f24ad129",
     "https://deno.land/std@0.224.0/io/write_all.ts": "24aac2312bb21096ae3ae0b102b22c26164d3249dff96dbac130958aa736f038",
     "https://deno.land/std@0.224.0/path/_common/assert_path.ts": "dbdd757a465b690b2cc72fc5fb7698c51507dec6bfafce4ca500c46b76ff7bd8",
     "https://deno.land/std@0.224.0/path/_common/basename.ts": "569744855bc8445f3a56087fd2aed56bdad39da971a8d92b138c9913aecc5fa2",
@@ -229,6 +260,8 @@
   "workspace": {
     "dependencies": [
       "jsr:@std/assert@1",
+      "jsr:@std/fs@^1.0.24",
+      "jsr:@std/path@^1.1.5",
       "jsr:@std/streams@^1.0.16"
     ]
   }

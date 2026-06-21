@@ -1,0 +1,1421 @@
+[
+  {
+    "date": "2023-12-10T13:26:18-08:00",
+    "files": [
+      {
+        "name": "skula1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skula1.png"
+      },
+      {
+        "name": "skula5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skula5.png"
+      },
+      {
+        "name": "skula6a4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skula6a4.png"
+      },
+      {
+        "name": "skula7a3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skula7a3.png"
+      },
+      {
+        "name": "skula8a2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skula8a2.png"
+      },
+      {
+        "name": "skulb1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulb1.png"
+      },
+      {
+        "name": "skulb5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulb5.png"
+      },
+      {
+        "name": "skulb6b4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulb6b4.png"
+      },
+      {
+        "name": "skulb7b3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulb7b3.png"
+      },
+      {
+        "name": "skulb8b2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulb8b2.png"
+      },
+      {
+        "name": "skulc1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulc1.png"
+      },
+      {
+        "name": "skulc5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulc5.png"
+      },
+      {
+        "name": "skulc6c4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulc6c4.png"
+      },
+      {
+        "name": "skulc7c3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulc7c3.png"
+      },
+      {
+        "name": "skulc8c2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulc8c2.png"
+      },
+      {
+        "name": "skuld1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skuld1.png"
+      },
+      {
+        "name": "skuld5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skuld5.png"
+      },
+      {
+        "name": "skuld6d4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skuld6d4.png"
+      },
+      {
+        "name": "skuld7d3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skuld7d3.png"
+      },
+      {
+        "name": "skuld8d2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skuld8d2.png"
+      },
+      {
+        "name": "skule1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skule1.png"
+      },
+      {
+        "name": "skule5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skule5.png"
+      },
+      {
+        "name": "skule6e4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skule6e4.png"
+      },
+      {
+        "name": "skule7e3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skule7e3.png"
+      },
+      {
+        "name": "skule8e2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skule8e2.png"
+      },
+      {
+        "name": "skulf0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulf0.png"
+      },
+      {
+        "name": "skulg0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulg0.png"
+      },
+      {
+        "name": "skulh0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulh0.png"
+      },
+      {
+        "name": "skuli0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skuli0.png"
+      },
+      {
+        "name": "skulj0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulj0.png"
+      },
+      {
+        "name": "skulk0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulk0.png"
+      }
+    ],
+    "sha": "54e555bc89ac4cda89ae88d28228c107be22142f",
+    "url": "https://github.com/freedoom/freedoom/commit/54e555bc89ac4cda89ae88d28228c107be22142f",
+    "author": "mc776",
+    "message": "sprites: make hatchling/octoball explosions snappier. (#1220)"
+  },
+  {
+    "date": "2023-07-16T23:14:24-07:00",
+    "files": [
+      {
+        "name": "skula1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skula1.png"
+      },
+      {
+        "name": "skula5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skula5.png"
+      },
+      {
+        "name": "skula6a4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skula6a4.png"
+      },
+      {
+        "name": "skula7a3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skula7a3.png"
+      },
+      {
+        "name": "skula8a2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skula8a2.png"
+      },
+      {
+        "name": "skulb1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulb1.png"
+      },
+      {
+        "name": "skulb5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulb5.png"
+      },
+      {
+        "name": "skulb6b4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulb6b4.png"
+      },
+      {
+        "name": "skulb7b3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulb7b3.png"
+      },
+      {
+        "name": "skulb8b2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulb8b2.png"
+      },
+      {
+        "name": "skulc1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulc1.png"
+      },
+      {
+        "name": "skulc5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulc5.png"
+      },
+      {
+        "name": "skulc6c4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulc6c4.png"
+      },
+      {
+        "name": "skulc7c3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulc7c3.png"
+      },
+      {
+        "name": "skulc8c2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulc8c2.png"
+      },
+      {
+        "name": "skuld1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuld1.png"
+      },
+      {
+        "name": "skuld5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuld5.png"
+      },
+      {
+        "name": "skuld6d4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuld6d4.png"
+      },
+      {
+        "name": "skuld7d3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuld7d3.png"
+      },
+      {
+        "name": "skuld8d2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuld8d2.png"
+      },
+      {
+        "name": "skule1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skule1.png"
+      },
+      {
+        "name": "skule5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skule5.png"
+      },
+      {
+        "name": "skule6e4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skule6e4.png"
+      },
+      {
+        "name": "skule7e3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skule7e3.png"
+      },
+      {
+        "name": "skule8e2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skule8e2.png"
+      },
+      {
+        "name": "skulf0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulf0.png"
+      },
+      {
+        "name": "skulg0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulg0.png"
+      },
+      {
+        "name": "skulh0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulh0.png"
+      },
+      {
+        "name": "skuli0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuli0.png"
+      },
+      {
+        "name": "skulj0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulj0.png"
+      },
+      {
+        "name": "skulk0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulk0.png"
+      }
+    ],
+    "sha": "57246cae8f7901d4bc63072f9632685d1e3b507d",
+    "url": "https://github.com/freedoom/freedoom/commit/57246cae8f7901d4bc63072f9632685d1e3b507d",
+    "author": "Steven Elliott",
+    "message": "png: Map color 255 to color 133 (#1003)"
+  },
+  {
+    "date": "2021-08-27T23:28:24-03:00",
+    "files": [
+      {
+        "name": "skula1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skula1.png"
+      },
+      {
+        "name": "skula5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skula5.png"
+      },
+      {
+        "name": "skula6a4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skula6a4.png"
+      },
+      {
+        "name": "skula7a3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skula7a3.png"
+      },
+      {
+        "name": "skula8a2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skula8a2.png"
+      },
+      {
+        "name": "skulb1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulb1.png"
+      },
+      {
+        "name": "skulb5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulb5.png"
+      },
+      {
+        "name": "skulb6b4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulb6b4.png"
+      },
+      {
+        "name": "skulb7b3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulb7b3.png"
+      },
+      {
+        "name": "skulb8b2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulb8b2.png"
+      },
+      {
+        "name": "skulc1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulc1.png"
+      },
+      {
+        "name": "skulc5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulc5.png"
+      },
+      {
+        "name": "skulc6c4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulc6c4.png"
+      },
+      {
+        "name": "skulc7c3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulc7c3.png"
+      },
+      {
+        "name": "skulc8c2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulc8c2.png"
+      },
+      {
+        "name": "skuld1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skuld1.png"
+      },
+      {
+        "name": "skuld5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skuld5.png"
+      },
+      {
+        "name": "skuld6d4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skuld6d4.png"
+      },
+      {
+        "name": "skuld7d3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skuld7d3.png"
+      },
+      {
+        "name": "skuld8d2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skuld8d2.png"
+      },
+      {
+        "name": "skule1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skule1.png"
+      },
+      {
+        "name": "skule5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skule5.png"
+      },
+      {
+        "name": "skule6e4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skule6e4.png"
+      },
+      {
+        "name": "skule7e3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skule7e3.png"
+      },
+      {
+        "name": "skule8e2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skule8e2.png"
+      },
+      {
+        "name": "skulf0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulf0.png"
+      },
+      {
+        "name": "skulg0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulg0.png"
+      },
+      {
+        "name": "skulh0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulh0.png"
+      },
+      {
+        "name": "skuli0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skuli0.png"
+      },
+      {
+        "name": "skulj0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulj0.png"
+      },
+      {
+        "name": "skulk0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulk0.png"
+      }
+    ],
+    "sha": "19cf9d2dedf378108d44ff7885df33c4878b6197",
+    "url": "https://github.com/freedoom/freedoom/commit/19cf9d2dedf378108d44ff7885df33c4878b6197",
+    "author": "HorroMovieGuy",
+    "message": "New sprites for Summoner and Dead Flare"
+  },
+  {
+    "date": "2017-07-18T22:26:52-07:00",
+    "files": [
+      {
+        "name": "skula1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skula1.png"
+      },
+      {
+        "name": "skula5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skula5.png"
+      },
+      {
+        "name": "skula6a4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skula6a4.png"
+      },
+      {
+        "name": "skula7a3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skula7a3.png"
+      },
+      {
+        "name": "skula8a2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skula8a2.png"
+      },
+      {
+        "name": "skulb1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulb1.png"
+      },
+      {
+        "name": "skulb5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulb5.png"
+      },
+      {
+        "name": "skulb6b4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulb6b4.png"
+      },
+      {
+        "name": "skulb7b3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulb7b3.png"
+      },
+      {
+        "name": "skulb8b2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulb8b2.png"
+      },
+      {
+        "name": "skulc1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulc1.png"
+      },
+      {
+        "name": "skulc5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulc5.png"
+      },
+      {
+        "name": "skulc6c4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulc6c4.png"
+      },
+      {
+        "name": "skulc7c3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulc7c3.png"
+      },
+      {
+        "name": "skulc8c2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulc8c2.png"
+      },
+      {
+        "name": "skuld1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skuld1.png"
+      },
+      {
+        "name": "skuld5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skuld5.png"
+      },
+      {
+        "name": "skuld6d4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skuld6d4.png"
+      },
+      {
+        "name": "skuld7d3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skuld7d3.png"
+      },
+      {
+        "name": "skuld8d2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skuld8d2.png"
+      },
+      {
+        "name": "skule1.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skule1.png"
+      },
+      {
+        "name": "skule5.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skule5.png"
+      },
+      {
+        "name": "skule6e4.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skule6e4.png"
+      },
+      {
+        "name": "skule7e3.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skule7e3.png"
+      },
+      {
+        "name": "skule8e2.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skule8e2.png"
+      },
+      {
+        "name": "skulf0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulf0.png"
+      },
+      {
+        "name": "skulg0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulg0.png"
+      },
+      {
+        "name": "skulh0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulh0.png"
+      },
+      {
+        "name": "skuli0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skuli0.png"
+      },
+      {
+        "name": "skulj0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulj0.png"
+      },
+      {
+        "name": "skulk0.png",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulk0.png"
+      }
+    ],
+    "sha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
+    "url": "https://github.com/freedoom/freedoom/commit/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
+    "author": "Mike Swanson",
+    "message": "Burn all GIFs: Convert everything to PNGs."
+  },
+  {
+    "date": "2015-12-17T01:22:07-08:00",
+    "files": [
+      {
+        "name": "skula1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skula1.gif"
+      },
+      {
+        "name": "skula5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skula5.gif"
+      },
+      {
+        "name": "skula6a4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skula6a4.gif"
+      },
+      {
+        "name": "skula7a3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skula7a3.gif"
+      },
+      {
+        "name": "skula8a2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skula8a2.gif"
+      },
+      {
+        "name": "skulb1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulb1.gif"
+      },
+      {
+        "name": "skulb5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulb5.gif"
+      },
+      {
+        "name": "skulb6b4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulb6b4.gif"
+      },
+      {
+        "name": "skulb7b3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulb7b3.gif"
+      },
+      {
+        "name": "skulb8b2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulb8b2.gif"
+      },
+      {
+        "name": "skulc1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulc1.gif"
+      },
+      {
+        "name": "skulc5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulc5.gif"
+      },
+      {
+        "name": "skulc6c4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulc6c4.gif"
+      },
+      {
+        "name": "skulc7c3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulc7c3.gif"
+      },
+      {
+        "name": "skulc8c2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulc8c2.gif"
+      },
+      {
+        "name": "skuld1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skuld1.gif"
+      },
+      {
+        "name": "skuld5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skuld5.gif"
+      },
+      {
+        "name": "skuld6d4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skuld6d4.gif"
+      },
+      {
+        "name": "skuld7d3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skuld7d3.gif"
+      },
+      {
+        "name": "skuld8d2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skuld8d2.gif"
+      },
+      {
+        "name": "skule1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skule1.gif"
+      },
+      {
+        "name": "skule5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skule5.gif"
+      },
+      {
+        "name": "skule6e4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skule6e4.gif"
+      },
+      {
+        "name": "skule7e3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skule7e3.gif"
+      },
+      {
+        "name": "skule8e2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skule8e2.gif"
+      },
+      {
+        "name": "skulf0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulf0.gif"
+      },
+      {
+        "name": "skulg0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulg0.gif"
+      },
+      {
+        "name": "skulh0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulh0.gif"
+      },
+      {
+        "name": "skuli0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skuli0.gif"
+      },
+      {
+        "name": "skulj0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulj0.gif"
+      },
+      {
+        "name": "skulk0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulk0.gif"
+      }
+    ],
+    "sha": "136d8d3765df56d87535229f9f4ede34bb81c951",
+    "url": "https://github.com/freedoom/freedoom/commit/136d8d3765df56d87535229f9f4ede34bb81c951",
+    "author": "Mike Swanson",
+    "message": "de-symlinkify: fredrik"
+  },
+  {
+    "date": "2009-07-12T14:07:55-07:00",
+    "files": [
+      {
+        "name": "skula1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skula1.gif"
+      },
+      {
+        "name": "skula5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skula5.gif"
+      },
+      {
+        "name": "skula6a4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skula6a4.gif"
+      },
+      {
+        "name": "skula7a3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skula7a3.gif"
+      },
+      {
+        "name": "skula8a2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skula8a2.gif"
+      },
+      {
+        "name": "skulb1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulb1.gif"
+      },
+      {
+        "name": "skulb5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulb5.gif"
+      },
+      {
+        "name": "skulb6b4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulb6b4.gif"
+      },
+      {
+        "name": "skulb7b3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulb7b3.gif"
+      },
+      {
+        "name": "skulb8b2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulb8b2.gif"
+      },
+      {
+        "name": "skulc1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulc1.gif"
+      },
+      {
+        "name": "skulc5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulc5.gif"
+      },
+      {
+        "name": "skulc6c4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulc6c4.gif"
+      },
+      {
+        "name": "skulc7c3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulc7c3.gif"
+      },
+      {
+        "name": "skulc8c2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulc8c2.gif"
+      },
+      {
+        "name": "skuld1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skuld1.gif"
+      },
+      {
+        "name": "skuld5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skuld5.gif"
+      },
+      {
+        "name": "skuld6d4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skuld6d4.gif"
+      },
+      {
+        "name": "skuld7d3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skuld7d3.gif"
+      },
+      {
+        "name": "skuld8d2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skuld8d2.gif"
+      },
+      {
+        "name": "skule1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skule1.gif"
+      },
+      {
+        "name": "skule5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skule5.gif"
+      },
+      {
+        "name": "skule6e4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skule6e4.gif"
+      },
+      {
+        "name": "skule7e3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skule7e3.gif"
+      },
+      {
+        "name": "skule8e2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skule8e2.gif"
+      },
+      {
+        "name": "skulf0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulf0.gif"
+      },
+      {
+        "name": "skulg0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulg0.gif"
+      },
+      {
+        "name": "skulh0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulh0.gif"
+      },
+      {
+        "name": "skuli0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skuli0.gif"
+      },
+      {
+        "name": "skulj0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulj0.gif"
+      },
+      {
+        "name": "skulk0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulk0.gif"
+      }
+    ],
+    "sha": "af90fbcaca21ff165936fa2c91fe35bc5f553647",
+    "url": "https://github.com/freedoom/freedoom/commit/af90fbcaca21ff165936fa2c91fe35bc5f553647",
+    "author": "fredrik",
+    "message": "sprites: Add death frames for lost soul."
+  },
+  {
+    "date": "2006-05-09T16:06:11Z",
+    "files": [
+      {
+        "name": "skula1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skula1.gif"
+      },
+      {
+        "name": "skula5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skula5.gif"
+      },
+      {
+        "name": "skula6a4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skula6a4.gif"
+      },
+      {
+        "name": "skula7a3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skula7a3.gif"
+      },
+      {
+        "name": "skula8a2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skula8a2.gif"
+      },
+      {
+        "name": "skulb1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulb1.gif"
+      },
+      {
+        "name": "skulb5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulb5.gif"
+      },
+      {
+        "name": "skulb6b4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulb6b4.gif"
+      },
+      {
+        "name": "skulb7b3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulb7b3.gif"
+      },
+      {
+        "name": "skulb8b2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulb8b2.gif"
+      },
+      {
+        "name": "skulc1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulc1.gif"
+      },
+      {
+        "name": "skulc5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulc5.gif"
+      },
+      {
+        "name": "skulc6c4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulc6c4.gif"
+      },
+      {
+        "name": "skulc7c3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulc7c3.gif"
+      },
+      {
+        "name": "skulc8c2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulc8c2.gif"
+      },
+      {
+        "name": "skuld1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skuld1.gif"
+      },
+      {
+        "name": "skuld5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skuld5.gif"
+      },
+      {
+        "name": "skuld6d4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skuld6d4.gif"
+      },
+      {
+        "name": "skuld7d3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skuld7d3.gif"
+      },
+      {
+        "name": "skuld8d2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skuld8d2.gif"
+      }
+    ],
+    "sha": "27aca39126c0f021e543516119c9d3b2500575ac",
+    "url": "https://github.com/freedoom/freedoom/commit/27aca39126c0f021e543516119c9d3b2500575ac",
+    "author": "fredrik",
+    "message": "Import sprites"
+  },
+  {
+    "date": "2006-05-09T16:06:11Z",
+    "files": [
+      {
+        "name": "skula1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skula1.gif"
+      },
+      {
+        "name": "skula5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skula5.gif"
+      },
+      {
+        "name": "skula6a4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skula6a4.gif"
+      },
+      {
+        "name": "skula7a3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skula7a3.gif"
+      },
+      {
+        "name": "skula8a2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skula8a2.gif"
+      },
+      {
+        "name": "skulb1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulb1.gif"
+      },
+      {
+        "name": "skulb5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulb5.gif"
+      },
+      {
+        "name": "skulb6b4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulb6b4.gif"
+      },
+      {
+        "name": "skulb7b3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulb7b3.gif"
+      },
+      {
+        "name": "skulb8b2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulb8b2.gif"
+      },
+      {
+        "name": "skulc1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulc1.gif"
+      },
+      {
+        "name": "skulc5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulc5.gif"
+      },
+      {
+        "name": "skulc6c4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulc6c4.gif"
+      },
+      {
+        "name": "skulc7c3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulc7c3.gif"
+      },
+      {
+        "name": "skulc8c2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulc8c2.gif"
+      },
+      {
+        "name": "skuld1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuld1.gif"
+      },
+      {
+        "name": "skuld5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuld5.gif"
+      },
+      {
+        "name": "skuld6d4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuld6d4.gif"
+      },
+      {
+        "name": "skuld7d3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuld7d3.gif"
+      },
+      {
+        "name": "skuld8d2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuld8d2.gif"
+      },
+      {
+        "name": "skule1.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skule1.gif"
+      },
+      {
+        "name": "skule5.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skule5.gif"
+      },
+      {
+        "name": "skule6e4.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skule6e4.gif"
+      },
+      {
+        "name": "skule7e3.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skule7e3.gif"
+      },
+      {
+        "name": "skule8e2.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skule8e2.gif"
+      },
+      {
+        "name": "skulf0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulf0.gif"
+      },
+      {
+        "name": "skulg0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulg0.gif"
+      },
+      {
+        "name": "skulh0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulh0.gif"
+      },
+      {
+        "name": "skuli0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuli0.gif"
+      },
+      {
+        "name": "skulj0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulj0.gif"
+      },
+      {
+        "name": "skulk0.gif",
+        "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulk0.gif"
+      }
+    ],
+    "sha": "27aca39126c0f021e543516119c9d3b2500575ac",
+    "url": "https://github.com/freedoom/freedoom/commit/27aca39126c0f021e543516119c9d3b2500575ac",
+    "author": "pov",
+    "message": "Import sprites"
+  },
+  {
+    "date": "2024-07-04T00:12:51+05:00",
+    "files": [
+      {
+        "name": "SKULA1.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULA1.png"
+      },
+      {
+        "name": "SKULA5.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULA5.png"
+      },
+      {
+        "name": "SKULA6A4.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULA6A4.png"
+      },
+      {
+        "name": "SKULA7A3.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULA7A3.png"
+      },
+      {
+        "name": "SKULA8A2.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULA8A2.png"
+      },
+      {
+        "name": "SKULB1.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULB1.png"
+      },
+      {
+        "name": "SKULB5.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULB5.png"
+      },
+      {
+        "name": "SKULB6B4.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULB6B4.png"
+      },
+      {
+        "name": "SKULB7B3.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULB7B3.png"
+      },
+      {
+        "name": "SKULB8B2.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULB8B2.png"
+      },
+      {
+        "name": "SKULC1.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULC1.png"
+      },
+      {
+        "name": "SKULC5.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULC5.png"
+      },
+      {
+        "name": "SKULC6C4.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULC6C4.png"
+      },
+      {
+        "name": "SKULC7C3.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULC7C3.png"
+      },
+      {
+        "name": "SKULC8C2.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULC8C2.png"
+      },
+      {
+        "name": "SKULD1.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULD1.png"
+      },
+      {
+        "name": "SKULD5.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULD5.png"
+      },
+      {
+        "name": "SKULD6D4.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULD6D4.png"
+      },
+      {
+        "name": "SKULD7D3.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULD7D3.png"
+      },
+      {
+        "name": "SKULD8D2.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULD8D2.png"
+      },
+      {
+        "name": "SKULE1.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULE1.png"
+      },
+      {
+        "name": "SKULE5.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULE5.png"
+      },
+      {
+        "name": "SKULE6E4.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULE6E4.png"
+      },
+      {
+        "name": "SKULE7E3.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULE7E3.png"
+      },
+      {
+        "name": "SKULE8E2.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULE8E2.png"
+      },
+      {
+        "name": "SKULF0.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULF0.png"
+      },
+      {
+        "name": "SKULG0.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULG0.png"
+      },
+      {
+        "name": "SKULH0.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULH0.png"
+      },
+      {
+        "name": "SKULI0.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULI0.png"
+      },
+      {
+        "name": "SKULJ0.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULJ0.png"
+      },
+      {
+        "name": "SKULK0.png",
+        "url": "https://github.com/freedoom/attic/blob/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c/sprites/cwolfru/deadflare/SKULK0.png"
+      }
+    ],
+    "sha": "e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c",
+    "url": "https://github.com/freedoom/attic/commit/e3ace68fa1e5a65c6e8179641d6390f0f8f9cd7c",
+    "author": "cwolfru",
+    "message": "Take out the unrelated stuff, commit and squash"
+  },
+  {
+    "date": "2024-05-22T17:47:28+05:00",
+    "files": [
+      {
+        "name": "skula1.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skula1.png"
+      },
+      {
+        "name": "skula5.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skula5.png"
+      },
+      {
+        "name": "skula6a4.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skula6a4.png"
+      },
+      {
+        "name": "skula7a3.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skula7a3.png"
+      },
+      {
+        "name": "skula8a2.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skula8a2.png"
+      },
+      {
+        "name": "skulb1.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skulb1.png"
+      },
+      {
+        "name": "skulb5.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skulb5.png"
+      },
+      {
+        "name": "skulb6b4.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skulb6b4.png"
+      },
+      {
+        "name": "skulb7b3.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skulb7b3.png"
+      },
+      {
+        "name": "skulb8b2.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skulb8b2.png"
+      },
+      {
+        "name": "skulc1.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skulc1.png"
+      },
+      {
+        "name": "skulc5.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skulc5.png"
+      },
+      {
+        "name": "skulc6c4.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skulc6c4.png"
+      },
+      {
+        "name": "skulc7c3.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skulc7c3.png"
+      },
+      {
+        "name": "skulc8c2.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skulc8c2.png"
+      },
+      {
+        "name": "skuld1.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skuld1.png"
+      },
+      {
+        "name": "skuld5.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skuld5.png"
+      },
+      {
+        "name": "skuld6d4.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skuld6d4.png"
+      },
+      {
+        "name": "skuld7d3.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skuld7d3.png"
+      },
+      {
+        "name": "skuld8d2.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skuld8d2.png"
+      },
+      {
+        "name": "skule1.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skule1.png"
+      },
+      {
+        "name": "skule5.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skule5.png"
+      },
+      {
+        "name": "skule6e4.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skule6e4.png"
+      },
+      {
+        "name": "skule7e3.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skule7e3.png"
+      },
+      {
+        "name": "skule8e2.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skule8e2.png"
+      },
+      {
+        "name": "skulf0.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skulf0.png"
+      },
+      {
+        "name": "skulg0.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skulg0.png"
+      },
+      {
+        "name": "skulh0.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skulh0.png"
+      },
+      {
+        "name": "skuli0.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skuli0.png"
+      },
+      {
+        "name": "skulj0.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skulj0.png"
+      },
+      {
+        "name": "skulk0.png",
+        "url": "https://github.com/freedoom/attic/blob/a6e465a7e9d8ab2655af4586b68558a18df1c7da/sprites/fredrik/deadflare/skulk0.png"
+      }
+    ],
+    "sha": "a6e465a7e9d8ab2655af4586b68558a18df1c7da",
+    "url": "https://github.com/freedoom/attic/commit/a6e465a7e9d8ab2655af4586b68558a18df1c7da",
+    "author": "fredrik",
+    "message": "Reorganize everything"
+  },
+  {
+    "date": "2024-05-20T18:38:57+05:00",
+    "files": [
+      {
+        "name": "skula1.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skula1.png"
+      },
+      {
+        "name": "skula5.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skula5.png"
+      },
+      {
+        "name": "skula6a4.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skula6a4.png"
+      },
+      {
+        "name": "skula7a3.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skula7a3.png"
+      },
+      {
+        "name": "skula8a2.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skula8a2.png"
+      },
+      {
+        "name": "skulb1.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulb1.png"
+      },
+      {
+        "name": "skulb5.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulb5.png"
+      },
+      {
+        "name": "skulb6b4.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulb6b4.png"
+      },
+      {
+        "name": "skulb7b3.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulb7b3.png"
+      },
+      {
+        "name": "skulb8b2.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulb8b2.png"
+      },
+      {
+        "name": "skulc1.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulc1.png"
+      },
+      {
+        "name": "skulc5.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulc5.png"
+      },
+      {
+        "name": "skulc6c4.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulc6c4.png"
+      },
+      {
+        "name": "skulc7c3.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulc7c3.png"
+      },
+      {
+        "name": "skulc8c2.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulc8c2.png"
+      },
+      {
+        "name": "skuld1.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuld1.png"
+      },
+      {
+        "name": "skuld5.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuld5.png"
+      },
+      {
+        "name": "skuld6d4.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuld6d4.png"
+      },
+      {
+        "name": "skuld7d3.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuld7d3.png"
+      },
+      {
+        "name": "skuld8d2.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuld8d2.png"
+      },
+      {
+        "name": "skule1.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skule1.png"
+      },
+      {
+        "name": "skule5.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skule5.png"
+      },
+      {
+        "name": "skule6e4.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skule6e4.png"
+      },
+      {
+        "name": "skule7e3.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skule7e3.png"
+      },
+      {
+        "name": "skule8e2.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skule8e2.png"
+      },
+      {
+        "name": "skulf0.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulf0.png"
+      },
+      {
+        "name": "skulg0.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulg0.png"
+      },
+      {
+        "name": "skulh0.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulh0.png"
+      },
+      {
+        "name": "skuli0.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuli0.png"
+      },
+      {
+        "name": "skulj0.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulj0.png"
+      },
+      {
+        "name": "skulk0.png",
+        "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulk0.png"
+      }
+    ],
+    "sha": "f8f3370f718c6823ba8441c5f5cdec0a5c16a884",
+    "url": "https://github.com/freedoom/attic/commit/f8f3370f718c6823ba8441c5f5cdec0a5c16a884",
+    "author": "Georgy Samoilov",
+    "message": "Another big update"
+  }
+]

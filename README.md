@@ -23,4 +23,18 @@ and require to use C for filesystem access)
 3. Set up `"editor.defaultFormatter": "denoland.vscode-deno"` for typescript (Workspace
 settings provided in a project)
 4. To run deno in `.ipynb` select deno kernel in jupyter notebook
+
+### AI workflow
+For easier reading of `.ipynb` it is recommended to use percent ts
+```zsh
+uvx --with jupytext jupytext --set-formats ipynb,ts:percent src/sprites-parser/freedoom-parser.ipynb
+```
+
+```zsh
+uvx jupytext --to markdown src/sprites-parser/attic-parser.ipynb
+```
+
+```zsh
+uvx jupytext --sync src/sprites-parser/freedoom-parser.ipynb
+```
  

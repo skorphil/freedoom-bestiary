@@ -1,0 +1,3815 @@
+[
+  {
+    "sha": "57246cae8f7901d4bc63072f9632685d1e3b507d",
+    "date": "2023-07-16T23:14:24-07:00",
+    "author": "Steven Elliott",
+    "message": "png: Map color 255 to color 133 (#1003)",
+    "files": [
+      {
+        "path": "sprites/vilea1d1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilea1d1.png"
+      },
+      {
+        "path": "sprites/vilea2d8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilea2d8.png"
+      },
+      {
+        "path": "sprites/vilea3d7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilea3d7.png"
+      },
+      {
+        "path": "sprites/vilea4d6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilea4d6.png"
+      },
+      {
+        "path": "sprites/vilea5d5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilea5d5.png"
+      },
+      {
+        "path": "sprites/vilea6d4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilea6d4.png"
+      },
+      {
+        "path": "sprites/vilea7d3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilea7d3.png"
+      },
+      {
+        "path": "sprites/vilea8d2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilea8d2.png"
+      },
+      {
+        "path": "sprites/vileb1e1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vileb1e1.png"
+      },
+      {
+        "path": "sprites/vileb2e8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vileb2e8.png"
+      },
+      {
+        "path": "sprites/vileb3e7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vileb3e7.png"
+      },
+      {
+        "path": "sprites/vileb4e6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vileb4e6.png"
+      },
+      {
+        "path": "sprites/vileb5e5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vileb5e5.png"
+      },
+      {
+        "path": "sprites/vileb6e4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vileb6e4.png"
+      },
+      {
+        "path": "sprites/vileb7e3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vileb7e3.png"
+      },
+      {
+        "path": "sprites/vileb8e2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vileb8e2.png"
+      },
+      {
+        "path": "sprites/vilec1f1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilec1f1.png"
+      },
+      {
+        "path": "sprites/vilec2f8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilec2f8.png"
+      },
+      {
+        "path": "sprites/vilec3f7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilec3f7.png"
+      },
+      {
+        "path": "sprites/vilec4f6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilec4f6.png"
+      },
+      {
+        "path": "sprites/vilec5f5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilec5f5.png"
+      },
+      {
+        "path": "sprites/vilec6f4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilec6f4.png"
+      },
+      {
+        "path": "sprites/vilec7f3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilec7f3.png"
+      },
+      {
+        "path": "sprites/vilec8f2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilec8f2.png"
+      },
+      {
+        "path": "sprites/vileg0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vileg0.png"
+      },
+      {
+        "path": "sprites/vileh0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vileh0.png"
+      },
+      {
+        "path": "sprites/vilei0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilei0.png"
+      },
+      {
+        "path": "sprites/vilej0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilej0.png"
+      },
+      {
+        "path": "sprites/vilek0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilek0.png"
+      },
+      {
+        "path": "sprites/vilel0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilel0.png"
+      },
+      {
+        "path": "sprites/vilem0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilem0.png"
+      },
+      {
+        "path": "sprites/vilen0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilen0.png"
+      },
+      {
+        "path": "sprites/vileo0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vileo0.png"
+      },
+      {
+        "path": "sprites/vilep0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilep0.png"
+      },
+      {
+        "path": "sprites/vileq0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vileq0.png"
+      },
+      {
+        "path": "sprites/viler0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/viler0.png"
+      },
+      {
+        "path": "sprites/viles0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/viles0.png"
+      },
+      {
+        "path": "sprites/vilet0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilet0.png"
+      },
+      {
+        "path": "sprites/vileu0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vileu0.png"
+      },
+      {
+        "path": "sprites/vilev0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilev0.png"
+      },
+      {
+        "path": "sprites/vilew0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilew0.png"
+      },
+      {
+        "path": "sprites/vilex0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilex0.png"
+      },
+      {
+        "path": "sprites/viley0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/viley0.png"
+      },
+      {
+        "path": "sprites/vilez0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/vilez0.png"
+      }
+    ],
+    "id": "57246cae8f7901d4bc63072f9632685d1e3b507d--2023-07-16T23:14:24-07:00"
+  },
+  {
+    "sha": "a2998aae7f21b9b09d45f9d9436ec303b499056d",
+    "date": "2023-07-15T11:03:45-07:00",
+    "author": "mc776",
+    "message": "sprites: flatten necromancer corpse.",
+    "files": [
+      {
+        "path": "sprites/vilea1d1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilea1d1.png"
+      },
+      {
+        "path": "sprites/vilea2d8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilea2d8.png"
+      },
+      {
+        "path": "sprites/vilea3d7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilea3d7.png"
+      },
+      {
+        "path": "sprites/vilea4d6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilea4d6.png"
+      },
+      {
+        "path": "sprites/vilea5d5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilea5d5.png"
+      },
+      {
+        "path": "sprites/vilea6d4.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilea6d4.png"
+      },
+      {
+        "path": "sprites/vilea7d3.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilea7d3.png"
+      },
+      {
+        "path": "sprites/vilea8d2.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilea8d2.png"
+      },
+      {
+        "path": "sprites/vileb1e1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vileb1e1.png"
+      },
+      {
+        "path": "sprites/vileb2e8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vileb2e8.png"
+      },
+      {
+        "path": "sprites/vileb3e7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vileb3e7.png"
+      },
+      {
+        "path": "sprites/vileb4e6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vileb4e6.png"
+      },
+      {
+        "path": "sprites/vileb5e5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vileb5e5.png"
+      },
+      {
+        "path": "sprites/vileb6e4.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vileb6e4.png"
+      },
+      {
+        "path": "sprites/vileb7e3.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vileb7e3.png"
+      },
+      {
+        "path": "sprites/vileb8e2.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vileb8e2.png"
+      },
+      {
+        "path": "sprites/vilec1f1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilec1f1.png"
+      },
+      {
+        "path": "sprites/vilec2f8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilec2f8.png"
+      },
+      {
+        "path": "sprites/vilec3f7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilec3f7.png"
+      },
+      {
+        "path": "sprites/vilec4f6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilec4f6.png"
+      },
+      {
+        "path": "sprites/vilec5f5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilec5f5.png"
+      },
+      {
+        "path": "sprites/vilec6f4.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilec6f4.png"
+      },
+      {
+        "path": "sprites/vilec7f3.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilec7f3.png"
+      },
+      {
+        "path": "sprites/vilec8f2.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilec8f2.png"
+      },
+      {
+        "path": "sprites/vileg0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vileg0.png"
+      },
+      {
+        "path": "sprites/vileh0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vileh0.png"
+      },
+      {
+        "path": "sprites/vilei0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilei0.png"
+      },
+      {
+        "path": "sprites/vilej0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilej0.png"
+      },
+      {
+        "path": "sprites/vilek0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilek0.png"
+      },
+      {
+        "path": "sprites/vilel0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilel0.png"
+      },
+      {
+        "path": "sprites/vilem0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilem0.png"
+      },
+      {
+        "path": "sprites/vilen0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilen0.png"
+      },
+      {
+        "path": "sprites/vileo0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vileo0.png"
+      },
+      {
+        "path": "sprites/vilep0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilep0.png"
+      },
+      {
+        "path": "sprites/vileq0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vileq0.png"
+      },
+      {
+        "path": "sprites/viler0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/viler0.png"
+      },
+      {
+        "path": "sprites/viles0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/viles0.png"
+      },
+      {
+        "path": "sprites/vilet0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilet0.png"
+      },
+      {
+        "path": "sprites/vileu0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vileu0.png"
+      },
+      {
+        "path": "sprites/vilev0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilev0.png"
+      },
+      {
+        "path": "sprites/vilew0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilew0.png"
+      },
+      {
+        "path": "sprites/vilex0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilex0.png"
+      },
+      {
+        "path": "sprites/viley0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/viley0.png"
+      },
+      {
+        "path": "sprites/vilez0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/a2998aae7f21b9b09d45f9d9436ec303b499056d/sprites/vilez0.png"
+      }
+    ],
+    "id": "a2998aae7f21b9b09d45f9d9436ec303b499056d--2023-07-15T11:03:45-07:00"
+  },
+  {
+    "sha": "c0e641f238bbabf6242b1111662f5b7961087e5f",
+    "date": "2023-04-28T20:29:44-03:00",
+    "author": "mc776",
+    "message": "sprites: remove redundant necromancer angles. (#936)",
+    "files": [
+      {
+        "path": "sprites/vilea1d1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilea1d1.png"
+      },
+      {
+        "path": "sprites/vilea2d8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilea2d8.png"
+      },
+      {
+        "path": "sprites/vilea3d7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilea3d7.png"
+      },
+      {
+        "path": "sprites/vilea4d6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilea4d6.png"
+      },
+      {
+        "path": "sprites/vilea5d5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilea5d5.png"
+      },
+      {
+        "path": "sprites/vilea6d4.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilea6d4.png"
+      },
+      {
+        "path": "sprites/vilea7d3.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilea7d3.png"
+      },
+      {
+        "path": "sprites/vilea8d2.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilea8d2.png"
+      },
+      {
+        "path": "sprites/vileb1e1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vileb1e1.png"
+      },
+      {
+        "path": "sprites/vileb2e8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vileb2e8.png"
+      },
+      {
+        "path": "sprites/vileb3e7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vileb3e7.png"
+      },
+      {
+        "path": "sprites/vileb4e6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vileb4e6.png"
+      },
+      {
+        "path": "sprites/vileb5e5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vileb5e5.png"
+      },
+      {
+        "path": "sprites/vileb6e4.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vileb6e4.png"
+      },
+      {
+        "path": "sprites/vileb7e3.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vileb7e3.png"
+      },
+      {
+        "path": "sprites/vileb8e2.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vileb8e2.png"
+      },
+      {
+        "path": "sprites/vilec1f1.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilec1f1.png"
+      },
+      {
+        "path": "sprites/vilec2f8.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilec2f8.png"
+      },
+      {
+        "path": "sprites/vilec3f7.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilec3f7.png"
+      },
+      {
+        "path": "sprites/vilec4f6.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilec4f6.png"
+      },
+      {
+        "path": "sprites/vilec5f5.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilec5f5.png"
+      },
+      {
+        "path": "sprites/vilec6f4.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilec6f4.png"
+      },
+      {
+        "path": "sprites/vilec7f3.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilec7f3.png"
+      },
+      {
+        "path": "sprites/vilec8f2.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilec8f2.png"
+      },
+      {
+        "path": "sprites/vileg0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vileg0.png"
+      },
+      {
+        "path": "sprites/vileh0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vileh0.png"
+      },
+      {
+        "path": "sprites/vilei0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilei0.png"
+      },
+      {
+        "path": "sprites/vilej0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilej0.png"
+      },
+      {
+        "path": "sprites/vilek0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilek0.png"
+      },
+      {
+        "path": "sprites/vilel0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilel0.png"
+      },
+      {
+        "path": "sprites/vilem0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilem0.png"
+      },
+      {
+        "path": "sprites/vilen0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilen0.png"
+      },
+      {
+        "path": "sprites/vileo0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vileo0.png"
+      },
+      {
+        "path": "sprites/vilep0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilep0.png"
+      },
+      {
+        "path": "sprites/vileq0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vileq0.png"
+      },
+      {
+        "path": "sprites/viler0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/viler0.png"
+      },
+      {
+        "path": "sprites/viles0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/viles0.png"
+      },
+      {
+        "path": "sprites/vilet0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilet0.png"
+      },
+      {
+        "path": "sprites/vileu0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vileu0.png"
+      },
+      {
+        "path": "sprites/vilev0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilev0.png"
+      },
+      {
+        "path": "sprites/vilew0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilew0.png"
+      },
+      {
+        "path": "sprites/vilex0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilex0.png"
+      },
+      {
+        "path": "sprites/viley0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/viley0.png"
+      },
+      {
+        "path": "sprites/vilez0.png",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/c0e641f238bbabf6242b1111662f5b7961087e5f/sprites/vilez0.png"
+      }
+    ],
+    "id": "c0e641f238bbabf6242b1111662f5b7961087e5f--2023-04-28T20:29:44-03:00"
+  },
+  {
+    "sha": "08a48546a51604c0b0624fb97f33b95a377714d4",
+    "date": "2019-03-24T21:44:24-07:00",
+    "author": "Ulises \"Urric Hammersong\" Lozano",
+    "message": "Add new archvile",
+    "files": [
+      {
+        "path": "sprites/vilea1d1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilea1d1.png"
+      },
+      {
+        "path": "sprites/vilea2d8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilea2d8.png"
+      },
+      {
+        "path": "sprites/vilea3d7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilea3d7.png"
+      },
+      {
+        "path": "sprites/vilea4d6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilea4d6.png"
+      },
+      {
+        "path": "sprites/vilea5d5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilea5d5.png"
+      },
+      {
+        "path": "sprites/vilea6d4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilea6d4.png"
+      },
+      {
+        "path": "sprites/vilea7d3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilea7d3.png"
+      },
+      {
+        "path": "sprites/vilea8d2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilea8d2.png"
+      },
+      {
+        "path": "sprites/vileb1e1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileb1e1.png"
+      },
+      {
+        "path": "sprites/vileb2e8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileb2e8.png"
+      },
+      {
+        "path": "sprites/vileb3e7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileb3e7.png"
+      },
+      {
+        "path": "sprites/vileb4e6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileb4e6.png"
+      },
+      {
+        "path": "sprites/vileb5e5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileb5e5.png"
+      },
+      {
+        "path": "sprites/vileb6e4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileb6e4.png"
+      },
+      {
+        "path": "sprites/vileb7e3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileb7e3.png"
+      },
+      {
+        "path": "sprites/vileb8e2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileb8e2.png"
+      },
+      {
+        "path": "sprites/vilec1f1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilec1f1.png"
+      },
+      {
+        "path": "sprites/vilec2f8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilec2f8.png"
+      },
+      {
+        "path": "sprites/vilec3f7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilec3f7.png"
+      },
+      {
+        "path": "sprites/vilec4f6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilec4f6.png"
+      },
+      {
+        "path": "sprites/vilec5f5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilec5f5.png"
+      },
+      {
+        "path": "sprites/vilec6f4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilec6f4.png"
+      },
+      {
+        "path": "sprites/vilec7f3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilec7f3.png"
+      },
+      {
+        "path": "sprites/vilec8f2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilec8f2.png"
+      },
+      {
+        "path": "sprites/vileg0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileg0.png"
+      },
+      {
+        "path": "sprites/vileg1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileg1.png"
+      },
+      {
+        "path": "sprites/vileg2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileg2.png"
+      },
+      {
+        "path": "sprites/vileg3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileg3.png"
+      },
+      {
+        "path": "sprites/vileg4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileg4.png"
+      },
+      {
+        "path": "sprites/vileg5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileg5.png"
+      },
+      {
+        "path": "sprites/vileg6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileg6.png"
+      },
+      {
+        "path": "sprites/vileg7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileg7.png"
+      },
+      {
+        "path": "sprites/vileg8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileg8.png"
+      },
+      {
+        "path": "sprites/vileh1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileh1.png"
+      },
+      {
+        "path": "sprites/vileh2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileh2.png"
+      },
+      {
+        "path": "sprites/vileh3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileh3.png"
+      },
+      {
+        "path": "sprites/vileh4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileh4.png"
+      },
+      {
+        "path": "sprites/vileh5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileh5.png"
+      },
+      {
+        "path": "sprites/vileh6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileh6.png"
+      },
+      {
+        "path": "sprites/vileh7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileh7.png"
+      },
+      {
+        "path": "sprites/vileh8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileh8.png"
+      },
+      {
+        "path": "sprites/vilei0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilei0.png"
+      },
+      {
+        "path": "sprites/vilei1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilei1.png"
+      },
+      {
+        "path": "sprites/vilei2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilei2.png"
+      },
+      {
+        "path": "sprites/vilei3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilei3.png"
+      },
+      {
+        "path": "sprites/vilei4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilei4.png"
+      },
+      {
+        "path": "sprites/vilei5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilei5.png"
+      },
+      {
+        "path": "sprites/vilei6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilei6.png"
+      },
+      {
+        "path": "sprites/vilei7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilei7.png"
+      },
+      {
+        "path": "sprites/vilei8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilei8.png"
+      },
+      {
+        "path": "sprites/vilej1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilej1.png"
+      },
+      {
+        "path": "sprites/vilej2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilej2.png"
+      },
+      {
+        "path": "sprites/vilej3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilej3.png"
+      },
+      {
+        "path": "sprites/vilej4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilej4.png"
+      },
+      {
+        "path": "sprites/vilej5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilej5.png"
+      },
+      {
+        "path": "sprites/vilej6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilej6.png"
+      },
+      {
+        "path": "sprites/vilej7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilej7.png"
+      },
+      {
+        "path": "sprites/vilej8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilej8.png"
+      },
+      {
+        "path": "sprites/vilek0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilek0.png"
+      },
+      {
+        "path": "sprites/vilek1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilek1.png"
+      },
+      {
+        "path": "sprites/vilek2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilek2.png"
+      },
+      {
+        "path": "sprites/vilek3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilek3.png"
+      },
+      {
+        "path": "sprites/vilek4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilek4.png"
+      },
+      {
+        "path": "sprites/vilek5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilek5.png"
+      },
+      {
+        "path": "sprites/vilek6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilek6.png"
+      },
+      {
+        "path": "sprites/vilek7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilek7.png"
+      },
+      {
+        "path": "sprites/vilek8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilek8.png"
+      },
+      {
+        "path": "sprites/vilel1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilel1.png"
+      },
+      {
+        "path": "sprites/vilel2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilel2.png"
+      },
+      {
+        "path": "sprites/vilel3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilel3.png"
+      },
+      {
+        "path": "sprites/vilel4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilel4.png"
+      },
+      {
+        "path": "sprites/vilel5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilel5.png"
+      },
+      {
+        "path": "sprites/vilel6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilel6.png"
+      },
+      {
+        "path": "sprites/vilel7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilel7.png"
+      },
+      {
+        "path": "sprites/vilel8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilel8.png"
+      },
+      {
+        "path": "sprites/vilem1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilem1.png"
+      },
+      {
+        "path": "sprites/vilem2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilem2.png"
+      },
+      {
+        "path": "sprites/vilem3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilem3.png"
+      },
+      {
+        "path": "sprites/vilem4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilem4.png"
+      },
+      {
+        "path": "sprites/vilem5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilem5.png"
+      },
+      {
+        "path": "sprites/vilem6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilem6.png"
+      },
+      {
+        "path": "sprites/vilem7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilem7.png"
+      },
+      {
+        "path": "sprites/vilem8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilem8.png"
+      },
+      {
+        "path": "sprites/vilen1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilen1.png"
+      },
+      {
+        "path": "sprites/vilen2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilen2.png"
+      },
+      {
+        "path": "sprites/vilen3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilen3.png"
+      },
+      {
+        "path": "sprites/vilen4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilen4.png"
+      },
+      {
+        "path": "sprites/vilen5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilen5.png"
+      },
+      {
+        "path": "sprites/vilen6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilen6.png"
+      },
+      {
+        "path": "sprites/vilen7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilen7.png"
+      },
+      {
+        "path": "sprites/vilen8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilen8.png"
+      },
+      {
+        "path": "sprites/vileo1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileo1.png"
+      },
+      {
+        "path": "sprites/vileo2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileo2.png"
+      },
+      {
+        "path": "sprites/vileo3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileo3.png"
+      },
+      {
+        "path": "sprites/vileo4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileo4.png"
+      },
+      {
+        "path": "sprites/vileo5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileo5.png"
+      },
+      {
+        "path": "sprites/vileo6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileo6.png"
+      },
+      {
+        "path": "sprites/vileo7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileo7.png"
+      },
+      {
+        "path": "sprites/vileo8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileo8.png"
+      },
+      {
+        "path": "sprites/vilep1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilep1.png"
+      },
+      {
+        "path": "sprites/vilep2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilep2.png"
+      },
+      {
+        "path": "sprites/vilep3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilep3.png"
+      },
+      {
+        "path": "sprites/vilep4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilep4.png"
+      },
+      {
+        "path": "sprites/vilep5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilep5.png"
+      },
+      {
+        "path": "sprites/vilep6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilep6.png"
+      },
+      {
+        "path": "sprites/vilep7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilep7.png"
+      },
+      {
+        "path": "sprites/vilep8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilep8.png"
+      },
+      {
+        "path": "sprites/vileq0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileq0.png"
+      },
+      {
+        "path": "sprites/vileq1.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileq1.png"
+      },
+      {
+        "path": "sprites/vileq2.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileq2.png"
+      },
+      {
+        "path": "sprites/vileq3.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileq3.png"
+      },
+      {
+        "path": "sprites/vileq4.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileq4.png"
+      },
+      {
+        "path": "sprites/vileq5.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileq5.png"
+      },
+      {
+        "path": "sprites/vileq6.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileq6.png"
+      },
+      {
+        "path": "sprites/vileq7.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileq7.png"
+      },
+      {
+        "path": "sprites/vileq8.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileq8.png"
+      },
+      {
+        "path": "sprites/viler0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/viler0.png"
+      },
+      {
+        "path": "sprites/viles0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/viles0.png"
+      },
+      {
+        "path": "sprites/vilet0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilet0.png"
+      },
+      {
+        "path": "sprites/vileu0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vileu0.png"
+      },
+      {
+        "path": "sprites/vilev0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilev0.png"
+      },
+      {
+        "path": "sprites/vilew0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilew0.png"
+      },
+      {
+        "path": "sprites/vilex0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilex0.png"
+      },
+      {
+        "path": "sprites/viley0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/viley0.png"
+      },
+      {
+        "path": "sprites/vilez0.png",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/08a48546a51604c0b0624fb97f33b95a377714d4/sprites/vilez0.png"
+      }
+    ],
+    "id": "08a48546a51604c0b0624fb97f33b95a377714d4--2019-03-24T21:44:24-07:00"
+  },
+  {
+    "sha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
+    "date": "2017-07-18T22:26:52-07:00",
+    "author": "Mike Swanson",
+    "message": "Burn all GIFs: Convert everything to PNGs.",
+    "files": [
+      {
+        "path": "sprites/vilea1d1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilea1d1.png"
+      },
+      {
+        "path": "sprites/vilea2d8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilea2d8.png"
+      },
+      {
+        "path": "sprites/vilea3d7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilea3d7.png"
+      },
+      {
+        "path": "sprites/vilea4d6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilea4d6.png"
+      },
+      {
+        "path": "sprites/vilea5d5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilea5d5.png"
+      },
+      {
+        "path": "sprites/vilea6d4.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilea6d4.png"
+      },
+      {
+        "path": "sprites/vilea7d3.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilea7d3.png"
+      },
+      {
+        "path": "sprites/vilea8d2.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilea8d2.png"
+      },
+      {
+        "path": "sprites/vileb1e1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileb1e1.png"
+      },
+      {
+        "path": "sprites/vileb2e8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileb2e8.png"
+      },
+      {
+        "path": "sprites/vileb3e7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileb3e7.png"
+      },
+      {
+        "path": "sprites/vileb4e6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileb4e6.png"
+      },
+      {
+        "path": "sprites/vileb5e5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileb5e5.png"
+      },
+      {
+        "path": "sprites/vileb6e4.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileb6e4.png"
+      },
+      {
+        "path": "sprites/vileb7e3.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileb7e3.png"
+      },
+      {
+        "path": "sprites/vileb8e2.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileb8e2.png"
+      },
+      {
+        "path": "sprites/vilec1f1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilec1f1.png"
+      },
+      {
+        "path": "sprites/vilec2f8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilec2f8.png"
+      },
+      {
+        "path": "sprites/vilec3f7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilec3f7.png"
+      },
+      {
+        "path": "sprites/vilec4f6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilec4f6.png"
+      },
+      {
+        "path": "sprites/vilec5f5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilec5f5.png"
+      },
+      {
+        "path": "sprites/vilec6f4.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilec6f4.png"
+      },
+      {
+        "path": "sprites/vilec7f3.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilec7f3.png"
+      },
+      {
+        "path": "sprites/vilec8f2.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilec8f2.png"
+      },
+      {
+        "path": "sprites/vileg1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileg1.png"
+      },
+      {
+        "path": "sprites/vileg2.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileg2.png"
+      },
+      {
+        "path": "sprites/vileg3.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileg3.png"
+      },
+      {
+        "path": "sprites/vileg4.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileg4.png"
+      },
+      {
+        "path": "sprites/vileg5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileg5.png"
+      },
+      {
+        "path": "sprites/vileg6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileg6.png"
+      },
+      {
+        "path": "sprites/vileg7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileg7.png"
+      },
+      {
+        "path": "sprites/vileg8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileg8.png"
+      },
+      {
+        "path": "sprites/vileh1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileh1.png"
+      },
+      {
+        "path": "sprites/vileh2.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileh2.png"
+      },
+      {
+        "path": "sprites/vileh3.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileh3.png"
+      },
+      {
+        "path": "sprites/vileh4.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileh4.png"
+      },
+      {
+        "path": "sprites/vileh5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileh5.png"
+      },
+      {
+        "path": "sprites/vileh6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileh6.png"
+      },
+      {
+        "path": "sprites/vileh7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileh7.png"
+      },
+      {
+        "path": "sprites/vileh8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileh8.png"
+      },
+      {
+        "path": "sprites/vilei1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilei1.png"
+      },
+      {
+        "path": "sprites/vilei2.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilei2.png"
+      },
+      {
+        "path": "sprites/vilei3.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilei3.png"
+      },
+      {
+        "path": "sprites/vilei4.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilei4.png"
+      },
+      {
+        "path": "sprites/vilei5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilei5.png"
+      },
+      {
+        "path": "sprites/vilei6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilei6.png"
+      },
+      {
+        "path": "sprites/vilei7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilei7.png"
+      },
+      {
+        "path": "sprites/vilei8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilei8.png"
+      },
+      {
+        "path": "sprites/vilej1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilej1.png"
+      },
+      {
+        "path": "sprites/vilej2.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilej2.png"
+      },
+      {
+        "path": "sprites/vilej3.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilej3.png"
+      },
+      {
+        "path": "sprites/vilej4.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilej4.png"
+      },
+      {
+        "path": "sprites/vilej5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilej5.png"
+      },
+      {
+        "path": "sprites/vilej6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilej6.png"
+      },
+      {
+        "path": "sprites/vilej7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilej7.png"
+      },
+      {
+        "path": "sprites/vilej8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilej8.png"
+      },
+      {
+        "path": "sprites/vilek1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilek1.png"
+      },
+      {
+        "path": "sprites/vilek2.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilek2.png"
+      },
+      {
+        "path": "sprites/vilek3.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilek3.png"
+      },
+      {
+        "path": "sprites/vilek4.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilek4.png"
+      },
+      {
+        "path": "sprites/vilek5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilek5.png"
+      },
+      {
+        "path": "sprites/vilek6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilek6.png"
+      },
+      {
+        "path": "sprites/vilek7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilek7.png"
+      },
+      {
+        "path": "sprites/vilek8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilek8.png"
+      },
+      {
+        "path": "sprites/vilel1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilel1.png"
+      },
+      {
+        "path": "sprites/vilel2.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilel2.png"
+      },
+      {
+        "path": "sprites/vilel3.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilel3.png"
+      },
+      {
+        "path": "sprites/vilel4.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilel4.png"
+      },
+      {
+        "path": "sprites/vilel5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilel5.png"
+      },
+      {
+        "path": "sprites/vilel6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilel6.png"
+      },
+      {
+        "path": "sprites/vilel7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilel7.png"
+      },
+      {
+        "path": "sprites/vilel8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilel8.png"
+      },
+      {
+        "path": "sprites/vilem1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilem1.png"
+      },
+      {
+        "path": "sprites/vilem2.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilem2.png"
+      },
+      {
+        "path": "sprites/vilem3.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilem3.png"
+      },
+      {
+        "path": "sprites/vilem4.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilem4.png"
+      },
+      {
+        "path": "sprites/vilem5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilem5.png"
+      },
+      {
+        "path": "sprites/vilem6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilem6.png"
+      },
+      {
+        "path": "sprites/vilem7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilem7.png"
+      },
+      {
+        "path": "sprites/vilem8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilem8.png"
+      },
+      {
+        "path": "sprites/vilen1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilen1.png"
+      },
+      {
+        "path": "sprites/vilen2.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilen2.png"
+      },
+      {
+        "path": "sprites/vilen3.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilen3.png"
+      },
+      {
+        "path": "sprites/vilen4.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilen4.png"
+      },
+      {
+        "path": "sprites/vilen5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilen5.png"
+      },
+      {
+        "path": "sprites/vilen6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilen6.png"
+      },
+      {
+        "path": "sprites/vilen7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilen7.png"
+      },
+      {
+        "path": "sprites/vilen8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilen8.png"
+      },
+      {
+        "path": "sprites/vileo1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileo1.png"
+      },
+      {
+        "path": "sprites/vileo2.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileo2.png"
+      },
+      {
+        "path": "sprites/vileo3.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileo3.png"
+      },
+      {
+        "path": "sprites/vileo4.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileo4.png"
+      },
+      {
+        "path": "sprites/vileo5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileo5.png"
+      },
+      {
+        "path": "sprites/vileo6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileo6.png"
+      },
+      {
+        "path": "sprites/vileo7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileo7.png"
+      },
+      {
+        "path": "sprites/vileo8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileo8.png"
+      },
+      {
+        "path": "sprites/vilep1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilep1.png"
+      },
+      {
+        "path": "sprites/vilep2.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilep2.png"
+      },
+      {
+        "path": "sprites/vilep3.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilep3.png"
+      },
+      {
+        "path": "sprites/vilep4.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilep4.png"
+      },
+      {
+        "path": "sprites/vilep5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilep5.png"
+      },
+      {
+        "path": "sprites/vilep6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilep6.png"
+      },
+      {
+        "path": "sprites/vilep7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilep7.png"
+      },
+      {
+        "path": "sprites/vilep8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilep8.png"
+      },
+      {
+        "path": "sprites/vileq0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileq0.png"
+      },
+      {
+        "path": "sprites/vileq1.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileq1.png"
+      },
+      {
+        "path": "sprites/vileq2.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileq2.png"
+      },
+      {
+        "path": "sprites/vileq3.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileq3.png"
+      },
+      {
+        "path": "sprites/vileq4.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileq4.png"
+      },
+      {
+        "path": "sprites/vileq5.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileq5.png"
+      },
+      {
+        "path": "sprites/vileq6.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileq6.png"
+      },
+      {
+        "path": "sprites/vileq7.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileq7.png"
+      },
+      {
+        "path": "sprites/vileq8.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileq8.png"
+      },
+      {
+        "path": "sprites/viler0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/viler0.png"
+      },
+      {
+        "path": "sprites/viles0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/viles0.png"
+      },
+      {
+        "path": "sprites/vilet0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilet0.png"
+      },
+      {
+        "path": "sprites/vileu0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vileu0.png"
+      },
+      {
+        "path": "sprites/vilev0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilev0.png"
+      },
+      {
+        "path": "sprites/vilew0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilew0.png"
+      },
+      {
+        "path": "sprites/vilex0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilex0.png"
+      },
+      {
+        "path": "sprites/viley0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/viley0.png"
+      },
+      {
+        "path": "sprites/vilez0.png",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/vilez0.png"
+      }
+    ],
+    "id": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3--2017-07-18T22:26:52-07:00"
+  },
+  {
+    "sha": "1b766167ff311e4a1acd154343fe633e1ac75736",
+    "date": "2015-12-17T00:24:57-08:00",
+    "author": "Mike Swanson",
+    "message": "de-symlinkify: catoptromancy",
+    "files": [
+      {
+        "path": "sprites/vilea1d1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilea1d1.gif"
+      },
+      {
+        "path": "sprites/vilea2d8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilea2d8.gif"
+      },
+      {
+        "path": "sprites/vilea3d7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilea3d7.gif"
+      },
+      {
+        "path": "sprites/vilea4d6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilea4d6.gif"
+      },
+      {
+        "path": "sprites/vilea5d5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilea5d5.gif"
+      },
+      {
+        "path": "sprites/vilea6d4.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilea6d4.gif"
+      },
+      {
+        "path": "sprites/vilea7d3.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilea7d3.gif"
+      },
+      {
+        "path": "sprites/vilea8d2.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilea8d2.gif"
+      },
+      {
+        "path": "sprites/vileb1e1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileb1e1.gif"
+      },
+      {
+        "path": "sprites/vileb2e8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileb2e8.gif"
+      },
+      {
+        "path": "sprites/vileb3e7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileb3e7.gif"
+      },
+      {
+        "path": "sprites/vileb4e6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileb4e6.gif"
+      },
+      {
+        "path": "sprites/vileb5e5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileb5e5.gif"
+      },
+      {
+        "path": "sprites/vileb6e4.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileb6e4.gif"
+      },
+      {
+        "path": "sprites/vileb7e3.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileb7e3.gif"
+      },
+      {
+        "path": "sprites/vileb8e2.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileb8e2.gif"
+      },
+      {
+        "path": "sprites/vilec1f1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilec1f1.gif"
+      },
+      {
+        "path": "sprites/vilec2f8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilec2f8.gif"
+      },
+      {
+        "path": "sprites/vilec3f7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilec3f7.gif"
+      },
+      {
+        "path": "sprites/vilec4f6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilec4f6.gif"
+      },
+      {
+        "path": "sprites/vilec5f5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilec5f5.gif"
+      },
+      {
+        "path": "sprites/vilec6f4.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilec6f4.gif"
+      },
+      {
+        "path": "sprites/vilec7f3.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilec7f3.gif"
+      },
+      {
+        "path": "sprites/vilec8f2.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilec8f2.gif"
+      },
+      {
+        "path": "sprites/vileg1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileg1.gif"
+      },
+      {
+        "path": "sprites/vileg2.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileg2.gif"
+      },
+      {
+        "path": "sprites/vileg3.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileg3.gif"
+      },
+      {
+        "path": "sprites/vileg4.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileg4.gif"
+      },
+      {
+        "path": "sprites/vileg5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileg5.gif"
+      },
+      {
+        "path": "sprites/vileg6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileg6.gif"
+      },
+      {
+        "path": "sprites/vileg7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileg7.gif"
+      },
+      {
+        "path": "sprites/vileg8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileg8.gif"
+      },
+      {
+        "path": "sprites/vileh1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileh1.gif"
+      },
+      {
+        "path": "sprites/vileh2.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileh2.gif"
+      },
+      {
+        "path": "sprites/vileh3.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileh3.gif"
+      },
+      {
+        "path": "sprites/vileh4.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileh4.gif"
+      },
+      {
+        "path": "sprites/vileh5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileh5.gif"
+      },
+      {
+        "path": "sprites/vileh6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileh6.gif"
+      },
+      {
+        "path": "sprites/vileh7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileh7.gif"
+      },
+      {
+        "path": "sprites/vileh8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileh8.gif"
+      },
+      {
+        "path": "sprites/vilei1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilei1.gif"
+      },
+      {
+        "path": "sprites/vilei2.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilei2.gif"
+      },
+      {
+        "path": "sprites/vilei3.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilei3.gif"
+      },
+      {
+        "path": "sprites/vilei4.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilei4.gif"
+      },
+      {
+        "path": "sprites/vilei5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilei5.gif"
+      },
+      {
+        "path": "sprites/vilei6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilei6.gif"
+      },
+      {
+        "path": "sprites/vilei7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilei7.gif"
+      },
+      {
+        "path": "sprites/vilei8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilei8.gif"
+      },
+      {
+        "path": "sprites/vilej1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilej1.gif"
+      },
+      {
+        "path": "sprites/vilej2.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilej2.gif"
+      },
+      {
+        "path": "sprites/vilej3.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilej3.gif"
+      },
+      {
+        "path": "sprites/vilej4.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilej4.gif"
+      },
+      {
+        "path": "sprites/vilej5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilej5.gif"
+      },
+      {
+        "path": "sprites/vilej6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilej6.gif"
+      },
+      {
+        "path": "sprites/vilej7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilej7.gif"
+      },
+      {
+        "path": "sprites/vilej8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilej8.gif"
+      },
+      {
+        "path": "sprites/vilek1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilek1.gif"
+      },
+      {
+        "path": "sprites/vilek2.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilek2.gif"
+      },
+      {
+        "path": "sprites/vilek3.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilek3.gif"
+      },
+      {
+        "path": "sprites/vilek4.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilek4.gif"
+      },
+      {
+        "path": "sprites/vilek5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilek5.gif"
+      },
+      {
+        "path": "sprites/vilek6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilek6.gif"
+      },
+      {
+        "path": "sprites/vilek7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilek7.gif"
+      },
+      {
+        "path": "sprites/vilek8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilek8.gif"
+      },
+      {
+        "path": "sprites/vilel1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilel1.gif"
+      },
+      {
+        "path": "sprites/vilel2.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilel2.gif"
+      },
+      {
+        "path": "sprites/vilel3.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilel3.gif"
+      },
+      {
+        "path": "sprites/vilel4.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilel4.gif"
+      },
+      {
+        "path": "sprites/vilel5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilel5.gif"
+      },
+      {
+        "path": "sprites/vilel6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilel6.gif"
+      },
+      {
+        "path": "sprites/vilel7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilel7.gif"
+      },
+      {
+        "path": "sprites/vilel8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilel8.gif"
+      },
+      {
+        "path": "sprites/vilem1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilem1.gif"
+      },
+      {
+        "path": "sprites/vilem2.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilem2.gif"
+      },
+      {
+        "path": "sprites/vilem3.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilem3.gif"
+      },
+      {
+        "path": "sprites/vilem4.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilem4.gif"
+      },
+      {
+        "path": "sprites/vilem5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilem5.gif"
+      },
+      {
+        "path": "sprites/vilem6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilem6.gif"
+      },
+      {
+        "path": "sprites/vilem7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilem7.gif"
+      },
+      {
+        "path": "sprites/vilem8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilem8.gif"
+      },
+      {
+        "path": "sprites/vilen1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilen1.gif"
+      },
+      {
+        "path": "sprites/vilen2.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilen2.gif"
+      },
+      {
+        "path": "sprites/vilen3.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilen3.gif"
+      },
+      {
+        "path": "sprites/vilen4.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilen4.gif"
+      },
+      {
+        "path": "sprites/vilen5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilen5.gif"
+      },
+      {
+        "path": "sprites/vilen6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilen6.gif"
+      },
+      {
+        "path": "sprites/vilen7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilen7.gif"
+      },
+      {
+        "path": "sprites/vilen8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilen8.gif"
+      },
+      {
+        "path": "sprites/vileo1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileo1.gif"
+      },
+      {
+        "path": "sprites/vileo2.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileo2.gif"
+      },
+      {
+        "path": "sprites/vileo3.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileo3.gif"
+      },
+      {
+        "path": "sprites/vileo4.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileo4.gif"
+      },
+      {
+        "path": "sprites/vileo5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileo5.gif"
+      },
+      {
+        "path": "sprites/vileo6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileo6.gif"
+      },
+      {
+        "path": "sprites/vileo7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileo7.gif"
+      },
+      {
+        "path": "sprites/vileo8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileo8.gif"
+      },
+      {
+        "path": "sprites/vilep1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilep1.gif"
+      },
+      {
+        "path": "sprites/vilep2.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilep2.gif"
+      },
+      {
+        "path": "sprites/vilep3.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilep3.gif"
+      },
+      {
+        "path": "sprites/vilep4.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilep4.gif"
+      },
+      {
+        "path": "sprites/vilep5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilep5.gif"
+      },
+      {
+        "path": "sprites/vilep6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilep6.gif"
+      },
+      {
+        "path": "sprites/vilep7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilep7.gif"
+      },
+      {
+        "path": "sprites/vilep8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilep8.gif"
+      },
+      {
+        "path": "sprites/vileq0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileq0.gif"
+      },
+      {
+        "path": "sprites/vileq1.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileq1.gif"
+      },
+      {
+        "path": "sprites/vileq2.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileq2.gif"
+      },
+      {
+        "path": "sprites/vileq3.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileq3.gif"
+      },
+      {
+        "path": "sprites/vileq4.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileq4.gif"
+      },
+      {
+        "path": "sprites/vileq5.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileq5.gif"
+      },
+      {
+        "path": "sprites/vileq6.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileq6.gif"
+      },
+      {
+        "path": "sprites/vileq7.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileq7.gif"
+      },
+      {
+        "path": "sprites/vileq8.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileq8.gif"
+      },
+      {
+        "path": "sprites/viler0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/viler0.gif"
+      },
+      {
+        "path": "sprites/viles0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/viles0.gif"
+      },
+      {
+        "path": "sprites/vilet0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilet0.gif"
+      },
+      {
+        "path": "sprites/vileu0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vileu0.gif"
+      },
+      {
+        "path": "sprites/vilev0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilev0.gif"
+      },
+      {
+        "path": "sprites/vilew0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilew0.gif"
+      },
+      {
+        "path": "sprites/vilex0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilex0.gif"
+      },
+      {
+        "path": "sprites/viley0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/viley0.gif"
+      },
+      {
+        "path": "sprites/vilez0.gif",
+        "status": "T",
+        "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/vilez0.gif"
+      }
+    ],
+    "id": "1b766167ff311e4a1acd154343fe633e1ac75736--2015-12-17T00:24:57-08:00"
+  },
+  {
+    "sha": "87f22d4420a98c2b59e3160223cf2e914c13fcc9",
+    "date": "2015-12-16T22:45:37-08:00",
+    "author": "luckypunk",
+    "message": "sprites: Updated Vile sprites, added ressurection sequence",
+    "files": [
+      {
+        "path": "sprites/catoptromancy/vilea1d1.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilea1d1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilea2d8.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilea2d8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilea3d7.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilea3d7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilea4d6.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilea4d6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilea5d5.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilea5d5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilea6d4.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilea6d4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilea7d3.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilea7d3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilea8d2.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilea8d2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileb1e1.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileb1e1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileb2e8.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileb2e8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileb3e7.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileb3e7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileb4e6.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileb4e6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileb5e5.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileb5e5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileb6e4.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileb6e4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileb7e3.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileb7e3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileb8e2.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileb8e2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilec1f1.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilec1f1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilec2f8.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilec2f8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilec3f7.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilec3f7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilec4f6.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilec4f6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilec5f5.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilec5f5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilec6f4.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilec6f4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilec7f3.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilec7f3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilec8f2.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilec8f2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileg1.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileg1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileg2.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileg2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileg3.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileg3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileg4.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileg4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileg5.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileg5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileg6.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileg6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileg7.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileg7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileg8.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileg8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileh1.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileh1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileh2.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileh2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileh3.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileh3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileh4.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileh4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileh5.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileh5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileh6.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileh6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileh7.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileh7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileh8.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileh8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilei1.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilei1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilei2.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilei2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilei3.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilei3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilei4.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilei4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilei5.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilei5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilei6.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilei6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilei7.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilei7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilei8.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilei8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilej1.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilej1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilej2.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilej2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilej3.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilej3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilej4.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilej4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilej5.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilej5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilej6.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilej6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilej7.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilej7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilej8.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilej8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilek1.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilek1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilek2.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilek2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilek3.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilek3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilek4.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilek4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilek5.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilek5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilek6.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilek6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilek7.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilek7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilek8.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilek8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilel1.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilel1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilel2.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilel2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilel3.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilel3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilel4.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilel4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilel5.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilel5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilel6.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilel6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilel7.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilel7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilel8.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilel8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilem1.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilem1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilem2.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilem2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilem3.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilem3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilem4.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilem4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilem5.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilem5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilem6.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilem6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilem7.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilem7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilem8.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilem8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilen1.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilen1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilen2.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilen2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilen3.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilen3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilen4.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilen4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilen5.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilen5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilen6.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilen6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilen7.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilen7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilen8.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilen8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileo1.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileo1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileo2.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileo2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileo3.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileo3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileo4.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileo4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileo5.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileo5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileo6.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileo6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileo7.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileo7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileo8.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileo8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilep1.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilep1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilep2.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilep2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilep3.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilep3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilep4.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilep4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilep5.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilep5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilep6.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilep6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilep7.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilep7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilep8.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilep8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq0.gif",
+        "status": "Existing",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileq0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq1.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileq1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq2.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileq2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq3.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileq3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq4.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileq4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq5.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileq5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq6.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileq6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq7.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileq7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq8.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileq8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/viler0.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/viler0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/viles0.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/viles0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilet0.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilet0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileu0.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vileu0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilev0.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilev0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilew0.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilew0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilex0.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilex0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/viley0.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/viley0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilez0.gif",
+        "status": "M",
+        "url": "https://github.com/freedoom/freedoom/blob/87f22d4420a98c2b59e3160223cf2e914c13fcc9/sprites/catoptromancy/vilez0.gif"
+      }
+    ],
+    "id": "87f22d4420a98c2b59e3160223cf2e914c13fcc9--2015-12-16T22:45:37-08:00"
+  },
+  {
+    "sha": "7410953c5ef2a09aa545c3836b544aac9b1d9a79",
+    "date": "2009-08-12T17:29:51-07:00",
+    "author": "Catoptromancy",
+    "message": "sprites: new archvile placeholder",
+    "files": [
+      {
+        "path": "sprites/catoptromancy/vilea1d1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilea1d1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilea2d8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilea2d8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilea3d7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilea3d7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilea4d6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilea4d6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilea5d5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilea5d5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilea6d4.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilea6d4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilea7d3.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilea7d3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilea8d2.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilea8d2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileb1e1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileb1e1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileb2e8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileb2e8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileb3e7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileb3e7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileb4e6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileb4e6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileb5e5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileb5e5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileb6e4.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileb6e4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileb7e3.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileb7e3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileb8e2.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileb8e2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilec1f1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilec1f1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilec2f8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilec2f8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilec3f7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilec3f7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilec4f6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilec4f6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilec5f5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilec5f5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilec6f4.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilec6f4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilec7f3.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilec7f3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilec8f2.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilec8f2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileg1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileg1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileg2.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileg2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileg3.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileg3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileg4.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileg4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileg5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileg5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileg6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileg6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileg7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileg7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileg8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileg8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileh1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileh1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileh2.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileh2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileh3.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileh3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileh4.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileh4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileh5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileh5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileh6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileh6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileh7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileh7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileh8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileh8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilei1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilei1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilei2.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilei2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilei3.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilei3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilei4.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilei4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilei5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilei5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilei6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilei6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilei7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilei7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilei8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilei8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilej1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilej1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilej2.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilej2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilej3.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilej3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilej4.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilej4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilej5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilej5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilej6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilej6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilej7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilej7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilej8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilej8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilek1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilek1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilek2.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilek2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilek3.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilek3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilek4.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilek4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilek5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilek5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilek6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilek6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilek7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilek7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilek8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilek8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilel1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilel1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilel2.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilel2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilel3.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilel3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilel4.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilel4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilel5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilel5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilel6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilel6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilel7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilel7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilel8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilel8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilem1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilem1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilem2.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilem2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilem3.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilem3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilem4.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilem4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilem5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilem5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilem6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilem6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilem7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilem7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilem8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilem8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilen1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilen1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilen2.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilen2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilen3.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilen3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilen4.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilen4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilen5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilen5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilen6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilen6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilen7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilen7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilen8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilen8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileo1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileo1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileo2.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileo2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileo3.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileo3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileo4.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileo4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileo5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileo5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileo6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileo6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileo7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileo7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileo8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileo8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilep1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilep1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilep2.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilep2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilep3.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilep3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilep4.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilep4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilep5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilep5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilep6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilep6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilep7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilep7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilep8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilep8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileq0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq1.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileq1.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq2.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileq2.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq3.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileq3.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq4.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileq4.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq5.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileq5.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq6.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileq6.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq7.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileq7.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileq8.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileq8.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/viler0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/viler0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/viles0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/viles0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilet0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilet0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vileu0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vileu0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilev0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilev0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilew0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilew0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilex0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilex0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/viley0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/viley0.gif"
+      },
+      {
+        "path": "sprites/catoptromancy/vilez0.gif",
+        "status": "A",
+        "url": "https://github.com/freedoom/freedoom/blob/7410953c5ef2a09aa545c3836b544aac9b1d9a79/sprites/catoptromancy/vilez0.gif"
+      }
+    ],
+    "id": "7410953c5ef2a09aa545c3836b544aac9b1d9a79--2009-08-12T17:29:51-07:00"
+  },
+  {
+    "sha": "62d65ff1872c3ff6ee3a76fc328f72cd2a7c3a11",
+    "date": "2006-08-28T16:51:35Z",
+    "author": "Jon Dowland",
+    "message": "Adjust vile symlinks to point at sprites/jond/placeholder sprites/jond/placeholder: a Makefile which generates sarg sprites sarg sprites are composited from linguica's AOD skeleton and the \"graphic not done yet\" rectangle",
+    "files": [],
+    "id": "62d65ff1872c3ff6ee3a76fc328f72cd2a7c3a11--2006-08-28T16:51:35Z"
+  },
+  {
+    "sha": "aaae76b3d8d79dcd1acd972b8189e93b4ef2d6a5",
+    "date": "2006-08-28T14:40:38Z",
+    "author": "Jon Dowland",
+    "message": "* re-add linguica's AOD skeleton sprites (well, the SARG* ones) * map most of the vile frames to this AOD skeleton (missing: pain, resurrection) Still to do: superimpose the \"not done\" rectangle",
+    "files": [],
+    "id": "aaae76b3d8d79dcd1acd972b8189e93b4ef2d6a5--2006-08-28T14:40:38Z"
+  }
+]

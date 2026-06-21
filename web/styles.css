@@ -1,0 +1,50 @@
+:root {
+  background-color: #252525;
+}
+
+html {
+  padding: 24px
+}
+
+body {
+  max-width: 1200px;
+  color: #e8e8e8;
+  font-family: ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, Liberation Mono, monospace;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.character-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin: 48px 0;
+}
+
+.character-item {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: 360px;
+  background-color: #dedede;
+  color: black;
+  border-radius: 4px;
+}
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  
+}
+
+a:hover {
+  text-decoration: solid;
+}
+
+footer {
+  margin: 24px 0;
+}
