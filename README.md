@@ -15,26 +15,20 @@ and require to use C for filesystem access)
 
 
 ## Contribute
+### `/web`
+Static web page, featuring `.webp` sprite animations. Deno + [Lume](https://lume.land/) + React
+
+
+### `/historical-parser`
+Scripts to get all sprites from `/attic` and `/freedoom` git, and then generate `.webp` animations and `animations.json` metadata.
 1. [Install Deno](https://docs.deno.com/runtime/getting_started/installation/)
 2. [Install deno jupyter kernel](https://docs.deno.com/runtime/reference/cli/jupyter/) `deno jupyter`
 
-### For VS Code
+#### For VS Code
 2. Install *jupyter extension* (It is provided as recommended in a project)
 3. Set up `"editor.defaultFormatter": "denoland.vscode-deno"` for typescript (Workspace
 settings provided in a project)
-4. To run deno in `.ipynb` select deno kernel in jupyter notebook
+4. Some `.ipynb` converted to `.md`(for ease of AI tool usage on them). Run them via right mouse click > Jupyter
+5. To run deno in `.ipynb` select deno kernel in jupyter notebook
 
-### AI workflow
-For easier reading of `.ipynb` it is recommended to use percent ts
-```zsh
-uvx --with jupytext jupytext --set-formats ipynb,ts:percent src/sprites-parser/freedoom-parser.ipynb
-```
-
-```zsh
-uvx jupytext --to markdown src/sprites-parser/attic-parser.ipynb
-```
-
-```zsh
-uvx jupytext --sync src/sprites-parser/freedoom-parser.ipynb
-```
  
