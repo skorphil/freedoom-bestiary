@@ -7,3 +7,9 @@ historical-parser/out/
 # AI Tools
 .kilo
 AGENTS.md
+.codemie
+.opencode
+.claude
+
+*.local
+.cache
