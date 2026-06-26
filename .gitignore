@@ -1,5 +1,6 @@
 .env
 .DS_Store
+.react-router/
 *.git
 webp*/
 historical-parser/out/
@@ -13,3 +14,5 @@ AGENTS.md
 
 *.local
 .cache
+
+node_modules

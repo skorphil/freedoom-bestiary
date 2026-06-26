@@ -4,7 +4,7 @@ Scans the git history of the `freedoom/freedoom` and `freedoom/attic` repositori
 
 ## Prerequisites
 
-1. **Deno** v1.30+ installed.
+1. **Bun** installed.
 2. **Bare git clones** of both upstream repos inside `src/`:
    ```sh
    git clone --bare https://github.com/freedoom/freedoom src/freedoom.git
@@ -13,12 +13,12 @@ Scans the git history of the `freedoom/freedoom` and `freedoom/attic` repositori
 
 ## Running
 
-### Via deno task (recommended)
+### Via bun (recommended)
 
 From the `historical-parser/` directory:
 
 ```sh
-deno task parse
+bun run parse
 ```
 
 This runs `src/index.ts --write`, which:
@@ -44,13 +44,13 @@ Examples:
 
 ```sh
 # Dry-run (no files written)
-deno task parse -- --no-write   # omit --write to dry-run via index.ts directly
+bun run parse -- --no-write
 
 # Single code
-deno run --allow-read --allow-write --allow-run src/index.ts --write --codes=HEAD
+bun run --cwd historical-parser src/index.ts --write --codes=HEAD
 
 # Custom repo paths
-deno run --allow-read --allow-write --allow-run src/index.ts --write \
+bun run --cwd historical-parser src/index.ts --write \
   --freedoom-repo=/data/freedoom.git \
   --attic-repo=/data/attic.git
 ```
@@ -58,7 +58,7 @@ deno run --allow-read --allow-write --allow-run src/index.ts --write \
 ### Run tests
 
 ```sh
-deno task test
+bun test
 ```
 
 ## Programmatic usage
@@ -106,7 +106,7 @@ console.log("freedoom snapshots for POSS:", result.freedoom["POSS"].length);
 ```
 src/
   index.ts             Entry point — runAll() + CLI flag parsing
-  GitReader.ts         All Deno.Command git subprocess calls (I/O boundary)
+  GitReader.ts         All Bun.spawn git subprocess calls (I/O boundary)
   SpritePattern.ts     Sprite filename regex + frame-key extraction (pure)
   SpritePattern.ts     Also contains AuthorResolver — path → author name (pure)
   CommitLogScanner.ts  State-machine: git log --name-status → ScanUnit[]
@@ -188,3 +188,4 @@ attic.git ─────┘                                                    
 - The parsers work offline — all data comes from local bare git clones.
 - `GITHUB_TOKEN` in `.env` is vestigial from an earlier HTTP-API version; not required.
 - `build-animations.ts` reads `src/sprite-versions/<CODE>.json` to render animated WebPs.
+- Migrated from Deno to Bun — all Deno APIs replaced with Bun/Node equivalents.

@@ -1,4 +1,4 @@
-import { assertEquals, assertExists } from "@std/assert";
+import { expect, test } from "bun:test";
 import type {
   CommitLogScannerOptions,
   CommitSnapshot,
@@ -25,7 +25,7 @@ import {
   FREEDOOM_SCANNER_OPTIONS,
 } from "./mocks.ts";
 
-Deno.test("BaseParser - constructor should store dependencies", () => {
+test("BaseParser - constructor should store dependencies", () => {
   const parser = createMockBaseParser(
     "/tmp/freedoom.git",
     "POSS",
@@ -34,13 +34,13 @@ Deno.test("BaseParser - constructor should store dependencies", () => {
     FREEDOOM_BUILDER_OPTIONS,
   );
 
-  assertExists(parser.reader);
-  assertExists(parser.pattern);
-  assertExists(parser.resolver);
-  assertEquals(parser.pattern.code, "POSS");
+  expect(parser.reader).toBeDefined();
+  expect(parser.pattern).toBeDefined();
+  expect(parser.resolver).toBeDefined();
+  expect(parser.pattern.code).toBe("POSS");
 });
 
-Deno.test("BaseParser - parse should return array of snapshots", async () => {
+test("BaseParser - parse should return array of snapshots", async () => {
   const parser = createMockBaseParser(
     "/tmp/freedoom.git",
     "POSS",
@@ -51,10 +51,10 @@ Deno.test("BaseParser - parse should return array of snapshots", async () => {
 
   const snapshots = await parser.parse();
 
-  assertEquals(Array.isArray(snapshots), true);
+  expect(Array.isArray(snapshots)).toBe(true);
 });
 
-Deno.test("BaseParser - getSnapshot should return single snapshot or null", async () => {
+test("BaseParser - getSnapshot should return single snapshot or null", async () => {
   const parser = createMockBaseParser(
     "/tmp/freedoom.git",
     "POSS",
@@ -63,40 +63,40 @@ Deno.test("BaseParser - getSnapshot should return single snapshot or null", asyn
     FREEDOOM_BUILDER_OPTIONS,
   );
 
-  const snapshot = await parser.getSnapshot();
+  const snapshot = await parser.getSnapshot("any-sha");
 
-  assertEquals(snapshot, null);
+  expect(snapshot).toBe(null);
 });
 
-Deno.test("FreedomParser - should use freedoom configuration", () => {
+test("FreedomParser - should use freedoom configuration", () => {
   const parser = createMockFreedomParser("/tmp/freedoom.git", "POSS");
 
-  assertEquals(parser.source, "freedoom");
+  expect(parser.source).toBe("freedoom");
 
   const scanner = parser.createScanner();
   // Cannot access private options, just verify scanner exists
-  assertExists(scanner);
+  expect(scanner).toBeDefined();
 
   const builder = parser.createSnapshotBuilder();
   // Cannot access private options, just verify builder exists
-  assertExists(builder);
+  expect(builder).toBeDefined();
 });
 
-Deno.test("AtticParser - should use attic configuration", () => {
+test("AtticParser - should use attic configuration", () => {
   const parser = createMockAtticParser("/tmp/attic.git", "POSS");
 
-  assertEquals(parser.source, "attic");
+  expect(parser.source).toBe("attic");
 
   const scanner = parser.createScanner();
   // Cannot access private options, just verify scanner exists
-  assertExists(scanner);
+  expect(scanner).toBeDefined();
 
   const builder = parser.createSnapshotBuilder();
   // Cannot access private options, just verify builder exists
-  assertExists(builder);
+  expect(builder).toBeDefined();
 });
 
-Deno.test("Parser classes - should handle all sprite codes", () => {
+test("Parser classes - should handle all sprite codes", () => {
   const codes = [
     "POSS",
     "SPOS",
@@ -113,7 +113,7 @@ Deno.test("Parser classes - should handle all sprite codes", () => {
     const freedomParser = createMockFreedomParser("/tmp/freedoom.git", code);
     const atticParser = createMockAtticParser("/tmp/attic.git", code);
 
-    assertEquals(freedomParser.pattern.code, code);
-    assertEquals(atticParser.pattern.code, code);
+    expect(freedomParser.pattern.code).toBe(code);
+    expect(atticParser.pattern.code).toBe(code);
   }
 });

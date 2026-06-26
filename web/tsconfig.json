@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "allowImportingTsExtensions": true,
+    "moduleDetection": "force",
+    "types": ["bun-types", "vite/client"],
+    "paths": {
+      "~/*": ["./app/*"],
+      "@sprite-collection/*": ["../sprite-collection/*"],
+      "@sprites_meta/*": ["../sprites_meta/*"]
+    },
+    "rootDirs": [".", "./.react-router/types"]
+  },
+  "include": ["app/**/*", ".react-router/types/**/*"],
+  "exclude": []
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@freedoom-bestiary/historical-parser",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    "./data.json": "./data.json"
+  },
+  "scripts": {
+    "test": "bun test",
+    "parse": "bun run src/index.ts --write"
+  }
+}

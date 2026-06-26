@@ -1,6 +1,6 @@
 # @freedoom-bestiary/spritesheet-generator
 
-A Deno-based tool for generating spritesheets from Freedoom sprite files. This package processes historical sprite data and creates optimized spritesheets for efficient rendering in web applications.
+A Bun-based tool for generating spritesheets from Freedoom sprite files. This package processes historical sprite data and creates optimized spritesheets for efficient rendering in web applications.
 
 ## Overview
 
@@ -31,13 +31,14 @@ The package consists of several core modules:
    - Arranges sprites in grid format
    - Calculates spritesheet dimensions
    - Generates metadata for sprite positioning
+   - Uses **Sharp** for image compositing
 
 5. **`mirrors.ts`** - Image mirroring operations
    - Creates horizontally flipped versions of sprites
-   - Uses ImageMagick for efficient image processing
+   - Uses Sharp for efficient image processing
 
 6. **`image-size.ts`** - Image dimension measurement
-   - Measures image dimensions using ImageMagick
+   - Measures image dimensions using Sharp
    - Provides consistent sizing information
 
 7. **`types.ts`** - Shared type definitions
@@ -45,23 +46,21 @@ The package consists of several core modules:
 
 ## Installation
 
-Ensure you have Deno installed on your system. Then clone the repository:
+Ensure you have Bun installed on your system. Then clone the repository:
 
 ```bash
 git clone <repository-url>
 cd freedoom-bestiary/spritesheet-generator
+bun install
 ```
 
 ## Dependencies
 
-- **Deno 2.x** - JavaScript/TypeScript runtime
-- **ImageMagick** - Required for image processing operations
-- **Git** - Required for accessing bare repositories
+- **Bun** — JavaScript/TypeScript runtime and package manager
+- **Sharp** — High-performance image processing library
+- **Git** — Required for accessing bare repositories
 
-Install ImageMagick using your system's package manager:
-- macOS: `brew install imagemagick`
-- Ubuntu/Debian: `apt-get install imagemagick`
-- Windows: Download from the official ImageMagick website
+Sharp is installed automatically via `bun install`. No system-level image processing dependencies required.
 
 ## Usage
 
@@ -70,7 +69,7 @@ Install ImageMagick using your system's package manager:
 To generate spritesheets from version files:
 
 ```bash
-deno task generate
+bun run generate
 ```
 
 This command will:
@@ -84,9 +83,9 @@ This command will:
 To process a specific JSON file or directory:
 
 ```bash
-deno task generate path/to/input.json
+bun run generate path/to/input.json
 # or
-deno task generate path/to/input/directory/
+bun run generate path/to/input/directory/
 ```
 
 ### Running Tests
@@ -94,7 +93,7 @@ deno task generate path/to/input/directory/
 To run the test suite:
 
 ```bash
-deno task test
+bun test
 ```
 
 ## How It Works
@@ -108,11 +107,11 @@ deno task test
 4. **Layout Calculation**: Sprites are arranged in a grid layout with frames as columns and angles as rows.
 
 5. **Image Processing**: 
-   - Images are measured for consistent sizing
-   - Mirror sprites are generated where needed
+   - Images are measured for consistent sizing using Sharp
+   - Mirror sprites are generated where needed using Sharp
    - All images are padded to uniform dimensions
 
-6. **Spritesheet Generation**: Using ImageMagick, individual sprites are composited into a single spritesheet image.
+6. **Spritesheet Generation**: Using Sharp, individual sprites are composited into a single spritesheet image.
 
 7. **Metadata Creation**: Detailed metadata is generated, including sprite positioning information and commit details.
 
@@ -166,8 +165,14 @@ Each spritesheet is a WebP image containing all frames and angles for a specific
 The codebase follows a modular design where each module has a single responsibility:
 - Parser modules handle data transformation
 - IO modules handle file operations
-- Processing modules handle image manipulation
+- Processing modules handle image manipulation (using Sharp)
 - Orchestration modules coordinate the workflow
+
+## Migration Notes
+
+- **Migrated from Deno to Bun**: All Deno-specific APIs replaced with Bun/Node equivalents
+- **ImageMagick replaced with Sharp**: Sharp provides better performance and eliminates system dependency on ImageMagick
+- **Tests migrated to bun:test**: Test suite now uses Bun's built-in test runner
 
 ## License
 

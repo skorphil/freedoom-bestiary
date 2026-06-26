@@ -1,4 +1,4 @@
-import { dirname, join } from "@std/path";
+import { dirname, join } from "node:path";
 import type { GitReader, TreeEntry } from "./GitReader.ts";
 import type { AuthorResolver, SpritePattern } from "./types.ts";
 
@@ -137,65 +137,91 @@ export class SnapshotBuilder {
     let resolvedPaths: Map<string, string> | null = null;
     if (this.options.followSymlinks) {
       resolvedPaths = await this.resolveSymlinks(entries, unit.sha);
+      console.debug(`SnapshotBuilder.build: resolved ${resolvedPaths.size} symlinks for ${unit.sha}`);
     }
 
     // Step 3: Build index of paths in this commit for validation
     const pathSet = new Set(entries.map(e => e.path));
 
-    // Step 4: Filter and build sprite files
-    const spriteFiles: SpriteFile[] = [];
-
-    for (const entry of entries) {
-      // Fast check: Skip if the entry itself doesn't match and it's not a symlink we're following
-      const isSymlink = entry.isSymlink && this.options.followSymlinks;
-      if (!isSymlink && !this.pattern.matches(entry.path)) {
-        continue;
-      }
-
-      let filePath = entry.path;
-      if (isSymlink && resolvedPaths) {
-        let currentPath = entry.path;
-        const seenInChain = new Set<string>([currentPath]);
-        
-        // RECURSIVE SYMLINK RESOLUTION
-        while (true) {
-          const target = resolvedPaths.get(currentPath);
-          if (!target) break;
-
-          const resolvedTarget = join(dirname(currentPath), target);
+      // Step 4: Filter and build sprite files
+      const spriteFiles: SpriteFile[] = [];
+  
+      for (const entry of entries) {
+        // Fast check: Only process entries that match our sprite pattern or are symlinks.
+        // We match against entry.path because even if it's a symlink, the link name
+        // is what identifies it as belonging to this character (e.g. CYBRA1).
+        if (!this.pattern.matches(entry.path)) {
+          continue;
+        }
+  
+        let filePath = entry.path;
+        const isSymlink = entry.isSymlink && this.options.followSymlinks;
+  
+        if (isSymlink && resolvedPaths) {
+          let currentPath = entry.path;
+          const seenInChain = new Set<string>([currentPath]);
           
-          if (!pathSet.has(resolvedTarget)) {
-            console.warn(`SnapshotBuilder.build: broken link ${currentPath} -> ${resolvedTarget} in ${unit.sha}`);
-            filePath = ""; // Mark as invalid
-            break;
-          }
-
-          currentPath = resolvedTarget;
-          filePath = resolvedTarget;
-
-          // Check if the NEW target is also a symlink
-          const targetEntry = entries.find(e => e.path === currentPath);
-          if (targetEntry?.isSymlink) {
-            if (seenInChain.has(currentPath)) {
-              console.warn(`SnapshotBuilder.build: circular symlink detected at ${currentPath} in ${unit.sha}`);
-              filePath = "";
+          // RECURSIVE SYMLINK RESOLUTION
+          while (true) {
+            const target = resolvedPaths.get(currentPath);
+            if (!target) break;
+  
+            let resolvedTarget = join(dirname(currentPath), target);
+            
+            if (!pathSet.has(resolvedTarget)) {
+              // FALLBACK: If the direct target is missing, try to find a file with the same name
+              // in the same directory or in the root sprites directory.
+              const targetName = target.split("/").pop();
+              const sameDirTarget = entries.find(e => dirname(e.path) === dirname(resolvedTarget) && e.path.endsWith("/" + targetName));
+              
+              if (sameDirTarget) {
+                resolvedTarget = sameDirTarget.path;
+                console.log(`SnapshotBuilder.build: fixed broken link ${currentPath} -> ${target} via same-dir fallback: ${resolvedTarget}`);
+              } else {
+                // Try searching the whole tree for this filename if it's a sprite
+                const globalTarget = entries.find(e => e.path.endsWith("/" + targetName) && !e.isSymlink);
+                if (globalTarget) {
+                  resolvedTarget = globalTarget.path;
+                  console.log(`SnapshotBuilder.build: fixed broken link ${currentPath} -> ${target} via global fallback: ${resolvedTarget}`);
+                } else {
+                  console.warn(`SnapshotBuilder.build: broken link ${currentPath} -> ${target} (resolved as ${resolvedTarget}) in ${unit.sha}`);
+                  filePath = ""; // Mark as invalid
+                  break;
+                }
+              }
+            }
+  
+            currentPath = resolvedTarget;
+            filePath = resolvedTarget;
+  
+            // Check if the NEW target is also a symlink
+            const targetEntry = entries.find(e => e.path === currentPath);
+            if (targetEntry?.isSymlink) {
+              if (seenInChain.has(currentPath)) {
+                console.warn(`SnapshotBuilder.build: circular symlink detected at ${currentPath} in ${unit.sha}`);
+                filePath = "";
+                break;
+              }
+              seenInChain.add(currentPath);
+              // Continue loop to resolve next link in chain
+            } else {
+              // Reached a real file
               break;
             }
-            seenInChain.add(currentPath);
-            // Continue loop to resolve next link in chain
-          } else {
-            // Reached a real file
-            break;
           }
         }
-      }
-
-      // Skip if marked invalid or doesn't match pattern
-      if (!filePath || !this.pattern.matches(filePath)) {
-        continue;
-      }
-      
-      // Determine the status of this file
+  
+        // Final validation: 
+        // 1. Must have a valid path (resolution didn't fail)
+        // 2. The resolved target must ALSO match a sprite pattern (not necessarily the same code, 
+        //    but it must be an image/sprite, not a text file or Makefile).
+        //    Actually, the user said: "ignore symlink and just use real sprites".
+        //    If a symlink resolves to something that isn't a sprite (like Makefile), skip it.
+        if (!filePath || !this.isProbablySprite(filePath)) {
+          continue;
+        }
+  
+        // Determine the status of this file
       const rawStatus = unit.changesMap.get(entry.path);
       const status = this.normalizeStatus(rawStatus);
 
@@ -267,6 +293,13 @@ export class SnapshotBuilder {
     }
 
     return resolvedPaths;
+  }
+
+  /**
+   * Returns true if the file path looks like a sprite (ends in png or gif).
+   */
+  private isProbablySprite(filePath: string): boolean {
+    return /\.(png|gif)$/i.test(filePath);
   }
 
   /**

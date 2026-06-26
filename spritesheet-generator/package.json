@@ -1,0 +1,13 @@
+{
+  "name": "@freedoom-bestiary/spritesheet-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": "./src/index.ts",
+  "dependencies": {
+    "sharp": "^0.33.2"
+  },
+  "scripts": {
+    "test": "bun test tests/",
+    "generate": "bun run src/index.ts"
+  }
+}

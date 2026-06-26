@@ -1,4 +1,4 @@
-import { assertEquals, assertExists } from "@std/assert";
+import { expect, test } from "bun:test";
 import type {
   CharacterVersions,
   CommitSnapshot,
@@ -17,20 +17,20 @@ import {
   TEST_COMMIT_MESSAGE,
 } from "./mocks.ts";
 
-Deno.test("VersionCombiner - constructor should store code", () => {
+test("VersionCombiner - constructor should store code", () => {
   const combiner = createMockVersionCombiner("POSS");
-  assertEquals(combiner.code, "POSS");
+  expect(combiner.code).toBe("POSS");
 });
 
-Deno.test("VersionCombiner - combine should handle empty inputs", () => {
+test("VersionCombiner - combine should handle empty inputs", () => {
   const combiner = createMockVersionCombiner("POSS");
   const result = combiner.combine([], []);
 
-  assertEquals(result.code, "POSS");
-  assertEquals(result.spriteVersions.length, 0);
+  expect(result.code).toBe("POSS");
+  expect(result.spriteVersions.length).toBe(0);
 });
 
-Deno.test("VersionCombiner - combine should create version from freedoom only", () => {
+test("VersionCombiner - combine should create version from freedoom only", () => {
   const combiner = createMockVersionCombiner("POSS");
   const freedomSnapshots = [
     createMockCommitSnapshot("sha1", "2024-01-15T10:00:00Z", "freedoom", [
@@ -45,13 +45,13 @@ Deno.test("VersionCombiner - combine should create version from freedoom only", 
 
   const result = combiner.combine(freedomSnapshots, []);
 
-  assertEquals(result.spriteVersions.length, 1);
-  assertEquals(result.spriteVersions[0].commitSource, "freedoom");
-  assertEquals(result.spriteVersions[0].sprites.length, 1);
-  assertEquals(result.spriteVersions[0].sprites[0].spriteState, "new");
+  expect(result.spriteVersions.length).toBe(1);
+  expect(result.spriteVersions[0].commitSource).toBe("freedoom");
+  expect(result.spriteVersions[0].sprites.length).toBe(1);
+  expect(result.spriteVersions[0].sprites[0].spriteState).toBe("new");
 });
 
-Deno.test("VersionCombiner - combine should create version from attic only", () => {
+test("VersionCombiner - combine should create version from attic only", () => {
   const combiner = createMockVersionCombiner("POSS");
   const atticSnapshots = [
     createMockCommitSnapshot("sha2", "2024-01-15T11:00:00Z", "attic", [
@@ -66,11 +66,11 @@ Deno.test("VersionCombiner - combine should create version from attic only", () 
 
   const result = combiner.combine([], atticSnapshots);
 
-  assertEquals(result.spriteVersions.length, 1);
-  assertEquals(result.spriteVersions[0].commitSource, "attic");
+  expect(result.spriteVersions.length).toBe(1);
+  expect(result.spriteVersions[0].commitSource).toBe("attic");
 });
 
-Deno.test("VersionCombiner - combine should merge chronologically", () => {
+test("VersionCombiner - combine should merge chronologically", () => {
   const combiner = createMockVersionCombiner("POSS");
 
   const freedomSnapshots = [
@@ -97,12 +97,12 @@ Deno.test("VersionCombiner - combine should merge chronologically", () => {
 
   const result = combiner.combine(freedomSnapshots, atticSnapshots);
 
-  assertEquals(result.spriteVersions.length, 2);
-  assertEquals(result.spriteVersions[0].commitSource, "attic");
-  assertEquals(result.spriteVersions[1].commitSource, "freedoom");
+  expect(result.spriteVersions.length).toBe(2);
+  expect(result.spriteVersions[0].commitSource).toBe("attic");
+  expect(result.spriteVersions[1].commitSource).toBe("freedoom");
 });
 
-Deno.test("VersionCombiner - mergeAndSort should sort chronologically", () => {
+test("VersionCombiner - mergeAndSort should sort chronologically", () => {
   const combiner = createMockVersionCombiner("POSS");
 
   const a = createMockCommitSnapshot(
@@ -124,27 +124,27 @@ Deno.test("VersionCombiner - mergeAndSort should sort chronologically", () => {
     [],
   );
 
-  const sorted = combiner.mergeAndSort([a], [b, c]);
+  const sorted = (combiner as any).mergeAndSort([a], [b, c]);
 
-  assertEquals(sorted[0].commitSha, "sha2");
-  assertEquals(sorted[1].commitSha, "sha3");
-  assertEquals(sorted[2].commitSha, "sha1");
+  expect(sorted[0].commitSha).toBe("sha2");
+  expect(sorted[1].commitSha).toBe("sha3");
+  expect(sorted[2].commitSha).toBe("sha1");
 });
 
-Deno.test("VersionCombiner - deriveSpriteState should detect new sprites", () => {
+test("VersionCombiner - deriveSpriteState should detect new sprites", () => {
   const combiner = createMockVersionCombiner("POSS");
   const frameState = new Map<string, SpriteEntry>();
 
-  const state = combiner.deriveSpriteState(
+  const state = (combiner as any).deriveSpriteState(
     "a1",
     "http://example.com/1",
     frameState,
   );
 
-  assertEquals(state, "new");
+  expect(state).toBe("new");
 });
 
-Deno.test("VersionCombiner - deriveSpriteState should detect updates", () => {
+test("VersionCombiner - deriveSpriteState should detect updates", () => {
   const combiner = createMockVersionCombiner("POSS");
   const frameState = new Map<string, SpriteEntry>([
     ["a1", {
@@ -155,16 +155,16 @@ Deno.test("VersionCombiner - deriveSpriteState should detect updates", () => {
     }],
   ]);
 
-  const state = combiner.deriveSpriteState(
+  const state = (combiner as any).deriveSpriteState(
     "a1",
     "http://example.com/new",
     frameState,
   );
 
-  assertEquals(state, "updated");
+  expect(state).toBe("updated");
 });
 
-Deno.test("VersionCombiner - deriveSpriteState should detect unchanged", () => {
+test("VersionCombiner - deriveSpriteState should detect unchanged", () => {
   const combiner = createMockVersionCombiner("POSS");
   const frameState = new Map<string, SpriteEntry>([
     ["a1", {
@@ -175,16 +175,16 @@ Deno.test("VersionCombiner - deriveSpriteState should detect unchanged", () => {
     }],
   ]);
 
-  const state = combiner.deriveSpriteState(
+  const state = (combiner as any).deriveSpriteState(
     "a1",
     "http://example.com/same",
     frameState,
   );
 
-  assertEquals(state, "unchanged");
+  expect(state).toBe("unchanged");
 });
 
-Deno.test("VersionCombiner - buildVersionSnapshot should filter sprites by source", () => {
+test("VersionCombiner - buildVersionSnapshot should filter sprites by source", () => {
   const combiner = new VersionCombiner("POSS");
   const frameState = new Map<string, SpriteEntry>([
     ["a1", {
@@ -204,19 +204,19 @@ Deno.test("VersionCombiner - buildVersionSnapshot should filter sprites by sourc
   ]);
 
   const snapshotFreedoom = createMockCommitSnapshot("sha1", "2024-01-15T10:00:00Z", "freedoom", []);
-  const versionFreedoom = combiner.buildVersionSnapshot(snapshotFreedoom, frameState);
+  const versionFreedoom = (combiner as any).buildVersionSnapshot(snapshotFreedoom, frameState);
 
-  assertEquals(versionFreedoom.sprites.length, 1);
-  assertEquals(versionFreedoom.sprites[0].url, "http://example.com/freedoom/1");
+  expect(versionFreedoom.sprites.length).toBe(1);
+  expect(versionFreedoom.sprites[0].url).toBe("http://example.com/freedoom/1");
 
   const snapshotAttic = createMockCommitSnapshot("sha2", "2024-01-15T11:00:00Z", "attic", []);
-  const versionAttic = combiner.buildVersionSnapshot(snapshotAttic, frameState);
+  const versionAttic = (combiner as any).buildVersionSnapshot(snapshotAttic, frameState);
 
-  assertEquals(versionAttic.sprites.length, 1);
-  assertEquals(versionAttic.sprites[0].url, "http://example.com/attic/1");
+  expect(versionAttic.sprites.length).toBe(1);
+  expect(versionAttic.sprites[0].url).toBe("http://example.com/attic/1");
 });
 
-Deno.test("VersionCombiner - applySnapshot should prefer updated/new over unchanged when conflicting", () => {
+test("VersionCombiner - applySnapshot should prefer updated/new over unchanged when conflicting", () => {
   const combiner = new VersionCombiner("POSS");
   const frameState = new Map<string, SpriteEntry>([
     ["a1", {
@@ -243,10 +243,10 @@ Deno.test("VersionCombiner - applySnapshot should prefer updated/new over unchan
     },
   ]);
 
-  combiner.applySnapshot(snapshot, frameState);
+  (combiner as any).applySnapshot(snapshot, frameState);
 
   const winner = frameState.get("a1");
-  assertExists(winner);
-  assertEquals(winner.name, "POSSA1_new.png");
-  assertEquals(winner.spriteState, "updated");
+  expect(winner).toBeDefined();
+  expect(winner!.name).toBe("POSSA1_new.png");
+  expect(winner!.spriteState).toBe("updated");
 });

@@ -1,9 +1,11 @@
-import { ensureDir } from "@std/fs";
-import { basename, join, resolve } from "@std/path";
+import { mkdir, readdir, readFile, rename, stat, writeFile } from "node:fs/promises";
+import { existsSync, readFileSync, statSync } from "node:fs";
+import { basename, join, resolve } from "node:path";
 import {
   buildGridLayout,
   buildSpritesheetMetadata,
   computeSpritesheetDimensions,
+  createSpritesheet,
   type PaddedCell,
 } from "./create-spritesheet.ts";
 import { bareRepoMap } from "./get-image.ts";
@@ -12,6 +14,7 @@ import { measureImage } from "./image-size.ts";
 import { ensureMirrored } from "./mirrors.ts";
 import { extractGridCells } from "./parse-sprites.ts";
 import type { SpritesheetCollection, Version, VersionEntry } from "./types.ts";
+import sharp from "sharp";
 
 /**
  * Configuration for the runtime environment.
@@ -62,17 +65,11 @@ export function defaultConfig(): RuntimeConfig {
 export function findRepoRoot(start: string): string {
   let dir = start;
   while (true) {
-    try {
-      Deno.statSync(join(dir, "AGENTS.md"));
+    if (existsSync(join(dir, "AGENTS.md"))) {
       return dir;
-    } catch {
-      // not found at this level
     }
-    try {
-      Deno.statSync(join(dir, "deno.json"));
+    if (existsSync(join(dir, "deno.json"))) {
       return dir;
-    } catch {
-      // not found at this level
     }
     const parent = join(dir, "..");
     if (parent === dir) break;
@@ -87,7 +84,7 @@ export function findRepoRoot(start: string): string {
  * @returns A RuntimeConfig object with resolved paths
  */
 export function resolveConfig(): RuntimeConfig {
-  const repoRoot = findRepoRoot(Deno.cwd());
+  const repoRoot = findRepoRoot(process.cwd());
   return {
     ...defaultConfig(),
     repoRoot,
@@ -124,27 +121,29 @@ export async function readInputTargets(
   const arg = args.find((a) => a !== "--");
   const basePath = arg ? resolve(config.repoRoot, arg) : config.versionsDir;
 
-  let stat: Deno.FileInfo;
+  let s;
   try {
-    stat = await Deno.stat(basePath);
+    s = await stat(basePath);
   } catch {
     throw new Error(`Input path ${basePath} does not exist`);
   }
 
-  if (stat.isDirectory) {
+  if (s.isDirectory()) {
     const targets: InputTarget[] = [];
-    for await (const entry of Deno.readDir(basePath)) {
-      if (!entry.isFile || !entry.name.endsWith(".json")) continue;
+    const entries = await readdir(basePath, { withFileTypes: true });
+    for (const entry of entries) {
+      if (!entry.isFile() || !entry.name.endsWith(".json")) continue;
       const path = join(basePath, entry.name);
-      const raw = await Deno.readTextFile(path);
+      const raw = await readFile(path, "utf-8");
       const parsed = JSON.parse(raw);
-      if (!parsed || !Array.isArray(parsed.spriteVersions)) {
+      const rawVersions = Array.isArray(parsed) ? parsed : parsed.spriteVersions;
+      if (!Array.isArray(rawVersions)) {
         throw new Error(
-          `Unsupported JSON format in ${path}: expected object with "spriteVersions" array`,
+          `Unsupported JSON format in ${path}: expected array or object with "spriteVersions" array`,
         );
       }
       // Map historical-parser shape -> Version shape expected by this tool
-      const versions = (parsed.spriteVersions as any[])
+      const versions = (rawVersions as any[])
         .map((sv) => ({
           date: sv.commitDate ?? sv.date ?? "",
           sha: sv.commitSha ?? sv.sha ?? "",
@@ -162,7 +161,9 @@ export async function readInputTargets(
             : sv.files ?? [],
         }))
       .filter((v) => {
-        const hasRealChanges = v.files.some((f: any) => f.spriteState === "new" || f.spriteState === "updated");
+        // In some JSON files spriteState might be missing, so we should be lenient 
+        // if the user explicitly pointed to a file or if we want a full refresh
+        const hasRealChanges = v.files.some((f: any) => !f.spriteState || f.spriteState === "new" || f.spriteState === "updated");
         return hasRealChanges;
       }) as Version[];
 
@@ -171,20 +172,21 @@ export async function readInputTargets(
     return targets;
   }
 
-  if (stat.isFile) {
+  if (s.isFile()) {
     if (!basePath.endsWith(".json")) {
       throw new Error(
         `Input path ${basePath} is not a .json file or directory`,
       );
     }
-    const raw = await Deno.readTextFile(basePath);
+    const raw = await readFile(basePath, "utf-8");
     const parsed = JSON.parse(raw);
-    if (!parsed || !Array.isArray(parsed.spriteVersions)) {
+    const rawVersions = Array.isArray(parsed) ? parsed : parsed.spriteVersions;
+    if (!Array.isArray(rawVersions)) {
       throw new Error(
-        `Unsupported JSON format in ${basePath}: expected object with "spriteVersions" array`,
+        `Unsupported JSON format in ${basePath}: expected array or object with "spriteVersions" array`,
       );
     }
-    const versions = (parsed.spriteVersions as any[])
+    const versions = (rawVersions as any[])
       .map((sv) => ({
         date: sv.commitDate ?? sv.date ?? "",
         sha: sv.commitSha ?? sv.sha ?? "",
@@ -224,7 +226,7 @@ export async function loadCollection(
 ): Promise<SpritesheetCollection> {
   const indexPath = join(config.outputDir, config.indexFileName);
   try {
-    const raw = await Deno.readTextFile(indexPath);
+    const raw = await readFile(indexPath, "utf-8");
     return JSON.parse(raw) as SpritesheetCollection;
   } catch {
     return {};
@@ -242,11 +244,11 @@ export async function writeCollection(
   config: RuntimeConfig,
   collection: SpritesheetCollection,
 ): Promise<void> {
-  await ensureDir(config.outputDir);
+  await mkdir(config.outputDir, { recursive: true });
   const indexPath = join(config.outputDir, config.indexFileName);
   const tmpPath = `${indexPath}.tmp`;
-  await Deno.writeTextFile(tmpPath, JSON.stringify(collection, null, 2));
-  await Deno.rename(tmpPath, indexPath);
+  await writeFile(tmpPath, JSON.stringify(collection, null, 2));
+  await rename(tmpPath, indexPath);
 }
 
 /**
@@ -265,28 +267,7 @@ export function chunk<T>(arr: T[], size: number): T[][] {
 }
 
 /**
- * Executes an ImageMagick command.
- * 
- * @param args - Arguments to pass to the ImageMagick command
- * @returns A promise that resolves when the command completes
- * @throws Error if the ImageMagick command fails
- */
-async function runMagick(args: string[]): Promise<void> {
-  const cmd = new Deno.Command("magick", {
-    args,
-    stdout: "piped",
-    stderr: "piped",
-  });
-  const { success, stderr } = await cmd.output();
-  if (!success) {
-    throw new Error(
-      `magick ${args[0]} failed: ${new TextDecoder().decode(stderr)}`,
-    );
-  }
-}
-
-/**
- * Ensures an image is padded to the specified dimensions.
+ * Ensures an image is padded to the specified dimensions and has transparency.
  * 
  * @param sourcePath - Path to the source image
  * @param cellW - Target width in pixels
@@ -300,69 +281,47 @@ async function ensurePadded(
 ): Promise<string> {
   const outPath = `${sourcePath}.processed.png`;
   
-  try {
-    await Deno.stat(outPath);
+  if (existsSync(outPath)) {
     return outPath;
-  } catch {
-    // not yet on disk
   }
   
   try {
-    // We always want to process the image to ensure transparency is applied
-    // even if dimensions already match. We use [0] for multi-frame images.
-    const framePath = `${sourcePath}[0]`;
-    await runMagick([
-      framePath,
-      "-fuzz",
-      "5%",
-      "-transparent",
-      "#01ffff", // Target the correct cyan background
-      "-background",
-      "none",
-      "-gravity",
-      "NorthWest",
-      "-extent",
-      `${cellW}x${cellH}`,
-      outPath,
-    ]);
-  } catch (error) {
-    // Check if ImageMagick created files with numeric suffixes (can happen with some formats)
-    const dir = sourcePath.substring(0, sourcePath.lastIndexOf('/'));
-    const fileName = sourcePath.substring(sourcePath.lastIndexOf('/') + 1);
+    const image = sharp(sourcePath);
+    const { data, info } = await image.ensureAlpha().raw().toBuffer({ resolveWithObject: true });
     
-    try {
-      // Look for files with numeric suffixes
-      const pattern = `${fileName}.processed-*.png`;
-      const cmd = new Deno.Command("bash", {
-        args: ["-c", `ls ${dir}/${pattern} 2>/dev/null | head -1`],
-        stdout: "piped",
-        stderr: "piped",
-      });
-      const { success, stdout } = await cmd.output();
-      if (success) {
-        const outputFile = new TextDecoder().decode(stdout).trim();
-        if (outputFile.length > 0) {
-          const data = await Deno.readFile(outputFile);
-          await Deno.writeFile(outPath, data);
-          return outPath;
-        }
+    // Process transparency for cyan background (#01ffff)
+    for (let i = 0; i < data.length; i += 4) {
+      const r = data[i];
+      const g = data[i+1];
+      const b = data[i+2];
+      
+      // Match #01ffff with approx 5% fuzz
+      if (r <= 15 && g >= 240 && b >= 240) {
+        data[i+3] = 0;
       }
-    } catch (_lsError) {
-      // Ignore ls errors
     }
     
-    // If ImageMagick fails, create a simple fallback image
+    await sharp(data, { raw: { width: info.width, height: info.height, channels: 4 } })
+      .extend({
+        top: 0,
+        left: 0,
+        bottom: Math.max(0, cellH - info.height),
+        right: Math.max(0, cellW - info.width),
+        background: { r: 0, g: 0, b: 0, alpha: 0 }
+      })
+      .png()
+      .toFile(outPath);
+      
+    return outPath;
+  } catch (error) {
     console.warn(`Failed to process image ${sourcePath}, creating fallback: ${(error as Error).message}`);
-    // Create a simple 1x1 transparent PNG as fallback
-    const fallbackPng = Uint8Array.from(
-      atob(
-        "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQAAAAA3bvkkAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACdFJOUwAAdpPNOAAAAAJiS0dEAAHdihOkAAAAB3RJTUUH6gYXDjgtYVvFRgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNi0yM1QxNDo1Njo0NSswMDowMOnIZewAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDYtMjNUMTQ6NTY6NDUrMDA6MDCYld1QAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA2LTIzVDE0OjU2OjQ1KzAwOjAwz4D8jwAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=",
-      ),
-      (c) => c.charCodeAt(0),
+    const fallbackPng = Buffer.from(
+      "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQAAAAA3bvkkAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACdFJOUwAAdpPNOAAAAAJiS0dEAAHdihOkAAAAB3RJTUUH6gYXDjgtYVvFRgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNi0yM1QxNDo1Njo0NSswMDowMOnIZewAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDYtMjNUMTQ6NTY6NDUrMDA6MDCYld1QAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA2LTIzVDE0OjU2OjQ1KzAwOjAwz4D8jwAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=",
+      "base64"
     );
-    await Deno.writeFile(outPath, fallbackPng);
+    await writeFile(outPath, fallbackPng);
+    return outPath;
   }
-  return outPath;
 }
 
 /**
@@ -390,13 +349,13 @@ async function fetchAndMeasureVersion(
   const layout = buildGridLayout(cells);
 
   const cacheShaDir = join(config.outputDir, config.cacheDirName, version.sha);
-  await ensureDir(cacheShaDir);
+  await mkdir(cacheShaDir, { recursive: true });
 
   const fileJobs = version.files.map(async (file) => {
     const baseName = file.name;
     const cachedPath = join(cacheShaDir, baseName);
     try {
-      await Deno.stat(cachedPath);
+      await stat(cachedPath);
     } catch {
       const image = await loadSpriteImage(file.url, {
         "freedoom/freedoom": config.bareRepos["freedoom/freedoom"] ?? "",
@@ -408,11 +367,11 @@ async function fetchAndMeasureVersion(
       }
       // Ensure parent directory exists (file.name may include subdirectories)
       try {
-        await ensureDir(cachedPath.substring(0, cachedPath.lastIndexOf('/')));
+        await mkdir(cachedPath.substring(0, cachedPath.lastIndexOf('/')), { recursive: true });
       } catch {
         // ignore
       }
-      await Deno.writeFile(cachedPath, image.data);
+      await writeFile(cachedPath, image.data);
     }
     return { file, cachedPath };
   });
@@ -490,29 +449,17 @@ export async function buildOneSheet(
   if (width === 0 || height === 0) return null;
 
   const sheetDir = join(config.outputDir, config.sheetDirName, code);
-  await ensureDir(sheetDir);
+  await mkdir(sheetDir, { recursive: true });
   const shortSha = version.sha.slice(0, 7);
   const outPath = join(sheetDir, `${shortSha}.webp`);
 
-  const layerArgs: string[] = ["-size", `${width}x${height}`, "xc:transparent"];
-  for (const frame of layout.frames) {
-    for (const angle of layout.angles) {
-      const key = `${frame}_${angle}`;
-      const cell = padded.get(key);
-      if (!cell) continue;
-      const x = layout.frames.indexOf(frame) * cellW;
-      const y = layout.angles.indexOf(angle) * cellH;
-      layerArgs.push(cell.path, "-geometry", `+${x}+${y}`, "-composite");
-    }
-  }
-  layerArgs.push(
-    "-background",
-    "none",
-    "-define",
-    "webp:lossless=true",
-    outPath,
-  );
-  await runMagick(layerArgs);
+  await createSpritesheet(layout, cellW, cellH, outPath, {
+    layout,
+    cellW,
+    cellH,
+    paddedPaths: padded,
+    outputPath: outPath,
+  });
 
   const relPath = join(config.sheetDirName, code, `${shortSha}.webp`);
   return buildSpritesheetMetadata(
@@ -542,8 +489,8 @@ export async function runWithConfig(
   for (const target of targets) {
     for (const version of target.versions) {
       const code = target.code;
-      const existing = collection[code] ?? [];
-      if (existing.some((e) => e.sha === version.sha)) continue;
+      // const existing = collection[code] ?? [];
+      // if (existing.some((e) => e.sha === version.sha)) continue;
 
       console.log(`[${code} @ ${version.sha.slice(0, 7)}] building...`);
       // Force regeneration by deleting existing entry in index if we are here (manual override mode or bug fix run)
@@ -559,7 +506,13 @@ export async function runWithConfig(
       }
 
       if (!collection[code]) collection[code] = [];
-      collection[code].push(entry);
+      // Replace existing entry if it exists, otherwise push
+      const existingIdx = collection[code].findIndex(e => e.sha === version.sha);
+      if (existingIdx >= 0) {
+        collection[code][existingIdx] = entry;
+      } else {
+        collection[code].push(entry);
+      }
       appended++;
     }
   }
@@ -575,7 +528,7 @@ export async function runWithConfig(
  */
 export async function main() {
   const config = resolveConfig();
-  const args = Deno.args;
+  const args = Bun.argv.slice(2);
   const targets = await readInputTargets(config, args);
   const { appended } = await runWithConfig(config, targets);
   if (appended > 0) {
@@ -585,6 +538,6 @@ export async function main() {
   }
 }
 
-if (import.meta.main) {
+if (import.meta.main || (typeof process !== "undefined" && process.argv[1] === Bun.main)) {
   await main();
 }

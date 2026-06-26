@@ -1,4 +1,4 @@
-import { join } from "@std/path";
+import { join } from "node:path";
 import type { BlobRef } from "./types.ts";
 
 const BLOB_URL_RE =
@@ -38,15 +38,15 @@ export function buildRawUrl(blobUrl: string): string {
  */
 async function runGit(args: string[], cwd: string): Promise<Uint8Array | null> {
 	try {
-		const cmd = new Deno.Command("git", {
-			args,
+		const proc = Bun.spawn(["git", ...args], {
 			cwd,
-			stdout: "piped",
-			stderr: "piped",
+			stdout: "pipe",
+			stderr: "pipe",
 		});
-		const { success, stdout } = await cmd.output();
+		const stdout = await Bun.readableStreamToBytes(proc.stdout);
+		const success = (await proc.exited) === 0;
 		if (!success) return null;
-		return new Uint8Array(stdout);
+		return stdout;
 	} catch {
 		return null;
 	}
@@ -54,6 +54,7 @@ async function runGit(args: string[], cwd: string): Promise<Uint8Array | null> {
 
 /**
  * Reads a blob from a Git repository.
+ * Detects if the blob is a symlink and resolves it if so.
  * 
  * @param bareRepoPath - The path to the bare Git repository
  * @param sha - The commit SHA
@@ -65,7 +66,26 @@ export async function readGitBlob(
 	sha: string,
 	path: string,
 ): Promise<Uint8Array | null> {
-	return await runGit(["show", `${sha}:${path}`], bareRepoPath);
+	const data = await runGit(["show", `${sha}:${path}`], bareRepoPath);
+  if (!data || data.length === 0) return null;
+
+  // Symlink detection: if it's small, no null bytes, and looks like a path
+  if (data.length < 512 && !data.some(b => b === 0)) {
+    const text = new TextDecoder().decode(data).trim();
+    // Matches relative paths like "../foo.png", "bar/baz.gif", or "plain.png"
+    if (/^[a-zA-Z0-9_./-]+\.(png|gif)$/i.test(text)) {
+      const dir = path.includes("/") ? path.slice(0, path.lastIndexOf("/")) : "";
+      const resolvedPath = dir ? `${dir}/${text}` : text;
+      
+      // Simple one-level resolution for now
+      const resolvedData = await runGit(["show", `${sha}:${resolvedPath}`], bareRepoPath);
+      if (resolvedData && resolvedData.length > 0) {
+        return resolvedData;
+      }
+    }
+  }
+
+  return data;
 }
 
 /**
@@ -137,7 +157,7 @@ export async function loadSpriteImage(
  */
 export function bareRepoMap(repoRoot: string): BareRepoMap {
 	return {
-		"freedoom/freedoom": join(repoRoot, "src", "freedoom.git"),
-		"freedoom/attic": join(repoRoot, "src", "attic.git"),
+		"freedoom/freedoom": join(repoRoot, "historical-parser", "src", "freedoom.git"),
+		"freedoom/attic": join(repoRoot, "historical-parser", "src", "attic.git"),
 	};
 }

@@ -1,4 +1,4 @@
-import { assertEquals, assertExists } from "@std/assert";
+import { expect, test } from "bun:test";
 import type {
   CommitSnapshot,
   CommitSource,
@@ -20,7 +20,7 @@ import {
   createMockTreeEntry,
 } from "./mocks.ts";
 
-Deno.test("SnapshotBuilder - should build snapshot from scan unit", async () => {
+test("SnapshotBuilder - should build snapshot from scan unit", async () => {
   const entries = [
     createMockTreeEntry("sprites/possa1.png"),
     createMockTreeEntry("sprites/possa2a8.png"),
@@ -51,14 +51,14 @@ Deno.test("SnapshotBuilder - should build snapshot from scan unit", async () => 
 
   const snapshot = await builder.build(unit, "freedoom");
 
-  assertExists(snapshot);
-  assertEquals(snapshot!.commitSha, "abc123");
-  assertEquals(snapshot!.commitAuthor, "John Doe");
-  assertEquals(snapshot!.commitSource, "freedoom");
-  assertEquals(snapshot!.commitSprites.length, 2);
+  expect(snapshot).toBeDefined();
+  expect(snapshot!.commitSha).toBe("abc123");
+  expect(snapshot!.commitAuthor).toBe("John Doe");
+  expect(snapshot!.commitSource).toBe("freedoom");
+  expect(snapshot!.commitSprites.length).toBe(2);
 });
 
-Deno.test("SnapshotBuilder - should return null when no sprites match", async () => {
+test("SnapshotBuilder - should return null when no sprites match", async () => {
   const entries = [
     createMockTreeEntry("README.md"),
     createMockTreeEntry("docs/guide.md"),
@@ -84,10 +84,10 @@ Deno.test("SnapshotBuilder - should return null when no sprites match", async ()
 
   const snapshot = await builder.build(unit, "freedoom");
 
-  assertEquals(snapshot, null);
+  expect(snapshot).toBe(null);
 });
 
-Deno.test("SnapshotBuilder - should filter sprites by pattern", async () => {
+test("SnapshotBuilder - should filter sprites by pattern", async () => {
   const entries = [
     createMockTreeEntry("sprites/possa1.png"),
     createMockTreeEntry("sprites/cybra1.png"),
@@ -119,13 +119,13 @@ Deno.test("SnapshotBuilder - should filter sprites by pattern", async () => {
 
   const snapshot = await builder.build(unit, "freedoom");
 
-  assertExists(snapshot);
+  expect(snapshot).toBeDefined();
   // Should only include POSS sprites
-  assertEquals(snapshot!.commitSprites.length, 1);
-  assertEquals(snapshot!.commitSprites[0].filename, "sprites/possa1.png");
+  expect(snapshot!.commitSprites.length).toBe(1);
+  expect(snapshot!.commitSprites[0].filename).toBe("sprites/possa1.png");
 });
 
-Deno.test("SnapshotBuilder - should generate correct blob URLs", async () => {
+test("SnapshotBuilder - should generate correct blob URLs", async () => {
   const entries = [createMockTreeEntry("sprites/possa1.png")];
   const reader = createMockGitReader("/tmp/test.git", entries);
   const pattern = createMockSpritePattern("POSS");
@@ -148,18 +148,16 @@ Deno.test("SnapshotBuilder - should generate correct blob URLs", async () => {
 
   const snapshot = await builder.build(unit, "freedoom");
 
-  assertExists(snapshot);
-  assertEquals(
-    snapshot!.commitUrl,
+  expect(snapshot).toBeDefined();
+  expect(snapshot!.commitUrl).toBe(
     "https://github.com/freedoom/freedoom/commit/abc123def456789012345678901234567890abcd",
   );
-  assertEquals(
-    snapshot!.commitSprites[0].url,
+  expect(snapshot!.commitSprites[0].url).toBe(
     "https://github.com/freedoom/freedoom/blob/abc123def456789012345678901234567890abcd/sprites/possa1.png",
   );
 });
 
-Deno.test("SnapshotBuilder - should normalize file statuses correctly", () => {
+test("SnapshotBuilder - should normalize file statuses correctly", () => {
   // Test the normalizeStatus logic directly since it's not exposed in the mock
   const normalizeStatus = (rawStatus: string | undefined): FileStatus => {
     if (!rawStatus) return "Existing";
@@ -170,16 +168,16 @@ Deno.test("SnapshotBuilder - should normalize file statuses correctly", () => {
     return "Existing";
   };
 
-  assertEquals(normalizeStatus("A"), "A");
-  assertEquals(normalizeStatus("M"), "M");
-  assertEquals(normalizeStatus("T"), "T");
-  assertEquals(normalizeStatus("R100"), "R100");
-  assertEquals(normalizeStatus("R098"), "R100");
-  assertEquals(normalizeStatus(undefined), "Existing");
-  assertEquals(normalizeStatus("D"), "Existing"); // Deleted is skipped, shouldn't appear
+  expect(normalizeStatus("A")).toBe("A");
+  expect(normalizeStatus("M")).toBe("M");
+  expect(normalizeStatus("T")).toBe("T");
+  expect(normalizeStatus("R100")).toBe("R100");
+  expect(normalizeStatus("R098")).toBe("R100");
+  expect(normalizeStatus(undefined)).toBe("Existing");
+  expect(normalizeStatus("D")).toBe("Existing"); // Deleted is skipped, shouldn't appear
 });
 
-Deno.test("SnapshotBuilder - should handle attic-style with folder", async () => {
+test("SnapshotBuilder - should handle attic-style with folder", async () => {
   const entries = [
     createMockTreeEntry("sprites/johndoe/possa1.png"),
     createMockTreeEntry("sprites/johndoe/possa2.png"),
@@ -209,12 +207,12 @@ Deno.test("SnapshotBuilder - should handle attic-style with folder", async () =>
 
   const snapshot = await builder.build(unit, "attic");
 
-  assertExists(snapshot);
-  assertEquals(snapshot!.commitSource, "attic");
-  assertEquals(snapshot!.commitSprites.length, 2);
+  expect(snapshot).toBeDefined();
+  expect(snapshot!.commitSource).toBe("attic");
+  expect(snapshot!.commitSprites.length).toBe(2);
 });
 
-Deno.test("SnapshotBuilder - should resolve symlinks when followSymlinks is true", async () => {
+test("SnapshotBuilder - should resolve symlinks when followSymlinks is true", async () => {
   const entries = [
     createMockTreeEntry("sprites/possa1.png", "120000", "symlinkHash"),
   ];
@@ -243,5 +241,5 @@ Deno.test("SnapshotBuilder - should resolve symlinks when followSymlinks is true
 
   const snapshot = await builder.build(unit, "freedoom");
 
-  assertExists(snapshot);
+  expect(snapshot).toBeDefined();
 });

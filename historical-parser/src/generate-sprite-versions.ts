@@ -1,8 +1,13 @@
 // Run with: deno run --allow-read --allow-write generate-sprite-versions.ts
 
-const REPO_ROOT = new URL("./", import.meta.url).pathname;
-const INPUT_DIR = `${REPO_ROOT}sprites`;
-const OUTPUT_DIR = `${REPO_ROOT}sprite-versions`;
+import { mkdir, readdir } from "node:fs/promises";
+import { join } from "node:path";
+
+const REPO_ROOT = join(import.meta.dir, "..");
+const INPUT_DIR = join(REPO_ROOT, "sprites");
+const OUTPUT_DIR = join(REPO_ROOT, "sprite-versions");
+
+// ... (types and helper functions)
 
 interface FileEntry {
   path: string;
@@ -144,38 +149,38 @@ function buildVersions(code: string, commits: CommitEntry[]): Version[] {
 }
 
 async function main() {
-  const inputDir = new URL(INPUT_DIR, import.meta.url).pathname;
-  const outputDir = new URL(OUTPUT_DIR, import.meta.url).pathname;
+  const inputDir = INPUT_DIR;
+  const outputDir = OUTPUT_DIR;
 
   try {
-    await Deno.mkdir(outputDir, { recursive: true });
+    await mkdir(outputDir, { recursive: true });
   } catch (_) {
     // already exists
   }
 
   let entries: string[];
   try {
-    entries = [];
-    for await (const e of Deno.readDir(inputDir)) {
-      if (e.isFile && e.name.endsWith(".json")) entries.push(e.name);
-    }
+    const dirEntries = await readdir(inputDir, { withFileTypes: true });
+    entries = dirEntries
+      .filter(e => e.isFile() && e.name.endsWith(".json"))
+      .map(e => e.name);
   } catch (err) {
     console.error(`Cannot read ${inputDir}:`, err);
-    Deno.exit(1);
+    process.exit(1);
   }
 
   entries.sort();
 
   for (const name of entries) {
     const code = name.replace(/\.json$/, "");
-    const inputPath = `${inputDir}/${name}`;
-    const outputPath = `${outputDir}/${code}.json`;
+    const inputPath = join(inputDir, name);
+    const outputPath = join(outputDir, `${code}.json`);
 
-    const raw = await Deno.readTextFile(inputPath);
+    const raw = await Bun.file(inputPath).text();
     const commits: CommitEntry[] = JSON.parse(raw);
     const versions = buildVersions(code, commits);
 
-    await Deno.writeTextFile(outputPath, JSON.stringify(versions, null, 2));
+    await Bun.write(outputPath, JSON.stringify(versions, null, 2));
     console.log(
       `${code}: ${commits.length} commits -> ${versions.length} versions`,
     );

@@ -1,0 +1,21 @@
+{
+  "name": "freedoom-bestiary",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "workspaces": [
+    "historical-parser",
+    "spritesheet-generator",
+    "web"
+  ],
+  "scripts": {
+    "test": "bun test",
+    "dev": "bun run --hot main.ts",
+    "gen-spritesheets": "bun run spritesheet-generator/src/index.ts"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3",
+    "@types/node": "^26.0.1",
+    "bun-types": "^1.3.14"
+  }
+}

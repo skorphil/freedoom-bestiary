@@ -4,14 +4,15 @@ export { VersionCombiner } from "./VersionCombiner.ts";
 // Re-export types useful to consumers
 export type { CommitSnapshot, CharacterVersions } from "./types.ts";
 
-import { join } from "@std/path";
+import { join } from "node:path";
 import { FreedomParser, AtticParser } from "./BaseParser.ts";
 import { VersionCombiner as Combiner } from "./VersionCombiner.ts";
+import { rename, mkdir, lstat, readFile, writeFile } from "node:fs/promises";
 
 async function loadCodesFromSpritesJson(): Promise<string[]> {
-  const spritesPath = join("./", "sprites.json");
+  const spritesPath = join(import.meta.dir, "sprites.json");
   try {
-    const raw = await Deno.readTextFile(spritesPath);
+    const raw = await readFile(spritesPath, "utf-8");
     const list = JSON.parse(raw) as Array<{ sprite?: string }>;
     const codes = new Set<string>();
     for (const item of list) {
@@ -79,8 +80,8 @@ export async function runAll(opts: RunOptions = {}) {
     // write helper
     async function writeJsonAtomic(path: string, data: unknown) {
       const tmp = path + ".tmp";
-      await Deno.writeTextFile(tmp, JSON.stringify(data, null, 2));
-      await Deno.rename(tmp, path);
+      await writeFile(tmp, JSON.stringify(data, null, 2));
+      await rename(tmp, path);
     }
 
     console.debug("runAll: writing freedoomPath:", freedoomPath);
@@ -90,10 +91,10 @@ export async function runAll(opts: RunOptions = {}) {
 
     // per-code versions
     try {
-      await Deno.lstat(versionsDir);
-    } catch (e) {
-      if (e instanceof Deno.errors.NotFound) {
-        await Deno.mkdir(versionsDir, { recursive: true });
+      await lstat(versionsDir);
+    } catch (e: any) {
+      if (e.code === "ENOENT") {
+        await mkdir(versionsDir, { recursive: true });
       } else throw e;
     }
 
@@ -112,8 +113,9 @@ export async function runAll(opts: RunOptions = {}) {
 if (import.meta.main) {
   // simple CLI parsing
   const args = new Map<string, string | boolean>();
-  for (let i = 0; i < Deno.args.length; i++) {
-    const a = Deno.args[i];
+  const rawArgs = process.argv.slice(2);
+  for (let i = 0; i < rawArgs.length; i++) {
+    const a = rawArgs[i];
     if (a === "--write") args.set("write", true);
     else if (a.startsWith("--codes=")) args.set("codes", a.split("=")[1]);
     else if (a.startsWith("--freedoom-repo=")) args.set("freedoomRepo", a.split("=")[1]);
@@ -134,6 +136,6 @@ if (import.meta.main) {
     if (!Boolean(args.get("write"))) console.log("Dry-run: no files were written. Pass --write to persist JSON files.");
   }).catch((err) => {
     console.error(err);
-    Deno.exit(1);
+    process.exit(1);
   });
 }

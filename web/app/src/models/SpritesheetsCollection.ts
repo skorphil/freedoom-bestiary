@@ -1,0 +1,80 @@
+import { SpriteCode, SpritesheetsData } from "./schema.ts";
+import { spritesheets } from "../adapters/spritesheetAdapter.ts";
+
+type SpritesheetVersion = SpritesheetsData[SpriteCode][number];
+
+/** Model for interacting with the collection of spritesheets and their evolution history */
+export class SpriteCollection {
+  constructor(private data: SpritesheetsData) {}
+
+  /** Returns all available character codes */
+  getAllCodes(): SpriteCode[] {
+    return Object.keys(this.data) as SpriteCode[];
+  }
+
+  /** Gets the full evolution history for a specific character code */
+  getHistory(code: string): SpritesheetVersion[] {
+    const key = this.#getNormalizedKey(code);
+    return key ? this.data[key as SpriteCode] : [];
+  }
+
+  /** Gets the latest version (first in history) for a specific character code */
+  getLatest(code: string): SpritesheetVersion | undefined {
+    const history = this.getHistory(code);
+    if (history.length > 0) return history[0];
+
+    throw Error("No spritesheet versions found");
+  }
+
+  /** Gets the original version (last in history) for a specific character code */
+  getOriginal(code: string): SpritesheetVersion | undefined {
+    const history = this.getHistory(code);
+    return history.length > 0 ? history[history.length - 1] : undefined;
+  }
+
+  /** Checks if a version entry is from the attic repository */
+  isAtticEntry(entry: SpritesheetVersion): boolean {
+    return entry.commitUrl.includes("/attic/");
+  }
+
+  /** Gets the latest live (non-attic) entry from a list of versions */
+  getLatestLiveEntry(
+    entries: SpritesheetVersion[],
+  ): SpritesheetVersion | undefined {
+    const live = entries.filter((e) => !this.isAtticEntry(e));
+    return [...live].sort((a, b) => b.date.localeCompare(a.date))[0];
+  }
+
+  /** Gets a sorted list of unique authors across multiple version entries */
+  getUniqueAuthors(spritesheetVersion: SpritesheetVersion): string[] {
+    const authors = new Set<string>();
+    for (const sprite of spritesheetVersion.sprites) {
+      authors.add(sprite.author);
+    }
+    return [...authors].filter(Boolean).sort((a, b) => a.localeCompare(b));
+  }
+
+  /** Gets a sorted list of unique authors across all versions for a specific character code */
+  getAuthors(code: string): string[] {
+    const history = this.getHistory(code);
+    if (history.length === 0) return [];
+
+    const allAuthors = new Set<string>();
+    for (const version of history) {
+      const versionAuthors = this.getUniqueAuthors(version);
+      for (const author of versionAuthors) {
+        allAuthors.add(author);
+      }
+    }
+    return [...allAuthors].sort((a, b) => a.localeCompare(b));
+  }
+
+  /** Normalizes the code to match the keys in the data record (case-insensitive search) */
+  #getNormalizedKey(code: string): string | undefined {
+    const upperCode = code.toUpperCase();
+    return Object.keys(this.data).find((k) => k.toUpperCase() === upperCode);
+  }
+}
+
+/** Default instance of the Bestiary initialized with production data */
+export const bestiary = new SpriteCollection(spritesheets);

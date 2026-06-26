@@ -1,0 +1,710 @@
+[
+  {
+    "doomName": "Zombieman",
+    "freedoomName": "Zombie",
+    "description": "These brain-dead workers of iniquity are armed with a handgun and intent on your destruction. Drops a bullet clip when killed.",
+    "sprite": "POSS",
+    "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
+    "chasing": [
+      { "frame": "A", "delay": 4 },
+      { "frame": "A", "delay": 4 },
+      { "frame": "B", "delay": 4 },
+      { "frame": "B", "delay": 4 },
+      { "frame": "C", "delay": 4 },
+      { "frame": "C", "delay": 4 },
+      { "frame": "D", "delay": 4 },
+      { "frame": "D", "delay": 4 }
+    ],
+    "attacking": [
+      { "frame": "E", "delay": 10 },
+      { "frame": "F", "delay": 8 },
+      { "frame": "E", "delay": 8 }
+    ],
+    "hurting": [{ "frame": "G", "delay": 3 }, { "frame": "G", "delay": 3 }],
+    "dying": [
+      { "frame": "H", "delay": 5 },
+      { "frame": "I", "delay": 5 },
+      { "frame": "J", "delay": 5 },
+      { "frame": "K", "delay": 5 },
+      { "frame": "L", "delay": -1 }
+    ],
+    "gibbing": [
+      { "frame": "M", "delay": 5 },
+      { "frame": "N", "delay": 5 },
+      { "frame": "O", "delay": 5 },
+      { "frame": "P", "delay": 5 },
+      { "frame": "Q", "delay": 5 },
+      { "frame": "R", "delay": 5 },
+      { "frame": "S", "delay": 5 },
+      { "frame": "T", "delay": 5 },
+      { "frame": "U", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Shotgun guy",
+    "freedoomName": "Shotgun Zombie",
+    "description": "These guys traded their handgun for a shotgun and pack far more of a punch. Drops a shotgun when killed.",
+    "sprite": "SPOS",
+    "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
+    "chasing": [
+      { "frame": "A", "delay": 3 },
+      { "frame": "A", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "D", "delay": 3 },
+      { "frame": "D", "delay": 3 }
+    ],
+    "attacking": [
+      { "frame": "E", "delay": 10 },
+      { "frame": "F", "delay": 10 },
+      { "frame": "E", "delay": 10 }
+    ],
+    "hurting": [{ "frame": "G", "delay": 3 }, { "frame": "G", "delay": 3 }],
+    "dying": [
+      { "frame": "H", "delay": 5 },
+      { "frame": "I", "delay": 5 },
+      { "frame": "J", "delay": 5 },
+      { "frame": "K", "delay": 5 },
+      { "frame": "L", "delay": -1 }
+    ],
+    "gibbing": [
+      { "frame": "M", "delay": 5 },
+      { "frame": "N", "delay": 5 },
+      { "frame": "O", "delay": 5 },
+      { "frame": "P", "delay": 5 },
+      { "frame": "Q", "delay": 5 },
+      { "frame": "R", "delay": 5 },
+      { "frame": "S", "delay": 5 },
+      { "frame": "T", "delay": 5 },
+      { "frame": "U", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Imp",
+    "freedoomName": "Serpentipede",
+    "description": "Rank and file footsoldiers of the alien invasion. Let them get close and they’ll tear you to shreds; at a distance they’ll instead rain down fireballs.",
+    "sprite": "TROO",
+    "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
+    "chasing": [
+      { "frame": "A", "delay": 3 },
+      { "frame": "A", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "D", "delay": 3 },
+      { "frame": "D", "delay": 3 }
+    ],
+    "attacking": [
+      { "frame": "E", "delay": 8 },
+      { "frame": "F", "delay": 8 },
+      { "frame": "G", "delay": 6 }
+    ],
+    "hurting": [{ "frame": "H", "delay": 2 }, { "frame": "H", "delay": 2 }],
+    "dying": [
+      { "frame": "I", "delay": 8 },
+      { "frame": "J", "delay": 8 },
+      { "frame": "K", "delay": 6 },
+      { "frame": "L", "delay": 6 },
+      { "frame": "M", "delay": -1 }
+    ],
+    "gibbing": [
+      { "frame": "N", "delay": 5 },
+      { "frame": "O", "delay": 5 },
+      { "frame": "P", "delay": 5 },
+      { "frame": "Q", "delay": 5 },
+      { "frame": "R", "delay": 5 },
+      { "frame": "S", "delay": 5 },
+      { "frame": "T", "delay": 5 },
+      { "frame": "U", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Demon",
+    "freedoomName": "Flesh Worm",
+    "description": "Tough and fast-moving, these worms attack at close range and take several shotgun blasts to take down. It’s best to keep back.",
+    "sprite": "SARG",
+    "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
+    "chasing": [
+      { "frame": "A", "delay": 2 },
+      { "frame": "A", "delay": 2 },
+      { "frame": "B", "delay": 2 },
+      { "frame": "B", "delay": 2 },
+      { "frame": "C", "delay": 2 },
+      { "frame": "C", "delay": 2 },
+      { "frame": "D", "delay": 2 },
+      { "frame": "D", "delay": 2 }
+    ],
+    "attacking": [
+      { "frame": "E", "delay": 8 },
+      { "frame": "F", "delay": 8 },
+      { "frame": "G", "delay": 8 }
+    ],
+    "hurting": [{ "frame": "H", "delay": 2 }, { "frame": "H", "delay": 2 }],
+    "dying": [
+      { "frame": "I", "delay": 8 },
+      { "frame": "J", "delay": 8 },
+      { "frame": "K", "delay": 4 },
+      { "frame": "L", "delay": 4 },
+      { "frame": "M", "delay": 4 },
+      { "frame": "N", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Spectre",
+    "freedoomName": "Stealth Worm",
+    "description": "Some flesh worms can bend light around them, making them nearly invisible in darker and noisier environments.",
+    "sprite": "SARG",
+    "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
+    "chasing": [
+      { "frame": "A", "delay": 2 },
+      { "frame": "A", "delay": 2 },
+      { "frame": "B", "delay": 2 },
+      { "frame": "B", "delay": 2 },
+      { "frame": "C", "delay": 2 },
+      { "frame": "C", "delay": 2 },
+      { "frame": "D", "delay": 2 },
+      { "frame": "D", "delay": 2 }
+    ],
+    "attacking": [
+      { "frame": "E", "delay": 8 },
+      { "frame": "F", "delay": 8 },
+      { "frame": "G", "delay": 8 }
+    ],
+    "hurting": [{ "frame": "H", "delay": 2 }, { "frame": "H", "delay": 2 }],
+    "dying": [
+      { "frame": "I", "delay": 8 },
+      { "frame": "J", "delay": 8 },
+      { "frame": "K", "delay": 4 },
+      { "frame": "L", "delay": 4 },
+      { "frame": "M", "delay": 4 },
+      { "frame": "N", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Lost soul",
+    "freedoomName": "Hatchling",
+    "description": "Ionized alien larvae that bodyslam you for surprising amounts of damage.",
+    "sprite": "SKUL",
+    "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
+    "chasing": [{ "frame": "A", "delay": 6 }, { "frame": "B", "delay": 6 }],
+    "attacking": [
+      { "frame": "C", "delay": 10 },
+      { "frame": "D", "delay": 4 },
+      { "frame": "C", "delay": 4 },
+      { "frame": "D", "delay": 4 }
+    ],
+    "hurting": [{ "frame": "E", "delay": 3 }, { "frame": "E", "delay": 3 }],
+    "dying": [
+      { "frame": "F", "delay": 6 },
+      { "frame": "G", "delay": 6 },
+      { "frame": "H", "delay": 6 },
+      { "frame": "I", "delay": 6 },
+      { "frame": "J", "delay": 6 },
+      { "frame": "K", "delay": 6 }
+    ]
+  },
+  {
+    "doomName": "Cacodemon",
+    "freedoomName": "Trilobite",
+    "description": "These flying orb-like things spit plasma and bite if you get too close.",
+    "sprite": "HEAD",
+    "idling": [{ "frame": "A", "delay": 10 }],
+    "chasing": [{ "frame": "A", "delay": 3 }],
+    "attacking": [
+      { "frame": "B", "delay": 5 },
+      { "frame": "C", "delay": 5 },
+      { "frame": "D", "delay": 5 }
+    ],
+    "hurting": [
+      { "frame": "E", "delay": 3 },
+      { "frame": "E", "delay": 3 },
+      { "frame": "F", "delay": 6 }
+    ],
+    "dying": [
+      { "frame": "G", "delay": 8 },
+      { "frame": "H", "delay": 8 },
+      { "frame": "I", "delay": 8 },
+      { "frame": "J", "delay": 8 },
+      { "frame": "K", "delay": 8 },
+      { "frame": "L", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Baron of Hell",
+    "freedoomName": "Pain Lord",
+    "description": "If the Pain Bringer wasn’t tough enough, this one can take five rocket blasts.",
+    "sprite": "BOSS",
+    "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
+    "chasing": [
+      { "frame": "A", "delay": 3 },
+      { "frame": "A", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "D", "delay": 3 },
+      { "frame": "D", "delay": 3 }
+    ],
+    "attacking": [
+      { "frame": "E", "delay": 8 },
+      { "frame": "F", "delay": 8 },
+      { "frame": "G", "delay": 8 }
+    ],
+    "hurting": [{ "frame": "H", "delay": 2 }, { "frame": "H", "delay": 2 }],
+    "dying": [
+      { "frame": "I", "delay": 8 },
+      { "frame": "J", "delay": 8 },
+      { "frame": "K", "delay": 8 },
+      { "frame": "L", "delay": 8 },
+      { "frame": "M", "delay": 8 },
+      { "frame": "N", "delay": 8 },
+      { "frame": "O", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Revenant",
+    "freedoomName": "Octaminator",
+    "description": "Fast moving, tough, and fires homing missiles. Do not get into a boxing match with one of these guys.",
+    "sprite": "SKEL",
+    "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
+    "chasing": [
+      { "frame": "A", "delay": 2 },
+      { "frame": "A", "delay": 2 },
+      { "frame": "B", "delay": 2 },
+      { "frame": "B", "delay": 2 },
+      { "frame": "C", "delay": 2 },
+      { "frame": "C", "delay": 2 },
+      { "frame": "D", "delay": 2 },
+      { "frame": "D", "delay": 2 },
+      { "frame": "E", "delay": 2 },
+      { "frame": "E", "delay": 2 },
+      { "frame": "F", "delay": 2 },
+      { "frame": "F", "delay": 2 }
+    ],
+    "attacking": [
+      { "frame": "G", "delay": 6 },
+      { "frame": "H", "delay": 6 },
+      { "frame": "I", "delay": 6 }
+    ],
+    "hurting": [{ "frame": "L", "delay": 5 }, { "frame": "L", "delay": 5 }],
+    "dying": [
+      { "frame": "L", "delay": 7 },
+      { "frame": "M", "delay": 7 },
+      { "frame": "N", "delay": 7 },
+      { "frame": "O", "delay": 7 },
+      { "frame": "P", "delay": 7 },
+      { "frame": "Q", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Mancubus",
+    "freedoomName": "Combat Slug",
+    "description": "These genetically-engineered living, slithering tanks have been fitted with long distance flame throwers.",
+    "sprite": "FATT",
+    "idling": [{ "frame": "A", "delay": 15 }, { "frame": "B", "delay": 15 }],
+    "chasing": [
+      { "frame": "A", "delay": 4 },
+      { "frame": "A", "delay": 4 },
+      { "frame": "B", "delay": 4 },
+      { "frame": "B", "delay": 4 },
+      { "frame": "C", "delay": 4 },
+      { "frame": "C", "delay": 4 },
+      { "frame": "D", "delay": 4 },
+      { "frame": "D", "delay": 4 },
+      { "frame": "E", "delay": 4 },
+      { "frame": "E", "delay": 4 },
+      { "frame": "F", "delay": 4 },
+      { "frame": "F", "delay": 4 }
+    ],
+    "attacking": [
+      { "frame": "G", "delay": 20 },
+      { "frame": "H", "delay": 10 },
+      { "frame": "I", "delay": 5 },
+      { "frame": "G", "delay": 5 },
+      { "frame": "H", "delay": 10 },
+      { "frame": "I", "delay": 5 },
+      { "frame": "G", "delay": 5 },
+      { "frame": "H", "delay": 10 },
+      { "frame": "I", "delay": 5 },
+      { "frame": "G", "delay": 5 }
+    ],
+    "hurting": [{ "frame": "J", "delay": 3 }, { "frame": "J", "delay": 3 }],
+    "dying": [
+      { "frame": "K", "delay": 6 },
+      { "frame": "L", "delay": 6 },
+      { "frame": "M", "delay": 6 },
+      { "frame": "N", "delay": 6 },
+      { "frame": "O", "delay": 6 },
+      { "frame": "P", "delay": 6 },
+      { "frame": "Q", "delay": 6 },
+      { "frame": "R", "delay": 6 },
+      { "frame": "S", "delay": 6 },
+      { "frame": "T", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Cyberdemon",
+    "freedoomName": "Assault Tripod",
+    "description": "The ultimate blend of military technology and genetic engineering, these three-legged creatures are fast-moving, heavily armored and equipped with a missile launcher that you’ll want to avoid. Immune to explosions from rockets and barrels.",
+    "sprite": "CYBR",
+    "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
+    "chasing": [
+      { "frame": "A", "delay": 3 },
+      { "frame": "A", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "D", "delay": 3 },
+      { "frame": "D", "delay": 3 }
+    ],
+    "attacking": [
+      { "frame": "E", "delay": 6 },
+      { "frame": "F", "delay": 12 },
+      { "frame": "E", "delay": 12 },
+      { "frame": "F", "delay": 12 },
+      { "frame": "E", "delay": 12 },
+      { "frame": "F", "delay": 12 }
+    ],
+    "hurting": [{ "frame": "G", "delay": 10 }],
+    "dying": [
+      { "frame": "H", "delay": 10 },
+      { "frame": "I", "delay": 10 },
+      { "frame": "J", "delay": 10 },
+      { "frame": "K", "delay": 10 },
+      { "frame": "L", "delay": 10 },
+      { "frame": "M", "delay": 10 },
+      { "frame": "N", "delay": 10 },
+      { "frame": "O", "delay": 10 },
+      { "frame": "P", "delay": 30 },
+      { "frame": "P", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Spiderdemon",
+    "freedoomName": "Dreadnought",
+    "description": "This tank on legs is equipped with a rapid-fire minigun and will take a lot of effort to bring down. Immune to explosions from rockets and barrels.",
+    "sprite": "SPID",
+    "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
+    "chasing": [
+      { "frame": "A", "delay": 3 },
+      { "frame": "A", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "D", "delay": 3 },
+      { "frame": "D", "delay": 3 },
+      { "frame": "E", "delay": 3 },
+      { "frame": "E", "delay": 3 },
+      { "frame": "F", "delay": 3 },
+      { "frame": "F", "delay": 3 }
+    ],
+    "attacking": [
+      { "frame": "G", "delay": 4 },
+      { "frame": "H", "delay": 4 },
+      { "frame": "H", "delay": 1 }
+    ],
+    "hurting": [{ "frame": "I", "delay": 3 }, { "frame": "I", "delay": 3 }],
+    "dying": [
+      { "frame": "J", "delay": 20 },
+      { "frame": "K", "delay": 10 },
+      { "frame": "L", "delay": 10 },
+      { "frame": "M", "delay": 10 },
+      { "frame": "N", "delay": 10 },
+      { "frame": "O", "delay": 10 },
+      { "frame": "P", "delay": 10 },
+      { "frame": "Q", "delay": 10 },
+      { "frame": "R", "delay": 10 },
+      { "frame": "S", "delay": 30 },
+      { "frame": "S", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Chaingunner",
+    "freedoomName": "Minigun Zombie",
+    "description": "As soon as you’re in sight of one of these, he’ll lock on with his minigun and keep on firing until you’re dead. It’s best to take cover quickly or take him out. Drops a minigun when killed.",
+    "sprite": "CPOS",
+    "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
+    "chasing": [
+      { "frame": "A", "delay": 3 },
+      { "frame": "A", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "D", "delay": 3 },
+      { "frame": "D", "delay": 3 }
+    ],
+    "attacking": [
+      { "frame": "E", "delay": 10 },
+      { "frame": "F", "delay": 4 },
+      { "frame": "E", "delay": 4 },
+      { "frame": "F", "delay": 1 }
+    ],
+    "hurting": [{ "frame": "G", "delay": 3 }, { "frame": "G", "delay": 3 }],
+    "dying": [
+      { "frame": "H", "delay": 5 },
+      { "frame": "I", "delay": 5 },
+      { "frame": "J", "delay": 5 },
+      { "frame": "K", "delay": 5 },
+      { "frame": "L", "delay": 5 },
+      { "frame": "M", "delay": 5 },
+      { "frame": "N", "delay": -1 }
+    ],
+    "gibbing": [
+      { "frame": "O", "delay": 5 },
+      { "frame": "P", "delay": 5 },
+      { "frame": "Q", "delay": 5 },
+      { "frame": "R", "delay": 5 },
+      { "frame": "S", "delay": 5 },
+      { "frame": "T", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Hell knight",
+    "freedoomName": "Pain Bringer",
+    "description": "These guys take at least three rocket blasts to take down, and while you’re trying they’ll shower you with energy projectiles.",
+    "sprite": "BOS2",
+    "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
+    "chasing": [
+      { "frame": "A", "delay": 3 },
+      { "frame": "A", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "D", "delay": 3 },
+      { "frame": "D", "delay": 3 }
+    ],
+    "attacking": [
+      { "frame": "E", "delay": 8 },
+      { "frame": "F", "delay": 8 },
+      { "frame": "G", "delay": 8 }
+    ],
+    "hurting": [{ "frame": "H", "delay": 2 }, { "frame": "H", "delay": 2 }],
+    "dying": [
+      { "frame": "I", "delay": 8 },
+      { "frame": "J", "delay": 8 },
+      { "frame": "K", "delay": 8 },
+      { "frame": "L", "delay": 8 },
+      { "frame": "M", "delay": 8 },
+      { "frame": "N", "delay": 8 },
+      { "frame": "O", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Arachnotron",
+    "freedoomName": "Technospider",
+    "description": "These cybernetic creatures fire high-capacity polaric energy support weapons, making them a deadly challenge.",
+    "sprite": "BSPI",
+    "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
+    "chasing": [
+      { "frame": "A", "delay": 3 },
+      { "frame": "A", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "D", "delay": 3 },
+      { "frame": "D", "delay": 3 },
+      { "frame": "E", "delay": 3 },
+      { "frame": "E", "delay": 3 },
+      { "frame": "F", "delay": 3 },
+      { "frame": "F", "delay": 3 }
+    ],
+    "attacking": [
+      { "frame": "G", "delay": 4 },
+      { "frame": "H", "delay": 4 },
+      { "frame": "H", "delay": 1 }
+    ],
+    "hurting": [{ "frame": "I", "delay": 3 }, { "frame": "I", "delay": 3 }],
+    "dying": [
+      { "frame": "J", "delay": 20 },
+      { "frame": "K", "delay": 7 },
+      { "frame": "L", "delay": 7 },
+      { "frame": "M", "delay": 7 },
+      { "frame": "N", "delay": 7 },
+      { "frame": "O", "delay": 7 },
+      { "frame": "P", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Pain elemental",
+    "freedoomName": "Matribite",
+    "description": "What sick mother sends her own babies to fight? Thus is the duty of empire.",
+    "sprite": "PAIN",
+    "idling": [{ "frame": "A", "delay": 10 }],
+    "chasing": [
+      { "frame": "A", "delay": 3 },
+      { "frame": "A", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "C", "delay": 3 }
+    ],
+    "attacking": [
+      { "frame": "D", "delay": 5 },
+      { "frame": "E", "delay": 5 },
+      { "frame": "F", "delay": 5 },
+      { "frame": "F", "delay": 0 }
+    ],
+    "hurting": [{ "frame": "G", "delay": 6 }, { "frame": "G", "delay": 6 }],
+    "dying": [
+      { "frame": "H", "delay": 8 },
+      { "frame": "I", "delay": 8 },
+      { "frame": "J", "delay": 8 },
+      { "frame": "K", "delay": 8 },
+      { "frame": "L", "delay": 8 },
+      { "frame": "M", "delay": 8 }
+    ]
+  },
+  {
+    "doomName": "Arch-vile",
+    "freedoomName": "Necromancer",
+    "description": "If he’s not setting you on fire, he’s undoing all your hard work by bringing his friends back from the dead.",
+    "sprite": "VILE",
+    "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
+    "chasing": [
+      { "frame": "A", "delay": 2 },
+      { "frame": "A", "delay": 2 },
+      { "frame": "B", "delay": 2 },
+      { "frame": "B", "delay": 2 },
+      { "frame": "C", "delay": 2 },
+      { "frame": "C", "delay": 2 },
+      { "frame": "D", "delay": 2 },
+      { "frame": "D", "delay": 2 },
+      { "frame": "E", "delay": 2 },
+      { "frame": "E", "delay": 2 },
+      { "frame": "F", "delay": 2 },
+      { "frame": "F", "delay": 2 }
+    ],
+    "attacking": [
+      { "frame": "G", "delay": 0 },
+      { "frame": "G", "delay": 10 },
+      { "frame": "H", "delay": 8 },
+      { "frame": "I", "delay": 8 },
+      { "frame": "J", "delay": 8 },
+      { "frame": "K", "delay": 8 },
+      { "frame": "L", "delay": 8 },
+      { "frame": "M", "delay": 8 },
+      { "frame": "N", "delay": 8 },
+      { "frame": "O", "delay": 8 },
+      { "frame": "P", "delay": 20 }
+    ],
+    "hurting": [{ "frame": "Q", "delay": 5 }, { "frame": "Q", "delay": 5 }],
+    "dying": [
+      { "frame": "Q", "delay": 7 },
+      { "frame": "R", "delay": 7 },
+      { "frame": "S", "delay": 7 },
+      { "frame": "T", "delay": 7 },
+      { "frame": "U", "delay": 7 },
+      { "frame": "V", "delay": 7 },
+      { "frame": "W", "delay": 7 },
+      { "frame": "X", "delay": 7 },
+      { "frame": "Y", "delay": 7 },
+      { "frame": "Z", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Heavy weapon dude",
+    "freedoomName": "Minigun Zombie",
+    "description": "As soon as you’re in sight of one of these, he’ll lock on with his minigun and keep on firing until you’re dead. It’s best to take cover quickly or take him out. Drops a minigun when killed.",
+    "sprite": "CPOS",
+    "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
+    "chasing": [
+      { "frame": "A", "delay": 3 },
+      { "frame": "A", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "B", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "C", "delay": 3 },
+      { "frame": "D", "delay": 3 },
+      { "frame": "D", "delay": 3 }
+    ],
+    "attacking": [
+      { "frame": "E", "delay": 10 },
+      { "frame": "F", "delay": 4 },
+      { "frame": "E", "delay": 4 },
+      { "frame": "F", "delay": 1 }
+    ],
+    "hurting": [{ "frame": "G", "delay": 3 }, { "frame": "G", "delay": 3 }],
+    "dying": [
+      { "frame": "H", "delay": 5 },
+      { "frame": "I", "delay": 5 },
+      { "frame": "J", "delay": 5 },
+      { "frame": "K", "delay": 5 },
+      { "frame": "L", "delay": 5 },
+      { "frame": "M", "delay": 5 },
+      { "frame": "N", "delay": -1 }
+    ],
+    "gibbing": [
+      { "frame": "O", "delay": 5 },
+      { "frame": "P", "delay": 5 },
+      { "frame": "Q", "delay": 5 },
+      { "frame": "R", "delay": 5 },
+      { "frame": "S", "delay": 5 },
+      { "frame": "T", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Commander Keen",
+    "freedoomName": "Commander Keen",
+    "description": "",
+    "sprite": "KEEN",
+    "idling": [{ "frame": "A", "delay": -1 }],
+    "hurting": [{ "frame": "M", "delay": 4 }, { "frame": "M", "delay": 8 }],
+    "dying": [
+      { "frame": "A", "delay": 6 },
+      { "frame": "B", "delay": 6 },
+      { "frame": "C", "delay": 6 },
+      { "frame": "D", "delay": 6 },
+      { "frame": "E", "delay": 6 },
+      { "frame": "F", "delay": 6 },
+      { "frame": "G", "delay": 6 },
+      { "frame": "H", "delay": 6 },
+      { "frame": "I", "delay": 6 },
+      { "frame": "J", "delay": 6 },
+      { "frame": "K", "delay": 6 },
+      { "frame": "L", "delay": -1 }
+    ]
+  },
+  {
+    "doomName": "Player",
+    "freedoomName": "FreeDoom Guy",
+    "description": "The protagonist of Freedoom.",
+    "sprite": "PLAY",
+    "idling": [{ "frame": "A", "delay": -1 }],
+    "chasing": [
+      { "frame": "A", "delay": 4 },
+      { "frame": "B", "delay": 4 },
+      { "frame": "C", "delay": 4 },
+      { "frame": "D", "delay": 4 }
+    ],
+    "attacking": [{ "frame": "E", "delay": 12 }, { "frame": "F", "delay": 6 }],
+    "hurting": [{ "frame": "G", "delay": 4 }, { "frame": "G", "delay": 4 }],
+    "dying": [
+      { "frame": "H", "delay": 10 },
+      { "frame": "I", "delay": 10 },
+      { "frame": "J", "delay": 10 },
+      { "frame": "K", "delay": 10 },
+      { "frame": "L", "delay": 10 },
+      { "frame": "M", "delay": 10 },
+      { "frame": "N", "delay": -1 }
+    ],
+    "gibbing": [
+      { "frame": "O", "delay": 5 },
+      { "frame": "P", "delay": 5 },
+      { "frame": "Q", "delay": 5 },
+      { "frame": "R", "delay": 5 },
+      { "frame": "S", "delay": 5 },
+      { "frame": "T", "delay": 5 },
+      { "frame": "U", "delay": 5 },
+      { "frame": "V", "delay": 5 },
+      { "frame": "W", "delay": -1 }
+    ]
+  }
+]

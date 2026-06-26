@@ -1,4 +1,6 @@
 _site
 _cache
+build
 .env
 .DS_Store
+*.log

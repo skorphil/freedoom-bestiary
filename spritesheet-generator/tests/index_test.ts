@@ -1,5 +1,5 @@
-import { assertEquals, assertExists, assertRejects } from "@std/assert";
-import { join } from "@std/path";
+import { expect, test } from "bun:test";
+import { join } from "node:path";
 import {
 	defaultConfig,
 	loadCollection,
@@ -9,19 +9,20 @@ import {
 	type RuntimeConfig,
 } from "../src/index.ts";
 import type { Version } from "../src/types.ts";
+import { readFileSync, writeFileSync, mkdirSync, mkdtempSync, statSync, rmSync } from "node:fs";
+import { spawnSync } from "node:child_process";
+import { tmpdir } from "node:os";
 
 // Load a valid 16x16 PNG from disk for testing.
-const TINY_PNG = await Deno.readFile(
+const TINY_PNG = readFileSync(
 	join(import.meta.dirname!, "test-data/test.png"),
 );
 
-async function git(args: string[], cwd?: string): Promise<string> {
-	const cmd = new Deno.Command("git", {
-		args,
+function git(args: string[], cwd?: string): string {
+	const result = spawnSync("git", args, {
 		cwd,
-		stdout: "piped",
-		stderr: "piped",
 		env: {
+			...process.env,
 			GIT_AUTHOR_NAME: "test",
 			GIT_AUTHOR_EMAIL: "t@e.st",
 			GIT_COMMITTER_NAME: "test",
@@ -30,16 +31,15 @@ async function git(args: string[], cwd?: string): Promise<string> {
 			GIT_CONFIG_SYSTEM: "/dev/null",
 		},
 	});
-	const output = await cmd.output();
-	const { success, stdout, stderr, code } = output;
-	if (!success) {
-		const errText = new TextDecoder().decode(stderr);
-		const outText = new TextDecoder().decode(stdout);
+	
+	if (result.status !== 0) {
+		const errText = result.stderr.toString();
+		const outText = result.stdout.toString();
 		throw new Error(
-			`git ${args[0]} failed (code=${code}): stderr=${errText || "(empty)"} | stdout=${outText || "(empty)"}`,
+			`git ${args[0]} failed (code=${result.status}): stderr=${errText || "(empty)"} | stdout=${outText || "(empty)"}`,
 		);
 	}
-	return new TextDecoder().decode(stdout).trim();
+	return result.stdout.toString().trim();
 }
 
 interface TestRepo {
@@ -47,47 +47,47 @@ interface TestRepo {
 	blobSha: string;
 }
 
-async function addCommit(
+function addCommit(
 	bareDir: string,
 	tmpRoot: string,
 	name: string,
 	extraSpriteNames: string[],
-): Promise<string> {
+): string {
 	// Reuse the existing work dir, add more sprites, commit, fetch into the
 	// bare clone. Returns the new commit sha.
 	const workDir = join(tmpRoot, `${name}-work`);
 	for (const n of extraSpriteNames) {
-		await Deno.writeFile(join(workDir, "sprites", n), TINY_PNG);
+		writeFileSync(join(workDir, "sprites", n), TINY_PNG);
 	}
-	await git(["add", "."], workDir);
-	await git(["commit", "-q", "-m", "more"], workDir);
-	const sha = await git(["rev-parse", "HEAD"], workDir);
+	git(["add", "."], workDir);
+	git(["commit", "-q", "-m", "more"], workDir);
+	const sha = git(["rev-parse", "HEAD"], workDir);
 	// Push the new commit into the bare clone.
-	await git(["push", "-q", bareDir, "main"], workDir);
+	git(["push", "-q", bareDir, "main"], workDir);
 	return sha;
 }
 
-async function makeBareRepoWithSprites(
+function makeBareRepoWithSprites(
 	tmpRoot: string,
 	name: string,
 	spriteNames: string[],
-): Promise<TestRepo> {
+): TestRepo {
 	// Create a working repo, commit each requested sprite under `sprites/`,
 	// matching the path layout the production input JSONs reference.
 	const workDir = join(tmpRoot, `${name}-work`);
 	const bareDir = join(tmpRoot, `${name}.git`);
-	await Deno.mkdir(join(workDir, "sprites"), { recursive: true });
-	await git(["init", "-q", "-b", "main"], workDir);
+	mkdirSync(join(workDir, "sprites"), { recursive: true });
+	git(["init", "-q", "-b", "main"], workDir);
 	for (const n of spriteNames) {
-		await Deno.writeFile(join(workDir, "sprites", n), TINY_PNG);
+		writeFileSync(join(workDir, "sprites", n), TINY_PNG);
 	}
-	await git(["add", "."], workDir);
-	await git(["commit", "-q", "-m", "init"], workDir);
+	git(["add", "."], workDir);
+	git(["commit", "-q", "-m", "init"], workDir);
 
-	await Deno.mkdir(bareDir, { recursive: true });
-	await git(["clone", "-q", "--bare", workDir, bareDir]);
+	mkdirSync(bareDir, { recursive: true });
+	git(["clone", "-q", "--bare", workDir, bareDir]);
 
-	const fullSha = await git(["rev-parse", "HEAD"], workDir);
+	const fullSha = git(["rev-parse", "HEAD"], workDir);
 	return { bareDir, blobSha: fullSha };
 }
 
@@ -123,15 +123,15 @@ function configFor(
 	};
 }
 
-async function makeInputFile(
+function makeInputFile(
 	versionsDir: string,
 	code: string,
 	versions: Version[],
-): Promise<string> {
-	await Deno.mkdir(versionsDir, { recursive: true });
+): string {
+	mkdirSync(versionsDir, { recursive: true });
 	const path = join(versionsDir, `${code}.json`);
 	// historical-parser format uses spriteVersions key
-	await Deno.writeTextFile(path, JSON.stringify({ spriteVersions: versions.map(v => ({
+	writeFileSync(path, JSON.stringify({ spriteVersions: versions.map(v => ({
 		...v,
 		sprites: v.files.map(f => ({
 			name: f.name,
@@ -142,10 +142,10 @@ async function makeInputFile(
 	return path;
 }
 
-Deno.test("main - appends entries for unseen shas", async () => {
-	const tmp = await Deno.makeTempDir({ prefix: "ssg-" });
+test("main - appends entries for unseen shas", async () => {
+	const tmp = mkdtempSync(join(tmpdir(), "ssg-"));
 	try {
-		const bare = await makeBareRepoWithSprites(tmp, "freedoom", [
+		const bare = makeBareRepoWithSprites(tmp, "freedoom", [
 			"possa1.png",
 			"possa2.png",
 		]);
@@ -167,29 +167,29 @@ Deno.test("main - appends entries for unseen shas", async () => {
 
 		const { collection, appended } = await runWithConfig(cfg, targets);
 
-		assertEquals(appended, 1);
+		expect(appended).toEqual(1);
 		const poss = collection["POSS"]!;
-		assertEquals(poss.length, 1);
-		assertEquals(poss[0].sha, bare.blobSha);
-		assertEquals(poss[0].source, "freedoom");
+		expect(poss.length).toEqual(1);
+		expect(poss[0].sha).toEqual(bare.blobSha);
+		expect(poss[0].source).toEqual("freedoom");
 
 		// Sheet must exist on disk.
 		const sheetPath = join(cfg.outputDir, poss[0].spritesheetPath);
-		const stat = await Deno.stat(sheetPath);
-		assertExists(stat);
+		const stat = statSync(sheetPath);
+		expect(stat).toBeDefined();
 
 		// Index file must be written.
 		const fromDisk = await loadCollection(cfg);
-		assertEquals(fromDisk["POSS"]!.length, 1);
+		expect(fromDisk["POSS"]!.length).toEqual(1);
 	} finally {
-		await Deno.remove(tmp, { recursive: true });
+		rmSync(tmp, { recursive: true, force: true });
 	}
 });
 
-Deno.test("main - skips already-indexed shas", async () => {
-	const tmp = await Deno.makeTempDir({ prefix: "ssg-" });
+test("main - skips already-indexed shas", async () => {
+	const tmp = mkdtempSync(join(tmpdir(), "ssg-"));
 	try {
-		const bare = await makeBareRepoWithSprites(tmp, "freedoom", ["possa1.png"]);
+		const bare = makeBareRepoWithSprites(tmp, "freedoom", ["possa1.png"]);
 		const cfg = configFor(tmp, {
 			"freedoom/freedoom": bare.bareDir,
 			"freedoom/attic": bare.bareDir,
@@ -206,19 +206,19 @@ Deno.test("main - skips already-indexed shas", async () => {
 		];
 
 		const first = await runWithConfig(cfg, targets);
-		assertEquals(first.appended, 1);
+		expect(first.appended).toEqual(1);
 		const second = await runWithConfig(cfg, targets);
-		assertEquals(second.appended, 0);
-		assertEquals(second.collection["POSS"]!.length, 1);
+		expect(second.appended).toEqual(0);
+		expect(second.collection["POSS"]!.length).toEqual(1);
 	} finally {
-		await Deno.remove(tmp, { recursive: true });
+		rmSync(tmp, { recursive: true, force: true });
 	}
 });
 
-Deno.test("main - uses bare clone when present", async () => {
-	const tmp = await Deno.makeTempDir({ prefix: "ssg-" });
+test("main - uses bare clone when present", async () => {
+	const tmp = mkdtempSync(join(tmpdir(), "ssg-"));
 	try {
-		const bare = await makeBareRepoWithSprites(tmp, "freedoom", ["possa1.png"]);
+		const bare = makeBareRepoWithSprites(tmp, "freedoom", ["possa1.png"]);
 		const cfg = configFor(tmp, {
 			"freedoom/freedoom": bare.bareDir,
 			"freedoom/attic": bare.bareDir,
@@ -243,23 +243,23 @@ Deno.test("main - uses bare clone when present", async () => {
 		}) as typeof fetch;
 		try {
 			const { appended } = await runWithConfig(cfg, targets);
-			assertEquals(appended, 1);
-			assertEquals(fetchCalls, 0);
+			expect(appended).toEqual(1);
+			expect(fetchCalls).toEqual(0);
 		} finally {
 			globalThis.fetch = realFetch;
 		}
 	} finally {
-		await Deno.remove(tmp, { recursive: true });
+		rmSync(tmp, { recursive: true, force: true });
 	}
 });
 
-Deno.test("main - emits source field per entry", async () => {
-	const tmp = await Deno.makeTempDir({ prefix: "ssg-" });
+test("main - emits source field per entry", async () => {
+	const tmp = mkdtempSync(join(tmpdir(), "ssg-"));
 	try {
-		const bareFreedoom = await makeBareRepoWithSprites(tmp, "freedoom", [
+		const bareFreedoom = makeBareRepoWithSprites(tmp, "freedoom", [
 			"possa1.png",
 		]);
-		const bareAttic = await makeBareRepoWithSprites(tmp, "attic", [
+		const bareAttic = makeBareRepoWithSprites(tmp, "attic", [
 			"skula1.png",
 		]);
 		const cfg = configFor(tmp, {
@@ -288,18 +288,18 @@ Deno.test("main - emits source field per entry", async () => {
 		];
 
 		const { collection } = await runWithConfig(cfg, targets);
-		assertEquals(collection["POSS"]![0].source, "freedoom");
-		assertEquals(collection["SKUL"]![0].source, "attic");
+		expect(collection["POSS"]![0].source).toEqual("freedoom");
+		expect(collection["SKUL"]![0].source).toEqual("attic");
 	} finally {
-		await Deno.remove(tmp, { recursive: true });
+		rmSync(tmp, { recursive: true, force: true });
 	}
 });
 
-Deno.test("main - accepts a single JSON file path", async () => {
-	const tmp = await Deno.makeTempDir({ prefix: "ssg-" });
+test("main - accepts a single JSON file path", async () => {
+	const tmp = mkdtempSync(join(tmpdir(), "ssg-"));
 	try {
-		const bare = await makeBareRepoWithSprites(tmp, "freedoom", ["possa1.png"]);
-		const sha2 = await addCommit(bare.bareDir, tmp, "freedoom", ["possa2.png"]);
+		const bare = makeBareRepoWithSprites(tmp, "freedoom", ["possa1.png"]);
+		const sha2 = addCommit(bare.bareDir, tmp, "freedoom", ["possa2.png"]);
 		const versionsDir = join(tmp, "versions");
 		const v1 = makeVersion(bare.blobSha, "freedoom", [
 			{ name: "possa1.png", angle: 1, mirror: false },
@@ -307,7 +307,7 @@ Deno.test("main - accepts a single JSON file path", async () => {
 		const v2 = makeVersion(sha2, "freedoom", [
 			{ name: "possa2.png", angle: 2, mirror: false },
 		]);
-		const path = await makeInputFile(versionsDir, "POSS", [v1, v2]);
+		const path = makeInputFile(versionsDir, "POSS", [v1, v2]);
 
 		const cfg = configFor(tmp, {
 			"freedoom/freedoom": bare.bareDir,
@@ -315,29 +315,29 @@ Deno.test("main - accepts a single JSON file path", async () => {
 		});
 
 		const targets = await readInputTargets(cfg, [path]);
-		assertEquals(targets.length, 1);
-		assertEquals(targets[0].code, "POSS");
-		assertEquals(targets[0].versions.length, 2);
+		expect(targets.length).toEqual(1);
+		expect(targets[0].code).toEqual("POSS");
+		expect(targets[0].versions.length).toEqual(2);
 
 		const { collection } = await runWithConfig(cfg, targets);
-		assertEquals(collection["POSS"]!.length, 2);
+		expect(collection["POSS"]!.length).toEqual(2);
 	} finally {
-		await Deno.remove(tmp, { recursive: true });
+		rmSync(tmp, { recursive: true, force: true });
 	}
 });
 
-Deno.test("main - accepts a directory path", async () => {
-	const tmp = await Deno.makeTempDir({ prefix: "ssg-" });
+test("main - accepts a directory path", async () => {
+	const tmp = mkdtempSync(join(tmpdir(), "ssg-"));
 	try {
-		const possBare = await makeBareRepoWithSprites(tmp, "poss", ["possa1.png"]);
-		const sposBare = await makeBareRepoWithSprites(tmp, "spos", ["sposa1.png"]);
+		const possBare = makeBareRepoWithSprites(tmp, "poss", ["possa1.png"]);
+		const sposBare = makeBareRepoWithSprites(tmp, "spos", ["sposa1.png"]);
 		const versionsDir = join(tmp, "versions");
-		await makeInputFile(versionsDir, "POSS", [
+		makeInputFile(versionsDir, "POSS", [
 			makeVersion(possBare.blobSha, "freedoom", [
 				{ name: "possa1.png", angle: 1, mirror: false },
 			]),
 		]);
-		await makeInputFile(versionsDir, "SPOS", [
+		makeInputFile(versionsDir, "SPOS", [
 			makeVersion(sposBare.blobSha, "attic", [
 				{ name: "sposa1.png", angle: 1, mirror: false },
 			]),
@@ -349,45 +349,37 @@ Deno.test("main - accepts a directory path", async () => {
 		});
 
 		const targets = await readInputTargets(cfg, [versionsDir]);
-		assertEquals(targets.length, 2);
+		expect(targets.length).toEqual(2);
 		const codes = targets.map((t) => t.code).sort();
-		assertEquals(codes, ["POSS", "SPOS"]);
+		expect(codes).toEqual(["POSS", "SPOS"]);
 
 		const { collection } = await runWithConfig(cfg, targets);
-		assertEquals(collection["POSS"]!.length, 1);
-		assertEquals(collection["SPOS"]!.length, 1);
+		expect(collection["POSS"]!.length).toEqual(1);
+		expect(collection["SPOS"]!.length).toEqual(1);
 	} finally {
-		await Deno.remove(tmp, { recursive: true });
+		rmSync(tmp, { recursive: true, force: true });
 	}
 });
 
-Deno.test("main - errors clearly on a missing path", async () => {
-	const tmp = await Deno.makeTempDir({ prefix: "ssg-" });
+test("main - errors clearly on a missing path", async () => {
+	const tmp = mkdtempSync(join(tmpdir(), "ssg-"));
 	try {
 		const cfg = configFor(tmp, {});
 		const missing = join(tmp, "does-not-exist.json");
-		await assertRejects(
-			() => readInputTargets(cfg, [missing]),
-			Error,
-			`Input path ${missing} does not exist`,
-		);
+		await expect(readInputTargets(cfg, [missing])).rejects.toThrow(`Input path ${missing} does not exist`);
 	} finally {
-		await Deno.remove(tmp, { recursive: true });
+		rmSync(tmp, { recursive: true, force: true });
 	}
 });
 
-Deno.test("main - errors on a non-json file path", async () => {
-	const tmp = await Deno.makeTempDir({ prefix: "ssg-" });
+test("main - errors on a non-json file path", async () => {
+	const tmp = mkdtempSync(join(tmpdir(), "ssg-"));
 	try {
 		const cfg = configFor(tmp, {});
 		const txtPath = join(tmp, "readme.txt");
-		await Deno.writeTextFile(txtPath, "hi");
-		await assertRejects(
-			() => readInputTargets(cfg, [txtPath]),
-			Error,
-			`Input path ${txtPath} is not a .json file or directory`,
-		);
+		writeFileSync(txtPath, "hi");
+		await expect(readInputTargets(cfg, [txtPath])).rejects.toThrow(`Input path ${txtPath} is not a .json file or directory`);
 	} finally {
-		await Deno.remove(tmp, { recursive: true });
+		rmSync(tmp, { recursive: true, force: true });
 	}
 });

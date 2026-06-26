@@ -1,21 +1,8 @@
 Contributions to the project are highly welcome. Please submit PR or start discussion in `issues`.
 
-## Quick Start
-### `/historical-parser`
-Scripts to get all sprites from `/attic` and `/freedoom` git, and then generate `.webp` animations and `animations.json` metadata.
-1. [Install Deno](https://docs.deno.com/runtime/getting_started/installation/)
-2. [Install deno jupyter kernel](https://docs.deno.com/runtime/reference/cli/jupyter/) `deno jupyter`
-
-#### For VS Code
-2. Install *jupyter extension* (It is provided as recommended in a project)
-3. Set up `"editor.defaultFormatter": "denoland.vscode-deno"` for typescript (Workspace
-settings provided in a project)
-4. Some `.ipynb` converted to `.md`(for ease of AI tool usage on them). Run them via right mouse click > Jupyter
-5. To run deno in `.ipynb` select deno kernel in jupyter notebook
-
 
 ## Architecture Overview
-`freedoom-bestiary` is a deno monorepo, containing multiple packages, for different tasks of this project.
+`freedoom-bestiary` is a bun monorepo, containing multiple packages, for different tasks of this project.
 
 - `historical-parser` - set of scripts to parse and organize all character's sprites (including historical) from
 local git copies of [freedoom](https://github.com/freedoom/freedoom) and [attic](https://github.com/freedoom/attic).
@@ -26,7 +13,7 @@ It is intended to use once for initial historical sprites parsing.
 - `web` - public SSG gallery for presenting a collection of animations for freedoom characters,
 including historical ones.
 
-- `realtime-parser` - set of scripts to continuously watch for changes in [freedoom github](https://github.com/freedoom/freedoom).
+- `realtime-parser` (not implemented) - set of scripts to continuously watch for changes in [freedoom github](https://github.com/freedoom/freedoom).
 It updates collection of sprite versions. And eventually trigger `web` to be rebuild and re-deployed
 
 - `sprite-collection` - organized collection of spritesheets and metadata, for all characters' animations.

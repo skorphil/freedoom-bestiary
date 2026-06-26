@@ -93,8 +93,8 @@ export function buildSpritesheetMetadata(
       const padded = paddedPaths.get(key);
       if (!cell || !padded) continue; // Skip empty sprites!
       const pos = cellToPosition(
-        layout.frames.indexOf(frame),
         layout.angles.indexOf(angle),
+        layout.frames.indexOf(frame),
         cellW,
         cellH,
       );
@@ -155,25 +155,10 @@ export interface CreateSpritesheetOptions {
   outputPath: string;
 }
 
-/**
- * Executes an ImageMagick command.
- * 
- * @param args - Arguments to pass to the ImageMagick command
- * @returns A promise that resolves to an object containing success status and output
- */
-async function magick(
-  args: string[],
-): Promise<{ success: boolean; stdout: Uint8Array; stderr: Uint8Array }> {
-  const cmd = new Deno.Command("magick", {
-    args,
-    stdout: "piped",
-    stderr: "piped",
-  });
-  return await cmd.output();
-}
+import sharp from "sharp";
 
 /**
- * Creates a spritesheet from a grid layout using ImageMagick.
+ * Creates a spritesheet from a grid layout using Sharp.
  * 
  * @param layout - The grid layout of sprites
  * @param cellW - Width of each cell in pixels
@@ -181,7 +166,6 @@ async function magick(
  * @param outputPath - Path where the spritesheet should be saved
  * @param opts - Additional options for spritesheet creation
  * @returns A promise that resolves to an object containing the width and height of the created spritesheet
- * @throws Error if the ImageMagick command fails
  */
 export async function createSpritesheet(
   layout: GridLayout,
@@ -196,33 +180,37 @@ export async function createSpritesheet(
     cellH,
   );
 
-  const layerArgs: string[] = ["-size", `${width}x${height}`, "xc:transparent"];
+  const composites: sharp.OverlayOptions[] = [];
   for (const frame of opts.layout.frames) {
     for (const angle of opts.layout.angles) {
       const key = `${frame}_${angle}`;
       const cell = opts.paddedPaths.get(key);
       if (!cell) continue;
       const pos = cellToPosition(
-        opts.layout.frames.indexOf(frame),
         opts.layout.angles.indexOf(angle),
+        opts.layout.frames.indexOf(frame),
         cellW,
         cellH,
       );
-      layerArgs.push(
-        cell.path,
-        "-geometry",
-        `+${pos.x}+${pos.y}`,
-        "-composite",
-      );
+      composites.push({
+        input: cell.path,
+        top: pos.y,
+        left: pos.x,
+      });
     }
   }
-  layerArgs.push("-background", "none", outputPath);
 
-  const { success, stderr } = await magick(layerArgs);
-  if (!success) {
-    throw new Error(
-      `magick montage failed: ${new TextDecoder().decode(stderr)}`,
-    );
-  }
+  await sharp({
+    create: {
+      width,
+      height,
+      channels: 4,
+      background: { r: 0, g: 0, b: 0, alpha: 0 },
+    },
+  })
+    .composite(composites)
+    .webp({ lossless: true })
+    .toFile(outputPath);
+
   return { w: width, h: height };
 }

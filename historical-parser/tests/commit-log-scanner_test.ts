@@ -1,8 +1,7 @@
-import { assertEquals, assertExists } from "@std/assert";
+import { expect, test } from "bun:test";
 import type { ScanUnit } from "../src/types.ts";
 // Import real classes from src/
 import { CommitLogScanner } from "../src/CommitLogScanner.ts";
-import { GitReader } from "../src/GitReader.ts";
 import { SpritePattern } from "../src/SpritePattern.ts";
 
 import {
@@ -14,7 +13,7 @@ import {
   TEST_COMMIT_SHA,
 } from "./mocks.ts";
 
-Deno.test("CommitLogScanner - should parse simple freedoom-style log", async () => {
+test("CommitLogScanner - should parse simple freedoom-style log", async () => {
   // Create real instances
   const pattern = new SpritePattern("POSS");
   const logLines = [
@@ -46,14 +45,14 @@ Deno.test("CommitLogScanner - should parse simple freedoom-style log", async () 
     results.push(unit);
   }
 
-  assertEquals(results.length, 2);
-  assertEquals(results[0].sha, TEST_COMMIT_SHA);
-  assertEquals(results[0].changesMap.get("sprites/possa1.png"), "A");
-  assertEquals(results[0].changesMap.get("sprites/possa2a8.png"), "M");
-  assertEquals(results[0].folder, null);
+  expect(results.length).toBe(2);
+  expect(results[0].sha).toBe(TEST_COMMIT_SHA);
+  expect(results[0].changesMap.get("sprites/possa1.png")).toBe("A");
+  expect(results[0].changesMap.get("sprites/possa2a8.png")).toBe("M");
+  expect(results[0].folder).toBe(null);
 });
 
-Deno.test("CommitLogScanner - should group by folder for attic-style log", async () => {
+test("CommitLogScanner - should group by folder for attic-style log", async () => {
   // Create real instances
   const pattern = new SpritePattern("POSS");
   const logLines = [
@@ -83,17 +82,17 @@ Deno.test("CommitLogScanner - should group by folder for attic-style log", async
   }
 
   // Should produce 2 units (one per folder)
-  assertEquals(results.length, 2);
+  expect(results.length).toBe(2);
 
   // Find units by folder
   const johndoeUnit = results.find((u) => u.folder === "johndoe");
   const janedoeUnit = results.find((u) => u.folder === "janedoe");
 
-  assertExists(johndoeUnit);
-  assertExists(janedoeUnit);
+  expect(johndoeUnit).toBeDefined();
+  expect(janedoeUnit).toBeDefined();
 });
 
-Deno.test("CommitLogScanner - should handle rename status (R100)", async () => {
+test("CommitLogScanner - should handle rename status (R100)", async () => {
   // Create real instances
   const pattern = new SpritePattern("POSS");
   const logLines = [
@@ -121,11 +120,11 @@ Deno.test("CommitLogScanner - should handle rename status (R100)", async () => {
     results.push(unit);
   }
 
-  assertEquals(results.length, 1);
-  assertEquals(results[0].changesMap.get("sprites/possa1.png"), "R100");
+  expect(results.length).toBe(1);
+  expect(results[0].changesMap.get("sprites/possa1.png")).toBe("R100");
 });
 
-Deno.test("CommitLogScanner - should filter inactive statuses", async () => {
+test("CommitLogScanner - should filter inactive statuses", async () => {
   // Create real instances
   const pattern = new SpritePattern("POSS");
   const logLines = [
@@ -161,8 +160,8 @@ Deno.test("CommitLogScanner - should filter inactive statuses", async () => {
     results.push(unit);
   }
 
-  assertEquals(results.length, 1);
-  assertExists(results[0].changesMap.get("sprites/possa1.png"));
-  assertEquals(results[0].changesMap.get("sprites/untracked.png"), undefined);
-  assertEquals(results[0].changesMap.get("sprites/conflicted.png"), undefined);
+  expect(results.length).toBe(1);
+  expect(results[0].changesMap.get("sprites/possa1.png")).toBeDefined();
+  expect(results[0].changesMap.get("sprites/untracked.png")).toBeUndefined();
+  expect(results[0].changesMap.get("sprites/conflicted.png")).toBeUndefined();
 });

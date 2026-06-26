@@ -1,4 +1,4 @@
-import { assertEquals } from "@std/assert";
+import { expect, test } from "bun:test";
 import {
 	detectSource,
 	extractGridCells,
@@ -6,97 +6,97 @@ import {
 } from "../src/parse-sprites.ts";
 import type { Version } from "../src/types.ts";
 
-Deno.test("parseSpriteName - single angle front", () => {
+test("parseSpriteName - single angle front", () => {
 	const result = parseSpriteName("trooa1.png", "TROO");
-	assertEquals(result.length, 1);
-	assertEquals(result[0].frame, "A");
-	assertEquals(result[0].angle, 1);
-	assertEquals(result[0].mirror, false);
-	assertEquals(result[0].sourceFile, "trooa1.png");
+	expect(result.length).toEqual(1);
+	expect(result[0].frame).toEqual("A");
+	expect(result[0].angle).toEqual(1);
+	expect(result[0].mirror).toEqual(false);
+	expect(result[0].sourceFile).toEqual("trooa1.png");
 });
 
-Deno.test("parseSpriteName - single angle back", () => {
+test("parseSpriteName - single angle back", () => {
 	const result = parseSpriteName("trooa5.png", "TROO");
-	assertEquals(result.length, 1);
-	assertEquals(result[0].frame, "A");
-	assertEquals(result[0].angle, 5);
-	assertEquals(result[0].mirror, false);
+	expect(result.length).toEqual(1);
+	expect(result[0].frame).toEqual("A");
+	expect(result[0].angle).toEqual(5);
+	expect(result[0].mirror).toEqual(false);
 });
 
-Deno.test("parseSpriteName - dual-angle lower-first", () => {
+test("parseSpriteName - dual-angle lower-first", () => {
 	const result = parseSpriteName("trooa2a8.png", "TROO");
-	assertEquals(result.length, 2);
-	assertEquals(result[0].frame, "A");
-	assertEquals(result[0].angle, 2);
-	assertEquals(result[0].mirror, false);
-	assertEquals(result[1].frame, "A");
-	assertEquals(result[1].angle, 8);
-	assertEquals(result[1].mirror, false);
+	expect(result.length).toEqual(2);
+	expect(result[0].frame).toEqual("A");
+	expect(result[0].angle).toEqual(2);
+	expect(result[0].mirror).toEqual(false);
+	expect(result[1].frame).toEqual("A");
+	expect(result[1].angle).toEqual(8);
+	expect(result[1].mirror).toEqual(false);
 });
 
-Deno.test("parseSpriteName - dual-angle reversed order", () => {
+test("parseSpriteName - dual-angle reversed order", () => {
 	const result = parseSpriteName("skula6a4.png", "SKUL");
-	assertEquals(result.length, 2);
-	assertEquals(result[0].frame, "A");
-	assertEquals(result[0].angle, 6);
-	assertEquals(result[0].mirror, false);
-	assertEquals(result[1].frame, "A");
-	assertEquals(result[1].angle, 4);
-	assertEquals(result[1].mirror, false);
+	expect(result.length).toEqual(2);
+	expect(result[0].frame).toEqual("A");
+	expect(result[0].angle).toEqual(6);
+	expect(result[0].mirror).toEqual(false);
+	expect(result[1].frame).toEqual("A");
+	expect(result[1].angle).toEqual(4);
+	expect(result[1].mirror).toEqual(false);
 });
 
-Deno.test("parseSpriteName - cross-frame dual", () => {
+test("parseSpriteName - cross-frame dual", () => {
 	const result = parseSpriteName("skela2d8.png", "SKEL");
-	assertEquals(result.length, 2);
-	assertEquals(result[0].frame, "A");
-	assertEquals(result[0].angle, 2);
-	assertEquals(result[0].mirror, false);
-	assertEquals(result[1].frame, "D");
-	assertEquals(result[1].angle, 8);
-	assertEquals(result[1].mirror, false);
+	expect(result.length).toEqual(2);
+	expect(result[0].frame).toEqual("A");
+	expect(result[0].angle).toEqual(2);
+	expect(result[0].mirror).toEqual(false);
+	expect(result[1].frame).toEqual("D");
+	expect(result[1].angle).toEqual(8);
+	expect(result[1].mirror).toEqual(false);
 });
 
-Deno.test("parseSpriteName - angle 0 rotation-invariant", () => {
+test("parseSpriteName - angle 0 rotation-invariant", () => {
 	const result = parseSpriteName("possh0.png", "POSS");
-	assertEquals(result.length, 1);
-	assertEquals(result[0].frame, "H");
-	assertEquals(result[0].angle, 0);
-	assertEquals(result[0].mirror, false);
+	expect(result.length).toEqual(1);
+	expect(result[0].frame).toEqual("H");
+	expect(result[0].angle).toEqual(0);
+	expect(result[0].mirror).toEqual(false);
 });
 
-Deno.test("parseSpriteName - gif extension", () => {
+test("parseSpriteName - gif extension", () => {
 	const result = parseSpriteName("trooa1.gif", "TROO");
-	assertEquals(result.length, 1);
-	assertEquals(result[0].frame, "A");
-	assertEquals(result[0].angle, 1);
-	assertEquals(result[0].mirror, false);
+	expect(result.length).toEqual(1);
+	expect(result[0].frame).toEqual("A");
+	expect(result[0].angle).toEqual(1);
+	expect(result[0].mirror).toEqual(false);
 });
 
-Deno.test("parseSpriteName - uppercase input", () => {
+test("parseSpriteName - uppercase input", () => {
 	const result = parseSpriteName("TROOA1.PNG", "TROO");
-	assertEquals(result.length, 1);
-	assertEquals(result[0].frame, "A");
-	assertEquals(result[0].angle, 1);
+	expect(result.length).toEqual(1);
+	expect(result[0].frame).toEqual("A");
+	expect(result[0].angle).toEqual(1);
 });
 
-Deno.test("parseSpriteName - wrong code", () => {
+test("parseSpriteName - wrong code", () => {
 	const result = parseSpriteName("trooa1.png", "POSS");
-	assertEquals(result.length, 0);
+	expect(result.length).toEqual(0);
 });
 
-Deno.test("parseSpriteName - non-sprite filename", () => {
+test("parseSpriteName - non-sprite filename", () => {
 	const result = parseSpriteName("readme.txt", "TROO");
-	assertEquals(result.length, 0);
+	expect(result.length).toEqual(0);
 });
 
-Deno.test("parseSpriteName - sourceFile preserved in dual", () => {
+test("parseSpriteName - sourceFile preserved in dual", () => {
 	const result = parseSpriteName("trooa3a7.png", "TROO");
-	assertEquals(result.length, 2);
-	assertEquals(result[0].sourceFile, "trooa3a7.png");
-	assertEquals(result[1].sourceFile, "trooa3a7.png");
+	expect(result.length).toEqual(2);
+	expect(result[0].sourceFile).toEqual("trooa3a7.png");
+	expect(result[1].sourceFile).toEqual("trooa3a7.png");
 });
 
-Deno.test("extractGridCells - basic extraction", () => {
+test("extractGridCells - basic extraction", () => {
 	const files = [
 		{ name: "possa1.png", url: "http://example.com/possa1.png" },
 		{ name: "possa2.png", url: "http://example.com/possa2.png" },
@@ -104,53 +104,53 @@ Deno.test("extractGridCells - basic extraction", () => {
 	];
 	const cells = extractGridCells(files, "POSS");
 	// A1, A2, H0, and auto-mirrored A8 (from A2)
-	assertEquals(cells.length, 4);
-	assertEquals(cells[0].frame, "A");
-	assertEquals(cells[0].angle, 1);
-	assertEquals(cells[0].file.name, "possa1.png");
+	expect(cells.length).toEqual(4);
+	expect(cells[0].frame).toEqual("A");
+	expect(cells[0].angle).toEqual(1);
+	expect(cells[0].file.name).toEqual("possa1.png");
 });
 
-Deno.test("extractGridCells - auto-mirrors missing angles", () => {
+test("extractGridCells - auto-mirrors missing angles", () => {
 	const files = [
 		{ name: "trooa2.png", url: "http://example.com/trooa2.png" },
 	];
 	const cells = extractGridCells(files, "TROO");
 	// Should have A2 and A8 (mirrored)
-	assertEquals(cells.length, 2);
+	expect(cells.length).toEqual(2);
 	const a2 = cells.find(c => c.angle === 2)!;
 	const a8 = cells.find(c => c.angle === 8)!;
 	
-	assertEquals(a2.mirror, false);
-	assertEquals(a8.mirror, true);
-	assertEquals(a8.frame, "A");
-	assertEquals(a8.file.name, "trooa2.png");
+	expect(a2.mirror).toEqual(false);
+	expect(a8.mirror).toEqual(true);
+	expect(a8.frame).toEqual("A");
+	expect(a8.file.name).toEqual("trooa2.png");
 });
 
-Deno.test("extractGridCells - does not double-mirror if already present", () => {
+test("extractGridCells - does not double-mirror if already present", () => {
 	const files = [
 		{ name: "trooa2a8.png", url: "http://example.com/trooa2a8.png" },
 	];
 	const cells = extractGridCells(files, "TROO");
 	// Should still only have 2 cells, A2 and A8
-	assertEquals(cells.length, 2);
-	assertEquals(cells.filter(c => c.angle === 2).length, 1);
-	assertEquals(cells.filter(c => c.angle === 8).length, 1);
+	expect(cells.length).toEqual(2);
+	expect(cells.filter(c => c.angle === 2).length).toEqual(1);
+	expect(cells.filter(c => c.angle === 8).length).toEqual(1);
 });
 
-Deno.test("extractGridCells - mirrors from high to low", () => {
+test("extractGridCells - mirrors from high to low", () => {
 	const files = [
 		{ name: "trooa6.png", url: "http://example.com/trooa6.png" },
 	];
 	const cells = extractGridCells(files, "TROO");
 	// Should have A6 and A4 (mirrored)
-	assertEquals(cells.length, 2);
+	expect(cells.length).toEqual(2);
 	const a6 = cells.find(c => c.angle === 6)!;
 	const a4 = cells.find(c => c.angle === 4)!;
-	assertEquals(a6.mirror, false);
-	assertEquals(a4.mirror, true);
+	expect(a6.mirror).toEqual(false);
+	expect(a4.mirror).toEqual(true);
 });
 
-Deno.test("detectSource - all freedoom", () => {
+test("detectSource - all freedoom", () => {
 	const version: Version = {
 		date: "2023-01-01",
 		sha: "x",
@@ -168,10 +168,10 @@ Deno.test("detectSource - all freedoom", () => {
 			},
 		],
 	};
-	assertEquals(detectSource(version), "freedoom");
+	expect(detectSource(version)).toEqual("freedoom");
 });
 
-Deno.test("detectSource - all attic", () => {
+test("detectSource - all attic", () => {
 	const version: Version = {
 		date: "2024-05-22",
 		sha: "x",
@@ -185,10 +185,10 @@ Deno.test("detectSource - all attic", () => {
 			},
 		],
 	};
-	assertEquals(detectSource(version), "attic");
+	expect(detectSource(version)).toEqual("attic");
 });
 
-Deno.test("detectSource - majority wins", () => {
+test("detectSource - majority wins", () => {
 	const version: Version = {
 		date: "2024-05-22",
 		sha: "x",
@@ -210,10 +210,10 @@ Deno.test("detectSource - majority wins", () => {
 			},
 		],
 	};
-	assertEquals(detectSource(version), "freedoom");
+	expect(detectSource(version)).toEqual("freedoom");
 });
 
-Deno.test("detectSource - tie-break is first file", () => {
+test("detectSource - tie-break is first file", () => {
 	const version: Version = {
 		date: "2024-05-22",
 		sha: "x",
@@ -231,10 +231,10 @@ Deno.test("detectSource - tie-break is first file", () => {
 			},
 		],
 	};
-	assertEquals(detectSource(version), "attic");
+	expect(detectSource(version)).toEqual("attic");
 });
 
-Deno.test("detectSource - empty files returns unknown", () => {
+test("detectSource - empty files returns unknown", () => {
 	const version: Version = {
 		date: "",
 		sha: "",
@@ -243,10 +243,10 @@ Deno.test("detectSource - empty files returns unknown", () => {
 		message: "",
 		files: [],
 	};
-	assertEquals(detectSource(version), "unknown");
+	expect(detectSource(version)).toEqual("unknown");
 });
 
-Deno.test("detectSource - unparseable URL returns unknown", () => {
+test("detectSource - unparseable URL returns unknown", () => {
 	const version: Version = {
 		date: "",
 		sha: "",
@@ -255,5 +255,5 @@ Deno.test("detectSource - unparseable URL returns unknown", () => {
 		message: "",
 		files: [{ name: "x.png", url: "https://example.com/foo.png" }],
 	};
-	assertEquals(detectSource(version), "unknown");
+	expect(detectSource(version)).toEqual("unknown");
 });

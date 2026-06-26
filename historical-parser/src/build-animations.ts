@@ -10,14 +10,18 @@
 // (freedoom.git, attic.git) via `git show <sha>:<path>` rather than
 // fetching from GitHub. Much faster; no --allow-net needed.
 
-import { ensureDir } from "@std/fs/ensure-dir";
-import { join } from "@std/path";
+import { mkdir, readdir, copyFile, rm, readFile, rename } from "node:fs/promises";
+import { join } from "node:path";
 
-const REPO_ROOT = new URL("../", import.meta.url).pathname;
+async function ensureDir(path: string) {
+  await mkdir(path, { recursive: true });
+}
+
+const REPO_ROOT = join(import.meta.dir, "..");
 
 const CONFIG = {
-  spritesJsonPath: join(REPO_ROOT, "sprites.json"),
-  versionsDir: join(REPO_ROOT, "src", "sprite-versions"),
+  spritesJsonPath: join(import.meta.dir, "sprites.json"),
+  versionsDir: join(import.meta.dir, "sprite-versions"),
   outDir: join(REPO_ROOT, "out"),
   animationsDirName: "animations",
   animationsJsonName: "animations.json",
@@ -27,8 +31,8 @@ const CONFIG = {
   // Local bare clones available on disk. Keyed by the GitHub repo owner/name
   // portion of blob URLs in src/sprite-versions/*.json.
   bareRepos: {
-    "freedoom/freedoom": join(REPO_ROOT, "src", "freedoom.git"),
-    "freedoom/attic": join(REPO_ROOT, "src", "attic.git"),
+    "freedoom/freedoom": join(import.meta.dir, "freedoom.git"),
+    "freedoom/attic": join(import.meta.dir, "attic.git"),
   },
 };
 
@@ -126,11 +130,9 @@ async function readGitBlob(
   path: string,
 ): Promise<Uint8Array | null> {
   try {
-    const cmd = new Deno.Command("git", {
-      args: ["show", `${sha}:${path}`],
+    const { success, stdout } = Bun.spawnSync(["git", "show", `${sha}:${path}`], {
       cwd: bareRepoPath,
     });
-    const { success, stdout } = await cmd.output();
     if (!success) return null;
     return new Uint8Array(stdout);
   } catch {
@@ -170,12 +172,11 @@ async function loadSpriteImage(
 
 async function checkImageMagick(): Promise<void> {
   try {
-    const cmd = new Deno.Command("magick", { args: ["-version"] });
-    const { success } = await cmd.output();
+    const { success } = Bun.spawnSync(["magick", "-version"]);
     if (!success) throw new Error();
   } catch {
     console.error("Error: ImageMagick ('magick') not found.");
-    Deno.exit(1);
+    process.exit(1);
   }
 }
 
@@ -194,10 +195,7 @@ function findFileForFrame(
 async function getMaxDimensions(
   folderPath: string,
 ): Promise<{ w: number; h: number }> {
-  const cmd = new Deno.Command("magick", {
-    args: ["identify", "-format", "%w,%h\n", join(folderPath, "*")],
-  });
-  const { stdout } = await cmd.output();
+  const { stdout } = Bun.spawnSync(["magick", "identify", "-format", "%w,%h\n", join(folderPath, "*")]);
   const output = new TextDecoder().decode(stdout).trim();
   let maxW = 0;
   let maxH = 0;
@@ -222,7 +220,7 @@ async function renderAnimation(
     // Copy / hard-link frames in order with stable names.
     for (let i = 0; i < framePaths.length; i++) {
       const dst = join(tmpDir, `${String(i).padStart(3, "0")}.png`);
-      await Deno.copyFile(framePaths[i], dst);
+      await copyFile(framePaths[i], dst);
     }
 
     const { w, h } = await getMaxDimensions(tmpDir);
@@ -231,6 +229,7 @@ async function renderAnimation(
     }
 
     const args = [
+      "magick",
       "-delay",
       String(CONFIG.delay),
       "-dispose",
@@ -253,15 +252,14 @@ async function renderAnimation(
       "webp:lossless=true",
       outputPath,
     ];
-    const cmd = new Deno.Command("magick", { args });
-    const { success, stderr } = await cmd.output();
+    const { success, stderr } = Bun.spawnSync(args);
     if (!success) {
       throw new Error(new TextDecoder().decode(stderr));
     }
     return { w, h, frames: framePaths.length };
   } finally {
     try {
-      await Deno.remove(tmpDir, { recursive: true });
+      await rm(tmpDir, { recursive: true });
     } catch {
       /* ignore */
     }
@@ -300,7 +298,7 @@ async function processRenderJob(
       if (!image) continue;
       const localName = `${String(idx).padStart(3, "0")}.${image.ext}`;
       const localPath = join(tempDownloadDir, localName);
-      await Deno.writeFile(localPath, image.data);
+      await Bun.write(localPath, image.data);
       downloaded.push(localPath);
       idx++;
     }
@@ -318,7 +316,7 @@ async function processRenderJob(
     return null;
   } finally {
     try {
-      await Deno.remove(tempDownloadDir, { recursive: true });
+      await rm(tempDownloadDir, { recursive: true });
     } catch {
       /* ignore */
     }
@@ -333,20 +331,21 @@ async function main() {
   const animationsDir = join(CONFIG.outDir, CONFIG.animationsDirName);
   await ensureDir(animationsDir);
 
-  const spritesRaw = await Deno.readTextFile(CONFIG.spritesJsonPath);
+  const spritesRaw = await readFile(CONFIG.spritesJsonPath, "utf-8");
   const sprites: SpriteDef[] = JSON.parse(spritesRaw);
 
   const codes = new Set<string>();
   for (const s of sprites) codes.add(s.sprite);
   try {
-    for await (const entry of Deno.readDir(CONFIG.versionsDir)) {
-      if (entry.isFile && entry.name.endsWith(".json")) {
+    const entries = await readdir(CONFIG.versionsDir, { withFileTypes: true });
+    for (const entry of entries) {
+      if (entry.isFile() && entry.name.endsWith(".json")) {
         codes.add(entry.name.replace(/\.json$/, ""));
       }
     }
   } catch (err) {
     console.error(`Cannot read ${CONFIG.versionsDir}:`, err);
-    Deno.exit(1);
+    process.exit(1);
   }
 
   const result: AnimationsFile = {};
@@ -355,7 +354,7 @@ async function main() {
     const versionsPath = join(CONFIG.versionsDir, `${code}.json`);
     let versions: Version[];
     try {
-      const raw = await Deno.readTextFile(versionsPath);
+      const raw = await readFile(versionsPath, "utf-8");
       versions = JSON.parse(raw) as Version[];
     } catch {
       console.warn(`Skipping ${code}: missing ${versionsPath}`);
@@ -463,8 +462,8 @@ async function main() {
 
   const outPath = join(CONFIG.outDir, CONFIG.animationsJsonName);
   const tmpPath = `${outPath}.tmp`;
-  await Deno.writeTextFile(tmpPath, JSON.stringify(result, null, 2));
-  await Deno.rename(tmpPath, outPath);
+  await writeFile(tmpPath, JSON.stringify(result, null, 2));
+  await rename(tmpPath, outPath);
   console.log(`\nWrote ${outPath}`);
   console.log("All Done!");
 }

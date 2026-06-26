@@ -1,5 +1,5 @@
 /**
- * All Deno.Command git calls live here. No other class calls git directly.
+ * All Bun.spawn git calls live here. No other class calls git directly.
  *
  * This class is the I/O boundary for all git operations, making it easy to mock
  * for testing and ensuring consistent error handling across the codebase.
@@ -14,9 +14,9 @@ export class GitReader {
   /** Absolute path to the bare git repository */
   readonly repoPath: string;
   // Long-lived git cat-file --batch process and helpers
-  private batchChild: Deno.ChildProcess | null = null;
+  private batchChild: any | null = null;
   private batchStdoutReader: ReadableStreamDefaultReader<Uint8Array> | null = null;
-  private batchStdinWriter: WritableStreamDefaultWriter<Uint8Array> | null = null;
+  private batchStdin: any | null = null;
   private batchDecoder = new TextDecoder();
   private batchLeftover = "";
   // Serializes concurrent fetchViaBatch calls so they don't race on the shared stdout reader
@@ -125,17 +125,14 @@ export class GitReader {
   private async lazyInitBatch(): Promise<void> {
     if (this.batchChild) return;
 
-    const command = new Deno.Command("git", {
-      args: ["-C", this.repoPath, "cat-file", "--batch"],
-      stdin: "piped",
-      stdout: "piped",
-      stderr: "piped",
+    this.batchChild = Bun.spawn(["git", "-C", this.repoPath, "cat-file", "--batch"], {
+      stdin: "pipe",
+      stdout: "pipe",
+      stderr: "pipe",
     });
 
-    const child = command.spawn();
-    this.batchChild = child;
-    if (child.stdout) this.batchStdoutReader = child.stdout.getReader();
-    if (child.stdin) this.batchStdinWriter = child.stdin.getWriter();
+    if (this.batchChild.stdout) this.batchStdoutReader = this.batchChild.stdout.getReader();
+    if (this.batchChild.stdin) this.batchStdin = this.batchChild.stdin;
   }
 
   /**
@@ -145,18 +142,26 @@ export class GitReader {
   private fetchViaBatch(objectHash: string): Promise<string> {
     const result = this.batchQueue.then(() => this.doFetchViaBatch(objectHash));
     // Swallow errors on the queue tail so a failure doesn't permanently stall it
-    this.batchQueue = result.catch(() => {});
+    this.batchQueue = result.catch((err) => {
+      console.error(`GitReader.fetchViaBatch error for ${objectHash}:`, err);
+    });
     return result;
   }
 
   private async doFetchViaBatch(objectHash: string): Promise<string> {
     await this.lazyInitBatch();
-    if (!this.batchStdinWriter || !this.batchStdoutReader) {
+    if (!this.batchStdin || !this.batchStdoutReader) {
       throw new Error("Batch process not available");
     }
 
     const encoder = new TextEncoder();
-    await this.batchStdinWriter.write(encoder.encode(objectHash + "\n"));
+    if (typeof this.batchStdin.write === "function") {
+      this.batchStdin.write(encoder.encode(objectHash + "\n"));
+    } else {
+      const writer = this.batchStdin.getWriter();
+      await writer.write(encoder.encode(objectHash + "\n"));
+      writer.releaseLock();
+    }
 
     // Start from any bytes left over from the previous call
     let buf = this.batchLeftover;
@@ -194,8 +199,8 @@ export class GitReader {
    */
   async close(): Promise<void> {
     try {
-      if (this.batchStdinWriter) {
-        await this.batchStdinWriter.close();
+      if (this.batchStdin) {
+        await this.batchStdin.close();
       }
       if (this.batchStdoutReader) {
         await this.batchStdoutReader.cancel();
@@ -210,7 +215,7 @@ export class GitReader {
     } finally {
       this.batchChild = null;
       this.batchStdoutReader = null;
-      this.batchStdinWriter = null;
+      this.batchStdin = null;
       this.batchLeftover = "";
       this.batchDecoder = new TextDecoder();
       this.batchQueue = Promise.resolve();
@@ -225,15 +230,9 @@ export class GitReader {
    */
   private async run(args: string[]): Promise<string> {
     console.debug("GitReader.run: git -C", this.repoPath, args.join(" "));
-    const command = new Deno.Command("git", {
-      args: ["-C", this.repoPath, ...args],
-      stdout: "piped",
-      stderr: "piped",
-    });
+    const { stdout, stderr, success } = Bun.spawnSync(["git", "-C", this.repoPath, ...args]);
 
-    const { code, stdout, stderr } = await command.output();
-
-    if (code !== 0) {
+    if (!success) {
       const errorMessage = new TextDecoder().decode(stderr);
       console.error("GitReader.run: git command failed:", errorMessage);
       throw new Error(

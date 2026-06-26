@@ -1,4 +1,4 @@
-import { assertEquals } from "@std/assert";
+import { expect, test } from "bun:test";
 import {
   buildGridLayout,
   computeSpritesheetDimensions,
@@ -16,7 +16,7 @@ function createPaddedMap(layout: any, w: number, h: number): Map<string, PaddedC
   return map;
 }
 
-Deno.test("buildGridLayout - frames sorted alphabetically", () => {
+test("buildGridLayout - frames sorted alphabetically", () => {
   const cells: GridCell[] = [
     {
       frame: "B",
@@ -41,10 +41,10 @@ Deno.test("buildGridLayout - frames sorted alphabetically", () => {
     },
   ];
   const layout = buildGridLayout(cells);
-  assertEquals(layout.frames, ["A", "B", "C"]);
+  expect(layout.frames).toEqual(["A", "B", "C"]);
 });
 
-Deno.test("buildGridLayout - angles sorted numerically", () => {
+test("buildGridLayout - angles sorted numerically", () => {
   const cells: GridCell[] = [
     {
       frame: "A",
@@ -69,10 +69,10 @@ Deno.test("buildGridLayout - angles sorted numerically", () => {
     },
   ];
   const layout = buildGridLayout(cells);
-  assertEquals(layout.angles, [0, 1, 8]);
+  expect(layout.angles).toEqual([0, 1, 8]);
 });
 
-Deno.test("buildGridLayout - cell map key format", () => {
+test("buildGridLayout - cell map key format", () => {
   const cells: GridCell[] = [
     {
       frame: "A",
@@ -83,10 +83,10 @@ Deno.test("buildGridLayout - cell map key format", () => {
     },
   ];
   const layout = buildGridLayout(cells);
-  assertEquals(layout.cells.has("A_3"), true);
+  expect(layout.cells.has("A_3")).toEqual(true);
 });
 
-Deno.test("buildGridLayout - angle-0 cells included", () => {
+test("buildGridLayout - angle-0 cells included", () => {
   const cells: GridCell[] = [
     {
       frame: "H",
@@ -97,10 +97,10 @@ Deno.test("buildGridLayout - angle-0 cells included", () => {
     },
   ];
   const layout = buildGridLayout(cells);
-  assertEquals(layout.cells.has("H_0"), true);
+  expect(layout.cells.has("H_0")).toEqual(true);
 });
 
-Deno.test("buildGridLayout - mirror cells stored separately", () => {
+test("buildGridLayout - mirror cells stored separately", () => {
   const cells: GridCell[] = [
     {
       frame: "A",
@@ -118,11 +118,11 @@ Deno.test("buildGridLayout - mirror cells stored separately", () => {
     },
   ];
   const layout = buildGridLayout(cells);
-  assertEquals(layout.cells.has("A_2"), true);
-  assertEquals(layout.cells.has("A_8"), true);
+  expect(layout.cells.has("A_2")).toEqual(true);
+  expect(layout.cells.has("A_8")).toEqual(true);
 });
 
-Deno.test("buildGridLayout - cross-frame mirror", () => {
+test("buildGridLayout - cross-frame mirror", () => {
   const cells: GridCell[] = [
     {
       frame: "A",
@@ -140,64 +140,64 @@ Deno.test("buildGridLayout - cross-frame mirror", () => {
     },
   ];
   const layout = buildGridLayout(cells);
-  assertEquals(layout.cells.has("A_2"), true);
-  assertEquals(layout.cells.has("D_8"), true);
+  expect(layout.cells.has("A_2")).toEqual(true);
+  expect(layout.cells.has("D_8")).toEqual(true);
 });
 
-Deno.test("buildGridLayout - empty input", () => {
+test("buildGridLayout - empty input", () => {
   const layout = buildGridLayout([]);
-  assertEquals(layout.frames.length, 0);
-  assertEquals(layout.angles.length, 0);
-  assertEquals(layout.cells.size, 0);
+  expect(layout.frames.length).toEqual(0);
+  expect(layout.angles.length).toEqual(0);
+  expect(layout.cells.size).toEqual(0);
 });
 
-Deno.test("computeSpritesheetDimensions - 3x2 grid", () => {
+test("computeSpritesheetDimensions - 3x2 grid", () => {
   const layout = {
     frames: ["A", "B", "C"],
     angles: [1, 2],
     cells: new Map(),
   };
-  const dims = computeSpritesheetDimensions(layout, 64, 96);
-  assertEquals(dims.width, 192); // 3 cols * 64
-  assertEquals(dims.height, 192); // 2 rows * 96
+  const dims = computeSpritesheetDimensions(layout as any, 64, 96);
+  expect(dims.width).toEqual(192); // 3 cols * 64
+  expect(dims.height).toEqual(192); // 2 rows * 96
 });
 
-Deno.test("computeSpritesheetDimensions - single cell", () => {
+test("computeSpritesheetDimensions - single cell", () => {
   const layout = {
     frames: ["A"],
     angles: [1],
     cells: new Map(),
   };
-  const dims = computeSpritesheetDimensions(layout, 64, 96);
-  assertEquals(dims.width, 64);
-  assertEquals(dims.height, 96);
+  const dims = computeSpritesheetDimensions(layout as any, 64, 96);
+  expect(dims.width).toEqual(64);
+  expect(dims.height).toEqual(96);
 });
 
-Deno.test("cellToPosition - row 0, col 0", () => {
+test("cellToPosition - row 0, col 0", () => {
   const pos = cellToPosition(0, 0, 64, 96);
-  assertEquals(pos.x, 0);
-  assertEquals(pos.y, 0);
+  expect(pos.x).toEqual(0);
+  expect(pos.y).toEqual(0);
 });
 
-Deno.test("cellToPosition - row 0, col 1", () => {
+test("cellToPosition - row 0, col 1", () => {
   const pos = cellToPosition(0, 1, 64, 96);
-  assertEquals(pos.x, 64);
-  assertEquals(pos.y, 0);
+  expect(pos.x).toEqual(64);
+  expect(pos.y).toEqual(0);
 });
 
-Deno.test("cellToPosition - row 1, col 0", () => {
+test("cellToPosition - row 1, col 0", () => {
   const pos = cellToPosition(1, 0, 64, 96);
-  assertEquals(pos.x, 0);
-  assertEquals(pos.y, 96);
+  expect(pos.x).toEqual(0);
+  expect(pos.y).toEqual(96);
 });
 
-Deno.test("cellToPosition - row 2, col 3", () => {
+test("cellToPosition - row 2, col 3", () => {
   const pos = cellToPosition(2, 3, 32, 48);
-  assertEquals(pos.x, 96); // 3 * 32
-  assertEquals(pos.y, 96); // 2 * 48
+  expect(pos.x).toEqual(96); // 3 * 32
+  expect(pos.y).toEqual(96); // 2 * 48
 });
 
-Deno.test("buildSpritesheetMetadata - date and author", () => {
+test("buildSpritesheetMetadata - date and author", () => {
   const version: Version = {
     date: "2023-07-16T23:14:24-07:00",
     sha: "57246cae8f7901d4bc63072f9632685d1e3b507d",
@@ -224,22 +224,21 @@ Deno.test("buildSpritesheetMetadata - date and author", () => {
   };
   const entry = buildSpritesheetMetadata(
     version,
-    layout,
+    layout as any,
     "out/spritesheets/POSS/2023-07-16.webp",
     64,
     96,
     createPaddedMap(layout, 64, 96),
   );
-  assertEquals(entry.date, "2023-07-16T23:14:24-07:00");
-  assertEquals(entry.author, "Steven Elliott");
-  assertEquals(entry.commitMessage, "png: Map color 255 to color 133");
-  assertEquals(
+  expect(entry.date).toEqual("2023-07-16T23:14:24-07:00");
+  expect(entry.author).toEqual("Steven Elliott");
+  expect(entry.commitMessage).toEqual("png: Map color 255 to color 133");
+  expect(
     entry.commitUrl,
-    "https://github.com/freedoom/freedoom/commit/57246cae8f7901d4bc63072f9632685d1e3b507d",
-  );
+  ).toEqual("https://github.com/freedoom/freedoom/commit/57246cae8f7901d4bc63072f9632685d1e3b507d");
 });
 
-Deno.test("buildSpritesheetMetadata - spritesheetPath", () => {
+test("buildSpritesheetMetadata - spritesheetPath", () => {
   const version: Version = {
     date: "2023-07-16T23:14:24-07:00",
     sha: "57246cae",
@@ -251,16 +250,16 @@ Deno.test("buildSpritesheetMetadata - spritesheetPath", () => {
   const layout = { frames: [], angles: [], cells: new Map() };
   const entry = buildSpritesheetMetadata(
     version,
-    layout,
+    layout as any,
     "out/spritesheets/TROO/2023.webp",
     64,
     96,
     createPaddedMap(layout, 64, 96),
   );
-  assertEquals(entry.spritesheetPath, "out/spritesheets/TROO/2023.webp");
+  expect(entry.spritesheetPath).toEqual("out/spritesheets/TROO/2023.webp");
 });
 
-Deno.test("buildSpritesheetMetadata - sprite entries", () => {
+test("buildSpritesheetMetadata - sprite entries", () => {
   const version: Version = {
     date: "2023-07-16T23:14:24-07:00",
     sha: "57246cae",
@@ -295,14 +294,14 @@ Deno.test("buildSpritesheetMetadata - sprite entries", () => {
       ],
     ]),
   };
-  const entry = buildSpritesheetMetadata(version, layout, "path.webp", 64, 96, createPaddedMap(layout, 64, 96));
-  assertEquals(entry.sprites.length, 2);
-  assertEquals(entry.sprites[0].frame, "A");
-  assertEquals(entry.sprites[0].angle, "0");
-  assertEquals(entry.sprites[1].angle, "1");
+  const entry = buildSpritesheetMetadata(version, layout as any, "path.webp", 64, 96, createPaddedMap(layout, 64, 96));
+  expect(entry.sprites.length).toEqual(2);
+  expect(entry.sprites[0].frame).toEqual("A");
+  expect(entry.sprites[0].angle).toEqual("0");
+  expect(entry.sprites[1].angle).toEqual("1");
 });
 
-Deno.test("buildSpritesheetMetadata - frame and angle strings", () => {
+test("buildSpritesheetMetadata - frame and angle strings", () => {
   const version: Version = {
     date: "2023-07-16T23:14:24-07:00",
     sha: "57246cae",
@@ -327,12 +326,12 @@ Deno.test("buildSpritesheetMetadata - frame and angle strings", () => {
       ],
     ]),
   };
-  const entry = buildSpritesheetMetadata(version, layout, "path.webp", 64, 96, createPaddedMap(layout, 64, 96));
-  assertEquals(entry.sprites[0].frame, "H");
-  assertEquals(entry.sprites[0].angle, "0");
+  const entry = buildSpritesheetMetadata(version, layout as any, "path.webp", 64, 96, createPaddedMap(layout, 64, 96));
+  expect(entry.sprites[0].frame).toEqual("H");
+  expect(entry.sprites[0].angle).toEqual("0");
 });
 
-Deno.test("buildSpritesheetMetadata - x and y positions", () => {
+test("buildSpritesheetMetadata - x and y positions", () => {
   const version: Version = {
     date: "2023-07-16T23:14:24-07:00",
     sha: "57246cae",
@@ -387,16 +386,19 @@ Deno.test("buildSpritesheetMetadata - x and y positions", () => {
       ],
     ]),
   };
-  const entry = buildSpritesheetMetadata(version, layout, "path.webp", 64, 96, createPaddedMap(layout, 64, 96));
+  const entry = buildSpritesheetMetadata(version, layout as any, "path.webp", 64, 96, createPaddedMap(layout, 64, 96));
   // Frame A, angle 1 = row 0, col 0 = (0, 0)
-  assertEquals(entry.sprites[0].x, 0);
-  assertEquals(entry.sprites[0].y, 0);
-  // Frame A, angle 2 = row 0, col 1 = (64, 0)
-  assertEquals(entry.sprites[1].x, 64);
-  assertEquals(entry.sprites[1].y, 0);
+  expect(entry.sprites[0].x).toEqual(0);
+  expect(entry.sprites[0].y).toEqual(0);
+  // Frame A, angle 2 = row 1, col 0 = (0, 96)
+  expect(entry.sprites[1].x).toEqual(0);
+  expect(entry.sprites[1].y).toEqual(96);
+  // Frame B, angle 1 = row 0, col 1 = (64, 0)
+  expect(entry.sprites[2].x).toEqual(64);
+  expect(entry.sprites[2].y).toEqual(0);
 });
 
-Deno.test("buildSpritesheetMetadata - mirror different position", () => {
+test("buildSpritesheetMetadata - mirror different position", () => {
   const version: Version = {
     date: "2023-07-16T23:14:24-07:00",
     sha: "57246cae",
@@ -431,9 +433,11 @@ Deno.test("buildSpritesheetMetadata - mirror different position", () => {
       ],
     ]),
   };
-  const entry = buildSpritesheetMetadata(version, layout, "path.webp", 64, 96, createPaddedMap(layout, 64, 96));
+  const entry = buildSpritesheetMetadata(version, layout as any, "path.webp", 64, 96, createPaddedMap(layout, 64, 96));
   const sprite2 = entry.sprites.find((s) => s.angle === "2");
   const sprite8 = entry.sprites.find((s) => s.angle === "8");
-  assertEquals(sprite2?.x, 0);
-  assertEquals(sprite8?.x, 64);
+  expect(sprite2?.x).toEqual(0);
+  expect(sprite2?.y).toEqual(0);
+  expect(sprite8?.x).toEqual(0);
+  expect(sprite8?.y).toEqual(96);
 });
