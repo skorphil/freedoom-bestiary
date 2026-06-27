@@ -113,7 +113,7 @@ export function useAnimation({
         task.offset.dx,
         task.offset.dy,
         task.source.width,
-        task.source.height,
+        task.source.height * 1.2,
       );
     }
   }, [canvasRef]);

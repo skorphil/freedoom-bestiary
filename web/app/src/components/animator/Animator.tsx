@@ -43,7 +43,7 @@ export function Animator({
         {error && <div className={styles.errorOverlay}>{error}</div>}
         
         <div className={styles.canvasWrapper} style={{ 
-          aspectRatio: `${stageSize.width} / ${stageSize.height * 1.2}`,
+          aspectRatio: `${stageSize.width} / ${stageSize.height}`,
           width: '100%',
           height: '100%',
           maxWidth: '100%',

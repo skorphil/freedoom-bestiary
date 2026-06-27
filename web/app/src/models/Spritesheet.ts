@@ -28,7 +28,7 @@ export class Spritesheet {
 
   /** Return bounding box of all frames to avoid jumping */
   getStageSize() {
-    return { width: this.maxWidth, height: this.maxHeight };
+    return { width: this.maxWidth, height: Math.ceil(this.maxHeight * 1.2) };
   }
 
   /** return list of existing animations keys */
@@ -88,9 +88,9 @@ export class Spritesheet {
           source: sprite,
           offset: {
             dx: Math.round((this.maxWidth - sprite.width) / 2),
-            dy: Math.round(this.maxHeight - sprite.height),
+            dy: Math.round(this.maxHeight * 1.2 - sprite.height * 1.2),
           },
-          stageSize: { width: this.maxWidth, height: this.maxHeight },
+          stageSize: this.getStageSize(),
         };
 
         for (let i = 0; i < delay; i++) {

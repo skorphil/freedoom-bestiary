@@ -30,7 +30,7 @@ test("Spritesheet - bounding box calculation", () => {
   
   const size = sheet.getStageSize();
   expect(size.width).toBe(20);
-  expect(size.height).toBe(20);
+  expect(size.height).toBe(24);
 });
 
 test("Spritesheet - getAnimationsWithAngles", () => {

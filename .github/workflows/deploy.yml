@@ -38,7 +38,14 @@ jobs:
 
       - name: Build site
         working-directory: web
-        run: bun run build
+        run: |
+          bun run build
+          # Move prerendered files to root for GitHub Pages compatibility
+          if [ -d build/client/freedoom-bestiary ]; then
+            cp -r build/client/freedoom-bestiary/* build/client/
+          fi
+          # Copy index.html to 404.html to handle client-side routing
+          cp build/client/index.html build/client/404.html
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

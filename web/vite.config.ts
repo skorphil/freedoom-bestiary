@@ -14,6 +14,6 @@ export default defineConfig(({ command }) => ({
       allow: [".."],
     },
   },
-  // Use relative paths for assets (required for GitHub Pages subpath deployment)
-  base: "./",
+  // Use the repository name as the base for GitHub Pages subpath deployment
+  base: "/freedoom-bestiary/",
 }));
