@@ -1,7 +1,8 @@
-import { useEffect, useRef, useState, useCallback, useMemo } from "react";
+import styles from './Animator.module.css'
+
+import { useRef } from "react";
 import type { SpritesheetVersion, SpriteMeta } from "../../models/schema.ts";
-import { Spritesheet, type RenderTask } from "../../models/Spritesheet.ts";
-import { useAnimationLoop } from "../../hooks/useAnimationLoop.ts";
+import { useAnimation } from "./useAnimation.ts";
 
 export type AnimatorProps = {
   code: string;
@@ -17,112 +18,31 @@ export function Animator({
   initialAnimation = "idling" 
 }: AnimatorProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
-  const [animName, setAnimName] = useState(initialAnimation);
-  const [angle, setAngle] = useState(1);
-  const [image, setImage] = useState<HTMLImageElement | null>(null);
-  const [error, setError] = useState<string | null>(null);
-  
-  // Initialize Spritesheet instance
-  const spritesheet = useMemo(() => {
-    if (!image) return null;
-    return new Spritesheet(code, image, version, meta);
-  }, [code, image, version, meta]);
-
-  // Load image
-  useEffect(() => {
-    const img = new Image();
-    img.crossOrigin = "anonymous";
-    
-    img.onload = () => {
-      setImage(img);
-      setError(null);
-    };
-    
-    img.onerror = () => {
-      setError(`Failed to load spritesheet for ${code}`);
-    };
-
-    img.src = `${import.meta.env.BASE_URL}${version.spritesheetPath}`.replace("//", "/");
-  }, [version.spritesheetPath, code]);
-
-  const animationsWithAngles = useMemo(() => {
-    return spritesheet?.getAnimationsWithAngles() ?? [];
-  }, [spritesheet]);
-
-  const animations = useMemo(() => {
-    return animationsWithAngles.map(a => a.name);
-  }, [animationsWithAngles]);
-
-  const currentAngles = useMemo(() => {
-    return animationsWithAngles.find(a => a.name === animName)?.angles ?? [1];
-  }, [animationsWithAngles, animName]);
-
-  // Ensure animName is valid for the current spritesheet
-  useEffect(() => {
-    if (animations.length > 0 && !animations.includes(animName)) {
-      setAnimName(animations[0]);
-    }
-  }, [animations]);
-
-  // Ensure angle is valid for the current animation
-  useEffect(() => {
-    if (currentAngles.length > 0 && !currentAngles.includes(angle)) {
-      // Try to stay on the same angle if possible, otherwise pick the first available
-      setAngle(currentAngles[0]);
-    }
-  }, [currentAngles]);
-
-  // The generator for the current animation state
-  const generator = useMemo(() => {
-    if (!spritesheet || !animations.includes(animName)) return undefined;
-    try {
-      return spritesheet.play(animName, angle);
-    } catch (e) {
-      console.error(e);
-      return undefined;
-    }
-  }, [spritesheet, animName, angle, animations]);
-
-  // The rendering callback
-  const onTick = useCallback((task: RenderTask) => {
-    const canvas = canvasRef.current;
-    const ctx = canvas?.getContext("2d");
-    if (!canvas || !ctx) return;
-
-    // Set canvas dimensions to the stage size if they don't match
-    if (canvas.width !== task.stageSize.width || canvas.height !== task.stageSize.height) {
-      canvas.width = task.stageSize.width;
-      canvas.height = task.stageSize.height;
-    }
-
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    if (task.image.complete) {
-      ctx.drawImage(
-        task.image,
-        task.source.x,
-        task.source.y,
-        task.source.width,
-        task.source.height,
-        task.offset.dx,
-        task.offset.dy,
-        task.source.width,
-        task.source.height
-      );
-    }
-  }, []);
-
-  // Run the heartbeat
-  useAnimationLoop(generator, onTick);
-
-  const stageSize = useMemo(() => spritesheet?.getStageSize() || { width: 64, height: 64 }, [spritesheet]);
+  const {
+    animName,
+    setAnimName,
+    angle,
+    setAngle,
+    image,
+    error,
+    animations,
+    currentAngles,
+    stageSize,
+  } = useAnimation({
+    code,
+    version,
+    meta,
+    initialAnimation,
+    canvasRef,
+  });
 
   return (
-    <div className="animator">
-      <div className="animator-display">
-        {!image && !error && <div className="loading-overlay">Loading...</div>}
-        {error && <div className="error-overlay">{error}</div>}
+    <div className={styles.animator}>
+      <div className={styles.animatorDisplay}>
+        {!image && !error && <div className={styles.loadingOverlay}>Loading...</div>}
+        {error && <div className={styles.errorOverlay}>{error}</div>}
         
-        <div className="canvas-wrapper" style={{ 
+        <div className={styles.canvasWrapper} style={{ 
           aspectRatio: `${stageSize.width} / ${stageSize.height * 1.2}`,
           width: '100%',
           height: '100%',
@@ -131,15 +51,15 @@ export function Animator({
         }}>
           <canvas 
             ref={canvasRef} 
-            className="animator-canvas" 
+            className={styles.animatorCanvas}
             width={stageSize.width} 
             height={stageSize.height}
           />
         </div>
       </div>
       
-      <div className="animator-controls">
-        <div className="control-group">
+      <div className={styles.animatorControls}>
+        <div className={styles.controlGroup}>
           <label>State:</label>
           <select value={animName} onChange={(e) => setAnimName(e.target.value)}>
             {animations.map((anim) => (
@@ -147,13 +67,13 @@ export function Animator({
             ))}
           </select>
         </div>
-        <div className="control-group">
+        <div className={styles.controlGroup}>
           <label>View Angle:</label>
-          <div className="angle-buttons">
+          <div className={styles.angleButtons}>
             {currentAngles.map((a) => (
               <button 
                 key={a} 
-                className={`angle-button ${angle === a ? 'active' : ''}`}
+                className={`${styles.angleButton} ${angle === a ? styles.active : ''}`}
                 onClick={() => setAngle(a)}
                 title={`Angle ${a}`}
               >
@@ -163,98 +83,6 @@ export function Animator({
           </div>
         </div>
       </div>
-
-      <style>{`
-        .animator {
-          display: flex;
-          flex-direction: column;
-          align-items: center;
-          gap: 1rem;
-          padding: 1rem;
-          border: 1px solid #333;
-          border-radius: 8px;
-          background: #1a1a1a;
-          color: #eee;
-          width: fit-content;
-        }
-        .animator-display {
-          position: relative;
-          background-color: transparent;
-          padding: 1rem;
-          border-radius: 4px;
-          width: 320px;
-          height: 320px;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          overflow: hidden;
-        }
-        .canvas-wrapper {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-        .animator-canvas {
-          display: block;
-          image-rendering: pixelated;
-          width: 100%;
-          height: 100%;
-          object-fit: contain;
-        }
-        .loading-overlay, .error-overlay {
-          position: absolute;
-          inset: 0;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          background: rgba(0,0,0,0.5);
-          z-index: 1;
-        }
-        .error-overlay {
-          color: #ff4444;
-          text-align: center;
-          padding: 10px;
-        }
-        .animator-controls {
-          display: flex;
-          flex-direction: column;
-          gap: 1rem;
-          font-size: 0.9rem;
-          width: 100%;
-        }
-        .control-group {
-          display: flex;
-          align-items: center;
-          gap: 0.5rem;
-          justify-content: space-between;
-        }
-        .control-group select {
-          background: #333;
-          color: white;
-          border: 1px solid #555;
-          padding: 2px 4px;
-        }
-        .angle-buttons {
-          display: grid;
-          grid-template-columns: repeat(4, 1fr);
-          gap: 2px;
-        }
-        .angle-button {
-          background: #333;
-          color: white;
-          border: 1px solid #555;
-          padding: 2px 6px;
-          cursor: pointer;
-          font-size: 0.8rem;
-        }
-        .angle-button:hover {
-          background: #444;
-        }
-        .angle-button.active {
-          background: #007bff;
-          border-color: #0056b3;
-        }
-      `}</style>
     </div>
   );
 }

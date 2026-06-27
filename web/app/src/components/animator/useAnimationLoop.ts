@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import type { RenderTask } from "../models/Spritesheet.ts";
+import type { RenderTask } from "../../models/Spritesheet.ts";
 
 const DOOM_TICK_MS = 1000 / 35;
 
@@ -9,7 +9,7 @@ const DOOM_TICK_MS = 1000 / 35;
  */
 export function useAnimationLoop(
   generator: Generator<RenderTask> | undefined,
-  onTick: (task: RenderTask) => void
+  onTick: (task: RenderTask) => void,
 ) {
   const lastTimeRef = useRef<number>(0);
   const accumulatorRef = useRef<number>(0);
