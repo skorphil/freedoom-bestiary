@@ -1,3 +1,4 @@
+import styles from "./CharacterItem.module.css";
 import { SpriteCode, SpritesheetVersion } from "../models/schema.ts";
 import { Animator } from "./animator/Animator.tsx";
 import spriteMeta from "@sprites_meta/sprites_meta.json";
@@ -22,20 +23,27 @@ export function CharacterItem({
   const dateLabel = new Date(date).toISOString().slice(0, 10);
   const meta = (spriteMeta as any).find((m: any) => m.sprite === spriteCode);
   return (
-    <div className="character-item">
-      {meta && <Animator code={spriteCode} version={spritesheet} meta={meta} />}
+    <div className={styles.characterItem}>
+     
 
-      <p>{spriteCode}</p>
-      <div className="character-preview">
-        {/* <img src={webpPath} alt={`${spriteCode} idling animation`} /> */}
+      <div className={styles.characterDetails}>
+        <h2 className={styles.characterName}>{meta?.freedoomName || spriteCode}</h2>
+        
+        <div className={styles.metaGroup}>
+          <div className={styles.metaLabel}>Latest commit</div>
+          <div className={styles.metaValue}>
+            <a href={commitUrl} title={commitMessage}>
+              {dateLabel} · {sha.slice(0, 7)}
+            </a>
+          </div>
+        </div>
+
+        <div className={styles.metaGroup}>
+          <div className={styles.metaLabel}>Contributors</div>
+          <div className={styles.metaValue}>{contributors.join(", ")}</div>
+        </div>
       </div>
-      <p className="character-meta">
-        Latest:{" "}
-        <a href={commitUrl} title={commitMessage}>
-          {dateLabel} · {sha.slice(0, 7)}
-        </a>
-      </p>
-      <p>contributors: {contributors.join(", ")}</p>
+       {meta && <Animator code={spriteCode} version={spritesheet} meta={meta} />}
     </div>
   );
 }

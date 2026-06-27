@@ -1,4 +1,6 @@
+import styles from "../src/components/CharacterItem.module.css";
 import { CharacterItem } from "../src/components/CharacterItem.tsx";
+import { Header } from "../src/components/Header.tsx";
 import { bestiary } from "../src/models/SpritesheetsCollection.ts";
 import type { Route } from "./+types/index";
 
@@ -14,12 +16,9 @@ export default function Index() {
 
   return (
     <>
-      <h1>Freedoom Bestiary</h1>
-      <p>
-        Sprites gallery from <a href="https://freedoom.github.io/">FreeDoom</a>
-      </p>
+      <Header />
 
-      <div className="character-grid">
+      <div className={styles.characterGrid}>
         {characterCodes.map((code) => {
           const history = bestiary.getHistory(code);
           const latest = bestiary.getLatestLiveEntry(history);

@@ -1,0 +1,69 @@
+.characterGrid {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin: 48px 0;
+}
+
+.characterItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  text-align: left;
+  padding: 16px;
+  width: 360px;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  border: 1px solid var(--color-blue-30);
+  border-radius: 12px;
+  gap: 24px;
+}
+
+.characterDetails {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.characterName {
+  font-size: 36px;
+  margin: 0;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.metaGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.metaLabel {
+  font-size: 16px;
+  color: var(--color-white);
+  opacity: 0.8;
+}
+
+.metaValue {
+  font-size: 16px;
+  color: var(--color-white);
+}
+
+.preview {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  align-self: stretch;
+  max-width: 100%;
+}
+
+.preview img {
+  height: 100%;
+  object-fit: contain;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
