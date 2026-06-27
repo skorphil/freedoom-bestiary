@@ -122,7 +122,13 @@ export function Animator({
         {!image && !error && <div className="loading-overlay">Loading...</div>}
         {error && <div className="error-overlay">{error}</div>}
         
-        <div className="canvas-wrapper">
+        <div className="canvas-wrapper" style={{ 
+          aspectRatio: `${stageSize.width} / ${stageSize.height * 1.2}`,
+          width: '100%',
+          height: '100%',
+          maxWidth: '100%',
+          maxHeight: '100%'
+        }}>
           <canvas 
             ref={canvasRef} 
             className="animator-canvas" 
@@ -173,32 +179,27 @@ export function Animator({
         }
         .animator-display {
           position: relative;
-          background-image:
-            linear-gradient(45deg, #222 25%, transparent 25%),
-            linear-gradient(-45deg, #222 25%, transparent 25%),
-            linear-gradient(45deg, transparent 75%, #222 75%),
-            linear-gradient(-45deg, transparent 75%, #222 75%);
-          background-size: 20px 20px;
-          background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
-          background-color: #111;
-          padding: 2rem;
+          background-color: transparent;
+          padding: 1rem;
           border-radius: 4px;
-          min-width: 160px;
-          min-height: 160px;
+          width: 320px;
+          height: 320px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+        }
+        .canvas-wrapper {
           display: flex;
           align-items: center;
           justify-content: center;
         }
-        .canvas-wrapper {
-          display: flex;
-          align-items: flex-end;
-          justify-content: center;
-          transform: scale(1, 1.2);
-          transform-origin: bottom;
-        }
         .animator-canvas {
           display: block;
           image-rendering: pixelated;
+          width: 100%;
+          height: 100%;
+          object-fit: contain;
         }
         .loading-overlay, .error-overlay {
           position: absolute;

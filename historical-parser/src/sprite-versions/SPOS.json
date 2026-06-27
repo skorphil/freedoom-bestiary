@@ -24,29 +24,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa2a8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposa2a8.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposa3a7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposa3a7.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa3a7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposa3a7.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa4a6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposa4a6.png",
           "spriteAuthor": "mc776",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -80,29 +59,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb2b8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposb2b8.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposb3b7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposb3b7.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb3b7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposb3b7.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb4b6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposb4b6.png",
           "spriteAuthor": "mc776",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -136,29 +94,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc2c8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposc2c8.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposc3c7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposc3c7.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc3c7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposc3c7.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc4c6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposc4c6.png",
           "spriteAuthor": "mc776",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -192,29 +129,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd2d8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposd2d8.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposd3d7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposd3d7.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd3d7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposd3d7.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd4d6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposd4d6.png",
           "spriteAuthor": "mc776",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -248,29 +164,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose2e8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/spose2e8.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/spose3e7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/spose3e7.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose3e7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/spose3e7.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose4e6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/spose4e6.png",
           "spriteAuthor": "mc776",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -304,29 +199,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf2f8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposf2f8.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposf3f7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposf3f7.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf3f7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposf3f7.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf4f6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposf4f6.png",
           "spriteAuthor": "mc776",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -360,29 +234,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg2g8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposg2g8.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposg3g7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposg3g7.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg3g7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposg3g7.png",
-          "spriteAuthor": "mc776",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg4g6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9488868d44281ad44999b98c1a2bdc396c03d9e7/sprites/sposg4g6.png",
           "spriteAuthor": "mc776",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -524,29 +377,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup3/sposa2a8.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposa2a8.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup3/sposa3a7.gif",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposa3a7.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposa3a7.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposa3a7.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposa4a6.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposa4a6.gif",
           "spriteAuthor": "Georgy Samoilov",
           "spriteState": "unchanged",
           "source": "attic"
@@ -580,29 +412,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup3/sposb2b8.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposb2b8.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup3/sposb3b7.gif",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposb3b7.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposb3b7.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposb3b7.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposb4b6.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposb4b6.gif",
           "spriteAuthor": "Georgy Samoilov",
           "spriteState": "unchanged",
           "source": "attic"
@@ -636,29 +447,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup3/sposc2c8.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposc2c8.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup3/sposc3c7.gif",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposc3c7.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposc3c7.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposc3c7.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposc4c6.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposc4c6.gif",
           "spriteAuthor": "Georgy Samoilov",
           "spriteState": "unchanged",
           "source": "attic"
@@ -692,29 +482,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup3/sposd2d8.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposd2d8.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup3/sposd3d7.gif",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposd3d7.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposd3d7.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposd3d7.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposd4d6.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposd4d6.gif",
           "spriteAuthor": "Georgy Samoilov",
           "spriteState": "unchanged",
           "source": "attic"
@@ -748,29 +517,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup3/spose2e8.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/spose2e8.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup3/spose3e7.gif",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/spose3e7.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/spose3e7.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/spose3e7.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/spose4e6.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/spose4e6.gif",
           "spriteAuthor": "Georgy Samoilov",
           "spriteState": "unchanged",
           "source": "attic"
@@ -804,29 +552,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup3/sposf2f8.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposf2f8.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup3/sposf3f7.gif",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposf3f7.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposf3f7.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposf3f7.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposf4f6.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposf4f6.gif",
           "spriteAuthor": "Georgy Samoilov",
           "spriteState": "unchanged",
           "source": "attic"
@@ -860,29 +587,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup3/sposg2g8.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposg2g8.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup3/sposg3g7.gif",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposg3g7.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposg3g7.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposg3g7.gif",
-          "spriteAuthor": "Georgy Samoilov",
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposg4g6.gif",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/spos_pre_touchup3/sposg4g6.gif",
           "spriteAuthor": "Georgy Samoilov",
           "spriteState": "unchanged",
           "source": "attic"
@@ -1024,29 +730,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa2a8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposa2a8.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposa3a7.png",
           "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposa3a7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa3a7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposa3a7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa4a6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposa4a6.png",
           "spriteAuthor": "HorroMovieGuy",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1080,29 +765,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb2b8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposb2b8.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposb3b7.png",
           "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposb3b7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb3b7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposb3b7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb4b6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposb4b6.png",
           "spriteAuthor": "HorroMovieGuy",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1136,29 +800,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc2c8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposc2c8.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposc3c7.png",
           "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposc3c7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc3c7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposc3c7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc4c6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposc4c6.png",
           "spriteAuthor": "HorroMovieGuy",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1192,29 +835,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd2d8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposd2d8.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposd3d7.png",
           "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposd3d7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd3d7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposd3d7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd4d6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposd4d6.png",
           "spriteAuthor": "HorroMovieGuy",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1248,29 +870,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose2e8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/spose2e8.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/spose3e7.png",
           "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/spose3e7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose3e7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/spose3e7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose4e6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/spose4e6.png",
           "spriteAuthor": "HorroMovieGuy",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1304,29 +905,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf2f8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposf2f8.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposf3f7.png",
           "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposf3f7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf3f7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposf3f7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf4f6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposf4f6.png",
           "spriteAuthor": "HorroMovieGuy",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1360,29 +940,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg2g8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposg2g8.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposg3g7.png",
           "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposg3g7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg3g7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposg3g7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg4g6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/cd219982f0118c5b692d76c04863a241732b5e8b/sprites/sposg4g6.png",
           "spriteAuthor": "HorroMovieGuy",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1524,29 +1083,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa2a8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposa2a8.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposa3a7.png",
           "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposa3a7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa3a7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposa3a7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa4a6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposa4a6.png",
           "spriteAuthor": "HorroMovieGuy",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1580,29 +1118,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb2b8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposb2b8.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposb3b7.png",
           "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposb3b7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb3b7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposb3b7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb4b6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposb4b6.png",
           "spriteAuthor": "HorroMovieGuy",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1636,29 +1153,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc2c8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposc2c8.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposc3c7.png",
           "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposc3c7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc3c7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposc3c7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc4c6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposc4c6.png",
           "spriteAuthor": "HorroMovieGuy",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1692,29 +1188,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd2d8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposd2d8.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposd3d7.png",
           "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposd3d7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd3d7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposd3d7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd4d6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposd4d6.png",
           "spriteAuthor": "HorroMovieGuy",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1748,29 +1223,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose2e8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/spose2e8.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/spose3e7.png",
           "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/spose3e7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose3e7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/spose3e7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose4e6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/spose4e6.png",
           "spriteAuthor": "HorroMovieGuy",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1804,29 +1258,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf2f8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposf2f8.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposf3f7.png",
           "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposf3f7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf3f7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposf3f7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf4f6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposf4f6.png",
           "spriteAuthor": "HorroMovieGuy",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1860,29 +1293,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg2g8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposg2g8.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposg3g7.png",
           "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposg3g7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg3g7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposg3g7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg4g6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/72bb41fca8b8e3519a027749797912de993c3809/sprites/sposg4g6.png",
           "spriteAuthor": "HorroMovieGuy",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -2024,29 +1436,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa2a8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposa2a8.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposa3a7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposa3a7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa3a7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposa3a7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa4a6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposa4a6.png",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -2080,29 +1471,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb2b8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposb2b8.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposb3b7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposb3b7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb3b7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposb3b7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb4b6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposb4b6.png",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -2136,29 +1506,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc2c8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposc2c8.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposc3c7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposc3c7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc3c7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposc3c7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc4c6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposc4c6.png",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -2192,29 +1541,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd2d8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposd2d8.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposd3d7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposd3d7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd3d7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposd3d7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd4d6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposd4d6.png",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -2248,29 +1576,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose2e8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/spose2e8.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/spose3e7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/spose3e7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose3e7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/spose3e7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose4e6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/spose4e6.png",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -2304,29 +1611,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf2f8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposf2f8.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposf3f7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposf3f7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf3f7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposf3f7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf4f6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposf4f6.png",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -2360,29 +1646,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg2g8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposg2g8.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposg3g7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposg3g7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg3g7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposg3g7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg4g6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/sposg4g6.png",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -2524,29 +1789,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa2a8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposa2a8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposa3a7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposa3a7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa3a7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposa3a7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa4a6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposa4a6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -2580,29 +1824,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb2b8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposb2b8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposb3b7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposb3b7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb3b7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposb3b7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb4b6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposb4b6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -2636,29 +1859,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposc2c8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposc3c7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposc3c7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc3c7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposc3c7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc4c6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposc4c6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -2692,29 +1894,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd2d8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposd2d8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposd3d7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposd3d7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd3d7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposd3d7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd4d6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposd4d6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -2748,29 +1929,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose2e8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/spose2e8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/spose3e7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/spose3e7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose3e7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/spose3e7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose4e6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/spose4e6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -2804,29 +1964,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf2f8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposf2f8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposf3f7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposf3f7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf3f7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposf3f7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf4f6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposf4f6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -2860,29 +1999,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg2g8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposg2g8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/sposg3g7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposg3g7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg3g7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposg3g7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg4g6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/sposg4g6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -3010,422 +2128,275 @@
       "author": "Adrian Cabrera",
       "sprites": [
         {
-          "name": "sprites/sposa1.gif",
+          "name": "sprites/raymoohawk/sposa1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposa1.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa2a8.gif",
+          "name": "sprites/raymoohawk/sposa2a8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposa2a8.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa2a8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposa2a8.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa3a7.gif",
+          "name": "sprites/raymoohawk/sposa3a7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposa3a7.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa3a7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposa3a7.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa4a6.gif",
+          "name": "sprites/raymoohawk/sposa4a6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposa4a6.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa4a6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposa4a6.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa5.gif",
+          "name": "sprites/raymoohawk/sposa5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposa5.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb1.gif",
+          "name": "sprites/raymoohawk/sposb1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposb1.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb2b8.gif",
+          "name": "sprites/raymoohawk/sposb2b8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposb2b8.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb2b8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposb2b8.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb3b7.gif",
+          "name": "sprites/raymoohawk/sposb3b7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposb3b7.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb3b7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposb3b7.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb4b6.gif",
+          "name": "sprites/raymoohawk/sposb4b6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposb4b6.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb4b6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposb4b6.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb5.gif",
+          "name": "sprites/raymoohawk/sposb5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposb5.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc1.gif",
+          "name": "sprites/raymoohawk/sposc1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposc1.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc2c8.gif",
+          "name": "sprites/raymoohawk/sposc2c8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposc2c8.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposc2c8.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc3c7.gif",
+          "name": "sprites/raymoohawk/sposc3c7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposc3c7.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc3c7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposc3c7.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc4c6.gif",
+          "name": "sprites/raymoohawk/sposc4c6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposc4c6.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc4c6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposc4c6.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc5.gif",
+          "name": "sprites/raymoohawk/sposc5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposc5.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd1.gif",
+          "name": "sprites/raymoohawk/sposd1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposd1.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd2d8.gif",
+          "name": "sprites/raymoohawk/sposd2d8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposd2d8.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd2d8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposd2d8.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd3d7.gif",
+          "name": "sprites/raymoohawk/sposd3d7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposd3d7.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd3d7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposd3d7.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd4d6.gif",
+          "name": "sprites/raymoohawk/sposd4d6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposd4d6.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd4d6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposd4d6.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd5.gif",
+          "name": "sprites/raymoohawk/sposd5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposd5.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose1.gif",
+          "name": "sprites/raymoohawk/spose1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/spose1.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose2e8.gif",
+          "name": "sprites/raymoohawk/spose2e8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/spose2e8.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose2e8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/spose2e8.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose3e7.gif",
+          "name": "sprites/raymoohawk/spose3e7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/spose3e7.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose3e7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/spose3e7.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose4e6.gif",
+          "name": "sprites/raymoohawk/spose4e6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/spose4e6.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose4e6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/spose4e6.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose5.gif",
+          "name": "sprites/raymoohawk/spose5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/spose5.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf1.gif",
+          "name": "sprites/raymoohawk/sposf1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposf1.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf2f8.gif",
+          "name": "sprites/raymoohawk/sposf2f8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposf2f8.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf2f8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposf2f8.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf3f7.gif",
+          "name": "sprites/raymoohawk/sposf3f7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposf3f7.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf3f7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposf3f7.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf4f6.gif",
+          "name": "sprites/raymoohawk/sposf4f6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposf4f6.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf4f6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposf4f6.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf5.gif",
+          "name": "sprites/raymoohawk/sposf5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposf5.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg1.gif",
+          "name": "sprites/raymoohawk/sposg1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposg1.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg2g8.gif",
+          "name": "sprites/raymoohawk/sposg2g8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposg2g8.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg2g8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposg2g8.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg3g7.gif",
+          "name": "sprites/raymoohawk/sposg3g7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposg3g7.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg3g7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposg3g7.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg4g6.gif",
+          "name": "sprites/raymoohawk/sposg4g6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposg4g6.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg4g6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposg4g6.gif",
-          "spriteAuthor": "Adrian Cabrera",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg5.gif",
+          "name": "sprites/raymoohawk/sposg5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposg5.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposh0.gif",
+          "name": "sprites/raymoohawk/sposh0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposh0.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposi0.gif",
+          "name": "sprites/raymoohawk/sposi0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposi0.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposj0.gif",
+          "name": "sprites/raymoohawk/sposj0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposj0.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposk0.gif",
+          "name": "sprites/raymoohawk/sposk0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposk0.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
@@ -3437,65 +2408,65 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposm0.gif",
+          "name": "sprites/raymoohawk/sposm0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposm0.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposn0.gif",
+          "name": "sprites/raymoohawk/sposn0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposn0.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposo0.gif",
+          "name": "sprites/raymoohawk/sposo0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposo0.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposp0.gif",
+          "name": "sprites/raymoohawk/sposp0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposp0.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposq0.gif",
+          "name": "sprites/raymoohawk/sposq0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposq0.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposr0.gif",
+          "name": "sprites/raymoohawk/sposr0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposr0.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposs0.gif",
+          "name": "sprites/raymoohawk/sposs0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposs0.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spost0.gif",
+          "name": "sprites/raymoohawk/spost0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/spost0.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposu0.gif",
+          "name": "sprites/raymoohawk/sposu0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/02704659fc38ba6811f941184626e327e829c636/sprites/raymoohawk/sposu0.gif",
-          "spriteAuthor": "Adrian Cabrera",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "unchanged",
           "source": "freedoom"
         }
@@ -3510,492 +2481,345 @@
       "author": "Mike Swanson",
       "sprites": [
         {
-          "name": "sprites/sposa1.gif",
+          "name": "sprites/raymoohawk/sposa1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposa1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa2a8.gif",
+          "name": "sprites/raymoohawk/sposa2a8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposa2a8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa2a8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposa2a8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa3a7.gif",
+          "name": "sprites/raymoohawk/sposa3a7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposa3a7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa3a7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposa3a7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa4a6.gif",
+          "name": "sprites/raymoohawk/sposa4a6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposa4a6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa4a6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposa4a6.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa5.gif",
+          "name": "sprites/raymoohawk/sposa5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposa5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb1.gif",
+          "name": "sprites/raymoohawk/sposb1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposb1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb2b8.gif",
+          "name": "sprites/raymoohawk/sposb2b8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposb2b8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb2b8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposb2b8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb3b7.gif",
+          "name": "sprites/raymoohawk/sposb3b7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposb3b7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb3b7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposb3b7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb4b6.gif",
+          "name": "sprites/raymoohawk/sposb4b6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposb4b6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb4b6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposb4b6.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb5.gif",
+          "name": "sprites/raymoohawk/sposb5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposb5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc1.gif",
+          "name": "sprites/raymoohawk/sposc1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposc1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc2c8.gif",
+          "name": "sprites/raymoohawk/sposc2c8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposc2c8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposc2c8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc3c7.gif",
+          "name": "sprites/raymoohawk/sposc3c7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposc3c7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc3c7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposc3c7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc4c6.gif",
+          "name": "sprites/raymoohawk/sposc4c6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposc4c6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc4c6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposc4c6.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc5.gif",
+          "name": "sprites/raymoohawk/sposc5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposc5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd1.gif",
+          "name": "sprites/raymoohawk/sposd1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposd1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd2d8.gif",
+          "name": "sprites/raymoohawk/sposd2d8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposd2d8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd2d8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposd2d8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd3d7.gif",
+          "name": "sprites/raymoohawk/sposd3d7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposd3d7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd3d7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposd3d7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd4d6.gif",
+          "name": "sprites/raymoohawk/sposd4d6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposd4d6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd4d6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposd4d6.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd5.gif",
+          "name": "sprites/raymoohawk/sposd5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposd5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose1.gif",
+          "name": "sprites/raymoohawk/spose1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/spose1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose2e8.gif",
+          "name": "sprites/raymoohawk/spose2e8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/spose2e8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose2e8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/spose2e8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose3e7.gif",
+          "name": "sprites/raymoohawk/spose3e7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/spose3e7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose3e7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/spose3e7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose4e6.gif",
+          "name": "sprites/raymoohawk/spose4e6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/spose4e6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose4e6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/spose4e6.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose5.gif",
+          "name": "sprites/raymoohawk/spose5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/spose5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf1.gif",
+          "name": "sprites/raymoohawk/sposf1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposf1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf2f8.gif",
+          "name": "sprites/raymoohawk/sposf2f8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposf2f8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf2f8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposf2f8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf3f7.gif",
+          "name": "sprites/raymoohawk/sposf3f7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposf3f7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf3f7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposf3f7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf4f6.gif",
+          "name": "sprites/raymoohawk/sposf4f6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposf4f6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf4f6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposf4f6.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf5.gif",
+          "name": "sprites/raymoohawk/sposf5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposf5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg1.gif",
+          "name": "sprites/raymoohawk/sposg1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposg1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg2g8.gif",
+          "name": "sprites/raymoohawk/sposg2g8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposg2g8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg2g8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposg2g8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg3g7.gif",
+          "name": "sprites/raymoohawk/sposg3g7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposg3g7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg3g7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposg3g7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg4g6.gif",
+          "name": "sprites/raymoohawk/sposg4g6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposg4g6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg4g6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposg4g6.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg5.gif",
+          "name": "sprites/raymoohawk/sposg5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposg5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposh0.gif",
+          "name": "sprites/raymoohawk/sposh0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposh0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposi0.gif",
+          "name": "sprites/raymoohawk/sposi0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposi0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposj0.gif",
+          "name": "sprites/raymoohawk/sposj0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposj0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposk0.gif",
+          "name": "sprites/raymoohawk/sposk0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposk0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposl0.gif",
+          "name": "sprites/raymoohawk/sposl0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposl0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposm0.gif",
+          "name": "sprites/raymoohawk/sposm0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposm0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposn0.gif",
+          "name": "sprites/raymoohawk/sposn0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposn0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposo0.gif",
+          "name": "sprites/raymoohawk/sposo0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposo0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposp0.gif",
+          "name": "sprites/raymoohawk/sposp0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposp0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposq0.gif",
+          "name": "sprites/raymoohawk/sposq0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposq0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposr0.gif",
+          "name": "sprites/raymoohawk/sposr0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposr0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposs0.gif",
+          "name": "sprites/raymoohawk/sposs0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposs0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spost0.gif",
+          "name": "sprites/raymoohawk/spost0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/spost0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposu0.gif",
+          "name": "sprites/raymoohawk/sposu0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/94f9e2078f867ced1135a084edf27e669d1d2415/sprites/raymoohawk/sposu0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
         }
@@ -4024,29 +2848,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup3/sposa2a8.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposa2a8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup3/sposa3a7.gif",
           "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposa3a7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposa3a7.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposa3a7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposa4a6.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposa4a6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "attic"
@@ -4080,29 +2883,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup3/sposb2b8.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposb2b8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup3/sposb3b7.gif",
           "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposb3b7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposb3b7.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposb3b7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposb4b6.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposb4b6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "attic"
@@ -4136,29 +2918,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup3/sposc2c8.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposc2c8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup3/sposc3c7.gif",
           "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposc3c7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposc3c7.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposc3c7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposc4c6.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposc4c6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "attic"
@@ -4192,29 +2953,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup3/sposd2d8.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposd2d8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup3/sposd3d7.gif",
           "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposd3d7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposd3d7.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposd3d7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposd4d6.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposd4d6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "attic"
@@ -4248,29 +2988,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup3/spose2e8.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/spose2e8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup3/spose3e7.gif",
           "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/spose3e7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/spose3e7.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/spose3e7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/spose4e6.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/spose4e6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "attic"
@@ -4304,29 +3023,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup3/sposf2f8.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposf2f8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup3/sposf3f7.gif",
           "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposf3f7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposf3f7.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposf3f7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposf4f6.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposf4f6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "attic"
@@ -4360,29 +3058,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup3/sposg2g8.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposg2g8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup3/sposg3g7.gif",
           "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposg3g7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposg3g7.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposg3g7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup3/sposg4g6.gif",
-          "url": "https://github.com/freedoom/attic/blob/6a267b6305913507838aafa900b84340c22e26a3/saint_of_killers/spos_pre_touchup3/sposg4g6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "attic"
@@ -4524,29 +3201,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup/sposa2a8.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposa2a8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup/sposa3a7.gif",
           "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposa3a7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup/sposa3a7.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposa3a7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup/sposa4a6.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposa4a6.gif",
           "spriteAuthor": "Simon Howard",
           "spriteState": "updated",
           "source": "attic"
@@ -4580,29 +3236,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup/sposb2b8.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposb2b8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup/sposb3b7.gif",
           "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposb3b7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup/sposb3b7.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposb3b7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup/sposb4b6.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposb4b6.gif",
           "spriteAuthor": "Simon Howard",
           "spriteState": "updated",
           "source": "attic"
@@ -4636,29 +3271,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup/sposc2c8.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposc2c8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup/sposc3c7.gif",
           "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposc3c7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup/sposc3c7.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposc3c7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup/sposc4c6.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposc4c6.gif",
           "spriteAuthor": "Simon Howard",
           "spriteState": "updated",
           "source": "attic"
@@ -4692,29 +3306,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup/sposd2d8.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposd2d8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup/sposd3d7.gif",
           "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposd3d7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup/sposd3d7.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposd3d7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup/sposd4d6.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposd4d6.gif",
           "spriteAuthor": "Simon Howard",
           "spriteState": "updated",
           "source": "attic"
@@ -4748,29 +3341,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup/spose2e8.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/spose2e8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup/spose3e7.gif",
           "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/spose3e7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup/spose3e7.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/spose3e7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup/spose4e6.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/spose4e6.gif",
           "spriteAuthor": "Simon Howard",
           "spriteState": "updated",
           "source": "attic"
@@ -4804,29 +3376,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup/sposf2f8.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposf2f8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup/sposf3f7.gif",
           "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposf3f7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup/sposf3f7.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposf3f7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup/sposf4f6.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposf4f6.gif",
           "spriteAuthor": "Simon Howard",
           "spriteState": "updated",
           "source": "attic"
@@ -4860,29 +3411,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup/sposg2g8.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposg2g8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup/sposg3g7.gif",
           "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposg3g7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup/sposg3g7.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposg3g7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup/sposg4g6.gif",
-          "url": "https://github.com/freedoom/attic/blob/c93121a673d75059e3174c2feade10acb1a75985/saint_of_killers/spos_pre_touchup/sposg4g6.gif",
           "spriteAuthor": "Simon Howard",
           "spriteState": "updated",
           "source": "attic"
@@ -5024,29 +3554,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup2/sposa2a8.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposa2a8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup2/sposa3a7.gif",
           "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposa3a7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup2/sposa3a7.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposa3a7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup2/sposa4a6.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposa4a6.gif",
           "spriteAuthor": "Simon Howard",
           "spriteState": "updated",
           "source": "attic"
@@ -5080,29 +3589,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup2/sposb2b8.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposb2b8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup2/sposb3b7.gif",
           "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposb3b7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup2/sposb3b7.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposb3b7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup2/sposb4b6.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposb4b6.gif",
           "spriteAuthor": "Simon Howard",
           "spriteState": "updated",
           "source": "attic"
@@ -5136,29 +3624,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup2/sposc2c8.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposc2c8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup2/sposc3c7.gif",
           "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposc3c7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup2/sposc3c7.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposc3c7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup2/sposc4c6.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposc4c6.gif",
           "spriteAuthor": "Simon Howard",
           "spriteState": "updated",
           "source": "attic"
@@ -5192,29 +3659,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup2/sposd2d8.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposd2d8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup2/sposd3d7.gif",
           "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposd3d7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup2/sposd3d7.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposd3d7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup2/sposd4d6.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposd4d6.gif",
           "spriteAuthor": "Simon Howard",
           "spriteState": "updated",
           "source": "attic"
@@ -5248,29 +3694,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup2/spose2e8.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/spose2e8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup2/spose3e7.gif",
           "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/spose3e7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup2/spose3e7.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/spose3e7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup2/spose4e6.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/spose4e6.gif",
           "spriteAuthor": "Simon Howard",
           "spriteState": "updated",
           "source": "attic"
@@ -5304,29 +3729,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup2/sposf2f8.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposf2f8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup2/sposf3f7.gif",
           "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposf3f7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup2/sposf3f7.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposf3f7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup2/sposf4f6.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposf4f6.gif",
           "spriteAuthor": "Simon Howard",
           "spriteState": "updated",
           "source": "attic"
@@ -5360,29 +3764,8 @@
           "source": "attic"
         },
         {
-          "name": "saint_of_killers/spos_pre_touchup2/sposg2g8.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposg2g8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "saint_of_killers/spos_pre_touchup2/sposg3g7.gif",
           "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposg3g7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup2/sposg3g7.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposg3g7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/spos_pre_touchup2/sposg4g6.gif",
-          "url": "https://github.com/freedoom/attic/blob/b8007c6b534e3c89143de8d3a61977d74eb8774b/saint_of_killers/spos_pre_touchup2/sposg4g6.gif",
           "spriteAuthor": "Simon Howard",
           "spriteState": "updated",
           "source": "attic"
@@ -5510,492 +3893,345 @@
       "author": "Simon Howard",
       "sprites": [
         {
-          "name": "sprites/sposa1.gif",
+          "name": "sprites/saint_of_killers/sposa1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposa1.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa2a8.gif",
+          "name": "sprites/saint_of_killers/sposa2a8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposa2a8.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa2a8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposa2a8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa3a7.gif",
+          "name": "sprites/saint_of_killers/sposa3a7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposa3a7.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa3a7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposa3a7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa4a6.gif",
+          "name": "sprites/saint_of_killers/sposa4a6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposa4a6.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposa4a6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposa4a6.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposa5.gif",
+          "name": "sprites/saint_of_killers/sposa5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposa5.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb1.gif",
+          "name": "sprites/saint_of_killers/sposb1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposb1.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb2b8.gif",
+          "name": "sprites/saint_of_killers/sposb2b8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposb2b8.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb2b8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposb2b8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb3b7.gif",
+          "name": "sprites/saint_of_killers/sposb3b7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposb3b7.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb3b7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposb3b7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb4b6.gif",
+          "name": "sprites/saint_of_killers/sposb4b6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposb4b6.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposb4b6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposb4b6.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposb5.gif",
+          "name": "sprites/saint_of_killers/sposb5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposb5.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc1.gif",
+          "name": "sprites/saint_of_killers/sposc1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposc1.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc2c8.gif",
+          "name": "sprites/saint_of_killers/sposc2c8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposc2c8.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposc2c8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc3c7.gif",
+          "name": "sprites/saint_of_killers/sposc3c7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposc3c7.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc3c7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposc3c7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc4c6.gif",
+          "name": "sprites/saint_of_killers/sposc4c6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposc4c6.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposc4c6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposc4c6.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposc5.gif",
+          "name": "sprites/saint_of_killers/sposc5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposc5.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd1.gif",
+          "name": "sprites/saint_of_killers/sposd1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposd1.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd2d8.gif",
+          "name": "sprites/saint_of_killers/sposd2d8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposd2d8.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd2d8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposd2d8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd3d7.gif",
+          "name": "sprites/saint_of_killers/sposd3d7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposd3d7.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd3d7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposd3d7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd4d6.gif",
+          "name": "sprites/saint_of_killers/sposd4d6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposd4d6.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposd4d6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposd4d6.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposd5.gif",
+          "name": "sprites/saint_of_killers/sposd5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposd5.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose1.gif",
+          "name": "sprites/saint_of_killers/spose1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/spose1.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose2e8.gif",
+          "name": "sprites/saint_of_killers/spose2e8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/spose2e8.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose2e8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/spose2e8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose3e7.gif",
+          "name": "sprites/saint_of_killers/spose3e7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/spose3e7.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose3e7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/spose3e7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose4e6.gif",
+          "name": "sprites/saint_of_killers/spose4e6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/spose4e6.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spose4e6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/spose4e6.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/spose5.gif",
+          "name": "sprites/saint_of_killers/spose5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/spose5.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf1.gif",
+          "name": "sprites/saint_of_killers/sposf1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposf1.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf2f8.gif",
+          "name": "sprites/saint_of_killers/sposf2f8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposf2f8.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf2f8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposf2f8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf3f7.gif",
+          "name": "sprites/saint_of_killers/sposf3f7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposf3f7.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf3f7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposf3f7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf4f6.gif",
+          "name": "sprites/saint_of_killers/sposf4f6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposf4f6.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposf4f6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposf4f6.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposf5.gif",
+          "name": "sprites/saint_of_killers/sposf5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposf5.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg1.gif",
+          "name": "sprites/saint_of_killers/sposg1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposg1.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg2g8.gif",
+          "name": "sprites/saint_of_killers/sposg2g8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposg2g8.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg2g8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposg2g8.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg3g7.gif",
+          "name": "sprites/saint_of_killers/sposg3g7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposg3g7.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg3g7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposg3g7.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg4g6.gif",
+          "name": "sprites/saint_of_killers/sposg4g6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposg4g6.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposg4g6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposg4g6.gif",
-          "spriteAuthor": "Simon Howard",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/sposg5.gif",
+          "name": "sprites/saint_of_killers/sposg5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposg5.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposh0.gif",
+          "name": "sprites/saint_of_killers/sposh0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposh0.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposi0.gif",
+          "name": "sprites/saint_of_killers/sposi0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposi0.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposj0.gif",
+          "name": "sprites/saint_of_killers/sposj0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposj0.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposk0.gif",
+          "name": "sprites/saint_of_killers/sposk0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposk0.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposl0.gif",
+          "name": "sprites/saint_of_killers/sposl0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposl0.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposm0.gif",
+          "name": "sprites/saint_of_killers/sposm0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposm0.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposn0.gif",
+          "name": "sprites/saint_of_killers/sposn0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposn0.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposo0.gif",
+          "name": "sprites/saint_of_killers/sposo0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposo0.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposp0.gif",
+          "name": "sprites/saint_of_killers/sposp0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposp0.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposq0.gif",
+          "name": "sprites/saint_of_killers/sposq0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposq0.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposr0.gif",
+          "name": "sprites/saint_of_killers/sposr0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposr0.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposs0.gif",
+          "name": "sprites/saint_of_killers/sposs0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposs0.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/spost0.gif",
+          "name": "sprites/saint_of_killers/spost0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/spost0.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/sposu0.gif",
+          "name": "sprites/saint_of_killers/sposu0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/saint_of_killers/sposu0.gif",
-          "spriteAuthor": "Simon Howard",
+          "spriteAuthor": "saint_of_killers",
           "spriteState": "new",
           "source": "freedoom"
         }

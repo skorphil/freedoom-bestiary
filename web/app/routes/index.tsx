@@ -20,7 +20,7 @@ export default function Index() {
       </p>
 
       <div className="character-grid">
-        {characterCodes.slice(0, 1).map((code) => {
+        {characterCodes.map((code) => {
           const history = bestiary.getHistory(code);
           const latest = bestiary.getLatestLiveEntry(history);
           const contributors = bestiary.getAuthors(code);

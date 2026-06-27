@@ -59,7 +59,7 @@ export function parseSpriteName(
     {
       frame: (frame2 || frame1).toUpperCase(),
       angle: angle2,
-      mirror: false, // Second angle in filename is never an auto-mirror, it's explicitly provided
+      mirror: true, // Second angle in filename is ALWAYS a mirror in Doom
       sourceFile: filename,
     },
   ];

@@ -133,103 +133,34 @@ export class SnapshotBuilder {
     );
     console.debug("SnapshotBuilder.build: tree entries length=", entries.length);
 
-    // Step 2: Resolve symlinks if followSymlinks is true
-    let resolvedPaths: Map<string, string> | null = null;
-    if (this.options.followSymlinks) {
-      resolvedPaths = await this.resolveSymlinks(entries, unit.sha);
-      console.debug(`SnapshotBuilder.build: resolved ${resolvedPaths.size} symlinks for ${unit.sha}`);
-    }
+    // Step 2: Build index and filter sprite files
+    const spriteFiles: SpriteFile[] = [];
+    const seenPaths = new Set<string>();
 
-    // Step 3: Build index of paths in this commit for validation
-    const pathSet = new Set(entries.map(e => e.path));
+    for (const entry of entries) {
+      // Step 3: Fast check: Only process real files (not symlinks) that match our sprite pattern.
+      // We ignore symlinks because the real files they point to will be picked up 
+      // by the tree walk if they are in the repository and follow naming conventions.
+      if (entry.isSymlink || !this.pattern.matches(entry.path)) {
+        continue;
+      }
 
-      // Step 4: Filter and build sprite files
-      const spriteFiles: SpriteFile[] = [];
-  
-      for (const entry of entries) {
-        // Fast check: Only process entries that match our sprite pattern or are symlinks.
-        // We match against entry.path because even if it's a symlink, the link name
-        // is what identifies it as belonging to this character (e.g. CYBRA1).
-        if (!this.pattern.matches(entry.path)) {
-          continue;
-        }
-  
-        let filePath = entry.path;
-        const isSymlink = entry.isSymlink && this.options.followSymlinks;
-  
-        if (isSymlink && resolvedPaths) {
-          let currentPath = entry.path;
-          const seenInChain = new Set<string>([currentPath]);
-          
-          // RECURSIVE SYMLINK RESOLUTION
-          while (true) {
-            const target = resolvedPaths.get(currentPath);
-            if (!target) break;
-  
-            let resolvedTarget = join(dirname(currentPath), target);
-            
-            if (!pathSet.has(resolvedTarget)) {
-              // FALLBACK: If the direct target is missing, try to find a file with the same name
-              // in the same directory or in the root sprites directory.
-              const targetName = target.split("/").pop();
-              const sameDirTarget = entries.find(e => dirname(e.path) === dirname(resolvedTarget) && e.path.endsWith("/" + targetName));
-              
-              if (sameDirTarget) {
-                resolvedTarget = sameDirTarget.path;
-                console.log(`SnapshotBuilder.build: fixed broken link ${currentPath} -> ${target} via same-dir fallback: ${resolvedTarget}`);
-              } else {
-                // Try searching the whole tree for this filename if it's a sprite
-                const globalTarget = entries.find(e => e.path.endsWith("/" + targetName) && !e.isSymlink);
-                if (globalTarget) {
-                  resolvedTarget = globalTarget.path;
-                  console.log(`SnapshotBuilder.build: fixed broken link ${currentPath} -> ${target} via global fallback: ${resolvedTarget}`);
-                } else {
-                  console.warn(`SnapshotBuilder.build: broken link ${currentPath} -> ${target} (resolved as ${resolvedTarget}) in ${unit.sha}`);
-                  filePath = ""; // Mark as invalid
-                  break;
-                }
-              }
-            }
-  
-            currentPath = resolvedTarget;
-            filePath = resolvedTarget;
-  
-            // Check if the NEW target is also a symlink
-            const targetEntry = entries.find(e => e.path === currentPath);
-            if (targetEntry?.isSymlink) {
-              if (seenInChain.has(currentPath)) {
-                console.warn(`SnapshotBuilder.build: circular symlink detected at ${currentPath} in ${unit.sha}`);
-                filePath = "";
-                break;
-              }
-              seenInChain.add(currentPath);
-              // Continue loop to resolve next link in chain
-            } else {
-              // Reached a real file
-              break;
-            }
-          }
-        }
-  
-        // Final validation: 
-        // 1. Must have a valid path (resolution didn't fail)
-        // 2. The resolved target must ALSO match a sprite pattern (not necessarily the same code, 
-        //    but it must be an image/sprite, not a text file or Makefile).
-        //    Actually, the user said: "ignore symlink and just use real sprites".
-        //    If a symlink resolves to something that isn't a sprite (like Makefile), skip it.
-        if (!filePath || !this.isProbablySprite(filePath)) {
-          continue;
-        }
-  
-        // Determine the status of this file
+      // Skip duplicate paths within the same commit
+      if (seenPaths.has(entry.path)) {
+        console.debug("SnapshotBuilder.build: skipping duplicate path:", entry.path);
+        continue;
+      }
+      seenPaths.add(entry.path);
+
+      // Determine the status of this file
       const rawStatus = unit.changesMap.get(entry.path);
       const status = this.normalizeStatus(rawStatus);
 
       // Build the sprite file object
       const spriteFile: SpriteFile = {
         code: this.pattern.code,
-        filename: entry.path, // Keep original path as filename
-        url: this.buildBlobUrl(unit.sha, filePath), // Point to actual image blob (resolved)
+        filename: entry.path,
+        url: this.buildBlobUrl(unit.sha, entry.path),
         status,
         authorName: this.resolver.resolveAuthor(entry.path, unit.author),
       };
@@ -254,52 +185,6 @@ export class SnapshotBuilder {
     };
 
     return snapshot;
-  }
-
-  /**
-   * Resolves symlinks in tree entries.
-   *
-   * @param entries - Tree entries from git ls-tree
-   * @param sha - Commit SHA for context
-   * @returns Map of symlink paths to their resolved targets
-   */
-  private async resolveSymlinks(
-    entries: TreeEntry[],
-    _sha: string,
-  ): Promise<Map<string, string>> {
-    const resolvedPaths = new Map<string, string>();
-
-    // Find all symlink entries
-    const symlinks = entries.filter((entry) => entry.isSymlink);
-
-    // Resolve all symlinks in parallel (per-commit level). Individual
-    // failures are logged and skipped.
-    const results = await Promise.all(
-      symlinks.map(async (symlink) => {
-        try {
-          const targetPath = await this.reader.resolveSymlinkTarget(
-            symlink.objectHash,
-          );
-          return { path: symlink.path, target: targetPath };
-        } catch (error) {
-          console.warn(`Failed to resolve symlink ${symlink.path}: ${error}`);
-          return null;
-        }
-      }),
-    );
-
-    for (const r of results) {
-      if (r) resolvedPaths.set(r.path, r.target);
-    }
-
-    return resolvedPaths;
-  }
-
-  /**
-   * Returns true if the file path looks like a sprite (ends in png or gif).
-   */
-  private isProbablySprite(filePath: string): boolean {
-    return /\.(png|gif)$/i.test(filePath);
   }
 
   /**

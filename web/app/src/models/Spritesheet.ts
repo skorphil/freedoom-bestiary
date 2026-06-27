@@ -87,8 +87,8 @@ export class Spritesheet {
           image: this.image,
           source: sprite,
           offset: {
-            dx: (this.maxWidth - sprite.width) / 2,
-            dy: this.maxHeight - sprite.height,
+            dx: Math.round((this.maxWidth - sprite.width) / 2),
+            dy: Math.round(this.maxHeight - sprite.height),
           },
           stageSize: { width: this.maxWidth, height: this.maxHeight },
         };

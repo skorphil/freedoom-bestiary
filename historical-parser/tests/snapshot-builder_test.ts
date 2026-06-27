@@ -212,6 +212,46 @@ test("SnapshotBuilder - should handle attic-style with folder", async () => {
   expect(snapshot!.commitSprites.length).toBe(2);
 });
 
+test("SnapshotBuilder - should deduplicate identical paths", async () => {
+  const entries = [
+    createMockTreeEntry("sprites/possa1.png"),
+    createMockTreeEntry("sprites/possa1.png"), // DUPLICATE
+    createMockTreeEntry("sprites/possa2.png"),
+  ];
+  const reader = createMockGitReader("/tmp/test.git", entries);
+  const pattern = createMockSpritePattern("POSS");
+  const resolver = createMockAuthorResolver();
+  const options: SnapshotBuilderOptions = {
+    githubBaseUrl: "https://github.com/freedoom/freedoom",
+    followSymlinks: false,
+  };
+  const builder = createMockSnapshotBuilder(reader, pattern, resolver, options);
+
+  const changesMap = new Map([
+    ["sprites/possa1.png", "A"],
+    ["sprites/possa2.png", "M"],
+  ]);
+
+  const unit: ScanUnit = {
+    sha: "abc123",
+    date: "2024-01-15T10:30:00Z",
+    author: "John Doe",
+    message: "Test deduplication",
+    folder: null,
+    changesMap,
+  };
+
+  const realBuilder = new SnapshotBuilder(reader as any, pattern as any, resolver as any, options);
+  const snapshot = await realBuilder.build(unit, "freedoom");
+
+  expect(snapshot).toBeDefined();
+  expect(snapshot!.commitSprites.length).toBe(2);
+  const filenames = snapshot!.commitSprites.map(s => s.filename);
+  expect(filenames).toContain("sprites/possa1.png");
+  expect(filenames).toContain("sprites/possa2.png");
+  expect(filenames.filter(f => f === "sprites/possa1.png").length).toBe(1);
+});
+
 test("SnapshotBuilder - should resolve symlinks when followSymlinks is true", async () => {
   const entries = [
     createMockTreeEntry("sprites/possa1.png", "120000", "symlinkHash"),

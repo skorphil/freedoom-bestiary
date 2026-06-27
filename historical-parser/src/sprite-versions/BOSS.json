@@ -45,27 +45,6 @@
           "source": "attic"
         },
         {
-          "name": "lokito/sprites/baron/bossa4a6.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/lokito/sprites/baron/bossa4a6.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "lokito/sprites/baron/bossa3a7.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/lokito/sprites/baron/bossa3a7.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "lokito/sprites/baron/bossa2a8.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/lokito/sprites/baron/bossa2a8.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "lokito/sprites/baron/bossb1.gif",
           "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/lokito/sprites/baron/bossb1.gif",
           "spriteAuthor": "lokito",
@@ -96,27 +75,6 @@
         {
           "name": "lokito/sprites/baron/bossb5.gif",
           "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/lokito/sprites/baron/bossb5.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "lokito/sprites/baron/bossb4b6.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/lokito/sprites/baron/bossb4b6.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "lokito/sprites/baron/bossb3b7.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/lokito/sprites/baron/bossb3b7.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "lokito/sprites/baron/bossb2b8.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/lokito/sprites/baron/bossb2b8.gif",
           "spriteAuthor": "lokito",
           "spriteState": "updated",
           "source": "attic"
@@ -157,27 +115,6 @@
           "source": "attic"
         },
         {
-          "name": "lokito/sprites/baron/bossc4c6.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/lokito/sprites/baron/bossc4c6.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "lokito/sprites/baron/bossc3c7.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/lokito/sprites/baron/bossc3c7.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "lokito/sprites/baron/bossc2c8.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/lokito/sprites/baron/bossc2c8.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "lokito/sprites/baron/bossd1.gif",
           "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/lokito/sprites/baron/bossd1.gif",
           "spriteAuthor": "lokito",
@@ -208,27 +145,6 @@
         {
           "name": "lokito/sprites/baron/bossd5.gif",
           "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/lokito/sprites/baron/bossd5.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "lokito/sprites/baron/bossd4d6.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/lokito/sprites/baron/bossd4d6.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "lokito/sprites/baron/bossd3d7.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/lokito/sprites/baron/bossd3d7.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "lokito/sprites/baron/bossd2d8.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/lokito/sprites/baron/bossd2d8.gif",
           "spriteAuthor": "lokito",
           "spriteState": "updated",
           "source": "attic"
@@ -1059,27 +975,6 @@
           "source": "attic"
         },
         {
-          "name": "raymoohawk/sprites/lavamander/bossa4a6.png",
-          "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/raymoohawk/sprites/lavamander/bossa4a6.png",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "raymoohawk/sprites/lavamander/bossa3a7.png",
-          "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/raymoohawk/sprites/lavamander/bossa3a7.png",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "raymoohawk/sprites/lavamander/bossa2a8.png",
-          "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/raymoohawk/sprites/lavamander/bossa2a8.png",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "raymoohawk/sprites/lavamander/bossb1.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/raymoohawk/sprites/lavamander/bossb1.png",
           "spriteAuthor": "raymoohawk",
@@ -1110,27 +1005,6 @@
         {
           "name": "raymoohawk/sprites/lavamander/bossb5.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/raymoohawk/sprites/lavamander/bossb5.png",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "raymoohawk/sprites/lavamander/bossb4b6.png",
-          "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/raymoohawk/sprites/lavamander/bossb4b6.png",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "raymoohawk/sprites/lavamander/bossb3b7.png",
-          "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/raymoohawk/sprites/lavamander/bossb3b7.png",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "raymoohawk/sprites/lavamander/bossb2b8.png",
-          "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/raymoohawk/sprites/lavamander/bossb2b8.png",
           "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "attic"
@@ -1171,27 +1045,6 @@
           "source": "attic"
         },
         {
-          "name": "raymoohawk/sprites/lavamander/bossc4c6.png",
-          "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/raymoohawk/sprites/lavamander/bossc4c6.png",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "raymoohawk/sprites/lavamander/bossc3c7.png",
-          "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/raymoohawk/sprites/lavamander/bossc3c7.png",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "raymoohawk/sprites/lavamander/bossc2c8.png",
-          "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/raymoohawk/sprites/lavamander/bossc2c8.png",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "raymoohawk/sprites/lavamander/bossd1.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/raymoohawk/sprites/lavamander/bossd1.png",
           "spriteAuthor": "raymoohawk",
@@ -1222,27 +1075,6 @@
         {
           "name": "raymoohawk/sprites/lavamander/bossd5.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/raymoohawk/sprites/lavamander/bossd5.png",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "raymoohawk/sprites/lavamander/bossd4d6.png",
-          "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/raymoohawk/sprites/lavamander/bossd4d6.png",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "raymoohawk/sprites/lavamander/bossd3d7.png",
-          "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/raymoohawk/sprites/lavamander/bossd3d7.png",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "raymoohawk/sprites/lavamander/bossd2d8.png",
-          "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/raymoohawk/sprites/lavamander/bossd2d8.png",
           "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "attic"
@@ -3594,27 +3426,6 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/bossa4a6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/aea01ea33b63589fb3ee583a4e495d94f970a3ba/sprites/bossa4a6.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossa3a7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/aea01ea33b63589fb3ee583a4e495d94f970a3ba/sprites/bossa3a7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossa2a8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/aea01ea33b63589fb3ee583a4e495d94f970a3ba/sprites/bossa2a8.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/bossb1.png",
           "url": "https://github.com/freedoom/freedoom/blob/aea01ea33b63589fb3ee583a4e495d94f970a3ba/sprites/bossb1.png",
           "spriteAuthor": "HorroMovieGuy",
@@ -3645,27 +3456,6 @@
         {
           "name": "sprites/bossb5.png",
           "url": "https://github.com/freedoom/freedoom/blob/aea01ea33b63589fb3ee583a4e495d94f970a3ba/sprites/bossb5.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossb4b6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/aea01ea33b63589fb3ee583a4e495d94f970a3ba/sprites/bossb4b6.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossb3b7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/aea01ea33b63589fb3ee583a4e495d94f970a3ba/sprites/bossb3b7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossb2b8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/aea01ea33b63589fb3ee583a4e495d94f970a3ba/sprites/bossb2b8.png",
           "spriteAuthor": "HorroMovieGuy",
           "spriteState": "updated",
           "source": "freedoom"
@@ -3706,27 +3496,6 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/bossc4c6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/aea01ea33b63589fb3ee583a4e495d94f970a3ba/sprites/bossc4c6.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossc3c7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/aea01ea33b63589fb3ee583a4e495d94f970a3ba/sprites/bossc3c7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossc2c8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/aea01ea33b63589fb3ee583a4e495d94f970a3ba/sprites/bossc2c8.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/bossd1.png",
           "url": "https://github.com/freedoom/freedoom/blob/aea01ea33b63589fb3ee583a4e495d94f970a3ba/sprites/bossd1.png",
           "spriteAuthor": "HorroMovieGuy",
@@ -3757,27 +3526,6 @@
         {
           "name": "sprites/bossd5.png",
           "url": "https://github.com/freedoom/freedoom/blob/aea01ea33b63589fb3ee583a4e495d94f970a3ba/sprites/bossd5.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossd4d6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/aea01ea33b63589fb3ee583a4e495d94f970a3ba/sprites/bossd4d6.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossd3d7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/aea01ea33b63589fb3ee583a4e495d94f970a3ba/sprites/bossd3d7.png",
-          "spriteAuthor": "HorroMovieGuy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossd2d8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/aea01ea33b63589fb3ee583a4e495d94f970a3ba/sprites/bossd2d8.png",
           "spriteAuthor": "HorroMovieGuy",
           "spriteState": "updated",
           "source": "freedoom"
@@ -6129,27 +5877,6 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/bossa4a6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/f7fcc03a7d2f6b1c1dcb2865474e99253b4df8d5/sprites/bossa4a6.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossa3a7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/f7fcc03a7d2f6b1c1dcb2865474e99253b4df8d5/sprites/bossa3a7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossa2a8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/f7fcc03a7d2f6b1c1dcb2865474e99253b4df8d5/sprites/bossa2a8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/bossb1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/f7fcc03a7d2f6b1c1dcb2865474e99253b4df8d5/sprites/bossb1.gif",
           "spriteAuthor": "Mike Swanson",
@@ -6180,27 +5907,6 @@
         {
           "name": "sprites/bossb5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/f7fcc03a7d2f6b1c1dcb2865474e99253b4df8d5/sprites/bossb5.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossb4b6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/f7fcc03a7d2f6b1c1dcb2865474e99253b4df8d5/sprites/bossb4b6.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossb3b7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/f7fcc03a7d2f6b1c1dcb2865474e99253b4df8d5/sprites/bossb3b7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossb2b8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/f7fcc03a7d2f6b1c1dcb2865474e99253b4df8d5/sprites/bossb2b8.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -6241,27 +5947,6 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/bossc4c6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/f7fcc03a7d2f6b1c1dcb2865474e99253b4df8d5/sprites/bossc4c6.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossc3c7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/f7fcc03a7d2f6b1c1dcb2865474e99253b4df8d5/sprites/bossc3c7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossc2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/f7fcc03a7d2f6b1c1dcb2865474e99253b4df8d5/sprites/bossc2c8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/bossd1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/f7fcc03a7d2f6b1c1dcb2865474e99253b4df8d5/sprites/bossd1.gif",
           "spriteAuthor": "Mike Swanson",
@@ -6292,27 +5977,6 @@
         {
           "name": "sprites/bossd5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/f7fcc03a7d2f6b1c1dcb2865474e99253b4df8d5/sprites/bossd5.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossd4d6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/f7fcc03a7d2f6b1c1dcb2865474e99253b4df8d5/sprites/bossd4d6.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossd3d7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/f7fcc03a7d2f6b1c1dcb2865474e99253b4df8d5/sprites/bossd3d7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bossd2d8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/f7fcc03a7d2f6b1c1dcb2865474e99253b4df8d5/sprites/bossd2d8.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -6636,27 +6300,6 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/lokito/bossa4a6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/afac99005a36e7dcfa7e36e341da555c1be98f23/sprites/lokito/bossa4a6.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/lokito/bossa3a7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/afac99005a36e7dcfa7e36e341da555c1be98f23/sprites/lokito/bossa3a7.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/lokito/bossa2a8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/afac99005a36e7dcfa7e36e341da555c1be98f23/sprites/lokito/bossa2a8.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/lokito/bossb1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/afac99005a36e7dcfa7e36e341da555c1be98f23/sprites/lokito/bossb1.gif",
           "spriteAuthor": "lokito",
@@ -6687,27 +6330,6 @@
         {
           "name": "sprites/lokito/bossb5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/afac99005a36e7dcfa7e36e341da555c1be98f23/sprites/lokito/bossb5.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/lokito/bossb4b6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/afac99005a36e7dcfa7e36e341da555c1be98f23/sprites/lokito/bossb4b6.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/lokito/bossb3b7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/afac99005a36e7dcfa7e36e341da555c1be98f23/sprites/lokito/bossb3b7.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/lokito/bossb2b8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/afac99005a36e7dcfa7e36e341da555c1be98f23/sprites/lokito/bossb2b8.gif",
           "spriteAuthor": "lokito",
           "spriteState": "updated",
           "source": "freedoom"
@@ -6748,27 +6370,6 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/lokito/bossc4c6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/afac99005a36e7dcfa7e36e341da555c1be98f23/sprites/lokito/bossc4c6.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/lokito/bossc3c7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/afac99005a36e7dcfa7e36e341da555c1be98f23/sprites/lokito/bossc3c7.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/lokito/bossc2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/afac99005a36e7dcfa7e36e341da555c1be98f23/sprites/lokito/bossc2c8.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/lokito/bossd1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/afac99005a36e7dcfa7e36e341da555c1be98f23/sprites/lokito/bossd1.gif",
           "spriteAuthor": "lokito",
@@ -6799,27 +6400,6 @@
         {
           "name": "sprites/lokito/bossd5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/afac99005a36e7dcfa7e36e341da555c1be98f23/sprites/lokito/bossd5.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/lokito/bossd4d6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/afac99005a36e7dcfa7e36e341da555c1be98f23/sprites/lokito/bossd4d6.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/lokito/bossd3d7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/afac99005a36e7dcfa7e36e341da555c1be98f23/sprites/lokito/bossd3d7.gif",
-          "spriteAuthor": "lokito",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/lokito/bossd2d8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/afac99005a36e7dcfa7e36e341da555c1be98f23/sprites/lokito/bossd2d8.gif",
           "spriteAuthor": "lokito",
           "spriteState": "updated",
           "source": "freedoom"
@@ -7650,27 +7230,6 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/pov/bossa4a6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/bossa4a6.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/bossa3a7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/bossa3a7.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/bossa2a8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/bossa2a8.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/pov/bossb1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/bossb1.gif",
           "spriteAuthor": "pov",
@@ -7701,27 +7260,6 @@
         {
           "name": "sprites/pov/bossb5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/bossb5.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/bossb4b6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/bossb4b6.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/bossb3b7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/bossb3b7.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/bossb2b8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/bossb2b8.gif",
           "spriteAuthor": "pov",
           "spriteState": "new",
           "source": "freedoom"
@@ -7762,27 +7300,6 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/pov/bossc4c6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/bossc4c6.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/bossc3c7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/bossc3c7.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/bossc2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/bossc2c8.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/pov/bossd1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/bossd1.gif",
           "spriteAuthor": "pov",
@@ -7813,27 +7330,6 @@
         {
           "name": "sprites/pov/bossd5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/bossd5.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/bossd4d6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/bossd4d6.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/bossd3d7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/bossd3d7.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/bossd2d8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/bossd2d8.gif",
           "spriteAuthor": "pov",
           "spriteState": "new",
           "source": "freedoom"

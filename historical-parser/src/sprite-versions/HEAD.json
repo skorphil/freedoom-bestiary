@@ -24,29 +24,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/heada2a8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada2a8.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/heada3a7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada3a7.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/heada3a7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada3a7.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/heada4a6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada4a6.png",
           "spriteAuthor": "Steven Elliott",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -80,29 +59,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/headb2b8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb2b8.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/headb3b7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb3b7.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headb3b7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb3b7.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headb4b6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb4b6.png",
           "spriteAuthor": "Steven Elliott",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -136,29 +94,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/headc2c8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc2c8.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/headc3c7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc3c7.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headc3c7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc3c7.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headc4c6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc4c6.png",
           "spriteAuthor": "Steven Elliott",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -192,29 +129,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/headd2d8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd2d8.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/headd3d7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd3d7.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headd3d7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd3d7.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headd4d6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd4d6.png",
           "spriteAuthor": "Steven Elliott",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -248,29 +164,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/heade2e8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade2e8.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/heade3e7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade3e7.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/heade3e7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade3e7.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/heade4e6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade4e6.png",
           "spriteAuthor": "Steven Elliott",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -304,31 +199,10 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/headf2f8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf2f8.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/headf3f7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf3f7.png",
           "spriteAuthor": "Steven Elliott",
           "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headf3f7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf3f7.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headf4f6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf4f6.png",
-          "spriteAuthor": "Steven Elliott",
-          "spriteState": "updated",
           "source": "freedoom"
         },
         {
@@ -412,29 +286,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/heada2a8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada2a8.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/heada3a7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada3a7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/heada3a7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada3a7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/heada4a6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada4a6.png",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -468,29 +321,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/headb2b8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb2b8.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/headb3b7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb3b7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headb3b7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb3b7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headb4b6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb4b6.png",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -524,29 +356,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/headc2c8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc2c8.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/headc3c7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc3c7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headc3c7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc3c7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headc4c6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc4c6.png",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -580,29 +391,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/headd2d8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd2d8.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/headd3d7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd3d7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headd3d7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd3d7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headd4d6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd4d6.png",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -636,29 +426,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/heade2e8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade2e8.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/heade3e7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade3e7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/heade3e7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade3e7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/heade4e6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade4e6.png",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -692,29 +461,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/headf2f8.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf2f8.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/headf3f7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf3f7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headf3f7.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf3f7.png",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headf4f6.png",
-          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf4f6.png",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -800,29 +548,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/heada2a8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada2a8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/heada3a7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada3a7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/heada3a7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada3a7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/heada4a6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada4a6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -856,29 +583,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/headb2b8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb2b8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/headb3b7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb3b7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headb3b7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb3b7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headb4b6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb4b6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -912,29 +618,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/headc2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc2c8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/headc3c7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc3c7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headc3c7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc3c7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headc4c6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc4c6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -968,29 +653,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/headd2d8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd2d8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/headd3d7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd3d7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headd3d7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd3d7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headd4d6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd4d6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -1024,29 +688,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/heade2e8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade2e8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/heade3e7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade3e7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/heade3e7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade3e7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/heade4e6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade4e6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -1080,29 +723,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/headf2f8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf2f8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/headf3f7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf3f7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headf3f7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf3f7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/headf4f6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf4f6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "freedoom"
@@ -1188,29 +810,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/raymoohawk/heada2a8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada2a8.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/raymoohawk/heada3a7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada3a7.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/raymoohawk/heada3a7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada3a7.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/raymoohawk/heada4a6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada4a6.gif",
           "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
@@ -1244,29 +845,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/raymoohawk/headb2b8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb2b8.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/raymoohawk/headb3b7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb3b7.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/raymoohawk/headb3b7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb3b7.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/raymoohawk/headb4b6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb4b6.gif",
           "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
@@ -1300,29 +880,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/raymoohawk/headc2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc2c8.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/raymoohawk/headc3c7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc3c7.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/raymoohawk/headc3c7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc3c7.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/raymoohawk/headc4c6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc4c6.gif",
           "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
@@ -1356,29 +915,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/raymoohawk/headd2d8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd2d8.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/raymoohawk/headd3d7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd3d7.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/raymoohawk/headd3d7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd3d7.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/raymoohawk/headd4d6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd4d6.gif",
           "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
@@ -1412,29 +950,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/raymoohawk/heade2e8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade2e8.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/raymoohawk/heade3e7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade3e7.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/raymoohawk/heade3e7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade3e7.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/raymoohawk/heade4e6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade4e6.gif",
           "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
@@ -1468,29 +985,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/raymoohawk/headf2f8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf2f8.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/raymoohawk/headf3f7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf3f7.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/raymoohawk/headf3f7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf3f7.gif",
-          "spriteAuthor": "raymoohawk",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/raymoohawk/headf4f6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf4f6.gif",
           "spriteAuthor": "raymoohawk",
           "spriteState": "updated",
           "source": "freedoom"
@@ -1576,29 +1072,8 @@
           "source": "attic"
         },
         {
-          "name": "nightfang/orbmonster/heada2a8.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada2a8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "nightfang/orbmonster/heada3a7.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada3a7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/heada3a7.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada3a7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/heada4a6.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada4a6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "attic"
@@ -1632,29 +1107,8 @@
           "source": "attic"
         },
         {
-          "name": "nightfang/orbmonster/headb2b8.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb2b8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "nightfang/orbmonster/headb3b7.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb3b7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headb3b7.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb3b7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headb4b6.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb4b6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "attic"
@@ -1688,29 +1142,8 @@
           "source": "attic"
         },
         {
-          "name": "nightfang/orbmonster/headc2c8.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc2c8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "nightfang/orbmonster/headc3c7.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc3c7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headc3c7.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc3c7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headc4c6.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc4c6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "attic"
@@ -1744,29 +1177,8 @@
           "source": "attic"
         },
         {
-          "name": "nightfang/orbmonster/headd2d8.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd2d8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "nightfang/orbmonster/headd3d7.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd3d7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headd3d7.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd3d7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headd4d6.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd4d6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "attic"
@@ -1800,29 +1212,8 @@
           "source": "attic"
         },
         {
-          "name": "nightfang/orbmonster/heade2e8.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade2e8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "nightfang/orbmonster/heade3e7.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade3e7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/heade3e7.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade3e7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/heade4e6.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade4e6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "attic"
@@ -1856,29 +1247,8 @@
           "source": "attic"
         },
         {
-          "name": "nightfang/orbmonster/headf2f8.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf2f8.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
           "name": "nightfang/orbmonster/headf3f7.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf3f7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headf3f7.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf3f7.gif",
-          "spriteAuthor": "Mike Swanson",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headf4f6.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf4f6.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
           "source": "attic"
@@ -1964,29 +1334,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/pov/heada2a8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heada2a8.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/pov/heada3a7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heada3a7.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/heada3a7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heada3a7.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/heada4a6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heada4a6.gif",
           "spriteAuthor": "pov",
           "spriteState": "new",
           "source": "freedoom"
@@ -2020,29 +1369,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/pov/headb2b8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headb2b8.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/pov/headb3b7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headb3b7.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/headb3b7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headb3b7.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/headb4b6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headb4b6.gif",
           "spriteAuthor": "pov",
           "spriteState": "new",
           "source": "freedoom"
@@ -2076,29 +1404,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/pov/headc2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headc2c8.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/pov/headc3c7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headc3c7.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/headc3c7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headc3c7.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/headc4c6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headc4c6.gif",
           "spriteAuthor": "pov",
           "spriteState": "new",
           "source": "freedoom"
@@ -2132,29 +1439,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/pov/headd2d8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headd2d8.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/pov/headd3d7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headd3d7.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/headd3d7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headd3d7.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/headd4d6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headd4d6.gif",
           "spriteAuthor": "pov",
           "spriteState": "new",
           "source": "freedoom"
@@ -2188,29 +1474,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/pov/heade2e8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heade2e8.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/pov/heade3e7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heade3e7.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/heade3e7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heade3e7.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/heade4e6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heade4e6.gif",
           "spriteAuthor": "pov",
           "spriteState": "new",
           "source": "freedoom"
@@ -2244,29 +1509,8 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/pov/headf2f8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headf2f8.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/pov/headf3f7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headf3f7.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/headf3f7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headf3f7.gif",
-          "spriteAuthor": "pov",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/pov/headf4f6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headf4f6.gif",
           "spriteAuthor": "pov",
           "spriteState": "new",
           "source": "freedoom"

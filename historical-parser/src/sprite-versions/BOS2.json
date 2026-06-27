@@ -45,6 +45,27 @@
           "source": "attic"
         },
         {
+          "name": "catoptromancy/sprites/hellknight/bos2a6c4.gif",
+          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/catoptromancy/sprites/hellknight/bos2a6c4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "updated",
+          "source": "attic"
+        },
+        {
+          "name": "catoptromancy/sprites/hellknight/bos2a7c3.gif",
+          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/catoptromancy/sprites/hellknight/bos2a7c3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "updated",
+          "source": "attic"
+        },
+        {
+          "name": "catoptromancy/sprites/hellknight/bos2a8c2.gif",
+          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/catoptromancy/sprites/hellknight/bos2a8c2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "updated",
+          "source": "attic"
+        },
+        {
           "name": "catoptromancy/sprites/hellknight/bos2b1d1.gif",
           "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/catoptromancy/sprites/hellknight/bos2b1d1.gif",
           "spriteAuthor": "catoptromancy",
@@ -75,6 +96,34 @@
         {
           "name": "catoptromancy/sprites/hellknight/bos2b5d5.gif",
           "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/catoptromancy/sprites/hellknight/bos2b5d5.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "updated",
+          "source": "attic"
+        },
+        {
+          "name": "catoptromancy/sprites/hellknight/bos2b6d4.gif",
+          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/catoptromancy/sprites/hellknight/bos2b6d4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "updated",
+          "source": "attic"
+        },
+        {
+          "name": "catoptromancy/sprites/hellknight/bos2b7d3.gif",
+          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/catoptromancy/sprites/hellknight/bos2b7d3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "updated",
+          "source": "attic"
+        },
+        {
+          "name": "catoptromancy/sprites/hellknight/bos2b8d2.gif",
+          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/catoptromancy/sprites/hellknight/bos2b8d2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "updated",
+          "source": "attic"
+        },
+        {
+          "name": "catoptromancy/sprites/hellknight/bos2c2c8.gif",
+          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/catoptromancy/sprites/hellknight/bos2c2c8.gif",
           "spriteAuthor": "catoptromancy",
           "spriteState": "updated",
           "source": "attic"
@@ -127,55 +176,6 @@
           "spriteAuthor": "catoptromancy",
           "spriteState": "updated",
           "source": "attic"
-        },
-        {
-          "name": "catoptromancy/sprites/hellknight/bos2a6c4.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/catoptromancy/sprites/hellknight/bos2a6c4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "catoptromancy/sprites/hellknight/bos2a7c3.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/catoptromancy/sprites/hellknight/bos2a7c3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "catoptromancy/sprites/hellknight/bos2a8c2.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/catoptromancy/sprites/hellknight/bos2a8c2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "catoptromancy/sprites/hellknight/bos2b6d4.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/catoptromancy/sprites/hellknight/bos2b6d4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "catoptromancy/sprites/hellknight/bos2b7d3.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/catoptromancy/sprites/hellknight/bos2b7d3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "catoptromancy/sprites/hellknight/bos2b8d2.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/catoptromancy/sprites/hellknight/bos2b8d2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "catoptromancy/sprites/hellknight/bos2c2c8.gif",
-          "url": "https://github.com/freedoom/attic/blob/ed32e1b106c86c75f02f69bb5469a3917c49c01c/catoptromancy/sprites/hellknight/bos2c2c8.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "attic"
         }
       ]
     },
@@ -223,6 +223,27 @@
           "source": "freedoom"
         },
         {
+          "name": "sprites/catoptromancy/bos2a6c4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2a7c3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2a8c2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
           "name": "sprites/bos2b1d1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/6cd361b01d3edc55dfe5d9bd01aab50093567d99/sprites/bos2b1d1.gif",
           "spriteAuthor": "Heng",
@@ -254,6 +275,34 @@
           "name": "sprites/bos2b5d5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/6cd361b01d3edc55dfe5d9bd01aab50093567d99/sprites/bos2b5d5.gif",
           "spriteAuthor": "Heng",
+          "spriteState": "unchanged",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b6d4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b7d3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b8d2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2c2c8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2c8.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
@@ -528,55 +577,6 @@
           "url": "https://github.com/freedoom/freedoom/blob/82e8c90deec08fd71cf21a58b2d0b7039372b652/sprites/bos2o0.gif",
           "spriteAuthor": "luckypunk",
           "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a6c4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a7c3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a8c2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b6d4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b7d3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b8d2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2c2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2c8.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
@@ -1388,6 +1388,27 @@
           "source": "freedoom"
         },
         {
+          "name": "sprites/catoptromancy/bos2a6c4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2a7c3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2a8c2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
           "name": "sprites/bos2b1d1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/6cd361b01d3edc55dfe5d9bd01aab50093567d99/sprites/bos2b1d1.gif",
           "spriteAuthor": "Heng",
@@ -1419,6 +1440,34 @@
           "name": "sprites/bos2b5d5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/6cd361b01d3edc55dfe5d9bd01aab50093567d99/sprites/bos2b5d5.gif",
           "spriteAuthor": "Heng",
+          "spriteState": "unchanged",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b6d4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b7d3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b8d2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2c2c8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2c8.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
@@ -1693,55 +1742,6 @@
           "url": "https://github.com/freedoom/freedoom/blob/82e8c90deec08fd71cf21a58b2d0b7039372b652/sprites/bos2o0.gif",
           "spriteAuthor": "luckypunk",
           "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a6c4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a7c3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a8c2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b6d4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b7d3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b8d2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2c2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2c8.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
@@ -2553,6 +2553,27 @@
           "source": "freedoom"
         },
         {
+          "name": "sprites/catoptromancy/bos2a6c4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2a7c3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2a8c2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
           "name": "sprites/bos2b1d1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/6cd361b01d3edc55dfe5d9bd01aab50093567d99/sprites/bos2b1d1.gif",
           "spriteAuthor": "Heng",
@@ -2584,6 +2605,34 @@
           "name": "sprites/bos2b5d5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/6cd361b01d3edc55dfe5d9bd01aab50093567d99/sprites/bos2b5d5.gif",
           "spriteAuthor": "Heng",
+          "spriteState": "unchanged",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b6d4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b7d3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b8d2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2c2c8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2c8.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
@@ -2858,55 +2907,6 @@
           "url": "https://github.com/freedoom/freedoom/blob/82e8c90deec08fd71cf21a58b2d0b7039372b652/sprites/bos2o0.gif",
           "spriteAuthor": "luckypunk",
           "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a6c4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a7c3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a8c2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b6d4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b7d3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b8d2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2c2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2c8.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
@@ -3718,6 +3718,27 @@
           "source": "freedoom"
         },
         {
+          "name": "sprites/catoptromancy/bos2a6c4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2a7c3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2a8c2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
           "name": "sprites/bos2b1d1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/6cd361b01d3edc55dfe5d9bd01aab50093567d99/sprites/bos2b1d1.gif",
           "spriteAuthor": "Heng",
@@ -3749,6 +3770,34 @@
           "name": "sprites/bos2b5d5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/6cd361b01d3edc55dfe5d9bd01aab50093567d99/sprites/bos2b5d5.gif",
           "spriteAuthor": "Heng",
+          "spriteState": "unchanged",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b6d4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b7d3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b8d2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2c2c8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2c8.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
@@ -4023,55 +4072,6 @@
           "url": "https://github.com/freedoom/freedoom/blob/82e8c90deec08fd71cf21a58b2d0b7039372b652/sprites/bos2o0.gif",
           "spriteAuthor": "luckypunk",
           "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a6c4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a7c3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a8c2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b6d4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b7d3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b8d2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2c2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2c8.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
@@ -4386,6 +4386,27 @@
           "source": "freedoom"
         },
         {
+          "name": "sprites/catoptromancy/bos2a6c4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2a7c3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2a8c2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
           "name": "sprites/bos2b1d1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/6cd361b01d3edc55dfe5d9bd01aab50093567d99/sprites/bos2b1d1.gif",
           "spriteAuthor": "Heng",
@@ -4417,6 +4438,34 @@
           "name": "sprites/bos2b5d5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/6cd361b01d3edc55dfe5d9bd01aab50093567d99/sprites/bos2b5d5.gif",
           "spriteAuthor": "Heng",
+          "spriteState": "unchanged",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b6d4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b7d3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b8d2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2c2c8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2c8.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
@@ -4691,55 +4740,6 @@
           "url": "https://github.com/freedoom/freedoom/blob/586779d74d3b98107d8e63eb45d1f0e1bcf45173/sprites/bos2o0.gif",
           "spriteAuthor": "Heng",
           "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a6c4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a7c3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a8c2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b6d4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b7d3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b8d2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2c2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2c8.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
@@ -5054,6 +5054,27 @@
           "source": "freedoom"
         },
         {
+          "name": "sprites/catoptromancy/bos2a6c4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2a7c3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2a8c2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
           "name": "sprites/bos2b1d1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/6cd361b01d3edc55dfe5d9bd01aab50093567d99/sprites/bos2b1d1.gif",
           "spriteAuthor": "Heng",
@@ -5085,6 +5106,34 @@
           "name": "sprites/bos2b5d5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/6cd361b01d3edc55dfe5d9bd01aab50093567d99/sprites/bos2b5d5.gif",
           "spriteAuthor": "Heng",
+          "spriteState": "unchanged",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b6d4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b7d3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b8d2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2c2c8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2c8.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "unchanged",
           "source": "freedoom"
         },
@@ -5359,55 +5408,6 @@
           "url": "https://github.com/freedoom/freedoom/blob/6cd361b01d3edc55dfe5d9bd01aab50093567d99/sprites/bos2o0.gif",
           "spriteAuthor": "Heng",
           "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a6c4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a7c3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a8c2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b6d4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b7d3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b8d2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2c2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2c8.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
@@ -5722,6 +5722,27 @@
           "source": "freedoom"
         },
         {
+          "name": "sprites/catoptromancy/bos2a6c4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2a7c3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2a8c2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
           "name": "sprites/bos2b1d1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2b1d1.gif",
           "spriteAuthor": "Mike Swanson",
@@ -5754,6 +5775,34 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2b5d5.gif",
           "spriteAuthor": "Mike Swanson",
           "spriteState": "updated",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b6d4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b7d3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b8d2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2c2c8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2c8.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
@@ -6030,55 +6079,6 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/catoptromancy/bos2a6c4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a7c3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a8c2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b6d4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b7d3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b8d2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2c2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2c8.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/bos2c2a8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2c2a8.gif",
           "spriteAuthor": "Mike Swanson",
@@ -6166,6 +6166,27 @@
           "source": "freedoom"
         },
         {
+          "name": "sprites/catoptromancy/bos2a6c4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2a7c3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2a8c2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
           "name": "sprites/catoptromancy/bos2b1d1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2b1d1.gif",
           "spriteAuthor": "catoptromancy",
@@ -6196,6 +6217,34 @@
         {
           "name": "sprites/catoptromancy/bos2b5d5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2b5d5.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "unchanged",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b6d4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b7d3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b8d2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2c2c8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2c8.gif",
           "spriteAuthor": "catoptromancy",
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -6474,55 +6523,6 @@
           "source": "freedoom"
         },
         {
-          "name": "sprites/catoptromancy/bos2a6c4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a7c3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2a8c2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b6d4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b7d3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b8d2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2c2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2c8.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
           "name": "sprites/catoptromancy/bos2c2a8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/ed8d2f4c264281e5371ac33143dd97186481a85d/sprites/catoptromancy/bos2c2a8.gif",
           "spriteAuthor": "catoptromancy",
@@ -6578,385 +6578,112 @@
           "name": "sprites/catoptromancy/bos2a1c1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a1c1.gif",
           "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
+          "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/catoptromancy/bos2a2c8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a2c8.gif",
           "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
+          "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/catoptromancy/bos2a3c7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a3c7.gif",
           "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
+          "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/catoptromancy/bos2a4c6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a4c6.gif",
           "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
+          "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/catoptromancy/bos2a5c5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a5c5.gif",
           "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b1d1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b1d1.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b2d8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b2d8.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b3d7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b3d7.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b4d6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b4d6.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2b5d5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b5d5.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2e1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2e1.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2e2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2e2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2e3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2e3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2e4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2e4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2e5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2e5.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2e6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2e6.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2e7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2e7.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2e8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2e8.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2f1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2f1.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2f2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2f2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2f3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2f3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2f4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2f4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2f5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2f5.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2f6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2f6.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2f7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2f7.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2f8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2f8.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2g1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2g1.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2g2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2g2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2g3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2g3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2g4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2g4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2g5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2g5.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2g6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2g6.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2g7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2g7.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2g8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2g8.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2h1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2h1.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2h2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2h2.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2h3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2h3.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2h4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2h4.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2h5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2h5.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2h6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2h6.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2h7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2h7.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2h8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2h8.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2i0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2i0.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2j0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2j0.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2k0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2k0.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2l0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2l0.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2m0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2m0.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2n0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2n0.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/catoptromancy/bos2o0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2o0.gif",
-          "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
+          "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/catoptromancy/bos2a6c4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a6c4.gif",
           "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
+          "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/catoptromancy/bos2a7c3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a7c3.gif",
           "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
+          "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/catoptromancy/bos2a8c2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2a8c2.gif",
           "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b1d1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b1d1.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b2d8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b2d8.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b3d7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b3d7.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b4d6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b4d6.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/catoptromancy/bos2b5d5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b5d5.gif",
+          "spriteAuthor": "catoptromancy",
+          "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/catoptromancy/bos2b6d4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b6d4.gif",
           "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
+          "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/catoptromancy/bos2b7d3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b7d3.gif",
           "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
+          "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/catoptromancy/bos2b8d2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2b8d2.gif",
           "spriteAuthor": "catoptromancy",
-          "spriteState": "updated",
+          "spriteState": "new",
           "source": "freedoom"
         },
         {
@@ -6965,752 +6692,277 @@
           "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
-        }
-      ]
-    },
-    {
-      "commitDate": "2006-08-29T14:42:38Z",
-      "commitMessage": "add missing bos2 frames map last 3 skul death frames to rocket explosion adjust bos2 death frame offsets",
-      "commitSource": "freedoom",
-      "commitUrl": "https://github.com/freedoom/freedoom/commit/7224bfe275b59135095d03d143ecb0b3285eb43a",
-      "commitSha": "7224bfe275b59135095d03d143ecb0b3285eb43a",
-      "author": "Jon Dowland",
-      "sprites": [
-        {
-          "name": "sprites/bos2a1c1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossa1.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
         },
         {
-          "name": "sprites/bos2a2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossa2a8.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2a3c7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossa3a7.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2a4c6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossa4a6.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2a5c5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossa5.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2b1d1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossb1.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2b2d8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossb2b8.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2b3d7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossb3b7.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2b4d6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossb4b6.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2b5d5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossb5.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2e1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bosse1.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2e2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bosse2.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2e3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bosse3.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2e4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bosse4.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2e5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bosse5.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2e6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bosse6.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2e7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bosse7.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2e8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bosse8.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2f1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossf1.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2f2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossf2.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2f3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossf3.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2f4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossf4.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2f5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossf5.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2f6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossf6.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2f7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossf7.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2f8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossf8.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2g1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossg1.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2g2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossg2.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2g3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossg3.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2g4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossg4.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2g5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossg5.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2g6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossg6.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2g7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossg7.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2g8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossg8.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2h1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossh1.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2h2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossh2.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2h3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossh3.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2h4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossh4.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2h5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossh5.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2h6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossh6.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2h7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossh7.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2h8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossh8.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2i0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossi0.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2j0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossj0.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2k0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossk0.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2l0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossl0.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2m0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossm0.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2n0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossn0.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2o0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bosso0.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "unchanged",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2a6c4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossc4c6.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2e1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2e1.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2a7c3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossc3c7.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2e2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2e2.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2a8c2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossc2c8.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2e3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2e3.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2b6d4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossd4d6.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2e4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2e4.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2b7d3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossd3d7.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2e5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2e5.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2b8d2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/7224bfe275b59135095d03d143ecb0b3285eb43a/sprites/lokito/bossd2d8.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "new",
-          "source": "freedoom"
-        }
-      ]
-    },
-    {
-      "commitDate": "2006-08-29T14:21:17Z",
-      "commitMessage": "map hellknight to the baron placeholder",
-      "commitSource": "freedoom",
-      "commitUrl": "https://github.com/freedoom/freedoom/commit/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94",
-      "commitSha": "a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94",
-      "author": "Jon Dowland",
-      "sprites": [
-        {
-          "name": "sprites/bos2a1c1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossa1.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2e6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2e6.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2a2c8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossa2a8.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2e7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2e7.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2a3c7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossa3a7.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2e8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2e8.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2a4c6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossa4a6.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2f1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2f1.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2a5c5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossa5.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2f2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2f2.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2b1d1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossb1.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2f3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2f3.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2b2d8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossb2b8.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2f4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2f4.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2b3d7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossb3b7.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2f5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2f5.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2b4d6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossb4b6.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2f6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2f6.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2b5d5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossb5.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2f7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2f7.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2e1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bosse1.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2f8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2f8.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2e2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bosse2.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2g1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2g1.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2e3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bosse3.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2g2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2g2.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2e4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bosse4.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2g3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2g3.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2e5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bosse5.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2g4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2g4.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2e6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bosse6.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2g5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2g5.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2e7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bosse7.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2g6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2g6.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2e8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bosse8.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2g7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2g7.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2f1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossf1.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2g8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2g8.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2f2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossf2.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2h1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2h1.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2f3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossf3.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2h2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2h2.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2f4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossf4.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2h3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2h3.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2f5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossf5.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2h4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2h4.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2f6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossf6.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2h5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2h5.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2f7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossf7.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2h6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2h6.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2f8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossf8.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2h7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2h7.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2g1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossg1.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2h8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2h8.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2g2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossg2.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2i0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2i0.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2g3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossg3.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2j0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2j0.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2g4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossg4.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2k0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2k0.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2g5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossg5.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2l0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2l0.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2g6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossg6.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2m0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2m0.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2g7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossg7.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2n0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2n0.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         },
         {
-          "name": "sprites/bos2g8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossg8.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2h1.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossh1.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2h2.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossh2.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2h3.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossh3.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2h4.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossh4.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2h5.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossh5.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2h6.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossh6.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2h7.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossh7.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2h8.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossh8.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2i0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossi0.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2j0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossj0.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2k0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossk0.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2l0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossl0.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2m0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossm0.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2n0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bossn0.gif",
-          "spriteAuthor": "Jon Dowland",
-          "spriteState": "new",
-          "source": "freedoom"
-        },
-        {
-          "name": "sprites/bos2o0.gif",
-          "url": "https://github.com/freedoom/freedoom/blob/a22b2ad5ebd773f48d680f0e3fec29fb9b3e4b94/sprites/lokito/bosso0.gif",
-          "spriteAuthor": "Jon Dowland",
+          "name": "sprites/catoptromancy/bos2o0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/aff4f6102534a1550334793733dd5ff468f09c8e/sprites/catoptromancy/bos2o0.gif",
+          "spriteAuthor": "catoptromancy",
           "spriteState": "new",
           "source": "freedoom"
         }

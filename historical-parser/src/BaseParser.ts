@@ -164,7 +164,7 @@ export class FreedomParser extends BaseParser {
   protected createSnapshotBuilder(): SnapshotBuilder {
     return new SnapshotBuilder(this.reader, this.pattern, this.resolver, {
       githubBaseUrl: "https://github.com/freedoom/freedoom",
-      followSymlinks: true,
+      followSymlinks: false,
     });
   }
 

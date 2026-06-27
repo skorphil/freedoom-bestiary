@@ -31,7 +31,7 @@ test("parseSpriteName - dual-angle lower-first", () => {
 	expect(result[0].mirror).toEqual(false);
 	expect(result[1].frame).toEqual("A");
 	expect(result[1].angle).toEqual(8);
-	expect(result[1].mirror).toEqual(false);
+	expect(result[1].mirror).toEqual(true);
 });
 
 test("parseSpriteName - dual-angle reversed order", () => {
@@ -42,7 +42,7 @@ test("parseSpriteName - dual-angle reversed order", () => {
 	expect(result[0].mirror).toEqual(false);
 	expect(result[1].frame).toEqual("A");
 	expect(result[1].angle).toEqual(4);
-	expect(result[1].mirror).toEqual(false);
+	expect(result[1].mirror).toEqual(true);
 });
 
 test("parseSpriteName - cross-frame dual", () => {
@@ -53,7 +53,7 @@ test("parseSpriteName - cross-frame dual", () => {
 	expect(result[0].mirror).toEqual(false);
 	expect(result[1].frame).toEqual("D");
 	expect(result[1].angle).toEqual(8);
-	expect(result[1].mirror).toEqual(false);
+	expect(result[1].mirror).toEqual(true);
 });
 
 test("parseSpriteName - angle 0 rotation-invariant", () => {

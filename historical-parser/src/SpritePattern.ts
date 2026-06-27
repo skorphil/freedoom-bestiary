@@ -18,8 +18,10 @@ export class SpritePattern {
    */
   constructor(code: string) {
     this.code = code.toUpperCase();
-    // Matches /<CODE>[a-z]\d.*\.(png|gif)$/i
-    this.regex = new RegExp(`${this.code}[a-z]\\d.*\\.(png|gif)$`, "i");
+    // Matches standard Doom sprite filenames: <CODE><FRAME><ANGLE>[<FRAME><ANGLE>].(png|gif)
+    // Examples: POSSA1.png, POSSA2A8.gif
+    // Strictly excludes suffixes like .mirror.gif
+    this.regex = new RegExp(`^${this.code}[a-z][0-9]([a-z][0-9])?\\.(png|gif)$`, "i");
   }
 
   /**

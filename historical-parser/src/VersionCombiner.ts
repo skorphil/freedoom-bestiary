@@ -268,9 +268,19 @@ export class VersionCombiner {
     frameState: Map<string, SpriteEntry>,
   ): CharacterVersionSnapshot {
     // Convert map values to array and filter by source to avoid mixing freedoom and attic sprites
-    const sprites = Array.from(frameState.values()).filter(
+    const allSprites = Array.from(frameState.values()).filter(
       (s) => s.source === snapshot.commitSource,
     );
+
+    // Deduplicate sprites by URL (e.g., mirrored sprites like bossa4a6.png appear twice in frameState)
+    const uniqueSprites = new Map<string, SpriteEntry>();
+    for (const sprite of allSprites) {
+      if (!uniqueSprites.has(sprite.url)) {
+        uniqueSprites.set(sprite.url, sprite);
+      }
+    }
+
+    const sprites = Array.from(uniqueSprites.values());
 
     return {
       commitDate: snapshot.commitDate,
