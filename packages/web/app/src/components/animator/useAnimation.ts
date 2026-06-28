@@ -93,15 +93,16 @@ export function useAnimation({
     const ctx = canvas?.getContext("2d");
     if (!canvas || !ctx) return;
 
-    // Set canvas dimensions to the stage size if they don't match
-    if (
-      canvas.width !== task.stageSize.width ||
-      canvas.height !== task.stageSize.height
-    ) {
-      canvas.width = task.stageSize.width;
-      canvas.height = task.stageSize.height;
+    const scaledWidth = task.stageSize.width;
+    const scaledHeight = task.stageSize.height * 1.2;
+
+    // Set canvas dimensions to the scaled stage size if they don't match
+    if (canvas.width !== scaledWidth || canvas.height !== scaledHeight) {
+      canvas.width = scaledWidth;
+      canvas.height = scaledHeight;
     }
 
+    ctx.imageSmoothingEnabled = false;
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     if (task.image.complete) {
       ctx.drawImage(
@@ -111,7 +112,7 @@ export function useAnimation({
         task.source.width,
         task.source.height,
         task.offset.dx,
-        task.offset.dy,
+        task.offset.dy * 1.2,
         task.source.width,
         task.source.height * 1.2,
       );
