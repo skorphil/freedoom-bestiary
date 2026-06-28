@@ -1,5 +1,23 @@
 Contributions to the project are highly welcome. Please submit PR or start discussion in `issues`.
 
+## Tech
+- **Bun** — Fast JavaScript runtime and package manager
+- **React Router v8** — Framework with SSG (Static Site Generation)
+- **Sharp** — High-performance image processing (replaces ImageMagick)
+
+
+## Quick Start
+1. [Install Bun](https://bun.sh/docs/installation)
+2. Install dependencies: `bun install --frozen-lockfile`
+
+```bash
+# Start dev server for website
+bun run dev:web
+
+# Run tests across all packages
+bun test
+```
+
 
 ## Architecture Overview
 `freedoom-bestiary` is a bun monorepo, containing multiple packages, for different tasks of this project.

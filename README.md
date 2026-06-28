@@ -8,37 +8,5 @@ This project's goal is to create a web page, featuring all the enemies of [FreeD
 3. ⏳ Integrate with FreeDoom official page (?)
 
 
-## Tech
-- **Bun** — Fast JavaScript runtime and package manager
-- **React Router v7** — Framework with SSG (Static Site Generation)
-- **Sharp** — High-performance image processing (replaces ImageMagick)
-
-## Getting Started
-
-### Prerequisites
-1. [Install Bun](https://bun.sh/docs/installation)
-2. Install dependencies: `bun install`
-
-### Running
-
-```bash
-# Install dependencies for all packages
-bun install
-
-# Build the web site
-bun run --cwd web build
-
-# Run tests across all packages
-bun test
-```
-
 ## Contribute
-
-### `/web`
-Static web page, featuring sprite animations rendered at runtime via spritesheets. Bun + React Router v7 + React
-
-### `/historical-parser`
-Scripts to get all sprites from `/attic` and `/freedoom` git history and generate version timelines.
-
-### `/spritesheet-generator`
-Generates optimized spritesheets from parsed sprite data using Sharp for image processing.
+Refer to [CONTRIBUTing.md](./CONTRIBUTING.md)
