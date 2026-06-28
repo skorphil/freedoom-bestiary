@@ -38,3 +38,14 @@ footer {
   margin: 48px 0;
   font-size: 24px;
 }
+
+a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+
+a:hover {
+  text-decoration: solid;
+}
+

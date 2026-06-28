@@ -2,6 +2,7 @@ import styles from "./CharacterItem.module.css";
 import { SpriteCode, SpritesheetVersion } from "../models/schema.ts";
 import { Animator } from "./animator/Animator.tsx";
 import spriteMeta from "@sprites_meta/sprites_meta.json";
+import { Link } from "react-router";
 
 type CharacterItemProps = {
   spritesheet: SpritesheetVersion;
@@ -27,7 +28,11 @@ export function CharacterItem({
      
 
       <div className={styles.characterDetails}>
-        <h2 className={styles.characterName}>{meta?.freedoomName || spriteCode}</h2>
+        <h2 className={styles.characterName}>
+          <Link to={`/character/${spriteCode}`} className={styles.characterLink}>
+            {meta?.freedoomName || spriteCode}
+          </Link>
+        </h2>
         
         <div className={styles.metaGroup}>
           <div className={styles.metaLabel}>Latest commit</div>
