@@ -46,19 +46,6 @@ export const SpriteSchema = z.object({
 
 export type Sprite = z.infer<typeof SpriteSchema>;
 
-export const AnimationAngleSchema = z.object({
-  angle: z.number(),
-  webp: z.string(),
-});
-
-export type AnimationAngle = z.infer<typeof AnimationAngleSchema>;
-
-export const AnimationEntrySchema = z.object({
-  angles: z.array(AnimationAngleSchema),
-});
-
-export type AnimationEntry = z.infer<typeof AnimationEntrySchema>;
-
 export const SpritesheetVersionSchema = z.object({
   date: z.string(),
   sha: z.string(),
@@ -68,7 +55,6 @@ export const SpritesheetVersionSchema = z.object({
   spritesheetPath: z.string(),
   source: z.string(),
   sprites: z.array(SpriteSchema),
-  animations: z.record(z.string(), AnimationEntrySchema).optional(),
 });
 
 export type SpritesheetVersion = z.infer<typeof SpritesheetVersionSchema>;

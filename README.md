@@ -35,10 +35,10 @@ bun test
 ## Contribute
 
 ### `/web`
-Static web page, featuring `.webp` sprite animations. Bun + React Router v7 + React
+Static web page, featuring sprite animations rendered at runtime via spritesheets. Bun + React Router v7 + React
 
 ### `/historical-parser`
-Scripts to get all sprites from `/attic` and `/freedoom` git, and then generate `.webp` animations and `animations.json` metadata.
+Scripts to get all sprites from `/attic` and `/freedoom` git history and generate version timelines.
 
 ### `/spritesheet-generator`
 Generates optimized spritesheets from parsed sprite data using Sharp for image processing.

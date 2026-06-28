@@ -11,12 +11,7 @@ const mockData = {
       commitUrl: "https://github.com/freedoom/freedoom/commit/sha2",
       spritesheetPath: "path2.webp",
       source: "freedoom",
-      sprites: [],
-      animations: {
-        idling: {
-          angles: [{ angle: 0, webp: "out/animations/cybr.idle.0.sha2.webp" }],
-        },
-      },
+      sprites: [{ author: "Author 2" } as any],
     },
     {
       date: "2023-01-01",
@@ -79,6 +74,6 @@ test("SpriteCollection - getLatestLiveEntry", () => {
 test("SpriteCollection - getUniqueAuthors", () => {
   const collection = new SpriteCollection(mockData as any);
   const history = collection.getHistory("CYBR");
-  const authors = collection.getUniqueAuthors(history);
-  expect(authors).toEqual(["Author 1", "Author 2"]);
+  const authors = collection.getUniqueAuthors(history[0]);
+  expect(authors).toEqual(["Author 2"]);
 });

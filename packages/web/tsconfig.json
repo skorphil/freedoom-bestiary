@@ -17,8 +17,8 @@
     "types": ["bun-types", "vite/client"],
     "paths": {
       "~/*": ["./app/*"],
-      "@sprite-collection/*": ["../sprite-collection/*"],
-      "@sprites_meta/*": ["../sprites_meta/*"]
+      "@sprite-collection/*": ["../../sprite-collection/*"],
+      "@sprites_meta/*": ["../../sprites_meta/*"]
     },
     "rootDirs": [".", "./.react-router/types"]
   },

@@ -4,14 +4,11 @@
   "private": true,
   "type": "module",
   "workspaces": [
-    "historical-parser",
-    "spritesheet-generator",
-    "web"
+    "packages/*"
   ],
   "scripts": {
     "test": "bun test",
-    "dev": "bun run --hot main.ts",
-    "gen-spritesheets": "bun run spritesheet-generator/src/index.ts"
+    "dev:web": "bun --filter @freedoom-bestiary/web dev"
   },
   "devDependencies": {
     "typescript": "^6.0.3",

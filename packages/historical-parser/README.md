@@ -187,5 +187,4 @@ attic.git ─────┘                                                    
 
 - The parsers work offline — all data comes from local bare git clones.
 - `GITHUB_TOKEN` in `.env` is vestigial from an earlier HTTP-API version; not required.
-- `build-animations.ts` reads `src/sprite-versions/<CODE>.json` to render animated WebPs.
 - Migrated from Deno to Bun — all Deno APIs replaced with Bun/Node equivalents.

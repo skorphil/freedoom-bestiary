@@ -88,7 +88,7 @@ export function resolveConfig(): RuntimeConfig {
   return {
     ...defaultConfig(),
     repoRoot,
-    versionsDir: join(repoRoot, "historical-parser", "src", "sprite-versions"),
+    versionsDir: join(repoRoot, "packages", "historical-parser", "src", "sprite-versions"),
     outputDir: join(repoRoot, "sprite-collection"),
     bareRepos: bareRepoMap(repoRoot),
   };
