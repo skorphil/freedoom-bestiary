@@ -3,261 +3,335 @@
   "spriteVersions": [
     {
       "commitDate": "2023-07-17T02:14:24-04:00",
-      "commitMessage": "png: Map color 255 to color 133 (#1003)",
+      "commitMessage": "png: Map color 255 to color 133 (#1003)\nSince color index 255 is a special transparent color in some game\r\nengines color 255 has been mapped to similar color 133 using make\r\ntarget 'fix-legacy-transparency-pngs'. The images have also been\r\nnormalized with make target 'fix-deutex-pngs'.",
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/57246cae8f7901d4bc63072f9632685d1e3b507d",
       "commitSha": "57246cae8f7901d4bc63072f9632685d1e3b507d",
-      "author": "Steven Elliott",
+      "authors": [
+        "Steven Elliott"
+      ],
       "sprites": [
         {
           "name": "sprites/heada1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada1.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/heada2a8.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada2a8.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/heada3a7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada3a7.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/heada4a6.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada4a6.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/heada5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada5.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headb1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb1.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headb2b8.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb2b8.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headb3b7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb3b7.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headb4b6.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb4b6.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headb5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb5.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headc1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc1.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headc2c8.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc2c8.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headc3c7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc3c7.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headc4c6.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc4c6.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headc5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc5.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headd1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd1.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headd2d8.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd2d8.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headd3d7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd3d7.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headd4d6.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd4d6.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headd5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd5.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/heade1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade1.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/heade2e8.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade2e8.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/heade3e7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade3e7.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/heade4e6.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade4e6.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/heade5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade5.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headf1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf1.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headf2f8.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf2f8.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headf3f7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf3f7.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headf4f6.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf4f6.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headf5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf5.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headg0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headg0.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headh0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headh0.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headi0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headi0.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headj0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headj0.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         },
         {
           "name": "sprites/headk0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headk0.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headl0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headl0.png",
-          "spriteAuthor": "Steven Elliott",
+          "spriteAuthors": [
+            "Steven Elliott"
+          ],
           "spriteState": "unchanged",
           "source": "freedoom"
         }
@@ -265,261 +339,335 @@
     },
     {
       "commitDate": "2017-07-18T22:18:14-07:00",
-      "commitMessage": "Burn all GIFs: Convert everything to PNGs.",
+      "commitMessage": "Burn all GIFs: Convert everything to PNGs.\nDeuTex 5 now supports these, and we can use real transparency indexes\nin the files too, so no more ugly cyan background!",
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
       "commitSha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
-      "author": "Mike Swanson",
+      "authors": [
+        "Mike Swanson"
+      ],
       "sprites": [
         {
           "name": "sprites/heada1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada1.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heada2a8.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada2a8.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heada3a7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada3a7.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heada4a6.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada4a6.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heada5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada5.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headb1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb1.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headb2b8.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb2b8.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headb3b7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb3b7.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headb4b6.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb4b6.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headb5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb5.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headc1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc1.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headc2c8.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc2c8.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headc3c7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc3c7.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headc4c6.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc4c6.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headc5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc5.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headd1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd1.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headd2d8.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd2d8.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headd3d7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd3d7.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headd4d6.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd4d6.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headd5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd5.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heade1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade1.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heade2e8.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade2e8.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heade3e7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade3e7.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heade4e6.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade4e6.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heade5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade5.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headf1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf1.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headf2f8.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf2f8.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headf3f7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf3f7.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headf4f6.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf4f6.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headf5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf5.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headg0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headg0.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headh0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headh0.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headi0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headi0.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headj0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headj0.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headk0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headk0.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headl0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headl0.png",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         }
@@ -531,257 +679,331 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/11ad2d3960694589fc72d0d729caaa98b0372a32",
       "commitSha": "11ad2d3960694589fc72d0d729caaa98b0372a32",
-      "author": "Mike Swanson",
+      "authors": [
+        "Mike Swanson"
+      ],
       "sprites": [
         {
           "name": "sprites/heada1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heada2a8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada2a8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heada3a7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada3a7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heada4a6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada4a6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heada5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headb1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headb2b8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb2b8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headb3b7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb3b7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headb4b6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb4b6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headb5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headc1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headc2c8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc2c8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headc3c7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc3c7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headc4c6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc4c6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headc5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headd1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headd2d8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd2d8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headd3d7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd3d7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headd4d6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd4d6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headd5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heade1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heade2e8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade2e8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heade3e7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade3e7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heade4e6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade4e6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/heade5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headf1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headf2f8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf2f8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headf3f7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf3f7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headf4f6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf4f6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headf5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headg0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headg0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headh0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headh0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headi0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headi0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headj0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headj0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headk0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headk0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/headl0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headl0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         }
@@ -793,257 +1015,367 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/5b716f83766ea2c6c06ebb346f831906cc1e21d0",
       "commitSha": "5b716f83766ea2c6c06ebb346f831906cc1e21d0",
-      "author": "Adrian Cabrera",
+      "authors": [
+        "Adrian Cabrera"
+      ],
       "sprites": [
         {
           "name": "sprites/raymoohawk/heada1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada1.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/heada2a8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada2a8.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/heada3a7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada3a7.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/heada4a6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada4a6.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/heada5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada5.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headb1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb1.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headb2b8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb2b8.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headb3b7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb3b7.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headb4b6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb4b6.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headb5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb5.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headc1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc1.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headc2c8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc2c8.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headc3c7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc3c7.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headc4c6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc4c6.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headc5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc5.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headd1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd1.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headd2d8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd2d8.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headd3d7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd3d7.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headd4d6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd4d6.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headd5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd5.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/heade1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade1.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/heade2e8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade2e8.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/heade3e7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade3e7.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/heade4e6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade4e6.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/heade5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade5.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headf1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf1.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headf2f8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf2f8.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headf3f7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf3f7.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headf4f6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf4f6.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headf5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf5.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headg0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headg0.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headh0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headh0.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headi0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headi0.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headj0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headj0.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headk0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headk0.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         },
         {
           "name": "sprites/raymoohawk/headl0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headl0.gif",
-          "spriteAuthor": "raymoohawk",
+          "spriteAuthors": [
+            "Adrian Cabrera",
+            "raymoohawk"
+          ],
           "spriteState": "updated",
           "source": "freedoom"
         }
@@ -1055,257 +1387,331 @@
       "commitSource": "attic",
       "commitUrl": "https://github.com/freedoom/attic/commit/2950754c4fabc7c5e217204839c84a95a7436189",
       "commitSha": "2950754c4fabc7c5e217204839c84a95a7436189",
-      "author": "Mike Swanson",
+      "authors": [
+        "Mike Swanson"
+      ],
       "sprites": [
         {
           "name": "nightfang/orbmonster/heada1.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/heada2a8.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada2a8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/heada3a7.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada3a7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/heada4a6.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada4a6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/heada5.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headb1.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headb2b8.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb2b8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headb3b7.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb3b7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headb4b6.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb4b6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headb5.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headc1.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headc2c8.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc2c8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headc3c7.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc3c7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headc4c6.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc4c6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headc5.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headd1.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headd2d8.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd2d8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headd3d7.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd3d7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headd4d6.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd4d6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headd5.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/heade1.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/heade2e8.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade2e8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/heade3e7.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade3e7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/heade4e6.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade4e6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/heade5.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headf1.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf1.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headf2f8.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf2f8.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headf3f7.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf3f7.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headf4f6.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf4f6.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headf5.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf5.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headg0.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headg0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headh0.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headh0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headi0.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headi0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headj0.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headj0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headk0.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headk0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         },
         {
           "name": "nightfang/orbmonster/headl0.gif",
           "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headl0.gif",
-          "spriteAuthor": "Mike Swanson",
+          "spriteAuthors": [
+            "Mike Swanson"
+          ],
           "spriteState": "updated",
           "source": "attic"
         }
@@ -1317,257 +1723,367 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/27aca39126c0f021e543516119c9d3b2500575ac",
       "commitSha": "27aca39126c0f021e543516119c9d3b2500575ac",
-      "author": "Simon Howard",
+      "authors": [
+        "Simon Howard"
+      ],
       "sprites": [
         {
           "name": "sprites/pov/heada1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heada1.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/heada2a8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heada2a8.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/heada3a7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heada3a7.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/heada4a6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heada4a6.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/heada5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heada5.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headb1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headb1.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headb2b8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headb2b8.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headb3b7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headb3b7.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headb4b6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headb4b6.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headb5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headb5.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headc1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headc1.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headc2c8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headc2c8.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headc3c7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headc3c7.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headc4c6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headc4c6.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headc5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headc5.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headd1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headd1.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headd2d8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headd2d8.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headd3d7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headd3d7.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headd4d6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headd4d6.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headd5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headd5.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/heade1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heade1.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/heade2e8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heade2e8.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/heade3e7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heade3e7.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/heade4e6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heade4e6.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/heade5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heade5.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headf1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headf1.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headf2f8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headf2f8.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headf3f7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headf3f7.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headf4f6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headf4f6.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headf5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headf5.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headg0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headg0.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headh0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headh0.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headi0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headi0.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headj0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headj0.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headk0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headk0.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         },
         {
           "name": "sprites/pov/headl0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headl0.gif",
-          "spriteAuthor": "pov",
+          "spriteAuthors": [
+            "Simon Howard",
+            "pov"
+          ],
           "spriteState": "new",
           "source": "freedoom"
         }

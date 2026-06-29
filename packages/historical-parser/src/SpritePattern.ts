@@ -1,3 +1,5 @@
+import type { CreditsFileProvider } from "./CreditsFileProvider.ts";
+
 /**
  * Encapsulates sprite filename regex and frame-key parsing for one sprite code.
  *
@@ -96,13 +98,85 @@ export type SpritePatternLike = {
  * Resolves author from file path. Handles four path shapes.
  */
 export class AuthorResolver {
+  private creditsProvider: CreditsFileProvider | null = null;
+
+  setCreditsProvider(provider: CreditsFileProvider) {
+    this.creditsProvider = provider;
+  }
+
   /**
-   * Resolves the author for a given file path.
+   * Resolves authors for a given file path and commit context.
    * @param filePath - The file path
-   * @param commitAuthor - The commit author (fallback for Shape 1)
-   * @returns The resolved author name
+   * @param commitAuthor - The git commit author
+   * @param commitMessage - The commit message to scan for names
+   * @param code - Optional sprite code for CREDITS matching
+   * @returns Array of resolved author names
    */
-  resolveAuthor(filePath: string, commitAuthor: string): string {
+  resolveAuthors(filePath: string, commitAuthor: string, commitMessage?: string, code?: string): string[] {
+    const authors = new Set<string>();
+    
+    // 1. Git commit author is always a candidate
+    authors.add(commitAuthor);
+
+    // 2. Resolve from file path (Shape 4: <author>/sprites/<file>, etc.)
+    const pathAuthor = this.resolveAuthorFromPath(filePath);
+    if (pathAuthor && pathAuthor !== commitAuthor) {
+      authors.add(pathAuthor);
+    }
+
+    // 3. Scan commit message for "by [Name]", "@[Handle]", etc.
+    if (commitMessage) {
+      const messageAuthors = this.extractAuthorsFromMessage(commitMessage);
+      for (const name of messageAuthors) {
+        authors.add(name);
+      }
+    }
+
+    // 4. Resolve from CREDITS file
+    if (code && this.creditsProvider) {
+      const creditsAuthors = this.creditsProvider.getAuthorsForCode(code);
+      for (const name of creditsAuthors) {
+        authors.add(name);
+      }
+    }
+
+    return Array.from(authors).filter(name => name && name.trim().length > 0);
+  }
+
+  /**
+   * Extracts authors from a string (usually commit message).
+   * Supports: "by Name", "by Name and Name", "@Handle", "courtesy of Name"
+   */
+  private extractAuthorsFromMessage(message: string): string[] {
+    const names = new Set<string>();
+    
+    // Pattern 1: "by Name" or "by Name and Name"
+    const byMatches = message.matchAll(/\bby\s+([A-Za-z0-9_@]+(?:\s+(?:and|&)\s+[A-Za-z0-9_@]+)*)/gi);
+    for (const match of byMatches) {
+      const parts = match[1].split(/\s+(?:and|&)\s+|,/gi);
+      for (const p of parts) names.add(p.trim());
+    }
+
+    // Pattern 2: "@Handle"
+    const handleMatches = message.matchAll(/@([A-Za-z0-9_-]+)/g);
+    for (const match of handleMatches) {
+      names.add(match[1]);
+    }
+
+    // Pattern 3: "courtesy of Name"
+    const courtesyMatches = message.matchAll(/courtesy of\s+([A-Za-z0-9_@ ]+)(?:\.|\n|$)/gi);
+    for (const match of courtesyMatches) {
+      const val = match[1].trim();
+      if (val) names.add(val);
+    }
+
+    return Array.from(names);
+  }
+
+  /**
+   * Internal helper to resolve author from file path only.
+   */
+  private resolveAuthorFromPath(filePath: string): string | null {
     const segments = filePath.split("/").filter((segment) =>
       segment.length > 0
     );
@@ -110,34 +184,28 @@ export class AuthorResolver {
 
     // Shape 4: <author>/sprites/<file>
     if (spritesIndex > 0) {
-      // The author is the segment before "sprites"
       return segments[spritesIndex - 1];
     }
 
-    // Handle cases where "sprites" is at the beginning or not found
     if (spritesIndex === 0) {
-      // Shapes 1, 2, 3: sprites/...
-      const remainingSegments = segments.slice(1); // Remove "sprites" segment
-
-      if (remainingSegments.length === 1) {
-        // Shape 1: sprites/<file>
-        return commitAuthor;
-      } else if (remainingSegments.length >= 2) {
+      const remainingSegments = segments.slice(1);
+      if (remainingSegments.length >= 2) {
         const potentialAuthor = remainingSegments[0];
-
-        // Check if the potential author segment is a directory
         if (this.isDirectory(potentialAuthor)) {
-          // Shape 2: sprites/<author>/<file> or Shape 3: sprites/<author>/<sub>/<f>
           return potentialAuthor;
-        } else {
-          // Shape 1: sprites/<file> (but file looks like a directory name)
-          return commitAuthor;
         }
       }
     }
 
-    // Default case when "sprites" is not found in path
-    return commitAuthor;
+    return null;
+  }
+
+  /**
+   * Resolves the author for a given file path.
+   * @deprecated Use resolveAuthors instead
+   */
+  resolveAuthor(filePath: string, commitAuthor: string): string {
+    return this.resolveAuthors(filePath, commitAuthor)[0] || commitAuthor;
   }
 
   /**

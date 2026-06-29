@@ -6,8 +6,8 @@ export interface VersionFile {
   name: string;
   /** The URL where the file can be accessed */
   url: string;
-  /** The author of the sprite (if available) */
-  spriteAuthor?: string;
+  /** The authors of the sprite (if available) */
+  spriteAuthors?: string[];
   /** The state of the sprite (e.g. "unchanged", "new", "updated") */
   spriteState?: string;
 }
@@ -22,8 +22,8 @@ export interface Version {
   sha: string;
   /** The URL of the commit */
   url: string;
-  /** The author of the commit */
-  author: string;
+  /** The authors of the commit */
+  authors: string[];
   /** The commit message */
   message: string;
   /** The source repository */
@@ -94,8 +94,8 @@ export interface SpriteEntry {
   width: number;
   /** The height of the sprite in pixels */
   height: number;
-  /** The author of the sprite */
-  author?: string;
+  /** The authors of the sprite */
+  authors?: string[];
   /** The state of the sprite */
   state?: string;
   /** The remote Git URL of the sprite */
@@ -110,8 +110,8 @@ export interface VersionEntry {
   date: string;
   /** The SHA hash of the commit */
   sha: string;
-  /** The author of the commit */
-  author: string;
+  /** The authors of the commit */
+  authors: string[];
   /** The commit message */
   commitMessage: string;
   /** The URL of the commit */

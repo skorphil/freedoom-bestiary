@@ -105,7 +105,7 @@ export function buildSpritesheetMetadata(
         y: pos.y,
         width: padded.w,
         height: padded.h,
-        author: cell?.file.spriteAuthor,
+        authors: cell?.file.spriteAuthors,
         state: cell?.file.spriteState,
         url: cell?.file.url,
       });
@@ -114,7 +114,7 @@ export function buildSpritesheetMetadata(
   return {
     date: version.date,
     sha: version.sha,
-    author: version.author,
+    authors: version.authors,
     commitMessage: version.message,
     commitUrl: version.url,
     spritesheetPath,

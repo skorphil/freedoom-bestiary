@@ -39,7 +39,7 @@ export const SpriteSchema = z.object({
   y: z.number(),
   width: z.number(),
   height: z.number(),
-  author: z.string(),
+  authors: z.array(z.string()),
   state: z.string(),
   url: z.string(),
 });
@@ -49,7 +49,7 @@ export type Sprite = z.infer<typeof SpriteSchema>;
 export const SpritesheetVersionSchema = z.object({
   date: z.string(),
   sha: z.string(),
-  author: z.string(),
+  authors: z.array(z.string()),
   commitMessage: z.string(),
   commitUrl: z.string(),
   spritesheetPath: z.string(),

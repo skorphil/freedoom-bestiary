@@ -57,8 +57,8 @@ export type SpriteFile = {
   url: string;
   /** File status: Added, Modified, Type-changed, Renamed, or Existing */
   status: FileStatus;
-  /** Resolved author: folder name for attic, commit author for freedoom */
-  authorName: string;
+  /** Resolved authors: folder name for attic, commit author for freedoom, plus message mentions */
+  authorNames: string[];
 };
 
 /** Valid file status codes */
@@ -162,7 +162,7 @@ export class SnapshotBuilder {
         filename: entry.path,
         url: this.buildBlobUrl(unit.sha, entry.path),
         status,
-        authorName: this.resolver.resolveAuthor(entry.path, unit.author),
+        authorNames: this.resolver.resolveAuthors(entry.path, unit.author, unit.message, this.pattern.code),
       };
 
       spriteFiles.push(spriteFile);

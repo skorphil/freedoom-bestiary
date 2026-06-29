@@ -88,8 +88,8 @@ export function resolveConfig(): RuntimeConfig {
   return {
     ...defaultConfig(),
     repoRoot,
-    versionsDir: join(repoRoot, "packages", "historical-parser", "src", "sprite-versions"),
-    outputDir: join(repoRoot, "sprite-collection"),
+    versionsDir: resolve(repoRoot, "packages", "historical-parser", "src", "sprite-versions"),
+    outputDir: resolve(repoRoot, "sprite-collection"),
     bareRepos: bareRepoMap(repoRoot),
   };
 }
@@ -148,14 +148,14 @@ export async function readInputTargets(
           date: sv.commitDate ?? sv.date ?? "",
           sha: sv.commitSha ?? sv.sha ?? "",
           url: sv.commitUrl ?? sv.url ?? "",
-          author: sv.author ?? sv.commitAuthor ?? sv.commitSource ?? "",
+          authors: sv.authors ?? [sv.author ?? sv.commitAuthor ?? sv.commitSource ?? ""],
           message: sv.commitMessage ?? sv.message ?? "",
           source: sv.commitSource,
           files: Array.isArray(sv.sprites)
             ? sv.sprites.map((s: any) => ({
               name: s.name,
               url: s.url,
-              spriteAuthor: s.spriteAuthor,
+              spriteAuthors: s.spriteAuthors ?? (s.spriteAuthor ? [s.spriteAuthor] : []),
               spriteState: s.spriteState,
             }))
             : sv.files ?? [],
@@ -191,14 +191,14 @@ export async function readInputTargets(
         date: sv.commitDate ?? sv.date ?? "",
         sha: sv.commitSha ?? sv.sha ?? "",
         url: sv.commitUrl ?? sv.url ?? "",
-        author: sv.author ?? sv.commitAuthor ?? sv.commitSource ?? "",
+        authors: sv.authors ?? [sv.author ?? sv.commitAuthor ?? sv.commitSource ?? ""],
         message: sv.commitMessage ?? sv.message ?? "",
         source: sv.commitSource,
         files: Array.isArray(sv.sprites)
           ? sv.sprites.map((s: any) => ({
             name: s.name,
             url: s.url,
-            spriteAuthor: s.spriteAuthor,
+            spriteAuthors: s.spriteAuthors ?? (s.spriteAuthor ? [s.spriteAuthor] : []),
             spriteState: s.spriteState,
           }))
           : sv.files ?? [],

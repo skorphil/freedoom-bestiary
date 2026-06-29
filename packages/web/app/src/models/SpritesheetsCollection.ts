@@ -49,7 +49,17 @@ export class SpriteCollection {
   getUniqueAuthors(spritesheetVersion: SpritesheetVersion): string[] {
     const authors = new Set<string>();
     for (const sprite of spritesheetVersion.sprites) {
-      authors.add(sprite.author);
+      if (sprite.authors) {
+        for (const author of sprite.authors) {
+          authors.add(author);
+        }
+      }
+    }
+    // Also include commit authors
+    if (spritesheetVersion.authors) {
+      for (const author of spritesheetVersion.authors) {
+        authors.add(author);
+      }
     }
     return [...authors].filter(Boolean).sort((a, b) => a.localeCompare(b));
   }

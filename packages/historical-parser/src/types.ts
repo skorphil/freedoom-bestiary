@@ -72,8 +72,8 @@ export type SpriteEntry = {
   name: string;
   /** URL to the sprite image */
   url: string;
-  /** Author who created/modified this sprite */
-  spriteAuthor: string;
+  /** Authors who created/modified this sprite */
+  spriteAuthors: string[];
   /** State of the sprite (new, updated, unchanged) */
   spriteState: SpriteState;
   /** Source repository (freedoom or attic) */
@@ -95,6 +95,8 @@ export type CharacterVersionSnapshot = {
   commitUrl: string;
   /** Commit SHA hash */
   commitSha: string;
+  /** Commit authors */
+  authors: string[];
   /** Array of sprite entries for this version */
   sprites: SpriteEntry[];
 };

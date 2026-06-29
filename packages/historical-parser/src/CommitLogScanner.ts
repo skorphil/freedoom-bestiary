@@ -102,18 +102,12 @@ export class CommitLogScanner {
    */
   async *scan(): AsyncGenerator<ScanUnit> {
     let current: RawCommitEntry | null = null;
+    let inMessage = false;
+    let messageBuffer: string[] = [];
 
     for await (const line of this.reader.streamLog()) {
-      // Skip empty lines
-      if (line.trim() === "") {
-        continue;
-      }
-
-      console.debug("CommitLogScanner.scan: got line:", line);
-
-      // Check if this is a commit header line (contains pipe separators)
-      if (line.includes("|")) {
-        // If we have a previous commit, finalize it
+      if (line.startsWith("COMMIT_START|")) {
+        // If we have a previous commit, finalize it before starting new one
         if (current) {
           const units = this.finalize(current);
           for (const unit of units) {
@@ -121,10 +115,54 @@ export class CommitLogScanner {
           }
         }
 
-        // Start a new commit
-        current = this.parseCommitLine(line);
-      } else if (current) {
-        // This is a file change line for the current commit
+        // Start a new commit and begin capturing message
+        const parts = line.split("|");
+        const [_, sha, date, author, ...rest] = parts;
+        
+        current = {
+          sha,
+          date,
+          author,
+          message: "", // Will be filled from buffer
+          changesMap: new Map<string, string>(),
+        };
+        
+        inMessage = true;
+        messageBuffer = [];
+        
+        // The first line of the message (after the pipes) might be on this same line
+        const initialMessagePart = rest.join("|");
+        if (initialMessagePart) {
+          if (initialMessagePart.includes("|COMMIT_END")) {
+            // Message is entirely on this line
+            current.message = initialMessagePart.replace("|COMMIT_END", "").trim();
+            inMessage = false;
+          } else {
+            messageBuffer.push(initialMessagePart);
+          }
+        }
+        continue;
+      }
+
+      if (inMessage) {
+        if (line.includes("|COMMIT_END")) {
+          // End of message reached
+          const lastPart = line.replace("|COMMIT_END", "");
+          if (lastPart.trim()) {
+            messageBuffer.push(lastPart);
+          }
+          if (current) {
+            current.message = messageBuffer.join("\n").trim();
+          }
+          inMessage = false;
+        } else {
+          messageBuffer.push(line);
+        }
+        continue;
+      }
+
+      // Check for file change lines (skip empty lines)
+      if (current && line.trim() !== "") {
         this.recordChange(line, current);
       }
     }
@@ -136,29 +174,6 @@ export class CommitLogScanner {
         yield unit;
       }
     }
-  }
-
-  /**
-   * Parses a commit header line.
-   *
-   * @param line - Line in format "sha|date|author|message"
-   * @returns Parsed commit entry
-   */
-  private parseCommitLine(line: string): RawCommitEntry {
-    const parts = line.split("|");
-    if (parts.length < 4) {
-      console.error("CommitLogScanner.parseCommitLine: invalid line:", line);
-      throw new Error(`Invalid commit line format: ${line}`);
-    }
-    // Join remaining parts so commit messages containing "|" are preserved
-    const [sha, date, author, ...rest] = parts;
-    return {
-      sha,
-      date,
-      author,
-      message: rest.join("|"),
-      changesMap: new Map<string, string>(),
-    };
   }
 
   /**

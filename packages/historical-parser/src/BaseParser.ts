@@ -1,11 +1,14 @@
 import type { TreeEntry } from "./GitReader.ts";
 import type { CommitLogScannerOptions } from "./CommitLogScanner.ts";
 import type { SnapshotBuilderOptions } from "./SnapshotBuilder.ts";
+import { CreditsFileProvider } from "./CreditsFileProvider.ts";
 import { GitReader } from "./GitReader.ts";
 import { AuthorResolver, SpritePattern } from "./types.ts";
 import { CommitLogScanner } from "./CommitLogScanner.ts";
 import { SnapshotBuilder } from "./SnapshotBuilder.ts";
 import type { CommitSnapshot, ScanUnit } from "./types.ts";
+import { readFileSync, existsSync } from "node:fs";
+import { join } from "node:path";
 
 /**
  * Abstract template-method base for sprite parsers.
@@ -17,22 +20,22 @@ import type { CommitSnapshot, ScanUnit } from "./types.ts";
  *
  * The template method `parse()` orchestrates the full parsing pipeline:
  * 1. Create scanner with appropriate options
- * 2. Scan all commits
- * 3. Build snapshot for each scan unit
- * 4. Return array of snapshots
- *
- * @example
- * class MyParser extends BaseParser {
- *   protected createScanner(): CommitLogScanner {
- *     return new CommitLogScanner(this.reader, this.pattern, {
- *       groupByFolder: false,
- *       activeStatuses: ["A", "M"],
- *       skippedStatuses: ["D"]
- *     });
- *   }
- *   // ... other abstract methods
- * }
- */
+2. Scan all commits
+3. Build snapshot for each scan unit
+4. Return array of snapshots
+
+@example
+class MyParser extends BaseParser {
+  protected createScanner(): CommitLogScanner {
+    return new CommitLogScanner(this.reader, this.pattern, {
+      groupByFolder: false,
+      activeStatuses: ["A", "M"],
+      skippedStatuses: ["D"]
+    });
+  }
+  // ... other abstract methods
+}
+*/
 export abstract class BaseParser {
   /** Git reader for repository operations */
   protected reader: GitReader;
@@ -51,6 +54,19 @@ export abstract class BaseParser {
     this.reader = new GitReader(gitRepoPath);
     this.pattern = new SpritePattern(spriteCode);
     this.resolver = new AuthorResolver();
+    this.initCredits(gitRepoPath);
+  }
+
+  private initCredits(gitRepoPath: string) {
+    // Credits file is usually in the sibling directory of the .git repo
+    // or we can try to find it relative to the workspace root.
+    // Bare clones don't have working trees, so we should look in the actual source repo if possible.
+    const workspaceRoot = process.cwd();
+    const creditsPath = join(workspaceRoot, "CREDITS");
+    if (existsSync(creditsPath)) {
+      const content = readFileSync(creditsPath, "utf-8");
+      this.resolver.setCreditsProvider(new CreditsFileProvider(content));
+    }
   }
 
   /**

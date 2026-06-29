@@ -38,11 +38,11 @@ export class GitReader {
    * @yields Each line of git log output
    */
   async *streamLog(): AsyncIterable<string> {
-    // Use a more standard format for git log
+    // Use a robust format with markers to capture full multi-line body
     const args = [
       "log",
       "--name-status",
-      "--pretty=format:%H|%ad|%an|%s",
+      "--pretty=format:COMMIT_START|%H|%ad|%an|%B|COMMIT_END",
       "--date=iso-strict",
     ];
 

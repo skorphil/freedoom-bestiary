@@ -137,7 +137,7 @@ export class VersionCombiner {
         const entry: SpriteEntry = {
           name: sprite.filename,
           url: newUrl,
-          spriteAuthor: sprite.authorName ?? snapshot.commitAuthor,
+          spriteAuthors: sprite.authorNames ?? [snapshot.commitAuthor],
           spriteState,
           source: snapshot.commitSource,
         };
@@ -288,7 +288,7 @@ export class VersionCombiner {
       commitSource: snapshot.commitSource,
       commitUrl: snapshot.commitUrl,
       commitSha: snapshot.commitSha,
-      author: snapshot.commitAuthor, // Use the actual commit author
+      authors: [snapshot.commitAuthor], // Use the actual commit author as a list
       sprites,
     };
   }
@@ -319,7 +319,7 @@ type CommitSnapshot = {
     /** File status */
     status: string;
     /** Resolved author: folder name for attic, commit author for freedoom */
-    authorName?: string;
+    authorNames?: string[];
   }>;
 };
 
@@ -330,7 +330,7 @@ type SpriteEntry = {
   /** URL to the sprite image */
   url: string;
   /** Author who created/modified this sprite */
-  spriteAuthor: string;
+  spriteAuthors: string[];
   /** State of the sprite (new, updated, unchanged) */
   spriteState: SpriteState;
   /** Source repository (freedoom or attic) */
@@ -353,8 +353,8 @@ type CharacterVersionSnapshot = {
   commitUrl: string;
   /** Commit SHA hash */
   commitSha: string;
-  /** Commit author */
-  author: string;
+  /** Commit authors */
+  authors: string[];
   /** Array of sprite entries for this version */
   sprites: SpriteEntry[];
 };
