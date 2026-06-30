@@ -45,7 +45,14 @@ export function CharacterItem({
 
         <div className={styles.metaGroup}>
           <div className={styles.metaLabel}>Contributors</div>
-          <div className={styles.metaValue}>{contributors.join(", ")}</div>
+          <div className={styles.metaValue}>
+            {contributors.map((name, i) => (
+              <span key={name}>
+                <Link to={`/authors/${name}`}>{name}</Link>
+                {i < contributors.length - 1 ? ", " : ""}
+              </span>
+            ))}
+          </div>
         </div>
       </div>
        {meta && <Animator code={spriteCode} version={spritesheet} meta={meta} />}

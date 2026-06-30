@@ -9,13 +9,15 @@ export type AnimatorProps = {
   version: SpritesheetVersion;
   meta: SpriteMeta;
   initialAnimation?: string;
+  authorName?: string;
 };
 
 export function Animator({ 
   code,
   version, 
   meta, 
-  initialAnimation = "idling" 
+  initialAnimation = "idling",
+  authorName
 }: AnimatorProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const {
@@ -44,9 +46,7 @@ export function Animator({
   };
 
   return (
-    <div className={styles.animator}>
-      
-
+    <div className={styles.animator} style={{ position: 'relative' }}>
       <div className={styles.animatorDisplay}>
         {!image && !error && <div className={styles.loadingOverlay}>Loading...</div>}
         {error && <div className={styles.errorOverlay}>{error}</div>}

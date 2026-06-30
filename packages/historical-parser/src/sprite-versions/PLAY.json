@@ -3320,7 +3320,7 @@
       "commitSha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
       "authors": [
         {
-          "name": "Mike Swanson",
+          "name": "Michael Swanson",
           "relation": "Committer (PNG conversion per commit 9c6c6812)"
         }
       ],
@@ -3330,7 +3330,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playa1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG per commit message)"
             }
           ],
@@ -3342,7 +3342,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playa2a8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -3354,7 +3354,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playa3a7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
             }
           ],
@@ -3366,7 +3366,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playa4a6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion)"
             }
           ],
@@ -3378,7 +3378,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playa5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (conversion to PNG as per commit 9c6c6812)"
             }
           ],
@@ -3390,7 +3390,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playb1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -3402,7 +3402,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playb2b8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion from GIF)"
             }
           ],
@@ -3414,7 +3414,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playb3b7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion of original GIF)"
             }
           ],
@@ -3426,7 +3426,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playb4b6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion per commit message)"
             }
           ],
@@ -3438,7 +3438,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playb5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion in commit 9c6c681)"
             }
           ],
@@ -3450,7 +3450,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playc1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted from GIF to PNG as part of bulk conversion)"
             }
           ],
@@ -3462,7 +3462,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playc2c8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -3474,7 +3474,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playc3c7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion, commit 9c6c681)"
             }
           ],
@@ -3486,7 +3486,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playc4c6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (conversion from GIF to PNG per commit 9c6c681)"
             }
           ],
@@ -3498,7 +3498,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playc5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -3510,7 +3510,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playd1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion per commit 9c6c681)"
             }
           ],
@@ -3522,7 +3522,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playd2d8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion in 9c6c6812)"
             }
           ],
@@ -3534,7 +3534,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playd3d7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -3546,7 +3546,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playd4d6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG per commit 9c6c681)"
             }
           ],
@@ -3558,7 +3558,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playd5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion)"
             }
           ],
@@ -3570,7 +3570,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playe1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -3582,7 +3582,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playe2e8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion as part of bulk GIF→PNG migration)"
             }
           ],
@@ -3594,7 +3594,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playe3e7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion in commit 9c6c6812)"
             }
           ],
@@ -3606,7 +3606,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playe4e6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion)"
             }
           ],
@@ -3618,7 +3618,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playe5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (conversion from GIF to PNG as part of bulk format migration)"
             }
           ],
@@ -3630,7 +3630,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playf1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
             }
           ],
@@ -3642,7 +3642,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playf2f8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG per commit 9c6c6812)"
             }
           ],
@@ -3654,7 +3654,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playf3f7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk format transition)"
             }
           ],
@@ -3666,7 +3666,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playf4f6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG in bulk; original author unknown, commit message implies mass conversion of existing assets)"
             }
           ],
@@ -3678,7 +3678,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playf5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (GIF → PNG conversion)"
             }
           ],
@@ -3690,7 +3690,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playg1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion of existing sprite)"
             }
           ],
@@ -3702,7 +3702,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playg2g8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
             }
           ],
@@ -3714,7 +3714,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playg3g7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -3726,7 +3726,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playg4g6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit author)"
             }
           ],
@@ -3738,7 +3738,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playg5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion from GIF, commit message confirms mass conversion)"
             }
           ],
@@ -3750,7 +3750,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playh0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
             }
           ],
@@ -3762,7 +3762,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playi0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
             }
           ],
@@ -3774,7 +3774,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playj0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion of existing sprite)"
             }
           ],
@@ -3786,7 +3786,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playk0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion as part of bulk GIF→PNG migration)"
             }
           ],
@@ -3798,7 +3798,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playl0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
             }
           ],
@@ -3810,7 +3810,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playm0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (GIF→PNG conversion commit)"
             }
           ],
@@ -3822,7 +3822,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playn0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion)"
             }
           ],
@@ -3834,7 +3834,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playo0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -3846,7 +3846,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playp0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion in commit 9c6c6812)"
             }
           ],
@@ -3858,7 +3858,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playq0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG per commit 9c6c681)"
             }
           ],
@@ -3870,7 +3870,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playr0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion: Burn all GIFs)"
             }
           ],
@@ -3882,7 +3882,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/plays0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
             }
           ],
@@ -3894,7 +3894,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playt0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
             }
           ],
@@ -3906,7 +3906,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playu0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG per commit 9c6c6812)"
             }
           ],
@@ -3918,7 +3918,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playv0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG per commit message)"
             }
           ],
@@ -3930,7 +3930,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/playw0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion per commit 9c6c6812)"
             }
           ],
@@ -3947,7 +3947,7 @@
       "commitSha": "1d75335ab02d70b6b8739d233715db140872d82c",
       "authors": [
         {
-          "name": "Mike Swanson",
+          "name": "Michael Swanson",
           "relation": "Committer (de-symlinkify commit)"
         },
         {
@@ -3965,7 +3965,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playa1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -3977,7 +3977,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playa2a8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit: saint_of_killers)"
             }
           ],
@@ -3989,7 +3989,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playa3a7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             },
             {
@@ -4009,7 +4009,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -4021,7 +4021,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playa5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer"
             }
           ],
@@ -4033,7 +4033,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playb1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -4045,7 +4045,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playb2b8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             }
           ],
@@ -4057,7 +4057,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playb3b7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -4069,7 +4069,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playb4b6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             }
           ],
@@ -4081,7 +4081,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playb5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -4093,7 +4093,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playc1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -4105,7 +4105,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playc2c8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer"
             }
           ],
@@ -4117,7 +4117,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playc3c7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             },
             {
@@ -4133,7 +4133,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playc4c6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -4145,7 +4145,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playc5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             }
           ],
@@ -4157,7 +4157,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playd1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -4169,7 +4169,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playd2d8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer"
             }
           ],
@@ -4181,7 +4181,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playd3d7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit author)"
             }
           ],
@@ -4193,7 +4193,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playd4d6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer"
             }
           ],
@@ -4205,7 +4205,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playd5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -4217,7 +4217,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playe1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             }
           ],
@@ -4229,7 +4229,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playe2e8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -4241,7 +4241,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playe3e7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit: saint_of_killers)"
             }
           ],
@@ -4253,7 +4253,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playe4e6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             },
             {
@@ -4269,7 +4269,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playe5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (per commit 1d75335a, 'de-symlinkify: saint_of_killers')"
             }
           ],
@@ -4281,7 +4281,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playf1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -4293,7 +4293,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playf2f8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             }
           ],
@@ -4305,7 +4305,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playf3f7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             }
           ],
@@ -4317,7 +4317,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playf4f6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             }
           ],
@@ -4329,7 +4329,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playf5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             },
             {
@@ -4345,7 +4345,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playg1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -4357,7 +4357,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playg2g8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             }
           ],
@@ -4369,7 +4369,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playg3g7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             },
             {
@@ -4385,7 +4385,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playg4g6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -4397,7 +4397,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playg5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             },
             {
@@ -4413,7 +4413,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playh0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (via commit 1d75335a, 'de-symlinkify: saint_of_killers')"
             }
           ],
@@ -4425,7 +4425,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playi0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (performed de-symlinkify commit)"
             }
           ],
@@ -4437,7 +4437,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playj0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer"
             }
           ],
@@ -4449,7 +4449,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playk0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             }
           ],
@@ -4465,7 +4465,7 @@
               "relation": "Original author (CREDITS lists him for binary lumps including playpal)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (per commit 1d75335 which de-symlinkified the file)"
             }
           ],
@@ -4477,7 +4477,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playm0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (via de-symlinkify: saint_of_killers)"
             }
           ],
@@ -4489,7 +4489,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playn0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             },
             {
@@ -4505,7 +4505,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playo0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -4517,7 +4517,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playp0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             },
             {
@@ -4533,7 +4533,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playq0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             }
           ],
@@ -4545,7 +4545,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playr0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -4557,7 +4557,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/plays0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             }
           ],
@@ -4569,7 +4569,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playt0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             }
           ],
@@ -4581,7 +4581,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playu0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -4593,7 +4593,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playv0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: saint_of_killers)"
             }
           ],
@@ -4605,7 +4605,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1d75335ab02d70b6b8739d233715db140872d82c/sprites/playw0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],

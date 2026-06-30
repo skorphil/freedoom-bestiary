@@ -95,6 +95,24 @@ export class SpriteCollection {
     return [...allAuthors].sort((a, b) => a.localeCompare(b));
   }
 
+  /** Gets all contributions for a specific author */
+  getAuthorContributions(authorName: string): { code: SpriteCode; version: SpritesheetVersion }[] {
+    const contributions: { code: SpriteCode; version: SpritesheetVersion }[] = [];
+    const codes = this.getAllCodes();
+
+    for (const code of codes) {
+      const history = this.getHistory(code);
+      for (const version of history) {
+        const authors = this.getUniqueAuthors(version);
+        if (authors.includes(authorName)) {
+          contributions.push({ code, version });
+        }
+      }
+    }
+
+    return contributions.sort((a, b) => b.version.date.localeCompare(a.version.date));
+  }
+
   /** Normalizes the code to match the keys in the data record (case-insensitive search) */
   #getNormalizedKey(code: string): string | undefined {
     const upperCode = code.toUpperCase();

@@ -13,11 +13,11 @@
           "relation": "Committer (recolor of Hell Knight sprite; per commit message: 'lokito's baron and Cato's recolor')"
         },
         {
-          "name": "Cato",
+          "name": "Catoptromancy",
           "relation": "Original palette/recolor author (per commit message: 'Cato's recolor')"
         },
         {
-          "name": "lokito",
+          "name": "Lokito",
           "relation": "Reference/source model (per commit message: 'lokito's baron')"
         }
       ],
@@ -31,11 +31,11 @@
               "relation": "Committer (commit message: 'lokito's baron and Cato's recolor')"
             },
             {
-              "name": "Cato",
+              "name": "Catoptromancy",
               "relation": "Recolor artist (per commit message)"
             },
             {
-              "name": "lokito",
+              "name": "Lokito",
               "relation": "Original work reference (per commit message)"
             }
           ],
@@ -75,11 +75,11 @@
               "relation": "Committer (from commit: lokito's baron and Cato's recolor)"
             },
             {
-              "name": "lokito",
+              "name": "Lokito",
               "relation": "Original artist (inferred from commit message 'lokito's baron')"
             },
             {
-              "name": "Cato",
+              "name": "Catoptromancy",
               "relation": "Recolor artist (from commit message 'Cato's recolor')"
             }
           ],
@@ -107,11 +107,11 @@
               "relation": "Committer ( lokito's baron and Cato's recolor )"
             },
             {
-              "name": "Cato",
+              "name": "Catoptromancy",
               "relation": "Palette recolor"
             },
             {
-              "name": "lokito",
+              "name": "Lokito",
               "relation": "Original artist (implied by 'lokito's baron')"
             }
           ],
@@ -127,11 +127,11 @@
               "relation": "Committer (based on commit ed32e1b: 'lokito's baron and Cato's recolor')"
             },
             {
-              "name": "lokito",
+              "name": "Lokito",
               "relation": "Original Hell Knight recolor (mentioned in commit message)"
             },
             {
-              "name": "Cato",
+              "name": "Catoptromancy",
               "relation": "Original Hell Knight recolor (mentioned in commit message)"
             }
           ],
@@ -171,11 +171,11 @@
               "relation": "Committer (lokito's baron and Cato's recolor)"
             },
             {
-              "name": "lokito",
+              "name": "Lokito",
               "relation": "Original artist (baron)"
             },
             {
-              "name": "Cato",
+              "name": "Catoptromancy",
               "relation": "Recolor"
             }
           ],
@@ -203,11 +203,11 @@
               "relation": "Committer (lokito's baron and Cato's recolor)"
             },
             {
-              "name": "lokito",
+              "name": "Lokito",
               "relation": "Original artist (implied by commit message)"
             },
             {
-              "name": "Cato",
+              "name": "Catoptromancy",
               "relation": "Palette author / recolor contributor (implied by commit message)"
             }
           ],
@@ -223,11 +223,11 @@
               "relation": "Committer (lokito's baron and Cato's recolor)"
             },
             {
-              "name": "lokito",
+              "name": "Lokito",
               "relation": "Artist (baron model reference)"
             },
             {
-              "name": "Cato",
+              "name": "Catoptromancy",
               "relation": "Palette recolor author"
             }
           ],
@@ -243,11 +243,11 @@
               "relation": "Committer"
             },
             {
-              "name": "Cato",
+              "name": "Catoptromancy",
               "relation": "Palette fix (recolor)"
             },
             {
-              "name": "lokito",
+              "name": "Lokito",
               "relation": "Base model (baron → hellknight recolor)"
             }
           ],
@@ -275,11 +275,11 @@
               "relation": "Committer (commit ed32e1b1: 'lokito's baron and Cato's recolor')"
             },
             {
-              "name": "lokito",
+              "name": "Lokito",
               "relation": "Original model (baron) contributor"
             },
             {
-              "name": "Cato",
+              "name": "Catoptromancy",
               "relation": "Recolor contributor"
             }
           ],
@@ -307,11 +307,11 @@
               "relation": "Committer (locally modified version; commit message references 'Cato's recolor')"
             },
             {
-              "name": "Cato",
+              "name": "Catoptromancy",
               "relation": "Original recolor artist (implied by commit message)"
             },
             {
-              "name": "lokito",
+              "name": "Lokito",
               "relation": "Baron model/author (implied by commit message)"
             }
           ],
@@ -327,11 +327,11 @@
               "relation": "Committer (lokito's baron and Cato's recolor)"
             },
             {
-              "name": "Cato",
+              "name": "Catoptromancy",
               "relation": "Palette recolor source (mentioned in commit message)"
             },
             {
-              "name": "lokito",
+              "name": "Lokito",
               "relation": "Base model/source (mentioned in commit message)"
             }
           ],
@@ -347,11 +347,11 @@
               "relation": "Committer (lokito's baron and Cato's recolor)"
             },
             {
-              "name": "lokito",
+              "name": "Lokito",
               "relation": "Artist (based on 'lokito's baron' in commit message)"
             },
             {
-              "name": "Cato",
+              "name": "Catoptromancy",
               "relation": "Palette/source artist (based on 'Cato's recolor' in commit message)"
             }
           ],
@@ -379,11 +379,11 @@
               "relation": "Committer (commit message: lokito's baron and Cato's recolor)"
             },
             {
-              "name": "Cato",
+              "name": "Catoptromancy",
               "relation": "Palette recolor artist"
             },
             {
-              "name": "lokito",
+              "name": "Lokito",
               "relation": "Original artist (via commit message reference)"
             }
           ],
@@ -399,11 +399,11 @@
               "relation": "Committer (‘lokito's baron and Cato's recolor’)"
             },
             {
-              "name": "Cato",
+              "name": "Catoptromancy",
               "relation": "Recolor artist (per commit message)"
             },
             {
-              "name": "lokito",
+              "name": "Lokito",
               "relation": "Artist (original source baron, per commit message)"
             }
           ],
@@ -419,11 +419,11 @@
               "relation": "Committer (recolor of Hell Knight sprite; per commit message: 'lokito's baron and Cato's recolor')"
             },
             {
-              "name": "Cato",
+              "name": "Catoptromancy",
               "relation": "Original palette/recolor author (per commit message: 'Cato's recolor')"
             },
             {
-              "name": "lokito",
+              "name": "Lokito",
               "relation": "Reference/source model (per commit message: 'lokito's baron')"
             }
           ],
@@ -444,20 +444,12 @@
           "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
         },
         {
-          "name": "raymoohawk",
+          "name": "Raymoohawk",
           "relation": "Original artist (referenced as 'pestmeister' source in commit message)"
-        },
-        {
-          "name": "pestmeister",
-          "relation": "Source reference (mentioned in commit message)"
         },
         {
           "name": "Catoptromancy",
           "relation": "Artist (from path)"
-        },
-        {
-          "name": "Pestmeister",
-          "relation": "Original artist reference (as referenced by 'raymoohawks pestmeister' in commit message)"
         },
         {
           "name": "RjY",
@@ -486,7 +478,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as 'raymoohawks pestmeister')"
             }
           ],
@@ -502,7 +494,7 @@
               "relation": "Committer (sprite committed based on raymoohawks pestmeister work)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (pestmeister, source reference in commit message)"
             }
           ],
@@ -518,7 +510,7 @@
               "relation": "Committer (based on commit 6cd361b; message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source reference in commit message)"
             }
           ],
@@ -534,7 +526,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (implied by 'based on raymoohawks pestmeister')"
             }
           ],
@@ -550,12 +542,8 @@
               "relation": "Committer (based on commit 6cd361b; message indicates 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source referenced in commit message)"
-            },
-            {
-              "name": "pestmeister",
-              "relation": "Source reference (mentioned in commit message)"
             }
           ],
           "spriteState": "unchanged",
@@ -606,7 +594,7 @@
               "relation": "Committer (based on commit 6cd361b: bos2 and boss sprites based on raymoohawks pestmeister)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference in commit message)"
             }
           ],
@@ -622,7 +610,7 @@
               "relation": "Committer (based on commit 6cd361b; message indicates 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source reference in commit message)"
             }
           ],
@@ -638,7 +626,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (based on 'raymoohawks pestmeister' in commit message)"
             }
           ],
@@ -654,7 +642,7 @@
               "relation": "Committer (based on commit 6cd361b; 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (mentioned in commit message as basis: 'raymoohawks pestmeister')"
             }
           ],
@@ -670,12 +658,8 @@
               "relation": "Committer (commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (base source mentioned in commit message)"
-            },
-            {
-              "name": "Pestmeister",
-              "relation": "Original artist reference (as referenced by 'raymoohawks pestmeister' in commit message)"
             }
           ],
           "spriteState": "unchanged",
@@ -1206,7 +1190,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference in commit message; 'pestmeister' is associated with raymoohawk in CREDITS: 'S: raymoohawk' is not listed but 'raymoohawk' appears as a handle in commit context; however, no 'raymoohawk' in CREDITS file — safest fallback is 'original sprite source referenced'"
             }
           ],
@@ -1222,7 +1206,7 @@
               "relation": "Committer (based on commit 6cd361b; message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source: commit message references 'raymoohawks pestmeister')"
             }
           ],
@@ -1238,7 +1222,7 @@
               "relation": "Committer (based on commit message referencing 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from commit message and naming convention: 'raymoohawks pestmeister')"
             }
           ],
@@ -1254,7 +1238,7 @@
               "relation": "Committer (based on commit 6cd361b; work imported as part of 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as basis: 'raymoohawks pestmeister')"
             }
           ],
@@ -1270,7 +1254,7 @@
               "relation": "Committer (based on commit 6cd361b, which states 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced as 'pestmeister' source in commit message)"
             }
           ],
@@ -2551,20 +2535,12 @@
           "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
         },
         {
-          "name": "raymoohawk",
+          "name": "Raymoohawk",
           "relation": "Original artist (referenced as 'pestmeister' source in commit message)"
-        },
-        {
-          "name": "pestmeister",
-          "relation": "Source reference (mentioned in commit message)"
         },
         {
           "name": "Catoptromancy",
           "relation": "Artist (from path)"
-        },
-        {
-          "name": "Pestmeister",
-          "relation": "Original artist reference (as referenced by 'raymoohawks pestmeister' in commit message)"
         },
         {
           "name": "RjY",
@@ -2589,7 +2565,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as 'raymoohawks pestmeister')"
             }
           ],
@@ -2605,7 +2581,7 @@
               "relation": "Committer (sprite committed based on raymoohawks pestmeister work)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (pestmeister, source reference in commit message)"
             }
           ],
@@ -2621,7 +2597,7 @@
               "relation": "Committer (based on commit 6cd361b; message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source reference in commit message)"
             }
           ],
@@ -2637,7 +2613,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (implied by 'based on raymoohawks pestmeister')"
             }
           ],
@@ -2653,12 +2629,8 @@
               "relation": "Committer (based on commit 6cd361b; message indicates 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source referenced in commit message)"
-            },
-            {
-              "name": "pestmeister",
-              "relation": "Source reference (mentioned in commit message)"
             }
           ],
           "spriteState": "unchanged",
@@ -2709,7 +2681,7 @@
               "relation": "Committer (based on commit 6cd361b: bos2 and boss sprites based on raymoohawks pestmeister)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference in commit message)"
             }
           ],
@@ -2725,7 +2697,7 @@
               "relation": "Committer (based on commit 6cd361b; message indicates 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source reference in commit message)"
             }
           ],
@@ -2741,7 +2713,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (based on 'raymoohawks pestmeister' in commit message)"
             }
           ],
@@ -2757,7 +2729,7 @@
               "relation": "Committer (based on commit 6cd361b; 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (mentioned in commit message as basis: 'raymoohawks pestmeister')"
             }
           ],
@@ -2773,12 +2745,8 @@
               "relation": "Committer (commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (base source mentioned in commit message)"
-            },
-            {
-              "name": "Pestmeister",
-              "relation": "Original artist reference (as referenced by 'raymoohawks pestmeister' in commit message)"
             }
           ],
           "spriteState": "unchanged",
@@ -3309,7 +3277,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference in commit message; 'pestmeister' is associated with raymoohawk in CREDITS: 'S: raymoohawk' is not listed but 'raymoohawk' appears as a handle in commit context; however, no 'raymoohawk' in CREDITS file — safest fallback is 'original sprite source referenced'"
             }
           ],
@@ -3325,7 +3293,7 @@
               "relation": "Committer (based on commit 6cd361b; message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source: commit message references 'raymoohawks pestmeister')"
             }
           ],
@@ -3341,7 +3309,7 @@
               "relation": "Committer (based on commit message referencing 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from commit message and naming convention: 'raymoohawks pestmeister')"
             }
           ],
@@ -3357,7 +3325,7 @@
               "relation": "Committer (based on commit 6cd361b; work imported as part of 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as basis: 'raymoohawks pestmeister')"
             }
           ],
@@ -3373,7 +3341,7 @@
               "relation": "Committer (based on commit 6cd361b, which states 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced as 'pestmeister' source in commit message)"
             }
           ],
@@ -4642,20 +4610,12 @@
           "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
         },
         {
-          "name": "raymoohawk",
+          "name": "Raymoohawk",
           "relation": "Original artist (referenced as 'pestmeister' source in commit message)"
-        },
-        {
-          "name": "pestmeister",
-          "relation": "Source reference (mentioned in commit message)"
         },
         {
           "name": "Catoptromancy",
           "relation": "Artist (from path)"
-        },
-        {
-          "name": "Pestmeister",
-          "relation": "Original artist reference (as referenced by 'raymoohawks pestmeister' in commit message)"
         },
         {
           "name": "RjY",
@@ -4666,7 +4626,7 @@
           "relation": "Committer (updated death animation for boss2)"
         },
         {
-          "name": "Mike Swanson",
+          "name": "Michael Swanson",
           "relation": "Committer (PNG conversion commit)"
         },
         {
@@ -4684,7 +4644,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as 'raymoohawks pestmeister')"
             }
           ],
@@ -4700,7 +4660,7 @@
               "relation": "Committer (sprite committed based on raymoohawks pestmeister work)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (pestmeister, source reference in commit message)"
             }
           ],
@@ -4716,7 +4676,7 @@
               "relation": "Committer (based on commit 6cd361b; message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source reference in commit message)"
             }
           ],
@@ -4732,7 +4692,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (implied by 'based on raymoohawks pestmeister')"
             }
           ],
@@ -4748,12 +4708,8 @@
               "relation": "Committer (based on commit 6cd361b; message indicates 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source referenced in commit message)"
-            },
-            {
-              "name": "pestmeister",
-              "relation": "Source reference (mentioned in commit message)"
             }
           ],
           "spriteState": "unchanged",
@@ -4804,7 +4760,7 @@
               "relation": "Committer (based on commit 6cd361b: bos2 and boss sprites based on raymoohawks pestmeister)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference in commit message)"
             }
           ],
@@ -4820,7 +4776,7 @@
               "relation": "Committer (based on commit 6cd361b; message indicates 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source reference in commit message)"
             }
           ],
@@ -4836,7 +4792,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (based on 'raymoohawks pestmeister' in commit message)"
             }
           ],
@@ -4852,7 +4808,7 @@
               "relation": "Committer (based on commit 6cd361b; 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (mentioned in commit message as basis: 'raymoohawks pestmeister')"
             }
           ],
@@ -4868,12 +4824,8 @@
               "relation": "Committer (commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (base source mentioned in commit message)"
-            },
-            {
-              "name": "Pestmeister",
-              "relation": "Original artist reference (as referenced by 'raymoohawks pestmeister' in commit message)"
             }
           ],
           "spriteState": "unchanged",
@@ -5404,7 +5356,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference in commit message; 'pestmeister' is associated with raymoohawk in CREDITS: 'S: raymoohawk' is not listed but 'raymoohawk' appears as a handle in commit context; however, no 'raymoohawk' in CREDITS file — safest fallback is 'original sprite source referenced'"
             }
           ],
@@ -5420,7 +5372,7 @@
               "relation": "Committer (based on commit 6cd361b; message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source: commit message references 'raymoohawks pestmeister')"
             }
           ],
@@ -5436,7 +5388,7 @@
               "relation": "Committer (based on commit message referencing 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from commit message and naming convention: 'raymoohawks pestmeister')"
             }
           ],
@@ -5452,7 +5404,7 @@
               "relation": "Committer (based on commit 6cd361b; work imported as part of 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as basis: 'raymoohawks pestmeister')"
             }
           ],
@@ -5468,7 +5420,7 @@
               "relation": "Committer (based on commit 6cd361b, which states 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced as 'pestmeister' source in commit message)"
             }
           ],
@@ -5876,7 +5828,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2a1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion per commit 9c6c6812)"
             }
           ],
@@ -5888,7 +5840,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2a2.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -5900,7 +5852,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2a3.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -5912,7 +5864,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2a4.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit; file likely pre-existing)"
             }
           ],
@@ -5924,7 +5876,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2a5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (GIF→PNG conversion)"
             }
           ],
@@ -5936,7 +5888,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2a6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -5948,7 +5900,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2a7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion)"
             }
           ],
@@ -5960,7 +5912,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2a8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk conversion)"
             }
           ],
@@ -5972,7 +5924,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2b1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -5984,7 +5936,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2b2.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit; no specific artist attribution in commit message)"
             }
           ],
@@ -5996,7 +5948,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2b3.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6008,7 +5960,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2b4.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6020,7 +5972,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2b5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6032,7 +5984,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2b6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (GIF→PNG conversion commit)"
             }
           ],
@@ -6044,7 +5996,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2b7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit; no evidence of new creation in this commit)"
             }
           ],
@@ -6056,7 +6008,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2b8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (conversion to PNG)"
             }
           ],
@@ -6068,7 +6020,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2c1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion)"
             }
           ],
@@ -6080,7 +6032,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2c2.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6092,7 +6044,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2c3.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6104,7 +6056,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2c4.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (GIF→PNG conversion commit)"
             }
           ],
@@ -6116,7 +6068,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2c5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6128,7 +6080,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2c6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion of existing sprite)"
             }
           ],
@@ -6140,7 +6092,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2c7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion as per commit 9c6c681)"
             }
           ],
@@ -6152,7 +6104,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2c8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion in commit 9c6c6812)"
             }
           ],
@@ -6164,7 +6116,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2d1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit; no specific attribution in message)"
             }
           ],
@@ -6176,7 +6128,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2d2.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (conversion to PNG as part of bulk GIF→PNG commit)"
             }
           ],
@@ -6188,7 +6140,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2d3.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG in bulk; original artist unknown but likely prior contributor since this commit is a conversion, not creation)"
             }
           ],
@@ -6200,7 +6152,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2d4.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6212,7 +6164,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2d5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6224,7 +6176,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2d6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion as part of GIF-to-PNG bulk migration)"
             }
           ],
@@ -6236,7 +6188,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2d7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (GIF→PNG conversion commit)"
             }
           ],
@@ -6248,7 +6200,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2d8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6260,7 +6212,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2e1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6272,7 +6224,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2e2.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6284,7 +6236,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2e3.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion in 9c6c681)"
             }
           ],
@@ -6296,7 +6248,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2e4.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -6308,7 +6260,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2e5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6320,7 +6272,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2e6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (GIF→PNG conversion commit)"
             }
           ],
@@ -6332,7 +6284,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2e7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6344,7 +6296,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2e8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion of existing sprite)"
             }
           ],
@@ -6356,7 +6308,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2f1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion)"
             }
           ],
@@ -6368,7 +6320,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2f2.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (conversion to PNG as part of bulk format update)"
             }
           ],
@@ -6380,7 +6332,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2f3.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit, no specific artist attribution found)"
             }
           ],
@@ -6392,7 +6344,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2f4.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6404,7 +6356,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2f5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6416,7 +6368,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2f6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion per commit 9c6c681)"
             }
           ],
@@ -6428,7 +6380,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2f7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion per commit 9c6c6812)"
             }
           ],
@@ -6440,7 +6392,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2f8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6452,7 +6404,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2g1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion from GIF)"
             }
           ],
@@ -6464,7 +6416,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2g2.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6476,7 +6428,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2g3.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6488,7 +6440,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2g4.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (GIF→PNG conversion commit)"
             }
           ],
@@ -6500,7 +6452,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2g5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion in commit 9c6c681)"
             }
           ],
@@ -6512,7 +6464,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2g6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6524,7 +6476,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2g7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion)"
             }
           ],
@@ -6536,7 +6488,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2g8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion)"
             }
           ],
@@ -6548,7 +6500,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2h1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion of sprite in Burn all GIFs commit)"
             }
           ],
@@ -6560,7 +6512,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2h2.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion per commit 9c6c6812)"
             }
           ],
@@ -6572,7 +6524,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2h3.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6584,7 +6536,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2h4.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted from GIF to PNG as part of bulk conversion)"
             }
           ],
@@ -6596,7 +6548,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2h5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6608,7 +6560,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2h6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk conversion)"
             }
           ],
@@ -6620,7 +6572,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2h7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6632,7 +6584,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2h8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6644,7 +6596,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2i0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6656,7 +6608,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2j0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6668,7 +6620,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2k0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6680,7 +6632,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2l0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6692,7 +6644,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2m0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion)"
             }
           ],
@@ -6708,7 +6660,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion)"
             }
           ],
@@ -6720,7 +6672,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bos2o0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -6741,20 +6693,12 @@
           "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
         },
         {
-          "name": "raymoohawk",
+          "name": "Raymoohawk",
           "relation": "Original artist (referenced as 'pestmeister' source in commit message)"
-        },
-        {
-          "name": "pestmeister",
-          "relation": "Source reference (mentioned in commit message)"
         },
         {
           "name": "Catoptromancy",
           "relation": "Artist (from path)"
-        },
-        {
-          "name": "Pestmeister",
-          "relation": "Original artist reference (as referenced by 'raymoohawks pestmeister' in commit message)"
         },
         {
           "name": "RjY",
@@ -6775,7 +6719,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as 'raymoohawks pestmeister')"
             }
           ],
@@ -6791,7 +6735,7 @@
               "relation": "Committer (sprite committed based on raymoohawks pestmeister work)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (pestmeister, source reference in commit message)"
             }
           ],
@@ -6807,7 +6751,7 @@
               "relation": "Committer (based on commit 6cd361b; message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source reference in commit message)"
             }
           ],
@@ -6823,7 +6767,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (implied by 'based on raymoohawks pestmeister')"
             }
           ],
@@ -6839,12 +6783,8 @@
               "relation": "Committer (based on commit 6cd361b; message indicates 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source referenced in commit message)"
-            },
-            {
-              "name": "pestmeister",
-              "relation": "Source reference (mentioned in commit message)"
             }
           ],
           "spriteState": "unchanged",
@@ -6895,7 +6835,7 @@
               "relation": "Committer (based on commit 6cd361b: bos2 and boss sprites based on raymoohawks pestmeister)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference in commit message)"
             }
           ],
@@ -6911,7 +6851,7 @@
               "relation": "Committer (based on commit 6cd361b; message indicates 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source reference in commit message)"
             }
           ],
@@ -6927,7 +6867,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (based on 'raymoohawks pestmeister' in commit message)"
             }
           ],
@@ -6943,7 +6883,7 @@
               "relation": "Committer (based on commit 6cd361b; 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (mentioned in commit message as basis: 'raymoohawks pestmeister')"
             }
           ],
@@ -6959,12 +6899,8 @@
               "relation": "Committer (commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (base source mentioned in commit message)"
-            },
-            {
-              "name": "Pestmeister",
-              "relation": "Original artist reference (as referenced by 'raymoohawks pestmeister' in commit message)"
             }
           ],
           "spriteState": "unchanged",
@@ -7495,7 +7431,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference in commit message; 'pestmeister' is associated with raymoohawk in CREDITS: 'S: raymoohawk' is not listed but 'raymoohawk' appears as a handle in commit context; however, no 'raymoohawk' in CREDITS file — safest fallback is 'original sprite source referenced'"
             }
           ],
@@ -7511,7 +7447,7 @@
               "relation": "Committer (based on commit 6cd361b; message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source: commit message references 'raymoohawks pestmeister')"
             }
           ],
@@ -7527,7 +7463,7 @@
               "relation": "Committer (based on commit message referencing 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from commit message and naming convention: 'raymoohawks pestmeister')"
             }
           ],
@@ -7543,7 +7479,7 @@
               "relation": "Committer (based on commit 6cd361b; work imported as part of 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as basis: 'raymoohawks pestmeister')"
             }
           ],
@@ -7559,7 +7495,7 @@
               "relation": "Committer (based on commit 6cd361b, which states 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced as 'pestmeister' source in commit message)"
             }
           ],
@@ -7976,20 +7912,12 @@
           "relation": "Committer (modified pestmeister blood frames)"
         },
         {
-          "name": "raymoohawk",
+          "name": "Raymoohawk",
           "relation": "Original artist (referenced as 'pestmeister' source in commit message)"
-        },
-        {
-          "name": "pestmeister",
-          "relation": "Source reference (mentioned in commit message)"
         },
         {
           "name": "Catoptromancy",
           "relation": "Artist (from path)"
-        },
-        {
-          "name": "Pestmeister",
-          "relation": "Original artist reference (as referenced by 'raymoohawks pestmeister' in commit message)"
         },
         {
           "name": "RjY",
@@ -8006,7 +7934,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as 'raymoohawks pestmeister')"
             }
           ],
@@ -8022,7 +7950,7 @@
               "relation": "Committer (sprite committed based on raymoohawks pestmeister work)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (pestmeister, source reference in commit message)"
             }
           ],
@@ -8038,7 +7966,7 @@
               "relation": "Committer (based on commit 6cd361b; message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source reference in commit message)"
             }
           ],
@@ -8054,7 +7982,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (implied by 'based on raymoohawks pestmeister')"
             }
           ],
@@ -8070,12 +7998,8 @@
               "relation": "Committer (based on commit 6cd361b; message indicates 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source referenced in commit message)"
-            },
-            {
-              "name": "pestmeister",
-              "relation": "Source reference (mentioned in commit message)"
             }
           ],
           "spriteState": "unchanged",
@@ -8126,7 +8050,7 @@
               "relation": "Committer (based on commit 6cd361b: bos2 and boss sprites based on raymoohawks pestmeister)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference in commit message)"
             }
           ],
@@ -8142,7 +8066,7 @@
               "relation": "Committer (based on commit 6cd361b; message indicates 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source reference in commit message)"
             }
           ],
@@ -8158,7 +8082,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (based on 'raymoohawks pestmeister' in commit message)"
             }
           ],
@@ -8174,7 +8098,7 @@
               "relation": "Committer (based on commit 6cd361b; 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (mentioned in commit message as basis: 'raymoohawks pestmeister')"
             }
           ],
@@ -8190,12 +8114,8 @@
               "relation": "Committer (commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (base source mentioned in commit message)"
-            },
-            {
-              "name": "Pestmeister",
-              "relation": "Original artist reference (as referenced by 'raymoohawks pestmeister' in commit message)"
             }
           ],
           "spriteState": "unchanged",
@@ -8726,7 +8646,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference in commit message; 'pestmeister' is associated with raymoohawk in CREDITS: 'S: raymoohawk' is not listed but 'raymoohawk' appears as a handle in commit context; however, no 'raymoohawk' in CREDITS file — safest fallback is 'original sprite source referenced'"
             }
           ],
@@ -8742,7 +8662,7 @@
               "relation": "Committer (based on commit 6cd361b; message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source: commit message references 'raymoohawks pestmeister')"
             }
           ],
@@ -8758,7 +8678,7 @@
               "relation": "Committer (based on commit message referencing 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from commit message and naming convention: 'raymoohawks pestmeister')"
             }
           ],
@@ -8774,7 +8694,7 @@
               "relation": "Committer (based on commit 6cd361b; work imported as part of 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as basis: 'raymoohawks pestmeister')"
             }
           ],
@@ -8790,7 +8710,7 @@
               "relation": "Committer (based on commit 6cd361b, which states 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced as 'pestmeister' source in commit message)"
             }
           ],
@@ -9207,28 +9127,16 @@
           "relation": "Committer (based on commit 6cd361b: 'bos2 and boss sprites based on raymoohawks pestmeister')"
         },
         {
-          "name": "raymoohawk",
+          "name": "Raymoohawk",
           "relation": "Original artist (from 'pestmeister' reference in commit message and folder naming convention)"
-        },
-        {
-          "name": "pestmeister",
-          "relation": "Original artist (referenced in commit message as basis for bos2 and boss sprites)"
         },
         {
           "name": "Catoptromancy",
           "relation": "Artist (from path)"
         },
         {
-          "name": "Pestmeister",
-          "relation": "Source sprite artist (explicitly credited in commit message)"
-        },
-        {
           "name": "RjY",
           "relation": "Committer (rotation frame fix for catoptromancy sprite)"
-        },
-        {
-          "name": "Raymoohawk",
-          "relation": "Original artist (via commit message: 'based on raymoohawks pestmeister')"
         }
       ],
       "sprites": [
@@ -9241,7 +9149,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as 'raymoohawks pestmeister')"
             }
           ],
@@ -9257,7 +9165,7 @@
               "relation": "Committer (sprite committed based on raymoohawks pestmeister work)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (pestmeister, source reference in commit message)"
             }
           ],
@@ -9273,7 +9181,7 @@
               "relation": "Committer (based on commit 6cd361b; message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source reference in commit message)"
             }
           ],
@@ -9289,7 +9197,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (implied by 'based on raymoohawks pestmeister')"
             }
           ],
@@ -9305,12 +9213,8 @@
               "relation": "Committer (based on commit 6cd361b; message indicates 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source referenced in commit message)"
-            },
-            {
-              "name": "pestmeister",
-              "relation": "Source reference (mentioned in commit message)"
             }
           ],
           "spriteState": "unchanged",
@@ -9361,7 +9265,7 @@
               "relation": "Committer (based on commit 6cd361b: bos2 and boss sprites based on raymoohawks pestmeister)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference in commit message)"
             }
           ],
@@ -9377,7 +9281,7 @@
               "relation": "Committer (based on commit 6cd361b; message indicates 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source reference in commit message)"
             }
           ],
@@ -9393,7 +9297,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (based on 'raymoohawks pestmeister' in commit message)"
             }
           ],
@@ -9409,7 +9313,7 @@
               "relation": "Committer (based on commit 6cd361b; 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (mentioned in commit message as basis: 'raymoohawks pestmeister')"
             }
           ],
@@ -9425,12 +9329,8 @@
               "relation": "Committer (commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (base source mentioned in commit message)"
-            },
-            {
-              "name": "Pestmeister",
-              "relation": "Original artist reference (as referenced by 'raymoohawks pestmeister' in commit message)"
             }
           ],
           "spriteState": "unchanged",
@@ -9505,7 +9405,7 @@
               "relation": "Committer (commit message: bos2 and boss sprites based on raymoohawks pestmeister)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (based on raymoohawks pestmeister)"
             }
           ],
@@ -9521,7 +9421,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (inferred from commit message referencing 'raymoohawks pestmeister')"
             }
           ],
@@ -9537,7 +9437,7 @@
               "relation": "Committer (based on commit 6cd361b, added 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from folder reference in commit message)"
             }
           ],
@@ -9553,12 +9453,8 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message)"
-            },
-            {
-              "name": "pestmeister",
-              "relation": "Source artist (referenced in commit message)"
             }
           ],
           "spriteState": "updated",
@@ -9573,7 +9469,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source: 'raymoohawks pestmeister' in commit message)"
             }
           ],
@@ -9589,7 +9485,7 @@
               "relation": "Committer (based on commit 6cd361b; message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference; inferred from folder/path context and commit message)"
             }
           ],
@@ -9605,7 +9501,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from 'raymoohawks pestmeister' referenced in commit message)"
             }
           ],
@@ -9621,7 +9517,7 @@
               "relation": "Committer (based on commit 6cd361b, message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from 'pestmeister' reference in commit message and CREDITS)"
             }
           ],
@@ -9637,7 +9533,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as 'raymoohawks pestmeister')"
             }
           ],
@@ -9653,7 +9549,7 @@
               "relation": "Committer (based on commit 6cd361b0, 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (mentioned in commit message as basis)"
             }
           ],
@@ -9669,7 +9565,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist ( referenced in commit message as 'raymoohawks pestmeister')"
             }
           ],
@@ -9685,7 +9581,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from 'pestmeister' variant; referenced in commit message)"
             }
           ],
@@ -9701,7 +9597,7 @@
               "relation": "Committer (commit 6cd361b: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Based on original work (per commit message)"
             }
           ],
@@ -9717,7 +9613,7 @@
               "relation": "Committer (based on commit 6cd361b — 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' source referenced in commit message)"
             }
           ],
@@ -9733,12 +9629,8 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (implied by commit message: 'based on raymoohawks pestmeister')"
-            },
-            {
-              "name": "Pestmeister",
-              "relation": "Original source artist (as referenced by 'raymoohawks pestmeister')"
             }
           ],
           "spriteState": "updated",
@@ -9777,7 +9669,7 @@
               "relation": "Committer (based on commit 6cd361b — bos2 and boss sprites based on raymoohawk's pestmeister)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced source: pestmeister)"
             }
           ],
@@ -9793,7 +9685,7 @@
               "relation": "Committer (based on commit message referencing 'boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (based on 'raymoohawks pestmeister' in commit message)"
             }
           ],
@@ -9809,7 +9701,7 @@
               "relation": "Committer (based on commit 6cd361b: bos2 and boss sprites based on raymoohawk's pestmeister)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source reference: raymoohawk's pestmeister)"
             }
           ],
@@ -9825,7 +9717,7 @@
               "relation": "Committer (based on commit 6cd361b — 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original source/artist (referenced as 'pestmeister' in commit message; matches handle 'raymoohawk' in CREDITS for sprites)"
             }
           ],
@@ -9841,7 +9733,7 @@
               "relation": "Committer (based on commit 6cd361b: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from path & commit message reference)"
             }
           ],
@@ -9857,7 +9749,7 @@
               "relation": "Committer (based on commit 6cd361b0, 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'raymoohawks pestmeister')"
             }
           ],
@@ -9873,7 +9765,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as 'raymoohawks pestmeister')"
             }
           ],
@@ -9889,7 +9781,7 @@
               "relation": "Committer (based on commit 6cd361b: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source: commit message references 'raymoohawks pestmeister')"
             }
           ],
@@ -9905,7 +9797,7 @@
               "relation": "Committer (based on commit 6cd361b, 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as 'raymoohawks pestmeister')"
             }
           ],
@@ -9921,7 +9813,7 @@
               "relation": "Committer (based on commit 6cd361b — 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source: 'raymoohawks pestmeister' mentioned in commit message)"
             }
           ],
@@ -9937,7 +9829,7 @@
               "relation": "Committer (based on commit 6cd361b, 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (based on 'based on raymoohawks pestmeister' in commit message)"
             }
           ],
@@ -9953,7 +9845,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source: commit message references 'raymoohawks pestmeister')"
             }
           ],
@@ -9969,12 +9861,8 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (mentioned in commit message as source)"
-            },
-            {
-              "name": "Pestmeister",
-              "relation": "Original artist source (mentioned in commit message)"
             }
           ],
           "spriteState": "updated",
@@ -9989,7 +9877,7 @@
               "relation": "Committer (based on commit 6cd361b, which added 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist ( referenced in commit message)"
             }
           ],
@@ -10017,7 +9905,7 @@
               "relation": "Committer (based on commit 6cd361b0, message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference and folder/path pattern)"
             }
           ],
@@ -10045,7 +9933,7 @@
               "relation": "Committer (based on commit 6cd361b, 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (based on 'raymoohawks pestmeister')"
             }
           ],
@@ -10073,7 +9961,7 @@
               "relation": "Committer (based on commit 6cd361b, 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source referenced in commit message)"
             }
           ],
@@ -10089,7 +9977,7 @@
               "relation": "Committer (based on commit 6cd361b — 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from commit message: 'based on raymoohawks pestmeister')"
             }
           ],
@@ -10105,7 +9993,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference in commit message; 'pestmeister' is associated with raymoohawk in CREDITS: 'S: raymoohawk' is not listed but 'raymoohawk' appears as a handle in commit context; however, no 'raymoohawk' in CREDITS file — safest fallback is 'original sprite source referenced'"
             }
           ],
@@ -10121,7 +10009,7 @@
               "relation": "Committer (based on commit 6cd361b; message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source: commit message references 'raymoohawks pestmeister')"
             }
           ],
@@ -10137,7 +10025,7 @@
               "relation": "Committer (based on commit message referencing 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from commit message and naming convention: 'raymoohawks pestmeister')"
             }
           ],
@@ -10153,7 +10041,7 @@
               "relation": "Committer (based on commit 6cd361b; work imported as part of 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as basis: 'raymoohawks pestmeister')"
             }
           ],
@@ -10169,7 +10057,7 @@
               "relation": "Committer (based on commit 6cd361b, which states 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced as 'pestmeister' source in commit message)"
             }
           ],
@@ -10197,12 +10085,8 @@
               "relation": "Committer (based on commit message referencing 'raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from path/folder reference in commit message)"
-            },
-            {
-              "name": "Pestmeister",
-              "relation": "Source sprite artist (explicitly credited in commit message)"
             }
           ],
           "spriteState": "new",
@@ -10217,7 +10101,7 @@
               "relation": "Committer (based on commit 6cd361b0; added bos2 and boss sprites based on raymoohawks pestmeister)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference in commit message; implied source"
             }
           ],
@@ -10233,7 +10117,7 @@
               "relation": "Committer (based on commit 6cd361b, message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference in commit message; 'raymoohawk' is a known contributor in CREDITS for textures/sprites)"
             }
           ],
@@ -10249,7 +10133,7 @@
               "relation": "Committer (based on commit 6cd361b: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source: 'raymoohawks pestmeister' in commit message)"
             }
           ],
@@ -10265,7 +10149,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (reference in commit message: 'based on raymoohawks pestmeister')"
             }
           ],
@@ -10281,7 +10165,7 @@
               "relation": "Committer (based on commit 6cd361b; message indicates bos2 sprites are based on raymoohawks pestmeister)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (derived from 'raymoohawks pestmeister' as stated in commit message)"
             }
           ],
@@ -10297,7 +10181,7 @@
               "relation": "Committer (bos2 and boss sprites based on raymoohawks pestmeister)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'pestmeister' reference)"
             }
           ],
@@ -10325,7 +10209,7 @@
               "relation": "Committer (based on commit 6cd361b0; 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from commit message: 'based on raymoohawks pestmeister')"
             }
           ],
@@ -10341,7 +10225,7 @@
               "relation": "Committer (based on commit 6cd361b0; 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from path and commit message)"
             }
           ],
@@ -10357,11 +10241,7 @@
               "relation": "Committer (based on commit 6cd361b0; work derived from raymoohawks/pestmeister)"
             },
             {
-              "name": "raymoohawk",
-              "relation": "Original artist (referenced in commit message as basis for bos2 and boss sprites)"
-            },
-            {
-              "name": "pestmeister",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as basis for bos2 and boss sprites)"
             }
           ],
@@ -10377,7 +10257,7 @@
               "relation": "Committer (based on commit 6cd361b0 — 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original source/artist (from commit message referencing 'raymoohawks pestmeister')"
             }
           ],
@@ -10433,7 +10313,7 @@
               "relation": "Committer (based on commit 6cd361b — 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (derived from raymoohawk's pestmeister sprites, as per commit message)"
             }
           ],
@@ -10461,7 +10341,7 @@
               "relation": "Committer (based on commit 6cd361b: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original source (mentioned in commit message as 'raymoohawks pestmeister')"
             }
           ],
@@ -10477,7 +10357,7 @@
               "relation": "Committer (bos2 and boss sprites based on raymoohawks pestmeister)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (based on raymoohawk's pestmeister)"
             }
           ],
@@ -10493,7 +10373,7 @@
               "relation": "Committer (based on commit message: bos2 and boss sprites based on raymoohawks pestmeister)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist ( referenced in commit message: based on raymoohawks pestmeister)"
             }
           ],
@@ -10521,7 +10401,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (via 'raymoohawks pestmeister' reference in commit message)"
             }
           ],
@@ -10537,7 +10417,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from 'raymoohawks pestmeister' in commit message)"
             }
           ],
@@ -10553,7 +10433,7 @@
               "relation": "Committer (based on commit 6cd361b; 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (referenced in commit message as 'pestmeister')"
             }
           ],
@@ -10569,7 +10449,7 @@
               "relation": "Committer (based on commit 6cd361b; message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original source (mentioned in commit message)"
             }
           ],
@@ -10585,7 +10465,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (mentioned in commit message as basis: 'based on raymoohawks pestmeister')"
             }
           ],
@@ -10601,7 +10481,7 @@
               "relation": "Committer (based on commit 6cd361b: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist ( referenced in commit message)"
             }
           ],
@@ -10617,7 +10497,7 @@
               "relation": "Committer (based on commit message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (mentioned in commit message as basis)"
             }
           ],
@@ -10633,7 +10513,7 @@
               "relation": "Committer (based on commit 6cd361b0, message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original source/artist (inferred from 'based on raymoohawks pestmeister' in commit message)"
             }
           ],
@@ -10649,7 +10529,7 @@
               "relation": "Committer (based on commit 6cd361b, message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original source/artist (mentioned in commit message as 'pestmeister' — implies contribution from raymoohawk’s prior work)"
             }
           ],
@@ -10665,7 +10545,7 @@
               "relation": "Committer (based on commit 6cd361b; message: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (source attribution in commit message)"
             }
           ],
@@ -10681,7 +10561,7 @@
               "relation": "Committer (based on commit 6cd361b: 'bos2 and boss sprites based on raymoohawks pestmeister')"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from 'pestmeister' reference in commit message and folder naming convention)"
             }
           ],
@@ -10698,7 +10578,7 @@
       "commitSha": "1b766167ff311e4a1acd154343fe633e1ac75736",
       "authors": [
         {
-          "name": "Mike Swanson",
+          "name": "Michael Swanson",
           "relation": "Committer (de-symlinkify: catoptromancy)"
         },
         {
@@ -10720,7 +10600,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2a1c1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -10732,7 +10612,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2a2c8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -10744,7 +10624,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2a3c7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer"
             }
           ],
@@ -10756,7 +10636,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2a4c6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -10768,7 +10648,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2a5c5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -10816,7 +10696,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2b1d1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -10828,7 +10708,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2b2d8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -10840,7 +10720,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2b3d7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -10852,7 +10732,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2b4d6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -10864,7 +10744,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2b5d5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -10924,7 +10804,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2e1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -10936,7 +10816,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2e2.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -10948,7 +10828,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2e3.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer"
             }
           ],
@@ -10960,7 +10840,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2e4.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -10972,7 +10852,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2e5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -10984,7 +10864,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2e6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -10996,7 +10876,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2e7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11012,7 +10892,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11024,7 +10904,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2f1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit: catoptromancy)"
             }
           ],
@@ -11036,7 +10916,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2f2.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -11048,7 +10928,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2f3.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11060,7 +10940,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2f4.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11072,7 +10952,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2f5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11084,7 +10964,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2f6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11096,7 +10976,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2f7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer"
             }
           ],
@@ -11108,7 +10988,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2f8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11120,7 +11000,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2g1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11132,7 +11012,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2g2.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -11144,7 +11024,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2g3.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11156,7 +11036,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2g4.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11168,7 +11048,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2g5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11180,7 +11060,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2g6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11192,7 +11072,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2g7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11204,7 +11084,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2g8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11216,7 +11096,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2h1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11228,7 +11108,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2h2.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11240,7 +11120,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2h3.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11252,7 +11132,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2h4.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11264,7 +11144,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2h5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11276,7 +11156,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2h6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11288,7 +11168,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2h7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11300,7 +11180,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2h8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11312,7 +11192,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2i0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer"
             }
           ],
@@ -11324,7 +11204,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2j0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11336,7 +11216,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2k0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11348,7 +11228,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2l0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11364,7 +11244,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11376,7 +11256,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2n0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11388,7 +11268,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2o0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11400,7 +11280,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2c2a8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit: catoptromancy)"
             }
           ],
@@ -11412,7 +11292,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2c3a7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11424,7 +11304,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2c4a6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11436,7 +11316,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2d2b8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11448,7 +11328,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2d3b7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11460,7 +11340,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/1b766167ff311e4a1acd154343fe633e1ac75736/sprites/bos2d4b6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: catoptromancy)"
             }
           ],
@@ -11489,7 +11369,7 @@
           "relation": "Artist (from path)"
         },
         {
-          "name": "Mike Swanson",
+          "name": "Michael Swanson",
           "relation": "Co-committer (Signed-off)"
         }
       ],
@@ -11659,7 +11539,7 @@
               "relation": "Reported bug leading to fix"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Co-committer (Signed-off)"
             }
           ],
@@ -12296,7 +12176,7 @@
           "relation": "Artist (from path) and Committer (original commit)"
         },
         {
-          "name": "Mike Swanson",
+          "name": "Michael Swanson",
           "relation": "Committer (signed-off)"
         }
       ],
@@ -12310,7 +12190,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer"
             }
           ],
@@ -12338,7 +12218,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer"
             }
           ],
@@ -12438,7 +12318,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (signed-off-by)"
             }
           ],
@@ -12454,7 +12334,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (signed-off-by)"
             }
           ],
@@ -12542,7 +12422,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer"
             }
           ],
@@ -12594,7 +12474,7 @@
               "relation": "Artist (from path and commit)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (signed-off)"
             }
           ],
@@ -12622,7 +12502,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer"
             }
           ],
@@ -12650,7 +12530,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (signed-off)"
             }
           ],
@@ -12678,7 +12558,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (signed-off-by in commit)"
             }
           ],
@@ -12754,7 +12634,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer"
             }
           ],
@@ -12770,7 +12650,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (signed-off)"
             }
           ],
@@ -12786,7 +12666,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer"
             }
           ],
@@ -12802,7 +12682,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (signed-off)"
             }
           ],
@@ -12830,7 +12710,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (signed off)"
             }
           ],
@@ -12942,7 +12822,7 @@
               "relation": "Original artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer"
             }
           ],
@@ -12970,7 +12850,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (signed-off-by in commit)"
             }
           ],
@@ -12986,7 +12866,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (signed-off)"
             }
           ],

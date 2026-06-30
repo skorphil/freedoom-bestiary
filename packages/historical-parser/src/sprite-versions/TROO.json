@@ -17,7 +17,7 @@
           "relation": "Committer (Another big update)"
         },
         {
-          "name": "raymoohawk",
+          "name": "Raymoohawk",
           "relation": "Artist (from path)"
         }
       ],
@@ -747,7 +747,7 @@
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/troon0.png",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -763,7 +763,7 @@
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/trooo0.png",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -779,7 +779,7 @@
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/troop0.png",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -795,7 +795,7 @@
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/trooq0.png",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -811,7 +811,7 @@
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/troor0.png",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -827,7 +827,7 @@
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/troos0.png",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -843,7 +843,7 @@
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/troot0.png",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -859,7 +859,7 @@
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/raymoohawk/sprites/old-gib/troou0.png",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -880,16 +880,12 @@
       "commitSha": "52af9ed5220cc4809e8da7abda0de0bbf327bc7a",
       "authors": [
         {
-          "name": "korp",
+          "name": "Korp",
           "relation": "Artist"
         },
         {
           "name": "Xindage",
           "relation": "Committer (New Imps Gibing sprites by korp)"
-        },
-        {
-          "name": "Korp",
-          "relation": "Artist (identified in commit message)"
         }
       ],
       "sprites": [
@@ -898,7 +894,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trooa1.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist"
             },
             {
@@ -930,7 +926,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trooa3a7.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (New Imps Gibbing sprites)"
             },
             {
@@ -946,7 +942,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trooa4a6.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (New Imps Gibing sprites)"
             },
             {
@@ -978,7 +974,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/troob1.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist"
             },
             {
@@ -1026,7 +1022,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/troob4b6.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (New Imps Gibbing sprites)"
             },
             {
@@ -1042,7 +1038,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/troob5.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist"
             },
             {
@@ -1074,7 +1070,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trooc2c8.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (New Imps Gibing sprites)"
             },
             {
@@ -1090,7 +1086,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trooc3c7.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (New Imps Gibing sprites)"
             },
             {
@@ -1138,7 +1134,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trood1.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (identified in commit message)"
             },
             {
@@ -1154,7 +1150,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trood2d8.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist"
             },
             {
@@ -1170,7 +1166,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trood3d7.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (New Imps Gibbing sprites)"
             },
             {
@@ -1202,7 +1198,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trood5.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist"
             },
             {
@@ -1218,7 +1214,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trooe1.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist"
             },
             {
@@ -1298,7 +1294,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/troof1.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (identified in commit message)"
             },
             {
@@ -1314,7 +1310,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/troof2f8.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (New Imps Gibing sprites)"
             },
             {
@@ -1362,7 +1358,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/troof5.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist"
             },
             {
@@ -1378,7 +1374,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/troog1.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (New Imps Gibing sprites)"
             },
             {
@@ -1394,7 +1390,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/troog2g8.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist"
             },
             {
@@ -1410,7 +1406,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/troog3g7.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (as mentioned in commit message)"
             },
             {
@@ -1426,7 +1422,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/troog4g6.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (New Imps Gibing sprites)"
             },
             {
@@ -1490,7 +1486,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trooh3h7.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist"
             },
             {
@@ -1506,7 +1502,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trooh4h6.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Original artist"
             },
             {
@@ -1522,7 +1518,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trooh5.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist"
             },
             {
@@ -1538,7 +1534,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trooi0.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (New Imps Gibing sprites)"
             },
             {
@@ -1554,7 +1550,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trooj0.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist"
             },
             {
@@ -1570,7 +1566,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trook0.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist"
             },
             {
@@ -1618,7 +1614,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/troon0.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (New Imps Gibing sprites)"
             },
             {
@@ -1634,7 +1630,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trooo0.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (identified in commit message)"
             },
             {
@@ -1650,7 +1646,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/troop0.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (New Imps Gibing sprites)"
             },
             {
@@ -1666,7 +1662,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/trooq0.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist (New Imps Gibing sprites)"
             },
             {
@@ -1682,7 +1678,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/troor0.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist"
             },
             {
@@ -1698,7 +1694,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/troos0.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist"
             },
             {
@@ -1714,7 +1710,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/troot0.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist: Imps Gibing sprites"
             },
             {
@@ -1730,7 +1726,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/52af9ed5220cc4809e8da7abda0de0bbf327bc7a/sprites/troou0.png",
           "spriteAuthors": [
             {
-              "name": "korp",
+              "name": "Korp",
               "relation": "Artist"
             },
             {
@@ -1751,7 +1747,7 @@
       "commitSha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
       "authors": [
         {
-          "name": "Mike Swanson",
+          "name": "Michael Swanson",
           "relation": "Committer (converted GIF to PNG, removed cyan background)"
         },
         {
@@ -1773,7 +1769,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooa1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (Conversion to PNG)"
             }
           ],
@@ -1785,7 +1781,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooa2a8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -1797,7 +1793,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooa3a7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -1809,7 +1805,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooa4a6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (Converted from GIF to PNG, enabling transparency)"
             }
           ],
@@ -1821,7 +1817,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooa5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG, removed cyan background)"
             }
           ],
@@ -1833,7 +1829,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troob1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG, removed cyan background)"
             }
           ],
@@ -1845,7 +1841,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troob2b8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -1857,7 +1853,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troob3b7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted from GIF to PNG)"
             }
           ],
@@ -1869,7 +1865,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troob4b6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (Converted GIF to PNG)"
             }
           ],
@@ -1881,7 +1877,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troob5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -1893,7 +1889,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooc1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG, enabling transparency)"
             }
           ],
@@ -1905,7 +1901,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooc2c8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -1917,7 +1913,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooc3c7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (Conversion to PNG)"
             }
           ],
@@ -1929,7 +1925,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooc4c6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (Conversion from GIF to PNG)"
             }
           ],
@@ -1941,7 +1937,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooc5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -1953,7 +1949,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trood1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -1965,7 +1961,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trood2d8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (Converted from GIF to PNG)"
             }
           ],
@@ -1977,7 +1973,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trood3d7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (Conversion from GIF to PNG)"
             }
           ],
@@ -1989,7 +1985,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trood4d6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2001,7 +1997,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trood5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (Converted from GIF to PNG)"
             }
           ],
@@ -2013,7 +2009,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooe1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG, enabling real transparency)"
             }
           ],
@@ -2025,7 +2021,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooe2e8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2037,7 +2033,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooe3e7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2049,7 +2045,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooe4e6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (Converted from GIF to PNG)"
             }
           ],
@@ -2061,7 +2057,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooe5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2073,7 +2069,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troof1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted to PNG)"
             }
           ],
@@ -2085,7 +2081,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troof2f8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2097,7 +2093,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troof3f7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2109,7 +2105,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troof4f6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2121,7 +2117,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troof5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG, with real transparency indexes)"
             }
           ],
@@ -2133,7 +2129,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troog1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2145,7 +2141,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troog2g8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (Converted GIF to PNG)"
             }
           ],
@@ -2157,7 +2153,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troog3g7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2169,7 +2165,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troog4g6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2181,7 +2177,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troog5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG, noted in commit message)"
             }
           ],
@@ -2197,7 +2193,7 @@
               "relation": "Artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG and removed cyan background)"
             }
           ],
@@ -2209,7 +2205,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooh2h8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (Converted GIF to PNG with transparency support)"
             }
           ],
@@ -2221,7 +2217,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooh3h7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2233,7 +2229,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooh4h6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (Converted GIF to PNG)"
             }
           ],
@@ -2245,7 +2241,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooh5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG, removed cyan background)"
             },
             {
@@ -2261,7 +2257,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooi0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             },
             {
@@ -2277,7 +2273,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooj0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion from GIF)"
             }
           ],
@@ -2289,7 +2285,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trook0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2301,7 +2297,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trool0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG, applied transparency)"
             },
             {
@@ -2317,7 +2313,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troom0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2329,7 +2325,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troon0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2341,7 +2337,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooo0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2353,7 +2349,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troop0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (Conversion from GIF to PNG)"
             }
           ],
@@ -2365,7 +2361,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/trooq0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2377,7 +2373,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troor0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2389,7 +2385,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troos0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -2401,7 +2397,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troot0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG, removing cyan background)"
             }
           ],
@@ -2413,7 +2409,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/troou0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG, removed cyan background)"
             }
           ],
@@ -2430,7 +2426,7 @@
       "commitSha": "11ad2d3960694589fc72d0d729caaa98b0372a32",
       "authors": [
         {
-          "name": "Mike Swanson",
+          "name": "Michael Swanson",
           "relation": "Committer (de-symlinkified)"
         },
         {
@@ -2438,7 +2434,7 @@
           "relation": "Artist"
         },
         {
-          "name": "raymoohawk",
+          "name": "Raymoohawk",
           "relation": "Original artist (implied by commit message to be original author of related files)"
         }
       ],
@@ -2448,7 +2444,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooa1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -2464,7 +2460,7 @@
               "relation": "Artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify)"
             }
           ],
@@ -2476,7 +2472,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooa3a7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified file)"
             }
           ],
@@ -2488,7 +2484,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooa4a6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify)"
             }
           ],
@@ -2500,7 +2496,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooa5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -2512,7 +2508,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troob1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (added to project)"
             }
           ],
@@ -2524,7 +2520,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troob2b8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified file)"
             }
           ],
@@ -2536,7 +2532,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troob3b7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify)"
             }
           ],
@@ -2548,7 +2544,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troob4b6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified orphaned file from raymoohawk's contribution)"
             }
           ],
@@ -2560,7 +2556,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troob5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinked image)"
             }
           ],
@@ -2572,7 +2568,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooc1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -2584,7 +2580,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooc2c8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified file)"
             }
           ],
@@ -2596,7 +2592,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooc3c7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -2608,7 +2604,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooc4c6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified file)"
             }
           ],
@@ -2620,7 +2616,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooc5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified file)"
             }
           ],
@@ -2632,7 +2628,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trood1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -2644,7 +2640,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trood2d8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify)"
             }
           ],
@@ -2656,7 +2652,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trood3d7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify)"
             }
           ],
@@ -2672,7 +2668,7 @@
               "relation": "Artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -2684,7 +2680,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trood5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -2696,7 +2692,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooe1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -2708,7 +2704,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooe2e8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -2720,7 +2716,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooe3e7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified path due to 'raymoohawk' commit message)"
             }
           ],
@@ -2732,11 +2728,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooe4e6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkifying Raymoohawk's work)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (implied by commit message 'de-symlinkify: raymoohawk')"
             }
           ],
@@ -2748,7 +2744,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooe5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -2760,7 +2756,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troof1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -2772,7 +2768,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troof2f8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -2784,7 +2780,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troof3f7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -2796,7 +2792,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troof4f6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -2808,7 +2804,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troof5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -2820,7 +2816,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troog1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -2832,11 +2828,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troog2g8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify; raymoohawk's work)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (implied by commit message)"
             }
           ],
@@ -2848,7 +2844,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troog3g7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -2860,7 +2856,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troog4g6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify)"
             }
           ],
@@ -2872,7 +2868,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troog5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -2884,11 +2880,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooh1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified raymoohawk's file)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from commit message)"
             }
           ],
@@ -2900,7 +2896,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooh2h8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify)"
             }
           ],
@@ -2912,7 +2908,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooh3h7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified file)"
             }
           ],
@@ -2924,7 +2920,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooh4h6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify)"
             }
           ],
@@ -2936,7 +2932,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooh5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified file)"
             }
           ],
@@ -2948,7 +2944,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooi0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified file)"
             }
           ],
@@ -2960,7 +2956,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooj0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified file)"
             }
           ],
@@ -2972,11 +2968,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trook0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified raymoohawk's files)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (implied by commit message to be original author of related files)"
             }
           ],
@@ -2988,7 +2984,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trool0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified file)"
             }
           ],
@@ -3000,7 +2996,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troom0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -3012,7 +3008,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troon0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -3024,7 +3020,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooo0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -3036,7 +3032,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troop0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified file)"
             }
           ],
@@ -3048,7 +3044,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/trooq0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified file)"
             }
           ],
@@ -3060,7 +3056,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troor0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified file)"
             }
           ],
@@ -3072,7 +3068,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troos0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified file)"
             }
           ],
@@ -3084,7 +3080,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troot0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -3096,7 +3092,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/troou0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkified)"
             }
           ],
@@ -3113,7 +3109,7 @@
       "commitSha": "828e794158c8865c56e09892d7a924d7ba30ece9",
       "authors": [
         {
-          "name": "raymoohawk",
+          "name": "Raymoohawk",
           "relation": "Artist (from path and commit)"
         }
       ],
@@ -3123,11 +3119,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooa1.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede)"
             }
           ],
@@ -3139,11 +3135,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooa2a8.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede)"
             }
           ],
@@ -3155,7 +3151,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooa3a7.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             }
           ],
@@ -3167,11 +3163,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooa4a6.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "New serpentipede sprite (from commit message)"
             }
           ],
@@ -3183,11 +3179,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooa5.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from path)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede sprite)"
             }
           ],
@@ -3199,11 +3195,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troob1.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede)"
             }
           ],
@@ -3215,7 +3211,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troob2b8.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             }
           ],
@@ -3227,7 +3223,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troob3b7.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             }
           ],
@@ -3239,11 +3235,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troob4b6.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede)"
             }
           ],
@@ -3255,7 +3251,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troob5.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             }
           ],
@@ -3267,7 +3263,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooc1.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             }
           ],
@@ -3279,11 +3275,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooc2c8.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede)"
             }
           ],
@@ -3295,7 +3291,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooc3c7.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit message)"
             }
           ],
@@ -3307,7 +3303,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooc4c6.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit message)"
             }
           ],
@@ -3319,7 +3315,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooc5.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit message)"
             }
           ],
@@ -3331,7 +3327,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trood1.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from path and commit)"
             }
           ],
@@ -3343,11 +3339,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trood2d8.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede)"
             }
           ],
@@ -3359,7 +3355,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trood3d7.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             }
           ],
@@ -3371,7 +3367,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trood4d6.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit message)"
             }
           ],
@@ -3383,11 +3379,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trood5.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede sprites)"
             }
           ],
@@ -3399,7 +3395,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooe1.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path) and Committer (new serpentipede)"
             }
           ],
@@ -3411,7 +3407,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooe2e8.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             }
           ],
@@ -3423,11 +3419,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooe3e7.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede)"
             }
           ],
@@ -3439,11 +3435,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooe4e6.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede)"
             }
           ],
@@ -3455,11 +3451,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooe5.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede)"
             }
           ],
@@ -3471,7 +3467,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troof1.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             }
           ],
@@ -3483,7 +3479,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troof2f8.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit message)"
             }
           ],
@@ -3495,7 +3491,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troof3f7.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit message, committer)"
             }
           ],
@@ -3507,7 +3503,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troof4f6.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             }
           ],
@@ -3519,7 +3515,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troof5.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path) and Committer (new serpentipede)"
             }
           ],
@@ -3531,11 +3527,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troog1.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (New serpentipede sprite)"
             }
           ],
@@ -3547,7 +3543,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troog2g8.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit message)"
             }
           ],
@@ -3559,7 +3555,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troog3g7.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit message)"
             }
           ],
@@ -3571,11 +3567,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troog4g6.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede)"
             }
           ],
@@ -3587,11 +3583,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troog5.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede)"
             }
           ],
@@ -3603,11 +3599,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooh1.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (New serpentipede sprite)"
             }
           ],
@@ -3619,7 +3615,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooh2h8.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist/Committer (new serpentipede)"
             }
           ],
@@ -3631,11 +3627,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooh3h7.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede)"
             }
           ],
@@ -3647,7 +3643,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooh4h6.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path) and Committer (new serpentipede sprite)"
             }
           ],
@@ -3659,11 +3655,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooh5.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede)"
             }
           ],
@@ -3675,7 +3671,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooi0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede)"
             }
           ],
@@ -3687,7 +3683,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooj0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             }
           ],
@@ -3699,11 +3695,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trook0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from path)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Committer (new serpentipede)"
             }
           ],
@@ -3715,7 +3711,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trool0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -3727,7 +3723,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troom0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from path and commit)"
             }
           ],
@@ -3739,7 +3735,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troon0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             }
           ],
@@ -3751,7 +3747,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooo0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit message)"
             }
           ],
@@ -3763,7 +3759,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troop0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from path and commit)"
             }
           ],
@@ -3775,7 +3771,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/trooq0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit message)"
             }
           ],
@@ -3787,7 +3783,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troor0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit message)"
             }
           ],
@@ -3799,7 +3795,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troos0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit message)"
             }
           ],
@@ -3811,7 +3807,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troot0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             }
           ],
@@ -3823,7 +3819,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/828e794158c8865c56e09892d7a924d7ba30ece9/sprites/raymoohawk/troou0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path and commit)"
             }
           ],
@@ -4587,7 +4583,7 @@
           "relation": "Committer (Minor sprite fixes, removed stray pixels)"
         },
         {
-          "name": "archvile46",
+          "name": "Archfile",
           "relation": "Artist (from path 'archfile')"
         },
         {
@@ -5337,7 +5333,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/47f0e551a7146d2869940c73193086a8b3a9c50e/sprites/archfile/trooo0.gif",
           "spriteAuthors": [
             {
-              "name": "archvile46",
+              "name": "Archfile",
               "relation": "Artist (from path)"
             },
             {
@@ -5357,7 +5353,7 @@
               "relation": "Committer (Minor sprite fixes, removed stray pixels)"
             },
             {
-              "name": "archvile46",
+              "name": "Archfile",
               "relation": "Artist (from path 'archfile')"
             }
           ],
@@ -5470,7 +5466,7 @@
           "relation": "Committer of alignment fix"
         },
         {
-          "name": "archvile46",
+          "name": "Archfile",
           "relation": "Artist (from path)"
         },
         {
@@ -6284,7 +6280,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/0181408b25fa534cae5390307dca9beba52769eb/sprites/archfile/troon0.gif",
           "spriteAuthors": [
             {
-              "name": "archvile46",
+              "name": "Archfile",
               "relation": "Artist (from path)"
             },
             {
@@ -6320,7 +6316,7 @@
               "relation": "Original artist and committer (fixed TROO* alignment)"
             },
             {
-              "name": "archvile46",
+              "name": "Archfile",
               "relation": "Artist (from path)"
             }
           ],
@@ -6431,10 +6427,6 @@
         {
           "name": "Julian Aubourg",
           "relation": "Implied base sprites (TROO* and SPOS*)"
-        },
-        {
-          "name": "archvile46",
-          "relation": "Artist (from path)"
         },
         {
           "name": "pov",
@@ -7247,7 +7239,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5317da02169551a57eb7adfd9b1b48e7efb8b6dd/sprites/archfile/troop0.gif",
           "spriteAuthors": [
             {
-              "name": "archvile46",
+              "name": "Archfile",
               "relation": "Artist (from path)"
             },
             {
@@ -8235,10 +8227,6 @@
           "relation": "Artist (from path)"
         },
         {
-          "name": "Jon Dowland",
-          "relation": "Committer (new imp sprites from gargylol)"
-        },
-        {
           "name": "pov",
           "relation": "Artist (from path)"
         },
@@ -8401,7 +8389,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Jon Dowland",
+              "name": "Jonathan Dowland",
               "relation": "Committer (new imp sprites from gargylol)"
             }
           ],
@@ -8417,7 +8405,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Jon Dowland",
+              "name": "Jonathan Dowland",
               "relation": "Committer (new imp sprites from gargylol)"
             }
           ],
@@ -8593,7 +8581,7 @@
               "relation": "Original artist (from path and commit message)"
             },
             {
-              "name": "Jon Dowland",
+              "name": "Jonathan Dowland",
               "relation": "Committer (new imp sprites from gargylol)"
             }
           ],
@@ -8641,7 +8629,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Jon Dowland",
+              "name": "Jonathan Dowland",
               "relation": "Committer (new imp sprites from gargylol)"
             }
           ],
@@ -8705,7 +8693,7 @@
               "relation": "Artist (via gargoylol and CREDITS)"
             },
             {
-              "name": "Jon Dowland",
+              "name": "Jonathan Dowland",
               "relation": "Committer (added new imp sprites from gargoylol)"
             }
           ],
@@ -8753,7 +8741,7 @@
               "relation": "Original artist (from path)"
             },
             {
-              "name": "Jon Dowland",
+              "name": "Jonathan Dowland",
               "relation": "Committer (new imp sprites from gargylol)"
             }
           ],
@@ -8785,7 +8773,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Jon Dowland",
+              "name": "Jonathan Dowland",
               "relation": "Committer (new imp sprites from gargylol)"
             }
           ],
@@ -8897,7 +8885,7 @@
               "relation": "Artist (from path)"
             },
             {
-              "name": "Jon Dowland",
+              "name": "Jonathan Dowland",
               "relation": "Committer (new imp sprites from gargylol)"
             }
           ],

@@ -11,7 +11,7 @@ export function Header() {
         </a>
         <span>{" · "}</span>
         <a href="https://github.com/skorphil/freedoom-bestiary" className={styles.link}>
-          Bestiary GitHub
+          GitHub
         </a>
       </nav>
     </header>

@@ -1,4 +1,4 @@
-import { useLoaderData } from "react-router";
+import { useLoaderData, Link } from "react-router";
 import styles from "../src/components/CharacterItem.module.css";
 import { Header } from "../src/components/Header.tsx";
 import { Animator } from "../src/components/animator/Animator.tsx";
@@ -75,7 +75,9 @@ export default function CharacterDetail() {
                   <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
                     {bestiary.getAuthorsWithRelations(version).map((author, i) => (
                       <li key={i} style={{ marginBottom: '4px' }}>
-                        <strong>{author.name}</strong>
+                        <Link to={`/authors/${author.name}`}>
+                          <strong>{author.name}</strong>
+                        </Link>
                         {author.relation && (
                           <span style={{ display: 'block', fontSize: '0.75rem', color: '#888', fontStyle: 'italic' }}>
                             {author.relation}

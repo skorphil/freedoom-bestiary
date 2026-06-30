@@ -456,7 +456,7 @@
       "commitSha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
       "authors": [
         {
-          "name": "Mike Swanson",
+          "name": "Michael Swanson",
           "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
         }
       ],
@@ -466,7 +466,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion as part of bulk GIF-to-PNG migration)"
             }
           ],
@@ -478,7 +478,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada2a8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion from GIF)"
             }
           ],
@@ -490,7 +490,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada3a7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -502,7 +502,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada4a6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion in commit 9c6c681)"
             }
           ],
@@ -514,7 +514,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion from GIF)"
             }
           ],
@@ -526,7 +526,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -538,7 +538,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb2b8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -550,7 +550,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb3b7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
             }
           ],
@@ -562,7 +562,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb4b6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG per commit message)"
             }
           ],
@@ -574,7 +574,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk conversion)"
             }
           ],
@@ -586,7 +586,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -598,7 +598,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc2c8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (GIF to PNG conversion)"
             }
           ],
@@ -610,7 +610,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc3c7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion from GIF)"
             }
           ],
@@ -622,7 +622,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc4c6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -634,7 +634,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
             }
           ],
@@ -646,7 +646,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -658,7 +658,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd2d8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
             }
           ],
@@ -670,7 +670,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd3d7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -682,7 +682,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd4d6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG)"
             }
           ],
@@ -694,7 +694,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion, per commit)"
             }
           ],
@@ -706,7 +706,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion in commit 9c6c68127672feee501d5e5cab9d5e15c3dbf8b3)"
             }
           ],
@@ -718,7 +718,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade2e8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
             }
           ],
@@ -730,7 +730,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade3e7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion from GIF, per commit message)"
             }
           ],
@@ -742,7 +742,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade4e6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion, all sprites)"
             }
           ],
@@ -754,7 +754,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion from GIF)"
             }
           ],
@@ -766,7 +766,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf1.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion in commit 9c6c681)"
             }
           ],
@@ -778,7 +778,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf2f8.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion of existing sprite)"
             }
           ],
@@ -790,7 +790,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf3f7.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion)"
             }
           ],
@@ -802,7 +802,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf4f6.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion per commit 9c6c681)"
             }
           ],
@@ -814,7 +814,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf5.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG in bulk commit)"
             }
           ],
@@ -826,7 +826,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headg0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG per commit 9c6c681)"
             }
           ],
@@ -838,7 +838,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headh0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion from GIF in commit 9c6c6812)"
             }
           ],
@@ -850,7 +850,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headi0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion per commit 9c6c681)"
             }
           ],
@@ -862,7 +862,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headj0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (PNG conversion commit)"
             }
           ],
@@ -874,7 +874,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headk0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG per commit message)"
             }
           ],
@@ -886,7 +886,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headl0.png",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
             }
           ],
@@ -903,11 +903,11 @@
       "commitSha": "11ad2d3960694589fc72d0d729caaa98b0372a32",
       "authors": [
         {
-          "name": "Mike Swanson",
+          "name": "Michael Swanson",
           "relation": "Committer (de-symlinkify commit for raymoohawk)"
         },
         {
-          "name": "raymoohawk",
+          "name": "Raymoohawk",
           "relation": "Artist (from path)"
         }
       ],
@@ -917,7 +917,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -929,7 +929,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada2a8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -941,11 +941,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada3a7.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -957,7 +957,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada4a6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -969,7 +969,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -981,7 +981,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit for raymoohawk sprite set)"
             }
           ],
@@ -993,7 +993,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb2b8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -1005,7 +1005,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb3b7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -1017,7 +1017,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb4b6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -1029,7 +1029,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit for raymoohawk)"
             }
           ],
@@ -1041,7 +1041,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -1053,7 +1053,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc2c8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -1065,7 +1065,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc3c7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -1077,7 +1077,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc4c6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -1089,11 +1089,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc5.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -1105,7 +1105,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -1117,11 +1117,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd2d8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from folder name)"
             }
           ],
@@ -1133,7 +1133,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd3d7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -1145,7 +1145,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd4d6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -1157,7 +1157,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -1169,11 +1169,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from folder name)"
             }
           ],
@@ -1185,7 +1185,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade2e8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -1197,7 +1197,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade3e7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -1209,7 +1209,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade4e6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit for raymoohawk)"
             }
           ],
@@ -1221,7 +1221,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -1233,7 +1233,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf1.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -1245,11 +1245,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf2f8.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from path/folder context)"
             }
           ],
@@ -1261,7 +1261,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf3f7.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -1273,7 +1273,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf4f6.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit)"
             }
           ],
@@ -1285,7 +1285,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf5.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (via de-symlinkify commit)"
             }
           ],
@@ -1297,7 +1297,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headg0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (performed de-symlinkify)"
             }
           ],
@@ -1309,11 +1309,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headh0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Original artist (from path context)"
             }
           ],
@@ -1325,11 +1325,11 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headi0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             },
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1341,7 +1341,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headj0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -1353,7 +1353,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headk0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify: raymoohawk)"
             }
           ],
@@ -1365,7 +1365,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headl0.gif",
           "spriteAuthors": [
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (de-symlinkify commit for raymoohawk)"
             }
           ],
@@ -1382,7 +1382,7 @@
       "commitSha": "5b716f83766ea2c6c06ebb346f831906cc1e21d0",
       "authors": [
         {
-          "name": "raymoohawk",
+          "name": "Raymoohawk",
           "relation": "Artist (from path)"
         },
         {
@@ -1396,7 +1396,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada1.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1408,7 +1408,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada2a8.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1420,7 +1420,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada3a7.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -1436,7 +1436,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada4a6.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1448,7 +1448,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada5.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1460,7 +1460,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb1.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1472,7 +1472,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb2b8.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1484,7 +1484,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb3b7.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1496,7 +1496,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb4b6.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -1512,7 +1512,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb5.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -1528,7 +1528,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc1.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1540,7 +1540,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc2c8.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -1556,7 +1556,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc3c7.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1568,7 +1568,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc4c6.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1580,7 +1580,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc5.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -1596,7 +1596,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd1.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -1612,7 +1612,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd2d8.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1624,7 +1624,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd3d7.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1636,7 +1636,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd4d6.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1648,7 +1648,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd5.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1660,7 +1660,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade1.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1672,7 +1672,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade2e8.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -1688,7 +1688,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade3e7.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path folder)"
             },
             {
@@ -1704,7 +1704,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade4e6.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from folder path)"
             },
             {
@@ -1720,7 +1720,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade5.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1732,7 +1732,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf1.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1744,7 +1744,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf2f8.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -1760,7 +1760,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf3f7.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -1776,7 +1776,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf4f6.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1788,7 +1788,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf5.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -1804,7 +1804,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headg0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1816,7 +1816,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headh0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1828,7 +1828,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headi0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1840,7 +1840,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headj0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             },
             {
@@ -1856,7 +1856,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headk0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from folder name)"
             }
           ],
@@ -1868,7 +1868,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headl0.gif",
           "spriteAuthors": [
             {
-              "name": "raymoohawk",
+              "name": "Raymoohawk",
               "relation": "Artist (from path)"
             }
           ],
@@ -1889,7 +1889,7 @@
           "relation": "Original artist"
         },
         {
-          "name": "Mike Swanson",
+          "name": "Michael Swanson",
           "relation": "Committer (moved to attic)"
         }
       ],
@@ -1903,7 +1903,7 @@
               "relation": "Original artist (by folder path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -1919,7 +1919,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -1935,7 +1935,7 @@
               "relation": "Original artist (from path, matching CREDITS entry)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -1951,7 +1951,7 @@
               "relation": "Original artist (from path folder)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -1967,7 +1967,7 @@
               "relation": "Original artist (from folder name and CREDITS)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -1983,7 +1983,7 @@
               "relation": "Original artist (from folder name)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -1999,7 +1999,7 @@
               "relation": "Original artist (from folder name)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2015,7 +2015,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2031,7 +2031,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2047,7 +2047,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2063,7 +2063,7 @@
               "relation": "Original artist (from path and folder name)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2079,7 +2079,7 @@
               "relation": "Original artist (from folder path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2095,7 +2095,7 @@
               "relation": "Original artist (from path and CREDITS)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2111,7 +2111,7 @@
               "relation": "Original artist (from folder path and CREDITS entry)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2127,7 +2127,7 @@
               "relation": "Original artist (from path and CREDITS entry)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2143,7 +2143,7 @@
               "relation": "Original artist (from folder name)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2159,7 +2159,7 @@
               "relation": "Original artist (folder path indicates author)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2175,7 +2175,7 @@
               "relation": "Original artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2191,7 +2191,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2207,7 +2207,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2223,7 +2223,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2239,7 +2239,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2255,7 +2255,7 @@
               "relation": "Original artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2271,7 +2271,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2287,7 +2287,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2303,7 +2303,7 @@
               "relation": "Original artist (from path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2319,7 +2319,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2335,7 +2335,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2351,7 +2351,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2367,7 +2367,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2383,7 +2383,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2399,7 +2399,7 @@
               "relation": "Original artist (from folder name and CREDITS entry)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic per commit message)"
             }
           ],
@@ -2415,7 +2415,7 @@
               "relation": "Original artist (from folder path and CREDITS entry)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2431,7 +2431,7 @@
               "relation": "Original artist (folder path)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2447,7 +2447,7 @@
               "relation": "Original artist (from folder name and CREDITS entry)"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
@@ -2463,7 +2463,7 @@
               "relation": "Original artist"
             },
             {
-              "name": "Mike Swanson",
+              "name": "Michael Swanson",
               "relation": "Committer (moved to attic)"
             }
           ],
