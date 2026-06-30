@@ -8,14 +8,20 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/623ed61b01e6172442a8046df3d707211990c998",
       "commitSha": "623ed61b01e6172442a8046df3d707211990c998",
       "authors": [
-        "M015"
+        {
+          "name": "M015",
+          "relation": "Committer"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/keena0.png",
           "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keena0.png",
           "spriteAuthors": [
-            "M015"
+            {
+              "name": "M015",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -24,7 +30,10 @@
           "name": "sprites/keenb0.png",
           "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keenb0.png",
           "spriteAuthors": [
-            "M015"
+            {
+              "name": "M015",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -33,7 +42,10 @@
           "name": "sprites/keenc0.png",
           "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keenc0.png",
           "spriteAuthors": [
-            "M015"
+            {
+              "name": "M015",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -42,7 +54,10 @@
           "name": "sprites/keend0.png",
           "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keend0.png",
           "spriteAuthors": [
-            "M015"
+            {
+              "name": "M015",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -51,7 +66,10 @@
           "name": "sprites/keene0.png",
           "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keene0.png",
           "spriteAuthors": [
-            "M015"
+            {
+              "name": "M015",
+              "relation": "Committer (original upload in commit 623ed61)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -60,7 +78,10 @@
           "name": "sprites/keenf0.png",
           "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keenf0.png",
           "spriteAuthors": [
-            "M015"
+            {
+              "name": "M015",
+              "relation": "Committer (no additional attribution in commit message or path)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -69,7 +90,10 @@
           "name": "sprites/keeng0.png",
           "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keeng0.png",
           "spriteAuthors": [
-            "M015"
+            {
+              "name": "M015",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -78,7 +102,10 @@
           "name": "sprites/keenh0.png",
           "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keenh0.png",
           "spriteAuthors": [
-            "M015"
+            {
+              "name": "M015",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -87,7 +114,10 @@
           "name": "sprites/keeni0.png",
           "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keeni0.png",
           "spriteAuthors": [
-            "M015"
+            {
+              "name": "M015",
+              "relation": "Committer (commit 623ed61, via 'Add files via upload')"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -96,7 +126,10 @@
           "name": "sprites/keenj0.png",
           "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keenj0.png",
           "spriteAuthors": [
-            "M015"
+            {
+              "name": "M015",
+              "relation": "Committer (via upload commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -105,7 +138,10 @@
           "name": "sprites/keenk0.png",
           "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keenk0.png",
           "spriteAuthors": [
-            "M015"
+            {
+              "name": "M015",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -114,7 +150,10 @@
           "name": "sprites/keenl0.png",
           "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keenl0.png",
           "spriteAuthors": [
-            "M015"
+            {
+              "name": "M015",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -123,7 +162,10 @@
           "name": "sprites/keenm0.png",
           "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keenm0.png",
           "spriteAuthors": [
-            "M015"
+            {
+              "name": "M015",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -137,15 +179,24 @@
       "commitUrl": "https://github.com/freedoom/attic/commit/3145154efcc05396dde074d1e62d6fd2cda59340",
       "commitSha": "3145154efcc05396dde074d1e62d6fd2cda59340",
       "authors": [
-        "Georgy Samoilov"
+        {
+          "name": "Georgy Samoilov",
+          "relation": "Committer (Big update)"
+        },
+        {
+          "name": "mc776",
+          "relation": "Artist (from path)"
+        }
       ],
       "sprites": [
         {
           "name": "mc776/sprites/keena0.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/keena0.png",
           "spriteAuthors": [
-            "Georgy Samoilov",
-            "mc776"
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -154,8 +205,14 @@
           "name": "mc776/sprites/keenb0.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/keenb0.png",
           "spriteAuthors": [
-            "Georgy Samoilov",
-            "mc776"
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (via commit 3145154)"
+            },
+            {
+              "name": "mc776",
+              "relation": "Artist (from folder path)"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -164,8 +221,10 @@
           "name": "mc776/sprites/keenc0.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/keenc0.png",
           "spriteAuthors": [
-            "Georgy Samoilov",
-            "mc776"
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (commit 3145154, 'Big update')"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -174,8 +233,10 @@
           "name": "mc776/sprites/keend0.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/keend0.png",
           "spriteAuthors": [
-            "Georgy Samoilov",
-            "mc776"
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -184,8 +245,10 @@
           "name": "mc776/sprites/keene0.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/keene0.png",
           "spriteAuthors": [
-            "Georgy Samoilov",
-            "mc776"
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (3145154efcc05396dde074d1e62d6fd2cda59340, 'Big update')"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -194,8 +257,10 @@
           "name": "mc776/sprites/keenf0.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/keenf0.png",
           "spriteAuthors": [
-            "Georgy Samoilov",
-            "mc776"
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (commit 3145154efcc05396dde074d1e62d6fd2cda59340: 'Big update')"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -204,8 +269,14 @@
           "name": "mc776/sprites/keeng0.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/keeng0.png",
           "spriteAuthors": [
-            "Georgy Samoilov",
-            "mc776"
+            {
+              "name": "mc776",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -214,8 +285,14 @@
           "name": "mc776/sprites/keenh0.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/keenh0.png",
           "spriteAuthors": [
-            "Georgy Samoilov",
-            "mc776"
+            {
+              "name": "mc776",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (Big update commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -224,8 +301,10 @@
           "name": "mc776/sprites/keeni0.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/keeni0.png",
           "spriteAuthors": [
-            "Georgy Samoilov",
-            "mc776"
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (commit 3145154, 'Big update')"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -234,8 +313,14 @@
           "name": "mc776/sprites/keenj0.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/keenj0.png",
           "spriteAuthors": [
-            "Georgy Samoilov",
-            "mc776"
+            {
+              "name": "mc776",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -244,8 +329,10 @@
           "name": "mc776/sprites/keenk0.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/keenk0.png",
           "spriteAuthors": [
-            "Georgy Samoilov",
-            "mc776"
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -254,8 +341,10 @@
           "name": "mc776/sprites/keenl0.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/keenl0.png",
           "spriteAuthors": [
-            "Georgy Samoilov",
-            "mc776"
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (commit message: 'Big update')"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -264,8 +353,14 @@
           "name": "mc776/sprites/keenm0.png",
           "url": "https://github.com/freedoom/attic/blob/3145154efcc05396dde074d1e62d6fd2cda59340/mc776/sprites/keenm0.png",
           "spriteAuthors": [
-            "Georgy Samoilov",
-            "mc776"
+            {
+              "name": "mc776",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (Big update)"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -279,14 +374,24 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
       "commitSha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
       "authors": [
-        "Mike Swanson"
+        {
+          "name": "Mike Swanson",
+          "relation": "Committer (PNG conversion)"
+        },
+        {
+          "name": "keen",
+          "relation": "Artist (from path)"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/keena0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keena0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -295,7 +400,10 @@
           "name": "sprites/keenb0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keenb0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (conversion to PNG as per commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -304,7 +412,10 @@
           "name": "sprites/keenc0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keenc0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion per commit 9c6c6812)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -313,7 +424,10 @@
           "name": "sprites/keend0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keend0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -322,7 +436,10 @@
           "name": "sprites/keene0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keene0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion from GIF)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -331,7 +448,10 @@
           "name": "sprites/keenf0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keenf0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -340,7 +460,10 @@
           "name": "sprites/keeng0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keeng0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion in commit 9c6c6812)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -349,7 +472,10 @@
           "name": "sprites/keenh0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keenh0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted from GIF to PNG in commit 9c6c681)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -358,7 +484,10 @@
           "name": "sprites/keeni0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keeni0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted GIF to PNG per commit 9c6c681)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -367,7 +496,14 @@
           "name": "sprites/keenj0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keenj0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "keen",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -376,7 +512,10 @@
           "name": "sprites/keenk0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keenk0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -385,7 +524,10 @@
           "name": "sprites/keenl0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keenl0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted from GIF to PNG per commit 9c6c681)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -394,7 +536,10 @@
           "name": "sprites/keenm0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keenm0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -408,14 +553,20 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/dbd5404ffa29d22c095da0b54c73253a5c564329",
       "commitSha": "dbd5404ffa29d22c095da0b54c73253a5c564329",
       "authors": [
-        "Mike Swanson"
+        {
+          "name": "Mike Swanson",
+          "relation": "Committer (de-symlinkify: mazmon)"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/keena0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keena0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -424,7 +575,10 @@
           "name": "sprites/keenb0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keenb0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -433,7 +587,10 @@
           "name": "sprites/keenc0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keenc0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -442,7 +599,10 @@
           "name": "sprites/keend0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keend0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -451,7 +611,10 @@
           "name": "sprites/keene0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keene0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -460,7 +623,10 @@
           "name": "sprites/keenf0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keenf0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -469,7 +635,10 @@
           "name": "sprites/keeng0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keeng0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -478,7 +647,10 @@
           "name": "sprites/keenh0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keenh0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -487,7 +659,10 @@
           "name": "sprites/keeni0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keeni0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -496,7 +671,10 @@
           "name": "sprites/keenj0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keenj0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -505,7 +683,10 @@
           "name": "sprites/keenk0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keenk0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -514,7 +695,10 @@
           "name": "sprites/keenl0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keenl0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify of mazmon)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -523,7 +707,10 @@
           "name": "sprites/keenm0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keenm0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -537,15 +724,24 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/59813591803849d432efc205d3375e95840c0fc5",
       "commitSha": "59813591803849d432efc205d3375e95840c0fc5",
       "authors": [
-        "Reinaldo"
+        {
+          "name": "Reinaldo",
+          "relation": "Committer (revise explosion frames for jar destruction)"
+        },
+        {
+          "name": "mazmon",
+          "relation": "Artist (from path folder)"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/mazmon/keena0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keena0.gif",
           "spriteAuthors": [
-            "Reinaldo",
-            "mazmon"
+            {
+              "name": "Reinaldo",
+              "relation": "Committer (revise explosion frames for jar destruction)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -554,8 +750,14 @@
           "name": "sprites/mazmon/keenb0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keenb0.gif",
           "spriteAuthors": [
-            "Reinaldo",
-            "mazmon"
+            {
+              "name": "mazmon",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Reinaldo",
+              "relation": "Committer (revision of explosion frames)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -564,8 +766,14 @@
           "name": "sprites/mazmon/keenc0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keenc0.gif",
           "spriteAuthors": [
-            "Reinaldo",
-            "mazmon"
+            {
+              "name": "Reinaldo",
+              "relation": "Committer (revise explosion frames for jar destruction)"
+            },
+            {
+              "name": "mazmon",
+              "relation": "Artist (from folder path)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -574,8 +782,14 @@
           "name": "sprites/mazmon/keend0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keend0.gif",
           "spriteAuthors": [
-            "Reinaldo",
-            "mazmon"
+            {
+              "name": "Reinaldo",
+              "relation": "Committer (revise explosion frames for jar destruction)"
+            },
+            {
+              "name": "mazmon",
+              "relation": "Artist (from folder path)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -584,8 +798,10 @@
           "name": "sprites/mazmon/keene0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keene0.gif",
           "spriteAuthors": [
-            "Reinaldo",
-            "mazmon"
+            {
+              "name": "Reinaldo",
+              "relation": "Committer (revise explosion frames for jar destruction)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -594,8 +810,10 @@
           "name": "sprites/mazmon/keenf0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keenf0.gif",
           "spriteAuthors": [
-            "Reinaldo",
-            "mazmon"
+            {
+              "name": "Reinaldo",
+              "relation": "Committer ( revised explosion frames for keen in commit )"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -604,8 +822,10 @@
           "name": "sprites/mazmon/keeng0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keeng0.gif",
           "spriteAuthors": [
-            "Reinaldo",
-            "mazmon"
+            {
+              "name": "Reinaldo",
+              "relation": "Committer (revision of explosion frames for jar destruction)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -614,8 +834,14 @@
           "name": "sprites/mazmon/keenh0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keenh0.gif",
           "spriteAuthors": [
-            "Reinaldo",
-            "mazmon"
+            {
+              "name": "Reinaldo",
+              "relation": "Committer (revise explosion frames for jar destruction)"
+            },
+            {
+              "name": "mazmon",
+              "relation": "Artist (from path)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -624,8 +850,14 @@
           "name": "sprites/mazmon/keeni0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keeni0.gif",
           "spriteAuthors": [
-            "Reinaldo",
-            "mazmon"
+            {
+              "name": "Reinaldo",
+              "relation": "Committer (revision of explosion frames for Keen sprite)"
+            },
+            {
+              "name": "mazmon",
+              "relation": "Artist (from path)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -634,8 +866,14 @@
           "name": "sprites/mazmon/keenj0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keenj0.gif",
           "spriteAuthors": [
-            "Reinaldo",
-            "mazmon"
+            {
+              "name": "Reinaldo",
+              "relation": "Committer ( revised explosion frames for Keen-related sprite)"
+            },
+            {
+              "name": "mazmon",
+              "relation": "Artist (from path folder)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -644,8 +882,10 @@
           "name": "sprites/mazmon/keenk0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keenk0.gif",
           "spriteAuthors": [
-            "Reinaldo",
-            "mazmon"
+            {
+              "name": "Reinaldo",
+              "relation": "Committer (updated explosion frames for kee sprite)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -654,8 +894,10 @@
           "name": "sprites/mazmon/keenl0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keenl0.gif",
           "spriteAuthors": [
-            "Reinaldo",
-            "mazmon"
+            {
+              "name": "Reinaldo",
+              "relation": "Committer (revise explosion frames for jar destruction)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -664,8 +906,10 @@
           "name": "sprites/mazmon/keenm0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keenm0.gif",
           "spriteAuthors": [
-            "Reinaldo",
-            "mazmon"
+            {
+              "name": "Reinaldo",
+              "relation": "Committer (revise explosion frames for jar destruction)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -679,15 +923,20 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/139694848064dedbfd15e7ad157507b12e8000ea",
       "commitSha": "139694848064dedbfd15e7ad157507b12e8000ea",
       "authors": [
-        "Maz Hades"
+        {
+          "name": "Maz Hades",
+          "relation": "Committer (commit message: 'sprites: new keen sprites')"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/mazmon/keena0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keena0.gif",
           "spriteAuthors": [
-            "Maz Hades",
-            "mazmon"
+            {
+              "name": "Maz Hades",
+              "relation": "Artist (from folder path 'mazmon')"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -696,8 +945,14 @@
           "name": "sprites/mazmon/keenb0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keenb0.gif",
           "spriteAuthors": [
-            "Maz Hades",
-            "mazmon"
+            {
+              "name": "Maz Hades",
+              "relation": "Committer (commit 139694848064dedbfd15e7ad157507b12e8000ea: 'sprites: new keen sprites')"
+            },
+            {
+              "name": "Maz Hades",
+              "relation": "Artist (folder 'mazmon' implies authorship)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -706,8 +961,10 @@
           "name": "sprites/mazmon/keenc0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keenc0.gif",
           "spriteAuthors": [
-            "Maz Hades",
-            "mazmon"
+            {
+              "name": "Maz Hades",
+              "relation": "Committer (commit author; folder 'mazmon' suggests artist)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -716,8 +973,10 @@
           "name": "sprites/mazmon/keend0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keend0.gif",
           "spriteAuthors": [
-            "Maz Hades",
-            "mazmon"
+            {
+              "name": "Maz Hades",
+              "relation": "Committer (original sprite author per commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -726,8 +985,10 @@
           "name": "sprites/mazmon/keene0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keene0.gif",
           "spriteAuthors": [
-            "Maz Hades",
-            "mazmon"
+            {
+              "name": "Maz Hades",
+              "relation": "Committer (commit 139694848064dedbfd15e7ad157507b12e8000ea)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -736,8 +997,10 @@
           "name": "sprites/mazmon/keenf0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keenf0.gif",
           "spriteAuthors": [
-            "Maz Hades",
-            "mazmon"
+            {
+              "name": "Maz Hades",
+              "relation": "Committer (commit author); folder path indicates creator/maintainer of 'mazmon' content"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -746,8 +1009,10 @@
           "name": "sprites/mazmon/keeng0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keeng0.gif",
           "spriteAuthors": [
-            "Maz Hades",
-            "mazmon"
+            {
+              "name": "Maz Hades",
+              "relation": "Committer (by commit 139694848064dedbfd15e7ad157507b12e8000ea; sprite path 'mazmon/' implies origin)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -756,8 +1021,10 @@
           "name": "sprites/mazmon/keenh0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keenh0.gif",
           "spriteAuthors": [
-            "Maz Hades",
-            "mazmon"
+            {
+              "name": "Maz Hades",
+              "relation": "Committer (commit author; folder 'mazmon' indicates authorship)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -766,8 +1033,10 @@
           "name": "sprites/mazmon/keeni0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keeni0.gif",
           "spriteAuthors": [
-            "Maz Hades",
-            "mazmon"
+            {
+              "name": "Maz Hades",
+              "relation": "Artist (from folder path 'mazmon') and Committer (commit message: 'sprites: new keen sprites')"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -776,8 +1045,10 @@
           "name": "sprites/mazmon/keenj0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keenj0.gif",
           "spriteAuthors": [
-            "Maz Hades",
-            "mazmon"
+            {
+              "name": "Maz Hades",
+              "relation": "Artist (from path: 'mazmon' directory) and Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -786,8 +1057,10 @@
           "name": "sprites/mazmon/keenk0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keenk0.gif",
           "spriteAuthors": [
-            "Maz Hades",
-            "mazmon"
+            {
+              "name": "Maz Hades",
+              "relation": "Committer (author of commit introducing new Keen sprites)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -796,8 +1069,10 @@
           "name": "sprites/mazmon/keenl0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keenl0.gif",
           "spriteAuthors": [
-            "Maz Hades",
-            "mazmon"
+            {
+              "name": "Maz Hades",
+              "relation": "Artist (from folder name 'mazmon')"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -806,8 +1081,10 @@
           "name": "sprites/mazmon/keenm0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keenm0.gif",
           "spriteAuthors": [
-            "Maz Hades",
-            "mazmon"
+            {
+              "name": "Maz Hades",
+              "relation": "Committer (commit message: 'sprites: new keen sprites')"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -821,17 +1098,20 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b",
       "commitSha": "32ff1b5a74e263303d932c44ff9952c1c7ac3e1b",
       "authors": [
-        "Sodaholic"
+        {
+          "name": "Sodaholic",
+          "relation": "Original artist (Commander Keen cat replacement)"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/sodaholic/keena0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keena0.gif",
           "spriteAuthors": [
-            "Sodaholic",
-            "sodaholic",
-            "gmail",
-            "users"
+            {
+              "name": "Sodaholic",
+              "relation": "Original artist (Committer)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -840,10 +1120,10 @@
           "name": "sprites/sodaholic/keenb0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keenb0.gif",
           "spriteAuthors": [
-            "Sodaholic",
-            "sodaholic",
-            "gmail",
-            "users"
+            {
+              "name": "Sodaholic",
+              "relation": "Original artist (Committer)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -852,10 +1132,10 @@
           "name": "sprites/sodaholic/keenc0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keenc0.gif",
           "spriteAuthors": [
-            "Sodaholic",
-            "sodaholic",
-            "gmail",
-            "users"
+            {
+              "name": "Sodaholic",
+              "relation": "Original artist (Committer)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -864,10 +1144,10 @@
           "name": "sprites/sodaholic/keend0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keend0.gif",
           "spriteAuthors": [
-            "Sodaholic",
-            "sodaholic",
-            "gmail",
-            "users"
+            {
+              "name": "Sodaholic",
+              "relation": "Original artist (Committer)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -876,10 +1156,10 @@
           "name": "sprites/sodaholic/keene0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keene0.gif",
           "spriteAuthors": [
-            "Sodaholic",
-            "sodaholic",
-            "gmail",
-            "users"
+            {
+              "name": "Sodaholic",
+              "relation": "Original artist (completely original generic cat character, all pixels drawn from scratch)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -888,10 +1168,10 @@
           "name": "sprites/sodaholic/keenf0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keenf0.gif",
           "spriteAuthors": [
-            "Sodaholic",
-            "sodaholic",
-            "gmail",
-            "users"
+            {
+              "name": "Sodaholic",
+              "relation": "Original artist (Committer)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -900,10 +1180,10 @@
           "name": "sprites/sodaholic/keeng0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keeng0.gif",
           "spriteAuthors": [
-            "Sodaholic",
-            "sodaholic",
-            "gmail",
-            "users"
+            {
+              "name": "Sodaholic",
+              "relation": "Original artist and committer (explicitly stated: 'I threw together today... absolutely, every single pixel of the animation was done from scratch')"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -912,10 +1192,10 @@
           "name": "sprites/sodaholic/keenh0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keenh0.gif",
           "spriteAuthors": [
-            "Sodaholic",
-            "sodaholic",
-            "gmail",
-            "users"
+            {
+              "name": "Sodaholic",
+              "relation": "Original artist (Commander Keen cat replacement)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -924,10 +1204,10 @@
           "name": "sprites/sodaholic/keeni0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keeni0.gif",
           "spriteAuthors": [
-            "Sodaholic",
-            "sodaholic",
-            "gmail",
-            "users"
+            {
+              "name": "Sodaholic",
+              "relation": "Original artist (Committer)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -936,10 +1216,10 @@
           "name": "sprites/sodaholic/keenj0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keenj0.gif",
           "spriteAuthors": [
-            "Sodaholic",
-            "sodaholic",
-            "gmail",
-            "users"
+            {
+              "name": "Sodaholic",
+              "relation": "Original artist (entire sprite), Committer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -948,10 +1228,10 @@
           "name": "sprites/sodaholic/keenk0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keenk0.gif",
           "spriteAuthors": [
-            "Sodaholic",
-            "sodaholic",
-            "gmail",
-            "users"
+            {
+              "name": "Sodaholic",
+              "relation": "Original artist (Commander Keen cat replacement)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -960,10 +1240,10 @@
           "name": "sprites/sodaholic/keenl0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keenl0.gif",
           "spriteAuthors": [
-            "Sodaholic",
-            "sodaholic",
-            "gmail",
-            "users"
+            {
+              "name": "Sodaholic",
+              "relation": "Original artist (Committer)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -972,10 +1252,10 @@
           "name": "sprites/sodaholic/keenm0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keenm0.gif",
           "spriteAuthors": [
-            "Sodaholic",
-            "sodaholic",
-            "gmail",
-            "users"
+            {
+              "name": "Sodaholic",
+              "relation": "Original artist (Commander Keen cat replacement)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"

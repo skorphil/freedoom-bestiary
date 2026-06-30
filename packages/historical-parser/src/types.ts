@@ -2,26 +2,6 @@
  * @module parsers/types
  *
  * Core type definitions and exports for the historical-parser module.
- *
- * This module provides:
- * - Re-exports of all parser classes
- * - Shared type definitions for git operations
- * - Domain types for sprite versioning
- * - Pipeline output types
- *
- * @example
- * ```typescript
- * import {
- *   SpritePattern,
- *   GitReader,
- *   FreedomParser,
- *   type CommitSnapshot,
- *   type CharacterVersions
- * } from "./types.ts";
- *
- * const parser = new FreedomParser("/path/to/freedoom.git", "POSS");
- * const snapshots = await parser.parse();
- * ```
  */
 
 // Export interfaces for use in mocks
@@ -34,12 +14,13 @@ export type {
 } from "./SnapshotBuilder.ts";
 
 // Export classes
-export { AuthorResolver, SpritePattern } from "./SpritePattern.ts";
+export { SpritePattern } from "./SpritePattern.ts";
 export { GitReader } from "./GitReader.ts";
 export { CommitLogScanner } from "./CommitLogScanner.ts";
 export { SnapshotBuilder } from "./SnapshotBuilder.ts";
 export { AtticParser, BaseParser, FreedomParser } from "./BaseParser.ts";
 export { VersionCombiner } from "./VersionCombiner.ts";
+export { AuthorResolver } from "./AuthorResolver.ts";
 
 // Internal raw types (git output parsing)
 /**
@@ -64,6 +45,16 @@ export type SpriteState = "new" | "updated" | "unchanged";
 export type CommitSource = "attic" | "freedoom";
 
 /**
+ * Author information with relationship context.
+ */
+export type AuthorInfo = {
+  /** The name of the author */
+  name: string;
+  /** Concise explanation of relation to sprite */
+  relation: string;
+};
+
+/**
  * Represents a sprite entry in a version snapshot.
  * Contains information about a specific sprite frame.
  */
@@ -73,7 +64,7 @@ export type SpriteEntry = {
   /** URL to the sprite image */
   url: string;
   /** Authors who created/modified this sprite */
-  spriteAuthors: string[];
+  spriteAuthors: AuthorInfo[];
   /** State of the sprite (new, updated, unchanged) */
   spriteState: SpriteState;
   /** Source repository (freedoom or attic) */
@@ -95,8 +86,8 @@ export type CharacterVersionSnapshot = {
   commitUrl: string;
   /** Commit SHA hash */
   commitSha: string;
-  /** Commit authors */
-  authors: string[];
+  /** Commit authors for this snapshot */
+  authors: AuthorInfo[];
   /** Array of sprite entries for this version */
   sprites: SpriteEntry[];
 };

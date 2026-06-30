@@ -1,4 +1,14 @@
 /**
+ * Represents an author with a name and their relation to the work.
+ */
+export type Author = {
+  /** The name of the author */
+  name: string;
+  /** The relation of the author to the work (e.g. "Committer", "Original artist") */
+  relation?: string;
+};
+
+/**
  * Represents a file in a version with its name, URL, and metadata.
  */
 export interface VersionFile {
@@ -7,7 +17,7 @@ export interface VersionFile {
   /** The URL where the file can be accessed */
   url: string;
   /** The authors of the sprite (if available) */
-  spriteAuthors?: string[];
+  spriteAuthors?: Author[];
   /** The state of the sprite (e.g. "unchanged", "new", "updated") */
   spriteState?: string;
 }
@@ -23,7 +33,7 @@ export interface Version {
   /** The URL of the commit */
   url: string;
   /** The authors of the commit */
-  authors: string[];
+  authors: Author[];
   /** The commit message */
   message: string;
   /** The source repository */
@@ -95,7 +105,7 @@ export interface SpriteEntry {
   /** The height of the sprite in pixels */
   height: number;
   /** The authors of the sprite */
-  authors?: string[];
+  authors?: Author[];
   /** The state of the sprite */
   state?: string;
   /** The remote Git URL of the sprite */
@@ -111,7 +121,7 @@ export interface VersionEntry {
   /** The SHA hash of the commit */
   sha: string;
   /** The authors of the commit */
-  authors: string[];
+  authors: Author[];
   /** The commit message */
   commitMessage: string;
   /** The URL of the commit */

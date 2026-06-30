@@ -72,7 +72,18 @@ export default function CharacterDetail() {
               <div className={styles.metaGroup}>
                 <div className={styles.metaLabel}>Authors</div>
                 <div className={styles.metaValue}>
-                  {bestiary.getUniqueAuthors(version).join(", ")}
+                  <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
+                    {bestiary.getAuthorsWithRelations(version).map((author, i) => (
+                      <li key={i} style={{ marginBottom: '4px' }}>
+                        <strong>{author.name}</strong>
+                        {author.relation && (
+                          <span style={{ display: 'block', fontSize: '0.75rem', color: '#888', fontStyle: 'italic' }}>
+                            {author.relation}
+                          </span>
+                        )}
+                      </li>
+                    ))}
+                  </ul>
                 </div>
               </div>
 

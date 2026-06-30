@@ -7,6 +7,10 @@
   },
   "scripts": {
     "test": "bun test",
-    "parse": "bun run src/index.ts --write"
+    "parse": "bun run src/index.ts --write",
+    "parse:no-ai": "bun run src/index.ts --write --no-ai"
+  },
+  "devDependencies": {
+    "dotenv": "^17.4.2"
   }
 }

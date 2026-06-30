@@ -5,6 +5,7 @@
 
 import type {
   CharacterVersions,
+  CharacterVersionSnapshot,
   CommitLogScannerOptions,
   CommitSnapshot,
   CommitSource,
@@ -13,6 +14,7 @@ import type {
   SnapshotBuilderOptions,
   SpriteEntry,
   SpriteState,
+  AuthorInfo,
 } from "../src/types.ts";
 import type { TreeEntry } from "../src/GitReader.ts";
 
@@ -30,7 +32,7 @@ export const TEST_COMMIT_MESSAGE = "Add new sprite frames";
 export function createMockSpritePattern(code: string) {
   // Lightweight mock that matches the minimal SpritePattern surface used by tests
   const upper = code.toUpperCase();
-  const regex = new RegExp(`${upper}[a-z]\d.*\.(png|gif)$`, "i");
+  const regex = new RegExp(`${upper}[a-z]\\d.*\\.(png|gif)$`, "i");
 
   return {
     code: upper,
@@ -71,41 +73,15 @@ export function createMockSpritePattern(code: string) {
  */
 export function createMockAuthorResolver() {
   return {
-    resolveAuthor: (filePath: string, commitAuthor: string): string => {
-      const segments = filePath.split("/").filter((s) => s.length > 0);
-      const spritesIndex = segments.findIndex((s) => s === "sprites");
-
-      if (spritesIndex === -1) {
-        return commitAuthor;
+    init: async () => {},
+    resolveAuthorsBatch: async (context: any, sprites: any[]) => {
+      const mapping: Record<string, AuthorInfo[]> = {};
+      for (const s of sprites) {
+        mapping[s.url] = [{ name: context.author, relation: "Mock" }];
       }
-
-      // Shape 4: <author>/sprites/<file>
-      if (spritesIndex === 1) {
-        const potentialAuthor = segments[0];
-        const isDirectory = (segment: string): boolean => {
-          return !segment.includes(".") || segment.endsWith("/");
-        };
-        if (isDirectory(potentialAuthor)) {
-          return potentialAuthor;
-        }
-      }
-
-      // Shape 2 & 3: sprites/<author>/<file> or sprites/<author>/<sub>/<file>
-      if (spritesIndex === 0 && segments.length > 1) {
-        const nextSegment = segments[1];
-        const isDirectory = (segment: string): boolean => {
-          return !segment.includes(".") || segment.endsWith("/");
-        };
-        if (isDirectory(nextSegment) && nextSegment !== "sprites") {
-          if (!nextSegment.includes(".")) {
-            return nextSegment;
-          }
-        }
-      }
-
-      // Shape 1: sprites/<file>
-      return commitAuthor;
+      return mapping;
     },
+    saveCache: async () => {},
   };
 }
 
@@ -132,7 +108,7 @@ export function createMockGitReader(
       }
     },
     getTreeEntries: async (
-      sha: string,
+      _sha: string,
       folderPath?: string,
     ): Promise<TreeEntry[]> => {
       if (folderPath) {
@@ -175,9 +151,9 @@ export function createMockTreeEntry(
  * @returns A mock CommitLogScanner implementation
  */
 export function createMockCommitLogScanner(
-  reader: any,
-  pattern: any,
-  options: CommitLogScannerOptions,
+  _reader: any,
+  _pattern: any,
+  _options: CommitLogScannerOptions,
 ) {
   return {
     scan: async function* (): AsyncGenerator<ScanUnit> {
@@ -219,23 +195,34 @@ export function createMockSnapshotBuilder(
 
       // Fallback matching logic: try to use pattern.matches when available,
       // otherwise do a permissive match using the pattern.code.
-      const spriteFiles = treeEntries
+      const candidates = treeEntries
         .filter((entry: TreeEntry) => {
           if (typeof pattern.matches === "function") return pattern.matches(entry.path);
           const base = entry.path.split("/").pop() || "";
           return base.toLowerCase().includes((pattern.code || "").toLowerCase());
         })
         .map((entry: TreeEntry) => ({
-          code: pattern.code,
-          filename: entry.path,
+          entry,
           url: `${options.githubBaseUrl}/blob/${unit.sha}/${entry.path}`,
           status: (unit.changesMap.get(entry.path) as FileStatus) || "Existing",
-          authorName: unit.author,
         }));
 
-      if (spriteFiles.length === 0) {
+      if (candidates.length === 0) {
         return null;
       }
+
+      const authorMapping = await resolver.resolveAuthorsBatch(
+        { author: unit.author, message: unit.message, sha: unit.sha },
+        candidates.map((c: any) => ({ url: c.url, path: c.entry.path }))
+      );
+
+      const spriteFiles = candidates.map((c: any) => ({
+        code: pattern.code,
+        filename: c.entry.path,
+        url: c.url,
+        status: c.status,
+        authorNames: authorMapping[c.url] || [],
+      }));
 
       return {
         commitDate: unit.date,
@@ -263,7 +250,7 @@ export function createMockCommitSnapshot(
   date: string,
   source: CommitSource,
   sprites: Array<
-    { code: string; filename: string; url: string; status: FileStatus; authorName?: string }
+    { code: string; filename: string; url: string; status: FileStatus; authorNames?: AuthorInfo[] }
   >,
 ): CommitSnapshot {
   return {
@@ -278,7 +265,7 @@ export function createMockCommitSnapshot(
       filename: s.filename,
       url: s.url,
       status: s.status,
-      authorName: s.authorName || TEST_COMMIT_AUTHOR,
+      authorNames: s.authorNames || [{ name: TEST_COMMIT_AUTHOR, relation: "Mock" }],
     })),
   };
 }
@@ -331,16 +318,16 @@ export const ATTIC_BUILDER_OPTIONS: SnapshotBuilderOptions = {
  * @param gitRepoPath - Path to the git repository
  * @param spriteCode - The sprite code (e.g., "POSS", "CYBR")
  * @param source - The commit source ("freedoom" or "attic")
- * @param scannerOptions - Scanner options
- * @param builderOptions - Builder options
+ * @param _scannerOptions - Scanner options
+ * @param _builderOptions - Builder options
  * @returns A mock BaseParser implementation
  */
 export function createMockBaseParser(
   gitRepoPath: string,
   spriteCode: string,
   source: "freedoom" | "attic",
-  scannerOptions: CommitLogScannerOptions,
-  builderOptions: SnapshotBuilderOptions,
+  _scannerOptions: CommitLogScannerOptions,
+  _builderOptions: SnapshotBuilderOptions,
 ) {
   const reader = createMockGitReader(gitRepoPath);
   const pattern = createMockSpritePattern(spriteCode);
@@ -461,7 +448,7 @@ export function createMockVersionCombiner(code: string) {
         frameState.set(frameKey, {
           name: sprite.filename.split("/").pop() || "",
           url: sprite.url,
-          spriteAuthor: author,
+          spriteAuthors: [{ name: author, relation: "Mock" }],
           spriteState: state,
         });
         changed = true;
@@ -475,11 +462,11 @@ export function createMockVersionCombiner(code: string) {
     frameState: Map<string, SpriteEntry>,
   ) => {
     const sprites: SpriteEntry[] = [];
-    frameState.forEach((entry, frameKey) => {
+    frameState.forEach((entry, _frameKey) => {
       sprites.push({
         name: entry.name,
         url: entry.url,
-        spriteAuthor: entry.spriteAuthor,
+        spriteAuthors: entry.spriteAuthors,
         spriteState: entry.spriteState,
       });
     });
@@ -490,6 +477,7 @@ export function createMockVersionCombiner(code: string) {
       commitSource: snapshot.commitSource,
       commitUrl: snapshot.commitUrl,
       commitSha: snapshot.commitSha,
+      authors: [{ name: snapshot.commitAuthor, relation: "Mock" }],
       sprites,
     };
   };
@@ -501,14 +489,7 @@ export function createMockVersionCombiner(code: string) {
       atticSnapshots: CommitSnapshot[],
     ): CharacterVersions => {
       const frameState = new Map<string, SpriteEntry>();
-      const versions: Array<{
-        commitDate: string;
-        commitMessage: string;
-        commitSource: CommitSource;
-        commitUrl: string;
-        commitSha: string;
-        sprites: SpriteEntry[];
-      }> = [];
+      const versions: CharacterVersionSnapshot[] = [];
 
       const allSnapshots = [...freedomSnapshots, ...atticSnapshots]
         .sort((a, b) =>

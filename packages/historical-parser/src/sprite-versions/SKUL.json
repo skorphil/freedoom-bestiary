@@ -8,14 +8,28 @@
       "commitUrl": "https://github.com/freedoom/attic/commit/f8f3370f718c6823ba8441c5f5cdec0a5c16a884",
       "commitSha": "f8f3370f718c6823ba8441c5f5cdec0a5c16a884",
       "authors": [
-        "Georgy Samoilov"
+        {
+          "name": "Georgy Samoilov",
+          "relation": "Committer"
+        },
+        {
+          "name": "Fredrik Johansson",
+          "relation": "Artist (from path: 'fredrik/deadflare')"
+        }
       ],
       "sprites": [
         {
           "name": "fredrik/deadflare/skula1.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skula1.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (by f8f3370f)"
+            },
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path 'fredrik' folder; matches CREDITS entry)"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -24,7 +38,14 @@
           "name": "fredrik/deadflare/skula5.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skula5.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path and CREDITS)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -33,7 +54,14 @@
           "name": "fredrik/deadflare/skula6a4.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skula6a4.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -42,7 +70,14 @@
           "name": "fredrik/deadflare/skula7a3.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skula7a3.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path 'fredrik', matches CREDITS)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (commit author, 'Another big update')"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -51,7 +86,14 @@
           "name": "fredrik/deadflare/skula8a2.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skula8a2.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path folder 'fredrik' and name 'deadflare')"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -60,7 +102,14 @@
           "name": "fredrik/deadflare/skulb1.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulb1.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -69,7 +118,10 @@
           "name": "fredrik/deadflare/skulb5.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulb5.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (SHA f8f3370f)"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -78,7 +130,14 @@
           "name": "fredrik/deadflare/skulb6b4.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulb6b4.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from folder path)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -87,7 +146,14 @@
           "name": "fredrik/deadflare/skulb7b3.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulb7b3.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path and CREDITS)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -96,7 +162,14 @@
           "name": "fredrik/deadflare/skulb8b2.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulb8b2.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path: fredrik/deadflare)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -105,7 +178,14 @@
           "name": "fredrik/deadflare/skulc1.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulc1.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -114,7 +194,14 @@
           "name": "fredrik/deadflare/skulc5.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulc5.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            },
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path and CREDITS entry)"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -123,7 +210,14 @@
           "name": "fredrik/deadflare/skulc6c4.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulc6c4.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (commit author; no other attribution found)"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -132,7 +226,14 @@
           "name": "fredrik/deadflare/skulc7c3.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulc7c3.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path 'fredrik' and CREDITS entry)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (f8f3370: 'Another big update')"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -141,7 +242,14 @@
           "name": "fredrik/deadflare/skulc8c2.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulc8c2.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path 'fredrik/deadflare/')"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (commit f8f3370f718c6823ba8441c5f5cdec0a5c16a884)"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -150,7 +258,14 @@
           "name": "fredrik/deadflare/skuld1.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuld1.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from folder name)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -159,7 +274,14 @@
           "name": "fredrik/deadflare/skuld5.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuld5.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            },
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path 'fredrik', matches CREDITS entry)"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -168,7 +290,14 @@
           "name": "fredrik/deadflare/skuld6d4.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuld6d4.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path and CREDITS)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -177,7 +306,14 @@
           "name": "fredrik/deadflare/skuld7d3.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuld7d3.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path and CREDITS)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -186,7 +322,14 @@
           "name": "fredrik/deadflare/skuld8d2.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuld8d2.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from folder path)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -195,7 +338,14 @@
           "name": "fredrik/deadflare/skule1.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skule1.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path and CREDITS)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (commit f8f3370f)"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -204,7 +354,14 @@
           "name": "fredrik/deadflare/skule5.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skule5.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (from path folder 'fredrik' and name 'deadflare')"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -213,7 +370,14 @@
           "name": "fredrik/deadflare/skule6e4.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skule6e4.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path 'fredrik/deadflare')"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -222,7 +386,14 @@
           "name": "fredrik/deadflare/skule7e3.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skule7e3.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path 'fredrik/deadflare/')"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (commit f8f3370, 'Another big update')"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -231,7 +402,14 @@
           "name": "fredrik/deadflare/skule8e2.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skule8e2.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path folder 'fredrik/deadflare')"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -240,7 +418,14 @@
           "name": "fredrik/deadflare/skulf0.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulf0.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (from path / folder name)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -249,7 +434,14 @@
           "name": "fredrik/deadflare/skulg0.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulg0.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path and CREDITS: fredrik.johansson@gmail.com, D: textures, sprites)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (commit author; no conflicting attribution in message)"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -258,7 +450,14 @@
           "name": "fredrik/deadflare/skulh0.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulh0.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path 'fredrik/deadflare')"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (via commit f8f3370f)"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -267,7 +466,14 @@
           "name": "fredrik/deadflare/skuli0.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuli0.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -276,7 +482,14 @@
           "name": "fredrik/deadflare/skulj0.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulj0.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path and CREDITS entry)"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer (fallback: commit author)"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -285,7 +498,14 @@
           "name": "fredrik/deadflare/skulk0.png",
           "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulk0.png",
           "spriteAuthors": [
-            "Georgy Samoilov"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path: 'fredrik/deadflare')"
+            },
+            {
+              "name": "Georgy Samoilov",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "attic"
@@ -299,15 +519,20 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/54e555bc89ac4cda89ae88d28228c107be22142f",
       "commitSha": "54e555bc89ac4cda89ae88d28228c107be22142f",
       "authors": [
-        "mc776"
+        {
+          "name": "mc776",
+          "relation": "Committer (updated animation timing for Skulk death explosion)"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/skula1.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skula1.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated explosion animation)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -316,8 +541,10 @@
           "name": "sprites/skula5.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skula5.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated animation logic for hatchling/octoball explosions)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -326,8 +553,10 @@
           "name": "sprites/skula6a4.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skula6a4.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (Updated explosion frames for hatchling/octoball)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -336,8 +565,10 @@
           "name": "sprites/skula7a3.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skula7a3.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (Updated explosion timing for hatchling/octoball)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -346,8 +577,10 @@
           "name": "sprites/skula8a2.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skula8a2.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated animation timing for hatchling/octoball explosions)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -356,8 +589,10 @@
           "name": "sprites/skulb1.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulb1.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (adjusts hatchling/octoball explosion timing; skulb1 is part of hatchling/octoball death animations)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -366,8 +601,10 @@
           "name": "sprites/skulb5.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulb5.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated animation frames for hatchling/octoball explosion snappiness)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -376,8 +613,10 @@
           "name": "sprites/skulb6b4.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulb6b4.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated explosion frames for hatchling/octoball death animations)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -386,8 +625,10 @@
           "name": "sprites/skulb7b3.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulb7b3.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated animation frames for hatchling/octoball explosions)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -396,8 +637,10 @@
           "name": "sprites/skulb8b2.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulb8b2.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated explosion frames per #1220)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -406,8 +649,10 @@
           "name": "sprites/skulc1.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulc1.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated explosion timing and frames for hatchling/octoball death animations)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -416,8 +661,10 @@
           "name": "sprites/skulc5.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulc5.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated explosion animation for hatchling/octoball)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -426,8 +673,10 @@
           "name": "sprites/skulc6c4.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulc6c4.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated explosion animation frames as part of #1220)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -436,8 +685,10 @@
           "name": "sprites/skulc7c3.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulc7c3.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated animation frames for hatchling/octoball explosions)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -446,8 +697,10 @@
           "name": "sprites/skulc8c2.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulc8c2.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated explosion animation)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -456,8 +709,10 @@
           "name": "sprites/skuld1.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skuld1.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (skull/skuld explosion updates)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -466,8 +721,10 @@
           "name": "sprites/skuld5.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skuld5.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated animation frames for hatchling/octoball explosions)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -476,8 +733,10 @@
           "name": "sprites/skuld6d4.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skuld6d4.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated animation for Skuld hatchling/octoball explosion frames)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -486,8 +745,10 @@
           "name": "sprites/skuld7d3.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skuld7d3.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated animation timing and explosion behavior for skull missile death)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -496,8 +757,10 @@
           "name": "sprites/skuld8d2.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skuld8d2.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated explosion frames as part of PR #1220)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -506,8 +769,10 @@
           "name": "sprites/skule1.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skule1.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated animation timing for Skullette explosion)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -516,8 +781,10 @@
           "name": "sprites/skule5.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skule5.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated explosion animation for hatchling/octoball)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -526,8 +793,10 @@
           "name": "sprites/skule6e4.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skule6e4.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated animation logic in commit 54e555b)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -536,8 +805,10 @@
           "name": "sprites/skule7e3.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skule7e3.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated animation timing for hatchling/octoball explosions)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -546,8 +817,10 @@
           "name": "sprites/skule8e2.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skule8e2.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated explosion timing and animation for hatchling/octoball)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -556,8 +829,10 @@
           "name": "sprites/skulf0.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulf0.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated animation timing and frames for hatchling/octoball explosions)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -566,8 +841,10 @@
           "name": "sprites/skulg0.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulg0.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated animation timing; PR #1220)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -576,8 +853,10 @@
           "name": "sprites/skulh0.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulh0.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated explosion animation, per commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -586,8 +865,10 @@
           "name": "sprites/skuli0.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skuli0.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (modified hatchling/octoball explosion animations)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -596,8 +877,10 @@
           "name": "sprites/skulj0.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulj0.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated animation timing; see commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -606,8 +889,10 @@
           "name": "sprites/skulk0.png",
           "url": "https://github.com/freedoom/freedoom/blob/54e555bc89ac4cda89ae88d28228c107be22142f/sprites/skulk0.png",
           "spriteAuthors": [
-            "mc776",
-            "a"
+            {
+              "name": "mc776",
+              "relation": "Committer (updated animation timing for Skulk death explosion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -621,14 +906,20 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/57246cae8f7901d4bc63072f9632685d1e3b507d",
       "commitSha": "57246cae8f7901d4bc63072f9632685d1e3b507d",
       "authors": [
-        "Steven Elliott"
+        {
+          "name": "Steven Elliott",
+          "relation": "Committer (fixed legacy transparency and normalized PNG)"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/skula1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skula1.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette and transparency normalization fix)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -637,7 +928,10 @@
           "name": "sprites/skula5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skula5.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (performs PNG palette normalization and legacy transparency fix per commit)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -646,7 +940,10 @@
           "name": "sprites/skula6a4.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skula6a4.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (PNG transparency/normalization commit)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -655,7 +952,10 @@
           "name": "sprites/skula7a3.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skula7a3.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (/png: Map color 255 to color 133)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -664,7 +964,10 @@
           "name": "sprites/skula8a2.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skula8a2.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (fix-legacy-transparency-pngs and PNG normalization)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -673,7 +976,10 @@
           "name": "sprites/skulb1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulb1.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (performed PNG normalization and transparency fix per commit 57246ca)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -682,7 +988,10 @@
           "name": "sprites/skulb5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulb5.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (legacy transparency fix and normalization per commit 57246cae)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -691,7 +1000,10 @@
           "name": "sprites/skulb6b4.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulb6b4.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette/legacy transparency fix via commit)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -700,7 +1012,10 @@
           "name": "sprites/skulb7b3.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulb7b3.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (performed PNG normalization and legacy transparency fix)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -709,7 +1024,10 @@
           "name": "sprites/skulb8b2.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulb8b2.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (legacy transparency fix and PNG normalization)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -718,7 +1036,10 @@
           "name": "sprites/skulc1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulc1.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette/legacy transparency fix)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -727,7 +1048,10 @@
           "name": "sprites/skulc5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulc5.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (png: Map color 255 to color 133, normalize PNGs)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -736,7 +1060,10 @@
           "name": "sprites/skulc6c4.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulc6c4.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (PNG transparency fix via fix-legacy-transparency-pngs and normalization)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -745,7 +1072,10 @@
           "name": "sprites/skulc7c3.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulc7c3.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (fixed legacy transparency: mapped color 255 to 133, normalized PNG)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -754,7 +1084,10 @@
           "name": "sprites/skulc8c2.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulc8c2.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette and PNG normalization fix)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -763,7 +1096,10 @@
           "name": "sprites/skuld1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuld1.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette fix via fix-legacy-transparency-pngs, PNG normalization)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -772,7 +1108,10 @@
           "name": "sprites/skuld5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuld5.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (fixed legacy transparency mapping and PNG normalization)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -781,7 +1120,10 @@
           "name": "sprites/skuld6d4.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuld6d4.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette transparency fix per commit #1003)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -790,7 +1132,10 @@
           "name": "sprites/skuld7d3.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuld7d3.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (PNG normalization and legacy transparency fix)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -799,7 +1144,10 @@
           "name": "sprites/skuld8d2.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuld8d2.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette/transparency fix via make target fix-legacy-transparency-pngs)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -808,7 +1156,10 @@
           "name": "sprites/skule1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skule1.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (performs PNG normalization and transparency fix)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -817,7 +1168,10 @@
           "name": "sprites/skule5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skule5.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (color 255 → 133 transparency fix and PNG normalization per #1003)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -826,7 +1180,10 @@
           "name": "sprites/skule6e4.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skule6e4.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (transparency and PNG normalization fix)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -835,7 +1192,10 @@
           "name": "sprites/skule7e3.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skule7e3.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (legacy transparency PNG fix via fix-legacy-transparency-pngs and normalization)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -844,7 +1204,10 @@
           "name": "sprites/skule8e2.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skule8e2.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (PNG palette transparency fix via commit 57246cae)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -853,7 +1216,10 @@
           "name": "sprites/skulf0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulf0.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette fix: mapping color 255 to color 133 and normalization as per fix-legacy-transparency-pngs and fix-deutex-pngs targets)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -862,7 +1228,10 @@
           "name": "sprites/skulg0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulg0.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (fix-legacy-transparency-pngs, fix-deutex-pngs)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -871,7 +1240,10 @@
           "name": "sprites/skulh0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulh0.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (fixed legacy transparency mapping and PNG normalization)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -880,7 +1252,10 @@
           "name": "sprites/skuli0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuli0.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette/legacy transparency fix)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -889,7 +1264,10 @@
           "name": "sprites/skulj0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulj0.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette transparency fix)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -898,7 +1276,10 @@
           "name": "sprites/skulk0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulk0.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (fixed legacy transparency and normalized PNG)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -912,17 +1293,44 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/19cf9d2dedf378108d44ff7885df33c4878b6197",
       "commitSha": "19cf9d2dedf378108d44ff7885df33c4878b6197",
       "authors": [
-        "HorroMovieGuy"
+        {
+          "name": "HorroMovieGuy",
+          "relation": "Committer"
+        },
+        {
+          "name": "Korp",
+          "relation": "Artist"
+        },
+        {
+          "name": "HorrorMovieRei",
+          "relation": "Artist"
+        },
+        {
+          "name": "mc776",
+          "relation": "Sound contributor (for death sound sync, referenced in commit message)"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/skula1.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skula1.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer"
+            },
+            {
+              "name": "Korp",
+              "relation": "Artist (new Summoner/Matribite and Dead Flare/Hatchling sprites)"
+            },
+            {
+              "name": "HorrorMovieRei",
+              "relation": "Artist (new Summoner/Matribite and Dead Flare/Hatchling sprites)"
+            },
+            {
+              "name": "mc776",
+              "relation": "Death sound synchronization (for Matribite)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -931,10 +1339,18 @@
           "name": "sprites/skula5.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skula5.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer (commit includes new Summoner and Dead Flare sprites; skula5.png is part of that batch)"
+            },
+            {
+              "name": "Korp",
+              "relation": "Artist (new monster sprites by Korp per commit message)"
+            },
+            {
+              "name": "HorrorMovieRei",
+              "relation": "Artist (new monster sprites by HorrorMovieRei per commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -943,10 +1359,14 @@
           "name": "sprites/skula6a4.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skula6a4.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "Korp",
+              "relation": "Original artist"
+            },
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer (commit author)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -955,10 +1375,14 @@
           "name": "sprites/skula7a3.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skula7a3.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer"
+            },
+            {
+              "name": "Korp",
+              "relation": "Original artist"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -967,10 +1391,18 @@
           "name": "sprites/skula8a2.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skula8a2.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer"
+            },
+            {
+              "name": "Korp",
+              "relation": "Original artist"
+            },
+            {
+              "name": "HorrorMovieRei",
+              "relation": "Original artist"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -979,10 +1411,18 @@
           "name": "sprites/skulb1.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulb1.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer"
+            },
+            {
+              "name": "Korp",
+              "relation": "Artist (via commit message)"
+            },
+            {
+              "name": "HorrorMovieRei",
+              "relation": "Artist (via commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -991,10 +1431,14 @@
           "name": "sprites/skulb5.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulb5.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "Korp",
+              "relation": "Original artist"
+            },
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1003,10 +1447,14 @@
           "name": "sprites/skulb6b4.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulb6b4.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer"
+            },
+            {
+              "name": "Korp",
+              "relation": "Artist (per commit message referencing monster sprites by Korp)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1015,10 +1463,18 @@
           "name": "sprites/skulb7b3.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulb7b3.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer (commit message indicates monster sprites by Korp and HorrorMovieRei)"
+            },
+            {
+              "name": "Korp",
+              "relation": "Artist (monster sprites by Korp and HorrorMovieRei)"
+            },
+            {
+              "name": "HorrorMovieRei",
+              "relation": "Artist (monster sprites by Korp and HorrorMovieRei)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1027,10 +1483,14 @@
           "name": "sprites/skulb8b2.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulb8b2.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "Korp",
+              "relation": "Original artist (according to commit message)"
+            },
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer (commit author)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1039,10 +1499,10 @@
           "name": "sprites/skulc1.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulc1.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer (based on commit message and authorship context)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1051,10 +1511,10 @@
           "name": "sprites/skulc5.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulc5.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1063,10 +1523,22 @@
           "name": "sprites/skulc6c4.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulc6c4.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer (based on commit metadata; associated with Summoner and Dead Flare sprites, and the death sound sync update by mc776)"
+            },
+            {
+              "name": "Korp",
+              "relation": "Artist (explicitly credited in commit message for monster sprites, including this one as part of Summoner/Dead Flare update)"
+            },
+            {
+              "name": "HorrorMovieRei",
+              "relation": "Artist (explicitly credited in commit message for monster sprites alongside Korp)"
+            },
+            {
+              "name": "mc776",
+              "relation": "Audio contributor (tinkered death sound to sync with new animation — though not directly the sprite, context ties to the same feature set)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1075,10 +1547,18 @@
           "name": "sprites/skulc7c3.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulc7c3.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "Korp",
+              "relation": "Artist (new monster sprites)"
+            },
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer (commit author); contributed to death sound synchronization (per commit message)"
+            },
+            {
+              "name": "mc776",
+              "relation": "Death sound creator (synced to new animation)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1087,10 +1567,18 @@
           "name": "sprites/skulc8c2.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulc8c2.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer (commit includes new monster sprites for Summoner and Dead Flare, and mentions 'New monster sprites by Korp and HorrorMovieRei')"
+            },
+            {
+              "name": "Korp",
+              "relation": "Artist (new monster sprites)"
+            },
+            {
+              "name": "HorrorMovieRei",
+              "relation": "Artist (new monster sprites)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1099,10 +1587,14 @@
           "name": "sprites/skuld1.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skuld1.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "Korp",
+              "relation": "Original artist"
+            },
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer (HorroMovieRei & Korp's work for Summoner/Matribite and Dead Flare/Hatchling)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1111,10 +1603,18 @@
           "name": "sprites/skuld5.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skuld5.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer"
+            },
+            {
+              "name": "Korp",
+              "relation": "Artist"
+            },
+            {
+              "name": "HorrorMovieRei",
+              "relation": "Artist"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1123,10 +1623,14 @@
           "name": "sprites/skuld6d4.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skuld6d4.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "Korp",
+              "relation": "Artist (Skuld monster sprite)"
+            },
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1135,10 +1639,18 @@
           "name": "sprites/skuld7d3.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skuld7d3.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer (commit message indicates new monster sprites by Korp and HorrorMovieRei; this file is likely part of those additions)"
+            },
+            {
+              "name": "Korp",
+              "relation": "Artist (new monster sprites credited to Korp and HorrorMovieRei in commit message)"
+            },
+            {
+              "name": "HorrorMovieRei",
+              "relation": "Artist (new monster sprites credited to Korp and HorrorMovieRei in commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1147,10 +1659,14 @@
           "name": "sprites/skuld8d2.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skuld8d2.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer (commit author); Skuld sprite as part of Summoner/Dead Flare update"
+            },
+            {
+              "name": "Korp",
+              "relation": "Original artist (per commit message: 'New monster sprites by Korp and HorrorMovieRei')"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1159,10 +1675,10 @@
           "name": "sprites/skule1.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skule1.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1171,10 +1687,18 @@
           "name": "sprites/skule5.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skule5.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer"
+            },
+            {
+              "name": "Korp",
+              "relation": "Artist (mentioned in commit message as contributor of new monster sprites including this one)"
+            },
+            {
+              "name": "mc776",
+              "relation": "Sound contributor (death sound sync for the new animation mentioned in commit, likely related to context of new sprites)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1183,10 +1707,22 @@
           "name": "sprites/skule6e4.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skule6e4.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer (commit author; new sprites for Summoner and Dead Flare)"
+            },
+            {
+              "name": "Korp",
+              "relation": "Artist (mentioned in commit message for 'new monster sprites')"
+            },
+            {
+              "name": "HorrorMovieRei",
+              "relation": "Artist (mentioned in commit message for 'new monster sprites')"
+            },
+            {
+              "name": "mc776",
+              "relation": "Sound contributor (tinkered death sound for Matribite, referenced in same commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1195,10 +1731,18 @@
           "name": "sprites/skule7e3.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skule7e3.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer"
+            },
+            {
+              "name": "Korp",
+              "relation": "Original artist (Dead Flare replacement 'hatchling')"
+            },
+            {
+              "name": "HorrorMovieRei",
+              "relation": "Original artist (Dead Flare replacement 'hatchling')"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1207,10 +1751,14 @@
           "name": "sprites/skule8e2.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skule8e2.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "Korp",
+              "relation": "Artist"
+            },
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1219,10 +1767,10 @@
           "name": "sprites/skulf0.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulf0.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1231,10 +1779,18 @@
           "name": "sprites/skulg0.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulg0.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer (commit author)"
+            },
+            {
+              "name": "Korp",
+              "relation": "Artist (new monster sprites, including Summoner & Dead Flare)"
+            },
+            {
+              "name": "HorrorMovieRei",
+              "relation": "Artist (new monster sprites, including Summoner & Dead Flare)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1243,10 +1799,14 @@
           "name": "sprites/skulh0.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulh0.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "Korp",
+              "relation": "Artist"
+            },
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1255,10 +1815,18 @@
           "name": "sprites/skuli0.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skuli0.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer (commit author for Summoner/Dead Flare sprite updates)"
+            },
+            {
+              "name": "Korp",
+              "relation": "Artist (new monster sprites including Summoner/Matribite and Dead Flare/Hatchling)"
+            },
+            {
+              "name": "HorrorMovieRei",
+              "relation": "Artist (co-contributor for new monster sprites)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1267,10 +1835,10 @@
           "name": "sprites/skulj0.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulj0.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer (based on commit authorship; no explicit attribution in commit message for this specific sprite)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1279,10 +1847,22 @@
           "name": "sprites/skulk0.png",
           "url": "https://github.com/freedoom/freedoom/blob/19cf9d2dedf378108d44ff7885df33c4878b6197/sprites/skulk0.png",
           "spriteAuthors": [
-            "HorroMovieGuy",
-            "Korp",
-            "HorrorMovieRei",
-            "mc776"
+            {
+              "name": "HorroMovieGuy",
+              "relation": "Committer"
+            },
+            {
+              "name": "Korp",
+              "relation": "Artist"
+            },
+            {
+              "name": "HorrorMovieRei",
+              "relation": "Artist"
+            },
+            {
+              "name": "mc776",
+              "relation": "Sound contributor (for death sound sync, referenced in commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1296,14 +1876,20 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
       "commitSha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
       "authors": [
-        "Mike Swanson"
+        {
+          "name": "Mike Swanson",
+          "relation": "Committer (PNG conversion)"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/skula1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skula1.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1312,7 +1898,10 @@
           "name": "sprites/skula5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skula5.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted GIF to PNG as part of bulk conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1321,7 +1910,10 @@
           "name": "sprites/skula6a4.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skula6a4.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion from GIF)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1330,7 +1922,10 @@
           "name": "sprites/skula7a3.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skula7a3.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (conversion from GIF to PNG per commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1339,7 +1934,10 @@
           "name": "sprites/skula8a2.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skula8a2.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion from GIF)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1348,7 +1946,10 @@
           "name": "sprites/skulb1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulb1.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1357,7 +1958,10 @@
           "name": "sprites/skulb5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulb5.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted GIF to PNG per commit 9c6c681)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1366,7 +1970,10 @@
           "name": "sprites/skulb6b4.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulb6b4.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1375,7 +1982,10 @@
           "name": "sprites/skulb7b3.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulb7b3.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted GIF to PNG in bulk commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1384,7 +1994,10 @@
           "name": "sprites/skulb8b2.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulb8b2.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1393,7 +2006,10 @@
           "name": "sprites/skulc1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulc1.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1402,7 +2018,10 @@
           "name": "sprites/skulc5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulc5.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1411,7 +2030,10 @@
           "name": "sprites/skulc6c4.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulc6c4.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted GIF to PNG per commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1420,7 +2042,10 @@
           "name": "sprites/skulc7c3.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulc7c3.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit; no specific attribution to this sprite in commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1429,7 +2054,10 @@
           "name": "sprites/skulc8c2.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulc8c2.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted from GIF to PNG as part of bulk format migration)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1438,7 +2066,10 @@
           "name": "sprites/skuld1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skuld1.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1447,7 +2078,10 @@
           "name": "sprites/skuld5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skuld5.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1456,7 +2090,10 @@
           "name": "sprites/skuld6d4.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skuld6d4.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion as per commit 9c6c681)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1465,7 +2102,10 @@
           "name": "sprites/skuld7d3.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skuld7d3.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (conversion from GIF to PNG)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1474,7 +2114,10 @@
           "name": "sprites/skuld8d2.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skuld8d2.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1483,7 +2126,10 @@
           "name": "sprites/skule1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skule1.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion in commit 9c6c681)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1492,7 +2138,10 @@
           "name": "sprites/skule5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skule5.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion in 9c6c681)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1501,7 +2150,10 @@
           "name": "sprites/skule6e4.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skule6e4.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1510,7 +2162,10 @@
           "name": "sprites/skule7e3.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skule7e3.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion of existing sprite)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1519,7 +2174,10 @@
           "name": "sprites/skule8e2.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skule8e2.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1528,7 +2186,10 @@
           "name": "sprites/skulf0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulf0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted GIF to PNG in bulk, per commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1537,7 +2198,10 @@
           "name": "sprites/skulg0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulg0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1546,7 +2210,10 @@
           "name": "sprites/skulh0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulh0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion of existing sprite)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1555,7 +2222,10 @@
           "name": "sprites/skuli0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skuli0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit; original artist unknown, likely early contributor)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1564,7 +2234,10 @@
           "name": "sprites/skulj0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulj0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1573,7 +2246,10 @@
           "name": "sprites/skulk0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/skulk0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1587,14 +2263,28 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/136d8d3765df56d87535229f9f4ede34bb81c951",
       "commitSha": "136d8d3765df56d87535229f9f4ede34bb81c951",
       "authors": [
-        "Mike Swanson"
+        {
+          "name": "Fredrik Johansson",
+          "relation": "Original artist (from folder path 'fredrik')"
+        },
+        {
+          "name": "Mike Swanson",
+          "relation": "Committer (de-symlinkify commit, per message)"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/skula1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skula1.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path 'fredrik' in commit message)"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1603,7 +2293,14 @@
           "name": "sprites/skula5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skula5.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1612,7 +2309,14 @@
           "name": "sprites/skula6a4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skula6a4.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            },
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (based on commit context 'fredrik' in de-symlinkify message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1621,7 +2325,14 @@
           "name": "sprites/skula7a3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skula7a3.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1630,7 +2341,14 @@
           "name": "sprites/skula8a2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skula8a2.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1639,7 +2357,14 @@
           "name": "sprites/skulb1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulb1.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (from 'fredrik' in de-symlinkify commit message)"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1648,7 +2373,10 @@
           "name": "sprites/skulb5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulb5.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1657,7 +2385,14 @@
           "name": "sprites/skulb6b4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulb6b4.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (from CREDITS and commit subject 'de-symlinkify: fredrik')"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1666,7 +2401,14 @@
           "name": "sprites/skulb7b3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulb7b3.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path 'fredrik' in de-symlinkify commit)"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1675,7 +2417,14 @@
           "name": "sprites/skulb8b2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulb8b2.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (per commit message 'de-symlinkify: fredrik')"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (brought Fredrik's work into repo via symlink removal)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1684,7 +2433,14 @@
           "name": "sprites/skulc1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulc1.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1693,7 +2449,14 @@
           "name": "sprites/skulc5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulc5.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1702,7 +2465,10 @@
           "name": "sprites/skulc6c4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulc6c4.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1711,7 +2477,14 @@
           "name": "sprites/skulc7c3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulc7c3.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from folder 'frederik' in commit path)"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1720,7 +2493,14 @@
           "name": "sprites/skulc8c2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulc8c2.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1729,7 +2509,14 @@
           "name": "sprites/skuld1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skuld1.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            },
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (per commit message context and CREDITS entry)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1738,7 +2525,14 @@
           "name": "sprites/skuld5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skuld5.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (per commit message 'de-symlinkify: fredrik')"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (brought into main tree, removed symlinks)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1747,7 +2541,14 @@
           "name": "sprites/skuld6d4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skuld6d4.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1756,7 +2557,10 @@
           "name": "sprites/skuld7d3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skuld7d3.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1765,7 +2569,14 @@
           "name": "sprites/skuld8d2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skuld8d2.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            },
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (based on commit message 'de-symlinkify: fredrik' and CREDITS entry indicating he contributed sprites)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1774,7 +2585,14 @@
           "name": "sprites/skule1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skule1.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            },
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (inferred from 'fredrik' in commit message and CREDITS)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1783,7 +2601,14 @@
           "name": "sprites/skule5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skule5.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1792,7 +2617,14 @@
           "name": "sprites/skule6e4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skule6e4.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (per commit message 'de-symlinkify: fredrik')"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (reorganization commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1801,7 +2633,14 @@
           "name": "sprites/skule7e3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skule7e3.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1810,7 +2649,14 @@
           "name": "sprites/skule8e2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skule8e2.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1819,7 +2665,14 @@
           "name": "sprites/skulf0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulf0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (from CREDITS, folder name 'fredrik' in commit message)"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1828,7 +2681,14 @@
           "name": "sprites/skulg0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulg0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from CREDITS and commit message 'de-symlinkify: fredrik')"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (restructured symlinked assets)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1837,7 +2697,10 @@
           "name": "sprites/skulh0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulh0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1846,7 +2709,14 @@
           "name": "sprites/skuli0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skuli0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path 'fredrik' in commit message)"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify commit author)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1855,7 +2725,14 @@
           "name": "sprites/skulj0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulj0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: fredrik)"
+            },
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (via 'fredrik' in de-symlinkify commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1864,7 +2741,14 @@
           "name": "sprites/skulk0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/136d8d3765df56d87535229f9f4ede34bb81c951/sprites/skulk0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (from folder path 'fredrik')"
+            },
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify commit, per message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1878,16 +2762,28 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/af90fbcaca21ff165936fa2c91fe35bc5f553647",
       "commitSha": "af90fbcaca21ff165936fa2c91fe35bc5f553647",
       "authors": [
-        "Simon Howard"
+        {
+          "name": "Fredrik Johansson",
+          "relation": "Artist (from directory path)"
+        },
+        {
+          "name": "Simon Howard",
+          "relation": "Committer (added death frames for lost soul)"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/fredrik/skula1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skula1.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from folder name)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1896,9 +2792,14 @@
           "name": "sprites/fredrik/skula5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skula5.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path and CREDITS entry)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1907,9 +2808,14 @@
           "name": "sprites/fredrik/skula6a4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skula6a4.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (commit adds death frames for lost soul; this file is part of that change)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1918,9 +2824,14 @@
           "name": "sprites/fredrik/skula7a3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skula7a3.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (commit af90fbc: added death frames for lost soul, including skula7a3)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1929,9 +2840,14 @@
           "name": "sprites/fredrik/skula8a2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skula8a2.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul; explosion derived from bexp*)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1940,9 +2856,14 @@
           "name": "sprites/fredrik/skulb1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulb1.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from folder name)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (commit af90fbc: added death frames for lost soul, including explosion animation derived from bexp*)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1951,9 +2872,14 @@
           "name": "sprites/fredrik/skulb5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulb5.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from directory path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1962,9 +2888,14 @@
           "name": "sprites/fredrik/skulb6b4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulb6b4.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (from folder path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1973,9 +2904,14 @@
           "name": "sprites/fredrik/skulb7b3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulb7b3.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1984,9 +2920,14 @@
           "name": "sprites/fredrik/skulb8b2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulb8b2.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (folder owner, per CREDITS)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul in this commit)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -1995,9 +2936,14 @@
           "name": "sprites/fredrik/skulc1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulc1.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (from path folder)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -2006,9 +2952,14 @@
           "name": "sprites/fredrik/skulc5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulc5.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul, including skulc5 as part of that change)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -2017,9 +2968,14 @@
           "name": "sprites/fredrik/skulc6c4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulc6c4.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -2028,9 +2984,14 @@
           "name": "sprites/fredrik/skulc7c3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulc7c3.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path folder)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -2039,9 +3000,14 @@
           "name": "sprites/fredrik/skulc8c2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulc8c2.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path and CREDITS)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added lost soul death frames per commit message)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -2050,9 +3016,14 @@
           "name": "sprites/fredrik/skuld1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skuld1.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -2061,9 +3032,14 @@
           "name": "sprites/fredrik/skuld5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skuld5.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added lost soul death frames)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -2072,9 +3048,14 @@
           "name": "sprites/fredrik/skuld6d4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skuld6d4.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path and CREDITS)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (committed the death frames for lost soul, including this file)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -2083,9 +3064,14 @@
           "name": "sprites/fredrik/skuld7d3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skuld7d3.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (from path and CREDITS)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -2094,9 +3080,14 @@
           "name": "sprites/fredrik/skuld8d2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skuld8d2.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul, including this frame)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -2105,9 +3096,14 @@
           "name": "sprites/fredrik/skule1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skule1.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path and CREDITS)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul, including skule)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -2116,9 +3112,14 @@
           "name": "sprites/fredrik/skule5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skule5.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul, including skule5.gif as part of that work)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -2127,9 +3128,14 @@
           "name": "sprites/fredrik/skule6e4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skule6e4.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -2138,9 +3144,14 @@
           "name": "sprites/fredrik/skule7e3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skule7e3.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path prefix 'fredrik')"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul; commit message references 'skule' as pain frame)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -2149,9 +3160,10 @@
           "name": "sprites/fredrik/skule8e2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skule8e2.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -2160,9 +3172,14 @@
           "name": "sprites/fredrik/skulf0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulf0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from folder name and CREDITS)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added lost soul death frames)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -2171,9 +3188,14 @@
           "name": "sprites/fredrik/skulg0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulg0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from folder path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -2182,9 +3204,14 @@
           "name": "sprites/fredrik/skulh0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulh0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (folder prefix, per CREDITS)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (commit af90fbc)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -2193,9 +3220,14 @@
           "name": "sprites/fredrik/skuli0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skuli0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -2204,9 +3236,14 @@
           "name": "sprites/fredrik/skulj0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulj0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (commit af90fbc: added death frames for lost soul)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -2215,9 +3252,14 @@
           "name": "sprites/fredrik/skulk0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/af90fbcaca21ff165936fa2c91fe35bc5f553647/sprites/fredrik/skulk0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "fredrik",
-            "gmail"
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from directory path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (added death frames for lost soul)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -2231,15 +3273,28 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/27aca39126c0f021e543516119c9d3b2500575ac",
       "commitSha": "27aca39126c0f021e543516119c9d3b2500575ac",
       "authors": [
-        "Simon Howard"
+        {
+          "name": "pov",
+          "relation": "Artist (from path)"
+        },
+        {
+          "name": "Simon Howard",
+          "relation": "Importer"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/pov/skula1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skula1.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2248,8 +3303,14 @@
           "name": "sprites/pov/skula5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skula5.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2258,8 +3319,14 @@
           "name": "sprites/pov/skula6a4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skula6a4.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from folder path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported in initial sprites commit)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2268,8 +3335,14 @@
           "name": "sprites/pov/skula7a3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skula7a3.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2278,8 +3351,14 @@
           "name": "sprites/pov/skula8a2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skula8a2.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2288,8 +3367,14 @@
           "name": "sprites/pov/skulb1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulb1.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2298,8 +3383,14 @@
           "name": "sprites/pov/skulb5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulb5.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2308,8 +3399,14 @@
           "name": "sprites/pov/skulb6b4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulb6b4.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2318,8 +3415,14 @@
           "name": "sprites/pov/skulb7b3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulb7b3.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2328,8 +3431,14 @@
           "name": "sprites/pov/skulb8b2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulb8b2.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2338,8 +3447,14 @@
           "name": "sprites/pov/skulc1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulc1.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2348,8 +3463,14 @@
           "name": "sprites/pov/skulc5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulc5.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2358,8 +3479,14 @@
           "name": "sprites/pov/skulc6c4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulc6c4.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2368,8 +3495,14 @@
           "name": "sprites/pov/skulc7c3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulc7c3.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2378,8 +3511,14 @@
           "name": "sprites/pov/skulc8c2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulc8c2.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2388,8 +3527,14 @@
           "name": "sprites/pov/skuld1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuld1.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2398,8 +3543,14 @@
           "name": "sprites/pov/skuld5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuld5.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2408,8 +3559,14 @@
           "name": "sprites/pov/skuld6d4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuld6d4.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2418,8 +3575,14 @@
           "name": "sprites/pov/skuld7d3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuld7d3.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2428,8 +3591,14 @@
           "name": "sprites/pov/skuld8d2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuld8d2.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2438,8 +3607,14 @@
           "name": "sprites/pov/skule1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skule1.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2448,8 +3623,14 @@
           "name": "sprites/pov/skule5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skule5.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2458,8 +3639,14 @@
           "name": "sprites/pov/skule6e4.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skule6e4.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2468,8 +3655,14 @@
           "name": "sprites/pov/skule7e3.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skule7e3.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2478,8 +3671,14 @@
           "name": "sprites/pov/skule8e2.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skule8e2.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2488,8 +3687,14 @@
           "name": "sprites/pov/skulf0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulf0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2498,8 +3703,14 @@
           "name": "sprites/pov/skulg0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulg0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2508,8 +3719,14 @@
           "name": "sprites/pov/skulh0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulh0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2518,8 +3735,14 @@
           "name": "sprites/pov/skuli0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuli0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2528,8 +3751,14 @@
           "name": "sprites/pov/skulj0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulj0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2538,8 +3767,14 @@
           "name": "sprites/pov/skulk0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulk0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "pov"
+            {
+              "name": "pov",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"

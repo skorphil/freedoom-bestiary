@@ -47,21 +47,37 @@ export class SpriteCollection {
 
   /** Gets a sorted list of unique authors across multiple version entries */
   getUniqueAuthors(spritesheetVersion: SpritesheetVersion): string[] {
-    const authors = new Set<string>();
+    const authors = this.getAuthorsWithRelations(spritesheetVersion);
+    return authors.map(a => a.name);
+  }
+
+  /** Gets unique authors with their relations */
+  getAuthorsWithRelations(spritesheetVersion: SpritesheetVersion): { name: string; relation?: string }[] {
+    const authorsMap = new Map<string, string | undefined>();
+    
+    // Process sprite-level authors
     for (const sprite of spritesheetVersion.sprites) {
       if (sprite.authors) {
         for (const author of sprite.authors) {
-          authors.add(author);
+          // If already seen, keep existing relation (prefer commit-level if available later)
+          if (!authorsMap.has(author.name)) {
+            authorsMap.set(author.name, author.relation);
+          }
         }
       }
     }
-    // Also include commit authors
+    
+    // Process commit-level authors (higher priority for overall relation)
     if (spritesheetVersion.authors) {
       for (const author of spritesheetVersion.authors) {
-        authors.add(author);
+        authorsMap.set(author.name, author.relation);
       }
     }
-    return [...authors].filter(Boolean).sort((a, b) => a.localeCompare(b));
+    
+    return Array.from(authorsMap.entries())
+      .map(([name, relation]) => ({ name, relation }))
+      .filter(a => !!a.name)
+      .sort((a, b) => a.name.localeCompare(b.name));
   }
 
   /** Gets a sorted list of unique authors across all versions for a specific character code */

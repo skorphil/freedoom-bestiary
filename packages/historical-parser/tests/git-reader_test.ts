@@ -126,7 +126,7 @@ test("GitReader - resolveSymlinkTarget should return target path", async () => {
     "../other/sprites/possa1.png",
   );
 
-  const target = await reader.resolveSymlinkTarget("any-sha");
+  const target = await reader.resolveSymlinkTarget();
 
   expect(target).toBe("../other/sprites/possa1.png");
 });

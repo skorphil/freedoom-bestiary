@@ -9,7 +9,8 @@ import { AtticParser, BaseParser, FreedomParser } from "../src/BaseParser.ts";
 import { CommitLogScanner } from "../src/CommitLogScanner.ts";
 import { GitReader } from "../src/GitReader.ts";
 import { SnapshotBuilder } from "../src/SnapshotBuilder.ts";
-import { AuthorResolver, SpritePattern } from "../src/SpritePattern.ts";
+import { AuthorResolver } from "../src/AuthorResolver.ts";
+import { SpritePattern } from "../src/SpritePattern.ts";
 
 // Mock imports (commented out as requested)
 import {
@@ -63,7 +64,7 @@ test("BaseParser - getSnapshot should return single snapshot or null", async () 
     FREEDOOM_BUILDER_OPTIONS,
   );
 
-  const snapshot = await parser.getSnapshot("any-sha");
+  const snapshot = await parser.getSnapshot();
 
   expect(snapshot).toBe(null);
 });

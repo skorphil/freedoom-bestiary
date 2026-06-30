@@ -65,10 +65,8 @@ export function defaultConfig(): RuntimeConfig {
 export function findRepoRoot(start: string): string {
   let dir = start;
   while (true) {
-    if (existsSync(join(dir, "AGENTS.md"))) {
-      return dir;
-    }
-    if (existsSync(join(dir, "deno.json"))) {
+    // Check for workspace root by looking for the packages directory
+    if (existsSync(join(dir, "packages")) && existsSync(join(dir, "package.json"))) {
       return dir;
     }
     const parent = join(dir, "..");
@@ -85,11 +83,18 @@ export function findRepoRoot(start: string): string {
  */
 export function resolveConfig(): RuntimeConfig {
   const repoRoot = findRepoRoot(process.cwd());
+  const resolvedVersionsDir = resolve(repoRoot, "packages", "historical-parser", "src", "sprite-versions");
+  const resolvedOutputDir = resolve(repoRoot, "sprite-collection");
+  
+  console.log(`[Config] repoRoot: ${repoRoot}`);
+  console.log(`[Config] versionsDir: ${resolvedVersionsDir}`);
+  console.log(`[Config] outputDir: ${resolvedOutputDir}`);
+
   return {
     ...defaultConfig(),
     repoRoot,
-    versionsDir: resolve(repoRoot, "packages", "historical-parser", "src", "sprite-versions"),
-    outputDir: resolve(repoRoot, "sprite-collection"),
+    versionsDir: resolvedVersionsDir,
+    outputDir: resolvedOutputDir,
     bareRepos: bareRepoMap(repoRoot),
   };
 }
@@ -148,14 +153,14 @@ export async function readInputTargets(
           date: sv.commitDate ?? sv.date ?? "",
           sha: sv.commitSha ?? sv.sha ?? "",
           url: sv.commitUrl ?? sv.url ?? "",
-          authors: sv.authors ?? [sv.author ?? sv.commitAuthor ?? sv.commitSource ?? ""],
+          authors: sv.authors ?? (sv.author || sv.commitAuthor || sv.commitSource ? [{ name: sv.author ?? sv.commitAuthor ?? sv.commitSource ?? "", relation: "Committer" }] : []),
           message: sv.commitMessage ?? sv.message ?? "",
           source: sv.commitSource,
           files: Array.isArray(sv.sprites)
             ? sv.sprites.map((s: any) => ({
               name: s.name,
               url: s.url,
-              spriteAuthors: s.spriteAuthors ?? (s.spriteAuthor ? [s.spriteAuthor] : []),
+              spriteAuthors: s.spriteAuthors ?? (s.spriteAuthor ? [{ name: s.spriteAuthor, relation: "Author" }] : []),
               spriteState: s.spriteState,
             }))
             : sv.files ?? [],
@@ -191,14 +196,14 @@ export async function readInputTargets(
         date: sv.commitDate ?? sv.date ?? "",
         sha: sv.commitSha ?? sv.sha ?? "",
         url: sv.commitUrl ?? sv.url ?? "",
-        authors: sv.authors ?? [sv.author ?? sv.commitAuthor ?? sv.commitSource ?? ""],
+        authors: sv.authors ?? (sv.author || sv.commitAuthor || sv.commitSource ? [{ name: sv.author ?? sv.commitAuthor ?? sv.commitSource ?? "", relation: "Committer" }] : []),
         message: sv.commitMessage ?? sv.message ?? "",
         source: sv.commitSource,
         files: Array.isArray(sv.sprites)
           ? sv.sprites.map((s: any) => ({
             name: s.name,
             url: s.url,
-            spriteAuthors: s.spriteAuthors ?? (s.spriteAuthor ? [s.spriteAuthor] : []),
+            spriteAuthors: s.spriteAuthors ?? (s.spriteAuthor ? [{ name: s.spriteAuthor, relation: "Author" }] : []),
             spriteState: s.spriteState,
           }))
           : sv.files ?? [],

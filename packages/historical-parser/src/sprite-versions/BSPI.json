@@ -8,14 +8,24 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/57246cae8f7901d4bc63072f9632685d1e3b507d",
       "commitSha": "57246cae8f7901d4bc63072f9632685d1e3b507d",
       "authors": [
-        "Steven Elliott"
+        {
+          "name": "Steven Elliott",
+          "relation": "Committer (palette/legacy transparency fix per commit #1003)"
+        },
+        {
+          "name": "Kurt Kesler",
+          "relation": "Original artist (original bspij0.png in upstream Doom assets)"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/bspia1d1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspia1d1.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (fixed legacy transparency: mapped color 255 to color 133, normalized PNGs)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -24,7 +34,10 @@
           "name": "sprites/bspia2a8.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspia2a8.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette/legacy transparency fix per commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -33,7 +46,10 @@
           "name": "sprites/bspia3a7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspia3a7.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette/legacy transparency fix per commit #1003)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -42,7 +58,10 @@
           "name": "sprites/bspia4a6.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspia4a6.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (applied legacy transparency fix as part of PNG normalization)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -51,7 +70,10 @@
           "name": "sprites/bspia5d5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspia5d5.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (performed PNG normalization and legacy transparency fix in commit 57246cae)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -60,7 +82,10 @@
           "name": "sprites/bspib1e1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspib1e1.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (performed PNG normalization and legacy transparency fix per commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -69,7 +94,10 @@
           "name": "sprites/bspib2b8.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspib2b8.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette and transparency normalization per fix-legacy-transparency-pngs and fix-deutex-pngs)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -78,7 +106,10 @@
           "name": "sprites/bspib3b7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspib3b7.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette fix via 'fix-legacy-transparency-pngs' and normalization)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -87,7 +118,10 @@
           "name": "sprites/bspib4b6.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspib4b6.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (PNG normalization and legacy transparency fix)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -96,7 +130,10 @@
           "name": "sprites/bspib5e5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspib5e5.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette/legacy transparency fix)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -105,7 +142,10 @@
           "name": "sprites/bspic1f1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspic1f1.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (PNG normalization and legacy transparency fix)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -114,7 +154,10 @@
           "name": "sprites/bspic2c8.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspic2c8.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (performed PNG normalization and legacy transparency fix as per commit 57246cae)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -123,7 +166,10 @@
           "name": "sprites/bspic3c7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspic3c7.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette and transparency normalization per commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -132,7 +178,10 @@
           "name": "sprites/bspic4c6.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspic4c6.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (performed PNG normalization and legacy transparency fix as per commit message)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -141,7 +190,10 @@
           "name": "sprites/bspic5f5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspic5f5.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette transparency fix via 'fix-legacy-transparency-pngs' and normalization via 'fix-deutex-pngs')"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -150,7 +202,10 @@
           "name": "sprites/bspid2d8.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspid2d8.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette/legacy transparency fix via commit 57246ca)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -159,7 +214,10 @@
           "name": "sprites/bspid3d7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspid3d7.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (performed transparency normalization and PNG fixes via make targets)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -168,7 +226,10 @@
           "name": "sprites/bspid4d6.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspid4d6.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (applied legacy transparency fix as part of #1003)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -177,7 +238,10 @@
           "name": "sprites/bspie2e8.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspie2e8.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (applied palette transparency fix via 'fix-legacy-transparency-pngs' and normalization via 'fix-deutex-pngs')"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -186,7 +250,10 @@
           "name": "sprites/bspie3e7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspie3e7.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette fix and normalization as part of legacy transparency update)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -195,7 +262,10 @@
           "name": "sprites/bspie4e6.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspie4e6.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette transparency fix: mapped color 255 → 133)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -204,7 +274,10 @@
           "name": "sprites/bspif2f8.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspif2f8.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette/legacy transparency fix per commit #1003)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -213,7 +286,10 @@
           "name": "sprites/bspif3f7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspif3f7.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette fix via 'fix-legacy-transparency-pngs')"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -222,7 +298,10 @@
           "name": "sprites/bspif4f6.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspif4f6.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (performs palette normalization and legacy transparency fix as per commit 57246cae)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -231,7 +310,10 @@
           "name": "sprites/bspig1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspig1.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (applied palette and transparency fixes per commit message)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -240,7 +322,10 @@
           "name": "sprites/bspig2g8.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspig2g8.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette and transparency normalization per commit #1003)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -249,7 +334,10 @@
           "name": "sprites/bspig3g7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspig3g7.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (committed palette fix and transparency normalization per #1003)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -258,7 +346,10 @@
           "name": "sprites/bspig4g6.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspig4g6.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (performed palette and transparency fix per commit 57246ca)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -267,7 +358,10 @@
           "name": "sprites/bspig5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspig5.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (PNG conversion, transparency mapping)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -276,7 +370,10 @@
           "name": "sprites/bspih1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspih1.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer ( PNG normalization and legacy transparency fix )"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -285,7 +382,10 @@
           "name": "sprites/bspih2h8.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspih2h8.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette/legacy transparency fix per commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -294,7 +394,10 @@
           "name": "sprites/bspih3h7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspih3h7.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette fix & normalization via fix-legacy-transparency-pngs and fix-deutex-pngs)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -303,7 +406,10 @@
           "name": "sprites/bspih4h6.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspih4h6.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (fixed legacy transparency and normalized PNG)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -312,7 +418,10 @@
           "name": "sprites/bspih5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspih5.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (performs PNG transparency/normalization fix in commit)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -321,7 +430,10 @@
           "name": "sprites/bspii1.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspii1.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette fix for legacy transparency)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -330,7 +442,10 @@
           "name": "sprites/bspii2i8.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspii2i8.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (fixed legacy transparency: mapped color 255 → 133, normalized PNGs)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -339,7 +454,10 @@
           "name": "sprites/bspii3i7.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspii3i7.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (performs PNG palette normalization and legacy transparency fix per commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -348,7 +466,10 @@
           "name": "sprites/bspii4i6.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspii4i6.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette/legacy transparency normalization per commit message)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -357,7 +478,10 @@
           "name": "sprites/bspii5.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspii5.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette/transparency fix via commit 57246ca)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -366,7 +490,14 @@
           "name": "sprites/bspij0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspij0.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (performed palette/transparent-color fix via fix-legacy-transparency-pngs)"
+            },
+            {
+              "name": "Kurt Kesler",
+              "relation": "Original artist (original bspij0.png in upstream Doom assets)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -375,7 +506,10 @@
           "name": "sprites/bspik0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspik0.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (fixed legacy transparency: mapped color 255 to 133 and normalized PNGs)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -384,7 +518,10 @@
           "name": "sprites/bspil0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspil0.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette transparency normalization)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -393,7 +530,10 @@
           "name": "sprites/bspim0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspim0.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (performed palette and transparency normalization fix in commit 57246cae)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -402,7 +542,10 @@
           "name": "sprites/bspin0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspin0.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette and transparency normalization per commit #1003)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -411,7 +554,10 @@
           "name": "sprites/bspio0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspio0.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette normalization and legacy transparency fix)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -420,7 +566,10 @@
           "name": "sprites/bspip0.png",
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bspip0.png",
           "spriteAuthors": [
-            "Steven Elliott"
+            {
+              "name": "Steven Elliott",
+              "relation": "Committer (palette/legacy transparency fix per commit #1003)"
+            }
           ],
           "spriteState": "unchanged",
           "source": "freedoom"
@@ -434,14 +583,20 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/717f9bfe1e145931e90dc09d97a6dc16c2e3da31",
       "commitSha": "717f9bfe1e145931e90dc09d97a6dc16c2e3da31",
       "authors": [
-        "Craneo"
+        {
+          "name": "Craneo",
+          "relation": "Committer (reworked shading)"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/bspia1d1.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspia1d1.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -450,7 +605,10 @@
           "name": "sprites/bspia2a8.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspia2a8.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked with good shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -459,7 +617,10 @@
           "name": "sprites/bspia3a7.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspia3a7.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (performed rework with good shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -468,7 +629,10 @@
           "name": "sprites/bspia4a6.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspia4a6.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -477,7 +641,10 @@
           "name": "sprites/bspia5d5.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspia5d5.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked with good shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -486,7 +653,10 @@
           "name": "sprites/bspib1e1.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspib1e1.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -495,7 +665,10 @@
           "name": "sprites/bspib2b8.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspib2b8.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked with good shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -504,7 +677,10 @@
           "name": "sprites/bspib3b7.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspib3b7.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked with good shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -513,7 +689,10 @@
           "name": "sprites/bspib4b6.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspib4b6.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -522,7 +701,10 @@
           "name": "sprites/bspib5e5.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspib5e5.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -531,7 +713,10 @@
           "name": "sprites/bspic1f1.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspic1f1.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked with good shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -540,7 +725,10 @@
           "name": "sprites/bspic2c8.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspic2c8.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -549,7 +737,10 @@
           "name": "sprites/bspic3c7.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspic3c7.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -558,7 +749,10 @@
           "name": "sprites/bspic4c6.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspic4c6.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading in commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -567,7 +761,10 @@
           "name": "sprites/bspic5f5.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspic5f5.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -576,7 +773,10 @@
           "name": "sprites/bspid2d8.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspid2d8.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (performed rework with good shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -585,7 +785,10 @@
           "name": "sprites/bspid3d7.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspid3d7.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -594,7 +797,10 @@
           "name": "sprites/bspid4d6.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspid4d6.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -603,7 +809,10 @@
           "name": "sprites/bspie2e8.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspie2e8.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -612,7 +821,10 @@
           "name": "sprites/bspie3e7.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspie3e7.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked with good shading per commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -621,7 +833,10 @@
           "name": "sprites/bspie4e6.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspie4e6.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked with good shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -630,7 +845,10 @@
           "name": "sprites/bspif2f8.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspif2f8.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -639,7 +857,10 @@
           "name": "sprites/bspif3f7.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspif3f7.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -648,7 +869,10 @@
           "name": "sprites/bspif4f6.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspif4f6.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -657,7 +881,10 @@
           "name": "sprites/bspig1.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspig1.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -666,7 +893,10 @@
           "name": "sprites/bspig2g8.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspig2g8.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -675,7 +905,10 @@
           "name": "sprites/bspig3g7.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspig3g7.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading in commit 717f9bfe)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -684,7 +917,10 @@
           "name": "sprites/bspig4g6.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspig4g6.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -693,7 +929,10 @@
           "name": "sprites/bspig5.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspig5.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (performed rework with good shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -702,7 +941,10 @@
           "name": "sprites/bspih1.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspih1.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked with good shading per commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -711,7 +953,10 @@
           "name": "sprites/bspih2h8.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspih2h8.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading for technical spidery sprite)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -720,7 +965,10 @@
           "name": "sprites/bspih3h7.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspih3h7.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked with good shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -729,7 +977,10 @@
           "name": "sprites/bspih4h6.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspih4h6.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -738,7 +989,10 @@
           "name": "sprites/bspih5.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspih5.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -747,7 +1001,10 @@
           "name": "sprites/bspii1.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspii1.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -756,7 +1013,10 @@
           "name": "sprites/bspii2i8.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspii2i8.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked with good shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -765,7 +1025,10 @@
           "name": "sprites/bspii3i7.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspii3i7.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked with good shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -774,7 +1037,10 @@
           "name": "sprites/bspii4i6.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspii4i6.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -783,7 +1049,10 @@
           "name": "sprites/bspii5.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspii5.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked with good shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -792,7 +1061,10 @@
           "name": "sprites/bspij0.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspij0.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked with good shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -801,7 +1073,10 @@
           "name": "sprites/bspik0.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspik0.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading in commit 717f9bfe)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -810,7 +1085,10 @@
           "name": "sprites/bspil0.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspil0.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -819,7 +1097,10 @@
           "name": "sprites/bspim0.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspim0.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading for Technospider sprite)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -828,7 +1109,10 @@
           "name": "sprites/bspin0.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspin0.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -837,7 +1121,10 @@
           "name": "sprites/bspio0.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspio0.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked with good shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -846,7 +1133,10 @@
           "name": "sprites/bspip0.png",
           "url": "https://github.com/freedoom/freedoom/blob/717f9bfe1e145931e90dc09d97a6dc16c2e3da31/sprites/bspip0.png",
           "spriteAuthors": [
-            "Craneo"
+            {
+              "name": "Craneo",
+              "relation": "Committer (reworked shading)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -860,14 +1150,20 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
       "commitSha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
       "authors": [
-        "Mike Swanson"
+        {
+          "name": "Mike Swanson",
+          "relation": "Committer (PNG conversion commit)"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/bspia1d1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspia1d1.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -876,7 +1172,10 @@
           "name": "sprites/bspia2a8.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspia2a8.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -885,7 +1184,10 @@
           "name": "sprites/bspia3a7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspia3a7.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -894,7 +1196,10 @@
           "name": "sprites/bspia4a6.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspia4a6.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -903,7 +1208,10 @@
           "name": "sprites/bspia5d5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspia5d5.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -912,7 +1220,10 @@
           "name": "sprites/bspib1e1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspib1e1.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (GIF to PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -921,7 +1232,10 @@
           "name": "sprites/bspib2b8.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspib2b8.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -930,7 +1244,10 @@
           "name": "sprites/bspib3b7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspib3b7.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion from GIF)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -939,7 +1256,10 @@
           "name": "sprites/bspib4b6.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspib4b6.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (conversion to PNG per commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -948,7 +1268,10 @@
           "name": "sprites/bspib5e5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspib5e5.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (conversion from GIF to PNG as part of bulk update)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -957,7 +1280,10 @@
           "name": "sprites/bspic1f1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspic1f1.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted GIF to PNG as part of bulk conversion in commit 9c6c6812)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -966,7 +1292,10 @@
           "name": "sprites/bspic2c8.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspic2c8.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (GIF-to-PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -975,7 +1304,10 @@
           "name": "sprites/bspic3c7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspic3c7.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (GIF-to-PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -984,7 +1316,10 @@
           "name": "sprites/bspic4c6.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspic4c6.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -993,7 +1328,10 @@
           "name": "sprites/bspic5f5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspic5f5.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion as part of GIF-to-PNG migration)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1002,7 +1340,10 @@
           "name": "sprites/bspid2d8.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspid2d8.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (GIF-to-PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1011,7 +1352,10 @@
           "name": "sprites/bspid3d7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspid3d7.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion: Burn all GIFs)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1020,7 +1364,10 @@
           "name": "sprites/bspid4d6.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspid4d6.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion of existing sprite)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1029,7 +1376,10 @@
           "name": "sprites/bspie2e8.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspie2e8.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (GIF-to-PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1038,7 +1388,10 @@
           "name": "sprites/bspie3e7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspie3e7.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (GIF→PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1047,7 +1400,10 @@
           "name": "sprites/bspie4e6.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspie4e6.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted GIF to PNG)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1056,7 +1412,10 @@
           "name": "sprites/bspif2f8.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspif2f8.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion of GIF)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1065,7 +1424,10 @@
           "name": "sprites/bspif3f7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspif3f7.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1074,7 +1436,10 @@
           "name": "sprites/bspif4f6.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspif4f6.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1083,7 +1448,10 @@
           "name": "sprites/bspig1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspig1.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted GIF to PNG)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1092,7 +1460,10 @@
           "name": "sprites/bspig2g8.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspig2g8.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit; original artist inferred from path 'bspig' = Bob Smith, based on naming convention for Skulltag/bspig sprites)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1101,7 +1472,10 @@
           "name": "sprites/bspig3g7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspig3g7.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted GIF to PNG in bulk)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1110,7 +1484,10 @@
           "name": "sprites/bspig4g6.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspig4g6.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1119,7 +1496,10 @@
           "name": "sprites/bspig5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspig5.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1128,7 +1508,10 @@
           "name": "sprites/bspih1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspih1.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (conversion to PNG as part of bulk GIF→PNG migration)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1137,7 +1520,10 @@
           "name": "sprites/bspih2h8.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspih2h8.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1146,7 +1532,10 @@
           "name": "sprites/bspih3h7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspih3h7.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1155,7 +1544,10 @@
           "name": "sprites/bspih4h6.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspih4h6.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1164,7 +1556,10 @@
           "name": "sprites/bspih5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspih5.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1173,7 +1568,10 @@
           "name": "sprites/bspii1.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspii1.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (GIF→PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1182,7 +1580,10 @@
           "name": "sprites/bspii2i8.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspii2i8.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit; no specific sprite author identified in commit metadata)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1191,7 +1592,10 @@
           "name": "sprites/bspii3i7.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspii3i7.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1200,7 +1604,10 @@
           "name": "sprites/bspii4i6.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspii4i6.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1209,7 +1616,10 @@
           "name": "sprites/bspii5.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspii5.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (GIF-to-PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1218,7 +1628,10 @@
           "name": "sprites/bspij0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspij0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1227,7 +1640,10 @@
           "name": "sprites/bspik0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspik0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted from GIF to PNG per commit 9c6c681)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1236,7 +1652,10 @@
           "name": "sprites/bspil0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspil0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (converted GIF to PNG per commit message)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1245,7 +1664,10 @@
           "name": "sprites/bspim0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspim0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (GIF-to-PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1254,7 +1676,10 @@
           "name": "sprites/bspin0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspin0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1263,7 +1688,10 @@
           "name": "sprites/bspio0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspio0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1272,7 +1700,10 @@
           "name": "sprites/bspip0.png",
           "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/bspip0.png",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1286,14 +1717,20 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c",
       "commitSha": "814e3447c6201d8f4ceaf42f047b05dc06e0aa1c",
       "authors": [
-        "Mike Swanson"
+        {
+          "name": "Mike Swanson",
+          "relation": "Committer (de-symlinkify: mouse)"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/bspia1d1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspia1d1.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1302,7 +1739,10 @@
           "name": "sprites/bspia2a8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspia2a8.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1311,7 +1751,10 @@
           "name": "sprites/bspia3a7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspia3a7.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1320,7 +1763,10 @@
           "name": "sprites/bspia4a6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspia4a6.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1329,7 +1775,10 @@
           "name": "sprites/bspia5d5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspia5d5.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1338,7 +1787,10 @@
           "name": "sprites/bspib1e1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspib1e1.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1347,7 +1799,10 @@
           "name": "sprites/bspib2b8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspib2b8.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1356,7 +1811,10 @@
           "name": "sprites/bspib3b7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspib3b7.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1365,7 +1823,10 @@
           "name": "sprites/bspib4b6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspib4b6.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1374,7 +1835,10 @@
           "name": "sprites/bspib5e5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspib5e5.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1383,7 +1847,10 @@
           "name": "sprites/bspic1f1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspic1f1.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1392,7 +1859,10 @@
           "name": "sprites/bspic2c8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspic2c8.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1401,7 +1871,10 @@
           "name": "sprites/bspic3c7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspic3c7.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1410,7 +1883,10 @@
           "name": "sprites/bspic4c6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspic4c6.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1419,7 +1895,10 @@
           "name": "sprites/bspic5f5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspic5f5.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1428,7 +1907,10 @@
           "name": "sprites/bspid2d8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspid2d8.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1437,7 +1919,10 @@
           "name": "sprites/bspid3d7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspid3d7.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1446,7 +1931,10 @@
           "name": "sprites/bspid4d6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspid4d6.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1455,7 +1943,10 @@
           "name": "sprites/bspie2e8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspie2e8.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1464,7 +1955,10 @@
           "name": "sprites/bspie3e7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspie3e7.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1473,7 +1967,10 @@
           "name": "sprites/bspie4e6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspie4e6.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1482,7 +1979,10 @@
           "name": "sprites/bspif2f8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspif2f8.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1491,7 +1991,10 @@
           "name": "sprites/bspif3f7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspif3f7.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1500,7 +2003,10 @@
           "name": "sprites/bspif4f6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspif4f6.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1509,7 +2015,10 @@
           "name": "sprites/bspig1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspig1.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1518,7 +2027,10 @@
           "name": "sprites/bspig2g8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspig2g8.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1527,7 +2039,10 @@
           "name": "sprites/bspig3g7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspig3g7.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1536,7 +2051,10 @@
           "name": "sprites/bspig4g6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspig4g6.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1545,7 +2063,10 @@
           "name": "sprites/bspig5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspig5.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1554,7 +2075,10 @@
           "name": "sprites/bspih1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspih1.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1563,7 +2087,10 @@
           "name": "sprites/bspih2h8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspih2h8.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1572,7 +2099,10 @@
           "name": "sprites/bspih3h7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspih3h7.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1581,7 +2111,10 @@
           "name": "sprites/bspih4h6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspih4h6.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1590,7 +2123,10 @@
           "name": "sprites/bspih5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspih5.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1599,7 +2135,10 @@
           "name": "sprites/bspii1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspii1.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1608,7 +2147,10 @@
           "name": "sprites/bspii2i8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspii2i8.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1617,7 +2159,10 @@
           "name": "sprites/bspii3i7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspii3i7.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1626,7 +2171,10 @@
           "name": "sprites/bspii4i6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspii4i6.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1635,7 +2183,10 @@
           "name": "sprites/bspii5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspii5.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1644,7 +2195,10 @@
           "name": "sprites/bspij0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspij0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1653,7 +2207,10 @@
           "name": "sprites/bspik0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspik0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (performs de-symlinkify cleanup; commit message indicates this is a refactoring, not original creation)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1662,7 +2219,10 @@
           "name": "sprites/bspil0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspil0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1671,7 +2231,10 @@
           "name": "sprites/bspim0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspim0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1680,7 +2243,10 @@
           "name": "sprites/bspin0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspin0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1689,7 +2255,10 @@
           "name": "sprites/bspio0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspio0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1698,7 +2267,10 @@
           "name": "sprites/bspip0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/814e3447c6201d8f4ceaf42f047b05dc06e0aa1c/sprites/bspip0.gif",
           "spriteAuthors": [
-            "Mike Swanson"
+            {
+              "name": "Mike Swanson",
+              "relation": "Committer (de-symlinkify: mouse)"
+            }
           ],
           "spriteState": "updated",
           "source": "freedoom"
@@ -1712,15 +2284,24 @@
       "commitUrl": "https://github.com/freedoom/freedoom/commit/27aca39126c0f021e543516119c9d3b2500575ac",
       "commitSha": "27aca39126c0f021e543516119c9d3b2500575ac",
       "authors": [
-        "Simon Howard"
+        {
+          "name": "Simon Howard",
+          "relation": "Committer (imported in initial sprites commit)"
+        },
+        {
+          "name": "mouse",
+          "relation": "Artist (from path)"
+        }
       ],
       "sprites": [
         {
           "name": "sprites/mouse/bspia1d1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspia1d1.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (importer from original commit message 'Import sprites')"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1729,8 +2310,10 @@
           "name": "sprites/mouse/bspia2a8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspia2a8.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (importer of sprite set)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1739,8 +2322,10 @@
           "name": "sprites/mouse/bspia3a7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspia3a7.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported in initial sprite import)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1749,8 +2334,10 @@
           "name": "sprites/mouse/bspia4a6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspia4a6.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported in initial commit)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1759,8 +2346,10 @@
           "name": "sprites/mouse/bspia5d5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspia5d5.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1769,8 +2358,14 @@
           "name": "sprites/mouse/bspib1e1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspib1e1.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "mouse",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1779,8 +2374,10 @@
           "name": "sprites/mouse/bspib2b8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspib2b8.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported in initial sprites commit)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1789,8 +2386,10 @@
           "name": "sprites/mouse/bspib3b7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspib3b7.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported in initial sprites commit)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1799,8 +2398,10 @@
           "name": "sprites/mouse/bspib4b6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspib4b6.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1809,8 +2410,10 @@
           "name": "sprites/mouse/bspib5e5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspib5e5.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported in initial sprite import commit)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1819,8 +2422,10 @@
           "name": "sprites/mouse/bspic1f1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspic1f1.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (importer of sprites directory)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1829,8 +2434,10 @@
           "name": "sprites/mouse/bspic2c8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspic2c8.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1839,8 +2446,10 @@
           "name": "sprites/mouse/bspic3c7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspic3c7.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported sprite in initial commit)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1849,8 +2458,10 @@
           "name": "sprites/mouse/bspic4c6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspic4c6.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (initial import)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1859,8 +2470,10 @@
           "name": "sprites/mouse/bspic5f5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspic5f5.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1869,8 +2482,10 @@
           "name": "sprites/mouse/bspid2d8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspid2d8.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (import commit author)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1879,8 +2494,10 @@
           "name": "sprites/mouse/bspid3d7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspid3d7.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1889,8 +2506,14 @@
           "name": "sprites/mouse/bspid4d6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspid4d6.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "mouse",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (initial import)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1899,8 +2522,10 @@
           "name": "sprites/mouse/bspie2e8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspie2e8.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (importer of mouse sprites)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1909,8 +2534,10 @@
           "name": "sprites/mouse/bspie3e7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspie3e7.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1919,8 +2546,14 @@
           "name": "sprites/mouse/bspie4e6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspie4e6.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "mouse",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1929,8 +2562,10 @@
           "name": "sprites/mouse/bspif2f8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspif2f8.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported in initial sprites commit)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1939,8 +2574,10 @@
           "name": "sprites/mouse/bspif3f7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspif3f7.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1949,8 +2586,10 @@
           "name": "sprites/mouse/bspif4f6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspif4f6.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported in initial sprites commit)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1959,8 +2598,10 @@
           "name": "sprites/mouse/bspig1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspig1.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (importer of sprites)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1969,8 +2610,10 @@
           "name": "sprites/mouse/bspig2g8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspig2g8.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (Initial import of sprites commit)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1979,8 +2622,14 @@
           "name": "sprites/mouse/bspig3g7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspig3g7.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "mouse",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (Import commit)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1989,8 +2638,10 @@
           "name": "sprites/mouse/bspig4g6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspig4g6.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported in initial sprites import commit)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -1999,8 +2650,10 @@
           "name": "sprites/mouse/bspig5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspig5.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (importer)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2009,8 +2662,10 @@
           "name": "sprites/mouse/bspih1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspih1.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2019,8 +2674,10 @@
           "name": "sprites/mouse/bspih2h8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspih2h8.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported in initial sprite import)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2029,8 +2686,10 @@
           "name": "sprites/mouse/bspih3h7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspih3h7.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (importer)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2039,8 +2698,10 @@
           "name": "sprites/mouse/bspih4h6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspih4h6.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2049,8 +2710,10 @@
           "name": "sprites/mouse/bspih5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspih5.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (initial import)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2059,8 +2722,10 @@
           "name": "sprites/mouse/bspii1.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspii1.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported in initial sprite commit)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2069,8 +2734,10 @@
           "name": "sprites/mouse/bspii2i8.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspii2i8.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2079,8 +2746,10 @@
           "name": "sprites/mouse/bspii3i7.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspii3i7.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported in initial sprites commit)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2089,8 +2758,10 @@
           "name": "sprites/mouse/bspii4i6.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspii4i6.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2099,8 +2770,10 @@
           "name": "sprites/mouse/bspii5.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspii5.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2109,8 +2782,10 @@
           "name": "sprites/mouse/bspij0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspij0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (import commit)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2119,8 +2794,10 @@
           "name": "sprites/mouse/bspik0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspik0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2129,8 +2806,10 @@
           "name": "sprites/mouse/bspil0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspil0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported in initial sprite import)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2139,8 +2818,10 @@
           "name": "sprites/mouse/bspim0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspim0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2149,8 +2830,10 @@
           "name": "sprites/mouse/bspin0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspin0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2159,8 +2842,10 @@
           "name": "sprites/mouse/bspio0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspio0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (initial import of sprites)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"
@@ -2169,8 +2854,10 @@
           "name": "sprites/mouse/bspip0.gif",
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/mouse/bspip0.gif",
           "spriteAuthors": [
-            "Simon Howard",
-            "mouse"
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported in initial sprites commit)"
+            }
           ],
           "spriteState": "new",
           "source": "freedoom"

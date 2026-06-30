@@ -31,6 +31,13 @@ export const SpriteCodes = [
  * Type representing one of the known sprite codes.
  */
 export type SpriteCode = (typeof SpriteCodes)[number];
+ 
+export const AuthorSchema = z.object({
+  name: z.string(),
+  relation: z.string().optional(),
+});
+
+export type Author = z.infer<typeof AuthorSchema>;
 
 export const SpriteSchema = z.object({
   frame: z.string(),
@@ -39,17 +46,17 @@ export const SpriteSchema = z.object({
   y: z.number(),
   width: z.number(),
   height: z.number(),
-  authors: z.array(z.string()),
+  authors: z.array(AuthorSchema),
   state: z.string(),
   url: z.string(),
 });
-
+ 
 export type Sprite = z.infer<typeof SpriteSchema>;
-
+ 
 export const SpritesheetVersionSchema = z.object({
   date: z.string(),
   sha: z.string(),
-  authors: z.array(z.string()),
+  authors: z.array(AuthorSchema),
   commitMessage: z.string(),
   commitUrl: z.string(),
   spritesheetPath: z.string(),
