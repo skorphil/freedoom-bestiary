@@ -44,9 +44,26 @@ test("Spritesheet - getAnimationsWithAngles", () => {
   const anims = sheet.getAnimationsWithAngles();
   const idling = anims.find(a => a.name === "idling");
   expect(idling).toBeDefined();
+  // Frame A has angle 0, so it ignores angle 1.
+  // Frame B has only angle 1, so angle 1 is included.
   expect(idling?.angles).toContain(0);
   expect(idling?.angles).toContain(1);
   expect(idling?.angles).not.toContain(2);
+});
+
+test("Spritesheet - angle 0 takes precedence", () => {
+  const sheet = new Spritesheet(
+    "TEST",
+    {} as any,
+    mockAtlas as any,
+    mockMeta as any
+  );
+  
+  // Frame A has both angle 0 and angle 1. Angle 0 should take precedence.
+  const gen = sheet.play("idling", 1);
+  const result = gen.next().value;
+  expect(result.source.frame).toBe("A");
+  expect(result.source.angle).toBe("0");
 });
 
 test("Spritesheet - play generator timing", () => {

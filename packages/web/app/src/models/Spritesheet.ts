@@ -50,13 +50,22 @@ export class Spritesheet {
       const framesInAnim = new Set(sequence.map((step) => step.frame));
 
       // Find all unique angles available for these frame letters in the atlas
+      // Rule: if a frame has angle '0', it ignores all other angles for that frame
       const angles = new Set<number>();
-      sprites.forEach((s) => {
-        if (framesInAnim.has(s.frame)) {
-          const angleVal = parseInt(s.angle, 10);
-          if (!isNaN(angleVal)) {
-            angles.add(angleVal);
-          }
+      
+      framesInAnim.forEach(frame => {
+        const frameSprites = sprites.filter(s => s.frame === frame);
+        const hasAngleZero = frameSprites.some(s => s.angle === "0");
+        
+        if (hasAngleZero) {
+          angles.add(0);
+        } else {
+          frameSprites.forEach(s => {
+            const angleVal = parseInt(s.angle, 10);
+            if (!isNaN(angleVal)) {
+              angles.add(angleVal);
+            }
+          });
         }
       });
 
@@ -104,12 +113,12 @@ export class Spritesheet {
     const sprites = this.atlas.sprites;
     const angleStr = angle.toString();
 
-    // 1. Try exact match
-    let found = sprites.find((s) => s.frame === frame && s.angle === angleStr);
+    // 1. Try angle 0 (rotation-less) - this takes precedence over specific angles
+    let found = sprites.find((s) => s.frame === frame && s.angle === "0");
     if (found) return found;
 
-    // 2. Try angle 0 (rotation-less)
-    found = sprites.find((s) => s.frame === frame && s.angle === "0");
+    // 2. Try exact match
+    found = sprites.find((s) => s.frame === frame && s.angle === angleStr);
     if (found) return found;
 
     // 3. Try any angle for this frame
