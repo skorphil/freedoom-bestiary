@@ -45,9 +45,15 @@ export abstract class BaseParser {
    */
   async parse(): Promise<CommitSnapshot[]> {
     const snapshots: CommitSnapshot[] = [];
+    const shaIndexMap = new Map<string, number>();
+
     for await (const unit of this.scanner.scan()) {
+      const index = shaIndexMap.get(unit.sha) || 0;
+      shaIndexMap.set(unit.sha, index + 1);
+
       const snapshot = await this.builder.build(unit, this.getSource());
       if (snapshot) {
+        snapshot.commitIndex = index;
         snapshots.push(snapshot);
       }
     }
@@ -65,7 +71,7 @@ export class FreedomParser extends BaseParser {
     super(repoPath, code, resolver, {
       githubBaseUrl: "https://github.com/freedoom/freedoom",
       followSymlinks: true,
-      groupByFolder: false,
+      groupByFolder: true,
       activeStatuses: ["A", "M", "T", "R"],
       skippedStatuses: ["D"],
     });

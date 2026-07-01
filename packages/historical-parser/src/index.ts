@@ -63,6 +63,7 @@ export type RunOptions = {
   outDir?: string; 
   write?: boolean;
   noAi?: boolean;
+  noAttic?: boolean;
 };
 
 export async function runAll(opts: RunOptions = {}) {
@@ -90,9 +91,13 @@ export async function runAll(opts: RunOptions = {}) {
     const snapshotsF = await f.parse();
     freedoomResults[code] = snapshotsF;
 
-    const a = new AtticParser(atticRepo, code, resolver);
-    const snapshotsA = await a.parse();
-    atticResults[code] = snapshotsA;
+    if (!opts.noAttic) {
+      const a = new AtticParser(atticRepo, code, resolver);
+      const snapshotsA = await a.parse();
+      atticResults[code] = snapshotsA;
+    } else {
+      atticResults[code] = [];
+    }
   }
 
   if (opts.write) {
@@ -132,6 +137,7 @@ if (import.meta.main) {
     const a = rawArgs[i];
     if (a === "--write") args.set("write", true);
     else if (a === "--no-ai") args.set("noAi", true);
+    else if (a === "--no-attic") args.set("noAttic", true);
     else if (a.startsWith("--codes=")) args.set("codes", a.split("=")[1]);
     else if (a.startsWith("--freedoom-repo=")) args.set("freedoomRepo", a.split("=")[1]);
     else if (a.startsWith("--attic-repo=")) args.set("atticRepo", a.split("=")[1]);
@@ -147,6 +153,7 @@ if (import.meta.main) {
     outDir: args.get("outDir") as string | undefined,
     write: Boolean(args.get("write")),
     noAi: Boolean(args.get("noAi")),
+    noAttic: Boolean(args.get("noAttic")),
   }).then((res) => {
     console.log("Parsing complete. Codes:", Object.keys(res.freedoom).length);
   }).catch((err) => {

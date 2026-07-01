@@ -9,6 +9,7 @@
     "test": "bun test",
     "parse": "bun run src/index.ts --write",
     "parse:no-ai": "bun run src/index.ts --write --no-ai",
+    "parse:no-attic": "bun run src/index.ts --write --no-attic",
     "find-authors": "bun run src/author-normalizer/authors-finder.ts"
   },
   "devDependencies": {

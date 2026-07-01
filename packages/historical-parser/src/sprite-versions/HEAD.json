@@ -7,6 +7,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/57246cae8f7901d4bc63072f9632685d1e3b507d",
       "commitSha": "57246cae8f7901d4bc63072f9632685d1e3b507d",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "Steven Elliott",
@@ -24,6 +26,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -36,6 +40,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -48,6 +54,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -60,6 +68,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -72,6 +82,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -84,6 +96,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -96,6 +110,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -108,6 +124,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -120,6 +138,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -132,6 +152,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -144,6 +166,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -156,6 +180,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -168,6 +194,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -180,6 +208,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -192,6 +222,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -204,6 +236,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -216,6 +250,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -228,6 +264,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -240,6 +278,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -252,6 +292,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -264,6 +306,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -276,6 +320,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -288,6 +334,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -300,6 +348,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -312,6 +362,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -324,6 +376,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -336,6 +390,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -348,6 +404,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -360,6 +418,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -372,6 +432,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -384,6 +446,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -396,6 +460,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -408,6 +474,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -420,6 +488,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -432,6 +502,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -444,6 +516,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         }
       ]
@@ -454,6 +528,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
       "commitSha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "Michael Swanson",
@@ -471,6 +547,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -483,6 +561,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -495,6 +575,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -507,6 +589,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -519,6 +603,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -531,6 +617,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -543,6 +631,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -555,6 +645,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -567,6 +659,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -579,6 +673,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -591,6 +687,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -603,6 +701,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -615,6 +715,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -627,6 +729,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -639,6 +743,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -651,6 +757,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -663,6 +771,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -675,6 +785,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -687,6 +799,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -699,6 +813,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -711,6 +827,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -723,6 +841,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -735,6 +855,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -747,6 +869,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -759,6 +883,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -771,6 +897,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -783,6 +911,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -795,6 +925,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -807,6 +939,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -819,6 +953,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -831,6 +967,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -843,6 +981,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -855,6 +995,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -867,6 +1009,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -879,6 +1023,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -891,6 +1037,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         }
       ]
@@ -901,6 +1049,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/11ad2d3960694589fc72d0d729caaa98b0372a32",
       "commitSha": "11ad2d3960694589fc72d0d729caaa98b0372a32",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "Michael Swanson",
@@ -922,6 +1072,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -934,6 +1086,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -950,6 +1104,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -962,6 +1118,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -974,6 +1132,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -986,6 +1146,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -998,6 +1160,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1010,6 +1174,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1022,6 +1188,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1034,6 +1202,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1046,6 +1216,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1058,6 +1230,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1070,6 +1244,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1082,6 +1258,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1098,6 +1276,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1110,6 +1290,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1126,6 +1308,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1138,6 +1322,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1150,6 +1336,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1162,6 +1350,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1178,6 +1368,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1190,6 +1382,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1202,6 +1396,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1214,6 +1410,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1226,6 +1424,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1238,6 +1438,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1254,6 +1456,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1266,6 +1470,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1278,6 +1484,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1290,6 +1498,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1302,6 +1512,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1318,6 +1530,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1334,6 +1548,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1346,6 +1562,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1358,6 +1576,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         },
         {
@@ -1370,6 +1590,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
           "source": "freedoom"
         }
       ]
@@ -1380,6 +1602,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/5b716f83766ea2c6c06ebb346f831906cc1e21d0",
       "commitSha": "5b716f83766ea2c6c06ebb346f831906cc1e21d0",
+      "commitIndex": 1,
+      "folder": "sprites/raymoohawk",
       "authors": [
         {
           "name": "Raymoohawk",
@@ -1401,6 +1625,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1413,6 +1639,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1429,6 +1657,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1441,6 +1671,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1453,6 +1685,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1465,6 +1699,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1477,6 +1713,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1489,6 +1727,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1505,6 +1745,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1521,6 +1763,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1533,6 +1777,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1549,6 +1795,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1561,6 +1809,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1573,6 +1823,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1589,6 +1841,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1605,6 +1859,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1617,6 +1873,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1629,6 +1887,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1641,6 +1901,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1653,6 +1915,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1665,6 +1929,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1681,6 +1947,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1697,6 +1965,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1713,6 +1983,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1725,6 +1997,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1737,6 +2011,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1753,6 +2029,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1769,6 +2047,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1781,6 +2061,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1797,6 +2079,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1809,6 +2093,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1821,6 +2107,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1833,6 +2121,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1849,6 +2139,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1861,6 +2153,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
         },
         {
@@ -1873,602 +2167,9 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
           "source": "freedoom"
-        }
-      ]
-    },
-    {
-      "commitDate": "2015-07-20T13:43:10-07:00",
-      "commitMessage": "Move Nightfang's Orb Monster to the attic",
-      "commitSource": "attic",
-      "commitUrl": "https://github.com/freedoom/attic/commit/2950754c4fabc7c5e217204839c84a95a7436189",
-      "commitSha": "2950754c4fabc7c5e217204839c84a95a7436189",
-      "authors": [
-        {
-          "name": "Nightfang",
-          "relation": "Original artist"
-        },
-        {
-          "name": "Michael Swanson",
-          "relation": "Committer (moved to attic)"
-        }
-      ],
-      "sprites": [
-        {
-          "name": "nightfang/orbmonster/heada1.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada1.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (by folder path)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/heada2a8.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada2a8.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/heada3a7.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada3a7.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from path, matching CREDITS entry)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/heada4a6.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada4a6.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from path folder)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/heada5.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heada5.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from folder name and CREDITS)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headb1.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb1.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from folder name)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headb2b8.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb2b8.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from folder name)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headb3b7.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb3b7.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headb4b6.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb4b6.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headb5.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headb5.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headc1.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc1.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from path and folder name)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headc2c8.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc2c8.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from folder path)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headc3c7.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc3c7.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from path and CREDITS)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headc4c6.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc4c6.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from folder path and CREDITS entry)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headc5.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headc5.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from path and CREDITS entry)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headd1.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd1.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from folder name)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headd2d8.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd2d8.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (folder path indicates author)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headd3d7.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd3d7.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from path)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headd4d6.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd4d6.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headd5.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headd5.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/heade1.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade1.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/heade2e8.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade2e8.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/heade3e7.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade3e7.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from path)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/heade4e6.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade4e6.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/heade5.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/heade5.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headf1.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf1.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from path)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headf2f8.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf2f8.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headf3f7.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf3f7.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headf4f6.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf4f6.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headf5.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headf5.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headg0.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headg0.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headh0.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headh0.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from folder name and CREDITS entry)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic per commit message)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headi0.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headi0.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from folder path and CREDITS entry)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headj0.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headj0.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (folder path)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headk0.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headk0.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist (from folder name and CREDITS entry)"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "nightfang/orbmonster/headl0.gif",
-          "url": "https://github.com/freedoom/attic/blob/2950754c4fabc7c5e217204839c84a95a7436189/nightfang/orbmonster/headl0.gif",
-          "spriteAuthors": [
-            {
-              "name": "Nightfang",
-              "relation": "Original artist"
-            },
-            {
-              "name": "Michael Swanson",
-              "relation": "Committer (moved to attic)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
         }
       ]
     },
@@ -2478,6 +2179,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/27aca39126c0f021e543516119c9d3b2500575ac",
       "commitSha": "27aca39126c0f021e543516119c9d3b2500575ac",
+      "commitIndex": 2,
+      "folder": "sprites/pov",
       "authors": [
         {
           "name": "pov",
@@ -2502,7 +2205,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2518,7 +2223,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2534,7 +2241,9 @@
               "relation": "Committer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2550,7 +2259,9 @@
               "relation": "Committer (importer)"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2566,7 +2277,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2582,7 +2295,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2598,7 +2313,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2614,7 +2331,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2630,7 +2349,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2646,7 +2367,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2662,7 +2385,9 @@
               "relation": "Committer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2678,7 +2403,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2694,7 +2421,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2710,7 +2439,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2726,7 +2457,9 @@
               "relation": "Committer (imported sprites)"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2742,7 +2475,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2758,7 +2493,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2774,7 +2511,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2790,7 +2529,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2806,7 +2547,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2822,7 +2565,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2838,7 +2583,9 @@
               "relation": "Committer (importer of POV's sprites)"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2854,7 +2601,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2870,7 +2619,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2886,7 +2637,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2902,7 +2655,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2918,7 +2673,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2934,7 +2691,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2950,7 +2709,9 @@
               "relation": "Committer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2966,7 +2727,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2982,7 +2745,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -2998,7 +2763,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3014,7 +2781,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3030,7 +2799,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3046,7 +2817,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3062,7 +2835,678 @@
               "relation": "Importer"
             }
           ],
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        }
+      ]
+    },
+    {
+      "commitDate": "2006-05-09T16:06:11Z",
+      "commitMessage": "Import sprites",
+      "commitSource": "freedoom",
+      "commitUrl": "https://github.com/freedoom/freedoom/commit/27aca39126c0f021e543516119c9d3b2500575ac",
+      "commitSha": "27aca39126c0f021e543516119c9d3b2500575ac",
+      "commitIndex": 1,
+      "folder": "sprites/nightfang",
+      "authors": [
+        {
+          "name": "Nightfang",
+          "relation": "Artist (from path)"
+        },
+        {
+          "name": "Simon Howard",
+          "relation": "Committer"
+        }
+      ],
+      "sprites": [
+        {
+          "name": "sprites/nightfang/heada1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heada1.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path and CREDITS)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/heada2a8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heada2a8.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/heada3a7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heada3a7.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/heada4a6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heada4a6.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/heada5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heada5.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headb1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headb1.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path and CREDITS entry)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headb2b8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headb2b8.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headb3b7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headb3b7.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headb4b6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headb4b6.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headb5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headb5.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headc1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headc1.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headc2c8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headc2c8.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from folder path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headc3c7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headc3c7.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headc4c6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headc4c6.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from folder path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported sprite)"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headc5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headc5.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headd1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headd1.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headd2d8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headd2d8.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headd3d7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headd3d7.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headd4d6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headd4d6.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headd5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headd5.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (importer)"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/heade1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heade1.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Original artist (from path and CREDITS entry)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer (commit author)"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/heade2e8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heade2e8.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from folder path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/heade3e7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heade3e7.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/heade4e6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heade4e6.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/heade5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heade5.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headf1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headf1.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from folder name)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headf2f8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headf2f8.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from folder name)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headf3f7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headf3f7.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from folder name)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headf4f6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headf4f6.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headf5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headf5.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Original artist (from folder path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headg0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headg0.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headh0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headh0.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headi0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headi0.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headj0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headj0.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headk0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headk0.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/nightfang/headl0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headl0.gif",
+          "spriteAuthors": [
+            {
+              "name": "Nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         }
       ]

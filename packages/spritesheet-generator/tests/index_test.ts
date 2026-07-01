@@ -101,7 +101,7 @@ function makeVersion(
 		date: "2023-01-01T00:00:00Z",
 		sha: blobSha,
 		url: `https://github.com/freedoom/${repo}/commit/${blobSha}`,
-		author: "tester",
+		authors: [{ name: "tester", relation: "Committer" }],
 		message: "test",
 		files: files.map((f) => ({
 			name: f.name,
@@ -207,7 +207,9 @@ test("main - skips already-indexed shas", async () => {
 
 		const first = await runWithConfig(cfg, targets);
 		expect(first.appended).toEqual(1);
-		const second = await runWithConfig(cfg, targets);
+		// Force re-read targets to ensure sv.index is handled if needed
+		const targets2 = JSON.parse(JSON.stringify(targets));
+		const second = await runWithConfig(cfg, targets2);
 		expect(second.appended).toEqual(0);
 		expect(second.collection["POSS"]!.length).toEqual(1);
 	} finally {

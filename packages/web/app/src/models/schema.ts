@@ -61,6 +61,7 @@ export const SpritesheetVersionSchema = z.object({
   commitUrl: z.string(),
   spritesheetPath: z.string(),
   source: z.string(),
+  index: z.number().optional(),
   sprites: z.array(SpriteSchema),
 });
 

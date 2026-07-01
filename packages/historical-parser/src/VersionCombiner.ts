@@ -45,12 +45,15 @@ export class VersionCombiner {
     const merged = [...a, ...b];
     const uniqueSnapshots = new Map<string, CommitSnapshot>();
     for (const snapshot of merged) {
-      if (!uniqueSnapshots.has(snapshot.commitSha)) {
-        uniqueSnapshots.set(snapshot.commitSha, snapshot);
+      const key = `${snapshot.commitSha}_${snapshot.commitIndex}`;
+      if (!uniqueSnapshots.has(key)) {
+        uniqueSnapshots.set(key, snapshot);
       }
     }
     return Array.from(uniqueSnapshots.values()).sort((a, b) => {
-      return new Date(a.commitDate).getTime() - new Date(b.commitDate).getTime();
+      const dateDiff = new Date(a.commitDate).getTime() - new Date(b.commitDate).getTime();
+      if (dateDiff !== 0) return dateDiff;
+      return a.commitIndex - b.commitIndex;
     });
   }
 
@@ -80,6 +83,8 @@ export class VersionCombiner {
           url: sprite.url,
           spriteAuthors: sprite.authorNames,
           spriteState,
+          commitIndex: snapshot.commitIndex,
+          lastChangedDate: snapshot.commitDate,
           source: snapshot.commitSource,
         };
 
@@ -98,7 +103,67 @@ export class VersionCombiner {
       frameState.set(frameKey, winner);
     }
 
+    if (this.resolveConflicts(frameState)) {
+      hasChanges = true;
+    }
+
     return hasChanges;
+  }
+
+  /**
+   * Resolves conflicts between angle 0 and angles 1-8 for each frame letter.
+   * If both exist, the newer set wins. If same age, 1-8 wins.
+   * @returns true if any sprites were removed
+   */
+  private resolveConflicts(frameState: Map<string, SpriteEntry>): boolean {
+    const frameGroups = new Map<string, string[]>();
+    for (const frameKey of frameState.keys()) {
+      const letter = frameKey.charAt(0);
+      if (!frameGroups.has(letter)) {
+        frameGroups.set(letter, []);
+      }
+      frameGroups.get(letter)!.push(frameKey);
+    }
+
+    let removedAny = false;
+
+    for (const [letter, keys] of frameGroups) {
+      const angle0Keys = keys.filter(k => k.endsWith("0"));
+      const angle1to8Keys = keys.filter(k => {
+        const angle = k.charAt(1);
+        return angle >= "1" && angle <= "8";
+      });
+
+      if (angle0Keys.length > 0 && angle1to8Keys.length > 0) {
+        // Conflict detected for this frame letter.
+        // Compare max(commitIndex) within the latest date.
+        
+        const allEntries = keys.map(k => frameState.get(k)!);
+        const maxDate = Math.max(...allEntries.map(e => new Date(e.lastChangedDate).getTime()));
+        
+        const latestEntries = allEntries.filter(e => new Date(e.lastChangedDate).getTime() === maxDate);
+        const maxIndex = Math.max(...latestEntries.map(e => e.commitIndex));
+
+        const winningEntries = latestEntries.filter(e => e.commitIndex === maxIndex);
+        const winWith0 = winningEntries.some(e => e.name.match(/[a-z]0\.(png|gif)$/i));
+
+        if (winWith0) {
+          // Latest update was angle 0, wipe out 1-8
+          for (const k of angle1to8Keys) {
+            frameState.delete(k);
+            removedAny = true;
+          }
+        } else {
+          // Latest update was 1-8, wipe out 0
+          for (const k of angle0Keys) {
+            frameState.delete(k);
+            removedAny = true;
+          }
+        }
+      }
+    }
+
+    return removedAny;
   }
 
   private selectBestCandidate(candidates: SpriteEntry[]): SpriteEntry {
@@ -171,6 +236,8 @@ export class VersionCombiner {
       commitSource: snapshot.commitSource,
       commitUrl: snapshot.commitUrl,
       commitSha: snapshot.commitSha,
+      commitIndex: snapshot.commitIndex,
+      folder: snapshot.folder ?? undefined,
       authors: authors.length > 0 ? authors : [{ name: snapshot.commitAuthor, relation: "Commit author" }],
       sprites,
     };

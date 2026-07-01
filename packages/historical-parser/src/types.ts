@@ -67,6 +67,10 @@ export type SpriteEntry = {
   spriteAuthors: AuthorInfo[];
   /** State of the sprite (new, updated, unchanged) */
   spriteState: SpriteState;
+  /** Date of the commit that last changed this sprite (ISO format) */
+  lastChangedDate: string;
+  /** The commit index when this sprite was last changed */
+  commitIndex: number;
   /** Source repository (freedoom or attic) */
   source?: CommitSource;
 };
@@ -88,6 +92,10 @@ export type CharacterVersionSnapshot = {
   commitSha: string;
   /** Commit authors for this snapshot */
   authors: AuthorInfo[];
+  /** Index of the snapshot within the commit */
+  commitIndex: number;
+  /** Folder name/path for this snapshot */
+  folder?: string;
   /** Array of sprite entries for this version */
   sprites: SpriteEntry[];
 };

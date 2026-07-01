@@ -18,6 +18,8 @@ export type CommitSnapshot = {
   commitMessage: string;
   commitSha: string;
   commitUrl: string;
+  commitIndex: number;
+  folder: string | null;
   commitSource: "freedoom" | "attic";
   commitSprites: SpriteFile[];
 };
@@ -81,6 +83,21 @@ export class SnapshotBuilder {
         continue;
       }
 
+      // If grouping is active, ensure the file belongs to this folder's snapshot.
+      // Rule: Any path directly in 'sprites/' belongs to 'sprites'.
+      // Any path in 'sprites/XYZ/...' belongs to 'sprites/XYZ'.
+      if (unit.folder) {
+        const pathParts = entry.path.split("/");
+        let spriteOwner = "sprites";
+        if (pathParts[0] === "sprites" && pathParts.length >= 3) {
+          spriteOwner = `sprites/${pathParts[1]}`;
+        }
+        
+        if (spriteOwner !== unit.folder) {
+          continue;
+        }
+      }
+
       if (seenPaths.has(entry.path)) {
         continue;
       }
@@ -118,6 +135,8 @@ export class SnapshotBuilder {
       commitMessage: unit.message,
       commitSha: unit.sha,
       commitUrl: `${this.options.githubBaseUrl}/commit/${unit.sha}`,
+      commitIndex: 0, // Will be overridden by BaseParser
+      folder: unit.folder,
       commitSource: source,
       commitSprites: spriteFiles,
     };

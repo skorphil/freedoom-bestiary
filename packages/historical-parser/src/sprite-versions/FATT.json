@@ -2,1953 +2,13 @@
   "code": "FATT",
   "spriteVersions": [
     {
-      "commitDate": "2024-05-21T23:52:56+05:00",
-      "commitMessage": "Music by J.Astartes",
-      "commitSource": "attic",
-      "commitUrl": "https://github.com/freedoom/attic/commit/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1",
-      "commitSha": "3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1",
-      "authors": [
-        {
-          "name": "Alberto Bonis",
-          "relation": "Artist (from folder name 'saint_of_killers' matching 'Saint of Killers' in CREDITS)"
-        },
-        {
-          "name": "Georgy Samoilov",
-          "relation": "Committer (commit author)"
-        },
-        {
-          "name": "Craneo",
-          "relation": "Artist (from folder name)"
-        }
-      ],
-      "sprites": [
-        {
-          "name": "saint_of_killers/combat_slug/fatta1.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fatta1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path: 'saint_of_killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatta2a8.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fatta2a8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path handle 'saint_of_killers')"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatta3a7.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fatta3a7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path prefix 'saint_of_killers')"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatta4a6.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fatta4a6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path 'saint_of_killers')"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatta5.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fatta5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path folder 'saint_of_killers', matches 'Saint of Killers' in CREDITS)"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattb1.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattb1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path prefix 'saint_of_killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (initial commit to attic)"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattb2b8.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattb2b8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path directory 'saint_of_killers'; matches 'Saint of Killers' in CREDITS: 'D: sprites/art')"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattb3b7.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattb3b7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path folder)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit author; no override found in message)"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattb4b6.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattb4b6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path 'saint_of_killers' → CREDITS: 'Saint of Killers', D: sprites/art)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattb5.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattb5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path: saint_of_killers)"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattc1.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattc1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path folder)"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattc2c8.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattc2c8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path folder)"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattc3c7.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattc3c7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattc4c6.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattc4c6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS)"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattc5.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattc5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path prefix 'saint_of_killers', matches CREDITS entry)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattd1.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattd1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path folder)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattd2d8.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattd2d8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path: 'saint_of_killers')"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattd3d7.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattd3d7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path: 'saint_of_killers')"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattd4d6.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattd4d6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path folder 'saint_of_killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattd5.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattd5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (folder path 'saint_of_killers'; matches CREDITS entry)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatte1.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fatte1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path / CREDITS: 'Saint of Killers' → Alberto Bonis, D: sprites/art)"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatte2e8.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fatte2e8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path: 'saint_of_killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatte3e7.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fatte3e7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatte4e6.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fatte4e6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit message only mentions music, no specific attribution; fallback)"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatte5.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fatte5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path folder: 'saint_of_killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit 3cdc47c9)"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattf1.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattf1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path handle 'saint_of_killers'; matches 'Saint of Killers' in CREDITS: 'D: sprites/art')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattf2f8.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattf2f8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS: 'Saint of Killers' handle)"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattf3f7.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattf3f7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit message indicates music by J.Astartes — no sprite-specific attribution; fallback to committer)"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattf4f6.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattf4f6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattf5.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattf5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path/folder: 'saint_of_killers')"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "craneo/sprites/fattg1.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fattg1.png",
-          "spriteAuthors": [
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit author; no further attribution found in message or path)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "craneo/sprites/fattg2g8.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fattg2g8.png",
-          "spriteAuthors": [
-            {
-              "name": "Craneo",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattg3g7.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattg3g7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path 'saint_of_killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattg4g6.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattg4g6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path directory 'saint_of_killers'; matches CREDITS entry)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattg5.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattg5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "craneo/sprites/fatth1.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatth1.png",
-          "spriteAuthors": [
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "craneo/sprites/fatth2h8.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatth2h8.png",
-          "spriteAuthors": [
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit author, no specific attribution in message)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "craneo/sprites/fatth3h7.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatth3h7.png",
-          "spriteAuthors": [
-            {
-              "name": "Craneo",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "craneo/sprites/fatth4h6.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatth4h6.png",
-          "spriteAuthors": [
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit 3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1)"
-            },
-            {
-              "name": "Craneo",
-              "relation": "Artist (from folder path)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "craneo/sprites/fatth5.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatth5.png",
-          "spriteAuthors": [
-            {
-              "name": "Craneo",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit author)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "craneo/sprites/fatti1.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatti1.png",
-          "spriteAuthors": [
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit message references 'Music by J.Astartes' but does not mention sprite author; path indicates folder name 'craneo' but no 'craneo' in CREDITS)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "craneo/sprites/fatti2i8.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatti2i8.png",
-          "spriteAuthors": [
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "craneo/sprites/fatti3i7.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatti3i7.png",
-          "spriteAuthors": [
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            },
-            {
-              "name": "Craneo",
-              "relation": "Artist (from path)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "craneo/sprites/fatti4i6.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatti4i6.png",
-          "spriteAuthors": [
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "craneo/sprites/fatti5.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fatti5.png",
-          "spriteAuthors": [
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattj1.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattj1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (via handle in path, matches CREDITS: 'Saint of Killers')"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattj2.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattj2.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path folder)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattj3.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattj3.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattj4.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattj4.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path handle 'saint_of_killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit 3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1)"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattj5.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattj5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path, matches CREDITS handle 'Saint of Killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattj6.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattj6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattj7.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattj7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattj8.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattj8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS: 'saint_of_killers' handle)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "craneo/sprites/fattk0.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fattk0.png",
-          "spriteAuthors": [
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "craneo/sprites/fattl0.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fattl0.png",
-          "spriteAuthors": [
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "craneo/sprites/fattm0.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fattm0.png",
-          "spriteAuthors": [
-            {
-              "name": "Craneo",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "craneo/sprites/fattn0.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/craneo/sprites/fattn0.png",
-          "spriteAuthors": [
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            },
-            {
-              "name": "Craneo",
-              "relation": "Artist (from folder name)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatto0.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fatto0.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (folder: saint_of_killers)"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattp0.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattp0.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattq0.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattq0.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path folder 'saint_of_killers'; matches handle 'Saint of Killers' in CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattr0.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattr0.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path, matches CREDITS entry 'Saint of Killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatts0.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fatts0.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path / CREDITS: 'Saint of Killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit author)"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattt0.png",
-          "url": "https://github.com/freedoom/attic/blob/3cdc47c9b4db0287934e9ebcd6e79ed3cdce78b1/saint_of_killers/combat_slug/fattt0.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from folder name 'saint_of_killers' matching 'Saint of Killers' in CREDITS)"
-            }
-          ],
-          "spriteState": "unchanged",
-          "source": "attic"
-        }
-      ]
-    },
-    {
-      "commitDate": "2024-05-20T18:38:57+05:00",
-      "commitMessage": "Another big update",
-      "commitSource": "attic",
-      "commitUrl": "https://github.com/freedoom/attic/commit/f8f3370f718c6823ba8441c5f5cdec0a5c16a884",
-      "commitSha": "f8f3370f718c6823ba8441c5f5cdec0a5c16a884",
-      "authors": [
-        {
-          "name": "Alberto Bonis",
-          "relation": "Artist (from path 'saint_of_killers')"
-        },
-        {
-          "name": "Georgy Samoilov",
-          "relation": "Committer (commit 'Another big update')"
-        }
-      ],
-      "sprites": [
-        {
-          "name": "saint_of_killers/combat_slug/fatta1.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatta1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (by path folder, matches CREDITS entry 'Saint of Killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatta2a8.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatta2a8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from folder name 'saint_of_killers' and CREDITS entry)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatta3a7.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatta3a7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (folder path 'saint_of_killers', per CREDITS: 'sprites/art')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit author, 'Another big update')"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatta4a6.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatta4a6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path: saint_of_killers)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatta5.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatta5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (folder 'saint_of_killers' = Saint of Killers)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattb1.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattb1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattb2b8.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattb2b8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattb3b7.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattb3b7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path / folder name)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattb4b6.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattb4b6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattb5.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattb5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from folder name; matches CREDITS entry 'Saint of Killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit f8f3370f718c6823ba8441c5f5cdec0a5c16a884)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattc1.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattc1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit f8f3370f718c6823ba8441c5f5cdec0a5c16a884, 'Another big update')"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattc2c8.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattc2c8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS entry)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit f8f3370f)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattc3c7.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattc3c7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (by folder name 'saint_of_killers'; matches handle 'Saint of Killers' in CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit author, no other attribution found in path/message)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattc4c6.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattc4c6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from folder path; 'saint_of_killers' matches his handle in CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattc5.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattc5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit author)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattd1.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattd1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS: 'sprites/art')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit message: 'Another big update'; no further attribution found in commit details)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattd2d8.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattd2d8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path folder)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattd3d7.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattd3d7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path, 'saint_of_killers' matches handle in CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattd4d6.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattd4d6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattd5.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattd5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from folder path 'saint_of_killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit message: 'Another big update')"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatte1.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatte1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatte2e8.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatte2e8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatte3e7.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatte3e7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path: 'saint_of_killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatte4e6.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatte4e6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatte5.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatte5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattf1.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattf1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (folder name matches CREDITS entry 'Saint of Killers' — Alberto Bonis, D: sprites/art)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit author for 'Another big update' adding this sprite)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattf2f8.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattf2f8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (by folder name 'saint_of_killers' and CREDITS entry)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattf3f7.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattf3f7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattf4f6.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattf4f6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattf5.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattf5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (folder name matches CREDITS handle 'Saint of Killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattg1.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattg1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (based on path prefix matching CREDITS entry 'Saint of Killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (via commit f8f3370f718c6823ba8441c5f5cdec0a5c16a884)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattg2g8.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattg2g8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from folder name 'saint_of_killers', matches CREDITS entry)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattg3g7.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattg3g7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path folder saint_of_killers)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit f8f3370f)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattg4g6.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattg4g6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattg5.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattg5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path, matches 'saint_of_killers' handle)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatth1.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatth1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path: 'saint_of_killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatth2h8.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatth2h8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path folder 'saint_of_killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatth3h7.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatth3h7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatth4h6.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatth4h6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatth5.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatth5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path, 'saint_of_killers' handle)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit f8f3370: 'Another big update')"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatti1.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatti1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit f8f3370f718c6823ba8441c5f5cdec0a5c16a884: 'Another big update')"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatti2i8.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatti2i8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatti3i7.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatti3i7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path: 'saint_of_killers')"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatti4i6.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatti4i6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path, matches 'Saint of Killers' handle)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatti5.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatti5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path, matches CREDITS entry 'Alberto Bonis' / 'Saint of Killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattj1.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattj1.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS entry)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit f8f3370f)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattj2.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattj2.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit message: \"Another big update\")"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattj3.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattj3.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path: 'saint_of_killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit f8f3370f, 'Another big update')"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattj4.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattj4.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path / handle 'saint_of_killers', matches CREDITS entry)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattj5.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattj5.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path folder 'saint_of_killers'; confirmed in CREDITS as 'sprites/art')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattj6.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattj6.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path folder 'saint_of_killers'; matches 'Saint of Killers' in CREDITS, who is credited for 'sprites/art')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattj7.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattj7.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit f8f3370f)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattj8.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattj8.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path: 'saint_of_killers' matches handle in CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattk0.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattk0.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattl0.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattl0.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (folder name matches CREDITS handle 'Saint of Killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattm0.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattm0.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path folder name; matches CREDITS entry 'Alberto Bonis, S: Saint of Killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattn0.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattn0.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Original artist (via folder path 'saint_of_killers')"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatto0.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatto0.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path 'saint_of_killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit f8f3370f718c6823ba8441c5f5cdec0a5c16a884: 'Another big update')"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattp0.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattp0.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattq0.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattq0.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path alias 'saint_of_killers', matches CREDITS entry)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattr0.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattr0.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path / CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fatts0.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fatts0.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path 'saint_of_killers')"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "saint_of_killers/combat_slug/fattt0.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/saint_of_killers/combat_slug/fattt0.png",
-          "spriteAuthors": [
-            {
-              "name": "Alberto Bonis",
-              "relation": "Artist (from path 'saint_of_killers')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit 'Another big update')"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        }
-      ]
-    },
-    {
       "commitDate": "2023-07-17T02:14:24-04:00",
       "commitMessage": "png: Map color 255 to color 133 (#1003)\nSince color index 255 is a special transparent color in some game\r\nengines color 255 has been mapped to similar color 133 using make\r\ntarget 'fix-legacy-transparency-pngs'. The images have also been\r\nnormalized with make target 'fix-deutex-pngs'.",
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/57246cae8f7901d4bc63072f9632685d1e3b507d",
       "commitSha": "57246cae8f7901d4bc63072f9632685d1e3b507d",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "Steven Elliott",
@@ -1966,6 +26,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1978,6 +40,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1990,6 +54,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2002,6 +68,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2014,6 +82,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2026,6 +96,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2038,6 +110,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2050,6 +124,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2062,6 +138,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2074,6 +152,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2086,6 +166,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2098,6 +180,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2110,6 +194,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2122,6 +208,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2134,6 +222,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2146,6 +236,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2158,6 +250,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2170,6 +264,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2182,6 +278,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2194,6 +292,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2206,6 +306,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2218,6 +320,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2230,6 +334,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2242,6 +348,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2254,6 +362,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2266,6 +376,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2278,6 +390,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2290,6 +404,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2302,6 +418,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2314,6 +432,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2326,6 +446,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2338,6 +460,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2350,6 +474,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2362,6 +488,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2374,6 +502,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2386,6 +516,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2398,6 +530,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2410,6 +544,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2422,6 +558,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2434,6 +572,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2446,6 +586,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2458,6 +600,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2470,6 +614,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2482,6 +628,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2494,6 +642,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2506,6 +656,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2518,6 +670,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2530,6 +684,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2542,6 +698,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2554,6 +712,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2566,6 +726,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2578,6 +740,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2590,6 +754,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2602,6 +768,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2614,6 +782,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2626,6 +796,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2638,6 +810,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2650,6 +824,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2662,6 +838,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2674,6 +852,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2686,6 +866,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2698,6 +880,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -2710,6 +894,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         }
       ]
@@ -2720,6 +906,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/4876ba41eee3749b8a3785fa5ecaec107553081f",
       "commitSha": "4876ba41eee3749b8a3785fa5ecaec107553081f",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "Craneo",
@@ -2745,6 +933,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -2761,6 +951,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -2777,6 +969,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -2793,6 +987,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -2809,6 +1005,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -2825,6 +1023,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -2841,6 +1041,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -2857,6 +1059,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -2873,6 +1077,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -2889,6 +1095,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -2905,6 +1113,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -2921,6 +1131,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -2937,6 +1149,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -2953,6 +1167,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -2969,6 +1185,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -2985,6 +1203,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3001,6 +1221,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3017,6 +1239,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3033,6 +1257,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3049,6 +1275,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3065,6 +1293,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3081,6 +1311,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3097,6 +1329,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3113,6 +1347,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3129,6 +1365,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3145,6 +1383,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3161,6 +1401,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3177,6 +1419,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3193,6 +1437,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3209,6 +1455,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3225,6 +1473,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3241,6 +1491,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3257,6 +1509,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3273,6 +1527,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3289,6 +1545,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3305,6 +1563,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3321,6 +1581,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3337,6 +1599,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3353,6 +1617,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3369,6 +1635,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3385,6 +1653,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3401,6 +1671,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3417,6 +1689,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3433,6 +1707,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3449,6 +1725,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3465,6 +1743,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3481,6 +1761,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3497,6 +1779,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3513,6 +1797,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3529,6 +1815,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3545,6 +1833,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3561,6 +1851,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3577,6 +1869,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3593,6 +1887,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3609,6 +1905,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3625,6 +1923,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3641,6 +1941,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3657,6 +1959,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3673,6 +1977,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3689,6 +1995,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3705,6 +2013,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3721,6 +2031,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         },
         {
@@ -3737,6 +2049,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-04-12T17:02:33-04:00",
           "source": "freedoom"
         }
       ]
@@ -3747,6 +2061,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/3292f865a91d0dcdca8c144e828deb49e8f43663",
       "commitSha": "3292f865a91d0dcdca8c144e828deb49e8f43663",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "Samuel Oliver",
@@ -3776,6 +2092,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -3800,6 +2118,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -3820,6 +2140,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -3840,6 +2162,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -3860,6 +2184,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -3884,6 +2210,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -3908,6 +2236,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -3932,6 +2262,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -3956,6 +2288,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -3980,6 +2314,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -3992,6 +2328,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4016,6 +2354,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4036,6 +2376,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4060,6 +2402,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4080,6 +2424,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4104,6 +2450,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4128,6 +2476,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4148,6 +2498,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4160,6 +2512,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4172,6 +2526,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4192,6 +2548,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4216,6 +2574,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4240,6 +2600,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4252,6 +2614,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4276,6 +2640,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4296,6 +2662,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4320,6 +2688,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4344,6 +2714,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4368,6 +2740,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4388,6 +2762,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4408,6 +2784,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4432,6 +2810,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4452,6 +2832,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4472,6 +2854,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4492,6 +2876,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4504,6 +2890,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4524,6 +2912,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4544,6 +2934,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4564,6 +2956,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4584,6 +2978,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4596,6 +2992,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4620,6 +3018,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4640,6 +3040,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4664,6 +3066,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4676,6 +3080,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4696,6 +3102,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4716,6 +3124,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4728,6 +3138,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4748,6 +3160,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4768,6 +3182,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4788,6 +3204,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4812,6 +3230,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4832,6 +3252,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4852,6 +3274,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4872,6 +3296,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4884,6 +3310,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4896,6 +3324,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4920,6 +3350,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4944,6 +3376,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4964,6 +3398,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4976,6 +3412,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -4988,6 +3426,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         },
         {
@@ -5008,6 +3448,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2020-05-14T13:05:35-04:00",
           "source": "freedoom"
         }
       ]
@@ -5018,6 +3460,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
       "commitSha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "Michael Swanson",
@@ -5035,6 +3479,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5047,6 +3493,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5059,6 +3507,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5071,6 +3521,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5083,6 +3535,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5095,6 +3549,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5107,6 +3563,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5119,6 +3577,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5131,6 +3591,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5143,6 +3605,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5155,6 +3619,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5167,6 +3633,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5179,6 +3647,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5191,6 +3661,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5203,6 +3675,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5215,6 +3689,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5227,6 +3703,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5239,6 +3717,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5251,6 +3731,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5263,6 +3745,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5275,6 +3759,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5287,6 +3773,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5299,6 +3787,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5311,6 +3801,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5323,6 +3815,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5335,6 +3829,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5347,6 +3843,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5359,6 +3857,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5371,6 +3871,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5383,6 +3885,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5395,6 +3899,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5407,6 +3913,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5419,6 +3927,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5431,6 +3941,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5443,6 +3955,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5455,6 +3969,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5467,6 +3983,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5479,6 +3997,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5491,6 +4011,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5503,6 +4025,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5515,6 +4039,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5527,6 +4053,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5539,6 +4067,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5551,6 +4081,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5563,6 +4095,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5575,6 +4109,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5587,6 +4123,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5599,6 +4137,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5611,6 +4151,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5623,6 +4165,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5635,6 +4179,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5647,6 +4193,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5659,6 +4207,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5671,6 +4221,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5683,6 +4235,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5695,6 +4249,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5707,6 +4263,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5719,6 +4277,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5731,6 +4291,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5743,6 +4305,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5755,6 +4319,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5767,6 +4333,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -5779,6 +4347,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         }
       ]
@@ -5789,6 +4359,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/1d75335ab02d70b6b8739d233715db140872d82c",
       "commitSha": "1d75335ab02d70b6b8739d233715db140872d82c",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "Alberto Bonis",
@@ -5814,6 +4386,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -5830,6 +4404,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -5846,6 +4422,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -5862,6 +4440,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -5878,6 +4458,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -5894,6 +4476,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -5906,6 +4490,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -5922,6 +4508,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -5938,6 +4526,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -5954,6 +4544,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -5970,6 +4562,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -5986,6 +4580,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6002,6 +4598,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6018,6 +4616,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6034,6 +4634,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6050,6 +4652,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6062,6 +4666,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6078,6 +4684,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6094,6 +4702,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6110,6 +4720,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6122,6 +4734,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6138,6 +4752,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6154,6 +4770,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6170,6 +4788,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6186,6 +4806,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6202,6 +4824,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6214,6 +4838,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6226,6 +4852,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6238,6 +4866,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6254,6 +4884,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6270,6 +4902,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6286,6 +4920,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6302,6 +4938,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6314,6 +4952,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6330,6 +4970,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6346,6 +4988,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6362,6 +5006,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6378,6 +5024,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6394,6 +5042,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6410,6 +5060,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6422,6 +5074,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6438,6 +5092,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6450,6 +5106,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6466,6 +5124,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6482,6 +5142,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6498,6 +5160,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6510,6 +5174,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6522,6 +5188,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6538,6 +5206,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6554,6 +5224,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6566,6 +5238,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6582,6 +5256,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6594,6 +5270,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6610,6 +5288,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6622,6 +5302,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6638,6 +5320,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6654,6 +5338,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6666,6 +5352,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6682,6 +5370,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6698,6 +5388,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6714,6 +5406,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6726,6 +5420,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         },
         {
@@ -6742,6 +5438,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T00:52:32-08:00",
           "source": "freedoom"
         }
       ]
@@ -6752,6 +5450,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/7097cd9ce900b03ca2c948d8e597e105c68ea4be",
       "commitSha": "7097cd9ce900b03ca2c948d8e597e105c68ea4be",
+      "commitIndex": 0,
+      "folder": "sprites/saint_of_killers",
       "authors": [
         {
           "name": "Alberto Bonis",
@@ -6777,6 +5477,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -6793,6 +5495,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -6809,6 +5513,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -6825,6 +5531,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -6841,6 +5549,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -6857,6 +5567,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -6873,6 +5585,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -6889,6 +5603,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -6905,6 +5621,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -6921,6 +5639,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -6933,6 +5653,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -6949,6 +5671,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -6965,6 +5689,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -6981,6 +5707,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -6997,6 +5725,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7013,6 +5743,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7029,6 +5761,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7045,6 +5779,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7061,6 +5797,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7077,6 +5815,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7093,6 +5833,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7109,6 +5851,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7125,6 +5869,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7141,6 +5887,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7157,6 +5905,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7173,6 +5923,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7189,6 +5941,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7205,6 +5959,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7221,6 +5977,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7237,6 +5995,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7253,6 +6013,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7269,6 +6031,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7285,6 +6049,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7301,6 +6067,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7317,6 +6085,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7333,6 +6103,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7349,6 +6121,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7365,6 +6139,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7381,6 +6157,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7397,6 +6175,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7413,6 +6193,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7429,6 +6211,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7445,6 +6229,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7457,6 +6243,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7473,6 +6261,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7489,6 +6279,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7505,6 +6297,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7521,6 +6315,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7537,6 +6333,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7549,6 +6347,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7565,6 +6365,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7581,6 +6383,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7597,6 +6401,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7609,6 +6415,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7621,6 +6429,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7637,6 +6447,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7653,6 +6465,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7669,6 +6483,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7685,6 +6501,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7701,6 +6519,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7713,6 +6533,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7729,6 +6551,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         },
         {
@@ -7745,6 +6569,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-06-16T17:13:58Z",
           "source": "freedoom"
         }
       ]
@@ -7755,6 +6581,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/27aca39126c0f021e543516119c9d3b2500575ac",
       "commitSha": "27aca39126c0f021e543516119c9d3b2500575ac",
+      "commitIndex": 1,
+      "folder": "sprites/saint_of_killers",
       "authors": [
         {
           "name": "Alberto Bonis",
@@ -7780,6 +6608,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -7796,6 +6626,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -7812,6 +6644,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -7828,6 +6662,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -7844,6 +6680,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -7860,6 +6698,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -7876,6 +6716,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -7892,6 +6734,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -7908,6 +6752,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -7924,6 +6770,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -7940,6 +6788,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -7956,6 +6806,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -7972,6 +6824,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -7988,6 +6842,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8004,6 +6860,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8020,6 +6878,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8036,6 +6896,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8052,6 +6914,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8068,6 +6932,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8084,6 +6950,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8100,6 +6968,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8116,6 +6986,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8132,6 +7004,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8148,6 +7022,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8164,6 +7040,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8180,6 +7058,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8196,6 +7076,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8212,6 +7094,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8228,6 +7112,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8244,6 +7130,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8260,6 +7148,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8276,6 +7166,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8292,6 +7184,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8308,6 +7202,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8324,6 +7220,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8340,6 +7238,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8356,6 +7256,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8372,6 +7274,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8388,6 +7292,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8400,6 +7306,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8416,6 +7324,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8432,6 +7342,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8448,6 +7360,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8464,6 +7378,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8480,6 +7396,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8496,6 +7414,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8512,6 +7432,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8528,6 +7450,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8544,6 +7468,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8560,6 +7486,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8576,6 +7504,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8592,6 +7522,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8608,6 +7540,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8624,6 +7558,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8640,6 +7576,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8656,6 +7594,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8672,6 +7612,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8688,6 +7630,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8704,6 +7648,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8720,6 +7666,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8736,6 +7684,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8752,6 +7702,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8768,6 +7720,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         }
       ]

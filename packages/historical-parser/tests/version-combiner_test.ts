@@ -74,4 +74,31 @@ describe("VersionCombiner", () => {
     expect(result.authors).toContainEqual({ name: "Author1", relation: "Artist" });
     expect(result.authors).toContainEqual({ name: "Author2", relation: "Refinement" });
   });
+
+  test("combine should handle multi-snapshot commits using commitIndex", () => {
+    const freedomSnapshots: any[] = [
+      {
+        commitSha: "sha1",
+        commitDate: "2023-01-01T10:00:00Z",
+        commitIndex: 0,
+        commitSource: "freedoom",
+        commitSprites: [{ code: "POSS", filename: "possa1.gif", url: "url1", status: "A", authorNames: [] }]
+      },
+      {
+        commitSha: "sha1",
+        commitDate: "2023-01-01T10:00:00Z",
+        commitIndex: 1,
+        commitSource: "freedoom",
+        commitSprites: [{ code: "POSS", filename: "pov/possa1.gif", url: "url2", status: "A", authorNames: [] }]
+      }
+    ];
+
+    const result = combiner.combine(freedomSnapshots, []);
+    // Versions are reversed in combiner.combine, so latest index 1 should be first
+    expect(result.spriteVersions.length).toBe(2);
+    expect(result.spriteVersions[0].commitIndex).toBe(1);
+    expect(result.spriteVersions[1].commitIndex).toBe(0);
+    expect(result.spriteVersions[0].sprites[0].url).toBe("url2");
+    expect(result.spriteVersions[1].sprites[0].url).toBe("url1");
+  });
 });

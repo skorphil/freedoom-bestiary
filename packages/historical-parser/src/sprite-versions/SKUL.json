@@ -2,522 +2,13 @@
   "code": "SKUL",
   "spriteVersions": [
     {
-      "commitDate": "2024-05-20T18:38:57+05:00",
-      "commitMessage": "Another big update",
-      "commitSource": "attic",
-      "commitUrl": "https://github.com/freedoom/attic/commit/f8f3370f718c6823ba8441c5f5cdec0a5c16a884",
-      "commitSha": "f8f3370f718c6823ba8441c5f5cdec0a5c16a884",
-      "authors": [
-        {
-          "name": "Georgy Samoilov",
-          "relation": "Committer"
-        },
-        {
-          "name": "Fredrik Johansson",
-          "relation": "Artist (from path: 'fredrik/deadflare')"
-        }
-      ],
-      "sprites": [
-        {
-          "name": "fredrik/deadflare/skula1.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skula1.png",
-          "spriteAuthors": [
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (by f8f3370f)"
-            },
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path 'fredrik' folder; matches CREDITS entry)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skula5.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skula5.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skula6a4.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skula6a4.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skula7a3.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skula7a3.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path 'fredrik', matches CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit author, 'Another big update')"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skula8a2.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skula8a2.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path folder 'fredrik' and name 'deadflare')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skulb1.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulb1.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skulb5.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulb5.png",
-          "spriteAuthors": [
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (SHA f8f3370f)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skulb6b4.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulb6b4.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from folder path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skulb7b3.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulb7b3.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skulb8b2.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulb8b2.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path: fredrik/deadflare)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skulc1.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulc1.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skulc5.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulc5.png",
-          "spriteAuthors": [
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            },
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path and CREDITS entry)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skulc6c4.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulc6c4.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit author; no other attribution found)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skulc7c3.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulc7c3.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path 'fredrik' and CREDITS entry)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (f8f3370: 'Another big update')"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skulc8c2.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulc8c2.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path 'fredrik/deadflare/')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit f8f3370f718c6823ba8441c5f5cdec0a5c16a884)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skuld1.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuld1.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from folder name)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skuld5.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuld5.png",
-          "spriteAuthors": [
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            },
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path 'fredrik', matches CREDITS entry)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skuld6d4.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuld6d4.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skuld7d3.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuld7d3.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skuld8d2.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuld8d2.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from folder path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skule1.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skule1.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path and CREDITS)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit f8f3370f)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skule5.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skule5.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Original artist (from path folder 'fredrik' and name 'deadflare')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skule6e4.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skule6e4.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path 'fredrik/deadflare')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skule7e3.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skule7e3.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path 'fredrik/deadflare/')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit f8f3370, 'Another big update')"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skule8e2.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skule8e2.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path folder 'fredrik/deadflare')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skulf0.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulf0.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Original artist (from path / folder name)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skulg0.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulg0.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path and CREDITS: fredrik.johansson@gmail.com, D: textures, sprites)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (commit author; no conflicting attribution in message)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skulh0.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulh0.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path 'fredrik/deadflare')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (via commit f8f3370f)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skuli0.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skuli0.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skulj0.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulj0.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path and CREDITS entry)"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer (fallback: commit author)"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        },
-        {
-          "name": "fredrik/deadflare/skulk0.png",
-          "url": "https://github.com/freedoom/attic/blob/f8f3370f718c6823ba8441c5f5cdec0a5c16a884/fredrik/deadflare/skulk0.png",
-          "spriteAuthors": [
-            {
-              "name": "Fredrik Johansson",
-              "relation": "Artist (from path: 'fredrik/deadflare')"
-            },
-            {
-              "name": "Georgy Samoilov",
-              "relation": "Committer"
-            }
-          ],
-          "spriteState": "updated",
-          "source": "attic"
-        }
-      ]
-    },
-    {
       "commitDate": "2023-12-10T13:26:18-08:00",
       "commitMessage": "sprites: make hatchling/octoball explosions snappier. (#1220)\nSomething that's bothered me for a while now: the hatchling dies, it slowly oozes blood and crumples, the fireball explosion sound plays in the middle of all that bleeding and crumpling, then it slow-motion explodes in total silence.\r\nPart of this the problem with the way the lost soul death is hard-coded - 6 tics per frame is just way too long for any decently snappy explosion. At best we can have like 2 actual \"exploding\" frames and the rest is just the bits floating in midair slowly fading away.\r\nThis PR skips the bleeding frames entirely in favour of what looks like a failed attempt at getting in one last attack, then a quick explosion right on the A_Scream frame followed by a few frames of that ring of glowing gore bits fading into nothing.\r\nA similar issue to the hatchling death animation exists with the octaminator projectile as well. The lines coming out of the current B frame still imply an explosion rather than a lingering cloud of debris.",
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/54e555bc89ac4cda89ae88d28228c107be22142f",
       "commitSha": "54e555bc89ac4cda89ae88d28228c107be22142f",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "mc776",
@@ -535,6 +26,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -547,6 +40,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -559,6 +54,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -571,6 +68,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -583,6 +82,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -595,6 +96,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -607,6 +110,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -619,6 +124,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -631,6 +138,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -643,6 +152,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -655,6 +166,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -667,6 +180,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -679,6 +194,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -691,6 +208,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -703,6 +222,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -715,6 +236,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -727,6 +250,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -739,6 +264,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -751,6 +278,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -763,6 +292,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -775,6 +306,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -787,6 +320,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -799,6 +334,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -811,6 +348,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -823,6 +362,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -835,6 +376,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -847,6 +390,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -859,6 +404,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -871,6 +418,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -883,6 +432,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         },
         {
@@ -895,6 +446,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-10T13:26:18-08:00",
           "source": "freedoom"
         }
       ]
@@ -905,6 +458,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/57246cae8f7901d4bc63072f9632685d1e3b507d",
       "commitSha": "57246cae8f7901d4bc63072f9632685d1e3b507d",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "Steven Elliott",
@@ -922,6 +477,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -934,6 +491,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -946,6 +505,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -958,6 +519,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -970,6 +533,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -982,6 +547,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -994,6 +561,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1006,6 +575,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1018,6 +589,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1030,6 +603,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1042,6 +617,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1054,6 +631,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1066,6 +645,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1078,6 +659,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1090,6 +673,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1102,6 +687,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1114,6 +701,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1126,6 +715,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1138,6 +729,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1150,6 +743,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1162,6 +757,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1174,6 +771,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1186,6 +785,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1198,6 +799,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1210,6 +813,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1222,6 +827,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1234,6 +841,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1246,6 +855,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1258,6 +869,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1270,6 +883,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1282,6 +897,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         }
       ]
@@ -1292,6 +909,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/19cf9d2dedf378108d44ff7885df33c4878b6197",
       "commitSha": "19cf9d2dedf378108d44ff7885df33c4878b6197",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "HorrorMovieRei",
@@ -1329,6 +948,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1349,6 +970,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1365,6 +988,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1381,6 +1006,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1401,6 +1028,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1421,6 +1050,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1437,6 +1068,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1453,6 +1086,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1473,6 +1108,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1489,6 +1126,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1501,6 +1140,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1513,6 +1154,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1537,6 +1180,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1557,6 +1202,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1577,6 +1224,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1593,6 +1242,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1613,6 +1264,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1629,6 +1282,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1649,6 +1304,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1665,6 +1322,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1677,6 +1336,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1697,6 +1358,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1721,6 +1384,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1741,6 +1406,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1757,6 +1424,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1769,6 +1438,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1789,6 +1460,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1805,6 +1478,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1825,6 +1500,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1837,6 +1514,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         },
         {
@@ -1861,6 +1540,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2021-08-27T23:28:24-03:00",
           "source": "freedoom"
         }
       ]
@@ -1871,6 +1552,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
       "commitSha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "Michael Swanson",
@@ -1888,6 +1571,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -1900,6 +1585,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -1912,6 +1599,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -1924,6 +1613,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -1936,6 +1627,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -1948,6 +1641,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -1960,6 +1655,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -1972,6 +1669,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -1984,6 +1683,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -1996,6 +1697,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2008,6 +1711,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2020,6 +1725,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2032,6 +1739,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2044,6 +1753,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2056,6 +1767,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2068,6 +1781,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2080,6 +1795,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2092,6 +1809,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2104,6 +1823,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2116,6 +1837,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2128,6 +1851,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2140,6 +1865,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2152,6 +1879,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2164,6 +1893,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2176,6 +1907,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2188,6 +1921,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2200,6 +1935,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2212,6 +1949,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2224,6 +1963,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2236,6 +1977,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2248,6 +1991,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         }
       ]
@@ -2258,6 +2003,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/136d8d3765df56d87535229f9f4ede34bb81c951",
       "commitSha": "136d8d3765df56d87535229f9f4ede34bb81c951",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "Fredrik Johansson",
@@ -2283,6 +2030,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2299,6 +2048,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2315,6 +2066,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2331,6 +2084,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2347,6 +2102,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2363,6 +2120,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2375,6 +2134,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2391,6 +2152,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2407,6 +2170,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2423,6 +2188,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2439,6 +2206,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2455,6 +2224,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2467,6 +2238,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2483,6 +2256,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2499,6 +2274,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2515,6 +2292,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2531,6 +2310,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2547,6 +2328,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2559,6 +2342,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2575,6 +2360,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2591,6 +2378,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2607,6 +2396,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2623,6 +2414,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2639,6 +2432,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2655,6 +2450,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2671,6 +2468,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2687,6 +2486,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2699,6 +2500,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2715,6 +2518,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2731,6 +2536,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         },
         {
@@ -2747,6 +2554,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-16T23:49:51-08:00",
           "source": "freedoom"
         }
       ]
@@ -2757,6 +2566,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/af90fbcaca21ff165936fa2c91fe35bc5f553647",
       "commitSha": "af90fbcaca21ff165936fa2c91fe35bc5f553647",
+      "commitIndex": 1,
+      "folder": "sprites/fredrik",
       "authors": [
         {
           "name": "Fredrik Johansson",
@@ -2782,6 +2593,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -2798,6 +2611,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -2814,6 +2629,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -2830,6 +2647,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -2846,6 +2665,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -2862,6 +2683,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -2878,6 +2701,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -2894,6 +2719,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -2910,6 +2737,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -2926,6 +2755,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -2942,6 +2773,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -2958,6 +2791,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -2974,6 +2809,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -2990,6 +2827,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3006,6 +2845,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3022,6 +2863,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3038,6 +2881,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3054,6 +2899,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3070,6 +2917,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3086,6 +2935,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3102,6 +2953,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3118,6 +2971,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3134,6 +2989,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3150,6 +3007,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3162,6 +3021,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3178,6 +3039,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3194,6 +3057,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3210,6 +3075,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3226,6 +3093,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3242,6 +3111,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         },
         {
@@ -3258,6 +3129,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2009-07-12T21:57:36+01:00",
           "source": "freedoom"
         }
       ]
@@ -3268,6 +3141,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/27aca39126c0f021e543516119c9d3b2500575ac",
       "commitSha": "27aca39126c0f021e543516119c9d3b2500575ac",
+      "commitIndex": 2,
+      "folder": "sprites/pov",
       "authors": [
         {
           "name": "pov",
@@ -3292,7 +3167,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3308,7 +3185,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3324,7 +3203,9 @@
               "relation": "Committer (imported in initial sprites commit)"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3340,7 +3221,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3356,7 +3239,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3372,7 +3257,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3388,7 +3275,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3404,7 +3293,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3420,7 +3311,9 @@
               "relation": "Committer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3436,7 +3329,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3452,7 +3347,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3468,7 +3365,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3484,7 +3383,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3500,7 +3401,9 @@
               "relation": "Committer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3516,7 +3419,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3532,7 +3437,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3548,7 +3455,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3564,7 +3473,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3580,7 +3491,9 @@
               "relation": "Importer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3596,7 +3509,9 @@
               "relation": "Committer"
             }
           ],
-          "spriteState": "new",
+          "spriteState": "updated",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3613,6 +3528,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3629,6 +3546,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3645,6 +3564,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3661,6 +3582,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3677,6 +3600,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3693,6 +3618,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3709,6 +3636,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3725,6 +3654,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3741,6 +3672,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3757,6 +3690,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -3773,6 +3708,389 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 2,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        }
+      ]
+    },
+    {
+      "commitDate": "2006-05-09T16:06:11Z",
+      "commitMessage": "Import sprites",
+      "commitSource": "freedoom",
+      "commitUrl": "https://github.com/freedoom/freedoom/commit/27aca39126c0f021e543516119c9d3b2500575ac",
+      "commitSha": "27aca39126c0f021e543516119c9d3b2500575ac",
+      "commitIndex": 1,
+      "folder": "sprites/fredrik",
+      "authors": [
+        {
+          "name": "Fredrik Johansson",
+          "relation": "Artist (from folder name)"
+        },
+        {
+          "name": "Simon Howard",
+          "relation": "Committer"
+        }
+      ],
+      "sprites": [
+        {
+          "name": "sprites/fredrik/skula1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skula1.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from folder name)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skula5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skula5.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path folder)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skula6a4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skula6a4.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from folder path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skula7a3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skula7a3.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path and CREDITS)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported in commit 27aca39)"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skula8a2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skula8a2.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (from path and CREDITS entry)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skulb1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulb1.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (from path folder and CREDITS)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skulb5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulb5.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skulb6b4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulb6b4.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path, confirmed in CREDITS)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (original import)"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skulb7b3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulb7b3.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skulb8b2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulb8b2.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path and CREDITS entry)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skulc1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulc1.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (import commit)"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skulc5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulc5.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path and CREDITS)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skulc6c4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulc6c4.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skulc7c3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulc7c3.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from folder name)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skulc8c2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skulc8c2.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Importer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skuld1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skuld1.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skuld5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skuld5.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skuld6d4.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skuld6d4.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Original artist (from path)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skuld7d3.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skuld7d3.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from folder name, matches CREDITS entry)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer (imported the sprites)"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "source": "freedoom"
+        },
+        {
+          "name": "sprites/fredrik/skuld8d2.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/fredrik/skuld8d2.gif",
+          "spriteAuthors": [
+            {
+              "name": "Fredrik Johansson",
+              "relation": "Artist (from folder name)"
+            },
+            {
+              "name": "Simon Howard",
+              "relation": "Committer"
+            }
+          ],
+          "spriteState": "new",
+          "commitIndex": 1,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         }
       ]

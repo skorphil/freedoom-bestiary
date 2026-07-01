@@ -117,6 +117,7 @@ export function buildSpritesheetMetadata(
     authors: version.authors || [],
     commitMessage: version.message,
     commitUrl: version.url,
+    index: version.index,
     spritesheetPath,
     source: detectSource(version),
     sprites,

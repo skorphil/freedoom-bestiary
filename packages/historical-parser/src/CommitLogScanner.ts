@@ -203,21 +203,27 @@ export class CommitLogScanner {
     const grouped = new Map<string, Map<string, string>>();
 
     for (const [path, status] of changesMap) {
-      const pathSegments = path.split("/");
-      if (pathSegments.length >= 3 && pathSegments[0] === "sprites") {
-        const folder = pathSegments[1];
-        if (!grouped.has(folder)) {
-          grouped.set(folder, new Map<string, string>());
-        }
-        grouped.get(folder)!.set(path, status);
-      } else {
-        if (!grouped.has("")) {
-          grouped.set("", new Map<string, string>());
-        }
-        grouped.get("")!.set(path, status);
+      const pathParts = path.split("/");
+      let folder = "sprites";
+      
+      if (pathParts[0] === "sprites" && pathParts.length >= 3) {
+        // Use full path to subdirectory as key, e.g. "sprites/scubasteve"
+        folder = `sprites/${pathParts[1]}`;
       }
+
+      if (!grouped.has(folder)) {
+        grouped.set(folder, new Map<string, string>());
+      }
+      grouped.get(folder)!.set(path, status);
     }
 
-    return grouped;
+    // Ensure predictable order: root 'sprites' first, then others alphabetically
+    const sortedEntries = Array.from(grouped.entries()).sort(([a], [b]) => {
+      if (a === "sprites") return -1;
+      if (b === "sprites") return 1;
+      return a.localeCompare(b);
+    });
+
+    return new Map(sortedEntries);
   }
 }

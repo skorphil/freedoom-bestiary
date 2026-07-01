@@ -38,6 +38,8 @@ export interface Version {
   message: string;
   /** The source repository */
   source?: "freedoom" | "attic";
+  /** The index of the snapshot within the commit */
+  index?: number;
   /** The files associated with this version */
   files: VersionFile[];
 }
@@ -132,6 +134,8 @@ export interface VersionEntry {
   source: "freedoom" | "attic" | "unknown";
   /** Array of sprite entries */
   sprites: SpriteEntry[];
+  /** The index of the snapshot within the commit */
+  index?: number;
 }
 
 /**

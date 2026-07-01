@@ -7,6 +7,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/f3312e202b1ddeee3a2a42d303a686716d4eca17",
       "commitSha": "f3312e202b1ddeee3a2a42d303a686716d4eca17",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "mc776",
@@ -24,6 +26,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -36,6 +40,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -48,6 +54,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -60,6 +68,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -72,6 +82,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -84,6 +96,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -96,6 +110,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -108,6 +124,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -120,6 +138,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -132,6 +152,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -144,6 +166,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -156,6 +180,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -168,6 +194,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -180,6 +208,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -192,6 +222,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -204,6 +236,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -216,6 +250,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -228,6 +264,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -240,6 +278,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -252,6 +292,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -264,6 +306,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -276,6 +320,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -288,6 +334,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -300,6 +348,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -312,6 +362,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -324,6 +376,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -336,6 +390,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -348,6 +404,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -360,6 +418,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -372,6 +432,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -384,6 +446,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -396,6 +460,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -408,6 +474,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -420,6 +488,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -432,6 +502,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -444,6 +516,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -456,6 +530,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -468,6 +544,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -480,6 +558,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -492,6 +572,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -504,6 +586,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -516,6 +600,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -528,6 +614,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         },
         {
@@ -540,6 +628,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-12-05T11:24:19-08:00",
           "source": "freedoom"
         }
       ]
@@ -550,6 +640,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/86482d5a10f7a6dcb0a913d01b839cf54c240dce",
       "commitSha": "86482d5a10f7a6dcb0a913d01b839cf54c240dce",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "mc776",
@@ -571,6 +663,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -583,6 +677,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -595,6 +691,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -607,6 +705,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -619,6 +719,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -631,6 +733,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -643,6 +747,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -655,6 +761,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -667,6 +775,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -679,6 +789,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -691,6 +803,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -703,6 +817,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -715,6 +831,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -727,6 +845,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -739,6 +859,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -751,6 +873,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -763,6 +887,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -775,6 +901,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -791,6 +919,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -803,6 +933,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -815,6 +947,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -827,6 +961,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -839,6 +975,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -851,6 +989,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -863,6 +1003,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -875,6 +1017,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -887,6 +1031,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -899,6 +1045,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -911,6 +1059,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -923,6 +1073,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -935,6 +1087,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -947,6 +1101,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -959,6 +1115,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -971,6 +1129,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -983,6 +1143,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -995,6 +1157,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -1007,6 +1171,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -1019,6 +1185,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -1031,6 +1199,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -1043,6 +1213,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -1055,6 +1227,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -1071,6 +1245,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -1083,6 +1259,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         },
         {
@@ -1099,6 +1277,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-10-30T09:28:37-07:00",
           "source": "freedoom"
         }
       ]
@@ -1109,6 +1289,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/57246cae8f7901d4bc63072f9632685d1e3b507d",
       "commitSha": "57246cae8f7901d4bc63072f9632685d1e3b507d",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "Steven Elliott",
@@ -1126,6 +1308,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1138,6 +1322,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1150,6 +1336,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1162,6 +1350,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1174,6 +1364,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1186,6 +1378,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1198,6 +1392,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1210,6 +1406,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1222,6 +1420,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1234,6 +1434,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1246,6 +1448,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1258,6 +1462,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1270,6 +1476,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1282,6 +1490,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1294,6 +1504,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1306,6 +1518,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1318,6 +1532,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1330,6 +1546,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1342,6 +1560,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1354,6 +1574,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1366,6 +1588,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1378,6 +1602,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1390,6 +1616,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1402,6 +1630,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1414,6 +1644,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1426,6 +1658,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1438,6 +1672,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1450,6 +1686,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1462,6 +1700,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1474,6 +1714,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1486,6 +1728,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1498,6 +1742,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1510,6 +1756,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1522,6 +1770,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1534,6 +1784,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1546,6 +1798,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1558,6 +1812,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1570,6 +1826,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1582,6 +1840,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1594,6 +1854,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1606,6 +1868,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1618,6 +1882,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1630,6 +1896,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1642,6 +1910,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1654,6 +1924,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1666,6 +1938,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1678,6 +1952,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1690,6 +1966,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1702,6 +1980,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1714,6 +1994,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1726,6 +2008,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1738,6 +2022,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1750,6 +2036,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1762,6 +2050,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1774,6 +2064,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1786,6 +2078,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1798,6 +2092,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1810,6 +2106,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1822,6 +2120,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1834,6 +2134,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1846,6 +2148,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1858,6 +2162,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1870,6 +2176,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1882,6 +2190,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         },
         {
@@ -1894,6 +2204,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
           "source": "freedoom"
         }
       ]
@@ -1904,6 +2216,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
       "commitSha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "Michael Swanson",
@@ -1925,6 +2239,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -1937,6 +2253,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -1949,6 +2267,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -1961,6 +2281,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -1973,6 +2295,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -1985,6 +2309,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -1997,6 +2323,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2009,6 +2337,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2021,6 +2351,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2033,6 +2365,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2045,6 +2379,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2057,6 +2393,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2069,6 +2407,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2081,6 +2421,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2093,6 +2435,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2105,6 +2449,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2117,6 +2463,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2133,6 +2481,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2145,6 +2495,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2157,6 +2509,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2169,6 +2523,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2181,6 +2537,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2193,6 +2551,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2205,6 +2565,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2217,6 +2579,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2229,6 +2593,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2241,6 +2607,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2253,6 +2621,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2265,6 +2635,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2277,6 +2649,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2289,6 +2663,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2301,6 +2677,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2313,6 +2691,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2325,6 +2705,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2337,6 +2719,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2349,6 +2733,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2361,6 +2747,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2373,6 +2761,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2385,6 +2775,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2397,6 +2789,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2409,6 +2803,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2421,6 +2817,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2433,6 +2831,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2445,6 +2845,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2457,6 +2859,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2469,6 +2873,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2481,6 +2887,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2493,6 +2901,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2505,6 +2915,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2517,6 +2929,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2529,6 +2943,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2541,6 +2957,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2553,6 +2971,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2565,6 +2985,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2577,6 +2999,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2589,6 +3013,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2601,6 +3027,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2613,6 +3041,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2625,6 +3055,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2637,6 +3069,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2649,6 +3083,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2661,6 +3097,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2673,6 +3111,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2685,6 +3125,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         },
         {
@@ -2697,6 +3139,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
           "source": "freedoom"
         }
       ]
@@ -2707,6 +3151,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/0cc698ae1fa04b19e30605e5479666c788fd5d4c",
       "commitSha": "0cc698ae1fa04b19e30605e5479666c788fd5d4c",
+      "commitIndex": 0,
+      "folder": "sprites",
       "authors": [
         {
           "name": "Michael Swanson",
@@ -2728,6 +3174,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2740,6 +3188,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2752,6 +3202,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2764,6 +3216,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2776,6 +3230,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2788,6 +3244,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2800,6 +3258,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2812,6 +3272,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2824,6 +3286,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2836,6 +3300,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2848,6 +3314,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2864,6 +3332,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2876,6 +3346,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2888,6 +3360,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2900,6 +3374,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2912,6 +3388,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2924,6 +3402,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2936,6 +3416,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2948,6 +3430,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2960,6 +3444,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2972,6 +3458,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2984,6 +3472,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -2996,6 +3486,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3008,6 +3500,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3020,6 +3514,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3032,6 +3528,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3044,6 +3542,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3056,6 +3556,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3068,6 +3570,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3080,6 +3584,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3092,6 +3598,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3104,6 +3612,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3116,6 +3626,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3128,6 +3640,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3140,6 +3654,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3152,6 +3668,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3164,6 +3682,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3176,6 +3696,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3188,6 +3710,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3200,6 +3724,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3212,6 +3738,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3224,6 +3752,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3236,6 +3766,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3248,6 +3780,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3260,6 +3794,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3272,6 +3808,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3284,6 +3822,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3296,6 +3836,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3308,6 +3850,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3320,6 +3864,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3332,6 +3878,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3344,6 +3892,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3356,6 +3906,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3368,6 +3920,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3380,6 +3934,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3392,6 +3948,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3404,6 +3962,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3416,6 +3976,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3428,6 +3990,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3440,6 +4004,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3452,6 +4018,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3464,6 +4032,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3476,6 +4046,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3488,6 +4060,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         },
         {
@@ -3500,6 +4074,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2015-12-17T01:04:16-08:00",
           "source": "freedoom"
         }
       ]
@@ -3510,6 +4086,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/5210aedb76fd4990f628d133d3122602675e5080",
       "commitSha": "5210aedb76fd4990f628d133d3122602675e5080",
+      "commitIndex": 0,
+      "folder": "sprites/urric",
       "authors": [
         {
           "name": "Ulises Lozano",
@@ -3543,6 +4121,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3563,6 +4143,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3583,6 +4165,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3603,6 +4187,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3623,6 +4209,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3643,6 +4231,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3663,6 +4253,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3683,6 +4275,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3703,6 +4297,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3723,6 +4319,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3743,6 +4341,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3763,6 +4363,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3783,6 +4385,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3803,6 +4407,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3823,6 +4429,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3843,6 +4451,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3863,6 +4473,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3883,6 +4495,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3903,6 +4517,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3923,6 +4539,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3943,6 +4561,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3963,6 +4583,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -3983,6 +4605,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4003,6 +4627,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4023,6 +4649,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4043,6 +4671,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4063,6 +4693,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4083,6 +4715,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4103,6 +4737,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4123,6 +4759,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4143,6 +4781,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4163,6 +4803,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4183,6 +4825,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4203,6 +4847,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4223,6 +4869,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4243,6 +4891,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4263,6 +4913,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4283,6 +4935,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4303,6 +4957,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4323,6 +4979,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4343,6 +5001,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4363,6 +5023,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4383,6 +5045,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4403,6 +5067,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4423,6 +5089,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4443,6 +5111,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4463,6 +5133,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4483,6 +5155,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4503,6 +5177,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4523,6 +5199,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4543,6 +5221,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4563,6 +5243,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4583,6 +5265,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4603,6 +5287,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4623,6 +5309,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4643,6 +5331,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4663,6 +5353,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4683,6 +5375,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4703,6 +5397,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4723,6 +5419,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4743,6 +5441,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4763,6 +5463,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4783,6 +5485,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4803,6 +5507,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         },
         {
@@ -4823,6 +5529,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-09-27T20:44:06-04:00",
           "source": "freedoom"
         }
       ]
@@ -4833,6 +5541,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/9522dd9ed45e0cefafc1d8420aab3c7a37c6e6af",
       "commitSha": "9522dd9ed45e0cefafc1d8420aab3c7a37c6e6af",
+      "commitIndex": 0,
+      "folder": "sprites/urric",
       "authors": [
         {
           "name": "Simon Howard",
@@ -4870,6 +5580,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -4886,6 +5598,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -4902,6 +5616,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -4914,6 +5630,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -4926,6 +5644,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -4938,6 +5658,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -4950,6 +5672,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -4966,6 +5690,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -4978,6 +5704,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -4990,6 +5718,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5006,6 +5736,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5022,6 +5754,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5034,6 +5768,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5046,6 +5782,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5058,6 +5796,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5070,6 +5810,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5082,6 +5824,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5094,6 +5838,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5106,6 +5852,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5122,6 +5870,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5134,6 +5884,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5146,6 +5898,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5158,6 +5912,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5170,6 +5926,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5186,6 +5944,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5202,6 +5962,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5218,6 +5980,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5230,6 +5994,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5246,6 +6012,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5262,6 +6030,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5274,6 +6044,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5286,6 +6058,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5302,6 +6076,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5314,6 +6090,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5326,6 +6104,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5338,6 +6118,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5354,6 +6136,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5366,6 +6150,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5378,6 +6164,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5390,6 +6178,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5402,6 +6192,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5414,6 +6206,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5426,6 +6220,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5438,6 +6234,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5450,6 +6248,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5462,6 +6262,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5474,6 +6276,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5486,6 +6290,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5498,6 +6304,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5514,6 +6322,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5526,6 +6336,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5542,6 +6354,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5558,6 +6372,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5570,6 +6386,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5586,6 +6404,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5598,6 +6418,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5610,6 +6432,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5626,6 +6450,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5638,6 +6464,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5650,6 +6478,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5662,6 +6492,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5674,6 +6506,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5690,6 +6524,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5706,6 +6542,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         },
         {
@@ -5722,6 +6560,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2014-08-17T21:05:33Z",
           "source": "freedoom"
         }
       ]
@@ -5732,6 +6572,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/785a32ce458ee7dd0cea1e8b14cd7e69725c76d5",
       "commitSha": "785a32ce458ee7dd0cea1e8b14cd7e69725c76d5",
+      "commitIndex": 0,
+      "folder": "sprites/urric",
       "authors": [
         {
           "name": "Catoptromancy",
@@ -5785,6 +6627,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -5797,6 +6641,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -5813,6 +6659,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -5825,6 +6673,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -5837,6 +6687,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -5857,6 +6709,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -5869,6 +6723,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -5881,6 +6737,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -5897,6 +6755,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -5909,6 +6769,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -5925,6 +6787,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -5941,6 +6805,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -5953,6 +6819,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -5965,6 +6833,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -5977,6 +6847,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -5989,6 +6861,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6005,6 +6879,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6021,6 +6897,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6033,6 +6911,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6045,6 +6925,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6057,6 +6939,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6073,6 +6957,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6089,6 +6975,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6101,6 +6989,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6117,6 +7007,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6129,6 +7021,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6145,6 +7039,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6157,6 +7053,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6173,6 +7071,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6185,6 +7085,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6197,6 +7099,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6213,6 +7117,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6229,6 +7135,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6245,6 +7153,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6261,6 +7171,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6277,6 +7189,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6293,6 +7207,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6309,6 +7225,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6329,6 +7247,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6345,6 +7265,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6357,6 +7279,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6369,6 +7293,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6389,6 +7315,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6405,6 +7333,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6421,6 +7351,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6433,6 +7365,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6449,6 +7383,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6465,6 +7401,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6477,6 +7415,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6489,6 +7429,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6501,6 +7443,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6517,6 +7461,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6533,6 +7479,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6549,6 +7497,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6561,6 +7511,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6577,6 +7529,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6589,6 +7543,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6605,6 +7561,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6617,6 +7575,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6629,6 +7589,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6645,6 +7607,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6661,6 +7625,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6673,6 +7639,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6685,6 +7653,8 @@
             }
           ],
           "spriteState": "unchanged",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         },
         {
@@ -6697,6 +7667,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 0,
+          "lastChangedDate": "2011-11-14T18:39:10Z",
           "source": "freedoom"
         }
       ]
@@ -6707,6 +7679,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/88f258d181620c19db1256e85d3bd8b8a3dc7ec7",
       "commitSha": "88f258d181620c19db1256e85d3bd8b8a3dc7ec7",
+      "commitIndex": 1,
+      "folder": "sprites/urric",
       "authors": [
         {
           "name": "Ulises Lozano",
@@ -6744,6 +7718,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -6764,6 +7740,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -6784,6 +7762,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -6804,6 +7784,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -6828,6 +7810,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -6848,6 +7832,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -6868,6 +7854,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -6888,6 +7876,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -6908,6 +7898,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -6928,6 +7920,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -6948,6 +7942,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -6968,6 +7964,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -6988,6 +7986,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7008,6 +8008,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7032,6 +8034,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7056,6 +8060,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7076,6 +8082,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7096,6 +8104,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7120,6 +8130,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7140,6 +8152,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7160,6 +8174,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7180,6 +8196,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7200,6 +8218,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7220,6 +8240,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7236,6 +8258,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7256,6 +8280,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7276,6 +8302,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7296,6 +8324,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7316,6 +8346,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7336,6 +8368,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7356,6 +8390,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7376,6 +8412,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7396,6 +8434,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7416,6 +8456,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7436,6 +8478,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7460,6 +8504,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7480,6 +8526,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7500,6 +8548,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7520,6 +8570,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7540,6 +8592,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7564,6 +8618,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7584,6 +8640,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7604,6 +8662,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7624,6 +8684,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7644,6 +8706,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7664,6 +8728,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7684,6 +8750,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7700,6 +8768,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7724,6 +8794,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7744,6 +8816,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7768,6 +8842,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7788,6 +8864,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7808,6 +8886,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7828,6 +8908,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7848,6 +8930,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7868,6 +8952,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7888,6 +8974,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7908,6 +8996,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7928,6 +9018,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7948,6 +9040,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7964,6 +9058,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -7984,6 +9080,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -8004,6 +9102,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -8028,6 +9128,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         },
         {
@@ -8048,6 +9150,8 @@
             }
           ],
           "spriteState": "updated",
+          "commitIndex": 1,
+          "lastChangedDate": "2010-09-13T08:06:33+01:00",
           "source": "freedoom"
         }
       ]
@@ -8058,6 +9162,8 @@
       "commitSource": "freedoom",
       "commitUrl": "https://github.com/freedoom/freedoom/commit/27aca39126c0f021e543516119c9d3b2500575ac",
       "commitSha": "27aca39126c0f021e543516119c9d3b2500575ac",
+      "commitIndex": 0,
+      "folder": "sprites/pov",
       "authors": [
         {
           "name": "pov",
@@ -8083,6 +9189,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8099,6 +9207,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8115,6 +9225,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8131,6 +9243,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8147,6 +9261,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8163,6 +9279,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8179,6 +9297,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8195,6 +9315,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8211,6 +9333,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8227,6 +9351,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8243,6 +9369,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8259,6 +9387,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8275,6 +9405,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8291,6 +9423,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8307,6 +9441,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8323,6 +9459,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8339,6 +9477,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8355,6 +9495,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8371,6 +9513,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8387,6 +9531,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8403,6 +9549,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8419,6 +9567,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8435,6 +9585,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8451,6 +9603,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8467,6 +9621,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8483,6 +9639,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8499,6 +9657,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8515,6 +9675,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8531,6 +9693,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8547,6 +9711,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8563,6 +9729,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8579,6 +9747,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8595,6 +9765,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8611,6 +9783,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8627,6 +9801,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8643,6 +9819,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8659,6 +9837,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8675,6 +9855,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8691,6 +9873,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8707,6 +9891,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8723,6 +9909,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8739,6 +9927,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8755,6 +9945,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8771,6 +9963,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8787,6 +9981,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8803,6 +9999,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8819,6 +10017,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8835,6 +10035,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8851,6 +10053,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8867,6 +10071,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8883,6 +10089,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8899,6 +10107,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8915,6 +10125,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8931,6 +10143,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8947,6 +10161,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8963,6 +10179,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8979,6 +10197,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -8995,6 +10215,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -9011,6 +10233,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -9027,6 +10251,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -9043,6 +10269,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -9059,6 +10287,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -9075,6 +10305,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -9091,6 +10323,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         },
         {
@@ -9107,6 +10341,8 @@
             }
           ],
           "spriteState": "new",
+          "commitIndex": 0,
+          "lastChangedDate": "2006-05-09T16:06:11Z",
           "source": "freedoom"
         }
       ]

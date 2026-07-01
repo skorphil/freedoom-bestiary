@@ -202,7 +202,7 @@ test("buildSpritesheetMetadata - date and author", () => {
     date: "2023-07-16T23:14:24-07:00",
     sha: "57246cae8f7901d4bc63072f9632685d1e3b507d",
     url: "https://github.com/freedoom/freedoom/commit/57246cae8f7901d4bc63072f9632685d1e3b507d",
-    author: "Steven Elliott",
+    authors: [{ name: "Steven Elliott", relation: "Committer" }],
     message: "png: Map color 255 to color 133",
     files: [],
   };
@@ -231,7 +231,7 @@ test("buildSpritesheetMetadata - date and author", () => {
     createPaddedMap(layout, 64, 96),
   );
   expect(entry.date).toEqual("2023-07-16T23:14:24-07:00");
-  expect(entry.author).toEqual("Steven Elliott");
+  expect(entry.authors[0].name).toEqual("Steven Elliott");
   expect(entry.commitMessage).toEqual("png: Map color 255 to color 133");
   expect(
     entry.commitUrl,
@@ -243,7 +243,7 @@ test("buildSpritesheetMetadata - spritesheetPath", () => {
     date: "2023-07-16T23:14:24-07:00",
     sha: "57246cae",
     url: "http://test",
-    author: "Author",
+    authors: [{ name: "Author", relation: "Committer" }],
     message: "msg",
     files: [],
   };
@@ -264,7 +264,7 @@ test("buildSpritesheetMetadata - sprite entries", () => {
     date: "2023-07-16T23:14:24-07:00",
     sha: "57246cae",
     url: "http://test",
-    author: "Author",
+    authors: [{ name: "Author", relation: "Committer" }],
     message: "msg",
     files: [],
   };
@@ -306,7 +306,7 @@ test("buildSpritesheetMetadata - frame and angle strings", () => {
     date: "2023-07-16T23:14:24-07:00",
     sha: "57246cae",
     url: "http://test",
-    author: "Author",
+    authors: [{ name: "Author", relation: "Committer" }],
     message: "msg",
     files: [],
   };
@@ -336,7 +336,7 @@ test("buildSpritesheetMetadata - x and y positions", () => {
     date: "2023-07-16T23:14:24-07:00",
     sha: "57246cae",
     url: "http://test",
-    author: "Author",
+    authors: [{ name: "Author", relation: "Committer" }],
     message: "msg",
     files: [],
   };
@@ -403,7 +403,7 @@ test("buildSpritesheetMetadata - mirror different position", () => {
     date: "2023-07-16T23:14:24-07:00",
     sha: "57246cae",
     url: "http://test",
-    author: "Author",
+    authors: [{ name: "Author", relation: "Committer" }],
     message: "msg",
     files: [],
   };

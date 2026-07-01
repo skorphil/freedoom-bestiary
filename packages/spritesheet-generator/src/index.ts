@@ -152,6 +152,7 @@ export async function readInputTargets(
         .map((sv) => ({
           date: sv.commitDate ?? sv.date ?? "",
           sha: sv.commitSha ?? sv.sha ?? "",
+          index: sv.commitIndex ?? sv.index,
           url: sv.commitUrl ?? sv.url ?? "",
           authors: sv.authors ?? (sv.author || sv.commitAuthor || sv.commitSource ? [{ name: sv.author ?? sv.commitAuthor ?? sv.commitSource ?? "", relation: "Committer" }] : []),
           message: sv.commitMessage ?? sv.message ?? "",
@@ -195,6 +196,7 @@ export async function readInputTargets(
       .map((sv) => ({
         date: sv.commitDate ?? sv.date ?? "",
         sha: sv.commitSha ?? sv.sha ?? "",
+        index: sv.commitIndex ?? sv.index,
         url: sv.commitUrl ?? sv.url ?? "",
         authors: sv.authors ?? (sv.author || sv.commitAuthor || sv.commitSource ? [{ name: sv.author ?? sv.commitAuthor ?? sv.commitSource ?? "", relation: "Committer" }] : []),
         message: sv.commitMessage ?? sv.message ?? "",
@@ -456,7 +458,8 @@ export async function buildOneSheet(
   const sheetDir = join(config.outputDir, config.sheetDirName, code);
   await mkdir(sheetDir, { recursive: true });
   const shortSha = version.sha.slice(0, 7);
-  const outPath = join(sheetDir, `${shortSha}.webp`);
+  const baseName = version.index !== undefined ? `${shortSha}.${version.index}` : shortSha;
+  const outPath = join(sheetDir, `${baseName}.webp`);
 
   await createSpritesheet(layout, cellW, cellH, outPath, {
     layout,
@@ -466,7 +469,7 @@ export async function buildOneSheet(
     outputPath: outPath,
   });
 
-  const relPath = join(config.sheetDirName, code, `${shortSha}.webp`);
+  const relPath = join(config.sheetDirName, code, `${baseName}.webp`);
   return buildSpritesheetMetadata(
     version,
     layout,
@@ -512,13 +515,13 @@ export async function runWithConfig(
 
       if (!collection[code]) collection[code] = [];
       // Replace existing entry if it exists, otherwise push
-      const existingIdx = collection[code].findIndex(e => e.sha === version.sha);
+      const existingIdx = collection[code].findIndex(e => e.sha === version.sha && (e.index === version.index || (e.index === undefined && version.index === undefined)));
       if (existingIdx >= 0) {
         collection[code][existingIdx] = entry;
       } else {
         collection[code].push(entry);
+        appended++;
       }
-      appended++;
     }
   }
 
