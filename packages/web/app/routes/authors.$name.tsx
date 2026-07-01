@@ -32,8 +32,8 @@ export default function AuthorPage() {
       <Header />
       
       <div style={{ marginBottom: '2rem' }}>
-        <h1 style={{fontSize: "40px", color: 'white', marginBottom: '0.5rem' }}>Author: {name}</h1>
-        <p style={{ color: '#aaa', fontSize: '1.1rem' }}>
+        <h1 style={{fontSize: "40px", marginBottom: '0.5rem' }}>Author: {name}</h1>
+        <p>
           Contributed to {contributions.length} sprite version{contributions.length === 1 ? '' : 's'}.
         </p>
       </div>

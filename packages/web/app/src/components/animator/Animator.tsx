@@ -73,21 +73,21 @@ export function Animator({
             onClick={() => handleAngleChange(-1)}
             title="Rotate Left"
           >
-            <svg width="16" height="26" viewBox="0 0 16 26">
-              <path d="M14 2L4 13L14 24" stroke="currentColor" strokeWidth="3" fill="none" strokeLinecap="square"/>
-            </svg>
+           {`[<]`}
           </button>
           
           <div className={styles.stateControl}>
+            <span>[</span>
             <select 
               className={styles.stateSelect}
               value={animName} 
               onChange={(e) => setAnimName(e.target.value)}
             >
               {animations.map((anim) => (
-                <option key={anim} value={anim}>{anim}</option>
+                <option key={anim} value={anim}>{`${anim}`}</option>
               ))}
             </select>
+            <span>]</span>
           </div>
 
           <button 
@@ -95,9 +95,7 @@ export function Animator({
             onClick={() => handleAngleChange(1)}
             title="Rotate Right"
           >
-            <svg width="16" height="26" viewBox="0 0 16 26">
-              <path d="M2 2L12 13L2 24" stroke="currentColor" strokeWidth="3" fill="none" strokeLinecap="square"/>
-            </svg>
+           {`[>]`}
           </button>
         </div>
       </div>

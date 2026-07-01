@@ -47,8 +47,8 @@ export default function CharacterDetail() {
       <Header />
       
       <div style={{ marginBottom: '2rem' }}>
-        <h1 style={{fontSize: "40px", color: 'white', marginBottom: '0.5rem' }}>{meta?.freedoomName || code}</h1>
-        <p style={{ color: '#aaa', fontSize: '1.1rem' }}>{meta?.description}</p>
+        <h1 style={{fontSize: "40px", marginBottom: '0.5rem' }}>{meta?.freedoomName || code}</h1>
+        <p>{meta?.description}</p>
       </div>
 
       <div className={styles.characterGrid}>
@@ -79,7 +79,7 @@ export default function CharacterDetail() {
                           <strong>{author.name}</strong>
                         </Link>
                         {author.relation && (
-                          <span style={{ display: 'block', fontSize: '0.75rem', color: '#888', fontStyle: 'italic' }}>
+                          <span style={{ display: 'block', fontSize: '0.75rem' }}>
                             {author.relation}
                           </span>
                         )}

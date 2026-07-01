@@ -1,8 +1,8 @@
 .characterGrid {
   display: flex;
   flex-direction: row;
-  justify-content: center;
-  gap: 16px;
+  justify-content: left;
+  gap: 20px;
   flex-wrap: wrap;
   margin: 48px 0;
 }
@@ -14,11 +14,10 @@
   align-items: start;
   text-align: left;
   padding: 16px;
-  width: 360px;
-  background-color: var(--color-black);
-  color: var(--color-white);
-  border: 1px solid var(--color-blue-30);
-  border-radius: 12px;
+  width: 320px;
+  /* max-width: 360px; */
+  border: 2px solid var(--color-border);
+  /* border-radius: 12px; */
   gap: 24px;
 }
 
@@ -44,13 +43,11 @@
 
 .metaLabel {
   font-size: 16px;
-  color: var(--color-white);
   opacity: 0.8;
 }
 
 .metaValue {
   font-size: 16px;
-  color: var(--color-white);
 }
 
 .preview {

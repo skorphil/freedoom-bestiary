@@ -5,8 +5,15 @@
   --color-blue-80: #576ce3;
   --color-blue-50: #4341bf;
   --color-gray-ui: #b3b3b3;
+  --color-green-10: #050805;
+  --color-green-30: #163c16;
+  --color-green-90: #5abe5a;
+
   --font-main: 'VT323', monospace;
-  background-color: var(--color-black); 
+
+  --color-bg: var(--color-green-10);
+  --color-border: var(--color-green-30);
+  --color-text: var(--color-green-90);
 }
 
 *, *:before, *:after {
@@ -14,12 +21,18 @@
 }
 
 html {
-  padding: 24px; 
+  background-color: var(--color-bg);
+  padding: 24px;
+  /* background-image: url('./tiles/aqconc17.png');
+  background-repeat: repeat;
+  background-size: 360px; /* 400% scale (128px * 4)
+  image-rendering: pixelated;
+  overscroll-behavior: none; */
 }
 
 body {
-  max-width: 1112px;
-  color: var(--color-white);
+  /* max-width: 1160px; */
+  color: var(--color-green-90);
   font-family: var(--font-main);
   margin: 0 auto;
 }

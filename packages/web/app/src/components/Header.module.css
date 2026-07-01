@@ -2,13 +2,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: var(--color-white);
   font-family: var(--font-main);
   font-size: 24px;
 }
 
 .link {
-  color: var(--color-white);
   text-decoration: underline;
   text-underline-offset: 4px;
 }

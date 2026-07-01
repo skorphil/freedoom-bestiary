@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   gap: 16px;
-  color: var(--color-white);
+  color: var(--color-text);
   width: 100%;
 }
 
@@ -63,32 +63,39 @@
 .stateControl {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 4px;
   flex-grow: 1;
   justify-content: center;
 }
 
 .stateLabel {
   font-family: var(--font-main);
-  font-size: 16px;
 }
 
 .stateSelect {
   background: transparent;
-  color: var(--color-blue-80);
   border: none;
   font-family: var(--font-main);
-  font-size: 20px;
+  color: var(--color-green-30);
+  font-size: 24px;
   cursor: pointer;
   appearance: none;
   padding: 0;
   text-align: center;
 }
 
+.stateSelect:hover {
+  color: var(--color-text)
+}
+
+.stateControl > span {
+  font-size: 24px;
+  color: var(--color-green-30)
+}
+
 .angleControl {
   display: flex;
   align-items: center;
-  gap: 16px;
   width: 100%;
   justify-content: space-between;
 }
@@ -96,12 +103,14 @@
 .angleButton {
   background: transparent;
   border: none;
-  color: var(--color-blue-50);
+  color: var(--color-green-30);
   cursor: pointer;
   padding: 4px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: inherit;
+  font-size: 24px;
 }
 
 .angleButton svg {
@@ -109,5 +118,5 @@
 }
 
 .angleButton:hover {
-  color: var(--color-white);
+  color: var(--color-text);
 }
