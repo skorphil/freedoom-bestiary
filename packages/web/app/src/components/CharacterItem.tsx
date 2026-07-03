@@ -22,7 +22,7 @@ export function CharacterItem({
     commitMessage,
   } = spritesheet;
   const dateLabel = new Date(date).toISOString().slice(0, 10);
-  const meta = (spriteMeta as any).find((m: any) => m.sprite === spriteCode);
+  const meta = (spriteMeta as any).find((m: any) => m.spriteCode === spriteCode);
   return (
     <div className={styles.characterItem}>
      

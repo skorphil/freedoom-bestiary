@@ -1,4 +1,4 @@
-import type { SpritesheetVersion, SpriteMeta, Sprite } from "./schema.ts";
+import type { SpritesheetVersion, SpriteMeta, Sprite, SpriteCode } from "./schema.ts";
 
 export type RenderTask = {
   image: HTMLImageElement;
@@ -13,7 +13,7 @@ export class Spritesheet {
   private maxHeight: number = 0;
 
   constructor(
-    private code: string,
+    private code: SpriteCode,
     private image: HTMLImageElement,
     private atlas: SpritesheetVersion,
     private meta: SpriteMeta

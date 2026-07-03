@@ -1,11 +1,11 @@
 import styles from './Animator.module.css'
 
 import { useRef } from "react";
-import type { SpritesheetVersion, SpriteMeta } from "../../models/schema.ts";
+import type { SpritesheetVersion, SpriteMeta, SpriteCode } from "../../models/schema.ts";
 import { useAnimation } from "./useAnimation.ts";
 
 export type AnimatorProps = {
-  code: string;
+  code: SpriteCode;
   version: SpritesheetVersion;
   meta: SpriteMeta;
   initialAnimation?: string;

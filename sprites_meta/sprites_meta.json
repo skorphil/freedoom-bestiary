@@ -3,7 +3,7 @@
     "doomName": "Zombieman",
     "freedoomName": "Zombie",
     "description": "These brain-dead workers of iniquity are armed with a handgun and intent on your destruction. Drops a bullet clip when killed.",
-    "sprite": "POSS",
+    "spriteCode": "POSS",
     "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
     "chasing": [
       { "frame": "A", "delay": 4 },
@@ -44,7 +44,7 @@
     "doomName": "Shotgun guy",
     "freedoomName": "Shotgun Zombie",
     "description": "These guys traded their handgun for a shotgun and pack far more of a punch. Drops a shotgun when killed.",
-    "sprite": "SPOS",
+    "spriteCode": "SPOS",
     "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
     "chasing": [
       { "frame": "A", "delay": 3 },
@@ -85,7 +85,7 @@
     "doomName": "Imp",
     "freedoomName": "Serpentipede",
     "description": "Rank and file footsoldiers of the alien invasion. Let them get close and they’ll tear you to shreds; at a distance they’ll instead rain down fireballs.",
-    "sprite": "TROO",
+    "spriteCode": "TROO",
     "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
     "chasing": [
       { "frame": "A", "delay": 3 },
@@ -125,7 +125,7 @@
     "doomName": "Demon",
     "freedoomName": "Flesh Worm",
     "description": "Tough and fast-moving, these worms attack at close range and take several shotgun blasts to take down. It’s best to keep back.",
-    "sprite": "SARG",
+    "spriteCode": "SARG",
     "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
     "chasing": [
       { "frame": "A", "delay": 2 },
@@ -156,7 +156,7 @@
     "doomName": "Spectre",
     "freedoomName": "Stealth Worm",
     "description": "Some flesh worms can bend light around them, making them nearly invisible in darker and noisier environments.",
-    "sprite": "SARG",
+    "spriteCode": "SARG",
     "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
     "chasing": [
       { "frame": "A", "delay": 2 },
@@ -187,7 +187,7 @@
     "doomName": "Lost soul",
     "freedoomName": "Hatchling",
     "description": "Ionized alien larvae that bodyslam you for surprising amounts of damage.",
-    "sprite": "SKUL",
+    "spriteCode": "SKUL",
     "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
     "chasing": [{ "frame": "A", "delay": 6 }, { "frame": "B", "delay": 6 }],
     "attacking": [
@@ -210,7 +210,7 @@
     "doomName": "Cacodemon",
     "freedoomName": "Trilobite",
     "description": "These flying orb-like things spit plasma and bite if you get too close.",
-    "sprite": "HEAD",
+    "spriteCode": "HEAD",
     "idling": [{ "frame": "A", "delay": 10 }],
     "chasing": [{ "frame": "A", "delay": 3 }],
     "attacking": [
@@ -236,7 +236,7 @@
     "doomName": "Baron of Hell",
     "freedoomName": "Pain Lord",
     "description": "If the Pain Bringer wasn’t tough enough, this one can take five rocket blasts.",
-    "sprite": "BOSS",
+    "spriteCode": "BOSS",
     "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
     "chasing": [
       { "frame": "A", "delay": 3 },
@@ -268,7 +268,7 @@
     "doomName": "Revenant",
     "freedoomName": "Octaminator",
     "description": "Fast moving, tough, and fires homing missiles. Do not get into a boxing match with one of these guys.",
-    "sprite": "SKEL",
+    "spriteCode": "SKEL",
     "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
     "chasing": [
       { "frame": "A", "delay": 2 },
@@ -303,7 +303,7 @@
     "doomName": "Mancubus",
     "freedoomName": "Combat Slug",
     "description": "These genetically-engineered living, slithering tanks have been fitted with long distance flame throwers.",
-    "sprite": "FATT",
+    "spriteCode": "FATT",
     "idling": [{ "frame": "A", "delay": 15 }, { "frame": "B", "delay": 15 }],
     "chasing": [
       { "frame": "A", "delay": 4 },
@@ -349,7 +349,7 @@
     "doomName": "Cyberdemon",
     "freedoomName": "Assault Tripod",
     "description": "The ultimate blend of military technology and genetic engineering, these three-legged creatures are fast-moving, heavily armored and equipped with a missile launcher that you’ll want to avoid. Immune to explosions from rockets and barrels.",
-    "sprite": "CYBR",
+    "spriteCode": "CYBR",
     "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
     "chasing": [
       { "frame": "A", "delay": 3 },
@@ -387,7 +387,7 @@
     "doomName": "Spiderdemon",
     "freedoomName": "Dreadnought",
     "description": "This tank on legs is equipped with a rapid-fire minigun and will take a lot of effort to bring down. Immune to explosions from rockets and barrels.",
-    "sprite": "SPID",
+    "spriteCode": "SPID",
     "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
     "chasing": [
       { "frame": "A", "delay": 3 },
@@ -427,7 +427,7 @@
     "doomName": "Chaingunner",
     "freedoomName": "Minigun Zombie",
     "description": "As soon as you’re in sight of one of these, he’ll lock on with his minigun and keep on firing until you’re dead. It’s best to take cover quickly or take him out. Drops a minigun when killed.",
-    "sprite": "CPOS",
+    "spriteCode": "CPOS",
     "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
     "chasing": [
       { "frame": "A", "delay": 3 },
@@ -468,7 +468,7 @@
     "doomName": "Hell knight",
     "freedoomName": "Pain Bringer",
     "description": "These guys take at least three rocket blasts to take down, and while you’re trying they’ll shower you with energy projectiles.",
-    "sprite": "BOS2",
+    "spriteCode": "BOS2",
     "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
     "chasing": [
       { "frame": "A", "delay": 3 },
@@ -500,7 +500,7 @@
     "doomName": "Arachnotron",
     "freedoomName": "Technospider",
     "description": "These cybernetic creatures fire high-capacity polaric energy support weapons, making them a deadly challenge.",
-    "sprite": "BSPI",
+    "spriteCode": "BSPI",
     "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
     "chasing": [
       { "frame": "A", "delay": 3 },
@@ -536,7 +536,7 @@
     "doomName": "Pain elemental",
     "freedoomName": "Matribite",
     "description": "What sick mother sends her own babies to fight? Thus is the duty of empire.",
-    "sprite": "PAIN",
+    "spriteCode": "PAIN",
     "idling": [{ "frame": "A", "delay": 10 }],
     "chasing": [
       { "frame": "A", "delay": 3 },
@@ -566,7 +566,7 @@
     "doomName": "Arch-vile",
     "freedoomName": "Necromancer",
     "description": "If he’s not setting you on fire, he’s undoing all your hard work by bringing his friends back from the dead.",
-    "sprite": "VILE",
+    "spriteCode": "VILE",
     "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
     "chasing": [
       { "frame": "A", "delay": 2 },
@@ -613,7 +613,7 @@
     "doomName": "Heavy weapon dude",
     "freedoomName": "Minigun Zombie",
     "description": "As soon as you’re in sight of one of these, he’ll lock on with his minigun and keep on firing until you’re dead. It’s best to take cover quickly or take him out. Drops a minigun when killed.",
-    "sprite": "CPOS",
+    "spriteCode": "CPOS",
     "idling": [{ "frame": "A", "delay": 10 }, { "frame": "B", "delay": 10 }],
     "chasing": [
       { "frame": "A", "delay": 3 },
@@ -654,7 +654,7 @@
     "doomName": "Commander Keen",
     "freedoomName": "Commander Keen",
     "description": "",
-    "sprite": "KEEN",
+    "spriteCode": "KEEN",
     "idling": [{ "frame": "A", "delay": -1 }],
     "hurting": [{ "frame": "M", "delay": 4 }, { "frame": "M", "delay": 8 }],
     "dying": [
@@ -676,7 +676,7 @@
     "doomName": "Player",
     "freedoomName": "FreeDoom Guy",
     "description": "The protagonist of Freedoom.",
-    "sprite": "PLAY",
+    "spriteCode": "PLAY",
     "idling": [{ "frame": "A", "delay": -1 }],
     "chasing": [
       { "frame": "A", "delay": 4 },

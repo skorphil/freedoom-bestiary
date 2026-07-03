@@ -31,15 +31,15 @@ async function loadCodesFromSpritesJson(): Promise<string[]> {
       console.warn(`Metadata file not found at: ${spritesPath}. Using fallback codes.`);
       return fallbackCodes();
     }
-    const list = await file.json() as Array<{ sprite?: string; doomName?: string }>;
+    const list = await file.json() as Array<{ spriteCode?: string; doomName?: string }>;
     const codes = new Set<string>();
     for (const item of list) {
       if (item.doomName === "Spectre") {
         console.debug("Skipping Spectre as requested.");
         continue;
       }
-      if (item && typeof item.sprite === "string") {
-        codes.add(item.sprite.toUpperCase());
+      if (item && typeof item.spriteCode === "string") {
+        codes.add(item.spriteCode.toUpperCase());
       }
     }
     return Array.from(codes);

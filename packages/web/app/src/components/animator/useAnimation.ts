@@ -1,10 +1,10 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { SpriteMeta, SpritesheetVersion } from "../../models/schema.ts";
+import type { SpriteMeta, SpritesheetVersion, SpriteCode } from "../../models/schema.ts";
 import { type RenderTask, Spritesheet } from "../../models/Spritesheet.ts";
 import { useAnimationLoop } from "./useAnimationLoop.ts";
 
 export type UseAnimationOptions = {
-  code: string;
+  code: SpriteCode;
   version: SpritesheetVersion;
   meta: SpriteMeta;
   initialAnimation?: string;

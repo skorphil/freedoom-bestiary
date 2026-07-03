@@ -9,7 +9,7 @@ import type { SpriteCode } from "../src/models/schema.ts";
 
 export function meta({ params }: Route.MetaArgs) {
   const code = params.code as SpriteCode;
-  const meta = (spriteMeta as any).find((m: any) => m.sprite === code);
+  const meta = (spriteMeta as any).find((m: any) => m.spriteCode === code);
   return [
     { title: `${meta?.freedoomName || code} - Freedoom Bestiary` },
     { name: "description", content: `Historical spritesheets for ${meta?.freedoomName || code}` },
@@ -19,7 +19,7 @@ export function meta({ params }: Route.MetaArgs) {
 export async function clientLoader({ params }: Route.ClientLoaderArgs) {
   const code = params.code as SpriteCode;
   const history = bestiary.getHistory(code);
-  const meta = (spriteMeta as any).find((m: any) => m.sprite === code);
+  const meta = (spriteMeta as any).find((m: any) => m.spriteCode === code);
 
   // Sort: Freedoom first (by date desc), then Attic (by date desc)
   const freedoomVersions = history

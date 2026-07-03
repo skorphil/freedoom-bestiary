@@ -232,6 +232,8 @@ export function createMockSnapshotBuilder(
         commitUrl: `${options.githubBaseUrl}/commit/${unit.sha}`,
         commitSource: source,
         commitSprites: spriteFiles,
+        commitIndex: 0,
+        folder: unit.folder,
       } as CommitSnapshot;
     },
   };
@@ -267,6 +269,8 @@ export function createMockCommitSnapshot(
       status: s.status,
       authorNames: s.authorNames || [{ name: TEST_COMMIT_AUTHOR, relation: "Mock" }],
     })),
+    commitIndex: 0,
+    folder: null,
   };
 }
 
@@ -450,6 +454,8 @@ export function createMockVersionCombiner(code: string) {
           url: sprite.url,
           spriteAuthors: [{ name: author, relation: "Mock" }],
           spriteState: state,
+          lastChangedDate: snapshot.commitDate,
+          commitIndex: snapshot.commitIndex,
         });
         changed = true;
       }
@@ -468,6 +474,8 @@ export function createMockVersionCombiner(code: string) {
         url: entry.url,
         spriteAuthors: entry.spriteAuthors,
         spriteState: entry.spriteState,
+        lastChangedDate: entry.lastChangedDate,
+        commitIndex: entry.commitIndex,
       });
     });
 
@@ -479,6 +487,7 @@ export function createMockVersionCombiner(code: string) {
       commitSha: snapshot.commitSha,
       authors: [{ name: snapshot.commitAuthor, relation: "Mock" }],
       sprites,
+      commitIndex: snapshot.commitIndex,
     };
   };
 

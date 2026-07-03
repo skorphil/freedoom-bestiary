@@ -24,6 +24,8 @@ describe("VersionCombiner", () => {
         commitSha: "sha1",
         commitUrl: "url1",
         commitSource: "freedoom",
+        commitIndex: 0,
+        folder: null,
         commitSprites: [
           {
             code: "POSS",
@@ -66,6 +68,8 @@ describe("VersionCombiner", () => {
       commitSha: "sha1",
       commitUrl: "url1",
       commitSource: "freedoom",
+      commitIndex: 0,
+      folder: null,
       commitSprites: []
     };
 

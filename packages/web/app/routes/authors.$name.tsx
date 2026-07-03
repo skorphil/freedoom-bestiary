@@ -40,7 +40,7 @@ export default function AuthorPage() {
 
       <div className={styles.characterGrid}>
         {contributions.map(({ code, version }) => {
-          const meta = (spriteMeta as any).find((m: any) => m.sprite === code);
+          const meta = (spriteMeta as any).find((m: any) => m.spriteCode === code);
           const authorRelation = version.authors.find(a => a.name === name)?.relation;
           return (
             <div key={`${code}-${version.sha}`} className={styles.characterItem}>

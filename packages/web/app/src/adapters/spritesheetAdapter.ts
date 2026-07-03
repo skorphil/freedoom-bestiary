@@ -1,5 +1,4 @@
 import rawData from "@sprite-collection/spritesheets.json";
-
 import z, { ZodType } from "zod";
 import { SpritesheetsDataSchema } from "../models/schema.ts";
 
