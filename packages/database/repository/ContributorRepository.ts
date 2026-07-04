@@ -1,14 +1,12 @@
-import { writeFileSync } from "node:fs";
-import { join } from "node:path";
 import contributorsJson from "../data/contributors.jsonc"
 import { ContributorsMapSchema, ContributorSchema, type Contributor, type ContributorsMap } from "../schema/contributor";
 import * as JSONC from "comment-json";
 
 /** Reads Contributor's data from local FS and returns typed data */
 export class ContributorRepository {
-  private static readonly FILE_PATH = join(
-    import.meta.dirname,
-    "../data/contributors.jsonc"
+  private static readonly FILE_URL = new URL(
+    "../data/contributors.jsonc",
+    import.meta.url
   );
   static data: ContributorsMap = ContributorsMapSchema.parse(contributorsJson)
 
@@ -44,7 +42,7 @@ export class ContributorRepository {
   }
 
   /** Adds a new contributor and persists to disk */
-  static addContributor(id: string, contributor: Contributor): void {
+  static async addContributor(id: string, contributor: Contributor): Promise<void> {
     const validatedContributor = ContributorSchema.parse(contributor);
     if (this.data[id]) {
       // Update existing if needed, but for now we just skip or overwrite
@@ -52,16 +50,16 @@ export class ContributorRepository {
     } else {
       this.data[id] = validatedContributor;
     }
-    this.save();
+    await this.save();
   }
 
   /** Persists current data to disk */
-  private static save(): void {
+  private static async save(): Promise<void> {
     try {
       const content = JSONC.stringify(this.data, null, 2);
-      writeFileSync(this.FILE_PATH, content, "utf-8");
+      await Bun.write(this.FILE_URL, content);
     } catch (error) {
-      console.error(`Failed to write contributors to ${this.FILE_PATH}:`, error);
+      console.error(`Failed to write contributors to ${this.FILE_URL}:`, error);
     }
   }
 }

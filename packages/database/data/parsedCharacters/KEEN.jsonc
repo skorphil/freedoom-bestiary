@@ -1,0 +1,1239 @@
+{
+  "code": "KEEN",
+  "versions": [
+    {
+      "date": "2012-03-20T21:53:02Z",
+      "message": "sprites: new Keen cat replacement from Sodaholic\nSodaholic writes:\n>Dunno if this is going to be considered to be in poor taste, but here's\n>a Commander Keen replacement I threw together today. (for the record, I\n>love cats, and this is just a joke)\n>fraggle said:\n>>This is all your own work, right? You drew the cat and the rope\n>>yourself?\n>Absolutely, every single pixel of the animation was done from scratch\n>in about an hour.\n>fraggle said:\n>>This is a completely original character, right? It's not a depiction\n>>of a cat from a cartoon, video game, webcomic, or anything like that?\n>Completely original, it's just a generic cat, not any specific one.\nDW: http://www.doomworld.com/vb/post/1061751 ,\n    http://www.doomworld.com/vb/post/1062431\nAcked-by: Simon Howard <fraggle@gmail.com>\nSigned-off-by: RjY <rjy@users.sourceforge.net>",
+      "source": "freedoom",
+      "url": "https://github.com/freedoom/freedoom/commit/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b",
+      "sha": "32ff1b5a74e263303d932c44ff9952c1c7ac3e1b",
+      "contributions": [
+        {
+          "contributorId": "sodaholic",
+          "relation": "Original artist (Commander Keen cat replacement)"
+        }
+      ],
+      "index": 1,
+      "folder": "sprites/sodaholic",
+      "sprites": [
+        {
+          "name": "keena0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keena0.gif",
+          "contributions": [
+            {
+              "contributorId": "sodaholic",
+              "relation": "Original artist (Committer)"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2012-03-20T21:53:02Z",
+          "index": 0,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenb0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keenb0.gif",
+          "contributions": [
+            {
+              "contributorId": "sodaholic",
+              "relation": "Original artist (Committer)"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2012-03-20T21:53:02Z",
+          "index": 1,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenc0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keenc0.gif",
+          "contributions": [
+            {
+              "contributorId": "sodaholic",
+              "relation": "Original artist (Committer)"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2012-03-20T21:53:02Z",
+          "index": 2,
+          "source": "freedoom"
+        },
+        {
+          "name": "keend0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keend0.gif",
+          "contributions": [
+            {
+              "contributorId": "sodaholic",
+              "relation": "Original artist (Committer)"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2012-03-20T21:53:02Z",
+          "index": 3,
+          "source": "freedoom"
+        },
+        {
+          "name": "keene0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keene0.gif",
+          "contributions": [
+            {
+              "contributorId": "sodaholic",
+              "relation": "Original artist (completely original generic cat character, all pixels drawn from scratch)"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2012-03-20T21:53:02Z",
+          "index": 4,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenf0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keenf0.gif",
+          "contributions": [
+            {
+              "contributorId": "sodaholic",
+              "relation": "Original artist (Committer)"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2012-03-20T21:53:02Z",
+          "index": 5,
+          "source": "freedoom"
+        },
+        {
+          "name": "keeng0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keeng0.gif",
+          "contributions": [
+            {
+              "contributorId": "sodaholic",
+              "relation": "Original artist and committer (explicitly stated: 'I threw together today... absolutely, every single pixel of the animation was done from scratch')"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2012-03-20T21:53:02Z",
+          "index": 6,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenh0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keenh0.gif",
+          "contributions": [
+            {
+              "contributorId": "sodaholic",
+              "relation": "Original artist (Commander Keen cat replacement)"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2012-03-20T21:53:02Z",
+          "index": 7,
+          "source": "freedoom"
+        },
+        {
+          "name": "keeni0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keeni0.gif",
+          "contributions": [
+            {
+              "contributorId": "sodaholic",
+              "relation": "Original artist (Committer)"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2012-03-20T21:53:02Z",
+          "index": 8,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenj0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keenj0.gif",
+          "contributions": [
+            {
+              "contributorId": "sodaholic",
+              "relation": "Original artist (entire sprite), Committer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2012-03-20T21:53:02Z",
+          "index": 9,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenk0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keenk0.gif",
+          "contributions": [
+            {
+              "contributorId": "sodaholic",
+              "relation": "Original artist (Commander Keen cat replacement)"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2012-03-20T21:53:02Z",
+          "index": 10,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenl0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keenl0.gif",
+          "contributions": [
+            {
+              "contributorId": "sodaholic",
+              "relation": "Original artist (Committer)"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2012-03-20T21:53:02Z",
+          "index": 11,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenm0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/32ff1b5a74e263303d932c44ff9952c1c7ac3e1b/sprites/sodaholic/keenm0.gif",
+          "contributions": [
+            {
+              "contributorId": "sodaholic",
+              "relation": "Original artist (Commander Keen cat replacement)"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2012-03-20T21:53:02Z",
+          "index": 12,
+          "source": "freedoom"
+        }
+      ]
+    },
+    {
+      "date": "2015-08-03T09:03:38-07:00",
+      "message": "sprites: new keen sprites",
+      "source": "freedoom",
+      "url": "https://github.com/freedoom/freedoom/commit/139694848064dedbfd15e7ad157507b12e8000ea",
+      "sha": "139694848064dedbfd15e7ad157507b12e8000ea",
+      "contributions": [
+        {
+          "contributorId": "maz-hades",
+          "relation": "Committer (commit message: 'sprites: new keen sprites')"
+        }
+      ],
+      "index": 1,
+      "folder": "sprites/mazmon",
+      "sprites": [
+        {
+          "name": "keena0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keena0.gif",
+          "contributions": [
+            {
+              "contributorId": "maz-hades",
+              "relation": "Artist (from folder path 'mazmon')"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-08-03T09:03:38-07:00",
+          "index": 0,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenb0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keenb0.gif",
+          "contributions": [
+            {
+              "contributorId": "maz-hades",
+              "relation": "Committer (commit 139694848064dedbfd15e7ad157507b12e8000ea: 'sprites: new keen sprites')"
+            },
+            {
+              "contributorId": "maz-hades",
+              "relation": "Artist (folder 'mazmon' implies authorship)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-08-03T09:03:38-07:00",
+          "index": 1,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenc0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keenc0.gif",
+          "contributions": [
+            {
+              "contributorId": "maz-hades",
+              "relation": "Committer (commit author; folder 'mazmon' suggests artist)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-08-03T09:03:38-07:00",
+          "index": 2,
+          "source": "freedoom"
+        },
+        {
+          "name": "keend0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keend0.gif",
+          "contributions": [
+            {
+              "contributorId": "maz-hades",
+              "relation": "Committer (original sprite author per commit message)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-08-03T09:03:38-07:00",
+          "index": 3,
+          "source": "freedoom"
+        },
+        {
+          "name": "keene0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keene0.gif",
+          "contributions": [
+            {
+              "contributorId": "maz-hades",
+              "relation": "Committer (commit 139694848064dedbfd15e7ad157507b12e8000ea)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-08-03T09:03:38-07:00",
+          "index": 4,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenf0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keenf0.gif",
+          "contributions": [
+            {
+              "contributorId": "maz-hades",
+              "relation": "Committer (commit author); folder path indicates creator/maintainer of 'mazmon' content"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-08-03T09:03:38-07:00",
+          "index": 5,
+          "source": "freedoom"
+        },
+        {
+          "name": "keeng0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keeng0.gif",
+          "contributions": [
+            {
+              "contributorId": "maz-hades",
+              "relation": "Committer (by commit 139694848064dedbfd15e7ad157507b12e8000ea; sprite path 'mazmon/' implies origin)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-08-03T09:03:38-07:00",
+          "index": 6,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenh0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keenh0.gif",
+          "contributions": [
+            {
+              "contributorId": "maz-hades",
+              "relation": "Committer (commit author; folder 'mazmon' indicates authorship)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-08-03T09:03:38-07:00",
+          "index": 7,
+          "source": "freedoom"
+        },
+        {
+          "name": "keeni0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keeni0.gif",
+          "contributions": [
+            {
+              "contributorId": "maz-hades",
+              "relation": "Artist (from folder path 'mazmon') and Committer (commit message: 'sprites: new keen sprites')"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-08-03T09:03:38-07:00",
+          "index": 8,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenj0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keenj0.gif",
+          "contributions": [
+            {
+              "contributorId": "maz-hades",
+              "relation": "Artist (from path: 'mazmon' directory) and Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-08-03T09:03:38-07:00",
+          "index": 9,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenk0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keenk0.gif",
+          "contributions": [
+            {
+              "contributorId": "maz-hades",
+              "relation": "Committer (author of commit introducing new Keen sprites)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-08-03T09:03:38-07:00",
+          "index": 10,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenl0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keenl0.gif",
+          "contributions": [
+            {
+              "contributorId": "maz-hades",
+              "relation": "Artist (from folder name 'mazmon')"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-08-03T09:03:38-07:00",
+          "index": 11,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenm0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/139694848064dedbfd15e7ad157507b12e8000ea/sprites/mazmon/keenm0.gif",
+          "contributions": [
+            {
+              "contributorId": "maz-hades",
+              "relation": "Committer (commit message: 'sprites: new keen sprites')"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-08-03T09:03:38-07:00",
+          "index": 12,
+          "source": "freedoom"
+        }
+      ]
+    },
+    {
+      "date": "2015-09-18T16:05:24-07:00",
+      "message": "sprites/keen: revise the explosion frames so the jar is destroyed",
+      "source": "freedoom",
+      "url": "https://github.com/freedoom/freedoom/commit/59813591803849d432efc205d3375e95840c0fc5",
+      "sha": "59813591803849d432efc205d3375e95840c0fc5",
+      "contributions": [
+        {
+          "contributorId": "reinaldo",
+          "relation": "Committer (revise explosion frames for jar destruction)"
+        },
+        {
+          "contributorId": "mazmon",
+          "relation": "Artist (from path folder)"
+        }
+      ],
+      "index": 0,
+      "folder": "sprites/mazmon",
+      "sprites": [
+        {
+          "name": "keena0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keena0.gif",
+          "contributions": [
+            {
+              "contributorId": "reinaldo",
+              "relation": "Committer (revise explosion frames for jar destruction)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2015-09-18T16:05:24-07:00",
+          "index": 0,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenb0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keenb0.gif",
+          "contributions": [
+            {
+              "contributorId": "mazmon",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "reinaldo",
+              "relation": "Committer (revision of explosion frames)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2015-09-18T16:05:24-07:00",
+          "index": 1,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenc0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keenc0.gif",
+          "contributions": [
+            {
+              "contributorId": "reinaldo",
+              "relation": "Committer (revise explosion frames for jar destruction)"
+            },
+            {
+              "contributorId": "mazmon",
+              "relation": "Artist (from folder path)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2015-09-18T16:05:24-07:00",
+          "index": 2,
+          "source": "freedoom"
+        },
+        {
+          "name": "keend0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keend0.gif",
+          "contributions": [
+            {
+              "contributorId": "reinaldo",
+              "relation": "Committer (revise explosion frames for jar destruction)"
+            },
+            {
+              "contributorId": "mazmon",
+              "relation": "Artist (from folder path)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2015-09-18T16:05:24-07:00",
+          "index": 3,
+          "source": "freedoom"
+        },
+        {
+          "name": "keene0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keene0.gif",
+          "contributions": [
+            {
+              "contributorId": "reinaldo",
+              "relation": "Committer (revise explosion frames for jar destruction)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2015-09-18T16:05:24-07:00",
+          "index": 4,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenf0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keenf0.gif",
+          "contributions": [
+            {
+              "contributorId": "reinaldo",
+              "relation": "Committer ( revised explosion frames for keen in commit )"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2015-09-18T16:05:24-07:00",
+          "index": 5,
+          "source": "freedoom"
+        },
+        {
+          "name": "keeng0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keeng0.gif",
+          "contributions": [
+            {
+              "contributorId": "reinaldo",
+              "relation": "Committer (revision of explosion frames for jar destruction)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-09-18T16:05:24-07:00",
+          "index": 6,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenh0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keenh0.gif",
+          "contributions": [
+            {
+              "contributorId": "reinaldo",
+              "relation": "Committer (revise explosion frames for jar destruction)"
+            },
+            {
+              "contributorId": "mazmon",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-09-18T16:05:24-07:00",
+          "index": 7,
+          "source": "freedoom"
+        },
+        {
+          "name": "keeni0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keeni0.gif",
+          "contributions": [
+            {
+              "contributorId": "reinaldo",
+              "relation": "Committer (revision of explosion frames for Keen sprite)"
+            },
+            {
+              "contributorId": "mazmon",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-09-18T16:05:24-07:00",
+          "index": 8,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenj0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keenj0.gif",
+          "contributions": [
+            {
+              "contributorId": "reinaldo",
+              "relation": "Committer ( revised explosion frames for Keen-related sprite)"
+            },
+            {
+              "contributorId": "mazmon",
+              "relation": "Artist (from path folder)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-09-18T16:05:24-07:00",
+          "index": 9,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenk0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keenk0.gif",
+          "contributions": [
+            {
+              "contributorId": "reinaldo",
+              "relation": "Committer (updated explosion frames for kee sprite)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-09-18T16:05:24-07:00",
+          "index": 10,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenl0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keenl0.gif",
+          "contributions": [
+            {
+              "contributorId": "reinaldo",
+              "relation": "Committer (revise explosion frames for jar destruction)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-09-18T16:05:24-07:00",
+          "index": 11,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenm0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/59813591803849d432efc205d3375e95840c0fc5/sprites/mazmon/keenm0.gif",
+          "contributions": [
+            {
+              "contributorId": "reinaldo",
+              "relation": "Committer (revise explosion frames for jar destruction)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2015-09-18T16:05:24-07:00",
+          "index": 12,
+          "source": "freedoom"
+        }
+      ]
+    },
+    {
+      "date": "2015-12-17T00:32:03-08:00",
+      "message": "de-symlinkify: mazmon",
+      "source": "freedoom",
+      "url": "https://github.com/freedoom/freedoom/commit/dbd5404ffa29d22c095da0b54c73253a5c564329",
+      "sha": "dbd5404ffa29d22c095da0b54c73253a5c564329",
+      "contributions": [
+        {
+          "contributorId": "michael-swanson",
+          "relation": "Committer (de-symlinkify: mazmon)"
+        }
+      ],
+      "index": 0,
+      "folder": "sprites",
+      "sprites": [
+        {
+          "name": "keena0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keena0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:32:03-08:00",
+          "index": 0,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenb0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keenb0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:32:03-08:00",
+          "index": 1,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenc0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keenc0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:32:03-08:00",
+          "index": 2,
+          "source": "freedoom"
+        },
+        {
+          "name": "keend0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keend0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:32:03-08:00",
+          "index": 3,
+          "source": "freedoom"
+        },
+        {
+          "name": "keene0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keene0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:32:03-08:00",
+          "index": 4,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenf0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keenf0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:32:03-08:00",
+          "index": 5,
+          "source": "freedoom"
+        },
+        {
+          "name": "keeng0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keeng0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:32:03-08:00",
+          "index": 6,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenh0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keenh0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:32:03-08:00",
+          "index": 7,
+          "source": "freedoom"
+        },
+        {
+          "name": "keeni0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keeni0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:32:03-08:00",
+          "index": 8,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenj0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keenj0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:32:03-08:00",
+          "index": 9,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenk0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keenk0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:32:03-08:00",
+          "index": 10,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenl0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keenl0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify of mazmon)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:32:03-08:00",
+          "index": 11,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenm0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/dbd5404ffa29d22c095da0b54c73253a5c564329/sprites/keenm0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: mazmon)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:32:03-08:00",
+          "index": 12,
+          "source": "freedoom"
+        }
+      ]
+    },
+    {
+      "date": "2017-07-18T22:18:14-07:00",
+      "message": "Burn all GIFs: Convert everything to PNGs.\nDeuTex 5 now supports these, and we can use real transparency indexes\nin the files too, so no more ugly cyan background!",
+      "source": "freedoom",
+      "url": "https://github.com/freedoom/freedoom/commit/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
+      "sha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
+      "contributions": [
+        {
+          "contributorId": "michael-swanson",
+          "relation": "Committer (PNG conversion)"
+        },
+        {
+          "contributorId": "keen",
+          "relation": "Artist (from path)"
+        }
+      ],
+      "index": 0,
+      "folder": "sprites",
+      "sprites": [
+        {
+          "name": "keena0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keena0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 0,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenb0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keenb0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (conversion to PNG as per commit message)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 1,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenc0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keenc0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion per commit 9c6c6812)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 2,
+          "source": "freedoom"
+        },
+        {
+          "name": "keend0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keend0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 3,
+          "source": "freedoom"
+        },
+        {
+          "name": "keene0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keene0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion from GIF)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 4,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenf0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keenf0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 5,
+          "source": "freedoom"
+        },
+        {
+          "name": "keeng0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keeng0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion in commit 9c6c6812)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 6,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenh0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keenh0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (converted from GIF to PNG in commit 9c6c681)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 7,
+          "source": "freedoom"
+        },
+        {
+          "name": "keeni0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keeni0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (converted GIF to PNG per commit 9c6c681)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 8,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenj0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keenj0.png",
+          "contributions": [
+            {
+              "contributorId": "keen",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 9,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenk0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keenk0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 10,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenl0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keenl0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (converted from GIF to PNG per commit 9c6c681)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 11,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenm0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/keenm0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 12,
+          "source": "freedoom"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-11T21:49:18+07:00",
+      "message": "Add files via upload",
+      "source": "freedoom",
+      "url": "https://github.com/freedoom/freedoom/commit/623ed61b01e6172442a8046df3d707211990c998",
+      "sha": "623ed61b01e6172442a8046df3d707211990c998",
+      "contributions": [
+        {
+          "contributorId": "m015",
+          "relation": "Committer"
+        }
+      ],
+      "index": 0,
+      "folder": "sprites",
+      "sprites": [
+        {
+          "name": "keena0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keena0.png",
+          "contributions": [
+            {
+              "contributorId": "m015",
+              "relation": "Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2025-02-11T21:49:18+07:00",
+          "index": 0,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenb0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keenb0.png",
+          "contributions": [
+            {
+              "contributorId": "m015",
+              "relation": "Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2025-02-11T21:49:18+07:00",
+          "index": 1,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenc0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keenc0.png",
+          "contributions": [
+            {
+              "contributorId": "m015",
+              "relation": "Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2025-02-11T21:49:18+07:00",
+          "index": 2,
+          "source": "freedoom"
+        },
+        {
+          "name": "keend0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keend0.png",
+          "contributions": [
+            {
+              "contributorId": "m015",
+              "relation": "Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2025-02-11T21:49:18+07:00",
+          "index": 3,
+          "source": "freedoom"
+        },
+        {
+          "name": "keene0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keene0.png",
+          "contributions": [
+            {
+              "contributorId": "m015",
+              "relation": "Committer (original upload in commit 623ed61)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2025-02-11T21:49:18+07:00",
+          "index": 4,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenf0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keenf0.png",
+          "contributions": [
+            {
+              "contributorId": "m015",
+              "relation": "Committer (no additional attribution in commit message or path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2025-02-11T21:49:18+07:00",
+          "index": 5,
+          "source": "freedoom"
+        },
+        {
+          "name": "keeng0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keeng0.png",
+          "contributions": [
+            {
+              "contributorId": "m015",
+              "relation": "Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2025-02-11T21:49:18+07:00",
+          "index": 6,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenh0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keenh0.png",
+          "contributions": [
+            {
+              "contributorId": "m015",
+              "relation": "Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2025-02-11T21:49:18+07:00",
+          "index": 7,
+          "source": "freedoom"
+        },
+        {
+          "name": "keeni0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keeni0.png",
+          "contributions": [
+            {
+              "contributorId": "m015",
+              "relation": "Committer (commit 623ed61, via 'Add files via upload')"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2025-02-11T21:49:18+07:00",
+          "index": 8,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenj0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keenj0.png",
+          "contributions": [
+            {
+              "contributorId": "m015",
+              "relation": "Committer (via upload commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2025-02-11T21:49:18+07:00",
+          "index": 9,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenk0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keenk0.png",
+          "contributions": [
+            {
+              "contributorId": "m015",
+              "relation": "Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2025-02-11T21:49:18+07:00",
+          "index": 10,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenl0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keenl0.png",
+          "contributions": [
+            {
+              "contributorId": "m015",
+              "relation": "Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2025-02-11T21:49:18+07:00",
+          "index": 11,
+          "source": "freedoom"
+        },
+        {
+          "name": "keenm0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/623ed61b01e6172442a8046df3d707211990c998/sprites/keenm0.png",
+          "contributions": [
+            {
+              "contributorId": "m015",
+              "relation": "Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2025-02-11T21:49:18+07:00",
+          "index": 12,
+          "source": "freedoom"
+        }
+      ]
+    }
+  ]
+}

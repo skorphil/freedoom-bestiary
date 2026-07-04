@@ -1,5 +1,3 @@
-import { join } from "node:path";
-import { existsSync, readFileSync, writeFileSync, mkdirSync } from "node:fs";
 import { 
   ParsedCharacterSchema, 
   ParsedSnapshotSchema,
@@ -13,19 +11,22 @@ import * as JSONC from "comment-json";
  * Handles reading and appending snapshots for characters.
  */
 export class ParsedCharacterRepository {
-  private static readonly DATA_DIR = join(
-    import.meta.dirname, 
-    "../data/parsedCharacters"
-  );
+  private static getFileUrl(spriteCode: string): URL {
+    return new URL(
+      `../data/parsedCharacters/${spriteCode.toUpperCase()}.jsonc`,
+      import.meta.url
+    );
+  }
 
   /**
    * Gets the full parsed character history from a .jsonc file.
    * If the file doesn't exist, returns an empty ParsedCharacter structure.
    */
-  static getParsedCharacter(spriteCode: string): ParsedCharacter {
-    const filePath = join(this.DATA_DIR, `${spriteCode.toUpperCase()}.jsonc`);
+  static async getParsedCharacter(spriteCode: string): Promise<ParsedCharacter> {
+    const fileUrl = this.getFileUrl(spriteCode);
+    const file = Bun.file(fileUrl);
 
-    if (!existsSync(filePath)) {
+    if (!(await file.exists())) {
       return {
         code: spriteCode.toUpperCase(),
         versions: []
@@ -33,16 +34,16 @@ export class ParsedCharacterRepository {
     }
 
     try {
-      const content = readFileSync(filePath, "utf-8");
+      const content = await file.text();
       const parsed = JSONC.parse(content);
-      console.log(`Parsed character data for ${spriteCode} from ${filePath}`);
+      console.log(`Parsed character data for ${spriteCode} from ${fileUrl}`);
       console.log(`Data being parsed: ${JSON.stringify(parsed, null, 2)}`);
       return ParsedCharacterSchema.parse(parsed);
     } catch (error) {
       if (error instanceof Error && error.name === "ZodError") {
-        console.error(`Zod validation failed for ${filePath}:`, JSON.stringify((error as any).errors, null, 2));
+        console.error(`Zod validation failed for ${fileUrl}:`, JSON.stringify((error as any).errors, null, 2));
       } else {
-        console.error(`Failed to read or parse ${filePath}:`, error);
+        console.error(`Failed to read or parse ${fileUrl}:`, error);
       }
       throw error;
     }
@@ -52,9 +53,9 @@ export class ParsedCharacterRepository {
    * Appends a new snapshot to a character's version history and saves the file.
    * Ensures the version history remains chronological based on the snapshot index.
    */
-  static appendSnapshot(spriteCode: string, snapshot: ParsedSnapshot): void {
+  static async appendSnapshot(spriteCode: string, snapshot: ParsedSnapshot): Promise<void> {
     const validatedSnapshot = ParsedSnapshotSchema.parse(snapshot);
-    const character = this.getParsedCharacter(spriteCode);
+    const character = await this.getParsedCharacter(spriteCode);
     
     // Check if snapshot already exists (by SHA or index) to avoid duplicates
     const existingVersionIndex = character.versions.findIndex(
@@ -78,25 +79,21 @@ export class ParsedCharacterRepository {
       return a.index - b.index;
     });
 
-    this.saveParsedCharacter(character);
+    await this.saveParsedCharacter(character);
   }
 
   /**
    * Saves the ParsedCharacter data back to its .jsonc file.
    */
-  private static saveParsedCharacter(character: ParsedCharacter): void {
+  private static async saveParsedCharacter(character: ParsedCharacter): Promise<void> {
     const validatedCharacter = ParsedCharacterSchema.parse(character);
-    const filePath = join(this.DATA_DIR, `${validatedCharacter.code.toUpperCase()}.jsonc`);
+    const fileUrl = this.getFileUrl(validatedCharacter.code);
     
     try {
       const content = JSONC.stringify(validatedCharacter, null, 2);
-      if (!existsSync(this.DATA_DIR)) {
-        console.debug(`Creating directory ${this.DATA_DIR}`);
-        mkdirSync(this.DATA_DIR, { recursive: true });
-      }
-      writeFileSync(filePath, content, "utf-8");
+      await Bun.write(fileUrl, content);
     } catch (error) {
-      console.error(`Failed to write ${filePath}:`, error);
+      console.error(`Failed to write ${fileUrl}:`, error);
       throw new Error(`Could not save parsed character data for ${validatedCharacter.code}`);
     }
   }

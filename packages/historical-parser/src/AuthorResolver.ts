@@ -276,7 +276,7 @@ Examples:
           // The AI was given the list of known contributors, so if it returned a new ID, 
           // it might be a hallucination or it found a new person.
           // For safety, we'll initialize it.
-          ContributorRepository.addContributor(contribution.contributorId, {
+          await ContributorRepository.addContributor(contribution.contributorId, {
             name: contribution.contributorId.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
           });
         }

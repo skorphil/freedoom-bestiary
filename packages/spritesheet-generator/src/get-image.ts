@@ -156,8 +156,11 @@ export async function loadSpriteImage(
  * @returns A BareRepoMap object
  */
 export function bareRepoMap(repoRoot: string): BareRepoMap {
+  const root = repoRoot.endsWith("packages/spritesheet-generator") 
+    ? join(repoRoot, "..", "..") 
+    : repoRoot;
 	return {
-		"freedoom/freedoom": join(repoRoot, "historical-parser", "src", "freedoom.git"),
-		"freedoom/attic": join(repoRoot, "historical-parser", "src", "attic.git"),
+		"freedoom/freedoom": join(root, "packages", "historical-parser", "src", "freedoom.git"),
+		"freedoom/attic": join(root, "packages", "historical-parser", "src", "attic.git"),
 	};
 }

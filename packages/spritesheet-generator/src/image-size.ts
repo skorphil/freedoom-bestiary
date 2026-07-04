@@ -13,18 +13,18 @@ export interface ImageSize {
 /**
  * Measures the dimensions of an image file using Sharp.
  * 
- * @param path - The path to the image file
+ * @param input - The path to the image file or image buffer
  * @returns A promise that resolves to the image dimensions
  */
-export async function measureImage(path: string): Promise<ImageSize> {
+export async function measureImage(input: string | Uint8Array): Promise<ImageSize> {
   try {
-    const metadata = await sharp(path).metadata();
+    const metadata = await sharp(input).metadata();
     return {
       w: metadata.width ?? 1,
       h: metadata.height ?? 1,
     };
   } catch (error) {
-    console.warn(`sharp metadata failed for ${path}, using default 1x1 dimensions: ${
+    console.warn(`sharp metadata failed, using default 1x1 dimensions: ${
       (error as Error).message
     }`);
     return { w: 1, h: 1 };

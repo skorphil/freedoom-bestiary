@@ -166,7 +166,7 @@ export async function runAll(opts: RunOptions = {}) {
         const snapshot = toParsedSnapshot(v);
         // Debugging Zod validation
         try {
-          ParsedCharacterRepository.appendSnapshot(code, snapshot);
+          await ParsedCharacterRepository.appendSnapshot(code, snapshot);
         } catch (e: any) {
           if (e.name === "ZodError") {
             console.error(`ZodError while appending snapshot for ${code} at ${v.commitSha}:`, JSON.stringify(e.errors, null, 2));

@@ -1,0 +1,3511 @@
+{
+  "code": "HEAD",
+  "versions": [
+    {
+      "date": "2006-05-09T16:06:11Z",
+      "message": "Import sprites",
+      "source": "freedoom",
+      "url": "https://github.com/freedoom/freedoom/commit/27aca39126c0f021e543516119c9d3b2500575ac",
+      "sha": "27aca39126c0f021e543516119c9d3b2500575ac",
+      "contributions": [
+        {
+          "contributorId": "nightfang",
+          "relation": "Artist (from path)"
+        },
+        {
+          "contributorId": "simon-howard",
+          "relation": "Committer"
+        }
+      ],
+      "index": 1,
+      "folder": "sprites/nightfang",
+      "sprites": [
+        {
+          "name": "heada1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heada1.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path and CREDITS)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 0,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada2a8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heada2a8.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 1,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada3a7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heada3a7.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 2,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada4a6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heada4a6.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 3,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heada5.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 4,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headb1.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path and CREDITS entry)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 5,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb2b8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headb2b8.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 6,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb3b7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headb3b7.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 7,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb4b6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headb4b6.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 8,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headb5.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 9,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headc1.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 10,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc2c8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headc2c8.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from folder path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 11,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc3c7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headc3c7.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 12,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc4c6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headc4c6.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from folder path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (imported sprite)"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 13,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headc5.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 14,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headd1.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 15,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd2d8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headd2d8.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 16,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd3d7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headd3d7.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 17,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd4d6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headd4d6.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 18,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headd5.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (importer)"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 19,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heade1.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Original artist (from path and CREDITS entry)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer (commit author)"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 20,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade2e8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heade2e8.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from folder path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 21,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade3e7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heade3e7.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 22,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade4e6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heade4e6.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 23,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/heade5.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 24,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headf1.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from folder name)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 25,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf2f8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headf2f8.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from folder name)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 26,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf3f7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headf3f7.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from folder name)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 27,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf4f6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headf4f6.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 28,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headf5.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Original artist (from folder path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 29,
+          "source": "freedoom"
+        },
+        {
+          "name": "headg0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headg0.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 30,
+          "source": "freedoom"
+        },
+        {
+          "name": "headh0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headh0.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 31,
+          "source": "freedoom"
+        },
+        {
+          "name": "headi0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headi0.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 32,
+          "source": "freedoom"
+        },
+        {
+          "name": "headj0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headj0.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 33,
+          "source": "freedoom"
+        },
+        {
+          "name": "headk0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headk0.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 34,
+          "source": "freedoom"
+        },
+        {
+          "name": "headl0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/nightfang/headl0.gif",
+          "contributions": [
+            {
+              "contributorId": "nightfang",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer"
+            }
+          ],
+          "state": "new",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 35,
+          "source": "freedoom"
+        }
+      ]
+    },
+    {
+      "date": "2006-05-09T16:06:11Z",
+      "message": "Import sprites",
+      "source": "freedoom",
+      "url": "https://github.com/freedoom/freedoom/commit/27aca39126c0f021e543516119c9d3b2500575ac",
+      "sha": "27aca39126c0f021e543516119c9d3b2500575ac",
+      "contributions": [
+        {
+          "contributorId": "simon-howard",
+          "relation": "Importer"
+        }
+      ],
+      "index": 2,
+      "folder": "sprites/pov",
+      "sprites": [
+        {
+          "name": "heada1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heada1.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 0,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada2a8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heada2a8.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 1,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada3a7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heada3a7.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from folder path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 2,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada4a6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heada4a6.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (importer)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 3,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heada5.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 4,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headb1.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 5,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb2b8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headb2b8.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 6,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb3b7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headb3b7.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 7,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb4b6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headb4b6.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 8,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headb5.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 9,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headc1.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 10,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc2c8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headc2c8.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 11,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc3c7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headc3c7.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 12,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc4c6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headc4c6.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 13,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headc5.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (imported sprites)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 14,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headd1.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 15,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd2d8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headd2d8.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 16,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd3d7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headd3d7.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 17,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd4d6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headd4d6.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 18,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headd5.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 19,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heade1.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 20,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade2e8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heade2e8.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (importer of POV's sprites)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 21,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade3e7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heade3e7.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 22,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade4e6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heade4e6.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 23,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/heade5.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 24,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headf1.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 25,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf2f8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headf2f8.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 26,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf3f7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headf3f7.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 27,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf4f6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headf4f6.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 28,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headf5.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 29,
+          "source": "freedoom"
+        },
+        {
+          "name": "headg0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headg0.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 30,
+          "source": "freedoom"
+        },
+        {
+          "name": "headh0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headh0.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 31,
+          "source": "freedoom"
+        },
+        {
+          "name": "headi0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headi0.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 32,
+          "source": "freedoom"
+        },
+        {
+          "name": "headj0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headj0.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 33,
+          "source": "freedoom"
+        },
+        {
+          "name": "headk0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headk0.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 34,
+          "source": "freedoom"
+        },
+        {
+          "name": "headl0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/headl0.gif",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "simon-howard",
+              "relation": "Importer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2006-05-09T16:06:11Z",
+          "index": 35,
+          "source": "freedoom"
+        }
+      ]
+    },
+    {
+      "date": "2015-07-20T13:53:38-07:00",
+      "message": "sprites: new orb monster",
+      "source": "freedoom",
+      "url": "https://github.com/freedoom/freedoom/commit/5b716f83766ea2c6c06ebb346f831906cc1e21d0",
+      "sha": "5b716f83766ea2c6c06ebb346f831906cc1e21d0",
+      "contributions": [
+        {
+          "contributorId": "raymoohawk",
+          "relation": "Artist (from path)"
+        },
+        {
+          "contributorId": "adrian-cabrera",
+          "relation": "Committer (committing new orb monster sprite set; folder implies raymoohawk as artist)"
+        }
+      ],
+      "index": 1,
+      "folder": "sprites/raymoohawk",
+      "sprites": [
+        {
+          "name": "heada1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada1.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 0,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada2a8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada2a8.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 1,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada3a7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada3a7.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "adrian-cabrera",
+              "relation": "Committer (commit 5b716f83: 'sprites: new orb monster')"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 2,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada4a6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada4a6.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 3,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heada5.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 4,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb1.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 5,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb2b8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb2b8.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 6,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb3b7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb3b7.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 7,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb4b6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb4b6.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "adrian-cabrera",
+              "relation": "Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 8,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headb5.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "adrian-cabrera",
+              "relation": "Committer (commit 5b716f83 — 'sprites: new orb monster')"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 9,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc1.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 10,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc2c8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc2c8.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "adrian-cabrera",
+              "relation": "Committer (commit 5b716f83 adds new orb monster sprites)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 11,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc3c7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc3c7.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 12,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc4c6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc4c6.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 13,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headc5.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "adrian-cabrera",
+              "relation": "Committer (commit adds raymoohawk's sprite)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 14,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd1.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "adrian-cabrera",
+              "relation": "Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 15,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd2d8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd2d8.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 16,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd3d7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd3d7.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 17,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd4d6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd4d6.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 18,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headd5.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 19,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade1.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 20,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade2e8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade2e8.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "adrian-cabrera",
+              "relation": "Committer (commit 5b716f83 added raymoohawk sprite set)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 21,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade3e7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade3e7.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path folder)"
+            },
+            {
+              "contributorId": "adrian-cabrera",
+              "relation": "Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 22,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade4e6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade4e6.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from folder path)"
+            },
+            {
+              "contributorId": "adrian-cabrera",
+              "relation": "Committer (commit 5b716f8: 'sprites: new orb monster')"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 23,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/heade5.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 24,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf1.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 25,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf2f8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf2f8.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "adrian-cabrera",
+              "relation": "Committer (commit 5b716f83 — 'sprites: new orb monster')"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 26,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf3f7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf3f7.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "adrian-cabrera",
+              "relation": "Committer"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 27,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf4f6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf4f6.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 28,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headf5.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "adrian-cabrera",
+              "relation": "Committer (new orb monster commit; folder name implies raymoohawk as artist)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 29,
+          "source": "freedoom"
+        },
+        {
+          "name": "headg0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headg0.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 30,
+          "source": "freedoom"
+        },
+        {
+          "name": "headh0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headh0.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 31,
+          "source": "freedoom"
+        },
+        {
+          "name": "headi0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headi0.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 32,
+          "source": "freedoom"
+        },
+        {
+          "name": "headj0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headj0.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "adrian-cabrera",
+              "relation": "Committer (committing new orb monster sprite set; folder implies raymoohawk as artist)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 33,
+          "source": "freedoom"
+        },
+        {
+          "name": "headk0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headk0.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from folder name)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 34,
+          "source": "freedoom"
+        },
+        {
+          "name": "headl0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/5b716f83766ea2c6c06ebb346f831906cc1e21d0/sprites/raymoohawk/headl0.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-07-20T13:53:38-07:00",
+          "index": 35,
+          "source": "freedoom"
+        }
+      ]
+    },
+    {
+      "date": "2015-12-17T00:49:23-08:00",
+      "message": "de-symlinkify: raymoohawk",
+      "source": "freedoom",
+      "url": "https://github.com/freedoom/freedoom/commit/11ad2d3960694589fc72d0d729caaa98b0372a32",
+      "sha": "11ad2d3960694589fc72d0d729caaa98b0372a32",
+      "contributions": [
+        {
+          "contributorId": "michael-swanson",
+          "relation": "Committer (de-symlinkify commit for raymoohawk)"
+        },
+        {
+          "contributorId": "raymoohawk",
+          "relation": "Artist (from path)"
+        }
+      ],
+      "index": 0,
+      "folder": "sprites",
+      "sprites": [
+        {
+          "name": "heada1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada1.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 0,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada2a8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada2a8.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 1,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada3a7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada3a7.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 2,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada4a6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada4a6.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 3,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heada5.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 4,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb1.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify commit for raymoohawk sprite set)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 5,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb2b8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb2b8.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 6,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb3b7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb3b7.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 7,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb4b6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb4b6.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 8,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headb5.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify commit for raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 9,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc1.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 10,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc2c8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc2c8.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 11,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc3c7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc3c7.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 12,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc4c6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc4c6.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 13,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headc5.gif",
+          "contributions": [
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            },
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 14,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd1.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 15,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd2d8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd2d8.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            },
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from folder name)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 16,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd3d7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd3d7.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 17,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd4d6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd4d6.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 18,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headd5.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 19,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade1.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            },
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Original artist (from folder name)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 20,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade2e8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade2e8.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 21,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade3e7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade3e7.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 22,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade4e6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade4e6.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify commit for raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 23,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/heade5.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 24,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf1.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf1.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 25,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf2f8.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf2f8.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            },
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Original artist (from path/folder context)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 26,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf3f7.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf3f7.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 27,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf4f6.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf4f6.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 28,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf5.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headf5.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (via de-symlinkify commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 29,
+          "source": "freedoom"
+        },
+        {
+          "name": "headg0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headg0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (performed de-symlinkify)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 30,
+          "source": "freedoom"
+        },
+        {
+          "name": "headh0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headh0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            },
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Original artist (from path context)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 31,
+          "source": "freedoom"
+        },
+        {
+          "name": "headi0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headi0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            },
+            {
+              "contributorId": "raymoohawk",
+              "relation": "Artist (from path)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 32,
+          "source": "freedoom"
+        },
+        {
+          "name": "headj0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headj0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 33,
+          "source": "freedoom"
+        },
+        {
+          "name": "headk0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headk0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify: raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 34,
+          "source": "freedoom"
+        },
+        {
+          "name": "headl0.gif",
+          "url": "https://github.com/freedoom/freedoom/blob/11ad2d3960694589fc72d0d729caaa98b0372a32/sprites/headl0.gif",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (de-symlinkify commit for raymoohawk)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2015-12-17T00:49:23-08:00",
+          "index": 35,
+          "source": "freedoom"
+        }
+      ]
+    },
+    {
+      "date": "2017-07-18T22:18:14-07:00",
+      "message": "Burn all GIFs: Convert everything to PNGs.\nDeuTex 5 now supports these, and we can use real transparency indexes\nin the files too, so no more ugly cyan background!",
+      "source": "freedoom",
+      "url": "https://github.com/freedoom/freedoom/commit/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
+      "sha": "9c6c68127672feee501d5e5cab9d5e15c3dbf8b3",
+      "contributions": [
+        {
+          "contributorId": "michael-swanson",
+          "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
+        }
+      ],
+      "index": 0,
+      "folder": "sprites",
+      "sprites": [
+        {
+          "name": "heada1.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada1.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion as part of bulk GIF-to-PNG migration)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 0,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada2a8.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada2a8.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion from GIF)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 1,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada3a7.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada3a7.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (converted GIF to PNG)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 2,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada4a6.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada4a6.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion in commit 9c6c681)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 3,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada5.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heada5.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion from GIF)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 4,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb1.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb1.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 5,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb2b8.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb2b8.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 6,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb3b7.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb3b7.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 7,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb4b6.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb4b6.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (converted GIF to PNG per commit message)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 8,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb5.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headb5.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (converted GIF to PNG as part of bulk conversion)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 9,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc1.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc1.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (converted GIF to PNG)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 10,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc2c8.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc2c8.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (GIF to PNG conversion)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 11,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc3c7.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc3c7.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion from GIF)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 12,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc4c6.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc4c6.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 13,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc5.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headc5.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 14,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd1.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd1.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 15,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd2d8.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd2d8.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 16,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd3d7.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd3d7.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 17,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd4d6.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd4d6.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (converted GIF to PNG)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 18,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd5.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headd5.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion, per commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 19,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade1.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade1.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion in commit 9c6c68127672feee501d5e5cab9d5e15c3dbf8b3)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 20,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade2e8.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade2e8.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 21,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade3e7.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade3e7.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion from GIF, per commit message)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 22,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade4e6.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade4e6.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion, all sprites)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 23,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade5.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/heade5.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion from GIF)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 24,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf1.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf1.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion in commit 9c6c681)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 25,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf2f8.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf2f8.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion of existing sprite)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 26,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf3f7.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf3f7.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 27,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf4f6.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf4f6.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion per commit 9c6c681)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 28,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf5.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headf5.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (converted GIF to PNG in bulk commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 29,
+          "source": "freedoom"
+        },
+        {
+          "name": "headg0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headg0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (converted GIF to PNG per commit 9c6c681)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 30,
+          "source": "freedoom"
+        },
+        {
+          "name": "headh0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headh0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion from GIF in commit 9c6c6812)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 31,
+          "source": "freedoom"
+        },
+        {
+          "name": "headi0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headi0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion per commit 9c6c681)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 32,
+          "source": "freedoom"
+        },
+        {
+          "name": "headj0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headj0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (PNG conversion commit)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 33,
+          "source": "freedoom"
+        },
+        {
+          "name": "headk0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headk0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (converted GIF to PNG per commit message)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 34,
+          "source": "freedoom"
+        },
+        {
+          "name": "headl0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/9c6c68127672feee501d5e5cab9d5e15c3dbf8b3/sprites/headl0.png",
+          "contributions": [
+            {
+              "contributorId": "michael-swanson",
+              "relation": "Committer (converted GIF to PNG as part of bulk format migration)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2017-07-18T22:18:14-07:00",
+          "index": 35,
+          "source": "freedoom"
+        }
+      ]
+    },
+    {
+      "date": "2023-07-17T02:14:24-04:00",
+      "message": "png: Map color 255 to color 133 (#1003)\nSince color index 255 is a special transparent color in some game\r\nengines color 255 has been mapped to similar color 133 using make\r\ntarget 'fix-legacy-transparency-pngs'. The images have also been\r\nnormalized with make target 'fix-deutex-pngs'.",
+      "source": "freedoom",
+      "url": "https://github.com/freedoom/freedoom/commit/57246cae8f7901d4bc63072f9632685d1e3b507d",
+      "sha": "57246cae8f7901d4bc63072f9632685d1e3b507d",
+      "contributions": [
+        {
+          "contributorId": "simon-howard",
+          "relation": "Committer (performed PNG color transparency normalization via fix-legacy-transparency-pngs and fix-deutex-pngs targets)"
+        }
+      ],
+      "index": 0,
+      "folder": "sprites",
+      "sprites": [
+        {
+          "name": "heada1.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada1.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (transparent color fix via fix-legacy-transparency-pngs and fix-deutex-pngs)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 0,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada2a8.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada2a8.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (performed palette and transparency normalization per commit #1003)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 1,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada3a7.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada3a7.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (palette/legacy transparency fix per commit message)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 2,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada4a6.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada4a6.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (performed palette/legacy transparency normalization per commit message)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 3,
+          "source": "freedoom"
+        },
+        {
+          "name": "heada5.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heada5.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (palette normalization fix for legacy transparency)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 4,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb1.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb1.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (performs PNG normalization and legacy transparency fix per commit #1003)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 5,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb2b8.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb2b8.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (fixed legacy transparency: mapped color 255 to color 133, normalized PNGs)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 6,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb3b7.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb3b7.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (performed PNG color mapping normalization: color 255 → 133)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 7,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb4b6.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb4b6.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (PNG normalization and legacy transparency fix)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 8,
+          "source": "freedoom"
+        },
+        {
+          "name": "headb5.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headb5.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (performs palette normalization via fix-legacy-transparency-pngs and fix-deutex-pngs)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 9,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc1.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc1.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (fixed legacy transparency mapping and normalization per #1003)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 10,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc2c8.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc2c8.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer ( PNG transparency mapping & normalization per commit message )"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 11,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc3c7.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc3c7.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (performing PNG color normalization and transparency fix per commit 57246cae)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 12,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc4c6.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc4c6.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (PNG color mapping and normalization per commit)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 13,
+          "source": "freedoom"
+        },
+        {
+          "name": "headc5.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headc5.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (palette fix, transparency mapping: color 255 → 133; PNG normalization per fix-legacy-transparency-pngs and fix-deutex-pngs)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 14,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd1.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd1.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (made palette fix and PNG normalization as part of #1003)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 15,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd2d8.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd2d8.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (fixed legacy transparency: mapped color 255 to color 133, normalized PNGs)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 16,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd3d7.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd3d7.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (palette/transparency fix per commit message)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 17,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd4d6.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd4d6.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (palette fix via PNG normalization and legacy transparency mapping)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 18,
+          "source": "freedoom"
+        },
+        {
+          "name": "headd5.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headd5.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (fixed legacy transparency: mapped color 255 → 133 and normalized PNG)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 19,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade1.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade1.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (PNG palette normalization, legacy transparency fix)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 20,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade2e8.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade2e8.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (palette transparency fix)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 21,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade3e7.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade3e7.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (PNG transparency normalization: mapped color 255 to color 133 and applied deutex normalization)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 22,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade4e6.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade4e6.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (legacy transparency fix: mapped color 255 → 133 and PNG normalization)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 23,
+          "source": "freedoom"
+        },
+        {
+          "name": "heade5.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/heade5.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (performs PNG normalization and legacy transparency fix per commit message)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 24,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf1.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf1.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (palette transparency fix via fix-legacy-transparency-pngs)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 25,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf2f8.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf2f8.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (fixed legacy transparency PNG mapping and normalization)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 26,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf3f7.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf3f7.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (palette transparency fix)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 27,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf4f6.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf4f6.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (palette fix via legacy transparency mapping)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 28,
+          "source": "freedoom"
+        },
+        {
+          "name": "headf5.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headf5.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (performing PNG transparency/normalization fix)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 29,
+          "source": "freedoom"
+        },
+        {
+          "name": "headg0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headg0.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (palette fix via fix-legacy-transparency-pngs)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 30,
+          "source": "freedoom"
+        },
+        {
+          "name": "headh0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headh0.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (palette fix via 'fix-legacy-transparency-pngs')"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 31,
+          "source": "freedoom"
+        },
+        {
+          "name": "headi0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headi0.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (PNG transparency fix via commit 57246cae)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 32,
+          "source": "freedoom"
+        },
+        {
+          "name": "headj0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headj0.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (fixed legacy transparency mapping, normalized PNGs)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 33,
+          "source": "freedoom"
+        },
+        {
+          "name": "headk0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headk0.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (performed PNG transparency/normalization fix, commit 57246ca)"
+            }
+          ],
+          "state": "updated",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 34,
+          "source": "freedoom"
+        },
+        {
+          "name": "headl0.png",
+          "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/headl0.png",
+          "contributions": [
+            {
+              "contributorId": "simon-howard",
+              "relation": "Committer (performed PNG color transparency normalization via fix-legacy-transparency-pngs and fix-deutex-pngs targets)"
+            }
+          ],
+          "state": "unchanged",
+          "lastChangedDate": "2023-07-17T02:14:24-04:00",
+          "index": 35,
+          "source": "freedoom"
+        }
+      ]
+    }
+  ]
+}

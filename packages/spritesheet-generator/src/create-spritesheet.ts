@@ -151,6 +151,8 @@ export type PaddedCell = {
   h: number;
   /** Path to the image file */
   path: string;
+  /** Optional image buffer */
+  buffer?: Buffer;
 };
 
 /**
@@ -163,13 +165,80 @@ export type CreateSpritesheetOptions = {
   cellH: number;
   /** The grid layout of sprites */
   layout: GridLayout;
-  /** Map of padded cell paths */
+  /** Map of padded cells with optional buffers */
   paddedPaths: ReadonlyMap<string, PaddedCell>;
   /** Output path for the spritesheet */
   outputPath: string;
+  /** Map of processed images with their buffers */
+  processedImages?: ReadonlyMap<string, { cell: PaddedCell; buffer: Buffer }>;
 };
 
 import sharp from "sharp";
+
+/**
+ * Creates a spritesheet buffer from a grid layout using Sharp.
+ * 
+ * @param layout - The grid layout of sprites
+ * @param cellW - Width of each cell in pixels
+ * @param cellH - Height of each cell in pixels
+ * @param opts - Additional options for spritesheet creation
+ * @returns A promise that resolves to the spritesheet buffer and its dimensions
+ */
+export async function createSpritesheetBuffer(
+  layout: GridLayout,
+  cellW: number,
+  cellH: number,
+  opts: CreateSpritesheetOptions,
+): Promise<{ buffer: Buffer; w: number; h: number }> {
+  const { width, height } = computeSpritesheetDimensions(
+    opts.layout,
+    cellW,
+    cellH,
+  );
+
+  const composites: sharp.OverlayOptions[] = [];
+  for (const frame of opts.layout.frames) {
+    for (const angle of opts.layout.angles) {
+      const key = `${frame}_${angle}`;
+      
+      let input: string | Buffer = "";
+      const processedImage = opts.processedImages?.get(key);
+      if (processedImage) {
+        input = processedImage.buffer;
+      } else {
+        const cell = opts.paddedPaths.get(key);
+        if (!cell) continue;
+        input = cell.buffer ?? cell.path;
+      }
+      
+      const pos = cellToPosition(
+          opts.layout.angles.indexOf(angle),
+          opts.layout.frames.indexOf(frame),
+          cellW,
+          cellH,
+      );
+      composites.push({
+        input,
+        top: pos.y,
+        left: pos.x,
+      });
+    }
+  }
+
+  const buffer = await sharp({
+    create: {
+      width,
+      height,
+      channels: 4,
+      background: { r: 0, g: 0, b: 0, alpha: 0 },
+    },
+  })
+    .composite(composites)
+    .webp({ lossless: true })
+    .toBuffer();
+
+  return { buffer, w: width, h: height };
+}
 
 /**
  * Creates a spritesheet from a grid layout using Sharp.
@@ -188,43 +257,7 @@ export async function createSpritesheet(
   outputPath: string,
   opts: CreateSpritesheetOptions,
 ): Promise<{ w: number; h: number }> {
-  const { width, height } = computeSpritesheetDimensions(
-    opts.layout,
-    cellW,
-    cellH,
-  );
-
-  const composites: sharp.OverlayOptions[] = [];
-  for (const frame of opts.layout.frames) {
-    for (const angle of opts.layout.angles) {
-      const key = `${frame}_${angle}`;
-      const cell = opts.paddedPaths.get(key);
-      if (!cell) continue;
-      const pos = cellToPosition(
-        opts.layout.angles.indexOf(angle),
-        opts.layout.frames.indexOf(frame),
-        cellW,
-        cellH,
-      );
-      composites.push({
-        input: cell.path,
-        top: pos.y,
-        left: pos.x,
-      });
-    }
-  }
-
-  await sharp({
-    create: {
-      width,
-      height,
-      channels: 4,
-      background: { r: 0, g: 0, b: 0, alpha: 0 },
-    },
-  })
-    .composite(composites)
-    .webp({ lossless: true })
-    .toFile(outputPath);
-
-  return { w: width, h: height };
+  const { buffer, w, h } = await createSpritesheetBuffer(layout, cellW, cellH, opts);
+  await sharp(buffer).toFile(outputPath);
+  return { w, h };
 }

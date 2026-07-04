@@ -1,17 +1,14 @@
-import { mkdir, readFile, rename, stat, writeFile } from "node:fs/promises";
-import { existsSync } from "node:fs";
-import { basename, join, resolve } from "node:path";
+import { mkdir } from "node:fs/promises";
+import { join } from "node:path";
 import {
   buildGridLayout,
   buildSpritesheetMetadata,
   computeSpritesheetDimensions,
-  createSpritesheet,
+  createSpritesheetBuffer,
   type PaddedCell,
 } from "./create-spritesheet.ts";
 import { bareRepoMap } from "./get-image.ts";
 import { loadSpriteImage } from "./get-image.ts";
-import { measureImage } from "./image-size.ts";
-import { ensureMirrored } from "./mirrors.ts";
 import { extractGridCells } from "./parse-sprites.ts";
 import type { Spritesheet, SpritesheetsMap, Version } from "./types.ts";
 import sharp from "sharp";
@@ -60,11 +57,13 @@ export function defaultConfig(): RuntimeConfig {
  * @param start - The directory to start searching from
  * @returns The path to the repository root
  */
-export function findRepoRoot(start: string): string {
+export async function findRepoRoot(start: string): string {
   let dir = start;
   while (true) {
     // Check for workspace root by looking for the packages directory
-    if (existsSync(join(dir, "packages")) && existsSync(join(dir, "package.json"))) {
+    const packagesExists = await Bun.file(join(dir, "packages")).exists();
+    const packageJsonExists = await Bun.file(join(dir, "package.json")).exists();
+    if (packagesExists && packageJsonExists) {
       return dir;
     }
     const parent = join(dir, "..");
@@ -79,17 +78,13 @@ export function findRepoRoot(start: string): string {
  * 
  * @returns A RuntimeConfig object with resolved paths
  */
-export function resolveConfig(): RuntimeConfig {
-  const repoRoot = findRepoRoot(process.cwd());
-  const resolvedOutputDir = resolve(repoRoot, "packages", "database", "data");
+export async function resolveConfig(): Promise<RuntimeConfig> {
+  const repoRoot = await findRepoRoot(process.cwd());
   
-  console.log(`[Config] repoRoot: ${repoRoot}`);
-  console.log(`[Config] outputDir: ${resolvedOutputDir}`);
-
   return {
     ...defaultConfig(),
     repoRoot,
-    outputDir: resolvedOutputDir,
+    outputDir: "", // No longer used for images
     sheetDirName: "spritesheets",
     indexFileName: "spritesheets.jsonc",
     bareRepos: bareRepoMap(repoRoot),
@@ -127,7 +122,7 @@ export async function readInputTargets(
     const targets: InputTarget[] = [];
     
     for (const code of spriteCodes) {
-      const parsedCharacter = ParsedCharacterRepository.getParsedCharacter(code);
+      const parsedCharacter = await ParsedCharacterRepository.getParsedCharacter(code);
       
       // Map ParsedCharacter to InputTarget format
       const versions: Version[] = parsedCharacter.versions.map(snapshot => ({
@@ -163,7 +158,7 @@ export async function readInputTargets(
   const targets: InputTarget[] = [];
   
   for (const code of allCharacterCodes) {
-    const parsedCharacter = ParsedCharacterRepository.getParsedCharacter(code);
+    const parsedCharacter = await ParsedCharacterRepository.getParsedCharacter(code);
     
     // Map ParsedCharacter to InputTarget format
     const versions: Version[] = parsedCharacter.versions.map(snapshot => ({
@@ -208,26 +203,20 @@ export function chunk<T>(arr: T[], size: number): T[][] {
 }
 
 /**
- * Ensures an image is padded to the specified dimensions and has transparency.
+ * Processes an image buffer to apply alpha channel and cyan transparency fix.
  * 
- * @param sourcePath - Path to the source image
+ * @param imageBuffer - The image buffer to process
  * @param cellW - Target width in pixels
  * @param cellH - Target height in pixels
- * @returns A promise that resolves to the path of the padded image
+ * @returns A promise that resolves to the processed image buffer and its dimensions
  */
-async function ensurePadded(
-  sourcePath: string,
+async function processImageBuffer(
+  imageBuffer: Buffer,
   cellW: number,
   cellH: number,
-): Promise<string> {
-  const outPath = `${sourcePath}.processed.png`;
-  
-  if (existsSync(outPath)) {
-    return outPath;
-  }
-  
+): Promise<{ buffer: Buffer; width: number; height: number }> {
   try {
-    const image = sharp(sourcePath);
+    const image = sharp(imageBuffer);
     const { data, info } = await image.ensureAlpha().raw().toBuffer({ resolveWithObject: true });
     
     // Process transparency for cyan background (#01ffff)
@@ -242,7 +231,7 @@ async function ensurePadded(
       }
     }
     
-    await sharp(data, { raw: { width: info.width, height: info.height, channels: 4 } })
+    const processedBuffer = await sharp(data, { raw: { width: info.width, height: info.height, channels: 4 } })
       .extend({
         top: 0,
         left: 0,
@@ -251,27 +240,53 @@ async function ensurePadded(
         background: { r: 0, g: 0, b: 0, alpha: 0 }
       })
       .png()
-      .toFile(outPath);
+      .toBuffer();
       
-    return outPath;
+    return {
+      buffer: processedBuffer,
+      width: Math.max(info.width, cellW),
+      height: Math.max(info.height, cellH)
+    };
   } catch (error) {
-    console.warn(`Failed to process image ${sourcePath}, creating fallback: ${(error as Error).message}`);
+    console.warn(`Failed to process image buffer, creating fallback: ${(error as Error).message}`);
     const fallbackPng = Buffer.from(
       "iVBORw0KGgoAAAANSUhEUgAAAAEAAAABAQAAAAA3bvkkAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACdFJOUwAAdpPNOAAAAAJiS0dEAAHdihOkAAAAB3RJTUUH6gYXDjgtYVvFRgAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyNi0wNi0yM1QxNDo1Njo0NSswMDowMOnIZewAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjYtMDYtMjNUMTQ6NTY6NDUrMDA6MDCYld1QAAAAKHRFWHRkYXRlOnRpbWVzdGFtcAAyMDI2LTA2LTIzVDE0OjU2OjQ1KzAwOjAwz4D8jwAAAApJREFUCNdjYAAAAAIAAeIhvDMAAAAASUVORK5CYII=",
       "base64"
     );
-    await writeFile(outPath, fallbackPng);
-    return outPath;
+    
+    // Create a properly sized fallback image
+    const fallbackBuffer = await sharp(fallbackPng)
+      .resize(cellW, cellH, { fit: 'contain', background: { r: 0, g: 0, b: 0, alpha: 0 } })
+      .png()
+      .toBuffer();
+      
+    return {
+      buffer: fallbackBuffer,
+      width: cellW,
+      height: cellH
+    };
   }
 }
 
 /**
- * Fetches and measures a version of sprites.
+ * Represents a processed image with its buffer and dimensions.
+ */
+interface ProcessedImage {
+  /** The processed image buffer */
+  buffer: Buffer;
+  /** Width of the image in pixels */
+  width: number;
+  /** Height of the image in pixels */
+  height: number;
+}
+
+/**
+ * Fetches and measures a version of sprites using in-memory processing.
  * 
  * @param config - The runtime configuration
  * @param code - The sprite code to process
  * @param version - The version to process
- * @returns A promise that resolves to an object containing layout, dimensions, and padded cells, or null if no cells exist
+ * @returns A promise that resolves to an object containing layout, dimensions, and processed cells, or null if no cells exist
  */
 async function fetchAndMeasureVersion(
   config: RuntimeConfig,
@@ -282,45 +297,36 @@ async function fetchAndMeasureVersion(
     layout: ReturnType<typeof buildGridLayout>;
     cellW: number;
     cellH: number;
-    padded: Map<string, PaddedCell>;
+    processed: Map<string, { cell: PaddedCell; buffer: Buffer }>;
   } | null
 > {
   const cells = extractGridCells(version.files, code);
   if (cells.length === 0) return null;
   const layout = buildGridLayout(cells);
 
-  const cacheShaDir = join(config.outputDir, config.cacheDirName, version.sha);
-  await mkdir(cacheShaDir, { recursive: true });
+  // Cache for processed base images to avoid reprocessing the same image for multiple versions
+  const imageBufferCache = new Map<string, ProcessedImage>();
+  // Cache for mirrored images
+  const mirroredBufferCache = new Map<string, Buffer>();
 
   const fileJobs = version.files.map(async (file) => {
-    const baseName = file.name;
-    const cachedPath = join(cacheShaDir, baseName);
-    try {
-      await stat(cachedPath);
-    } catch {
-      const image = await loadSpriteImage(file.url, {
-        "freedoom/freedoom": config.bareRepos["freedoom/freedoom"] ?? "",
-        "freedoom/attic": config.bareRepos["freedoom/attic"] ?? "",
-      });
-      if (!image) {
-        console.warn(`Skipping sprite ${file.name}: failed to download or not an image (${file.url})`);
-        return null; // signal that this file couldn't be fetched
-      }
-      // Ensure parent directory exists (file.name may include subdirectories)
-      try {
-        await mkdir(cachedPath.substring(0, cachedPath.lastIndexOf('/')), { recursive: true });
-      } catch {
-        // ignore
-      }
-      await writeFile(cachedPath, image.data);
+    const image = await loadSpriteImage(file.url, {
+      "freedoom/freedoom": config.bareRepos["freedoom/freedoom"] ?? "",
+      "freedoom/attic": config.bareRepos["freedoom/attic"] ?? "",
+    });
+    if (!image) {
+      console.warn(`Skipping sprite ${file.name}: failed to download or not an image (${file.url})`);
+      return null; // signal that this file couldn't be fetched
     }
-    return { file, cachedPath };
+    return { file, imageData: image.data };
   });
+  
   const chunked = chunk(fileJobs, config.fetchConcurrency);
   const resolvedFiles: {
     file: (typeof version.files)[number];
-    cachedPath: string;
+    imageData: Uint8Array;
   }[] = [];
+  
   for (const c of chunked) {
     const part = (await Promise.all(c)) as (typeof resolvedFiles[number] | null)[];
     for (const p of part) {
@@ -328,44 +334,134 @@ async function fetchAndMeasureVersion(
     }
   }
 
-  const seen = new Set<string>();
-  const padded = new Map<string, PaddedCell>();
+  const processed = new Map<string, { cell: PaddedCell; buffer: Buffer }>();
   let cellW = 0;
   let cellH = 0;
-  for (const { file, cachedPath } of resolvedFiles) {
-    if (seen.has(cachedPath)) continue;
-    seen.add(cachedPath);
+  
+  for (const { file, imageData } of resolvedFiles) {
+    // Convert Uint8Array to Buffer for Sharp
+    const imageBuffer = Buffer.from(imageData);
+    
+    // Process the original image if not already cached
+    let processedImage: ProcessedImage;
+    const cacheKey = `${file.url}_original`;
+    if (imageBufferCache.has(cacheKey)) {
+      processedImage = imageBufferCache.get(cacheKey)!;
+    } else {
+      // Process the image with alpha channel and padding
+      processedImage = await processImageBuffer(imageBuffer, 0, 0); // Will determine max dimensions later
+      imageBufferCache.set(cacheKey, processedImage);
+    }
+    
+    // Process the mirrored image if needed
+    let mirroredBuffer: Buffer | null = null;
+    const needsMirror = cells.some(cell => cell.file === file && cell.mirror);
+    if (needsMirror) {
+      const mirrorCacheKey = `${file.url}_mirror`;
+      if (mirroredBufferCache.has(mirrorCacheKey)) {
+        mirroredBuffer = mirroredBufferCache.get(mirrorCacheKey)!;
+      } else {
+        try {
+          mirroredBuffer = await sharp(imageBuffer)
+            .ensureAlpha()
+            .flop() // Horizontal flip
+            .toBuffer();
+          
+          // Apply the same transparency processing to the mirrored image
+          const { data, info } = await sharp(mirroredBuffer).ensureAlpha().raw().toBuffer({ resolveWithObject: true });
+          
+          // Process transparency for cyan background (#01ffff)
+          for (let i = 0; i < data.length; i += 4) {
+            const r = data[i];
+            const g = data[i+1];
+            const b = data[i+2];
+            
+            // Match #01ffff with approx 5% fuzz
+            if (r <= 15 && g >= 240 && b >= 240) {
+              data[i+3] = 0;
+            }
+          }
+          
+          mirroredBuffer = await sharp(data, { raw: { width: info.width, height: info.height, channels: 4 } })
+            .png()
+            .toBuffer();
+            
+          mirroredBufferCache.set(mirrorCacheKey, mirroredBuffer);
+        } catch (error) {
+          console.warn(`Failed to create mirror for ${file.name}, using original: ${(error as Error).message}`);
+          mirroredBuffer = imageBuffer;
+        }
+      }
+    }
 
-    const mirrored = await ensureMirrored(cachedPath);
-    const originalSize = await measureImage(mirrored.originalPath);
-    const mirrorSize = await measureImage(mirrored.mirrorPath);
-    cellW = Math.max(cellW, originalSize.w, mirrorSize.w);
-    cellH = Math.max(cellH, originalSize.h, mirrorSize.h);
+    // Update max dimensions
+    const originalMetadata = await sharp(processedImage.buffer).metadata();
+    const mirrorMetadata = mirroredBuffer ? await sharp(mirroredBuffer).metadata() : null;
+    
+    cellW = Math.max(cellW, originalMetadata.width ?? 0, mirrorMetadata?.width ?? 0);
+    cellH = Math.max(cellH, originalMetadata.height ?? 0, mirrorMetadata?.height ?? 0);
 
+    // Associate processed images with cells
     for (const cell of cells) {
       if (cell.file !== file) continue;
       const key = `${cell.frame}_${cell.angle}`;
-      padded.set(key, {
-        x: 0,
-        y: 0,
-        w: cell.mirror ? mirrorSize.w : originalSize.w,
-        h: cell.mirror ? mirrorSize.h : originalSize.h,
-        path: cell.mirror ? mirrored.mirrorPath : mirrored.originalPath,
+      
+      if (cell.mirror && mirroredBuffer) {
+        // For mirrored cells, use the mirrored buffer directly
+        const metadata = await sharp(mirroredBuffer).metadata();
+        processed.set(key, {
+          cell: {
+            x: 0,
+            y: 0,
+            w: metadata.width ?? 0,
+            h: metadata.height ?? 0,
+            path: "" // Not used anymore since we pass buffers directly
+          },
+          buffer: mirroredBuffer
+        });
+      } else {
+        // For original cells, process with final dimensions
+        const finalProcessedImage = await processImageBuffer(imageBuffer, cellW, cellH);
+        processed.set(key, {
+          cell: {
+            x: 0,
+            y: 0,
+            w: finalProcessedImage.width,
+            h: finalProcessedImage.height,
+            path: "" // Not used anymore since we pass buffers directly
+          },
+          buffer: finalProcessedImage.buffer
+        });
+      }
+    }
+  }
+
+  // Final pass to ensure all images are padded to the same dimensions
+  for (const [key, item] of processed) {
+    if (item.cell.w < cellW || item.cell.h < cellH) {
+      const paddedBuffer = await sharp(item.buffer)
+        .extend({
+          top: 0,
+          left: 0,
+          bottom: Math.max(0, cellH - item.cell.h),
+          right: Math.max(0, cellW - item.cell.w),
+          background: { r: 0, g: 0, b: 0, alpha: 0 }
+        })
+        .png()
+        .toBuffer();
+        
+      processed.set(key, {
+        cell: {
+          ...item.cell,
+          w: Math.max(item.cell.w, cellW),
+          h: Math.max(item.cell.h, cellH)
+        },
+        buffer: paddedBuffer
       });
     }
   }
 
-  // Deduplicate paths to avoid multiple calls to ensurePadded for the same file
-  const pathToPaddedPath = new Map<string, string>();
-  for (const cell of Array.from(padded.values())) {
-    if (!pathToPaddedPath.has(cell.path)) {
-      const paddedPath = await ensurePadded(cell.path, cellW, cellH);
-      pathToPaddedPath.set(cell.path, paddedPath);
-    }
-    cell.path = pathToPaddedPath.get(cell.path)!;
-  }
-
-  return { layout, cellW, cellH, padded };
+  return { layout, cellW, cellH, processed };
 }
 
 /**
@@ -383,37 +479,43 @@ export async function buildOneSheet(
 ): Promise<Spritesheet | null> {
   const result = await fetchAndMeasureVersion(config, code, version);
   if (!result) return null;
-  const { layout, cellW, cellH, padded } = result;
+  const { layout, cellW, cellH, processed } = result;
   if (cellW === 0 || cellH === 0) return null;
 
   const { width, height } = computeSpritesheetDimensions(layout, cellW, cellH);
   if (width === 0 || height === 0) return null;
 
-  const spritesheetId = crypto.randomUUID();
-  const fileName = `${code.toLowerCase()}.${version.sha}.${spritesheetId}.webp`;
-  const sheetDir = join(config.outputDir, config.sheetDirName);
-  await mkdir(sheetDir, { recursive: true });
-  const outPath = join(sheetDir, fileName);
+  // Convert processed map to padded paths map for compatibility with createSpritesheet
+  const paddedPaths = new Map<string, PaddedCell>();
+  for (const [key, item] of processed) {
+    paddedPaths.set(key, { ...item.cell, buffer: item.buffer });
+  }
 
-  await createSpritesheet(layout, cellW, cellH, outPath, {
+  const { buffer, w, h } = await createSpritesheetBuffer(layout, cellW, cellH, {
     layout,
     cellW,
     cellH,
-    paddedPaths: padded,
-    outputPath: outPath,
+    paddedPaths,
+    outputPath: "", // Not used
+    processedImages: processed, // Pass the processed images directly
   });
 
-  const relPath = join(config.sheetDirName, fileName);
-  return buildSpritesheetMetadata(
+  const spritesheetId = crypto.randomUUID();
+  const relPath = join(config.sheetDirName, `${code.toLowerCase()}.${version.sha}.${spritesheetId}.webp`);
+  
+  const entry = buildSpritesheetMetadata(
     version,
     layout,
     relPath,
     cellW,
     cellH,
-    padded,
+    paddedPaths,
     code,
     spritesheetId,
   );
+
+  await SpritesheetRepository.addSpritesheet(code, entry, buffer);
+  return entry;
 }
 
 /**
@@ -427,7 +529,7 @@ export async function runWithConfig(
   config: RuntimeConfig,
   targets: InputTarget[],
 ): Promise<{ collection: SpritesheetsMap; appended: number }> {
-  const collection = SpritesheetRepository.getAllSpritesheets();
+  const collection = await SpritesheetRepository.getAllSpritesheets();
   let appended = 0;
 
   for (const target of targets) {
@@ -443,7 +545,6 @@ export async function runWithConfig(
         continue;
       }
 
-      SpritesheetRepository.addSpritesheet(code, entry);
       appended++;
     }
   }
@@ -457,7 +558,7 @@ export async function runWithConfig(
  * @returns A promise that resolves when the process is complete
  */
 export async function main() {
-  const config = resolveConfig();
+  const config = await resolveConfig();
   const args = Bun.argv.slice(2);
   const targets = await readInputTargets(config, args);
   const { appended } = await runWithConfig(config, targets);
