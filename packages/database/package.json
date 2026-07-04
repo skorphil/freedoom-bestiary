@@ -1,0 +1,17 @@
+{
+  "name": "@freedoom-bestiary/database",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "./index.ts",
+  "exports": {
+    ".": "./index.ts",
+    "./schema/*": "./schema/*.ts"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "comment-json": "^5.0.0",
+    "zod": "^4.4.3"
+  }
+}

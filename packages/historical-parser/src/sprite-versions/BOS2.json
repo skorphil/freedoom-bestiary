@@ -31,7 +31,7 @@
           "relation": "Committer (updated death animation for boss2)"
         },
         {
-          "name": "Steven Elliott",
+          "name": "Simon Howard",
           "relation": "Committer (fixed legacy transparency mapping and normalized PNG)"
         },
         {
@@ -1421,7 +1421,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2a1.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette transparency fix: mapped color 255 to color 133 and normalized image per commit)"
             }
           ],
@@ -1435,7 +1435,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2a2.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (PNG transparency normalization and color mapping per commit #1003)"
             }
           ],
@@ -1449,7 +1449,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2a3.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performs PNG normalization and legacy transparency fix per commit message)"
             }
           ],
@@ -1463,7 +1463,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2a4.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (png normalization and legacy transparency fix)"
             }
           ],
@@ -1477,7 +1477,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2a5.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (transparent color mapping: 255→133, PNG normalization)"
             }
           ],
@@ -1491,7 +1491,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2a6.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performed PNG normalization and legacy transparency fix per commit message)"
             }
           ],
@@ -1505,7 +1505,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2a7.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (color transparency fix via fix-legacy-transparency-pngs)"
             }
           ],
@@ -1519,7 +1519,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2a8.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette transparency fix)"
             }
           ],
@@ -1533,7 +1533,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2b1.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (PNG palette normalization and legacy transparency fix)"
             }
           ],
@@ -1547,7 +1547,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2b2.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (PNG normalization and transparency fix in commit #1003)"
             }
           ],
@@ -1561,7 +1561,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2b3.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performs palette/legacy transparency fix per commit message)"
             }
           ],
@@ -1575,7 +1575,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2b4.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performed transparency normalization and conversion)"
             }
           ],
@@ -1589,7 +1589,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2b5.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette/legacy transparency fix per commit #1003)"
             },
             {
@@ -1607,7 +1607,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2b6.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette/legacy transparency fix, per commit message)"
             }
           ],
@@ -1621,7 +1621,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2b7.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette/legibility fix via 'fix-legacy-transparency-pngs')"
             }
           ],
@@ -1635,7 +1635,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2b8.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (transparency palette fix: mapped color 255 to 133)"
             }
           ],
@@ -1649,7 +1649,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2c1.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette transparency fix: mapped color 255 to color 133, PNG normalization)"
             }
           ],
@@ -1663,7 +1663,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2c2.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette/legacy transparency fix per commit message)"
             }
           ],
@@ -1677,7 +1677,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2c3.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette transparency fix per commit message #1003)"
             }
           ],
@@ -1691,7 +1691,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2c4.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette/legacy transparency normalization)"
             }
           ],
@@ -1705,7 +1705,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2c5.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (png transparency normalization and color mapping per commit #1003)"
             }
           ],
@@ -1719,7 +1719,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2c6.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (PNG transparency palette fix)"
             }
           ],
@@ -1733,7 +1733,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2c7.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performs PNG palette/legacy transparency fix per commit message)"
             }
           ],
@@ -1747,7 +1747,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2c8.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performed PNG palette fix via 'fix-legacy-transparency-pngs')"
             }
           ],
@@ -1761,7 +1761,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2d1.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette/legacy transparency fix per commit message)"
             }
           ],
@@ -1775,7 +1775,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2d2.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (transparency mapping and PNG normalization in commit 57246ca)"
             }
           ],
@@ -1789,7 +1789,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2d3.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (color mapping: 255 → 133 for legacy transparency; PNG normalization)"
             }
           ],
@@ -1803,7 +1803,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2d4.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (PNG normalization & legacy transparency fix)"
             }
           ],
@@ -1817,7 +1817,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2d5.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fixed legacy transparency: mapped color 255 to color 133)"
             }
           ],
@@ -1831,7 +1831,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2d6.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette/transparent color fix, PNG normalization)"
             }
           ],
@@ -1845,7 +1845,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2d7.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (PNG transparency fix via 'fix-legacy-transparency-pngs' and normalization via 'fix-deutex-pngs')"
             }
           ],
@@ -1859,7 +1859,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2d8.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fixed legacy transparency mapping: color 255 → 133, normalized PNGs)"
             }
           ],
@@ -1873,7 +1873,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2e1.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performs palette/ transparency normalization commit)"
             }
           ],
@@ -1887,7 +1887,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2e2.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fixed legacy transparency, normalized PNGs per commit #1003)"
             }
           ],
@@ -1901,7 +1901,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2e3.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (png: Map color 255 to color 133, fix-deutex normalization)"
             }
           ],
@@ -1915,7 +1915,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2e4.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fix-legacy-transparency-pngs & fix-deutex-pngs normalization)"
             }
           ],
@@ -1929,7 +1929,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2e5.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performs palette/fix-legacy-transparency and normalization changes per commit message)"
             }
           ],
@@ -1943,7 +1943,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2e6.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fixed legacy transparency mapping and normalization per commit message)"
             }
           ],
@@ -1957,7 +1957,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2e7.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette and transparency fix per commit message)"
             }
           ],
@@ -1971,7 +1971,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2e8.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performed palette and transparency fix via fix-legacy-transparency-pngs)"
             }
           ],
@@ -1985,7 +1985,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2f1.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fixed legacy transparency palette mapping; PNG normalization)"
             }
           ],
@@ -1999,7 +1999,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2f2.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fix-legacy-transparency-pngs and PNG normalization per commit message)"
             }
           ],
@@ -2013,7 +2013,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2f3.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (PNG transparency normalization and legacy color remapping per commit #1003)"
             }
           ],
@@ -2027,7 +2027,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2f4.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performed PNG normalization and legacy transparency mapping in commit 57246cae)"
             }
           ],
@@ -2041,7 +2041,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2f5.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (PNG normalization and legacy transparency fix)"
             }
           ],
@@ -2055,7 +2055,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2f6.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fix-legacy-transparency-pngs normalization)"
             }
           ],
@@ -2069,7 +2069,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2f7.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (transparent color normalization and PNG fix)"
             }
           ],
@@ -2083,7 +2083,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2f8.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette/ transparency normalization commit)"
             },
             {
@@ -2101,7 +2101,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2g1.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (color mapping fix per commit message)"
             }
           ],
@@ -2115,7 +2115,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2g2.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (PNG palette transparency fix)"
             }
           ],
@@ -2129,7 +2129,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2g3.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fixed legacy transparency mapping, PNG normalization)"
             }
           ],
@@ -2143,7 +2143,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2g4.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette transparency fix)"
             }
           ],
@@ -2157,7 +2157,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2g5.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (transparency palette fix)"
             }
           ],
@@ -2171,7 +2171,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2g6.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette fix via 'fix-legacy-transparency-pngs' and PNG normalization)"
             }
           ],
@@ -2185,7 +2185,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2g7.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performs color/normalization fixes per commit message)"
             }
           ],
@@ -2199,7 +2199,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2g8.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performs palette transparency normalization per commit message #1003)"
             }
           ],
@@ -2213,7 +2213,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2h1.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (PNG normalization and transparency fix: mapped color 255 to 133)"
             }
           ],
@@ -2227,7 +2227,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2h2.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette transparency fix)"
             }
           ],
@@ -2241,7 +2241,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2h3.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fixed legacy transparency; mapped color 255 to color 133 and normalized PNGs)"
             }
           ],
@@ -2255,7 +2255,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2h4.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette transparency fix: mapped color 255 to 133)"
             }
           ],
@@ -2269,7 +2269,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2h5.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (applied palette fix: mapped color 255 to 133)"
             }
           ],
@@ -2283,7 +2283,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2h6.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (PNG normalization and transparency fix via fix-legacy-transparency-pngs and fix-deutex-pngs)"
             }
           ],
@@ -2297,7 +2297,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2h7.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette transparency fix via fix-legacy-transparency-pngs)"
             }
           ],
@@ -2311,7 +2311,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2h8.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (color mapping fix: mapped color 255 to 133 for legacy transparency)"
             }
           ],
@@ -2329,7 +2329,7 @@
               "relation": "Original artist (Freedoom Phase 2)"
             },
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fixed legacy transparency mapping: color 255 → 133, and normalized PNGs)"
             }
           ],
@@ -2343,7 +2343,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2j0.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette transparency fix: mapped color 255 to 133; normalized PNGs)"
             }
           ],
@@ -2357,7 +2357,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2k0.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette fix via 'fix-legacy-transparency-pngs' and normalization via 'fix-deutex-pngs')"
             }
           ],
@@ -2371,7 +2371,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2l0.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette and transparency normalization per commit)"
             }
           ],
@@ -2385,7 +2385,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2m0.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performed PNG transparency/normalization fix per commit 57246ca)"
             }
           ],
@@ -2399,7 +2399,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2n0.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer ( PNG transparency fix via 'fix-legacy-transparency-pngs' )"
             }
           ],
@@ -2413,7 +2413,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/bos2o0.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fixed legacy transparency mapping and normalized PNG)"
             }
           ],

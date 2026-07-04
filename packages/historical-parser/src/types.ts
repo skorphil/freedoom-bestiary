@@ -52,6 +52,8 @@ export type AuthorInfo = {
   name: string;
   /** Concise explanation of relation to sprite */
   relation: string;
+  /** The unique contributor ID */
+  contributorId: string;
 };
 
 /**

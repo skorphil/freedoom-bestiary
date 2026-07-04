@@ -2,9 +2,9 @@ import { detectSource } from "./parse-sprites.ts";
 import type {
   GridCell,
   GridLayout,
-  SpriteEntry,
   Version,
-  VersionEntry,
+  Spritesheet,
+  Sprite,
 } from "./types.ts";
 
 /**
@@ -75,7 +75,9 @@ export function cellToPosition(
  * @param cellW - Width of each cell in pixels
  * @param cellH - Height of each cell in pixels
  * @param paddedPaths - Map of padded cell info including original dimensions
- * @returns A VersionEntry object with spritesheet metadata
+ * @param spriteCode - The code for the sprite (e.g. "POSS")
+ * @param spritesheetId - Unique UUID for this spritesheet
+ * @returns A Spritesheet object with spritesheet metadata
  */
 export function buildSpritesheetMetadata(
   version: Version,
@@ -84,14 +86,16 @@ export function buildSpritesheetMetadata(
   cellW: number,
   cellH: number,
   paddedPaths: Map<string, PaddedCell>,
-): VersionEntry {
-  const sprites: SpriteEntry[] = [];
+  spriteCode: string,
+  spritesheetId: string,
+): Spritesheet {
+  const sprites: Sprite[] = [];
   for (const frame of layout.frames) {
     for (const angle of layout.angles) {
       const key = `${frame}_${angle}`;
       const cell = layout.cells.get(key);
       const padded = paddedPaths.get(key);
-      if (!cell || !padded) continue; // Skip empty sprites!
+      if (!cell || !padded) continue;
       const pos = cellToPosition(
         layout.angles.indexOf(angle),
         layout.frames.indexOf(frame),
@@ -99,35 +103,44 @@ export function buildSpritesheetMetadata(
         cellH,
       );
       sprites.push({
+        spriteUrl: cell.file.url,
         frame,
-        angle: String(angle),
+        angle,
         x: pos.x,
         y: pos.y,
         width: padded.w,
         height: padded.h,
-        authors: cell?.file.spriteAuthors || [],
-        state: cell?.file.spriteState,
-        url: cell?.file.url,
+        state: (cell.file.spriteState as any) || 'unchanged',
+        contributions: (cell.file.spriteAuthors || []).map(a => ({
+          contributorId: a.contributorId,
+          relation: a.relation
+        }))
       });
     }
   }
+
+  const fileName = `${spriteCode.toLowerCase()}.${version.sha}.${spritesheetId}.webp`;
+
   return {
-    date: version.date,
-    sha: version.sha,
-    authors: version.authors || [],
+    spritesheetId: spritesheetId as `${string}-${string}-${string}-${string}-${string}`,
+    fileName,
+    filePath: spritesheetPath,
+    commitDate: new Date(version.date),
+    commitSha: version.sha,
     commitMessage: version.message,
     commitUrl: version.url,
-    index: version.index,
-    spritesheetPath,
-    source: detectSource(version),
     sprites,
+    contributions: version.authors.map(a => ({
+      contributorId: a.contributorId,
+      relation: a.relation
+    }))
   };
 }
 
 /**
  * Represents a padded cell with positioning and sizing information.
  */
-export interface PaddedCell {
+export type PaddedCell = {
   /** X coordinate */
   x: number;
   /** Y coordinate */
@@ -138,12 +151,12 @@ export interface PaddedCell {
   h: number;
   /** Path to the image file */
   path: string;
-}
+};
 
 /**
  * Options for creating a spritesheet.
  */
-export interface CreateSpritesheetOptions {
+export type CreateSpritesheetOptions = {
   /** Width of each cell in pixels */
   cellW: number;
   /** Height of each cell in pixels */
@@ -154,7 +167,7 @@ export interface CreateSpritesheetOptions {
   paddedPaths: ReadonlyMap<string, PaddedCell>;
   /** Output path for the spritesheet */
   outputPath: string;
-}
+};
 
 import sharp from "sharp";
 

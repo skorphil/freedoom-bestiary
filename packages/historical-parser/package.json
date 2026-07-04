@@ -14,5 +14,8 @@
   },
   "devDependencies": {
     "dotenv": "^17.4.2"
+  },
+  "dependencies": {
+    "@freedoom-bestiary/database": "workspace:*"
   }
 }

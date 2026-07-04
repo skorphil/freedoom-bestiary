@@ -3419,10 +3419,6 @@
           "relation": "Implied base sprites (TROO* and SPOS*)"
         },
         {
-          "name": "pov",
-          "relation": "Artist (from path)"
-        },
-        {
           "name": "Simon Howard",
           "relation": "Committer (Import sprites)"
         }
@@ -4305,7 +4301,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooq0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -4323,7 +4319,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troor0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -4341,7 +4337,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troos0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -4359,7 +4355,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troot0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -4377,7 +4373,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troou0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -4424,10 +4420,6 @@
         {
           "name": "Julian Aubourg",
           "relation": "Implied base sprites (TROO* and SPOS*)"
-        },
-        {
-          "name": "pov",
-          "relation": "Artist (from path)"
         },
         {
           "name": "Simon Howard",
@@ -5388,7 +5380,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooq0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -5406,7 +5398,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troor0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -5424,7 +5416,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troos0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -5442,7 +5434,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troot0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -5460,7 +5452,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troou0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -5503,10 +5495,6 @@
         {
           "name": "Julian Aubourg",
           "relation": "Implied base sprites (TROO* and SPOS*)"
-        },
-        {
-          "name": "pov",
-          "relation": "Artist (from path)"
         }
       ],
       "sprites": [
@@ -6387,7 +6375,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooq0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -6405,7 +6393,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troor0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -6423,7 +6411,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troos0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -6441,7 +6429,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troot0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -6459,7 +6447,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troou0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -6490,10 +6478,6 @@
         {
           "name": "Simon Howard",
           "relation": "Committer (Import sprites)"
-        },
-        {
-          "name": "pov",
-          "relation": "Artist (from path)"
         }
       ],
       "sprites": [
@@ -7312,7 +7296,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troon0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -7330,7 +7314,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooo0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -7348,7 +7332,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troop0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -7366,7 +7350,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooq0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -7384,7 +7368,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troor0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -7402,7 +7386,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troos0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -7420,7 +7404,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troot0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -7438,7 +7422,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troou0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -7472,10 +7456,6 @@
         },
         {
           "name": "gargoylol",
-          "relation": "Artist (from path)"
-        },
-        {
-          "name": "pov",
           "relation": "Artist (from path)"
         },
         {
@@ -8307,7 +8287,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troon0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8325,7 +8305,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooo0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8343,7 +8323,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troop0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8361,7 +8341,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooq0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8379,7 +8359,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troor0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8397,7 +8377,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troos0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8415,7 +8395,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troot0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8433,7 +8413,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troou0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8458,10 +8438,6 @@
       "folder": "sprites/pov",
       "authors": [
         {
-          "name": "pov",
-          "relation": "Artist (from path)"
-        },
-        {
           "name": "Simon Howard",
           "relation": "Committer (Import sprites)"
         }
@@ -8472,7 +8448,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooa1.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8490,7 +8466,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooa2a8.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8508,7 +8484,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooa3a7.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8526,7 +8502,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooa4a6.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8544,7 +8520,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooa5.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8562,7 +8538,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troob1.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8580,7 +8556,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troob2b8.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8598,7 +8574,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troob3b7.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8616,7 +8592,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troob4b6.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8634,7 +8610,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troob5.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8652,7 +8628,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooc1.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8670,7 +8646,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooc2c8.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8688,7 +8664,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooc3c7.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8706,7 +8682,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooc4c6.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8724,7 +8700,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooc5.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8742,7 +8718,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trood1.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8760,7 +8736,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trood2d8.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8778,7 +8754,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trood3d7.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8796,7 +8772,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trood4d6.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8814,7 +8790,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trood5.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8832,7 +8808,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooe1.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8850,7 +8826,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooe2e8.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8868,7 +8844,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooe3e7.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8886,7 +8862,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooe4e6.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8904,7 +8880,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooe5.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8922,7 +8898,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troof1.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8940,7 +8916,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troof2f8.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8958,7 +8934,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troof3f7.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8976,7 +8952,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troof4f6.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -8994,7 +8970,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troof5.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9012,7 +8988,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troog1.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9030,7 +9006,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troog2g8.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9048,7 +9024,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troog3g7.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (identified by path)"
             },
             {
@@ -9066,7 +9042,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troog4g6.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9084,7 +9060,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troog5.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9102,7 +9078,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooh1.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9120,7 +9096,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooh2h8.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9138,7 +9114,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooh3h7.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9156,7 +9132,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooh4h6.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9174,7 +9150,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooh5.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9192,7 +9168,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooi0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9210,7 +9186,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooj0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9228,7 +9204,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trook0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9246,7 +9222,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trool0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9264,7 +9240,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troom0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9282,7 +9258,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troon0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9300,7 +9276,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooo0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9318,7 +9294,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troop0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9336,7 +9312,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/trooq0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9354,7 +9330,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troor0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9372,7 +9348,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troos0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9390,7 +9366,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troot0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -9408,7 +9384,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/troou0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {

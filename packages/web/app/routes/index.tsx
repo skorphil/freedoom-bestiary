@@ -1,3 +1,4 @@
+import CharactersList from "~/pages/charactersList/CharactersList.tsx";
 import styles from "../src/components/CharacterItem.module.css";
 import { CharacterItem } from "../src/components/CharacterItem.tsx";
 import { Header } from "../src/components/Header.tsx";
@@ -17,8 +18,9 @@ export default function Index() {
   return (
     <>
       <Header />
+      <CharactersList />
 
-      <div className={styles.characterGrid}>
+      {/* <div className={styles.characterGrid}>
         {characterCodes.map((code) => {
           const history = bestiary.getHistory(code);
           const latest = bestiary.getLatestLiveEntry(history);
@@ -35,7 +37,7 @@ export default function Index() {
             />
           );
         })}
-      </div>
+      </div> */}
     </>
   );
 }

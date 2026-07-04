@@ -462,7 +462,7 @@
       "folder": "sprites",
       "authors": [
         {
-          "name": "Steven Elliott",
+          "name": "Simon Howard",
           "relation": "Committer (fixed legacy transparency and normalized PNG)"
         }
       ],
@@ -472,7 +472,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skula1.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette and transparency normalization fix)"
             }
           ],
@@ -486,7 +486,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skula5.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performs PNG palette normalization and legacy transparency fix per commit)"
             }
           ],
@@ -500,7 +500,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skula6a4.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (PNG transparency/normalization commit)"
             }
           ],
@@ -514,7 +514,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skula7a3.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (/png: Map color 255 to color 133)"
             }
           ],
@@ -528,7 +528,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skula8a2.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fix-legacy-transparency-pngs and PNG normalization)"
             }
           ],
@@ -542,7 +542,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulb1.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performed PNG normalization and transparency fix per commit 57246ca)"
             }
           ],
@@ -556,7 +556,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulb5.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (legacy transparency fix and normalization per commit 57246cae)"
             }
           ],
@@ -570,7 +570,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulb6b4.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette/legacy transparency fix via commit)"
             }
           ],
@@ -584,7 +584,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulb7b3.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performed PNG normalization and legacy transparency fix)"
             }
           ],
@@ -598,7 +598,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulb8b2.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (legacy transparency fix and PNG normalization)"
             }
           ],
@@ -612,7 +612,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulc1.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette/legacy transparency fix)"
             }
           ],
@@ -626,7 +626,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulc5.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (png: Map color 255 to color 133, normalize PNGs)"
             }
           ],
@@ -640,7 +640,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulc6c4.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (PNG transparency fix via fix-legacy-transparency-pngs and normalization)"
             }
           ],
@@ -654,7 +654,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulc7c3.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fixed legacy transparency: mapped color 255 to 133, normalized PNG)"
             }
           ],
@@ -668,7 +668,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulc8c2.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette and PNG normalization fix)"
             }
           ],
@@ -682,7 +682,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuld1.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette fix via fix-legacy-transparency-pngs, PNG normalization)"
             }
           ],
@@ -696,7 +696,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuld5.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fixed legacy transparency mapping and PNG normalization)"
             }
           ],
@@ -710,7 +710,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuld6d4.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette transparency fix per commit #1003)"
             }
           ],
@@ -724,7 +724,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuld7d3.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (PNG normalization and legacy transparency fix)"
             }
           ],
@@ -738,7 +738,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuld8d2.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette/transparency fix via make target fix-legacy-transparency-pngs)"
             }
           ],
@@ -752,7 +752,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skule1.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (performs PNG normalization and transparency fix)"
             }
           ],
@@ -766,7 +766,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skule5.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (color 255 → 133 transparency fix and PNG normalization per #1003)"
             }
           ],
@@ -780,7 +780,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skule6e4.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (transparency and PNG normalization fix)"
             }
           ],
@@ -794,7 +794,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skule7e3.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (legacy transparency PNG fix via fix-legacy-transparency-pngs and normalization)"
             }
           ],
@@ -808,7 +808,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skule8e2.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (PNG palette transparency fix via commit 57246cae)"
             }
           ],
@@ -822,7 +822,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulf0.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette fix: mapping color 255 to color 133 and normalization as per fix-legacy-transparency-pngs and fix-deutex-pngs targets)"
             }
           ],
@@ -836,7 +836,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulg0.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fix-legacy-transparency-pngs, fix-deutex-pngs)"
             }
           ],
@@ -850,7 +850,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulh0.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fixed legacy transparency mapping and PNG normalization)"
             }
           ],
@@ -864,7 +864,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skuli0.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette/legacy transparency fix)"
             }
           ],
@@ -878,7 +878,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulj0.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (palette transparency fix)"
             }
           ],
@@ -892,7 +892,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/skulk0.png",
           "spriteAuthors": [
             {
-              "name": "Steven Elliott",
+              "name": "Simon Howard",
               "relation": "Committer (fixed legacy transparency and normalized PNG)"
             }
           ],
@@ -3145,10 +3145,6 @@
       "folder": "sprites/pov",
       "authors": [
         {
-          "name": "pov",
-          "relation": "Artist (from path)"
-        },
-        {
           "name": "Simon Howard",
           "relation": "Importer"
         }
@@ -3159,7 +3155,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skula1.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3177,7 +3173,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skula5.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3195,7 +3191,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skula6a4.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from folder path)"
             },
             {
@@ -3213,7 +3209,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skula7a3.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3231,7 +3227,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skula8a2.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3249,7 +3245,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulb1.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3267,7 +3263,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulb5.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3285,7 +3281,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulb6b4.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3303,7 +3299,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulb7b3.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3321,7 +3317,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulb8b2.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3339,7 +3335,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulc1.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3357,7 +3353,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulc5.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3375,7 +3371,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulc6c4.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3393,7 +3389,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulc7c3.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3411,7 +3407,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulc8c2.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3429,7 +3425,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuld1.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3447,7 +3443,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuld5.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3465,7 +3461,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuld6d4.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3483,7 +3479,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuld7d3.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3501,7 +3497,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuld8d2.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3519,7 +3515,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skule1.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3537,7 +3533,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skule5.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3555,7 +3551,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skule6e4.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3573,7 +3569,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skule7e3.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3591,7 +3587,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skule8e2.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3609,7 +3605,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulf0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3627,7 +3623,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulg0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3645,7 +3641,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulh0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3663,7 +3659,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skuli0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3681,7 +3677,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulj0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {
@@ -3699,7 +3695,7 @@
           "url": "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/skulk0.gif",
           "spriteAuthors": [
             {
-              "name": "pov",
+              "name": "Simon Howard",
               "relation": "Artist (from path)"
             },
             {

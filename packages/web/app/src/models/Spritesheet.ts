@@ -13,7 +13,7 @@ export class Spritesheet {
   private maxHeight: number = 0;
 
   constructor(
-    private code: SpriteCode,
+    private _code: SpriteCode,
     private image: HTMLImageElement,
     private atlas: SpritesheetVersion,
     private meta: SpriteMeta
@@ -25,6 +25,12 @@ export class Spritesheet {
     this.maxWidth = Math.max(...this.atlas.sprites.map((s) => s.width), 0);
     this.maxHeight = Math.max(...this.atlas.sprites.map((s) => s.height), 0);
   }
+
+  get code () { 
+    return this._code
+  }
+
+  // get
 
   /** Return bounding box of all frames to avoid jumping */
   getStageSize() {

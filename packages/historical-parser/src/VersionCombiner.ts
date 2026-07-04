@@ -8,6 +8,7 @@ import type {
   SpriteEntry, 
   SpriteState 
 } from "./types.ts";
+import { ContributorRepository } from "../../database/repository/ContributorRepository.ts";
 
 export class VersionCombiner {
   readonly code: string;
@@ -222,13 +223,32 @@ export class VersionCombiner {
     const sprites = Array.from(uniqueSprites.values());
     
     // Aggregated authors for the snapshot (unique list)
-    const authorsMap = new Map<string, string>();
+    const authorsMap = new Map<string, { name: string; relation: string; contributorId: string }>();
     for (const s of sprites) {
       for (const a of s.spriteAuthors) {
-        authorsMap.set(a.name, a.relation);
+        // Only add authors that have a contributorId
+        if (a.contributorId) {
+          authorsMap.set(a.name, { name: a.name, relation: a.relation, contributorId: a.contributorId });
+        }
       }
     }
-    const authors = Array.from(authorsMap.entries()).map(([name, relation]) => ({ name, relation }));
+    const authors = Array.from(authorsMap.values());
+    
+    // Fallback to commit author if no sprite authors were found
+    if (authors.length === 0) {
+      // Try to resolve commit author to a contributor
+      const found = ContributorRepository.findByNameOrAlias(snapshot.commitAuthor);
+      if (found) {
+        authors.push({ 
+          name: found.contributor.name, 
+          relation: "Commit author", 
+          contributorId: found.id 
+        });
+      } else {
+        // As a last resort, use unknown contributor
+        authors.push({ name: snapshot.commitAuthor, relation: "Commit author", contributorId: "unknown" });
+      }
+    }
 
     return {
       commitDate: snapshot.commitDate,

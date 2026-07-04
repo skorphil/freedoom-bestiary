@@ -20,6 +20,7 @@ export function useAnimation({
 }: UseAnimationOptions) {
   const [animName, setAnimName] = useState(initialAnimation);
   const [angle, setAngle] = useState(1);
+  
   const [image, setImage] = useState<HTMLImageElement | null>(null);
   const [error, setError] = useState<string | null>(null);
 
@@ -31,6 +32,7 @@ export function useAnimation({
 
   // Load image
   useEffect(() => {
+    /** Spritesheet. Actual sprite drawn directly into canvasRef  */
     const img = new Image();
     img.crossOrigin = "anonymous";
 

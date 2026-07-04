@@ -1,9 +1,12 @@
 import { FreedomParser, AtticParser } from "./BaseParser.ts";
 import { VersionCombiner as Combiner } from "./VersionCombiner.ts";
 import { AuthorResolver } from "./AuthorResolver.ts";
-import { mkdir, lstat } from "node:fs/promises";
+import { lstat } from "node:fs/promises";
 import { config } from "dotenv";
 import { join } from "node:path";
+import { ParsedCharacterRepository } from "../../database/repository/ParsedCharacterRepository.ts";
+import type { ParsedSnapshot } from "../../database/schema/parsed-data.ts";
+import type { CharacterVersionSnapshot } from "./types.ts";
 
 // Load .env from the package directory
 // @ts-ignore
@@ -66,6 +69,52 @@ export type RunOptions = {
   noAttic?: boolean;
 };
 
+/**
+ * Maps internal CharacterVersionSnapshot to ParsedSnapshot from database schema.
+ */
+function toParsedSnapshot(s: CharacterVersionSnapshot): ParsedSnapshot {
+  console.debug(`Mapping snapshot ${s.commitSha} for ${s.commitSource}`);
+  return {
+    date: s.commitDate,
+    message: s.commitMessage,
+    source: s.commitSource,
+    url: s.commitUrl,
+    sha: s.commitSha,
+    index: s.commitIndex,
+    folder: s.folder,
+    contributions: (s.authors || []).map(a => {
+      if (!a.contributorId) {
+        console.warn(`Empty contributorId for author ${a.name} in commit ${s.commitSha}`);
+        throw new Error(`Missing contributorId for author ${a.name} in commit ${s.commitSha}. This should not happen.`);
+      }
+      return {
+        contributorId: a.contributorId,
+        relation: a.relation || "Contributor"
+      };
+    }),
+    sprites: (s.sprites || []).map((sp, idx) => {
+      return {
+        name: sp.name.split("/").pop() || sp.name,
+        url: sp.url,
+        contributions: (sp.spriteAuthors || []).map(sa => {
+          if (!sa.contributorId) {
+            console.warn(`Empty contributorId for sprite author ${sa.name} in sprite ${sp.name} in commit ${s.commitSha}`);
+            throw new Error(`Missing contributorId for sprite author ${sa.name} in sprite ${sp.name} in commit ${s.commitSha}. This should not happen.`);
+          }
+          return {
+            contributorId: sa.contributorId,
+            relation: sa.relation || "Contributor"
+          };
+        }),
+        state: sp.spriteState,
+        lastChangedDate: sp.lastChangedDate,
+        index: idx,
+        source: sp.source
+      };
+    })
+  };
+}
+
 export async function runAll(opts: RunOptions = {}) {
   console.debug("runAll: starting with options:", opts);
   const repoRoot = opts.outDir ? opts.outDir : "src";
@@ -101,26 +150,32 @@ export async function runAll(opts: RunOptions = {}) {
   }
 
   if (opts.write) {
-    const versionsDir = `${repoRoot}/sprite-versions`;
-
-    async function writeJsonAtomic(path: string, data: unknown) {
-      await Bun.write(path, JSON.stringify(data, null, 2));
-    }
-
-    try {
-      await lstat(versionsDir);
-    } catch (e: any) {
-      if (e.code === "ENOENT") {
-        await mkdir(versionsDir, { recursive: true });
-      } else throw e;
-    }
-
     for (const code of codes) {
       const comb = new Combiner(code);
       const combined = comb.combine(freedoomResults[code] ?? [], atticResults[code] ?? []);
-      const outPath = `${versionsDir}/${code}.json`;
-      console.debug("runAll: writing version for", code, "->", outPath);
-      await writeJsonAtomic(outPath, combined);
+      
+      console.debug(`runAll: storing ${combined.spriteVersions.length} versions for ${code} via repository`);
+      
+      // The combined results are sorted from newest to oldest in VersionCombiner.ts (reverse())
+      // But Repository expects to append. So we should process them in chronological order.
+      // Actually VersionCombiner.spriteVersions.reverse() makes it newest first.
+      // ParsedCharacterRepository.appendSnapshot expects chronological appends.
+      const chronologicalVersions = [...combined.spriteVersions].reverse();
+
+      for (const v of chronologicalVersions) {
+        const snapshot = toParsedSnapshot(v);
+        // Debugging Zod validation
+        try {
+          ParsedCharacterRepository.appendSnapshot(code, snapshot);
+        } catch (e: any) {
+          if (e.name === "ZodError") {
+            console.error(`ZodError while appending snapshot for ${code} at ${v.commitSha}:`, JSON.stringify(e.errors, null, 2));
+          } else {
+            console.error(`Error appending snapshot for ${code} at ${v.commitSha}:`, e);
+          }
+          throw e;
+        }
+      }
     }
 
     // Save the author cache

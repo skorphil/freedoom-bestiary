@@ -1,5 +1,7 @@
 import { GitReader } from "./GitReader.ts";
 import type { AuthorInfo } from "./types.ts";
+import { ContributionRepository } from "../../database/repository/ContributionRepository.ts";
+import { ContributorRepository } from "../../database/repository/ContributorRepository.ts";
 
 export type AuthorResolverOptions = {
   aiToken?: string;
@@ -13,35 +15,14 @@ export type AuthorResolverOptions = {
  * Resolves authors for sprites using local cache and OpenAI/Kilo Gateway.
  */
 export class AuthorResolver {
-  private cache: Record<string, AuthorInfo[]> = {};
-  private readonly cachePath: string;
   private credits: string = "";
 
-  constructor(private options: AuthorResolverOptions = {}) {
-    // In Bun, import.meta.path or import.meta.url are available.
-    // For local file paths in Bun, import.meta.dir is also available if using bun types properly.
-    // @ts-ignore
-    const currentDir = import.meta.dir || ".";
-    // @ts-ignore
-    this.cachePath = options.cachePath ?? `${currentDir}/authors.json`;
-  }
+  constructor(private options: AuthorResolverOptions = {}) {}
 
   /**
    * Initializes the resolver by loading the cache and CREDITS file.
    */
   async init() {
-    try {
-      const file = Bun.file(this.cachePath);
-      if (await file.exists()) {
-        this.cache = await file.json();
-      } else {
-        this.cache = {};
-      }
-    } catch (e: any) {
-      console.error("Failed to load author cache:", e);
-      this.cache = {};
-    }
-
     // Load CREDITS file if repo path is provided
     if (this.options.freedoomRepoPath) {
       try {
@@ -49,10 +30,6 @@ export class AuthorResolver {
         const entries = await gitReader.getTreeEntries("HEAD");
         const creditsEntry = entries.find(e => e.path === "CREDITS");
         if (creditsEntry) {
-          // fetchViaBatch is private, but GitReader.run is also private.
-          // I'll add a getFileContent to GitReader or just use show.
-          // Wait, GitReader doesn't have a public getFileContent.
-          // I'll use git show directly via Bun.spawnSync for simplicity here.
           const { stdout, success } = Bun.spawnSync([
             "git", "-C", this.options.freedoomRepoPath, "show", "HEAD:CREDITS"
           ]);
@@ -78,25 +55,53 @@ export class AuthorResolver {
     const results: Record<string, AuthorInfo[]> = {};
     const missing: Array<{ url: string; path: string }> = [];
 
-    // 1. Check cache first
+    // 1. Check database first
     for (const sprite of sprites) {
-      if (this.cache[sprite.url]) {
-        results[sprite.url] = this.cache[sprite.url];
+      const contributions = ContributionRepository.getContribution(sprite.url);
+      if (contributions.length > 0) {
+        results[sprite.url] = contributions.map(c => {
+          try {
+            const contributor = ContributorRepository.getContributorById(c.contributorId);
+            return {
+              name: contributor.name,
+              relation: c.relation,
+              contributorId: c.contributorId
+            };
+          } catch (e) {
+            // Fallback if ID is in contributions but not in contributors (should not happen normally)
+            return {
+              name: c.contributorId,
+              relation: c.relation,
+              contributorId: c.contributorId
+            };
+          }
+        });
       } else {
-        missing.push(sprite);
+        // Fallback: try to resolve by commit author if no contributions found yet
+        // and we are in noAi mode, otherwise we'll go to AI
+        if (this.options.noAi) {
+          const found = ContributorRepository.findByNameOrAlias(context.author);
+          if (found) {
+            results[sprite.url] = [{
+              name: found.contributor.name,
+              relation: "Committer",
+              contributorId: found.id
+            }];
+          } else {
+            const errorMsg = `Author "${context.author}" not found in ContributorRepository and AI is disabled (--no-ai). ` +
+              `Please add the contributor to contributors.jsonc or enable AI resolution.`;
+            console.error(errorMsg);
+            throw new Error(errorMsg);
+          }
+        } else {
+          missing.push(sprite);
+        }
       }
     }
 
     if (missing.length === 0) return results;
 
-    // 2. If missing and noAi is true, throw error
-    if (this.options.noAi) {
-      throw new Error(
-        `Authors missing for ${missing.length} sprites in commit ${context.sha} and AI is disabled (--no-ai). Missing paths: ${missing.map(m => m.path).join(", ")}`
-      );
-    }
-
-    // 3. AI Call
+    // 2. AI Call
     if (!this.options.aiToken || !this.options.gatewayUrl) {
       console.error("AI Context:", {
         hasToken: !!this.options.aiToken,
@@ -127,6 +132,13 @@ export class AuthorResolver {
       ? this.credits.slice(0, 5000) + "\n... (truncated)"
       : this.credits;
 
+    const contributorsMap = ContributorRepository.getAllContributors();
+    const contributorsData = Object.entries(contributorsMap).map(([id, info]) => ({
+      id,
+      name: info.name,
+      aliases: info.aliases || []
+    }));
+
     const systemPrompt = "You are a specialized tool that returns authorship data for the Freedoom project in strict JSON format.";
     
     const contextPrompt = `
@@ -142,172 +154,33 @@ Commit Information:
 - Message: ${context.message}
 
 Guidelines:
-1. Identify the persons who relate to the sprite I will provide in next messages. Use full names from the CREDITS file if handles/emails match.
+1. Identify the persons who relate to the sprite I will provide in next messages.
 2. IMPORTANT: Each sprite MUST have at least one author. If no other contributors are identified via the message or folder structure, use the commit author (${context.author}) as the fallback with relation "Committer (<details>)".
 3. The commit author is often the one who performed the change, but they might be committing someone else's work (check for "By: ..." "From: ...", "Thanks to: ...", or mentions in the message or in CREDITS content).
 4. The author of a sprite can often be identified from a folder name (e.g., for "raymoohawk/sprites/old-zombieman/possa1.png", one author is "raymoohawk").
 5. Relation should be concise, but meaningful (e.g., "Original artist", "Updated offsets", "Palette fix", "Conversion", "Committer (<details>)").
 6. If multiple people are involved, include all of them.
 7. IMPORTANT: In your JSON response, you MUST use the EXACT URL provided in the request as the "url" property.
+8. Use the provided contributors list to map names/aliases to contributor IDs.
+
+Project Contributors List (ID, Name, and Aliases):
+${JSON.stringify(contributorsData, null, 2)}
 
 Examples:
 "https://github.com/freedoom/freedoom/blob/e1a73c3528b831d6754fc6ab7e686d3e6e714bb7/sprites/possa1.png": [
     {
-      "name": "MothraMaster",
+      "contributorId": "mothramaster",
       "relation": "Remaining angles"
     },
     {
-      "name": "Korp",
+      "contributorId": "korp",
       "relation": "Boots"
     },
     {
-      "name": "Xindage",
+      "contributorId": "xindage",
       "relation": "Committer"
     }
-     "https://github.com/freedoom/freedoom/blob/27aca39126c0f021e543516119c9d3b2500575ac/sprites/pov/posst0.gif": [
-    {
-      "name": "pov",
-      "relation": "Artist (from path)"
-    },
-    {
-      "name": "Simon Howard",
-      "relation": "Importer"
-    }
-  ],
-Use this alias mapping for contributors/authors:
-[
-  {
-    "name": "Andrew Stine",
-    "aliases": [
-      "Andrew Stine (Linguica)",
-      "Linguica",
-      "Linguica (Andrew Stine)",
-      "N: Andrew Stine"
-    ]
-  },
-  {
-    "name": "Archfile",
-    "aliases": [
-      "archvile46"
-    ]
-  },
-  {
-    "name": "Cascade",
-    "aliases": [
-      "cascade"
-    ]
-  },
-  {
-    "name": "Catoptromancy",
-    "aliases": [
-      "Cato"
-    ]
-  },
-  {
-    "name": "CheapAlert",
-    "aliases": [
-      "cheapalert"
-    ]
-  },
-  {
-    "name": "Craneo",
-    "aliases": [
-      "craneo"
-    ]
-  },
-  {
-    "name": "Fernando Carmona Varo",
-    "aliases": [
-      "ferk"
-    ]
-  },
-  {
-    "name": "GeekMarine",
-    "aliases": [
-      "geekmarine"
-    ]
-  },
-  {
-    "name": "Georgy Samoilov",
-    "aliases": [
-      "georgy_samoilov"
-    ]
-  },
-  {
-    "name": "HorrorMovieRei",
-    "aliases": [
-      "HorrorMovieGuy",
-      "HorroMovieGuy",
-      "horrormovierei",
-      "Horrormovierei",
-      "Rei"
-    ]
-  },
-  {
-    "name": "Jonathan Dowland",
-    "aliases": [
-      "Jon Dowland"
-    ]
-  },
-  {
-    "name": "Korp",
-    "aliases": [
-      "korp"
-    ]
-  },
-  {
-    "name": "Lokito",
-    "aliases": [
-      "loki",
-      "lokito"
-    ]
-  },
-  {
-    "name": "Michael Swanson",
-    "aliases": [
-      "Mike Swanson"
-    ]
-  },
-  {
-    "name": "Ola Bjorling",
-    "aliases": [
-      "Ola Bjorling (Citrus)"
-    ]
-  },
-  {
-    "name": "Raymoohawk",
-    "aliases": [
-      "Raymohawk",
-      "raymoohawk"
-    ]
-  },
-  {
-    "name": "RjY",
-    "aliases": [
-      "RJY"
-    ]
-  },
-  {
-    "name": "Ulises Lozano",
-    "aliases": [
-      "Ulises \"Urric Hammersong\" Lozano",
-      "Urri",
-      "Urric",
-      "urric",
-      "Urric Hammersong"
-    ]
-  },
-  {
-    "name": "Wesley Johnson",
-    "aliases": [
-      "wesley",
-      "Wesley",
-      "Wesley D. Johnson"
-    ]
-  }
 ]
-
-
     `.trim();
 
     const messages = [
@@ -325,21 +198,21 @@ Use this alias mapping for contributors/authors:
           type: "object",
           properties: {
             url: { type: "string" },
-            authors: {
+            contributions: {
               type: "array",
               minItems: 1,
               items: {
                 type: "object",
                 properties: {
-                  name: { type: "string" },
+                  contributorId: { type: "string" },
                   relation: { type: "string" }
                 },
-                required: ["name", "relation"],
+                required: ["contributorId", "relation"],
                 additionalProperties: false
               }
             }
           },
-          required: ["url", "authors"],
+          required: ["url", "contributions"],
           additionalProperties: false
         }
       }
@@ -392,18 +265,39 @@ Use this alias mapping for contributors/authors:
       
       // Use exact URL from sprite object to ensure consistency as requested
       const targetUrl = sprite.url;
-      const authors = resolution.authors;
+      const contributions = resolution.contributions;
 
-      // Update local state and results
-      this.cache[targetUrl] = authors;
-      results[targetUrl] = authors;
+      // Ensure all contributors from AI are in the repository
+      const allKnownContributors = ContributorRepository.getAllContributors();
+      for (const contribution of contributions) {
+        if (!allKnownContributors[contribution.contributorId]) {
+          console.debug(`Adding new contributor from AI: ${contribution.contributorId}`);
+          // We don't have full info (aliases, etc.) but we can at least add the ID and a guessed name
+          // The AI was given the list of known contributors, so if it returned a new ID, 
+          // it might be a hallucination or it found a new person.
+          // For safety, we'll initialize it.
+          ContributorRepository.addContributor(contribution.contributorId, {
+            name: contribution.contributorId.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
+          });
+        }
+      }
+
+      // Update database and results
+      for (const contribution of contributions) {
+        ContributionRepository.addContribution(targetUrl, contribution);
+      }
+
+      results[targetUrl] = contributions.map((c: any) => {
+        const contributor = ContributorRepository.getContributorById(c.contributorId);
+        return {
+          name: contributor.name,
+          relation: c.relation,
+          contributorId: c.contributorId
+        };
+      });
 
       // Persist immediately after each sprite resolution
       await this.saveCache();
-      
-      // Note: We don't need to manually "delete messages" from the 'messages' array 
-      // because we are passing a new spread of the base messages + current spriteMessage 
-      // in each iteration, effectively not accumulating sprite-specific history.
     }
   }
 
@@ -412,9 +306,6 @@ Use this alias mapping for contributors/authors:
     missing: Array<{ url: string; path: string }>,
     gatewayUrl: string
   ): Promise<Record<string, AuthorInfo[]>> {
-    // This method is now replaced by fetchAuthorsGranularly but kept for compatibility 
-    // if other parts of the system call it, though it was private.
-    // Actually, I'll just remove it if it's private and I've updated the caller.
     const results: Record<string, AuthorInfo[]> = {};
     await this.fetchAuthorsGranularly(context, missing, gatewayUrl, results);
     return results;
@@ -425,7 +316,7 @@ Use this alias mapping for contributors/authors:
    * Persists the cache to disk.
    */
   async saveCache() {
-    await Bun.write(this.cachePath, JSON.stringify(this.cache, null, 2));
-    console.debug(`Author cache saved to ${this.cachePath}`);
+    await ContributionRepository.save();
+    console.debug(`Author database saved`);
   }
 }

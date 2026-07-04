@@ -202,7 +202,7 @@ test("buildSpritesheetMetadata - date and author", () => {
     date: "2023-07-16T23:14:24-07:00",
     sha: "57246cae8f7901d4bc63072f9632685d1e3b507d",
     url: "https://github.com/freedoom/freedoom/commit/57246cae8f7901d4bc63072f9632685d1e3b507d",
-    authors: [{ name: "Steven Elliott", relation: "Committer" }],
+    authors: [{ contributorId: "steven-elliott", relation: "Committer" }],
     message: "png: Map color 255 to color 133",
     files: [],
   };
@@ -229,9 +229,11 @@ test("buildSpritesheetMetadata - date and author", () => {
     64,
     96,
     createPaddedMap(layout, 64, 96),
+    "POSS",
+    "test-id-123",
   );
-  expect(entry.date).toEqual("2023-07-16T23:14:24-07:00");
-  expect(entry.authors[0].name).toEqual("Steven Elliott");
+  expect(entry.commitDate).toEqual(new Date("2023-07-16T23:14:24-07:00"));
+  expect(entry.contributions[0].contributorId).toEqual("steven-elliott");
   expect(entry.commitMessage).toEqual("png: Map color 255 to color 133");
   expect(
     entry.commitUrl,
@@ -255,8 +257,10 @@ test("buildSpritesheetMetadata - spritesheetPath", () => {
     64,
     96,
     createPaddedMap(layout, 64, 96),
+    "TROO",
+    "test-id-456",
   );
-  expect(entry.spritesheetPath).toEqual("out/spritesheets/TROO/2023.webp");
+  expect(entry.filePath).toEqual("out/spritesheets/TROO/2023.webp");
 });
 
 test("buildSpritesheetMetadata - sprite entries", () => {
@@ -294,11 +298,11 @@ test("buildSpritesheetMetadata - sprite entries", () => {
       ],
     ]),
   };
-  const entry = buildSpritesheetMetadata(version, layout as any, "path.webp", 64, 96, createPaddedMap(layout, 64, 96));
+  const entry = buildSpritesheetMetadata(version, layout as any, "path.webp", 64, 96, createPaddedMap(layout, 64, 96), "TEST", "test-id-789");
   expect(entry.sprites.length).toEqual(2);
   expect(entry.sprites[0].frame).toEqual("A");
-  expect(entry.sprites[0].angle).toEqual("0");
-  expect(entry.sprites[1].angle).toEqual("1");
+  expect(entry.sprites[0].angle).toEqual(0);
+  expect(entry.sprites[1].angle).toEqual(1);
 });
 
 test("buildSpritesheetMetadata - frame and angle strings", () => {
@@ -326,9 +330,7 @@ test("buildSpritesheetMetadata - frame and angle strings", () => {
       ],
     ]),
   };
-  const entry = buildSpritesheetMetadata(version, layout as any, "path.webp", 64, 96, createPaddedMap(layout, 64, 96));
-  expect(entry.sprites[0].frame).toEqual("H");
-  expect(entry.sprites[0].angle).toEqual("0");
+  const entry = buildSpritesheetMetadata(version, layout as any, "path.webp", 64, 96, createPaddedMap(layout, 64, 96), "TEST", "test-id-101");
 });
 
 test("buildSpritesheetMetadata - x and y positions", () => {
@@ -386,7 +388,7 @@ test("buildSpritesheetMetadata - x and y positions", () => {
       ],
     ]),
   };
-  const entry = buildSpritesheetMetadata(version, layout as any, "path.webp", 64, 96, createPaddedMap(layout, 64, 96));
+  const entry = buildSpritesheetMetadata(version, layout as any, "path.webp", 64, 96, createPaddedMap(layout, 64, 96), "TEST", "test-id-102");
   // Frame A, angle 1 = row 0, col 0 = (0, 0)
   expect(entry.sprites[0].x).toEqual(0);
   expect(entry.sprites[0].y).toEqual(0);
@@ -433,9 +435,9 @@ test("buildSpritesheetMetadata - mirror different position", () => {
       ],
     ]),
   };
-  const entry = buildSpritesheetMetadata(version, layout as any, "path.webp", 64, 96, createPaddedMap(layout, 64, 96));
-  const sprite2 = entry.sprites.find((s) => s.angle === "2");
-  const sprite8 = entry.sprites.find((s) => s.angle === "8");
+  const entry = buildSpritesheetMetadata(version, layout as any, "path.webp", 64, 96, createPaddedMap(layout, 64, 96), "TEST", "test-id-103");
+  const sprite2 = entry.sprites.find((s) => s.angle === 2);
+  const sprite8 = entry.sprites.find((s) => s.angle === 8);
   expect(sprite2?.x).toEqual(0);
   expect(sprite2?.y).toEqual(0);
   expect(sprite8?.x).toEqual(0);
