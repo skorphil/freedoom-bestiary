@@ -244,14 +244,17 @@ async function processImageBuffer(
 			}
 		}
 
+		const left = Math.max(0, Math.floor((cellW - info.width) / 2));
+		const top = Math.max(0, cellH - info.height);
+
 		const processedBuffer = await sharp(data, {
 			raw: { width: info.width, height: info.height, channels: 4 },
 		})
 			.extend({
-				top: 0,
-				left: 0,
-				bottom: Math.max(0, cellH - info.height),
-				right: Math.max(0, cellW - info.width),
+				top,
+				left,
+				bottom: Math.max(0, cellH - info.height - top),
+				right: Math.max(0, cellW - info.width - left),
 				background: { r: 0, g: 0, b: 0, alpha: 0 },
 			})
 			.png()
@@ -531,12 +534,15 @@ async function fetchAndMeasureVersion(
 	// Final pass to ensure all images are padded to the same dimensions
 	for (const [key, item] of processed) {
 		if (item.cell.w < cellW || item.cell.h < cellH) {
+			const left = Math.max(0, Math.floor((cellW - item.cell.w) / 2));
+			const top = Math.max(0, cellH - item.cell.h);
+
 			const paddedBuffer = await sharp(item.buffer)
 				.extend({
-					top: 0,
-					left: 0,
-					bottom: Math.max(0, cellH - item.cell.h),
-					right: Math.max(0, cellW - item.cell.w),
+					top,
+					left,
+					bottom: Math.max(0, cellH - item.cell.h - top),
+					right: Math.max(0, cellW - item.cell.w - left),
 					background: { r: 0, g: 0, b: 0, alpha: 0 },
 				})
 				.png()
@@ -545,8 +551,8 @@ async function fetchAndMeasureVersion(
 			processed.set(key, {
 				cell: {
 					...item.cell,
-					w: Math.max(item.cell.w, cellW),
-					h: Math.max(item.cell.h, cellH),
+					w: cellW,
+					h: cellH,
 				},
 				buffer: paddedBuffer,
 			});

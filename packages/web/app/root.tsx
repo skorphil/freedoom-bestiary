@@ -50,10 +50,10 @@ export function Layout({ children }: { children: React.ReactNode }) {
 						characters={data.allCharacters}
 						contributors={data.allContributors}
 					>
-						<main>{children}</main>
+						{children}
 					</SpritesheetsProvider>
 				) : (
-					<main>{children}</main>
+					<p>lol</p>
 				)}
 				<ScrollRestoration />
 				<Scripts />

@@ -194,8 +194,8 @@ export class Spritesheet {
 					image: this.image as HTMLImageElement,
 					source: sprite,
 					offset: {
-						dx: Math.round((this.maxWidth - sprite.width) / 2),
-						dy: Math.round(this.maxHeight * 1.2 - sprite.height * 1.2),
+						dx: 0,
+						dy: 0,
 					},
 					stageSize: this.getStageSize(),
 				};

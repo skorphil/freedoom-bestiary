@@ -1,6 +1,6 @@
 import CharactersList from "~/pages/charactersList/CharactersList.tsx";
-import { Header } from "../src/components/Header.tsx";
 import type { Route } from "./+types/index";
+import styles from "./index.module.css";
 
 export function meta({}: Route.MetaArgs) {
 	return [
@@ -11,9 +11,13 @@ export function meta({}: Route.MetaArgs) {
 
 export default function Index() {
 	return (
-		<>
-			<Header />
-			<CharactersList />
-		</>
+		<div className={styles.contentArea}>
+			<div className={styles.snippetList}>
+				<CharactersList />
+			</div>
+			<div>
+				<p>Preview</p>
+			</div>
+		</div>
 	);
 }

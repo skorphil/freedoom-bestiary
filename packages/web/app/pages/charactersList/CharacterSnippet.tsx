@@ -17,23 +17,39 @@ function CharacterSnippet({
 }: CharacterSnippetProps) {
 	const canvasRef = useRef<HTMLCanvasElement>(null);
 	const navigate = useNavigate();
-	useAnimation({
+	const { stageSize } = useAnimation({
 		canvasRef,
 		uuid: spritesheetId,
 		initialAnimation: "chasing",
 		initialAngle: 2,
 	});
 
+	const onKeyDown = (e: React.KeyboardEvent) => {
+		if (e.key === "Enter" || e.key === " ") {
+			e.preventDefault();
+			navigate(`/${spritesheetId}`);
+		}
+	};
+
 	return (
-		<div
-			role="link"
+		<button
+			type="button"
+			onKeyDown={onKeyDown}
 			onClick={() => navigate(`/${spritesheetId}`)}
 			className={styles.snippetContainer}
 		>
 			<p className={styles.title}>{title}</p>
 			<p className={styles.footer}>{secondaryText}</p>
-			<canvas className={styles.spriteContainer} ref={canvasRef} />
-		</div>
+			<div className={styles.spriteWrapper}>
+				<canvas
+					className={styles.spriteContainer}
+					ref={canvasRef}
+					style={{
+						aspectRatio: `${stageSize.width} / ${stageSize.height * 1.2}`,
+					}}
+				/>
+			</div>
+		</button>
 	);
 }
 

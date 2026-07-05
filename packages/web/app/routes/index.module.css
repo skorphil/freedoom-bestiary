@@ -1,0 +1,15 @@
+.contentArea {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+	gap: 24px;
+}
+
+.snippetList {
+	max-width: 300px;
+	height: 100%;
+	overflow-y: auto;
+	flex: 1 0 auto;
+	padding-right: 24px;
+}
