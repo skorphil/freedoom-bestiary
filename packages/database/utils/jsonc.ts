@@ -1,7 +1,7 @@
 import * as fs from "node:fs";
-import * as JSONC from "comment-json";
-import { fileURLToPath, pathToFileURL } from "node:url";
 import * as path from "node:path";
+import { fileURLToPath, pathToFileURL } from "node:url";
+import * as JSONC from "comment-json";
 
 /**
  * Resolves the path to a data file.

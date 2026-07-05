@@ -1,6 +1,6 @@
-import { expect, test, beforeEach, afterEach } from "bun:test";
-import { SpritesheetsCollection } from "../app/src/models/SpritesheetsCollection.ts";
+import { afterEach, beforeEach, expect, test } from "bun:test";
 import { CharacterRepository } from "@freedoom-bestiary/database";
+import { SpritesheetsCollection } from "../app/src/models/SpritesheetsCollection.ts";
 
 const mockData = {
 	CYBR: {

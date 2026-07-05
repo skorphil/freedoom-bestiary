@@ -1,15 +1,15 @@
-import { FreedomParser, AtticParser } from "./BaseParser.ts";
-import { VersionCombiner as Combiner } from "./VersionCombiner.ts";
-import { AuthorResolver } from "./AuthorResolver.ts";
 import { lstat } from "node:fs/promises";
-import { config } from "dotenv";
 import { join } from "node:path";
+import { config } from "dotenv";
 import { ParsedCharacterRepository } from "../../database/repository/ParsedCharacterRepository.ts";
 import type { ParsedSnapshot } from "../../database/schema/parsed-data.ts";
+import { AuthorResolver } from "./AuthorResolver.ts";
+import { AtticParser, FreedomParser } from "./BaseParser.ts";
 import type { CharacterVersionSnapshot } from "./types.ts";
+import { VersionCombiner as Combiner } from "./VersionCombiner.ts";
 
 // Load .env from the package directory
-// @ts-ignore
+// @ts-expect-error
 const packageDir = import.meta.dir || ".";
 const envPath = join(packageDir, "..", ".env");
 console.debug(`Loading .env from: ${envPath}`);
@@ -23,7 +23,7 @@ if (!process.env.AI_GATEWAY_URL) {
 }
 
 async function loadCodesFromSpritesJson(): Promise<string[]> {
-	// @ts-ignore
+	// @ts-expect-error
 	const currentDir = import.meta.dir || ".";
 	// The file is in the workspace root/sprites_meta/
 	const spritesPath = join(
@@ -35,7 +35,7 @@ async function loadCodesFromSpritesJson(): Promise<string[]> {
 		"sprites_meta.json",
 	);
 	try {
-		// @ts-ignore
+		// @ts-expect-error
 		const file = Bun.file(spritesPath);
 		if (!(await file.exists())) {
 			console.warn(

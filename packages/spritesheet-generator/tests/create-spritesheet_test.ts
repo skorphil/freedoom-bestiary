@@ -1,12 +1,12 @@
 import { expect, test } from "bun:test";
 import {
 	buildGridLayout,
-	computeSpritesheetDimensions,
-	cellToPosition,
 	buildSpritesheetMetadata,
+	cellToPosition,
+	computeSpritesheetDimensions,
 	type PaddedCell,
 } from "../src/create-spritesheet.ts";
-import { GridCell, Version } from "../src/types.ts";
+import type { GridCell, Version } from "../src/types.ts";
 
 function createPaddedMap(
 	layout: any,

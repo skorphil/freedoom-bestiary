@@ -4,23 +4,22 @@
  * Core type definitions and exports for the historical-parser module.
  */
 
+export { AuthorResolver } from "./AuthorResolver.ts";
+export { AtticParser, BaseParser, FreedomParser } from "./BaseParser.ts";
 // Export interfaces for use in mocks
 export type { CommitLogScannerOptions, ScanUnit } from "./CommitLogScanner.ts";
+export { CommitLogScanner } from "./CommitLogScanner.ts";
+export { GitReader } from "./GitReader.ts";
 export type {
 	CommitSnapshot,
 	FileStatus,
 	SnapshotBuilderOptions,
 	SpriteFile,
 } from "./SnapshotBuilder.ts";
-
+export { SnapshotBuilder } from "./SnapshotBuilder.ts";
 // Export classes
 export { SpritePattern } from "./SpritePattern.ts";
-export { GitReader } from "./GitReader.ts";
-export { CommitLogScanner } from "./CommitLogScanner.ts";
-export { SnapshotBuilder } from "./SnapshotBuilder.ts";
-export { AtticParser, BaseParser, FreedomParser } from "./BaseParser.ts";
 export { VersionCombiner } from "./VersionCombiner.ts";
-export { AuthorResolver } from "./AuthorResolver.ts";
 
 // Internal raw types (git output parsing)
 /**

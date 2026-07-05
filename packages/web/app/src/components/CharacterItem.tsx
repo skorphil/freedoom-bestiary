@@ -1,11 +1,11 @@
-import styles from "./CharacterItem.module.css";
-import { Link } from "react-router";
 import type {
+	Character,
 	CharacterCode,
 	Spritesheet,
-	Character,
 } from "@freedoom-bestiary/database/schema";
+import { Link } from "react-router";
 import { Animator } from "./animator/Animator.tsx";
+import styles from "./CharacterItem.module.css";
 
 type CharacterItemProps = {
 	spritesheet: Spritesheet;

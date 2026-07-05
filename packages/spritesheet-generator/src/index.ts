@@ -1,24 +1,23 @@
 import { mkdir } from "node:fs/promises";
 import { join } from "node:path";
 import {
+	type CharacterCode,
+	CharacterRepository,
+	ParsedCharacterRepository,
+	SpritesheetRepository,
+	type SpritesheetRepositoryOptions,
+} from "@freedoom-bestiary/database";
+import sharp from "sharp";
+import {
 	buildGridLayout,
 	buildSpritesheetMetadata,
 	computeSpritesheetDimensions,
 	createSpritesheetBuffer,
 	type PaddedCell,
 } from "./create-spritesheet.ts";
-import { bareRepoMap } from "./get-image.ts";
-import { loadSpriteImage } from "./get-image.ts";
+import { bareRepoMap, loadSpriteImage } from "./get-image.ts";
 import { extractGridCells } from "./parse-sprites.ts";
 import type { Spritesheet, SpritesheetsMap, Version } from "./types.ts";
-import sharp from "sharp";
-import {
-	CharacterRepository,
-	ParsedCharacterRepository,
-	SpritesheetRepository,
-	type CharacterCode,
-	type SpritesheetRepositoryOptions,
-} from "@freedoom-bestiary/database";
 
 /**
  * Configuration for the runtime environment.

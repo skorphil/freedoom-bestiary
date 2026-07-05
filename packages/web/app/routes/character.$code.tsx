@@ -1,14 +1,14 @@
+import type { CharacterCode, Spritesheet } from "@freedoom-bestiary/database";
+import {
+	CharacterRepository,
+	SpritesheetRepository,
+} from "@freedoom-bestiary/database";
 import { Link } from "react-router";
+import { Animator } from "../src/components/animator/Animator.tsx";
 import styles from "../src/components/CharacterItem.module.css";
 import { Header } from "../src/components/Header.tsx";
-import { Animator } from "../src/components/animator/Animator.tsx";
 import { createSpritesheetsCollection } from "../src/models/SpritesheetsCollection.ts";
-import {
-	SpritesheetRepository,
-	CharacterRepository,
-} from "@freedoom-bestiary/database";
 import type { Route } from "./+types/character.$code";
-import type { CharacterCode, Spritesheet } from "@freedoom-bestiary/database";
 
 export function meta({ params }: Route.MetaArgs) {
 	const code = params.code as CharacterCode;

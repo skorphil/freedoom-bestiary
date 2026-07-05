@@ -2,7 +2,7 @@ import { CommitLogScanner } from "./CommitLogScanner";
 import { GitReader } from "./GitReader";
 import { SnapshotBuilder } from "./SnapshotBuilder";
 import { SpritePattern } from "./SpritePattern";
-import type { CommitSnapshot, AuthorResolver } from "./types.ts";
+import type { AuthorResolver, CommitSnapshot } from "./types.ts";
 
 /**
  * Base class for git history parsers.

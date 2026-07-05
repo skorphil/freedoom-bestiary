@@ -1,14 +1,15 @@
 /**
  * Merges freedoom + attic CommitSnapshot arrays into CharacterVersions.
  */
+
+import { ContributorRepository } from "../../database/repository/ContributorRepository.ts";
 import type {
-	CommitSnapshot,
-	CharacterVersions,
 	CharacterVersionSnapshot,
+	CharacterVersions,
+	CommitSnapshot,
 	SpriteEntry,
 	SpriteState,
 } from "./types.ts";
-import { ContributorRepository } from "../../database/repository/ContributorRepository.ts";
 
 export class VersionCombiner {
 	readonly code: string;

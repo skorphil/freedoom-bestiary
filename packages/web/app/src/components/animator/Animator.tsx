@@ -1,7 +1,7 @@
-import styles from "./Animator.module.css";
+import type { AnimationName } from "@freedoom-bestiary/database/schema";
 
 import { useRef } from "react";
-import type { AnimationName } from "@freedoom-bestiary/database/schema";
+import styles from "./Animator.module.css";
 import { useAnimation } from "./useAnimation.ts";
 
 export type AnimatorProps = {

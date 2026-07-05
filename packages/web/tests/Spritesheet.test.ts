@@ -1,8 +1,14 @@
 import { expect, test } from "bun:test";
+import type {
+	AnimationName,
+	Character,
+	CharacterCode,
+	Spritesheet as SpritesheetData,
+} from "@freedoom-bestiary/database/schema";
 import { Spritesheet } from "../app/src/models/Spritesheet.ts";
 
 // Mock data
-const mockAtlas = {
+const mockAtlas: SpritesheetData = {
 	spritesheetId: "uuid-1",
 	fileName: "test.webp",
 	commitDate: new Date("2023-01-01"),
@@ -44,9 +50,9 @@ const mockAtlas = {
 			spriteUrl: "",
 		},
 	],
-} as any;
+};
 
-const mockMeta = {
+const mockMeta: Character = {
 	freedoomName: "Test Monster",
 	description: "A test monster",
 	animations: {
@@ -55,12 +61,12 @@ const mockMeta = {
 			{ frame: "B", delay: 1 },
 		],
 	},
-} as any;
+} as unknown as Character;
 
 const getMeta = () => mockMeta;
 
 test("Spritesheet - bounding box calculation", () => {
-	const sheet = new Spritesheet("TEST" as any, mockAtlas as any, getMeta);
+	const sheet = new Spritesheet("TEST" as CharacterCode, mockAtlas, getMeta);
 
 	const size = sheet.getStageSize();
 	expect(size.width).toBe(20);
@@ -68,7 +74,7 @@ test("Spritesheet - bounding box calculation", () => {
 });
 
 test("Spritesheet - getAnimations", () => {
-	const sheet = new Spritesheet("TEST" as any, mockAtlas as any, getMeta);
+	const sheet = new Spritesheet("TEST" as CharacterCode, mockAtlas, getMeta);
 
 	const anims = sheet.getAnimations();
 	const idling = anims.idling;
@@ -81,7 +87,7 @@ test("Spritesheet - getAnimations", () => {
 });
 
 test("Spritesheet - getCharacterName and getCharacterDescription", () => {
-	const sheet = new Spritesheet("TEST" as any, mockAtlas as any, getMeta);
+	const sheet = new Spritesheet("TEST" as CharacterCode, mockAtlas, getMeta);
 
 	expect(sheet.getCharacterName()).toBe("Test Monster");
 	expect(sheet.getCharacterDescription()).toBe("A test monster");
@@ -89,7 +95,7 @@ test("Spritesheet - getCharacterName and getCharacterDescription", () => {
 
 test("Spritesheet - angle 0 takes precedence", () => {
 	const sheet = new Spritesheet(
-		"TEST" as any,
+		"TEST" as CharacterCode,
 		{
 			...mockAtlas,
 			sprites: [
@@ -116,21 +122,21 @@ test("Spritesheet - angle 0 takes precedence", () => {
 					spriteUrl: "",
 				},
 			],
-		} as any,
+		},
 		getMeta,
 	);
 
 	// Frame A has both angle 0 and angle 1. Angle 0 should take precedence.
-	const gen = sheet.play("idling", 1);
+	const gen = sheet.play("idling" as AnimationName, 1);
 	const result = gen.next().value;
 	expect(result.source.frame).toBe("A");
 	expect(result.source.angle).toBe(0);
 });
 
 test("Spritesheet - play generator timing", () => {
-	const sheet = new Spritesheet("TEST" as any, mockAtlas as any, getMeta);
+	const sheet = new Spritesheet("TEST" as CharacterCode, mockAtlas, getMeta);
 
-	const gen = sheet.play("idling", 1);
+	const gen = sheet.play("idling" as AnimationName, 1);
 
 	// Tick 1: Frame A
 	let result = gen.next().value;
@@ -150,17 +156,17 @@ test("Spritesheet - play generator timing", () => {
 });
 
 test("Spritesheet - angle fallback", () => {
-	const sheet = new Spritesheet("TEST" as any, mockAtlas as any, getMeta);
+	const sheet = new Spritesheet("TEST" as CharacterCode, mockAtlas, getMeta);
 
 	// Angle 2 doesn't exist for A, should fallback to 0 or 1
-	const gen = sheet.play("idling", 2);
+	const gen = sheet.play("idling" as AnimationName, 2);
 	const result = gen.next().value;
 	expect(result.source.frame).toBe("A");
 	expect([0, 1]).toContain(result.source.angle);
 });
 
 test("Spritesheet - invalid animation throws", () => {
-	const sheet = new Spritesheet("TEST" as any, mockAtlas as any, getMeta);
+	const sheet = new Spritesheet("TEST" as CharacterCode, mockAtlas, getMeta);
 
-	expect(() => sheet.play("non-existent" as any, 1).next()).toThrow();
+	expect(() => sheet.play("non-existent" as AnimationName, 1).next()).toThrow();
 });

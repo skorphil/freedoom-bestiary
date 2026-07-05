@@ -9,9 +9,9 @@ import {
 
 import "./assets/styles.css";
 import {
-	SpritesheetRepository,
 	CharacterRepository,
 	ContributorRepository,
+	SpritesheetRepository,
 } from "@freedoom-bestiary/database";
 import { SpritesheetsProvider } from "./src/context/SpritesheetsContext";
 

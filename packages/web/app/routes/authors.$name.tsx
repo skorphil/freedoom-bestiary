@@ -1,15 +1,15 @@
-import { Link } from "react-router";
-import styles from "../src/components/CharacterItem.module.css";
-import { Header } from "../src/components/Header.tsx";
-import { Animator } from "../src/components/animator/Animator.tsx";
-import { createSpritesheetsCollection } from "../src/models/SpritesheetsCollection.ts";
+import type { CharacterCode, Spritesheet } from "@freedoom-bestiary/database";
 import {
-	SpritesheetRepository,
 	CharacterRepository,
 	ContributorRepository,
+	SpritesheetRepository,
 } from "@freedoom-bestiary/database";
+import { Link } from "react-router";
+import { Animator } from "../src/components/animator/Animator.tsx";
+import styles from "../src/components/CharacterItem.module.css";
+import { Header } from "../src/components/Header.tsx";
+import { createSpritesheetsCollection } from "../src/models/SpritesheetsCollection.ts";
 import type { Route } from "./+types/authors.$name";
-import type { CharacterCode, Spritesheet } from "@freedoom-bestiary/database";
 
 export function meta({ params }: Route.MetaArgs) {
 	const name = decodeURIComponent(params.name || "");

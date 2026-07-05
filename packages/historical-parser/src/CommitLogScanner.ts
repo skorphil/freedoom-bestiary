@@ -1,5 +1,5 @@
-import type { SpritePattern } from "./types.ts";
 import type { GitReader } from "./GitReader.ts";
+import type { SpritePattern } from "./types.ts";
 
 /**
  * Options for configuring the CommitLogScanner behavior.

@@ -1,6 +1,6 @@
 import { z } from "zod";
-import { ContributionSchema } from "./contribution";
 import { CharacterCodeSchema } from "./character";
+import { ContributionSchema } from "./contribution";
 
 /** Individual sprite metadata within a spritesheet */
 export const SpriteSchema = z.object({

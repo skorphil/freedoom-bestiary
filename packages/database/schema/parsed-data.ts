@@ -1,6 +1,6 @@
 import { z } from "zod";
-import { ContributionSchema } from "./contribution";
 import { CharacterCodeSchema } from "./character";
+import { ContributionSchema } from "./contribution";
 
 /**
  * Metadata for a single sprite frame extracted by a parser.

@@ -1,6 +1,6 @@
-import { expect, test, describe, beforeEach } from "bun:test";
-import { VersionCombiner } from "../src/VersionCombiner.ts";
+import { beforeEach, describe, expect, test } from "bun:test";
 import type { CommitSnapshot } from "../src/SnapshotBuilder.ts";
+import { VersionCombiner } from "../src/VersionCombiner.ts";
 
 describe("VersionCombiner", () => {
 	let combiner: VersionCombiner;

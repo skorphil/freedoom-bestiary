@@ -1,12 +1,12 @@
-import {
-	ParsedCharacterSchema,
-	ParsedSnapshotSchema,
-	type ParsedCharacter,
-	type ParsedSnapshot,
-} from "../schema/parsed-data";
-import { readJsoncSync, writeJsoncSync, resolveDataPath } from "../utils/jsonc";
 import * as fs from "node:fs";
 import { fileURLToPath } from "node:url";
+import {
+	type ParsedCharacter,
+	ParsedCharacterSchema,
+	type ParsedSnapshot,
+	ParsedSnapshotSchema,
+} from "../schema/parsed-data";
+import { readJsoncSync, resolveDataPath, writeJsoncSync } from "../utils/jsonc";
 
 /**
  * Repository for managing parsed character data stored in .jsonc files.
@@ -27,7 +27,7 @@ export class ParsedCharacterRepository {
 	static async getParsedCharacter(
 		spriteCode: string,
 	): Promise<ParsedCharacter> {
-		const fileUrl = this.getFileUrl(spriteCode);
+		const fileUrl = ParsedCharacterRepository.getFileUrl(spriteCode);
 		const pathString = fileURLToPath(fileUrl);
 
 		if (!fs.existsSync(pathString)) {
@@ -62,7 +62,8 @@ export class ParsedCharacterRepository {
 		snapshot: ParsedSnapshot,
 	): Promise<void> {
 		const validatedSnapshot = ParsedSnapshotSchema.parse(snapshot);
-		const character = await this.getParsedCharacter(spriteCode);
+		const character =
+			await ParsedCharacterRepository.getParsedCharacter(spriteCode);
 
 		// Check if snapshot already exists (by SHA or index) to avoid duplicates
 		const existingVersionIndex = character.versions.findIndex(
@@ -85,7 +86,7 @@ export class ParsedCharacterRepository {
 			return a.index - b.index;
 		});
 
-		await this.saveParsedCharacter(character);
+		await ParsedCharacterRepository.saveParsedCharacter(character);
 	}
 
 	/**
@@ -95,7 +96,9 @@ export class ParsedCharacterRepository {
 		character: ParsedCharacter,
 	): Promise<void> {
 		const validatedCharacter = ParsedCharacterSchema.parse(character);
-		const fileUrl = this.getFileUrl(validatedCharacter.code);
+		const fileUrl = ParsedCharacterRepository.getFileUrl(
+			validatedCharacter.code,
+		);
 
 		try {
 			// Ensure directory exists

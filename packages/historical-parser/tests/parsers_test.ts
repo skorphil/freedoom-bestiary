@@ -1,16 +1,16 @@
 import { expect, test } from "bun:test";
-import type {
-	CommitLogScannerOptions,
-	CommitSnapshot,
-	SnapshotBuilderOptions,
-} from "../src/types.ts";
+import { AuthorResolver } from "../src/AuthorResolver.ts";
 // Import real classes from src/
 import { AtticParser, BaseParser, FreedomParser } from "../src/BaseParser.ts";
 import { CommitLogScanner } from "../src/CommitLogScanner.ts";
 import { GitReader } from "../src/GitReader.ts";
 import { SnapshotBuilder } from "../src/SnapshotBuilder.ts";
-import { AuthorResolver } from "../src/AuthorResolver.ts";
 import { SpritePattern } from "../src/SpritePattern.ts";
+import type {
+	CommitLogScannerOptions,
+	CommitSnapshot,
+	SnapshotBuilderOptions,
+} from "../src/types.ts";
 
 // Mock imports (commented out as requested)
 import {

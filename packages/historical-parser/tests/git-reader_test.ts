@@ -1,7 +1,7 @@
 import { expect, test } from "bun:test";
-import { join } from "node:path";
-import { mkdir, writeFile, mkdtemp, rm, stat } from "node:fs/promises";
+import { mkdir, mkdtemp, rm, stat, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
+import { join } from "node:path";
 import type { TreeEntry } from "../src/GitReader.ts";
 // Import real classes from src/
 import { GitReader } from "../src/GitReader.ts";

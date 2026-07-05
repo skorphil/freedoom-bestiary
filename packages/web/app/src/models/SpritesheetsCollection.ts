@@ -1,10 +1,10 @@
 import type {
-	Spritesheet as SpritesheetData,
 	Character,
 	CharacterCode,
-	SpritesheetsMap,
 	CharactersMap,
 	ContributorsMap,
+	Spritesheet as SpritesheetData,
+	SpritesheetsMap,
 } from "@freedoom-bestiary/database/schema";
 import { Spritesheet } from "./Spritesheet";
 

@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 // 1. Define the custom hook
 export function useMediaQuery(query: string) {

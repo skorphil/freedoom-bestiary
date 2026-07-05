@@ -1,8 +1,8 @@
-import { expect, test, describe, beforeEach } from "bun:test";
-import { SnapshotBuilder } from "../src/SnapshotBuilder.ts";
-import { SpritePattern } from "../src/SpritePattern.ts";
+import { beforeEach, describe, expect, test } from "bun:test";
 import type { AuthorResolver } from "../src/AuthorResolver.ts";
 import type { GitReader } from "../src/GitReader.ts";
+import { SnapshotBuilder } from "../src/SnapshotBuilder.ts";
+import { SpritePattern } from "../src/SpritePattern.ts";
 
 describe("SnapshotBuilder", () => {
 	let mockReader: GitReader;

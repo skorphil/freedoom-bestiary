@@ -1,12 +1,12 @@
-import { createContext, useContext, useMemo } from "react";
 import type {
-	SpritesheetsMap,
 	CharactersMap,
 	ContributorsMap,
+	SpritesheetsMap,
 } from "@freedoom-bestiary/database/schema";
+import { createContext, useContext, useMemo } from "react";
 import {
-	SpritesheetsCollection,
 	createSpritesheetsCollection,
+	type SpritesheetsCollection,
 } from "../models/SpritesheetsCollection";
 
 const SpritesheetsContext = createContext<SpritesheetsCollection | null>(null);

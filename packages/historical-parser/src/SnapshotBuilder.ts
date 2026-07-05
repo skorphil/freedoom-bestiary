@@ -1,5 +1,5 @@
 import type { GitReader, TreeEntry } from "./GitReader.ts";
-import type { AuthorResolver, SpritePattern, AuthorInfo } from "./types.ts";
+import type { AuthorInfo, AuthorResolver, SpritePattern } from "./types.ts";
 
 /**
  * Options for configuring SnapshotBuilder behavior.

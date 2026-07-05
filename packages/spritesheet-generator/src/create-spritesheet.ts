@@ -2,9 +2,9 @@ import { detectSource } from "./parse-sprites.ts";
 import type {
 	GridCell,
 	GridLayout,
-	Version,
-	Spritesheet,
 	Sprite,
+	Spritesheet,
+	Version,
 } from "./types.ts";
 
 /**

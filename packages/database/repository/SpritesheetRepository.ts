@@ -1,12 +1,12 @@
-import {
-	SpritesheetsMapSchema,
-	SpritesheetSchema,
-	type SpritesheetsMap,
-	type Spritesheet,
-} from "../schema/spritesheet";
-import { readJsoncSync, writeJsoncSync, resolveDataPath } from "../utils/jsonc";
 import * as fs from "node:fs";
 import { fileURLToPath } from "node:url";
+import {
+	type Spritesheet,
+	SpritesheetSchema,
+	type SpritesheetsMap,
+	SpritesheetsMapSchema,
+} from "../schema/spritesheet";
+import { readJsoncSync, resolveDataPath, writeJsoncSync } from "../utils/jsonc";
 
 const DEFAULT_DATA_URL = resolveDataPath(
 	"../data/spritesheets.jsonc",
@@ -30,15 +30,15 @@ export class SpritesheetRepository {
 
 	/** Sets isolated mock data for testing */
 	static setData(data: SpritesheetsMap): void {
-		this.cachedData = data;
-		this.isMocked = true;
+		SpritesheetRepository.cachedData = data;
+		SpritesheetRepository.isMocked = true;
 	}
 
 	/** Resets data to original production state */
 	static reset(): void {
-		this.cachedData = null;
-		this.lastDataUrl = null;
-		this.isMocked = false;
+		SpritesheetRepository.cachedData = null;
+		SpritesheetRepository.lastDataUrl = null;
+		SpritesheetRepository.isMocked = false;
 	}
 
 	private static getDataUrl(options?: SpritesheetRepositoryOptions): URL {
@@ -54,35 +54,39 @@ export class SpritesheetRepository {
 	private static async loadData(
 		options?: SpritesheetRepositoryOptions,
 	): Promise<SpritesheetsMap> {
-		if (this.isMocked && this.cachedData) return this.cachedData;
-		const dataUrl = this.getDataUrl(options);
+		if (SpritesheetRepository.isMocked && SpritesheetRepository.cachedData)
+			return SpritesheetRepository.cachedData;
+		const dataUrl = SpritesheetRepository.getDataUrl(options);
 		const currentUrl = dataUrl.toString();
-		if (this.cachedData && this.lastDataUrl === currentUrl)
-			return this.cachedData;
+		if (
+			SpritesheetRepository.cachedData &&
+			SpritesheetRepository.lastDataUrl === currentUrl
+		)
+			return SpritesheetRepository.cachedData;
 
-		this.lastDataUrl = currentUrl;
-		this.cachedData = null; // Reset cache when URL changes
+		SpritesheetRepository.lastDataUrl = currentUrl;
+		SpritesheetRepository.cachedData = null; // Reset cache when URL changes
 
 		const pathString = fileURLToPath(dataUrl);
 		if (!fs.existsSync(pathString)) {
 			console.warn(
 				`SpritesheetRepository: File not found at ${pathString}, starting empty`,
 			);
-			this.cachedData = {};
-			return this.cachedData;
+			SpritesheetRepository.cachedData = {};
+			return SpritesheetRepository.cachedData;
 		}
 
 		try {
 			const json = readJsoncSync(dataUrl);
-			this.cachedData = SpritesheetsMapSchema.parse(json);
-			return this.cachedData;
+			SpritesheetRepository.cachedData = SpritesheetsMapSchema.parse(json);
+			return SpritesheetRepository.cachedData;
 		} catch (e) {
 			console.warn(
 				"SpritesheetRepository: Failed to load data, starting empty",
 				e,
 			);
-			this.cachedData = {};
-			return this.cachedData;
+			SpritesheetRepository.cachedData = {};
+			return SpritesheetRepository.cachedData;
 		}
 	}
 
@@ -90,7 +94,7 @@ export class SpritesheetRepository {
 	static async getAllSpritesheets(
 		options?: SpritesheetRepositoryOptions,
 	): Promise<SpritesheetsMap> {
-		return this.loadData(options);
+		return SpritesheetRepository.loadData(options);
 	}
 
 	/** Returns all spritesheets for a specific character code */
@@ -98,7 +102,7 @@ export class SpritesheetRepository {
 		characterCode: string,
 		options?: SpritesheetRepositoryOptions,
 	): Promise<Spritesheet[]> {
-		const data = await this.loadData(options);
+		const data = await SpritesheetRepository.loadData(options);
 		const characterGroup =
 			data[characterCode.toUpperCase() as keyof typeof data];
 		if (!characterGroup) {
@@ -113,7 +117,7 @@ export class SpritesheetRepository {
 		spritesheetId: string,
 		options?: SpritesheetRepositoryOptions,
 	): Promise<Spritesheet> {
-		const data = await this.loadData(options);
+		const data = await SpritesheetRepository.loadData(options);
 		const characterGroup =
 			data[characterCode.toUpperCase() as keyof typeof data];
 		if (!characterGroup) {
@@ -133,7 +137,7 @@ export class SpritesheetRepository {
 		commitSha: string,
 		options?: SpritesheetRepositoryOptions,
 	): Promise<Spritesheet[]> {
-		const data = await this.loadData(options);
+		const data = await SpritesheetRepository.loadData(options);
 		const result: Spritesheet[] = [];
 		for (const characterGroup of Object.values(data)) {
 			for (const sheet of Object.values(characterGroup)) {
@@ -152,7 +156,7 @@ export class SpritesheetRepository {
 		imageData: Uint8Array,
 		options?: SpritesheetRepositoryOptions,
 	): Promise<void> {
-		const data = await this.loadData(options);
+		const data = await SpritesheetRepository.loadData(options);
 		const validatedSpritesheet = SpritesheetSchema.parse(spritesheet);
 		const code = characterCode.toUpperCase() as keyof typeof data;
 
@@ -164,7 +168,7 @@ export class SpritesheetRepository {
 		const key = validatedSpritesheet.spritesheetId;
 		data[code]![key] = validatedSpritesheet;
 
-		const dataUrl = this.getDataUrl(options);
+		const dataUrl = SpritesheetRepository.getDataUrl(options);
 		const dataPath = fileURLToPath(dataUrl);
 		const dataDir = dataPath.substring(0, dataPath.lastIndexOf("/") + 1);
 		const sheetsDir = dataDir + "spritesheets/";

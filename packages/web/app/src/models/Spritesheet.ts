@@ -1,10 +1,10 @@
 import type {
-	Spritesheet as SpritesheetData,
-	Sprite,
-	Character,
-	CharacterCode,
 	AnimationName,
 	AnimationStep,
+	Character,
+	CharacterCode,
+	Sprite,
+	Spritesheet as SpritesheetData,
 } from "@freedoom-bestiary/database/schema";
 
 export type RenderTask = {

@@ -1,4 +1,4 @@
-import { expect, test, describe, beforeEach } from "bun:test";
+import { beforeEach, describe, expect, test } from "bun:test";
 import { CommitLogScanner } from "../src/CommitLogScanner.ts";
 import { SpritePattern } from "../src/SpritePattern.ts";
 

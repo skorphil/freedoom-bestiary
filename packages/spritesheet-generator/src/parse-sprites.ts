@@ -1,5 +1,5 @@
-import { parseBlobUrl } from "./get-image.ts";
 import { basename } from "node:path";
+import { parseBlobUrl } from "./get-image.ts";
 import type { GridCell, ParsedSprite, Version, VersionFile } from "./types.ts";
 
 // Allow sprite codes to include digits (e.g. BOS2)

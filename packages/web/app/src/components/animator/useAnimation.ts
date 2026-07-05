@@ -1,8 +1,8 @@
-import { useCallback, useEffect, useMemo, useState } from "react";
 import type { AnimationName } from "@freedoom-bestiary/database/schema";
-import { type RenderTask } from "../../models/Spritesheet.ts";
-import { useAnimationLoop } from "./useAnimationLoop.ts";
+import { useCallback, useEffect, useMemo, useState } from "react";
 import { useSpritesheets } from "../../context/SpritesheetsContext";
+import type { RenderTask } from "../../models/Spritesheet.ts";
+import { useAnimationLoop } from "./useAnimationLoop.ts";
 
 export type UseAnimationOptions = {
 	uuid: string;

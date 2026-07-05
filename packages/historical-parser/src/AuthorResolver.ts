@@ -1,7 +1,7 @@
-import { GitReader } from "./GitReader.ts";
-import type { AuthorInfo } from "./types.ts";
 import { ContributionRepository } from "../../database/repository/ContributionRepository.ts";
 import { ContributorRepository } from "../../database/repository/ContributorRepository.ts";
+import { GitReader } from "./GitReader.ts";
+import type { AuthorInfo } from "./types.ts";
 
 export type AuthorResolverOptions = {
 	aiToken?: string;
@@ -278,7 +278,7 @@ Examples:
 						`Attempt ${attempts} failed for ${sprite.path}: ${e.message}`,
 					);
 					if (attempts >= maxAttempts) throw e;
-					const delay = Math.pow(2, attempts) * 1000;
+					const delay = 2 ** attempts * 1000;
 					console.debug(`Retrying in ${delay}ms...`);
 					await new Promise((resolve) => setTimeout(resolve, delay));
 				}

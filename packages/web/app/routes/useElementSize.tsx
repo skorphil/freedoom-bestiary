@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 export function useElementSize() {
 	const elementRef = useRef(null);
@@ -9,7 +9,7 @@ export function useElementSize() {
 		if (!element) return;
 
 		const resizeObserver = new ResizeObserver((entries) => {
-			for (let entry of entries) {
+			for (const entry of entries) {
 				const { width, height } = entry.contentRect;
 				setSize({ width, height });
 			}

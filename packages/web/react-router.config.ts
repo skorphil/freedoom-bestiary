@@ -1,5 +1,5 @@
-import type { Config } from "@react-router/dev/config";
 import { SpritesheetRepository } from "@freedoom-bestiary/database";
+import type { Config } from "@react-router/dev/config";
 
 export default {
 	ssr: true,

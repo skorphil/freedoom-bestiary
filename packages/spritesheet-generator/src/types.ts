@@ -1,10 +1,10 @@
 import type {
 	Contribution,
-	ParsedSnapshot,
 	ParsedSprite as DatabaseParsedSprite,
+	ParsedSnapshot,
+	Sprite,
 	Spritesheet,
 	SpritesheetsMap,
-	Sprite,
 } from "@freedoom-bestiary/database";
 
 /**
@@ -91,9 +91,9 @@ export type BlobRef = {
 
 export type {
 	Contribution,
-	ParsedSnapshot,
 	DatabaseParsedSprite,
+	ParsedSnapshot,
+	Sprite,
 	Spritesheet,
 	SpritesheetsMap,
-	Sprite,
 };

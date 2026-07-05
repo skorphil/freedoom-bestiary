@@ -1,30 +1,30 @@
 import { expect, test } from "bun:test";
-import { join } from "node:path";
+import { spawnSync } from "node:child_process";
 import {
-	defaultConfig,
-	readInputTargets,
-	runWithConfig,
-	type InputTarget,
-	type RuntimeConfig,
-} from "../src/index.ts";
-import type { Version } from "../src/types.ts";
-import {
-	readFileSync,
-	writeFileSync,
+	existsSync,
 	mkdirSync,
 	mkdtempSync,
-	statSync,
+	readFileSync,
 	rmSync,
-	existsSync,
+	statSync,
+	writeFileSync,
 } from "node:fs";
-import { spawnSync } from "node:child_process";
 import { tmpdir } from "node:os";
+import { join } from "node:path";
+import type { CharacterCode } from "@freedoom-bestiary/database";
 import {
 	CharacterRepository,
 	ParsedCharacterRepository,
 	SpritesheetRepository,
 } from "@freedoom-bestiary/database";
-import type { CharacterCode } from "@freedoom-bestiary/database";
+import {
+	defaultConfig,
+	type InputTarget,
+	type RuntimeConfig,
+	readInputTargets,
+	runWithConfig,
+} from "../src/index.ts";
+import type { Version } from "../src/types.ts";
 
 // Load a valid 16x16 PNG from disk for testing.
 const TINY_PNG = readFileSync(join(import.meta.dirname!, "test-data/test.png"));

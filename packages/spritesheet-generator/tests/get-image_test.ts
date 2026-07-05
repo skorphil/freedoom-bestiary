@@ -1,5 +1,5 @@
 import { expect, test } from "bun:test";
-import { parseBlobUrl, buildRawUrl } from "../src/get-image.ts";
+import { buildRawUrl, parseBlobUrl } from "../src/get-image.ts";
 
 test("parseBlobUrl - freedoom/freedoom blob URL", () => {
 	const url =

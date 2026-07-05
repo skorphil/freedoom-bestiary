@@ -3,9 +3,11 @@
  * These mocks provide minimal implementations for use in TDD.
  */
 
+import type { TreeEntry } from "../src/GitReader.ts";
 import type {
-	CharacterVersions,
+	AuthorInfo,
 	CharacterVersionSnapshot,
+	CharacterVersions,
 	CommitLogScannerOptions,
 	CommitSnapshot,
 	CommitSource,
@@ -14,9 +16,7 @@ import type {
 	SnapshotBuilderOptions,
 	SpriteEntry,
 	SpriteState,
-	AuthorInfo,
 } from "../src/types.ts";
-import type { TreeEntry } from "../src/GitReader.ts";
 
 // Test data constants
 export const TEST_COMMIT_SHA = "abc123def456789012345678901234567890abcd";

@@ -1,7 +1,7 @@
 import { Outlet } from "react-router";
-import styles from "./CharacterSnippet.module.css";
 import { useSpritesheets } from "~/src/context/SpritesheetsContext";
 import CharacterSnippet from "./CharacterSnippet";
+import styles from "./CharacterSnippet.module.css";
 import { useHydrated } from "./useHydrated";
 
 function CharactersList() {
