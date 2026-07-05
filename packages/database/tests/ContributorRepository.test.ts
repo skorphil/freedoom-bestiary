@@ -1,17 +1,17 @@
 import { afterEach, beforeEach, describe, expect, test } from "bun:test";
 import { ContributorRepository } from "../repository/ContributorRepository";
+import type { ContributorsMap } from "../schema/contributor";
 
 describe("ContributorRepository", () => {
-	const mockContributors = {
+	const mockContributors: ContributorsMap = {
 		"test-artist": {
 			name: "Test Artist",
 			aliases: ["Artist A", "T-Artist"],
-			links: [],
 		},
 	};
 
 	beforeEach(() => {
-		ContributorRepository.setData(mockContributors as any);
+		ContributorRepository.setData(mockContributors);
 	});
 
 	afterEach(() => {

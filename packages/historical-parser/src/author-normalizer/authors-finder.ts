@@ -5,18 +5,29 @@ import { fileURLToPath } from "node:url";
 const __dirname = dirname(fileURLToPath(import.meta.url));
 
 /**
+ * Represents an author entry with name and relation
+ */
+type AuthorEntry = {
+	name: string;
+	relation: string;
+};
+
+/**
  * Normalizes authors by extracting unique names from authors.json
  */
-const authorsJsonPath = join(__dirname, "..", "authors.json");
+const authorsJsonPath = join(__dirname, "authors.json");
 const outputPath = join(__dirname, "authors_list.json");
 
-const authorsData = JSON.parse(readFileSync(authorsJsonPath, "utf8"));
+const authorsData = JSON.parse(readFileSync(authorsJsonPath, "utf8")) as Record<
+	string,
+	AuthorEntry[]
+>;
 
 const uniqueNames = new Set<string>();
 
 for (const spriteEntries of Object.values(authorsData)) {
 	if (Array.isArray(spriteEntries)) {
-		for (const entry of spriteEntries as any[]) {
+		for (const entry of spriteEntries) {
 			if (entry.name) {
 				uniqueNames.add(entry.name);
 			}

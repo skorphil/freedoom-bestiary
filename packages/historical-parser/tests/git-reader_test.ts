@@ -3,10 +3,6 @@ import { mkdir, mkdtemp, rm, stat, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import type { TreeEntry } from "../src/GitReader.ts";
-// Import real classes from src/
-import { GitReader } from "../src/GitReader.ts";
-
-// Mock imports (commented out as requested)
 import { createMockGitReader, createMockTreeEntry } from "./mocks.ts";
 
 // Test utilities for git operations

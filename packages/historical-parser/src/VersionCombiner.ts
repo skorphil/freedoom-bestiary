@@ -94,7 +94,7 @@ export class VersionCombiner {
 				if (!candidates.has(frameKey)) {
 					candidates.set(frameKey, []);
 				}
-				candidates.get(frameKey)!.push(entry);
+				candidates.get(frameKey)?.push(entry);
 			}
 		}
 
@@ -125,12 +125,12 @@ export class VersionCombiner {
 			if (!frameGroups.has(letter)) {
 				frameGroups.set(letter, []);
 			}
-			frameGroups.get(letter)!.push(frameKey);
+			frameGroups.get(letter)?.push(frameKey);
 		}
 
 		let removedAny = false;
 
-		for (const [letter, keys] of frameGroups) {
+		for (const [_letter, keys] of frameGroups) {
 			const angle0Keys = keys.filter((k) => k.endsWith("0"));
 			const angle1to8Keys = keys.filter((k) => {
 				const angle = k.charAt(1);
@@ -141,7 +141,9 @@ export class VersionCombiner {
 				// Conflict detected for this frame letter.
 				// Compare max(commitIndex) within the latest date.
 
-				const allEntries = keys.map((k) => frameState.get(k)!);
+				const allEntries = keys
+					.map((k) => frameState.get(k))
+					.filter((entry): entry is SpriteEntry => entry !== undefined);
 				const maxDate = Math.max(
 					...allEntries.map((e) => new Date(e.lastChangedDate).getTime()),
 				);

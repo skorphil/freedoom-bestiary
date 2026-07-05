@@ -1,4 +1,3 @@
-import { detectSource } from "./parse-sprites.ts";
 import type {
 	GridCell,
 	GridLayout,
@@ -110,7 +109,7 @@ export function buildSpritesheetMetadata(
 				y: pos.y,
 				width: padded.w,
 				height: padded.h,
-				state: (cell.file.spriteState as any) || "unchanged",
+				state: cell.file.spriteState || "unchanged",
 				contributions: (cell.file.spriteAuthors || []).map((a) => ({
 					contributorId: a.contributorId,
 					relation: a.relation,
@@ -187,7 +186,7 @@ import sharp from "sharp";
  * @returns A promise that resolves to the spritesheet buffer and its dimensions
  */
 export async function createSpritesheetBuffer(
-	layout: GridLayout,
+	_layout: GridLayout,
 	cellW: number,
 	cellH: number,
 	opts: CreateSpritesheetOptions,

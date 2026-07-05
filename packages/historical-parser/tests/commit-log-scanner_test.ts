@@ -3,7 +3,7 @@ import { CommitLogScanner } from "../src/CommitLogScanner.ts";
 import { SpritePattern } from "../src/SpritePattern.ts";
 
 describe("CommitLogScanner", () => {
-	let mockReader: any;
+	let mockReader: { streamLog: () => AsyncGenerator<string> };
 	let pattern: SpritePattern;
 
 	beforeEach(() => {

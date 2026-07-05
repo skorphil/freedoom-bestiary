@@ -1,6 +1,7 @@
 import * as fs from "node:fs";
 import * as path from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
+import type { CommentJSONValue } from "comment-json";
 import * as JSONC from "comment-json";
 
 /**
@@ -27,7 +28,7 @@ export function resolveDataPath(
  * Reads a JSONC file and parses it.
  * Uses Bun's native JSONC support if available, otherwise falls back to comment-json.
  */
-export function readJsoncSync(filePath: string | URL): any {
+export function readJsoncSync(filePath: string | URL): CommentJSONValue {
 	const pathString =
 		filePath instanceof URL ? fileURLToPath(filePath) : filePath;
 
@@ -48,7 +49,7 @@ export function readJsoncSync(filePath: string | URL): any {
  */
 export function writeJsoncSync(
 	filePath: string | URL,
-	data: any,
+	data: CommentJSONValue,
 	header?: string,
 ): void {
 	const pathString =

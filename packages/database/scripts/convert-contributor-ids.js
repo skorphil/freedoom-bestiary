@@ -1,5 +1,4 @@
 import fs from "node:fs";
-import path from "node:path";
 
 // Helper to "parse" JSONC by removing comments and trailing commas (simple version)
 function parseJsonc(content) {

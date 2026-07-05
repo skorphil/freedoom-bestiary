@@ -4,6 +4,9 @@
  */
 
 import type { TreeEntry } from "../src/GitReader.ts";
+import type { GitReader } from "../src/GitReader.ts";
+import type { SpritePattern } from "../src/SpritePattern.ts";
+import type { AuthorResolver } from "../src/types.ts";
 import type {
 	AuthorInfo,
 	CharacterVersionSnapshot,
@@ -75,10 +78,15 @@ export function createMockSpritePattern(code: string) {
 export function createMockAuthorResolver() {
 	return {
 		init: async () => {},
-		resolveAuthorsBatch: async (context: any, sprites: any[]) => {
+		resolveAuthorsBatch: async (
+			context: { author: string; message: string; sha: string },
+			sprites: Array<{ url: string; path: string }>,
+		) => {
 			const mapping: Record<string, AuthorInfo[]> = {};
 			for (const s of sprites) {
-				mapping[s.url] = [{ name: context.author, relation: "Mock" }];
+				mapping[s.url] = [
+					{ name: context.author, relation: "Mock", contributorId: "mock" },
+				];
 			}
 			return mapping;
 		},
@@ -152,8 +160,8 @@ export function createMockTreeEntry(
  * @returns A mock CommitLogScanner implementation
  */
 export function createMockCommitLogScanner(
-	_reader: any,
-	_pattern: any,
+	_reader: GitReader,
+	_pattern: SpritePattern,
 	_options: CommitLogScannerOptions,
 ) {
 	return {
@@ -179,9 +187,9 @@ export function createMockCommitLogScanner(
  * @returns A mock SnapshotBuilder implementation
  */
 export function createMockSnapshotBuilder(
-	reader: any,
-	pattern: any,
-	resolver: any,
+	reader: GitReader,
+	pattern: SpritePattern,
+	resolver: AuthorResolver,
 	options: SnapshotBuilderOptions,
 ) {
 	return {
@@ -217,10 +225,10 @@ export function createMockSnapshotBuilder(
 
 			const authorMapping = await resolver.resolveAuthorsBatch(
 				{ author: unit.author, message: unit.message, sha: unit.sha },
-				candidates.map((c: any) => ({ url: c.url, path: c.entry.path })),
+				candidates.map((c) => ({ url: c.url, path: c.entry.path })),
 			);
 
-			const spriteFiles = candidates.map((c: any) => ({
+			const spriteFiles = candidates.map((c) => ({
 				code: pattern.code,
 				filename: c.entry.path,
 				url: c.url,

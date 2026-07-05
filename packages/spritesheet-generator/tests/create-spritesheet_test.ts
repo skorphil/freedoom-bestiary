@@ -9,7 +9,7 @@ import {
 import type { GridCell, Version } from "../src/types.ts";
 
 function createPaddedMap(
-	layout: any,
+	layout: GridLayout,
 	w: number,
 	h: number,
 ): Map<string, PaddedCell> {
@@ -156,23 +156,23 @@ test("buildGridLayout - empty input", () => {
 });
 
 test("computeSpritesheetDimensions - 3x2 grid", () => {
-	const layout = {
+	const layout: GridLayout = {
 		frames: ["A", "B", "C"],
 		angles: [1, 2],
 		cells: new Map(),
 	};
-	const dims = computeSpritesheetDimensions(layout as any, 64, 96);
+	const dims = computeSpritesheetDimensions(layout, 64, 96);
 	expect(dims.width).toEqual(192); // 3 cols * 64
 	expect(dims.height).toEqual(192); // 2 rows * 96
 });
 
 test("computeSpritesheetDimensions - single cell", () => {
-	const layout = {
+	const layout: GridLayout = {
 		frames: ["A"],
 		angles: [1],
 		cells: new Map(),
 	};
-	const dims = computeSpritesheetDimensions(layout as any, 64, 96);
+	const dims = computeSpritesheetDimensions(layout, 64, 96);
 	expect(dims.width).toEqual(64);
 	expect(dims.height).toEqual(96);
 });
@@ -210,7 +210,7 @@ test("buildSpritesheetMetadata - date and author", () => {
 		message: "png: Map color 255 to color 133",
 		files: [],
 	};
-	const layout = {
+	const layout: GridLayout = {
 		frames: ["A"],
 		angles: [1],
 		cells: new Map([
@@ -228,7 +228,7 @@ test("buildSpritesheetMetadata - date and author", () => {
 	};
 	const entry = buildSpritesheetMetadata(
 		version,
-		layout as any,
+		layout,
 		"out/spritesheets/POSS/2023-07-16.webp",
 		64,
 		96,
@@ -253,10 +253,10 @@ test("buildSpritesheetMetadata - spritesheetPath", () => {
 		message: "msg",
 		files: [],
 	};
-	const layout = { frames: [], angles: [], cells: new Map() };
+	const layout: GridLayout = { frames: [], angles: [], cells: new Map() };
 	const entry = buildSpritesheetMetadata(
 		version,
-		layout as any,
+		layout,
 		"out/spritesheets/TROO/2023.webp",
 		64,
 		96,
@@ -276,7 +276,7 @@ test("buildSpritesheetMetadata - sprite entries", () => {
 		message: "msg",
 		files: [],
 	};
-	const layout = {
+	const layout: GridLayout = {
 		frames: ["A"],
 		angles: [0, 1],
 		cells: new Map([
@@ -304,7 +304,7 @@ test("buildSpritesheetMetadata - sprite entries", () => {
 	};
 	const entry = buildSpritesheetMetadata(
 		version,
-		layout as any,
+		layout,
 		"path.webp",
 		64,
 		96,
@@ -327,7 +327,7 @@ test("buildSpritesheetMetadata - frame and angle strings", () => {
 		message: "msg",
 		files: [],
 	};
-	const layout = {
+	const layout: GridLayout = {
 		frames: ["H"],
 		angles: [0],
 		cells: new Map([
@@ -345,7 +345,7 @@ test("buildSpritesheetMetadata - frame and angle strings", () => {
 	};
 	const entry = buildSpritesheetMetadata(
 		version,
-		layout as any,
+		layout,
 		"path.webp",
 		64,
 		96,
@@ -353,6 +353,11 @@ test("buildSpritesheetMetadata - frame and angle strings", () => {
 		"TEST",
 		"test-id-101",
 	);
+
+	// Verify that the entry was created with the correct frame and angle
+	expect(entry.sprites.length).toEqual(1);
+	expect(entry.sprites[0].frame).toEqual("H");
+	expect(entry.sprites[0].angle).toEqual(0);
 });
 
 test("buildSpritesheetMetadata - x and y positions", () => {
@@ -364,7 +369,7 @@ test("buildSpritesheetMetadata - x and y positions", () => {
 		message: "msg",
 		files: [],
 	};
-	const layout = {
+	const layout: GridLayout = {
 		frames: ["A", "B"],
 		angles: [1, 2],
 		cells: new Map([
@@ -412,7 +417,7 @@ test("buildSpritesheetMetadata - x and y positions", () => {
 	};
 	const entry = buildSpritesheetMetadata(
 		version,
-		layout as any,
+		layout,
 		"path.webp",
 		64,
 		96,
@@ -440,7 +445,7 @@ test("buildSpritesheetMetadata - mirror different position", () => {
 		message: "msg",
 		files: [],
 	};
-	const layout = {
+	const layout: GridLayout = {
 		frames: ["A"],
 		angles: [2, 8],
 		cells: new Map([
@@ -468,7 +473,7 @@ test("buildSpritesheetMetadata - mirror different position", () => {
 	};
 	const entry = buildSpritesheetMetadata(
 		version,
-		layout as any,
+		layout,
 		"path.webp",
 		64,
 		96,

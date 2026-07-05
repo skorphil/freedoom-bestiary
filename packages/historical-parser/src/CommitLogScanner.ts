@@ -218,7 +218,10 @@ export class CommitLogScanner {
 			if (!grouped.has(folder)) {
 				grouped.set(folder, new Map<string, string>());
 			}
-			grouped.get(folder)!.set(path, status);
+			const folderMap = grouped.get(folder);
+			if (folderMap) {
+				folderMap.set(path, status);
+			}
 		}
 
 		// Ensure predictable order: root 'sprites' first, then others alphabetically

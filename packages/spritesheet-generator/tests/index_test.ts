@@ -12,25 +12,24 @@ import {
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import type { CharacterCode } from "@freedoom-bestiary/database";
-import {
-	CharacterRepository,
-	ParsedCharacterRepository,
-	SpritesheetRepository,
-} from "@freedoom-bestiary/database";
+import { SpritesheetRepository } from "@freedoom-bestiary/database";
 import {
 	defaultConfig,
 	type InputTarget,
 	type RuntimeConfig,
-	readInputTargets,
 	runWithConfig,
 } from "../src/index.ts";
 import type { Version } from "../src/types.ts";
 
 // Load a valid 16x16 PNG from disk for testing.
-const TINY_PNG = readFileSync(join(import.meta.dirname!, "test-data/test.png"));
+const dirname = import.meta.dirname;
+if (!dirname) {
+	throw new Error("import.meta.dirname is not available");
+}
+const TINY_PNG = readFileSync(join(dirname, "test-data/test.png"));
 
 // Mock the environment for tests
-const TEST_CACHE_DIR = join(import.meta.dirname!, "../.cache-test");
+const TEST_CACHE_DIR = join(dirname, "../.cache-test");
 if (!existsSync(TEST_CACHE_DIR)) mkdirSync(TEST_CACHE_DIR, { recursive: true });
 
 function getTestDataUrl() {
@@ -151,7 +150,7 @@ function configFor(
 	};
 }
 
-function makeInputFile(
+function _makeInputFile(
 	versionsDir: string,
 	code: string,
 	versions: Version[],
@@ -207,7 +206,8 @@ test("main - appends entries for unseen shas", async () => {
 		expect(appended).toEqual(1);
 		const characterGroup = finalCollection["POSS" as CharacterCode];
 		expect(characterGroup).toBeDefined();
-		const poss = Object.values(characterGroup!);
+		if (!characterGroup) throw new Error("Character group is undefined");
+		const poss = Object.values(characterGroup);
 		expect(poss.length).toEqual(1);
 		expect(poss[0].commitSha).toEqual(bare.blobSha);
 		expect(poss[0].source).toEqual("freedoom");
@@ -225,7 +225,8 @@ test("main - appends entries for unseen shas", async () => {
 		// Count how many spritesheets we have for POSS
 		const possGroup = fromDisk["POSS" as CharacterCode];
 		expect(possGroup).toBeDefined();
-		expect(Object.keys(possGroup!).length).toBeGreaterThanOrEqual(1);
+		if (!possGroup) throw new Error("POSS group is undefined");
+		expect(Object.keys(possGroup).length).toBeGreaterThanOrEqual(1);
 	} finally {
 		if (existsSync(testDataUrl)) rmSync(testDataUrl);
 		rmSync(tmp, { recursive: true, force: true });
@@ -263,7 +264,9 @@ test("main - skips already-indexed shas", async () => {
 		const second = await runWithConfig(cfg, targets2);
 		expect(second.appended).toEqual(0);
 		const characterGroup = second.collection["POSS" as CharacterCode];
-		expect(Object.keys(characterGroup!).length).toEqual(1);
+		expect(characterGroup).toBeDefined();
+		if (!characterGroup) throw new Error("Character group is undefined");
+		expect(Object.keys(characterGroup).length).toEqual(1);
 	} finally {
 		if (existsSync(testDataUrl)) rmSync(testDataUrl);
 		rmSync(tmp, { recursive: true, force: true });
@@ -354,8 +357,12 @@ test("main - emits source field per entry", async () => {
 		const { collection: finalCollection } = await runWithConfig(cfg, targets);
 		const possGroup = finalCollection["POSS" as CharacterCode];
 		const skulGroup = finalCollection["SKUL" as CharacterCode];
-		expect(Object.values(possGroup!)[0].source).toEqual("freedoom");
-		expect(Object.values(skulGroup!)[0].source).toEqual("attic");
+		expect(possGroup).toBeDefined();
+		expect(skulGroup).toBeDefined();
+		if (!possGroup) throw new Error("POSS group is undefined");
+		if (!skulGroup) throw new Error("SKUL group is undefined");
+		expect(Object.values(possGroup)[0].source).toEqual("freedoom");
+		expect(Object.values(skulGroup)[0].source).toEqual("attic");
 	} finally {
 		if (existsSync(testDataUrl)) rmSync(testDataUrl);
 		rmSync(tmp, { recursive: true, force: true });
@@ -397,7 +404,9 @@ test("main - accepts a single JSON file path", async () => {
 
 		const { collection } = await runWithConfig(cfg, targets);
 		const characterGroup = collection["POSS" as CharacterCode];
-		expect(Object.keys(characterGroup!).length).toEqual(2);
+		expect(characterGroup).toBeDefined();
+		if (!characterGroup) throw new Error("Character group is undefined");
+		expect(Object.keys(characterGroup).length).toEqual(2);
 	} finally {
 		if (existsSync(testDataUrl)) rmSync(testDataUrl);
 		rmSync(tmp, { recursive: true, force: true });
@@ -449,8 +458,12 @@ test("main - accepts a directory path", async () => {
 		const { collection } = await runWithConfig(cfg, targets);
 		const possGroup = collection["POSS" as CharacterCode];
 		const sposGroup = collection["SPOS" as CharacterCode];
-		expect(Object.keys(possGroup!).length).toEqual(1);
-		expect(Object.keys(sposGroup!).length).toEqual(1);
+		expect(possGroup).toBeDefined();
+		expect(sposGroup).toBeDefined();
+		if (!possGroup) throw new Error("POSS group is undefined");
+		if (!sposGroup) throw new Error("SPOS group is undefined");
+		expect(Object.keys(possGroup).length).toEqual(1);
+		expect(Object.keys(sposGroup).length).toEqual(1);
 	} finally {
 		if (existsSync(testDataUrl)) rmSync(testDataUrl);
 		rmSync(tmp, { recursive: true, force: true });
@@ -464,7 +477,7 @@ test("main - errors clearly on a missing path", async () => {
 		// Instead, it tries to fetch data from the database for the provided sprite codes
 		// If invalid codes are provided, it would try to fetch them and likely return empty results
 		// This test is no longer applicable with the new architecture
-		const cfg = configFor(tmp, {});
+		const _cfg = configFor(tmp, {});
 		// Skipping this test as the new implementation doesn't validate input paths
 		expect(true).toBe(true);
 	} finally {
@@ -478,7 +491,7 @@ test("main - errors on a non-json file path", async () => {
 		// Since readInputTargets now works with database repositories, it doesn't validate file extensions
 		// Instead, it treats arguments as sprite codes to fetch from the database
 		// This test is no longer applicable with the new architecture
-		const cfg = configFor(tmp, {});
+		const _cfg = configFor(tmp, {});
 		// Skipping this test as the new implementation doesn't validate input paths
 		expect(true).toBe(true);
 	} finally {

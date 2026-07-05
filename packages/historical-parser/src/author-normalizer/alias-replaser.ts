@@ -48,7 +48,7 @@ function normalizeAuthors() {
 		}
 	}
 
-	writeFileSync(authorsPath, JSON.stringify(authors, null, 2) + "\n");
+	writeFileSync(authorsPath, `${JSON.stringify(authors, null, 2)}\n`);
 	console.log(`Normalized ${changeCount} author names in authors.json`);
 }
 

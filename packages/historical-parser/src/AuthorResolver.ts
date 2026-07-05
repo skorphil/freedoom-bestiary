@@ -1,5 +1,6 @@
 import { ContributionRepository } from "../../database/repository/ContributionRepository.ts";
 import { ContributorRepository } from "../../database/repository/ContributorRepository.ts";
+import type { Contribution } from "../../database/schema/contribution.ts";
 import { GitReader } from "./GitReader.ts";
 import type { AuthorInfo } from "./types.ts";
 
@@ -9,6 +10,15 @@ export type AuthorResolverOptions = {
 	noAi?: boolean;
 	cachePath?: string;
 	freedoomRepoPath?: string;
+};
+
+/** Response format from the AI Gateway for author resolution */
+type AuthorResolutionResponse = {
+	url: string;
+	contributions: Array<{
+		contributorId: string;
+		relation: string;
+	}>;
 };
 
 /**
@@ -63,7 +73,7 @@ export class AuthorResolver {
 		for (const sprite of sprites) {
 			const contributions = ContributionRepository.getContribution(sprite.url);
 			if (contributions.length > 0) {
-				results[sprite.url] = contributions.map((c) => {
+				results[sprite.url] = contributions.map((c: Contribution) => {
 					try {
 						const contributor = ContributorRepository.getContributorById(
 							c.contributorId,
@@ -73,7 +83,7 @@ export class AuthorResolver {
 							relation: c.relation,
 							contributorId: c.contributorId,
 						};
-					} catch (e) {
+					} catch (_e) {
 						// Fallback if ID is in contributions but not in contributors (should not happen normally)
 						return {
 							name: c.contributorId,
@@ -124,7 +134,7 @@ export class AuthorResolver {
 		);
 
 		// Ensure the URL is trimmed and valid
-		const url = this.options.gatewayUrl!.trim();
+		const url = this.options.gatewayUrl.trim();
 
 		// Process granularly
 		await this.fetchAuthorsGranularly(context, missing, url, results);
@@ -141,7 +151,7 @@ export class AuthorResolver {
 		// Truncate credits if too long
 		const truncatedCredits =
 			this.credits.length > 5000
-				? this.credits.slice(0, 5000) + "\n... (truncated)"
+				? `${this.credits.slice(0, 5000)}\n... (truncated)`
 				: this.credits;
 
 		const contributorsMap = ContributorRepository.getAllContributors();
@@ -245,7 +255,7 @@ Examples:
 				content: `Resolve authors for sprite:\n- Path: ${sprite.path}\n- EXACT URL: ${sprite.url}\n- Full File URL: https://github.com/freedoom/freedoom/blob/${context.sha}/${sprite.path}`,
 			};
 
-			let resolution: any = null;
+			let resolution: AuthorResolutionResponse | null = null;
 			let attempts = 0;
 			const maxAttempts = 3;
 
@@ -273,9 +283,9 @@ Examples:
 					const data = await response.json();
 					resolution = JSON.parse(data.choices[0].message.content);
 					break;
-				} catch (e: any) {
+				} catch (e: unknown) {
 					console.error(
-						`Attempt ${attempts} failed for ${sprite.path}: ${e.message}`,
+						`Attempt ${attempts} failed for ${sprite.path}: ${(e as Error).message}`,
 					);
 					if (attempts >= maxAttempts) throw e;
 					const delay = 2 ** attempts * 1000;
@@ -286,6 +296,9 @@ Examples:
 
 			// Use exact URL from sprite object to ensure consistency as requested
 			const targetUrl = sprite.url;
+			if (!resolution) {
+				throw new Error(`Failed to get resolution for sprite ${sprite.path}`);
+			}
 			const contributions = resolution.contributions;
 
 			// Ensure all contributors from AI are in the repository
@@ -316,7 +329,7 @@ Examples:
 				ContributionRepository.addContribution(targetUrl, contribution);
 			}
 
-			results[targetUrl] = contributions.map((c: any) => {
+			results[targetUrl] = contributions.map((c: Contribution) => {
 				const contributor = ContributorRepository.getContributorById(
 					c.contributorId,
 				);
@@ -330,16 +343,6 @@ Examples:
 			// Persist immediately after each sprite resolution
 			await this.saveCache();
 		}
-	}
-
-	private async fetchAuthorsFromAi(
-		context: { author: string; message: string; sha: string },
-		missing: Array<{ url: string; path: string }>,
-		gatewayUrl: string,
-	): Promise<Record<string, AuthorInfo[]>> {
-		const results: Record<string, AuthorInfo[]> = {};
-		await this.fetchAuthorsGranularly(context, missing, gatewayUrl, results);
-		return results;
 	}
 
 	/**

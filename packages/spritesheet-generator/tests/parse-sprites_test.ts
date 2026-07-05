@@ -115,13 +115,18 @@ test("extractGridCells - auto-mirrors missing angles", () => {
 	const cells = extractGridCells(files, "TROO");
 	// Should have A2 and A8 (mirrored)
 	expect(cells.length).toEqual(2);
-	const a2 = cells.find((c) => c.angle === 2)!;
-	const a8 = cells.find((c) => c.angle === 8)!;
+	const a2 = cells.find((c) => c.angle === 2);
+	const a8 = cells.find((c) => c.angle === 8);
 
-	expect(a2.mirror).toEqual(false);
-	expect(a8.mirror).toEqual(true);
-	expect(a8.frame).toEqual("A");
-	expect(a8.file.name).toEqual("trooa2.png");
+	expect(a2).not.toBeNull();
+	expect(a8).not.toBeNull();
+
+	if (a2 && a8) {
+		expect(a2.mirror).toEqual(false);
+		expect(a8.mirror).toEqual(true);
+		expect(a8.frame).toEqual("A");
+		expect(a8.file.name).toEqual("trooa2.png");
+	}
 });
 
 test("extractGridCells - does not double-mirror if already present", () => {
@@ -140,10 +145,16 @@ test("extractGridCells - mirrors from high to low", () => {
 	const cells = extractGridCells(files, "TROO");
 	// Should have A6 and A4 (mirrored)
 	expect(cells.length).toEqual(2);
-	const a6 = cells.find((c) => c.angle === 6)!;
-	const a4 = cells.find((c) => c.angle === 4)!;
-	expect(a6.mirror).toEqual(false);
-	expect(a4.mirror).toEqual(true);
+	const a6 = cells.find((c) => c.angle === 6);
+	const a4 = cells.find((c) => c.angle === 4);
+
+	expect(a6).not.toBeNull();
+	expect(a4).not.toBeNull();
+
+	if (a6 && a4) {
+		expect(a6.mirror).toEqual(false);
+		expect(a4.mirror).toEqual(true);
+	}
 });
 
 test("detectSource - all freedoom", () => {

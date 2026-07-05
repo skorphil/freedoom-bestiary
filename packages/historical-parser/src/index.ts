@@ -1,4 +1,3 @@
-import { lstat } from "node:fs/promises";
 import { join } from "node:path";
 import { config } from "dotenv";
 import { ParsedCharacterRepository } from "../../database/repository/ParsedCharacterRepository.ts";
@@ -7,6 +6,7 @@ import { AuthorResolver } from "./AuthorResolver.ts";
 import { AtticParser, FreedomParser } from "./BaseParser.ts";
 import type { CharacterVersionSnapshot } from "./types.ts";
 import { VersionCombiner as Combiner } from "./VersionCombiner.ts";
+import type { ZodError } from "zod";
 
 // Load .env from the package directory
 // @ts-expect-error
@@ -58,8 +58,11 @@ async function loadCodesFromSpritesJson(): Promise<string[]> {
 			}
 		}
 		return Array.from(codes);
-	} catch (e: any) {
-		console.error(`Failed to load codes from ${spritesPath}:`, e.message);
+	} catch (e) {
+		console.error(
+			`Failed to load codes from ${spritesPath}:`,
+			e instanceof Error ? e.message : String(e),
+		);
 		return fallbackCodes();
 	}
 }
@@ -153,7 +156,6 @@ function toParsedSnapshot(s: CharacterVersionSnapshot): ParsedSnapshot {
 
 export async function runAll(opts: RunOptions = {}) {
 	console.debug("runAll: starting with options:", opts);
-	const repoRoot = opts.outDir ? opts.outDir : "src";
 	const freedoomRepo = opts.freedoomRepo ?? "src/freedoom.git";
 	const atticRepo = opts.atticRepo ?? "src/attic.git";
 	const codes = opts.codes ?? (await loadCodesFromSpritesJson());
@@ -167,8 +169,8 @@ export async function runAll(opts: RunOptions = {}) {
 	});
 	await resolver.init();
 
-	const freedoomResults: Record<string, any[]> = {};
-	const atticResults: Record<string, any[]> = {};
+	const freedoomResults: Record<string, unknown[]> = {};
+	const atticResults: Record<string, unknown[]> = {};
 
 	for (const code of codes) {
 		console.debug(`runAll: processing code ${code}`);
@@ -208,11 +210,16 @@ export async function runAll(opts: RunOptions = {}) {
 				// Debugging Zod validation
 				try {
 					await ParsedCharacterRepository.appendSnapshot(code, snapshot);
-				} catch (e: any) {
-					if (e.name === "ZodError") {
+				} catch (e) {
+					if (
+						e &&
+						typeof e === "object" &&
+						"name" in e &&
+						e.name === "ZodError"
+					) {
 						console.error(
 							`ZodError while appending snapshot for ${code} at ${v.commitSha}:`,
-							JSON.stringify(e.errors, null, 2),
+							JSON.stringify((e as ZodError).errors, null, 2),
 						);
 					} else {
 						console.error(

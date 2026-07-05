@@ -1,27 +1,8 @@
 import { expect, test } from "bun:test";
-import { AuthorResolver } from "../src/AuthorResolver.ts";
-// Import real classes from src/
-import { AtticParser, BaseParser, FreedomParser } from "../src/BaseParser.ts";
-import { CommitLogScanner } from "../src/CommitLogScanner.ts";
-import { GitReader } from "../src/GitReader.ts";
-import { SnapshotBuilder } from "../src/SnapshotBuilder.ts";
-import { SpritePattern } from "../src/SpritePattern.ts";
-import type {
-	CommitLogScannerOptions,
-	CommitSnapshot,
-	SnapshotBuilderOptions,
-} from "../src/types.ts";
-
-// Mock imports (commented out as requested)
 import {
-	ATTIC_BUILDER_OPTIONS,
-	ATTIC_SCANNER_OPTIONS,
 	createMockAtticParser,
-	createMockAuthorResolver,
 	createMockBaseParser,
 	createMockFreedomParser,
-	createMockGitReader,
-	createMockSpritePattern,
 	FREEDOOM_BUILDER_OPTIONS,
 	FREEDOOM_SCANNER_OPTIONS,
 } from "./mocks.ts";

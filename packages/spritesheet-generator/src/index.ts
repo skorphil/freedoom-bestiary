@@ -1,4 +1,3 @@
-import { mkdir } from "node:fs/promises";
 import { join } from "node:path";
 import {
 	type CharacterCode,
@@ -370,7 +369,14 @@ async function fetchAndMeasureVersion(
 		let processedImage: ProcessedImage;
 		const cacheKey = `${file.url}_original`;
 		if (imageBufferCache.has(cacheKey)) {
-			processedImage = imageBufferCache.get(cacheKey)!;
+			const cached = imageBufferCache.get(cacheKey);
+			if (cached) {
+				processedImage = cached;
+			} else {
+				// Process the image with alpha channel and padding
+				processedImage = await processImageBuffer(imageBuffer, 0, 0); // Will determine max dimensions later
+				imageBufferCache.set(cacheKey, processedImage);
+			}
 		} else {
 			// Process the image with alpha channel and padding
 			processedImage = await processImageBuffer(imageBuffer, 0, 0); // Will determine max dimensions later
@@ -383,7 +389,48 @@ async function fetchAndMeasureVersion(
 		if (needsMirror) {
 			const mirrorCacheKey = `${file.url}_mirror`;
 			if (mirroredBufferCache.has(mirrorCacheKey)) {
-				mirroredBuffer = mirroredBufferCache.get(mirrorCacheKey)!;
+				const cached = mirroredBufferCache.get(mirrorCacheKey);
+				if (cached) {
+					mirroredBuffer = cached;
+				} else {
+					try {
+						mirroredBuffer = await sharp(imageBuffer)
+							.ensureAlpha()
+							.flop() // Horizontal flip
+							.toBuffer();
+
+						// Apply the same transparency processing to the mirrored image
+						const { data, info } = await sharp(mirroredBuffer)
+							.ensureAlpha()
+							.raw()
+							.toBuffer({ resolveWithObject: true });
+
+						// Process transparency for cyan background (#01ffff)
+						for (let i = 0; i < data.length; i += 4) {
+							const r = data[i];
+							const g = data[i + 1];
+							const b = data[i + 2];
+
+							// Match #01ffff with approx 5% fuzz
+							if (r <= 15 && g >= 240 && b >= 240) {
+								data[i + 3] = 0;
+							}
+						}
+
+						mirroredBuffer = await sharp(data, {
+							raw: { width: info.width, height: info.height, channels: 4 },
+						})
+							.png()
+							.toBuffer();
+
+						mirroredBufferCache.set(mirrorCacheKey, mirroredBuffer);
+					} catch (error) {
+						console.warn(
+							`Failed to create mirror for ${file.name}, using original: ${(error as Error).message}`,
+						);
+						mirroredBuffer = imageBuffer;
+					}
+				}
 			} else {
 				try {
 					mirroredBuffer = await sharp(imageBuffer)
@@ -536,7 +583,7 @@ export async function buildOneSheet(
 		paddedPaths.set(key, { ...item.cell, buffer: item.buffer });
 	}
 
-	const { buffer, w, h } = await createSpritesheetBuffer(layout, cellW, cellH, {
+	const { buffer } = await createSpritesheetBuffer(layout, cellW, cellH, {
 		layout,
 		cellW,
 		cellH,

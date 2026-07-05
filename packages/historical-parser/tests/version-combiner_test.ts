@@ -60,6 +60,8 @@ describe("VersionCombiner", () => {
 			spriteAuthors: [{ name: "Author1", relation: "Artist" }],
 			source: "freedoom",
 			spriteState: "new",
+			lastChangedDate: "2023-01-01T12:00:00Z",
+			commitIndex: 0,
 		});
 		frameState.set("b1", {
 			name: "possb1.png",
@@ -67,6 +69,8 @@ describe("VersionCombiner", () => {
 			spriteAuthors: [{ name: "Author2", relation: "Refinement" }],
 			source: "freedoom",
 			spriteState: "new",
+			lastChangedDate: "2023-01-01T12:00:00Z",
+			commitIndex: 0,
 		});
 
 		const snapshot: CommitSnapshot = {
@@ -96,11 +100,15 @@ describe("VersionCombiner", () => {
 	});
 
 	test("combine should handle multi-snapshot commits using commitIndex", () => {
-		const freedomSnapshots: any[] = [
+		const freedomSnapshots: CommitSnapshot[] = [
 			{
 				commitSha: "sha1",
 				commitDate: "2023-01-01T10:00:00Z",
+				commitAuthor: "Test Author",
+				commitMessage: "Test message",
+				commitUrl: "https://github.com/freedoom/freedoom/commit/sha1",
 				commitIndex: 0,
+				folder: null,
 				commitSource: "freedoom",
 				commitSprites: [
 					{
@@ -115,7 +123,11 @@ describe("VersionCombiner", () => {
 			{
 				commitSha: "sha1",
 				commitDate: "2023-01-01T10:00:00Z",
+				commitAuthor: "Test Author",
+				commitMessage: "Test message",
+				commitUrl: "https://github.com/freedoom/freedoom/commit/sha1",
 				commitIndex: 1,
+				folder: null,
 				commitSource: "freedoom",
 				commitSprites: [
 					{

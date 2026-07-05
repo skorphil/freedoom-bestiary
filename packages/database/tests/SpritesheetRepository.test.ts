@@ -1,5 +1,6 @@
 import { afterEach, beforeEach, describe, expect, test } from "bun:test";
-import { SpritesheetRepository } from "../repository/SpritesheetRepository";
+import * as SpritesheetRepository from "../repository/SpritesheetRepository.ts";
+import type { SpritesheetsMap } from "../schema/spritesheet";
 
 describe("SpritesheetRepository", () => {
 	const testSha = "27aca39126c0f021e543516119c9d3b2500575ac";
@@ -20,7 +21,7 @@ describe("SpritesheetRepository", () => {
 	};
 
 	beforeEach(() => {
-		SpritesheetRepository.setData(mockSpritesheets as any);
+		SpritesheetRepository.setData(mockSpritesheets as SpritesheetsMap);
 	});
 
 	afterEach(() => {
@@ -31,7 +32,7 @@ describe("SpritesheetRepository", () => {
 		const spritesheets = await SpritesheetRepository.getAllSpritesheets();
 		expect(spritesheets).toBeDefined();
 		expect(Object.keys(spritesheets).length).toBeGreaterThan(0);
-		expect(spritesheets["POSS"]).toBeDefined();
+		expect(spritesheets.POSS).toBeDefined();
 	});
 
 	test("getSpritesheetById returns a single spritesheet", async () => {

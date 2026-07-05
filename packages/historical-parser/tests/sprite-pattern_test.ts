@@ -1,6 +1,5 @@
 import { expect, test } from "bun:test";
 import { SpritePattern } from "../src/SpritePattern.ts";
-import { createMockAuthorResolver } from "./mocks.ts";
 
 test("SpritePattern - constructor should store uppercase code", () => {
 	const pattern = new SpritePattern("poss");

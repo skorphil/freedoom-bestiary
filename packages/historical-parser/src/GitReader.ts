@@ -14,10 +14,10 @@ export class GitReader {
 	/** Absolute path to the bare git repository */
 	readonly repoPath: string;
 	// Long-lived git cat-file --batch process and helpers
-	private batchChild: any | null = null;
+	private batchChild: ReturnType<typeof Bun.spawn> | null = null;
 	private batchStdoutReader: ReadableStreamDefaultReader<Uint8Array> | null =
 		null;
-	private batchStdin: any | null = null;
+	private batchStdin: WritableStream<Uint8Array> | null = null;
 	private batchDecoder = new TextDecoder();
 	private batchLeftover = "";
 	// Serializes concurrent fetchViaBatch calls so they don't race on the shared stdout reader
@@ -116,7 +116,7 @@ export class GitReader {
 	async resolveSymlinkTarget(objectHash: string): Promise<string> {
 		// Check cache first
 		if (this.symlinkCache.has(objectHash)) {
-			return this.symlinkCache.get(objectHash)!;
+			return this.symlinkCache.get(objectHash) as string;
 		}
 
 		console.debug("GitReader.resolveSymlinkTarget: resolving", objectHash);
@@ -166,10 +166,10 @@ export class GitReader {
 
 		const encoder = new TextEncoder();
 		if (typeof this.batchStdin.write === "function") {
-			this.batchStdin.write(encoder.encode(objectHash + "\n"));
+			this.batchStdin.write(encoder.encode(`${objectHash}\n`));
 		} else {
 			const writer = this.batchStdin.getWriter();
-			await writer.write(encoder.encode(objectHash + "\n"));
+			await writer.write(encoder.encode(`${objectHash}\n`));
 			writer.releaseLock();
 		}
 
@@ -178,7 +178,10 @@ export class GitReader {
 		this.batchLeftover = "";
 
 		const readMore = async () => {
-			const { value, done } = await this.batchStdoutReader!.read();
+			if (!this.batchStdoutReader) {
+				throw new Error("Batch process not available");
+			}
+			const { value, done } = await this.batchStdoutReader.read();
 			if (done) throw new Error("git cat-file --batch closed unexpectedly");
 			buf += this.batchDecoder.decode(value, { stream: true });
 		};
@@ -193,7 +196,7 @@ export class GitReader {
 		// Parse header: <hash> <type> <size>
 		const parts = line.split(" ");
 		if (parts.length < 3)
-			throw new Error("Unexpected cat-file header: " + line);
+			throw new Error(`Unexpected cat-file header: ${line}`);
 		const size = parseInt(parts[2], 10);
 
 		// Read until we have size bytes + 1 trailing newline separator

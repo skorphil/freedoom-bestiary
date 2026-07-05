@@ -1,8 +1,9 @@
 import { afterEach, beforeEach, expect, test } from "bun:test";
 import { CharacterRepository } from "@freedoom-bestiary/database";
 import { SpritesheetsCollection } from "../app/src/models/SpritesheetsCollection.ts";
+import type { SpritesheetsMap, CharactersMap } from "@freedoom-bestiary/database/schema";
 
-const mockData = {
+const mockData: SpritesheetsMap = {
 	CYBR: {
 		uuid2: {
 			commitDate: "2023-01-02",
@@ -61,7 +62,7 @@ beforeEach(() => {
 	CharacterRepository.setData({
 		CYBR: { freedoomName: "Cyberdemon", animations: {} },
 		SPID: { freedoomName: "Spider Mastermind", animations: {} },
-	} as any);
+	} as CharactersMap);
 });
 
 afterEach(() => {
@@ -69,48 +70,48 @@ afterEach(() => {
 });
 
 test("SpritesheetsCollection - getAllCodes", () => {
-	const collection = new SpritesheetsCollection(mockData as any);
+	const collection = new SpritesheetsCollection(mockData);
 	expect(collection.getAllCodes()).toEqual(["CYBR", "SPID"]);
 });
 
 test("SpritesheetsCollection - getHistory", () => {
-	const collection = new SpritesheetsCollection(mockData as any);
-	expect(collection.getHistory("CYBR" as any).length).toEqual(2);
+	const collection = new SpritesheetsCollection(mockData);
+	expect(collection.getHistory("CYBR").length).toEqual(2);
 	expect(
-		collection.getHistory("CYBR" as any).map((s) => s.data.commitSha),
+		collection.getHistory("CYBR").map((s) => s.data.commitSha),
 	).toContain("sha2");
-	expect(collection.getHistory("NONEXISTENT" as any)).toEqual([]);
+	expect(collection.getHistory("NONEXISTENT")).toEqual([]);
 });
 
 test("SpritesheetsCollection - getLatest", () => {
-	const collection = new SpritesheetsCollection(mockData as any);
-	const latest = collection.getLatest("CYBR" as any);
+	const collection = new SpritesheetsCollection(mockData);
+	const latest = collection.getLatest("CYBR");
 	expect(latest?.data.commitSha).toEqual("sha2");
 });
 
 test("SpritesheetsCollection - isAtticEntry", () => {
-	const collection = new SpritesheetsCollection(mockData as any);
+	const collection = new SpritesheetsCollection(mockData);
 	const history = collection
-		.getHistory("CYBR" as any)
+		.getHistory("CYBR")
 		.sort(
 			(a, b) =>
 				new Date(a.data.commitDate).getTime() -
 				new Date(b.data.commitDate).getTime(),
 		);
-	expect(collection.isAtticEntry(history[1])).toEqual(false); // sha2 is later
-	expect(collection.isAtticEntry(history[0])).toEqual(true); // sha1 is earlier and attic
+	expect(history[1] && collection.isAtticEntry(history[1])).toEqual(false); // sha2 is later
+	expect(history[0] && collection.isAtticEntry(history[0])).toEqual(true); // sha1 is earlier and attic
 });
 
 test("SpritesheetsCollection - getLatestLiveEntry", () => {
-	const collection = new SpritesheetsCollection(mockData as any);
-	const history = collection.getHistory("CYBR" as any);
+	const collection = new SpritesheetsCollection(mockData);
+	const history = collection.getHistory("CYBR");
 	const latestLive = collection.getLatestLiveEntry(history);
 	expect(latestLive?.data.commitSha).toEqual("sha2");
 });
 
 test("SpritesheetsCollection - getUniqueAuthors", () => {
-	const collection = new SpritesheetsCollection(mockData as any);
-	const latest = collection.getLatest("CYBR" as any);
-	const authors = collection.getUniqueAuthors(latest!);
+	const collection = new SpritesheetsCollection(mockData);
+	const latest = collection.getLatest("CYBR");
+	const authors = latest ? collection.getUniqueAuthors(latest) : [];
 	expect(authors).toEqual(["author-2"]);
 });

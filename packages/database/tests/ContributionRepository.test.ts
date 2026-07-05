@@ -1,9 +1,15 @@
 import { afterEach, beforeEach, describe, expect, test } from "bun:test";
-import { ContributionRepository } from "../repository/ContributionRepository";
+import {
+	addContribution,
+	getContribution,
+	reset,
+	setData,
+} from "../repository/ContributionRepository";
+import type { ContributionsMap } from "../schema/contribution";
 
 describe("ContributionRepository", () => {
 	const testUrl = "https://example.com/sprite.png";
-	const mockContributions = {
+	const mockContributions: ContributionsMap = {
 		[testUrl]: [
 			{
 				contributorId: "test-artist",
@@ -13,22 +19,22 @@ describe("ContributionRepository", () => {
 	};
 
 	beforeEach(() => {
-		ContributionRepository.setData(mockContributions as any);
+		setData(mockContributions);
 	});
 
 	afterEach(() => {
-		ContributionRepository.reset();
+		reset();
 	});
 
 	test("getContribution returns contributions for existing sprite", () => {
-		const contributions = ContributionRepository.getContribution(testUrl);
+		const contributions = getContribution(testUrl);
 		expect(contributions).toBeArray();
 		expect(contributions.length).toBe(1);
 		expect(contributions[0]?.contributorId).toBe("test-artist");
 	});
 
 	test("getContribution returns empty array for non-existent sprite", () => {
-		const contributions = ContributionRepository.getContribution(
+		const contributions = getContribution(
 			"https://non-existent.com/sprite.png",
 		);
 		expect(contributions).toBeArray();
@@ -42,9 +48,9 @@ describe("ContributionRepository", () => {
 			relation: "Refinement",
 		};
 
-		ContributionRepository.addContribution(newUrl, newContribution);
+		addContribution(newUrl, newContribution);
 
-		const contributions = ContributionRepository.getContribution(newUrl);
+		const contributions = getContribution(newUrl);
 		expect(contributions).toContainEqual(newContribution);
 	});
 });
