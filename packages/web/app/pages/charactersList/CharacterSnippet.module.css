@@ -1,35 +1,35 @@
 .snippetContainer {
-  position: relative;
-  min-height: 120px;
-  max-height: 200px;
-  min-width: 120px;
-  max-width: 200px;
-  aspect-ratio: 1;
+	position: relative;
+	min-height: 120px;
+	max-height: 200px;
+	min-width: 120px;
+	max-width: 200px;
+	aspect-ratio: 1;
 
-  border: 2px solid var(--color-border)
+	border: 2px solid var(--color-border);
 }
 
 .title {
-  position: absolute;
-  top: 12px;
-  left: 12px;
-  margin: 0;
-  padding: 2px;
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	margin: 0;
+	padding: 2px;
 
-  background-color: var(--color-bg);
+	background-color: var(--color-bg);
 }
 
 .footer {
-  position: absolute;
-  bottom: 12px;
-  left: 12px;
-  margin: 0;
-  padding: 2px;
+	position: absolute;
+	bottom: 12px;
+	left: 12px;
+	margin: 0;
+	padding: 2px;
 
-  background-color: var(--color-bg);
+	background-color: var(--color-bg);
 }
 
 .snippetContainer:hover {
-  border: 2px solid var(--color-border);
-  cursor: pointer;
+	border: 2px solid var(--color-border);
+	cursor: pointer;
 }

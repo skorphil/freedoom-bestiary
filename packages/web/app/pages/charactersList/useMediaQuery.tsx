@@ -1,20 +1,20 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 
 // 1. Define the custom hook
-export function useMediaQuery(query:string) {
-  const [matches, setMatches] = useState(false);
+export function useMediaQuery(query: string) {
+	const [matches, setMatches] = useState(false);
 
-  useEffect(() => {
-    const media = window.matchMedia(query);
-    if (media.matches !== matches) {
-      setMatches(media.matches);
-    }
-    
-    const listener = () => setMatches(media.matches);
-    media.addEventListener('change', listener);
-    
-    return () => media.removeEventListener('change', listener);
-  }, [matches, query]);
+	useEffect(() => {
+		const media = window.matchMedia(query);
+		if (media.matches !== matches) {
+			setMatches(media.matches);
+		}
 
-  return matches;
+		const listener = () => setMatches(media.matches);
+		media.addEventListener("change", listener);
+
+		return () => media.removeEventListener("change", listener);
+	}, [matches, query]);
+
+	return matches;
 }

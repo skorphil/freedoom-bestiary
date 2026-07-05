@@ -8,23 +8,36 @@ import {
 	type RuntimeConfig,
 } from "../src/index.ts";
 import type { Version } from "../src/types.ts";
-import { readFileSync, writeFileSync, mkdirSync, mkdtempSync, statSync, rmSync, existsSync } from "node:fs";
+import {
+	readFileSync,
+	writeFileSync,
+	mkdirSync,
+	mkdtempSync,
+	statSync,
+	rmSync,
+	existsSync,
+} from "node:fs";
 import { spawnSync } from "node:child_process";
 import { tmpdir } from "node:os";
-import { CharacterRepository, ParsedCharacterRepository, SpritesheetRepository } from "@freedoom-bestiary/database";
+import {
+	CharacterRepository,
+	ParsedCharacterRepository,
+	SpritesheetRepository,
+} from "@freedoom-bestiary/database";
 import type { CharacterCode } from "@freedoom-bestiary/database";
 
 // Load a valid 16x16 PNG from disk for testing.
-const TINY_PNG = readFileSync(
-	join(import.meta.dirname!, "test-data/test.png"),
-);
+const TINY_PNG = readFileSync(join(import.meta.dirname!, "test-data/test.png"));
 
 // Mock the environment for tests
 const TEST_CACHE_DIR = join(import.meta.dirname!, "../.cache-test");
 if (!existsSync(TEST_CACHE_DIR)) mkdirSync(TEST_CACHE_DIR, { recursive: true });
 
 function getTestDataUrl() {
-	const path = join(TEST_CACHE_DIR, `spritesheets-${crypto.randomUUID()}.jsonc`);
+	const path = join(
+		TEST_CACHE_DIR,
+		`spritesheets-${crypto.randomUUID()}.jsonc`,
+	);
 	return path;
 }
 
@@ -41,7 +54,7 @@ function git(args: string[], cwd?: string): string {
 			GIT_CONFIG_SYSTEM: "/dev/null",
 		},
 	});
-	
+
 	if (result.status !== 0) {
 		const errText = result.stderr.toString();
 		const outText = result.stdout.toString();
@@ -146,14 +159,19 @@ function makeInputFile(
 	mkdirSync(versionsDir, { recursive: true });
 	const path = join(versionsDir, `${code}.json`);
 	// historical-parser format uses spriteVersions key
-	writeFileSync(path, JSON.stringify({ spriteVersions: versions.map(v => ({
-		...v,
-		sprites: v.files.map(f => ({
-			name: f.name,
-			url: f.url,
-			spriteState: "new" // ensures it passes the filter
-		}))
-	})) }));
+	writeFileSync(
+		path,
+		JSON.stringify({
+			spriteVersions: versions.map((v) => ({
+				...v,
+				sprites: v.files.map((f) => ({
+					name: f.name,
+					url: f.url,
+					spriteState: "new", // ensures it passes the filter
+				})),
+			})),
+		}),
+	);
 	return path;
 }
 
@@ -161,13 +179,15 @@ test("main - appends entries for unseen shas", async () => {
 	const tmp = mkdtempSync(join(tmpdir(), "ssg-"));
 	const testDataUrl = getTestDataUrl();
 	try {
-		const bare = makeBareRepoWithSprites(tmp, "freedoom", [
-			"possa1.png",
-		]);
-		const cfg = configFor(tmp, {
-			"freedoom/freedoom": bare.bareDir,
-			"freedoom/attic": bare.bareDir,
-		}, testDataUrl);
+		const bare = makeBareRepoWithSprites(tmp, "freedoom", ["possa1.png"]);
+		const cfg = configFor(
+			tmp,
+			{
+				"freedoom/freedoom": bare.bareDir,
+				"freedoom/attic": bare.bareDir,
+			},
+			testDataUrl,
+		);
 		const v = makeVersion(bare.blobSha, "freedoom", [
 			{ name: "possa1.png", angle: 1, mirror: false },
 		]);
@@ -179,7 +199,10 @@ test("main - appends entries for unseen shas", async () => {
 			},
 		];
 
-		const { collection: finalCollection, appended } = await runWithConfig(cfg, targets);
+		const { collection: finalCollection, appended } = await runWithConfig(
+			cfg,
+			targets,
+		);
 
 		expect(appended).toEqual(1);
 		const characterGroup = finalCollection["POSS" as CharacterCode];
@@ -196,7 +219,9 @@ test("main - appends entries for unseen shas", async () => {
 		expect(stat).toBeDefined();
 
 		// Index file must be written.
-		const fromDisk = await SpritesheetRepository.getAllSpritesheets({ dataPath: testDataUrl });
+		const fromDisk = await SpritesheetRepository.getAllSpritesheets({
+			dataPath: testDataUrl,
+		});
 		// Count how many spritesheets we have for POSS
 		const possGroup = fromDisk["POSS" as CharacterCode];
 		expect(possGroup).toBeDefined();
@@ -212,10 +237,14 @@ test("main - skips already-indexed shas", async () => {
 	const testDataUrl = getTestDataUrl();
 	try {
 		const bare = makeBareRepoWithSprites(tmp, "freedoom", ["possa1.png"]);
-		const cfg = configFor(tmp, {
-			"freedoom/freedoom": bare.bareDir,
-			"freedoom/attic": bare.bareDir,
-		}, testDataUrl);
+		const cfg = configFor(
+			tmp,
+			{
+				"freedoom/freedoom": bare.bareDir,
+				"freedoom/attic": bare.bareDir,
+			},
+			testDataUrl,
+		);
 		const v = makeVersion(bare.blobSha, "freedoom", [
 			{ name: "possa1.png", angle: 1, mirror: false },
 		]);
@@ -246,10 +275,14 @@ test("main - uses bare clone when present", async () => {
 	const testDataUrl = getTestDataUrl();
 	try {
 		const bare = makeBareRepoWithSprites(tmp, "freedoom", ["possa1.png"]);
-		const cfg = configFor(tmp, {
-			"freedoom/freedoom": bare.bareDir,
-			"freedoom/attic": bare.bareDir,
-		}, testDataUrl);
+		const cfg = configFor(
+			tmp,
+			{
+				"freedoom/freedoom": bare.bareDir,
+				"freedoom/attic": bare.bareDir,
+			},
+			testDataUrl,
+		);
 		const v = makeVersion(bare.blobSha, "freedoom", [
 			{ name: "possa1.png", angle: 1, mirror: false },
 		]);
@@ -288,13 +321,15 @@ test("main - emits source field per entry", async () => {
 		const bareFreedoom = makeBareRepoWithSprites(tmp, "freedoom", [
 			"possa1.png",
 		]);
-		const bareAttic = makeBareRepoWithSprites(tmp, "attic", [
-			"skula1.png",
-		]);
-		const cfg = configFor(tmp, {
-			"freedoom/freedoom": bareFreedoom.bareDir,
-			"freedoom/attic": bareAttic.bareDir,
-		}, testDataUrl);
+		const bareAttic = makeBareRepoWithSprites(tmp, "attic", ["skula1.png"]);
+		const cfg = configFor(
+			tmp,
+			{
+				"freedoom/freedoom": bareFreedoom.bareDir,
+				"freedoom/attic": bareAttic.bareDir,
+			},
+			testDataUrl,
+		);
 		const targets: InputTarget[] = [
 			{
 				versions: [
@@ -340,10 +375,14 @@ test("main - accepts a single JSON file path", async () => {
 			{ name: "possa2.png", angle: 2, mirror: false },
 		]);
 
-		const cfg = configFor(tmp, {
-			"freedoom/freedoom": bare.bareDir,
-			"freedoom/attic": bare.bareDir,
-		}, testDataUrl);
+		const cfg = configFor(
+			tmp,
+			{
+				"freedoom/freedoom": bare.bareDir,
+				"freedoom/attic": bare.bareDir,
+			},
+			testDataUrl,
+		);
 
 		// Since readInputTargets now uses database repositories, we need to mock or provide actual data
 		// For this test, we'll simulate by creating InputTarget objects directly
@@ -372,10 +411,14 @@ test("main - accepts a directory path", async () => {
 		const possBare = makeBareRepoWithSprites(tmp, "poss", ["possa1.png"]);
 		const sposBare = makeBareRepoWithSprites(tmp, "spos", ["sposa1.png"]);
 
-		const cfg = configFor(tmp, {
-			"freedoom/freedoom": possBare.bareDir,
-			"freedoom/attic": sposBare.bareDir,
-		}, testDataUrl);
+		const cfg = configFor(
+			tmp,
+			{
+				"freedoom/freedoom": possBare.bareDir,
+				"freedoom/attic": sposBare.bareDir,
+			},
+			testDataUrl,
+		);
 
 		// Since readInputTargets now uses database repositories, we need to mock or provide actual data
 		// For this test, we'll simulate by creating InputTarget objects directly

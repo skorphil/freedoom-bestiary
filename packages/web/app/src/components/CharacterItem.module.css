@@ -1,66 +1,66 @@
 .characterGrid {
-  display: flex;
-  flex-direction: row;
-  justify-content: left;
-  gap: 20px;
-  flex-wrap: wrap;
-  margin: 48px 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	gap: 20px;
+	flex-wrap: wrap;
+	margin: 48px 0;
 }
 
 .characterItem {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: start;
-  text-align: left;
-  padding: 16px;
-  width: 320px;
-  /* max-width: 360px; */
-  border: 2px solid var(--color-border);
-  /* border-radius: 12px; */
-  gap: 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: start;
+	text-align: left;
+	padding: 16px;
+	width: 320px;
+	/* max-width: 360px; */
+	border: 2px solid var(--color-border);
+	/* border-radius: 12px; */
+	gap: 24px;
 }
 
 .characterDetails {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-  width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	width: 100%;
 }
 
 .characterName {
-  font-size: 36px;
-  margin: 0;
-  font-weight: normal;
-  line-height: 1.2;
+	font-size: 36px;
+	margin: 0;
+	font-weight: normal;
+	line-height: 1.2;
 }
 
 .metaGroup {
-  display: flex;
-  flex-direction: column;
-  gap: 4px;
+	display: flex;
+	flex-direction: column;
+	gap: 4px;
 }
 
 .metaLabel {
-  font-size: 16px;
-  opacity: 0.8;
+	font-size: 16px;
+	opacity: 0.8;
 }
 
 .metaValue {
-  font-size: 16px;
+	font-size: 16px;
 }
 
 .preview {
-  display: flex;
-  justify-content: center;
-  flex-grow: 1;
-  align-self: stretch;
-  max-width: 100%;
+	display: flex;
+	justify-content: center;
+	flex-grow: 1;
+	align-self: stretch;
+	max-width: 100%;
 }
 
 .preview img {
-  height: 100%;
-  object-fit: contain;
-  image-rendering: pixelated;
-  image-rendering: crisp-edges;
+	height: 100%;
+	object-fit: contain;
+	image-rendering: pixelated;
+	image-rendering: crisp-edges;
 }

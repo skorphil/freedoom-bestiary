@@ -111,15 +111,13 @@ test("extractGridCells - basic extraction", () => {
 });
 
 test("extractGridCells - auto-mirrors missing angles", () => {
-	const files = [
-		{ name: "trooa2.png", url: "http://example.com/trooa2.png" },
-	];
+	const files = [{ name: "trooa2.png", url: "http://example.com/trooa2.png" }];
 	const cells = extractGridCells(files, "TROO");
 	// Should have A2 and A8 (mirrored)
 	expect(cells.length).toEqual(2);
-	const a2 = cells.find(c => c.angle === 2)!;
-	const a8 = cells.find(c => c.angle === 8)!;
-	
+	const a2 = cells.find((c) => c.angle === 2)!;
+	const a8 = cells.find((c) => c.angle === 8)!;
+
 	expect(a2.mirror).toEqual(false);
 	expect(a8.mirror).toEqual(true);
 	expect(a8.frame).toEqual("A");
@@ -133,19 +131,17 @@ test("extractGridCells - does not double-mirror if already present", () => {
 	const cells = extractGridCells(files, "TROO");
 	// Should still only have 2 cells, A2 and A8
 	expect(cells.length).toEqual(2);
-	expect(cells.filter(c => c.angle === 2).length).toEqual(1);
-	expect(cells.filter(c => c.angle === 8).length).toEqual(1);
+	expect(cells.filter((c) => c.angle === 2).length).toEqual(1);
+	expect(cells.filter((c) => c.angle === 8).length).toEqual(1);
 });
 
 test("extractGridCells - mirrors from high to low", () => {
-	const files = [
-		{ name: "trooa6.png", url: "http://example.com/trooa6.png" },
-	];
+	const files = [{ name: "trooa6.png", url: "http://example.com/trooa6.png" }];
 	const cells = extractGridCells(files, "TROO");
 	// Should have A6 and A4 (mirrored)
 	expect(cells.length).toEqual(2);
-	const a6 = cells.find(c => c.angle === 6)!;
-	const a4 = cells.find(c => c.angle === 4)!;
+	const a6 = cells.find((c) => c.angle === 6)!;
+	const a4 = cells.find((c) => c.angle === 4)!;
 	expect(a6.mirror).toEqual(false);
 	expect(a4.mirror).toEqual(true);
 });

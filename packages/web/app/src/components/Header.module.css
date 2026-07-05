@@ -1,16 +1,16 @@
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-family: var(--font-main);
-  font-size: 24px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: var(--font-main);
+	font-size: 24px;
 }
 
 .link {
-  text-decoration: underline;
-  text-underline-offset: 4px;
+	text-decoration: underline;
+	text-underline-offset: 4px;
 }
 
 .link:hover {
-  text-decoration: solid;
+	text-decoration: solid;
 }

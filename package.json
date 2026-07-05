@@ -1,19 +1,22 @@
 {
-  "name": "freedoom-bestiary",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "workspaces": [
-    "packages/*"
-  ],
-  "scripts": {
-    "test": "bun test",
-    "dev:web": "bun --filter @freedoom-bestiary/web dev",
-    "build:web": "bun --filter @freedoom-bestiary/web build"
-  },
-  "devDependencies": {
-    "typescript": "^6.0.3",
-    "@types/node": "^26.0.1",
-    "bun-types": "^1.3.14"
-  }
+	"name": "freedoom-bestiary",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"workspaces": [
+		"packages/*"
+	],
+	"scripts": {
+		"test": "bun test",
+		"lint": "biome check .",
+		"format": "biome format --write .",
+		"dev:web": "bun --filter @freedoom-bestiary/web dev",
+		"build:web": "bun --filter @freedoom-bestiary/web build"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.5.2",
+		"@types/node": "^26.0.1",
+		"bun-types": "^1.3.14",
+		"typescript": "^6.0.3"
+	}
 }

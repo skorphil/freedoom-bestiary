@@ -5,143 +5,155 @@ import { useAnimationLoop } from "./useAnimationLoop.ts";
 import { useSpritesheets } from "../../context/SpritesheetsContext";
 
 export type UseAnimationOptions = {
-  uuid: string;
-  initialAnimation?: AnimationName;
-  initialAngle?: number
-  canvasRef: React.RefObject<HTMLCanvasElement | null>;
+	uuid: string;
+	initialAnimation?: AnimationName;
+	initialAngle?: number;
+	canvasRef: React.RefObject<HTMLCanvasElement | null>;
 };
 
 export function useAnimation({
-  uuid,
-  initialAnimation = "idling",
-  initialAngle = 1,
-  canvasRef,
+	uuid,
+	initialAnimation = "idling",
+	initialAngle = 1,
+	canvasRef,
 }: UseAnimationOptions) {
-  const collection = useSpritesheets();
-  const [animName, setAnimName] = useState<AnimationName>(initialAnimation);
-  const [angle, setAngle] = useState(initialAngle);
-  
-  const [error, setError] = useState<string | null>(null);
+	const collection = useSpritesheets();
+	const [animName, setAnimName] = useState<AnimationName>(initialAnimation);
+	const [angle, setAngle] = useState(initialAngle);
 
-  // Resolve Spritesheet model and metadata from the global collection
-  const spritesheet = useMemo(() => collection.getByUuid(uuid), [collection, uuid]);
+	const [error, setError] = useState<string | null>(null);
 
-  // Wait for image to load
-  const [isReady, setIsReady] = useState(false);
-  
-  useEffect(() => {
-    if (!spritesheet) {
-      setError(`Spritesheet ${uuid} not found`);
-      return;
-    }
+	// Resolve Spritesheet model and metadata from the global collection
+	const spritesheet = useMemo(
+		() => collection.getByUuid(uuid),
+		[collection, uuid],
+	);
 
-    let cancelled = false;
-    
-    spritesheet.ready().then(() => {
-      if (!cancelled) {
-        setIsReady(true);
-        setError(null);
-      }
-    }).catch((err) => {
-      if (!cancelled) {
-        setError(`Failed to load spritesheet ${uuid}: ${err.message}`);
-      }
-    });
-    
-    return () => {
-      cancelled = true;
-    };
-  }, [spritesheet, uuid]);
+	// Wait for image to load
+	const [isReady, setIsReady] = useState(false);
 
-  const animationsData = useMemo(() => {
-    return (isReady && spritesheet) ? spritesheet.getAnimations() : {};
-  }, [spritesheet, isReady]);
+	useEffect(() => {
+		if (!spritesheet) {
+			setError(`Spritesheet ${uuid} not found`);
+			return;
+		}
 
-  const animations = useMemo(() => {
-    return Object.keys(animationsData) as AnimationName[];
-  }, [animationsData]);
+		let cancelled = false;
 
-  const currentAngles = useMemo(() => {
-    return animationsData[animName]?.angles ?? [1];
-  }, [animationsData, animName]);
+		spritesheet
+			.ready()
+			.then(() => {
+				if (!cancelled) {
+					setIsReady(true);
+					setError(null);
+				}
+			})
+			.catch((err) => {
+				if (!cancelled) {
+					setError(`Failed to load spritesheet ${uuid}: ${err.message}`);
+				}
+			});
 
-  // Ensure animName is valid for the current spritesheet
-  useEffect(() => {
-    if (isReady && animations.length > 0 && !animations.includes(animName)) {
-      setAnimName(animations[0]);
-    }
-  }, [animations, animName, isReady]);
+		return () => {
+			cancelled = true;
+		};
+	}, [spritesheet, uuid]);
 
-  // Ensure angle is valid for the current animation
-  useEffect(() => {
-    if (isReady && currentAngles.length > 0 && !currentAngles.includes(angle)) {
-      setAngle(currentAngles[0]);
-    }
-  }, [currentAngles, angle, isReady]);
+	const animationsData = useMemo(() => {
+		return isReady && spritesheet ? spritesheet.getAnimations() : {};
+	}, [spritesheet, isReady]);
 
-  // The generator for the current animation state
-  const generator = useMemo(() => {
-    if (!isReady || !spritesheet) return undefined;
-    const activeAnim = animations.includes(animName) ? animName : animations[0];
-    if (!activeAnim) return undefined;
-    
-    try {
-      return spritesheet.play(activeAnim, angle);
-    } catch (e) {
-      console.error(e);
-      return undefined;
-    }
-  }, [spritesheet, animName, angle, animations, isReady]);
+	const animations = useMemo(() => {
+		return Object.keys(animationsData) as AnimationName[];
+	}, [animationsData]);
 
-  // The rendering callback
-  const onTick = useCallback((task: RenderTask) => {
-    const canvas = canvasRef.current;
-    const ctx = canvas?.getContext("2d");
-    if (!canvas || !ctx) return;
+	const currentAngles = useMemo(() => {
+		return animationsData[animName]?.angles ?? [1];
+	}, [animationsData, animName]);
 
-    const scaledWidth = task.stageSize.width;
-    const scaledHeight = task.stageSize.height * 1.2;
+	// Ensure animName is valid for the current spritesheet
+	useEffect(() => {
+		if (isReady && animations.length > 0 && !animations.includes(animName)) {
+			setAnimName(animations[0]);
+		}
+	}, [animations, animName, isReady]);
 
-    if (canvas.width !== scaledWidth || canvas.height !== scaledHeight) {
-      canvas.width = scaledWidth;
-      canvas.height = scaledHeight;
-    }
+	// Ensure angle is valid for the current animation
+	useEffect(() => {
+		if (isReady && currentAngles.length > 0 && !currentAngles.includes(angle)) {
+			setAngle(currentAngles[0]);
+		}
+	}, [currentAngles, angle, isReady]);
 
-    ctx.imageSmoothingEnabled = false;
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    if (task.image.complete) {
-      ctx.drawImage(
-        task.image,
-        task.source.x,
-        task.source.y,
-        task.source.width,
-        task.source.height,
-        task.offset.dx,
-        task.offset.dy * 1.2,
-        task.source.width,
-        task.source.height * 1.2,
-      );
-    }
-  }, [canvasRef]);
+	// The generator for the current animation state
+	const generator = useMemo(() => {
+		if (!isReady || !spritesheet) return undefined;
+		const activeAnim = animations.includes(animName) ? animName : animations[0];
+		if (!activeAnim) return undefined;
 
-  useAnimationLoop(generator, onTick);
+		try {
+			return spritesheet.play(activeAnim, angle);
+		} catch (e) {
+			console.error(e);
+			return undefined;
+		}
+	}, [spritesheet, animName, angle, animations, isReady]);
 
-  const stageSize = useMemo(
-    () => (isReady && spritesheet) ? spritesheet.getStageSize() : { width: 64, height: 64 },
-    [spritesheet, isReady],
-  );
+	// The rendering callback
+	const onTick = useCallback(
+		(task: RenderTask) => {
+			const canvas = canvasRef.current;
+			const ctx = canvas?.getContext("2d");
+			if (!canvas || !ctx) return;
 
-  return {
-    animName,
-    setAnimName,
-    angle,
-    setAngle,
-    isReady,
-    error,
-    animations,
-    currentAngles,
-    stageSize,
-    characterName: spritesheet?.getCharacterName(),
-    characterDescription: spritesheet?.getCharacterDescription(),
-  };
+			const scaledWidth = task.stageSize.width;
+			const scaledHeight = task.stageSize.height * 1.2;
+
+			if (canvas.width !== scaledWidth || canvas.height !== scaledHeight) {
+				canvas.width = scaledWidth;
+				canvas.height = scaledHeight;
+			}
+
+			ctx.imageSmoothingEnabled = false;
+			ctx.clearRect(0, 0, canvas.width, canvas.height);
+			if (task.image.complete) {
+				ctx.drawImage(
+					task.image,
+					task.source.x,
+					task.source.y,
+					task.source.width,
+					task.source.height,
+					task.offset.dx,
+					task.offset.dy * 1.2,
+					task.source.width,
+					task.source.height * 1.2,
+				);
+			}
+		},
+		[canvasRef],
+	);
+
+	useAnimationLoop(generator, onTick);
+
+	const stageSize = useMemo(
+		() =>
+			isReady && spritesheet
+				? spritesheet.getStageSize()
+				: { width: 64, height: 64 },
+		[spritesheet, isReady],
+	);
+
+	return {
+		animName,
+		setAnimName,
+		angle,
+		setAngle,
+		isReady,
+		error,
+		animations,
+		currentAngles,
+		stageSize,
+		characterName: spritesheet?.getCharacterName(),
+		characterDescription: spritesheet?.getCharacterDescription(),
+	};
 }

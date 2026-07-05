@@ -1,29 +1,31 @@
 :root {
-  --color-black: #000000;
-  --color-white: #e6e6e6;
-  --color-blue-30: #161f50;
-  --color-blue-80: #576ce3;
-  --color-blue-50: #4341bf;
-  --color-gray-ui: #b3b3b3;
-  --color-green-10: #050805;
-  --color-green-30: #163c16;
-  --color-green-90: #5abe5a;
+	--color-black: #000000;
+	--color-white: #e6e6e6;
+	--color-blue-30: #161f50;
+	--color-blue-80: #576ce3;
+	--color-blue-50: #4341bf;
+	--color-gray-ui: #b3b3b3;
+	--color-green-10: #050805;
+	--color-green-30: #163c16;
+	--color-green-90: #5abe5a;
 
-  --font-main: 'VT323', monospace;
+	--font-main: "VT323", monospace;
 
-  --color-bg: var(--color-green-10);
-  --color-border: var(--color-green-30);
-  --color-text: var(--color-green-90);
+	--color-bg: var(--color-green-10);
+	--color-border: var(--color-green-30);
+	--color-text: var(--color-green-90);
 }
 
-*, *:before, *:after {
-  box-sizing: border-box;
+*,
+*:before,
+*:after {
+	box-sizing: border-box;
 }
 
 html {
-  background-color: var(--color-bg);
-  padding: 24px;
-  /* background-image: url('./tiles/aqconc17.png');
+	background-color: var(--color-bg);
+	padding: 24px;
+	/* background-image: url('./tiles/aqconc17.png');
   background-repeat: repeat;
   background-size: 360px; /* 400% scale (128px * 4)
   image-rendering: pixelated;
@@ -31,34 +33,33 @@ html {
 }
 
 body {
-  /* max-width: 1160px; */
-  color: var(--color-green-90);
-  font-family: var(--font-main);
-  margin: 0 auto;
+	/* max-width: 1160px; */
+	color: var(--color-green-90);
+	font-family: var(--font-main);
+	margin: 0 auto;
 }
 
 a {
-  color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 4px;
+	color: inherit;
+	text-decoration: underline;
+	text-underline-offset: 4px;
 }
 
 a:hover {
-  text-decoration: solid;
+	text-decoration: solid;
 }
 
 footer {
-  margin: 48px 0;
-  font-size: 24px;
+	margin: 48px 0;
+	font-size: 24px;
 }
 
 a {
-  color: inherit;
-  text-decoration: underline;
-  text-underline-offset: 4px;
+	color: inherit;
+	text-decoration: underline;
+	text-underline-offset: 4px;
 }
 
 a:hover {
-  text-decoration: solid;
+	text-decoration: solid;
 }
-

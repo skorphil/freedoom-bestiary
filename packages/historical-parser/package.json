@@ -1,21 +1,21 @@
 {
-  "name": "@freedoom-bestiary/historical-parser",
-  "version": "1.0.0",
-  "type": "module",
-  "exports": {
-    "./data.json": "./data.json"
-  },
-  "scripts": {
-    "test": "bun test",
-    "parse": "bun run src/index.ts --write",
-    "parse:no-ai": "bun run src/index.ts --write --no-ai",
-    "parse:no-attic": "bun run src/index.ts --write --no-attic",
-    "find-authors": "bun run src/author-normalizer/authors-finder.ts"
-  },
-  "devDependencies": {
-    "dotenv": "^17.4.2"
-  },
-  "dependencies": {
-    "@freedoom-bestiary/database": "workspace:*"
-  }
+	"name": "@freedoom-bestiary/historical-parser",
+	"version": "1.0.0",
+	"type": "module",
+	"exports": {
+		"./data.json": "./data.json"
+	},
+	"scripts": {
+		"test": "bun test",
+		"parse": "bun run src/index.ts --write",
+		"parse:no-ai": "bun run src/index.ts --write --no-ai",
+		"parse:no-attic": "bun run src/index.ts --write --no-attic",
+		"find-authors": "bun run src/author-normalizer/authors-finder.ts"
+	},
+	"devDependencies": {
+		"dotenv": "^17.4.2"
+	},
+	"dependencies": {
+		"@freedoom-bestiary/database": "workspace:*"
+	}
 }

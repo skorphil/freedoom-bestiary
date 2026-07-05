@@ -4,144 +4,159 @@ import { ContributionRepository } from "../../database/repository/ContributionRe
 import { ContributorRepository } from "../../database/repository/ContributorRepository.ts";
 
 export type AuthorResolverOptions = {
-  aiToken?: string;
-  gatewayUrl?: string;
-  noAi?: boolean;
-  cachePath?: string;
-  freedoomRepoPath?: string;
+	aiToken?: string;
+	gatewayUrl?: string;
+	noAi?: boolean;
+	cachePath?: string;
+	freedoomRepoPath?: string;
 };
 
 /**
  * Resolves authors for sprites using local cache and OpenAI/Kilo Gateway.
  */
 export class AuthorResolver {
-  private credits: string = "";
+	private credits: string = "";
 
-  constructor(private options: AuthorResolverOptions = {}) {}
+	constructor(private options: AuthorResolverOptions = {}) {}
 
-  /**
-   * Initializes the resolver by loading the cache and CREDITS file.
-   */
-  async init() {
-    // Load CREDITS file if repo path is provided
-    if (this.options.freedoomRepoPath) {
-      try {
-        const gitReader = new GitReader(this.options.freedoomRepoPath);
-        const entries = await gitReader.getTreeEntries("HEAD");
-        const creditsEntry = entries.find(e => e.path === "CREDITS");
-        if (creditsEntry) {
-          const { stdout, success } = Bun.spawnSync([
-            "git", "-C", this.options.freedoomRepoPath, "show", "HEAD:CREDITS"
-          ]);
-          if (success) {
-            this.credits = new TextDecoder().decode(stdout);
-          }
-        }
-      } catch (e) {
-        console.error("Failed to load CREDITS file:", e);
-      }
-    }
-  }
+	/**
+	 * Initializes the resolver by loading the cache and CREDITS file.
+	 */
+	async init() {
+		// Load CREDITS file if repo path is provided
+		if (this.options.freedoomRepoPath) {
+			try {
+				const gitReader = new GitReader(this.options.freedoomRepoPath);
+				const entries = await gitReader.getTreeEntries("HEAD");
+				const creditsEntry = entries.find((e) => e.path === "CREDITS");
+				if (creditsEntry) {
+					const { stdout, success } = Bun.spawnSync([
+						"git",
+						"-C",
+						this.options.freedoomRepoPath,
+						"show",
+						"HEAD:CREDITS",
+					]);
+					if (success) {
+						this.credits = new TextDecoder().decode(stdout);
+					}
+				}
+			} catch (e) {
+				console.error("Failed to load CREDITS file:", e);
+			}
+		}
+	}
 
-  /**
-   * Resolves authors for a batch of sprites in a commit.
-   * @param context Commit context (author, message)
-   * @param sprites List of sprite URLs and paths to resolve
-   */
-  async resolveAuthorsBatch(
-    context: { author: string; message: string; sha: string },
-    sprites: Array<{ url: string; path: string }>
-  ): Promise<Record<string, AuthorInfo[]>> {
-    const results: Record<string, AuthorInfo[]> = {};
-    const missing: Array<{ url: string; path: string }> = [];
+	/**
+	 * Resolves authors for a batch of sprites in a commit.
+	 * @param context Commit context (author, message)
+	 * @param sprites List of sprite URLs and paths to resolve
+	 */
+	async resolveAuthorsBatch(
+		context: { author: string; message: string; sha: string },
+		sprites: Array<{ url: string; path: string }>,
+	): Promise<Record<string, AuthorInfo[]>> {
+		const results: Record<string, AuthorInfo[]> = {};
+		const missing: Array<{ url: string; path: string }> = [];
 
-    // 1. Check database first
-    for (const sprite of sprites) {
-      const contributions = ContributionRepository.getContribution(sprite.url);
-      if (contributions.length > 0) {
-        results[sprite.url] = contributions.map(c => {
-          try {
-            const contributor = ContributorRepository.getContributorById(c.contributorId);
-            return {
-              name: contributor.name,
-              relation: c.relation,
-              contributorId: c.contributorId
-            };
-          } catch (e) {
-            // Fallback if ID is in contributions but not in contributors (should not happen normally)
-            return {
-              name: c.contributorId,
-              relation: c.relation,
-              contributorId: c.contributorId
-            };
-          }
-        });
-      } else {
-        // Fallback: try to resolve by commit author if no contributions found yet
-        // and we are in noAi mode, otherwise we'll go to AI
-        if (this.options.noAi) {
-          const found = ContributorRepository.findByNameOrAlias(context.author);
-          if (found) {
-            results[sprite.url] = [{
-              name: found.contributor.name,
-              relation: "Committer",
-              contributorId: found.id
-            }];
-          } else {
-            const errorMsg = `Author "${context.author}" not found in ContributorRepository and AI is disabled (--no-ai). ` +
-              `Please add the contributor to contributors.jsonc or enable AI resolution.`;
-            console.error(errorMsg);
-            throw new Error(errorMsg);
-          }
-        } else {
-          missing.push(sprite);
-        }
-      }
-    }
+		// 1. Check database first
+		for (const sprite of sprites) {
+			const contributions = ContributionRepository.getContribution(sprite.url);
+			if (contributions.length > 0) {
+				results[sprite.url] = contributions.map((c) => {
+					try {
+						const contributor = ContributorRepository.getContributorById(
+							c.contributorId,
+						);
+						return {
+							name: contributor.name,
+							relation: c.relation,
+							contributorId: c.contributorId,
+						};
+					} catch (e) {
+						// Fallback if ID is in contributions but not in contributors (should not happen normally)
+						return {
+							name: c.contributorId,
+							relation: c.relation,
+							contributorId: c.contributorId,
+						};
+					}
+				});
+			} else {
+				// Fallback: try to resolve by commit author if no contributions found yet
+				// and we are in noAi mode, otherwise we'll go to AI
+				if (this.options.noAi) {
+					const found = ContributorRepository.findByNameOrAlias(context.author);
+					if (found) {
+						results[sprite.url] = [
+							{
+								name: found.contributor.name,
+								relation: "Committer",
+								contributorId: found.id,
+							},
+						];
+					} else {
+						const errorMsg =
+							`Author "${context.author}" not found in ContributorRepository and AI is disabled (--no-ai). ` +
+							`Please add the contributor to contributors.jsonc or enable AI resolution.`;
+						console.error(errorMsg);
+						throw new Error(errorMsg);
+					}
+				} else {
+					missing.push(sprite);
+				}
+			}
+		}
 
-    if (missing.length === 0) return results;
+		if (missing.length === 0) return results;
 
-    // 2. AI Call
-    if (!this.options.aiToken || !this.options.gatewayUrl) {
-      console.error("AI Context:", {
-        hasToken: !!this.options.aiToken,
-        gatewayUrl: this.options.gatewayUrl
-      });
-      throw new Error("AI Token or Gateway URL missing for author resolution.");
-    }
+		// 2. AI Call
+		if (!this.options.aiToken || !this.options.gatewayUrl) {
+			console.error("AI Context:", {
+				hasToken: !!this.options.aiToken,
+				gatewayUrl: this.options.gatewayUrl,
+			});
+			throw new Error("AI Token or Gateway URL missing for author resolution.");
+		}
 
-    console.debug(`Calling AI Gateway for ${missing.length} missing sprites: ${this.options.gatewayUrl}`);
-    
-    // Ensure the URL is trimmed and valid
-    const url = this.options.gatewayUrl!.trim();
-    
-    // Process granularly
-    await this.fetchAuthorsGranularly(context, missing, url, results);
-    
-    return results;
-  }
+		console.debug(
+			`Calling AI Gateway for ${missing.length} missing sprites: ${this.options.gatewayUrl}`,
+		);
 
-  private async fetchAuthorsGranularly(
-    context: { author: string; message: string; sha: string },
-    missing: Array<{ url: string; path: string }>,
-    gatewayUrl: string,
-    results: Record<string, AuthorInfo[]>
-  ): Promise<void> {
-    // Truncate credits if too long
-    const truncatedCredits = this.credits.length > 5000 
-      ? this.credits.slice(0, 5000) + "\n... (truncated)"
-      : this.credits;
+		// Ensure the URL is trimmed and valid
+		const url = this.options.gatewayUrl!.trim();
 
-    const contributorsMap = ContributorRepository.getAllContributors();
-    const contributorsData = Object.entries(contributorsMap).map(([id, info]) => ({
-      id,
-      name: info.name,
-      aliases: info.aliases || []
-    }));
+		// Process granularly
+		await this.fetchAuthorsGranularly(context, missing, url, results);
 
-    const systemPrompt = "You are a specialized tool that returns authorship data for the Freedoom project in strict JSON format.";
-    
-    const contextPrompt = `
+		return results;
+	}
+
+	private async fetchAuthorsGranularly(
+		context: { author: string; message: string; sha: string },
+		missing: Array<{ url: string; path: string }>,
+		gatewayUrl: string,
+		results: Record<string, AuthorInfo[]>,
+	): Promise<void> {
+		// Truncate credits if too long
+		const truncatedCredits =
+			this.credits.length > 5000
+				? this.credits.slice(0, 5000) + "\n... (truncated)"
+				: this.credits;
+
+		const contributorsMap = ContributorRepository.getAllContributors();
+		const contributorsData = Object.entries(contributorsMap).map(
+			([id, info]) => ({
+				id,
+				name: info.name,
+				aliases: info.aliases || [],
+			}),
+		);
+
+		const systemPrompt =
+			"You are a specialized tool that returns authorship data for the Freedoom project in strict JSON format.";
+
+		const contextPrompt = `
 You are a git history analyzer for the Freedoom project. 
 Your task is to identify the authors of specific sprite files and concisely explain their relation to the sprite based on the commit information and project records.
 
@@ -183,140 +198,155 @@ Examples:
 ]
     `.trim();
 
-    const messages = [
-      { role: "system", content: systemPrompt },
-      { role: "user", content: contextPrompt },
-      { role: "assistant", content: "I understand the context and guidelines. Please provide the sprite information to resolve." }
-    ];
+		const messages = [
+			{ role: "system", content: systemPrompt },
+			{ role: "user", content: contextPrompt },
+			{
+				role: "assistant",
+				content:
+					"I understand the context and guidelines. Please provide the sprite information to resolve.",
+			},
+		];
 
-    const responseFormat = {
-      type: "json_schema",
-      json_schema: {
-        name: "author_resolution",
-        strict: true,
-        schema: {
-          type: "object",
-          properties: {
-            url: { type: "string" },
-            contributions: {
-              type: "array",
-              minItems: 1,
-              items: {
-                type: "object",
-                properties: {
-                  contributorId: { type: "string" },
-                  relation: { type: "string" }
-                },
-                required: ["contributorId", "relation"],
-                additionalProperties: false
-              }
-            }
-          },
-          required: ["url", "contributions"],
-          additionalProperties: false
-        }
-      }
-    };
+		const responseFormat = {
+			type: "json_schema",
+			json_schema: {
+				name: "author_resolution",
+				strict: true,
+				schema: {
+					type: "object",
+					properties: {
+						url: { type: "string" },
+						contributions: {
+							type: "array",
+							minItems: 1,
+							items: {
+								type: "object",
+								properties: {
+									contributorId: { type: "string" },
+									relation: { type: "string" },
+								},
+								required: ["contributorId", "relation"],
+								additionalProperties: false,
+							},
+						},
+					},
+					required: ["url", "contributions"],
+					additionalProperties: false,
+				},
+			},
+		};
 
-    for (const sprite of missing) {
-      console.debug(`Resolving author for: ${sprite.path}`);
-      
-      const spriteMessage = {
-        role: "user",
-        content: `Resolve authors for sprite:\n- Path: ${sprite.path}\n- EXACT URL: ${sprite.url}\n- Full File URL: https://github.com/freedoom/freedoom/blob/${context.sha}/${sprite.path}`
-      };
+		for (const sprite of missing) {
+			console.debug(`Resolving author for: ${sprite.path}`);
 
-      let resolution: any = null;
-      let attempts = 0;
-      const maxAttempts = 3;
+			const spriteMessage = {
+				role: "user",
+				content: `Resolve authors for sprite:\n- Path: ${sprite.path}\n- EXACT URL: ${sprite.url}\n- Full File URL: https://github.com/freedoom/freedoom/blob/${context.sha}/${sprite.path}`,
+			};
 
-      while (attempts < maxAttempts) {
-        attempts++;
-        try {
-          const response = await fetch(gatewayUrl, {
-            method: "POST",
-            headers: {
-              "Content-Type": "application/json",
-              "Authorization": `Bearer ${this.options.aiToken}`
-            },
-            body: JSON.stringify({
-              model: "qwen/qwen3-coder-next",
-              messages: [...messages, spriteMessage],
-              response_format: responseFormat
-            })
-          });
+			let resolution: any = null;
+			let attempts = 0;
+			const maxAttempts = 3;
 
-          if (!response.ok) {
-            const error = await response.text();
-            throw new Error(`AI Gateway error: ${response.status} ${error}`);
-          }
+			while (attempts < maxAttempts) {
+				attempts++;
+				try {
+					const response = await fetch(gatewayUrl, {
+						method: "POST",
+						headers: {
+							"Content-Type": "application/json",
+							Authorization: `Bearer ${this.options.aiToken}`,
+						},
+						body: JSON.stringify({
+							model: "qwen/qwen3-coder-next",
+							messages: [...messages, spriteMessage],
+							response_format: responseFormat,
+						}),
+					});
 
-          const data = await response.json();
-          resolution = JSON.parse(data.choices[0].message.content);
-          break;
-        } catch (e: any) {
-          console.error(`Attempt ${attempts} failed for ${sprite.path}: ${e.message}`);
-          if (attempts >= maxAttempts) throw e;
-          const delay = Math.pow(2, attempts) * 1000;
-          console.debug(`Retrying in ${delay}ms...`);
-          await new Promise(resolve => setTimeout(resolve, delay));
-        }
-      }
-      
-      // Use exact URL from sprite object to ensure consistency as requested
-      const targetUrl = sprite.url;
-      const contributions = resolution.contributions;
+					if (!response.ok) {
+						const error = await response.text();
+						throw new Error(`AI Gateway error: ${response.status} ${error}`);
+					}
 
-      // Ensure all contributors from AI are in the repository
-      const allKnownContributors = ContributorRepository.getAllContributors();
-      for (const contribution of contributions) {
-        if (!allKnownContributors[contribution.contributorId]) {
-          console.debug(`Adding new contributor from AI: ${contribution.contributorId}`);
-          // We don't have full info (aliases, etc.) but we can at least add the ID and a guessed name
-          // The AI was given the list of known contributors, so if it returned a new ID, 
-          // it might be a hallucination or it found a new person.
-          // For safety, we'll initialize it.
-          await ContributorRepository.addContributor(contribution.contributorId, {
-            name: contribution.contributorId.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ')
-          });
-        }
-      }
+					const data = await response.json();
+					resolution = JSON.parse(data.choices[0].message.content);
+					break;
+				} catch (e: any) {
+					console.error(
+						`Attempt ${attempts} failed for ${sprite.path}: ${e.message}`,
+					);
+					if (attempts >= maxAttempts) throw e;
+					const delay = Math.pow(2, attempts) * 1000;
+					console.debug(`Retrying in ${delay}ms...`);
+					await new Promise((resolve) => setTimeout(resolve, delay));
+				}
+			}
 
-      // Update database and results
-      for (const contribution of contributions) {
-        ContributionRepository.addContribution(targetUrl, contribution);
-      }
+			// Use exact URL from sprite object to ensure consistency as requested
+			const targetUrl = sprite.url;
+			const contributions = resolution.contributions;
 
-      results[targetUrl] = contributions.map((c: any) => {
-        const contributor = ContributorRepository.getContributorById(c.contributorId);
-        return {
-          name: contributor.name,
-          relation: c.relation,
-          contributorId: c.contributorId
-        };
-      });
+			// Ensure all contributors from AI are in the repository
+			const allKnownContributors = ContributorRepository.getAllContributors();
+			for (const contribution of contributions) {
+				if (!allKnownContributors[contribution.contributorId]) {
+					console.debug(
+						`Adding new contributor from AI: ${contribution.contributorId}`,
+					);
+					// We don't have full info (aliases, etc.) but we can at least add the ID and a guessed name
+					// The AI was given the list of known contributors, so if it returned a new ID,
+					// it might be a hallucination or it found a new person.
+					// For safety, we'll initialize it.
+					await ContributorRepository.addContributor(
+						contribution.contributorId,
+						{
+							name: contribution.contributorId
+								.split("-")
+								.map((w) => w.charAt(0).toUpperCase() + w.slice(1))
+								.join(" "),
+						},
+					);
+				}
+			}
 
-      // Persist immediately after each sprite resolution
-      await this.saveCache();
-    }
-  }
+			// Update database and results
+			for (const contribution of contributions) {
+				ContributionRepository.addContribution(targetUrl, contribution);
+			}
 
-  private async fetchAuthorsFromAi(
-    context: { author: string; message: string; sha: string },
-    missing: Array<{ url: string; path: string }>,
-    gatewayUrl: string
-  ): Promise<Record<string, AuthorInfo[]>> {
-    const results: Record<string, AuthorInfo[]> = {};
-    await this.fetchAuthorsGranularly(context, missing, gatewayUrl, results);
-    return results;
-  }
+			results[targetUrl] = contributions.map((c: any) => {
+				const contributor = ContributorRepository.getContributorById(
+					c.contributorId,
+				);
+				return {
+					name: contributor.name,
+					relation: c.relation,
+					contributorId: c.contributorId,
+				};
+			});
 
+			// Persist immediately after each sprite resolution
+			await this.saveCache();
+		}
+	}
 
-  /**
-   * Persists the cache to disk.
-   */
-  async saveCache() {
-    await ContributionRepository.save();
-    console.debug(`Author database saved`);
-  }
+	private async fetchAuthorsFromAi(
+		context: { author: string; message: string; sha: string },
+		missing: Array<{ url: string; path: string }>,
+		gatewayUrl: string,
+	): Promise<Record<string, AuthorInfo[]>> {
+		const results: Record<string, AuthorInfo[]> = {};
+		await this.fetchAuthorsGranularly(context, missing, gatewayUrl, results);
+		return results;
+	}
+
+	/**
+	 * Persists the cache to disk.
+	 */
+	async saveCache() {
+		await ContributionRepository.save();
+		console.debug(`Author database saved`);
+	}
 }

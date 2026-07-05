@@ -1,122 +1,123 @@
 .animator {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 16px;
-  color: var(--color-text);
-  width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+	color: var(--color-text);
+	width: 100%;
 }
 
 .animatorDisplay {
-  position: relative;
-  background-color: transparent;
-  width: 100%;
-  height: 400px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: visible;
+	position: relative;
+	background-color: transparent;
+	width: 100%;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	overflow: visible;
 }
 
 .canvasWrapper {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
 }
 
 .animatorCanvas {
-  display: block;
-  image-rendering: pixelated;
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
+	display: block;
+	image-rendering: pixelated;
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
 }
 
-.loadingOverlay, .errorOverlay {
-  position: absolute;
-  inset: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: rgba(0, 0, 0, 0.5);
-  z-index: 1;
+.loadingOverlay,
+.errorOverlay {
+	position: absolute;
+	inset: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: rgba(0, 0, 0, 0.5);
+	z-index: 1;
 }
 
 .errorOverlay {
-  color: #ff4444;
-  text-align: center;
-  padding: 10px;
+	color: #ff4444;
+	text-align: center;
+	padding: 10px;
 }
 
 .animatorControls {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  padding: 4px 8px;
-  box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	padding: 4px 8px;
+	box-sizing: border-box;
 }
 
 .stateControl {
-  display: flex;
-  align-items: center;
-  gap: 4px;
-  flex-grow: 1;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	flex-grow: 1;
+	justify-content: center;
 }
 
 .stateLabel {
-  font-family: var(--font-main);
+	font-family: var(--font-main);
 }
 
 .stateSelect {
-  background: transparent;
-  border: none;
-  font-family: var(--font-main);
-  color: var(--color-green-30);
-  font-size: 24px;
-  cursor: pointer;
-  appearance: none;
-  padding: 0;
-  text-align: center;
+	background: transparent;
+	border: none;
+	font-family: var(--font-main);
+	color: var(--color-green-30);
+	font-size: 24px;
+	cursor: pointer;
+	appearance: none;
+	padding: 0;
+	text-align: center;
 }
 
 .stateSelect:hover {
-  color: var(--color-text)
+	color: var(--color-text);
 }
 
 .stateControl > span {
-  font-size: 24px;
-  color: var(--color-green-30)
+	font-size: 24px;
+	color: var(--color-green-30);
 }
 
 .angleControl {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  justify-content: space-between;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
 }
 
 .angleButton {
-  background: transparent;
-  border: none;
-  color: var(--color-green-30);
-  cursor: pointer;
-  padding: 4px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: inherit;
-  font-size: 24px;
+	background: transparent;
+	border: none;
+	color: var(--color-green-30);
+	cursor: pointer;
+	padding: 4px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: inherit;
+	font-size: 24px;
 }
 
 .angleButton svg {
-  fill: currentColor;
+	fill: currentColor;
 }
 
 .angleButton:hover {
-  color: var(--color-text);
+	color: var(--color-text);
 }

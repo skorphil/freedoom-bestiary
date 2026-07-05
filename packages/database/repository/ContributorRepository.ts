@@ -1,78 +1,90 @@
-import { ContributorsMapSchema, ContributorSchema, type Contributor, type ContributorsMap } from "../schema/contributor";
+import {
+	ContributorsMapSchema,
+	ContributorSchema,
+	type Contributor,
+	type ContributorsMap,
+} from "../schema/contributor";
 import { readJsoncSync, writeJsoncSync, resolveDataPath } from "../utils/jsonc";
 
 const FILE_URL = resolveDataPath("../data/contributors.jsonc", import.meta.url);
 
 /** Reads Contributor's data from local FS and returns typed data */
 export class ContributorRepository {
-  private static cachedData: ContributorsMap | null = null;
+	private static cachedData: ContributorsMap | null = null;
 
-  private static loadData(): ContributorsMap {
-    if (this.cachedData) return this.cachedData;
-    const json = readJsoncSync(FILE_URL);
-    this.cachedData = ContributorsMapSchema.parse(json);
-    return this.cachedData;
-  }
+	private static loadData(): ContributorsMap {
+		if (this.cachedData) return this.cachedData;
+		const json = readJsoncSync(FILE_URL);
+		this.cachedData = ContributorsMapSchema.parse(json);
+		return this.cachedData;
+	}
 
-  /** Sets isolated mock data for testing */
-  static setData(data: ContributorsMap): void {
-    this.cachedData = data;
-  }
+	/** Sets isolated mock data for testing */
+	static setData(data: ContributorsMap): void {
+		this.cachedData = data;
+	}
 
-  /** Resets data to original production state */
-  static reset(): void {
-    this.cachedData = null;
-  }
+	/** Resets data to original production state */
+	static reset(): void {
+		this.cachedData = null;
+	}
 
-  /** Returns all contributors' data */
-  static getAllContributors(): ContributorsMap {
-    return this.loadData();
-  }
+	/** Returns all contributors' data */
+	static getAllContributors(): ContributorsMap {
+		return this.loadData();
+	}
 
-  /** Returns single contributor's data by ID */
-  static getContributorById(contributorId: string): Contributor {
-    const data = this.loadData();
-    const contributor = data[contributorId];
-    if (!contributor) {
-      throw new Error(`Contributor with id ${contributorId} not found`);
-    }
-    return contributor;
-  }
+	/** Returns single contributor's data by ID */
+	static getContributorById(contributorId: string): Contributor {
+		const data = this.loadData();
+		const contributor = data[contributorId];
+		if (!contributor) {
+			throw new Error(`Contributor with id ${contributorId} not found`);
+		}
+		return contributor;
+	}
 
-  /**
-   * Searches for a contributor by name or alias.
-   * Returns the contributor ID and data if found.
-   */
-  static findByNameOrAlias(name: string): { id: string; contributor: Contributor } | null {
-    if (!name) return null;
-    const data = this.loadData();
-    const searchName = name.toLowerCase().trim();
-    for (const [id, contributor] of Object.entries(data)) {
-      if (contributor.name.toLowerCase() === searchName) {
-        return { id, contributor };
-      }
-      if (contributor.aliases?.some(alias => alias.toLowerCase() === searchName)) {
-        return { id, contributor };
-      }
-    }
-    return null;
-  }
+	/**
+	 * Searches for a contributor by name or alias.
+	 * Returns the contributor ID and data if found.
+	 */
+	static findByNameOrAlias(
+		name: string,
+	): { id: string; contributor: Contributor } | null {
+		if (!name) return null;
+		const data = this.loadData();
+		const searchName = name.toLowerCase().trim();
+		for (const [id, contributor] of Object.entries(data)) {
+			if (contributor.name.toLowerCase() === searchName) {
+				return { id, contributor };
+			}
+			if (
+				contributor.aliases?.some((alias) => alias.toLowerCase() === searchName)
+			) {
+				return { id, contributor };
+			}
+		}
+		return null;
+	}
 
-  /** Adds a new contributor and persists to disk */
-  static async addContributor(id: string, contributor: Contributor): Promise<void> {
-    const data = this.loadData();
-    const validatedContributor = ContributorSchema.parse(contributor);
-    data[id] = validatedContributor;
-    await this.save();
-  }
+	/** Adds a new contributor and persists to disk */
+	static async addContributor(
+		id: string,
+		contributor: Contributor,
+	): Promise<void> {
+		const data = this.loadData();
+		const validatedContributor = ContributorSchema.parse(contributor);
+		data[id] = validatedContributor;
+		await this.save();
+	}
 
-  /** Persists current data to disk */
-  private static async save(): Promise<void> {
-    try {
-      const data = this.loadData();
-      writeJsoncSync(FILE_URL, data);
-    } catch (error) {
-      console.error(`Failed to write contributors to ${FILE_URL}:`, error);
-    }
-  }
+	/** Persists current data to disk */
+	private static async save(): Promise<void> {
+		try {
+			const data = this.loadData();
+			writeJsoncSync(FILE_URL, data);
+		} catch (error) {
+			console.error(`Failed to write contributors to ${FILE_URL}:`, error);
+		}
+	}
 }

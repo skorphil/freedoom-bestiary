@@ -6,7 +6,7 @@ const BLOB_URL_RE =
 
 /**
  * Parses a GitHub blob URL into its component parts.
- * 
+ *
  * @param url - The GitHub blob URL to parse
  * @returns A BlobRef object if the URL matches the expected format, null otherwise
  */
@@ -19,7 +19,7 @@ export function parseBlobUrl(url: string): BlobRef | null {
 
 /**
  * Converts a GitHub blob URL to a raw content URL.
- * 
+ *
  * @param blobUrl - The GitHub blob URL to convert
  * @returns The corresponding raw content URL
  */
@@ -31,7 +31,7 @@ export function buildRawUrl(blobUrl: string): string {
 
 /**
  * Runs a Git command in a specified directory.
- * 
+ *
  * @param args - The arguments to pass to the Git command
  * @param cwd - The current working directory for the command
  * @returns A promise that resolves to the command output or null if it fails
@@ -55,7 +55,7 @@ async function runGit(args: string[], cwd: string): Promise<Uint8Array | null> {
 /**
  * Reads a blob from a Git repository.
  * Detects if the blob is a symlink and resolves it if so.
- * 
+ *
  * @param bareRepoPath - The path to the bare Git repository
  * @param sha - The commit SHA
  * @param path - The path to the file within the repository
@@ -67,25 +67,30 @@ export async function readGitBlob(
 	path: string,
 ): Promise<Uint8Array | null> {
 	const data = await runGit(["show", `${sha}:${path}`], bareRepoPath);
-  if (!data || data.length === 0) return null;
+	if (!data || data.length === 0) return null;
 
-  // Symlink detection: if it's small, no null bytes, and looks like a path
-  if (data.length < 512 && !data.some(b => b === 0)) {
-    const text = new TextDecoder().decode(data).trim();
-    // Matches relative paths like "../foo.png", "bar/baz.gif", or "plain.png"
-    if (/^[a-zA-Z0-9_./-]+\.(png|gif)$/i.test(text)) {
-      const dir = path.includes("/") ? path.slice(0, path.lastIndexOf("/")) : "";
-      const resolvedPath = dir ? `${dir}/${text}` : text;
-      
-      // Simple one-level resolution for now
-      const resolvedData = await runGit(["show", `${sha}:${resolvedPath}`], bareRepoPath);
-      if (resolvedData && resolvedData.length > 0) {
-        return resolvedData;
-      }
-    }
-  }
+	// Symlink detection: if it's small, no null bytes, and looks like a path
+	if (data.length < 512 && !data.some((b) => b === 0)) {
+		const text = new TextDecoder().decode(data).trim();
+		// Matches relative paths like "../foo.png", "bar/baz.gif", or "plain.png"
+		if (/^[a-zA-Z0-9_./-]+\.(png|gif)$/i.test(text)) {
+			const dir = path.includes("/")
+				? path.slice(0, path.lastIndexOf("/"))
+				: "";
+			const resolvedPath = dir ? `${dir}/${text}` : text;
 
-  return data;
+			// Simple one-level resolution for now
+			const resolvedData = await runGit(
+				["show", `${sha}:${resolvedPath}`],
+				bareRepoPath,
+			);
+			if (resolvedData && resolvedData.length > 0) {
+				return resolvedData;
+			}
+		}
+	}
+
+	return data;
 }
 
 /**
@@ -98,14 +103,14 @@ export interface BareRepoMap {
 
 /**
  * Loads a sprite image from either a local Git repository or a remote URL.
- * 
+ *
  * @param url - The URL of the image to load
  * @param bareRepos - A map of repository names to their local paths
  * @returns A promise that resolves to an object containing the image data and extension, or null if it fails
  */
 export async function loadSpriteImage(
-  url: string,
-  bareRepos: BareRepoMap,
+	url: string,
+	bareRepos: BareRepoMap,
 ): Promise<{ data: Uint8Array; ext: string } | null> {
 	const extMatch = url.match(/\.(png|gif)$/i);
 	const ext = extMatch ? extMatch[1].toLowerCase() : "png";
@@ -119,48 +124,78 @@ export async function loadSpriteImage(
 		}
 	}
 
-  try {
-    const res = await fetch(buildRawUrl(url));
-    if (!res.ok) return null;
-    const contentType = res.headers.get("content-type") ?? "";
-    // Basic guard: require an image content-type when possible
-    if (!contentType.startsWith("image/")) {
-      // still try to read, but log and return null to avoid writing HTML error pages
-      console.warn(`Skipping non-image content for ${url}: ${contentType}`);
-      return null;
-    }
-    const buf = await res.arrayBuffer();
-    const data = new Uint8Array(buf);
-    // Additional sanity check using magic bytes for PNG/GIF
-    if (ext === "png") {
-      if (!(data[0] === 0x89 && data[1] === 0x50 && data[2] === 0x4E && data[3] === 0x47)) {
-        console.warn(`Downloaded file for ${url} is not valid PNG (magic bytes mismatch)`);
-        return null;
-      }
-    } else if (ext === "gif") {
-      if (!(data[0] === 0x47 && data[1] === 0x49 && data[2] === 0x46 && data[3] === 0x38)) {
-        console.warn(`Downloaded file for ${url} is not valid GIF (magic bytes mismatch)`);
-        return null;
-      }
-    }
-    return { data, ext };
-  } catch {
-    return null;
-  }
+	try {
+		const res = await fetch(buildRawUrl(url));
+		if (!res.ok) return null;
+		const contentType = res.headers.get("content-type") ?? "";
+		// Basic guard: require an image content-type when possible
+		if (!contentType.startsWith("image/")) {
+			// still try to read, but log and return null to avoid writing HTML error pages
+			console.warn(`Skipping non-image content for ${url}: ${contentType}`);
+			return null;
+		}
+		const buf = await res.arrayBuffer();
+		const data = new Uint8Array(buf);
+		// Additional sanity check using magic bytes for PNG/GIF
+		if (ext === "png") {
+			if (
+				!(
+					data[0] === 0x89 &&
+					data[1] === 0x50 &&
+					data[2] === 0x4e &&
+					data[3] === 0x47
+				)
+			) {
+				console.warn(
+					`Downloaded file for ${url} is not valid PNG (magic bytes mismatch)`,
+				);
+				return null;
+			}
+		} else if (ext === "gif") {
+			if (
+				!(
+					data[0] === 0x47 &&
+					data[1] === 0x49 &&
+					data[2] === 0x46 &&
+					data[3] === 0x38
+				)
+			) {
+				console.warn(
+					`Downloaded file for ${url} is not valid GIF (magic bytes mismatch)`,
+				);
+				return null;
+			}
+		}
+		return { data, ext };
+	} catch {
+		return null;
+	}
 }
 
 /**
  * Creates a map of repository names to their local bare repository paths.
- * 
+ *
  * @param repoRoot - The root directory of the repository
  * @returns A BareRepoMap object
  */
 export function bareRepoMap(repoRoot: string): BareRepoMap {
-  const root = repoRoot.endsWith("packages/spritesheet-generator") 
-    ? join(repoRoot, "..", "..") 
-    : repoRoot;
+	const root = repoRoot.endsWith("packages/spritesheet-generator")
+		? join(repoRoot, "..", "..")
+		: repoRoot;
 	return {
-		"freedoom/freedoom": join(root, "packages", "historical-parser", "src", "freedoom.git"),
-		"freedoom/attic": join(root, "packages", "historical-parser", "src", "attic.git"),
+		"freedoom/freedoom": join(
+			root,
+			"packages",
+			"historical-parser",
+			"src",
+			"freedoom.git",
+		),
+		"freedoom/attic": join(
+			root,
+			"packages",
+			"historical-parser",
+			"src",
+			"attic.git",
+		),
 	};
 }

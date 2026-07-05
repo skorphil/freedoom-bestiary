@@ -1,99 +1,108 @@
-import styles from './Animator.module.css'
+import styles from "./Animator.module.css";
 
 import { useRef } from "react";
 import type { AnimationName } from "@freedoom-bestiary/database/schema";
 import { useAnimation } from "./useAnimation.ts";
 
 export type AnimatorProps = {
-  uuid: string;
-  initialAnimation?: AnimationName;
-  authorName?: string;
+	uuid: string;
+	initialAnimation?: AnimationName;
+	authorName?: string;
 };
 
-export function Animator({ 
-  uuid, 
-  initialAnimation = "idling",
-  authorName
+export function Animator({
+	uuid,
+	initialAnimation = "idling",
+	authorName,
 }: AnimatorProps) {
-  const canvasRef = useRef<HTMLCanvasElement>(null);
-  const {
-    animName,
-    setAnimName,
-    angle,
-    setAngle,
-    isReady,
-    error,
-    animations,
-    currentAngles,
-    stageSize,
-  } = useAnimation({
-    uuid,
-    initialAnimation,
-    canvasRef,
-  });
+	const canvasRef = useRef<HTMLCanvasElement>(null);
+	const {
+		animName,
+		setAnimName,
+		angle,
+		setAngle,
+		isReady,
+		error,
+		animations,
+		currentAngles,
+		stageSize,
+	} = useAnimation({
+		uuid,
+		initialAnimation,
+		canvasRef,
+	});
 
-  const handleAngleChange = (delta: number) => {
-    const currentIndex = currentAngles.indexOf(angle);
-    if (currentIndex === -1) return;
-    const nextIndex = (currentIndex + delta + currentAngles.length) % currentAngles.length;
-    setAngle(currentAngles[nextIndex]);
-  };
+	const handleAngleChange = (delta: number) => {
+		const currentIndex = currentAngles.indexOf(angle);
+		if (currentIndex === -1) return;
+		const nextIndex =
+			(currentIndex + delta + currentAngles.length) % currentAngles.length;
+		setAngle(currentAngles[nextIndex]);
+	};
 
-  return (
-    <div className={styles.animator} style={{ position: 'relative' }}
-         data-ready={isReady ? 'true' : 'false'}>
-      <div className={styles.animatorDisplay}>
-        {!isReady && !error && <div className={styles.loadingOverlay}>Loading...</div>}
-        {error && <div className={styles.errorOverlay}>{error}</div>}
-        
-        <div className={styles.canvasWrapper} style={{ 
-          aspectRatio: `${stageSize.width} / ${stageSize.height}`,
-          width: '100%',
-          height: '100%',
-          maxWidth: '100%',
-          maxHeight: '100%'
-        }}>
-          <canvas 
-            ref={canvasRef} 
-            className={styles.animatorCanvas}
-            width={stageSize.width} 
-            height={stageSize.height}
-          />
-        </div>
-      </div>
-      <div className={styles.animatorControls}>
-        <div className={styles.angleControl}>
-          <button 
-            className={styles.angleButton} 
-            onClick={() => handleAngleChange(-1)}
-            title="Rotate Left"
-          >
-           {"[<]"}
-          </button>
-          
-          <div className={styles.stateControl}>
-            <span>[</span>
-            <select 
-              className={styles.stateSelect}
-              value={animName} 
-              onChange={(e) => setAnimName(e.target.value as AnimationName)}
-            >
-              {animations.map((anim) => (
-                <option key={anim} value={anim}>{`${anim}`}</option>
-                ))}
-            </select>
-            <span>]</span>
-          </div>
+	return (
+		<div
+			className={styles.animator}
+			style={{ position: "relative" }}
+			data-ready={isReady ? "true" : "false"}
+		>
+			<div className={styles.animatorDisplay}>
+				{!isReady && !error && (
+					<div className={styles.loadingOverlay}>Loading...</div>
+				)}
+				{error && <div className={styles.errorOverlay}>{error}</div>}
 
-          <button 
-            className={styles.angleButton} 
-            onClick={() => handleAngleChange(1)}
-            title="Rotate Right"
-          >
-           {"[>]"}
-          </button>
-        </div>
-      </div>
-    </div>
-  );
+				<div
+					className={styles.canvasWrapper}
+					style={{
+						aspectRatio: `${stageSize.width} / ${stageSize.height}`,
+						width: "100%",
+						height: "100%",
+						maxWidth: "100%",
+						maxHeight: "100%",
+					}}
+				>
+					<canvas
+						ref={canvasRef}
+						className={styles.animatorCanvas}
+						width={stageSize.width}
+						height={stageSize.height}
+					/>
+				</div>
+			</div>
+			<div className={styles.animatorControls}>
+				<div className={styles.angleControl}>
+					<button
+						className={styles.angleButton}
+						onClick={() => handleAngleChange(-1)}
+						title="Rotate Left"
+					>
+						{"[<]"}
+					</button>
+
+					<div className={styles.stateControl}>
+						<span>[</span>
+						<select
+							className={styles.stateSelect}
+							value={animName}
+							onChange={(e) => setAnimName(e.target.value as AnimationName)}
+						>
+							{animations.map((anim) => (
+								<option key={anim} value={anim}>{`${anim}`}</option>
+							))}
+						</select>
+						<span>]</span>
+					</div>
+
+					<button
+						className={styles.angleButton}
+						onClick={() => handleAngleChange(1)}
+						title="Rotate Right"
+					>
+						{"[>]"}
+					</button>
+				</div>
+			</div>
+		</div>
+	);
 }
