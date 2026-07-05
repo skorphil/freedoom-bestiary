@@ -6,6 +6,16 @@ import { ContributionsMapSchema, ContributionSchema, type Contribution, type Con
 export class ContributionRepository {
   static data: ContributionsMap = ContributionsMapSchema.parse(contributionsJson)
 
+  /** Sets isolated mock data for testing */
+  static setData(data: ContributionsMap): void {
+    this.data = data;
+  }
+
+  /** Resets data to original production state */
+  static reset(): void {
+    this.data = ContributionsMapSchema.parse(contributionsJson);
+  }
+
   /** Returns contributions for a specific sprite URL */
   static getContribution(spriteUrl: string): Contribution[] {
     // Exact match

@@ -1,5 +1,6 @@
-import { expect, test } from "bun:test";
-import { SpriteCollection } from "../app/src/models/SpritesheetsCollection.ts";
+import { expect, test, beforeEach, afterEach } from "bun:test";
+import { SpritesheetsCollection } from "../app/src/models/SpritesheetsCollection.ts";
+import { ContributorRepository } from "@freedoom-bestiary/database";
 
 const mockData = {
   "CYBR": [
@@ -11,7 +12,13 @@ const mockData = {
       commitUrl: "https://github.com/freedoom/freedoom/commit/sha2",
       spritesheetPath: "path2.webp",
       source: "freedoom",
-      sprites: [{ author: "Author 2" } as any],
+      contributions: [],
+      sprites: [
+        { 
+          author: "Author 2", 
+          contributions: [{ contributorId: "author-2", relation: "Artist" }] 
+        } as any
+      ],
     },
     {
       date: "2023-01-01",
@@ -21,6 +28,7 @@ const mockData = {
       commitUrl: "https://github.com/freedoom/attic/commit/sha1",
       spritesheetPath: "path1.webp",
       source: "attic",
+      contributions: [],
       sprites: [],
     },
   ],
@@ -33,47 +41,61 @@ const mockData = {
       commitUrl: "https://github.com/freedoom/freedoom/commit/sha3",
       spritesheetPath: "path3.webp",
       source: "freedoom",
+      contributions: [],
       sprites: [],
     },
   ],
 };
 
-test("SpriteCollection - getAllCodes", () => {
-  const collection = new SpriteCollection(mockData as any);
+beforeEach(() => {
+  ContributorRepository.setData({
+    "author-2": {
+      name: "Author 2",
+      links: []
+    }
+  } as any);
+});
+
+afterEach(() => {
+  ContributorRepository.reset();
+});
+
+test("SpritesheetsCollection - getAllCodes", () => {
+  const collection = new SpritesheetsCollection(mockData as any);
   expect(collection.getAllCodes()).toEqual(["CYBR", "SPID"]);
 });
 
-test("SpriteCollection - getHistory", () => {
-  const collection = new SpriteCollection(mockData as any);
-  expect(collection.getHistory("CYBR").length).toEqual(2);
-  expect(collection.getHistory("cybr")[0].sha).toEqual("sha2"); // Case-insensitivity
-  expect(collection.getHistory("NONEXISTENT")).toEqual([]);
+test("SpritesheetsCollection - getHistory", () => {
+  const collection = new SpritesheetsCollection(mockData as any);
+  expect(collection.getHistory("CYBR" as any).length).toEqual(2);
+  expect(collection.getHistory("CYBR" as any)[0].sha).toEqual("sha2"); 
+  expect(collection.getHistory("NONEXISTENT" as any)).toEqual([]);
 });
 
-test("SpriteCollection - getLatest", () => {
-  const collection = new SpriteCollection(mockData as any);
-  const latest = collection.getLatest("CYBR");
+test("SpritesheetsCollection - getLatest", () => {
+  const collection = new SpritesheetsCollection(mockData as any);
+  const latest = collection.getLatest("CYBR" as any);
   expect(latest?.sha).toEqual("sha2");
   expect(latest?.date).toEqual("2023-01-02");
 });
 
-test("SpriteCollection - isAtticEntry", () => {
-  const collection = new SpriteCollection(mockData as any);
-  const history = collection.getHistory("CYBR");
+test("SpritesheetsCollection - isAtticEntry", () => {
+  const collection = new SpritesheetsCollection(mockData as any);
+  const history = collection.getHistory("CYBR" as any);
   expect(collection.isAtticEntry(history[0])).toEqual(false);
   expect(collection.isAtticEntry(history[1])).toEqual(true);
 });
 
-test("SpriteCollection - getLatestLiveEntry", () => {
-  const collection = new SpriteCollection(mockData as any);
-  const history = collection.getHistory("CYBR");
+test("SpritesheetsCollection - getLatestLiveEntry", () => {
+  const collection = new SpritesheetsCollection(mockData as any);
+  const history = collection.getHistory("CYBR" as any);
   const latestLive = collection.getLatestLiveEntry(history);
   expect(latestLive?.sha).toEqual("sha2");
 });
 
-test("SpriteCollection - getUniqueAuthors", () => {
-  const collection = new SpriteCollection(mockData as any);
-  const history = collection.getHistory("CYBR");
+test("SpritesheetsCollection - getUniqueAuthors", () => {
+  const collection = new SpritesheetsCollection(mockData as any);
+  const history = collection.getHistory("CYBR" as any);
   const authors = collection.getUniqueAuthors(history[0]);
   expect(authors).toEqual(["Author 2"]);
 });

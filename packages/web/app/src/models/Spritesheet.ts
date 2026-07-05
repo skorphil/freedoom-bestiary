@@ -1,24 +1,53 @@
-import type { SpritesheetVersion, SpriteMeta, Sprite, SpriteCode } from "./schema.ts";
+import type { 
+  Spritesheet as SpritesheetData, 
+  Sprite, 
+  Character,
+  CharacterCode 
+} from "@freedoom-bestiary/database";
 
 export type RenderTask = {
   image: HTMLImageElement;
-  source: Sprite;
+  source: Sprite;  // Database type
   offset: { dx: number; dy: number };
   stageSize: { width: number; height: number };
 };
 
-/** Create instance of spritesheet, which provide handy methods */
 export class Spritesheet {
   private maxWidth: number = 0;
   private maxHeight: number = 0;
+  private image: HTMLImageElement | null = null;
+  private imageLoaded: Promise<void>;
 
   constructor(
-    private _code: SpriteCode,
-    private image: HTMLImageElement,
-    private atlas: SpritesheetVersion,
-    private meta: SpriteMeta
+    private _code: CharacterCode,
+    private atlas: SpritesheetData,  // Database type
+    private meta: Character          // Database type
   ) {
     this.calculateBoundingBox();
+    this.imageLoaded = this.loadImage();
+  }
+
+  private async loadImage(): Promise<void> {
+    if (typeof Image === 'undefined') {
+      // In test environment (Bun), Image is not defined. 
+      // We skip actual image loading but still resolve for testing logic.
+      return Promise.resolve();
+    }
+    return new Promise((resolve, reject) => {
+      const img = new Image();
+      img.crossOrigin = "anonymous";
+      img.onload = () => {
+        this.image = img;
+        resolve();
+      };
+      img.onerror = reject;
+      // Use symlinked path from public/spritesheets
+      img.src = `${import.meta.env.BASE_URL}spritesheets/${this.atlas.fileName}`;
+    });
+  }
+
+  async ready(): Promise<void> {
+    return this.imageLoaded;
   }
 
   private calculateBoundingBox() {
@@ -26,50 +55,42 @@ export class Spritesheet {
     this.maxHeight = Math.max(...this.atlas.sprites.map((s) => s.height), 0);
   }
 
-  get code () { 
-    return this._code
+  get code() { 
+    return this._code;
   }
 
-  // get
-
-  /** Return bounding box of all frames to avoid jumping */
   getStageSize() {
     return { width: this.maxWidth, height: Math.ceil(this.maxHeight * 1.2) };
   }
 
-  /** return list of existing animations keys */
   private getAvailableAnimationKeys(): string[] {
-    const keys: (keyof SpriteMeta)[] = ["idling", "chasing", "attacking", "hurting", "dying", "gibbing"];
-    return keys.filter((key) => Array.isArray(this.meta[key]));
+    const keys: (keyof Character["animations"])[] = [
+      "idling", "chasing", "attacking", "hurting", "dying", "gibbing"
+    ];
+    return keys.filter((key) => Array.isArray(this.meta.animations[key]));
   }
 
-  /** return list of existing animations with available angles */
   getAnimationsWithAngles(): { name: string; angles: number[] }[] {
     const availableAnims = this.getAvailableAnimationKeys();
     const sprites = this.atlas.sprites;
 
     return availableAnims.map((animName) => {
-      const sequence = this.meta[animName as keyof SpriteMeta];
+      const sequence = this.meta.animations[animName as keyof Character["animations"]];
       if (!sequence || !Array.isArray(sequence)) return { name: animName, angles: [] };
 
-      // Collect all frame letters used in this animation
       const framesInAnim = new Set(sequence.map((step) => step.frame));
-
-      // Find all unique angles available for these frame letters in the atlas
-      // Rule: if a frame has angle '0', it ignores all other angles for that frame
       const angles = new Set<number>();
       
       framesInAnim.forEach(frame => {
         const frameSprites = sprites.filter(s => s.frame === frame);
-        const hasAngleZero = frameSprites.some(s => s.angle === "0");
+        const hasAngleZero = frameSprites.some(s => s.angle === 0);
         
         if (hasAngleZero) {
           angles.add(0);
         } else {
           frameSprites.forEach(s => {
-            const angleVal = parseInt(s.angle, 10);
-            if (!isNaN(angleVal)) {
-              angles.add(angleVal);
+            if (!isNaN(s.angle)) {
+              angles.add(s.angle);
             }
           });
         }
@@ -82,12 +103,8 @@ export class Spritesheet {
     });
   }
 
-  /** 
-   * Infinite generator yielding frame drawing tasks at 35Hz.
-   * Handles delays and looping internally.
-   */
   *play(animName: string, angle: number): Generator<RenderTask> {
-    const sequence = this.meta[animName as keyof SpriteMeta];
+    const sequence = this.meta.animations[animName as keyof Character["animations"]];
     if (!sequence || !Array.isArray(sequence)) {
       const available = this.getAnimationsWithAngles().map(a => a.name).join(", ");
       throw new Error(`Animation "${animName}" does not exist for ${this.code}. Available: ${available}`);
@@ -98,8 +115,12 @@ export class Spritesheet {
         const sprite = this.findSprite(step.frame, angle);
         const delay = step.delay <= 0 ? 1 : step.delay;
 
+        if (!this.image && typeof Image !== 'undefined') {
+          throw new Error("Image not loaded");
+        }
+
         const renderTask: RenderTask = {
-          image: this.image,
+          image: this.image as HTMLImageElement,
           source: sprite,
           offset: {
             dx: Math.round((this.maxWidth - sprite.width) / 2),
@@ -117,21 +138,20 @@ export class Spritesheet {
 
   private findSprite(frame: string, angle: number): Sprite {
     const sprites = this.atlas.sprites;
-    const angleStr = angle.toString();
 
-    // 1. Try angle 0 (rotation-less) - this takes precedence over specific angles
-    let found = sprites.find((s) => s.frame === frame && s.angle === "0");
+    // 1. Try angle 0 (rotation-less)
+    let found = sprites.find((s) => s.frame === frame && s.angle === 0);
     if (found) return found;
 
     // 2. Try exact match
-    found = sprites.find((s) => s.frame === frame && s.angle === angleStr);
+    found = sprites.find((s) => s.frame === frame && s.angle === angle);
     if (found) return found;
 
     // 3. Try any angle for this frame
     found = sprites.find((s) => s.frame === frame);
     if (found) return found;
 
-    // 4. Fallback to any sprite at all (should not happen with valid data)
+    // 4. Fallback
     return sprites[0];
   }
 }

@@ -1,12 +1,12 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { SpriteMeta, SpritesheetVersion, SpriteCode } from "../../models/schema.ts";
-import { type RenderTask, Spritesheet } from "../../models/Spritesheet.ts";
+import type { Character, Spritesheet, CharacterCode } from "@freedoom-bestiary/database";
+import { type RenderTask, Spritesheet as LocalSpritesheet } from "../../models/Spritesheet.ts";
 import { useAnimationLoop } from "./useAnimationLoop.ts";
 
 export type UseAnimationOptions = {
-  code: SpriteCode;
-  version: SpritesheetVersion;
-  meta: SpriteMeta;
+  code: CharacterCode;
+  version: Spritesheet;
+  meta: Character;
   initialAnimation?: string;
   canvasRef: React.RefObject<HTMLCanvasElement | null>;
 };
@@ -21,39 +21,38 @@ export function useAnimation({
   const [animName, setAnimName] = useState(initialAnimation);
   const [angle, setAngle] = useState(1);
   
-  const [image, setImage] = useState<HTMLImageElement | null>(null);
   const [error, setError] = useState<string | null>(null);
 
   // Initialize Spritesheet instance
   const spritesheet = useMemo(() => {
-    if (!image) return null;
-    return new Spritesheet(code, image, version, meta);
-  }, [code, image, version, meta]);
+    return new LocalSpritesheet(code, version, meta);
+  }, [code, version, meta]);
 
-  // Load image
+  // Wait for image to load
+  const [isReady, setIsReady] = useState(false);
+  
   useEffect(() => {
-    /** Spritesheet. Actual sprite drawn directly into canvasRef  */
-    const img = new Image();
-    img.crossOrigin = "anonymous";
-
-    img.onload = () => {
-      setImage(img);
-      setError(null);
+    let cancelled = false;
+    
+    spritesheet.ready().then(() => {
+      if (!cancelled) {
+        setIsReady(true);
+        setError(null);
+      }
+    }).catch((err) => {
+      if (!cancelled) {
+        setError(`Failed to load spritesheet for ${code}: ${err.message}`);
+      }
+    });
+    
+    return () => {
+      cancelled = true;
     };
-
-    img.onerror = () => {
-      setError(`Failed to load spritesheet for ${code}`);
-    };
-
-    img.src = `${import.meta.env.BASE_URL}${version.spritesheetPath}`.replace(
-      "//",
-      "/",
-    );
-  }, [version.spritesheetPath, code]);
+  }, [spritesheet, code]);
 
   const animationsWithAngles = useMemo(() => {
-    return spritesheet?.getAnimationsWithAngles() ?? [];
-  }, [spritesheet]);
+    return isReady ? spritesheet.getAnimationsWithAngles() : [];
+  }, [spritesheet, isReady]);
 
   const animations = useMemo(() => {
     return animationsWithAngles.map((a) => a.name);
@@ -80,14 +79,14 @@ export function useAnimation({
 
   // The generator for the current animation state
   const generator = useMemo(() => {
-    if (!spritesheet || !animations.includes(animName)) return undefined;
+    if (!isReady || !animations.includes(animName)) return undefined;
     try {
       return spritesheet.play(animName, angle);
     } catch (e) {
       console.error(e);
       return undefined;
     }
-  }, [spritesheet, animName, angle, animations]);
+  }, [spritesheet, animName, angle, animations, isReady]);
 
   // The rendering callback
   const onTick = useCallback((task: RenderTask) => {
@@ -125,8 +124,8 @@ export function useAnimation({
   useAnimationLoop(generator, onTick);
 
   const stageSize = useMemo(
-    () => spritesheet?.getStageSize() || { width: 64, height: 64 },
-    [spritesheet],
+    () => isReady ? spritesheet.getStageSize() : { width: 64, height: 64 },
+    [spritesheet, isReady],
   );
 
   return {
@@ -134,7 +133,7 @@ export function useAnimation({
     setAnimName,
     angle,
     setAngle,
-    image,
+    isReady,
     error,
     animations,
     currentAngles,

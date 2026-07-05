@@ -10,20 +10,21 @@ const mockAtlas: Partial<SpritesheetVersion> = {
     { frame: "A", angle: "0", x: 20, y: 0, width: 20, height: 20, author: "", state: "", url: "" },
     { frame: "B", angle: "1", x: 40, y: 0, width: 20, height: 20, author: "", state: "", url: "" },
   ]
-};
+} as any;
 
 const mockMeta: Partial<SpriteMeta> = {
   freedoomName: "Test Monster",
-  idling: [
-    { frame: "A", delay: 2 },
-    { frame: "B", delay: 1 }
-  ]
-};
+  animations: {
+    idling: [
+      { frame: "A", delay: 2 },
+      { frame: "B", delay: 1 }
+    ]
+  }
+} as any;
 
 test("Spritesheet - bounding box calculation", () => {
   const sheet = new Spritesheet(
-    "TEST",
-    {} as any,
+    "TEST" as any,
     mockAtlas as any,
     mockMeta as any
   );
@@ -35,8 +36,7 @@ test("Spritesheet - bounding box calculation", () => {
 
 test("Spritesheet - getAnimationsWithAngles", () => {
   const sheet = new Spritesheet(
-    "TEST",
-    {} as any,
+    "TEST" as any,
     mockAtlas as any,
     mockMeta as any
   );
@@ -46,16 +46,21 @@ test("Spritesheet - getAnimationsWithAngles", () => {
   expect(idling).toBeDefined();
   // Frame A has angle 0, so it ignores angle 1.
   // Frame B has only angle 1, so angle 1 is included.
-  expect(idling?.angles).toContain(0);
-  expect(idling?.angles).toContain(1);
-  expect(idling?.angles).not.toContain(2);
+  expect(idling?.angles).toContain("0" as any);
+  expect(idling?.angles).toContain("1" as any);
+  expect(idling?.angles).not.toContain("2" as any);
 });
 
 test("Spritesheet - angle 0 takes precedence", () => {
   const sheet = new Spritesheet(
-    "TEST",
-    {} as any,
-    mockAtlas as any,
+    "TEST" as any,
+    {
+      ...mockAtlas,
+      sprites: [
+        { frame: "A", angle: 0, x: 20, y: 0, width: 20, height: 20, author: "", state: "", url: "" },
+        { frame: "A", angle: 1, x: 0, y: 0, width: 20, height: 20, author: "", state: "", url: "" },
+      ]
+    } as any,
     mockMeta as any
   );
   
@@ -63,13 +68,12 @@ test("Spritesheet - angle 0 takes precedence", () => {
   const gen = sheet.play("idling", 1);
   const result = gen.next().value;
   expect(result.source.frame).toBe("A");
-  expect(result.source.angle).toBe("0");
+  expect(result.source.angle).toBe(0);
 });
 
 test("Spritesheet - play generator timing", () => {
   const sheet = new Spritesheet(
-    "TEST",
-    {} as any,
+    "TEST" as any,
     mockAtlas as any,
     mockMeta as any
   );
@@ -95,8 +99,7 @@ test("Spritesheet - play generator timing", () => {
 
 test("Spritesheet - angle fallback", () => {
   const sheet = new Spritesheet(
-    "TEST",
-    {} as any,
+    "TEST" as any,
     mockAtlas as any,
     mockMeta as any
   );
@@ -111,8 +114,7 @@ test("Spritesheet - angle fallback", () => {
 
 test("Spritesheet - invalid animation throws", () => {
   const sheet = new Spritesheet(
-    "TEST",
-    {} as any,
+    "TEST" as any,
     mockAtlas as any,
     mockMeta as any
   );

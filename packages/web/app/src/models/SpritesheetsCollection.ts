@@ -1,87 +1,148 @@
-import { SpriteCode, SpritesheetsData } from "./schema.ts";
-import { spritesheets } from "../adapters/spritesheetAdapter.ts";
+import type { 
+  Spritesheet as SpritesheetData, 
+  Character, 
+  CharacterCode,
+  SpritesheetsMap
+} from "@freedoom-bestiary/database";
+import { ContributorRepository, CharacterRepository } from "@freedoom-bestiary/database";
 
-type SpritesheetVersion = SpritesheetsData[SpriteCode][number];
+export type CharacterSpritesheetsMap = Record<CharacterCode, SpritesheetData[]>;
 
-/** Model for interacting with the collection of spritesheets and their evolution history */
-export class SpriteCollection {
-  constructor(private data: SpritesheetsData) {}
+/** Convert nested spritesheets map to character-based map */
+export function organizeSpritesheetsByCharacter(spritesheets: SpritesheetsMap): CharacterSpritesheetsMap {
+  const result: CharacterSpritesheetsMap = {} as CharacterSpritesheetsMap;
+  
+  // Iterate through the nested structure: Record<CharacterCode, Record<string, Spritesheet>>
+  for (const [characterCode, characterSheets] of Object.entries(spritesheets)) {
+    const code = characterCode as CharacterCode;
+    
+    // Validate that it's a known character code
+    try {
+      CharacterRepository.getCharacter(code); // This will throw if invalid
+      
+      // Get all spritesheets for this character
+      result[code] = Object.values(characterSheets);
+    } catch (e) {
+      // Skip unknown character codes
+      console.warn(`Unknown character code: ${characterCode}`);
+    }
+  }
+  
+  return result;
+}
+
+export class SpritesheetsCollection {
+  constructor(private data: CharacterSpritesheetsMap) {}
 
   /** Returns all available character codes */
-  getAllCodes(): SpriteCode[] {
-    return Object.keys(this.data) as SpriteCode[];
+  getAllCodes(): CharacterCode[] {
+    return Object.keys(this.data) as CharacterCode[];
   }
 
   /** Gets the full evolution history for a specific character code */
-  getHistory(code: string): SpritesheetVersion[] {
-    const key = this.#getNormalizedKey(code);
-    return key ? this.data[key as SpriteCode] : [];
+  getHistory(code: CharacterCode): SpritesheetData[] {
+    return this.data[code] ?? [];
   }
 
-  /** Gets the latest version (first in history) for a specific character code */
-  getLatest(code: string): SpritesheetVersion | undefined {
+  /** Gets the latest version (most recent date) for a specific character code */
+  getLatest(code: CharacterCode): SpritesheetData | undefined {
     const history = this.getHistory(code);
-    if (history.length > 0) return history[0];
-
-    throw Error("No spritesheet versions found");
+    if (history.length === 0) return undefined;
+    
+    return history.sort((a, b) => 
+      new Date(b.commitDate).getTime() - new Date(a.commitDate).getTime()
+    )[0];
   }
 
-  /** Gets the original version (last in history) for a specific character code */
-  getOriginal(code: string): SpritesheetVersion | undefined {
+  /** Gets the original version (oldest date) for a specific character code */
+  getOriginal(code: CharacterCode): SpritesheetData | undefined {
     const history = this.getHistory(code);
-    return history.length > 0 ? history[history.length - 1] : undefined;
+    if (history.length === 0) return undefined;
+    
+    return history.sort((a, b) => 
+      new Date(a.commitDate).getTime() - new Date(b.commitDate).getTime()
+    )[0];
   }
 
-  /** Checks if a version entry is from the attic repository */
-  isAtticEntry(entry: SpritesheetVersion): boolean {
-    return entry.commitUrl.includes("/attic/");
+  /** Checks if a spritesheet is from the attic repository */
+  isAtticEntry(sheet: SpritesheetData): boolean {
+    return sheet.commitUrl.includes("/attic/");
   }
 
   /** Gets the latest live (non-attic) entry from a list of versions */
-  getLatestLiveEntry(
-    entries: SpritesheetVersion[],
-  ): SpritesheetVersion | undefined {
-    const live = entries.filter((e) => !this.isAtticEntry(e));
-    return [...live].sort((a, b) => b.date.localeCompare(a.date))[0];
+  getLatestLiveEntry(sheets: SpritesheetData[]): SpritesheetData | undefined {
+    const live = sheets.filter(s => !this.isAtticEntry(s));
+    if (live.length === 0) return undefined;
+    
+    return live.sort((a, b) => 
+      new Date(b.commitDate).getTime() - new Date(a.commitDate).getTime()
+    )[0];
   }
 
-  /** Gets a sorted list of unique authors across multiple version entries */
-  getUniqueAuthors(spritesheetVersion: SpritesheetVersion): string[] {
-    const authors = this.getAuthorsWithRelations(spritesheetVersion);
-    return authors.map(a => a.name);
+  /** Gets unique author names for a specific spritesheet version */
+  getUniqueAuthors(sheet: SpritesheetData): string[] {
+    const contributorIds = new Set<string>();
+    
+    // Collect from sprite-level contributions
+    for (const sprite of sheet.sprites) {
+      for (const contrib of sprite.contributions) {
+        contributorIds.add(contrib.contributorId);
+      }
+    }
+    
+    // Collect from sheet-level contributions
+    for (const contrib of sheet.contributions) {
+      contributorIds.add(contrib.contributorId);
+    }
+    
+    // Resolve IDs to names
+    const names: string[] = [];
+    for (const id of contributorIds) {
+      try {
+        const contributor = ContributorRepository.getContributorById(id);
+        names.push(contributor.name);
+      } catch {
+        // Skip if contributor not found
+      }
+    }
+    
+    return [...new Set(names)].sort((a, b) => a.localeCompare(b));
   }
 
-  /** Gets unique authors with their relations */
-  getAuthorsWithRelations(spritesheetVersion: SpritesheetVersion): { name: string; relation?: string }[] {
+  /** Gets authors with their relations for a specific version */
+  getAuthorsWithRelations(sheet: SpritesheetData): { name: string; relation?: string }[] {
     const authorsMap = new Map<string, string | undefined>();
     
-    // Process sprite-level authors
-    for (const sprite of spritesheetVersion.sprites) {
-      if (sprite.authors) {
-        for (const author of sprite.authors) {
-          // If already seen, keep existing relation (prefer commit-level if available later)
-          if (!authorsMap.has(author.name)) {
-            authorsMap.set(author.name, author.relation);
-          }
+    // Process sprite-level contributions
+    for (const sprite of sheet.sprites) {
+      for (const contrib of sprite.contributions) {
+        if (!authorsMap.has(contrib.contributorId)) {
+          authorsMap.set(contrib.contributorId, contrib.relation);
         }
       }
     }
     
-    // Process commit-level authors (higher priority for overall relation)
-    if (spritesheetVersion.authors) {
-      for (const author of spritesheetVersion.authors) {
-        authorsMap.set(author.name, author.relation);
+    // Process sheet-level contributions (higher priority)
+    for (const contrib of sheet.contributions) {
+      authorsMap.set(contrib.contributorId, contrib.relation);
+    }
+    
+    // Resolve IDs to names
+    const result: { name: string; relation?: string }[] = [];
+    for (const [id, relation] of authorsMap.entries()) {
+      try {
+        const contributor = ContributorRepository.getContributorById(id);
+        result.push({ name: contributor.name, relation });
+      } catch {
+        // Skip if not found
       }
     }
     
-    return Array.from(authorsMap.entries())
-      .map(([name, relation]) => ({ name, relation }))
-      .filter(a => !!a.name)
-      .sort((a, b) => a.name.localeCompare(b.name));
+    return result.sort((a, b) => a.name.localeCompare(b.name));
   }
 
-  /** Gets a sorted list of unique authors across all versions for a specific character code */
-  getAuthors(code: string): string[] {
+  /** Gets a sorted list of unique authors across all versions for a specific character */
+  getAuthors(code: CharacterCode): string[] {
     const history = this.getHistory(code);
     if (history.length === 0) return [];
 
@@ -96,29 +157,33 @@ export class SpriteCollection {
   }
 
   /** Gets all contributions for a specific author */
-  getAuthorContributions(authorName: string): { code: SpriteCode; version: SpritesheetVersion }[] {
-    const contributions: { code: SpriteCode; version: SpritesheetVersion }[] = [];
+  getAuthorContributions(authorName: string): { code: CharacterCode; sheet: SpritesheetData }[] {
+    const contributions: { code: CharacterCode; sheet: SpritesheetData }[] = [];
     const codes = this.getAllCodes();
 
     for (const code of codes) {
       const history = this.getHistory(code);
-      for (const version of history) {
-        const authors = this.getUniqueAuthors(version);
+      for (const sheet of history) {
+        const authors = this.getUniqueAuthors(sheet);
         if (authors.includes(authorName)) {
-          contributions.push({ code, version });
+          contributions.push({ code, sheet });
         }
       }
     }
 
-    return contributions.sort((a, b) => b.version.date.localeCompare(a.version.date));
+    return contributions.sort((a, b) => 
+      new Date(b.sheet.commitDate).getTime() - new Date(a.sheet.commitDate).getTime()
+    );
   }
 
-  /** Normalizes the code to match the keys in the data record (case-insensitive search) */
-  #getNormalizedKey(code: string): string | undefined {
-    const upperCode = code.toUpperCase();
-    return Object.keys(this.data).find((k) => k.toUpperCase() === upperCode);
+  /** Get character metadata */
+  getCharacter(code: CharacterCode): Character {
+    return CharacterRepository.getCharacter(code);
   }
 }
 
-/** Default instance of the Bestiary initialized with production data */
-export const bestiary = new SpriteCollection(spritesheets);
+/** Factory function to create collection from repository data */
+export function createSpritesheetsCollection(data: SpritesheetsMap): SpritesheetsCollection {
+  const organizedData = organizeSpritesheetsByCharacter(data);
+  return new SpritesheetsCollection(organizedData);
+}

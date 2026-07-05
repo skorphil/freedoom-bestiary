@@ -40,7 +40,7 @@ describe("VersionCombiner", () => {
 
     const result = combiner.combine(snapshots, []);
     expect(result.spriteVersions.length).toBe(1);
-    expect(result.spriteVersions[0].authors).toEqual([{ name: "Artist A", relation: "Original artist" }]);
+    expect(result.spriteVersions[0].authors).toEqual([{ name: "Artist A", relation: "Original artist", contributorId: "unknown" }]);
     expect(result.spriteVersions[0].sprites[0].spriteAuthors).toEqual([{ name: "Artist A", relation: "Original artist" }]);
   });
 
@@ -75,8 +75,8 @@ describe("VersionCombiner", () => {
 
     const result = combiner.buildVersionSnapshot(snapshot, frameState);
     expect(result.authors.length).toBe(2);
-    expect(result.authors).toContainEqual({ name: "Author1", relation: "Artist" });
-    expect(result.authors).toContainEqual({ name: "Author2", relation: "Refinement" });
+    expect(result.authors).toContainEqual({ name: "Author1", relation: "Artist", contributorId: "unknown" });
+    expect(result.authors).toContainEqual({ name: "Author2", relation: "Refinement", contributorId: "unknown" });
   });
 
   test("combine should handle multi-snapshot commits using commitIndex", () => {

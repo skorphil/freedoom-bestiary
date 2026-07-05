@@ -15,7 +15,7 @@ function CharacterSnippet({secondaryText, title, spritesheet}: CharacterSnippetP
   const navigate = useNavigate()
 
   return (
-    <div role="link" onClick={() => navigate(`${spritesheet.}`)} className={styles.snippetContainer}>
+    <div role="link" onClick={() => navigate(`/character/${spritesheet.code}`)} className={styles.snippetContainer}>
       <p className={styles.title}>{title}</p>
       <p className={styles.footer}>{secondaryText}</p>
       <canvas className={styles.spriteContainer} ref={canvasRef}/>

@@ -1,13 +1,13 @@
 import styles from './Animator.module.css'
 
 import { useRef } from "react";
-import type { SpritesheetVersion, SpriteMeta, SpriteCode } from "../../models/schema.ts";
+import type { Spritesheet, Character, CharacterCode } from "@freedoom-bestiary/database";
 import { useAnimation } from "./useAnimation.ts";
 
 export type AnimatorProps = {
-  code: SpriteCode;
-  version: SpritesheetVersion;
-  meta: SpriteMeta;
+  code: CharacterCode;
+  version: Spritesheet;
+  meta: Character;
   initialAnimation?: string;
   authorName?: string;
 };
@@ -25,7 +25,7 @@ export function Animator({
     setAnimName,
     angle,
     setAngle,
-    image,
+    isReady,
     error,
     animations,
     currentAngles,
@@ -46,9 +46,10 @@ export function Animator({
   };
 
   return (
-    <div className={styles.animator} style={{ position: 'relative' }}>
+    <div className={styles.animator} style={{ position: 'relative' }}
+         data-ready={isReady ? 'true' : 'false'}>
       <div className={styles.animatorDisplay}>
-        {!image && !error && <div className={styles.loadingOverlay}>Loading...</div>}
+        {!isReady && !error && <div className={styles.loadingOverlay}>Loading...</div>}
         {error && <div className={styles.errorOverlay}>{error}</div>}
         
         <div className={styles.canvasWrapper} style={{ 
@@ -73,7 +74,7 @@ export function Animator({
             onClick={() => handleAngleChange(-1)}
             title="Rotate Left"
           >
-           {`[<]`}
+           {"[<]"}
           </button>
           
           <div className={styles.stateControl}>
@@ -85,7 +86,7 @@ export function Animator({
             >
               {animations.map((anim) => (
                 <option key={anim} value={anim}>{`${anim}`}</option>
-              ))}
+                ))}
             </select>
             <span>]</span>
           </div>
@@ -95,7 +96,7 @@ export function Animator({
             onClick={() => handleAngleChange(1)}
             title="Rotate Right"
           >
-           {`[>]`}
+           {"[>]"}
           </button>
         </div>
       </div>

@@ -129,6 +129,7 @@ export function buildSpritesheetMetadata(
     commitSha: version.sha,
     commitMessage: version.message,
     commitUrl: version.url,
+    source: version.source,
     sprites,
     contributions: version.authors.map(a => ({
       contributorId: a.contributorId,

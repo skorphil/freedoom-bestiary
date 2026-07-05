@@ -10,6 +10,16 @@ export class ContributorRepository {
   );
   static data: ContributorsMap = ContributorsMapSchema.parse(contributorsJson)
 
+  /** Sets isolated mock data for testing */
+  static setData(data: ContributorsMap): void {
+    this.data = data;
+  }
+
+  /** Resets data to original production state */
+  static reset(): void {
+    this.data = ContributorsMapSchema.parse(contributorsJson);
+  }
+
   /** Returns all contributors' data */
   static getAllContributors(): ContributorsMap {
     return this.data
@@ -29,6 +39,7 @@ export class ContributorRepository {
    * Returns the contributor ID and data if found.
    */
   static findByNameOrAlias(name: string): { id: string; contributor: Contributor } | null {
+    if (!name) return null;
     const searchName = name.toLowerCase().trim();
     for (const [id, contributor] of Object.entries(this.data)) {
       if (contributor.name.toLowerCase() === searchName) {

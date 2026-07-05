@@ -1,5 +1,6 @@
 import { z } from 'zod'
 import { ContributionSchema } from './contribution'
+import { CharacterCodeSchema } from './character'
 
 /** Individual sprite metadata within a spritesheet */
 export const SpriteSchema = z.object({
@@ -28,11 +29,20 @@ export const SpritesheetSchema = z.object({
   commitSha: z.string(),
   commitMessage: z.string(),
   commitUrl: z.string(),
+  /** Source repository */
+  source: z.enum(['freedoom', 'attic']).optional(),
   sprites: z.array(SpriteSchema),
   contributions: z.array(ContributionSchema)
 })
 
-export const SpritesheetsMapSchema = z.record(z.string(), SpritesheetSchema)
+/** Map of spritesheets by character code (enum), then by spritesheet ID */
+export const SpritesheetsMapSchema = z.record(
+  CharacterCodeSchema, // Character code enum (POSS, SPOS, etc.)
+  z.record(
+    z.string(), // spritesheetId (UUID)
+    SpritesheetSchema
+  )
+)
 
 export type Sprite = z.infer<typeof SpriteSchema>
 export type Spritesheet = z.infer<typeof SpritesheetSchema>

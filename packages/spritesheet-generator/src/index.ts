@@ -12,7 +12,7 @@ import { loadSpriteImage } from "./get-image.ts";
 import { extractGridCells } from "./parse-sprites.ts";
 import type { Spritesheet, SpritesheetsMap, Version } from "./types.ts";
 import sharp from "sharp";
-import { CharacterRepository, ParsedCharacterRepository, SpritesheetRepository } from "@freedoom-bestiary/database";
+import { CharacterRepository, ParsedCharacterRepository, SpritesheetRepository, type CharacterCode, type SpritesheetRepositoryOptions } from "@freedoom-bestiary/database";
 
 /**
  * Configuration for the runtime environment.
@@ -32,6 +32,8 @@ export interface RuntimeConfig {
   bareRepos: Readonly<Record<string, string>>;
   /** Maximum number of concurrent fetch operations */
   fetchConcurrency: number;
+  /** Options for the database repository */
+  repositoryOptions?: SpritesheetRepositoryOptions;
 }
 
 /**
@@ -514,7 +516,7 @@ export async function buildOneSheet(
     spritesheetId,
   );
 
-  await SpritesheetRepository.addSpritesheet(code, entry, buffer);
+  await SpritesheetRepository.addSpritesheet(code, entry, buffer, config.repositoryOptions);
   return entry;
 }
 
@@ -529,12 +531,19 @@ export async function runWithConfig(
   config: RuntimeConfig,
   targets: InputTarget[],
 ): Promise<{ collection: SpritesheetsMap; appended: number }> {
-  const collection = await SpritesheetRepository.getAllSpritesheets();
+  const collection = await SpritesheetRepository.getAllSpritesheets(config.repositoryOptions);
   let appended = 0;
 
   for (const target of targets) {
-    const code = target.code;
+    const code = target.code as CharacterCode;
+    const characterGroup = collection[code];
+
     for (const version of target.versions) {
+      // Skip if this SHA is already in the collection for this character
+      if (characterGroup && Object.values(characterGroup).some(s => s.commitSha === version.sha)) {
+        continue;
+      }
+
       console.log(`[${code} @ ${version.sha.slice(0, 7)}] building...`);
       const entry = await buildOneSheet(config, code, version);
 
@@ -569,6 +578,6 @@ export async function main() {
   }
 }
 
-if (import.meta.main || (typeof process !== "undefined" && process.argv[1] === Bun.main)) {
+if (import.meta.main) {
   await main();
 }

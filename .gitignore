@@ -13,6 +13,6 @@ AGENTS.md
 .claude
 
 *.local
-.cache
+.cache*
 
 node_modules

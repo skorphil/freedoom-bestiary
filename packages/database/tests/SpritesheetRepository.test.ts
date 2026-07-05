@@ -1,39 +1,72 @@
-import { expect, test, describe } from "bun:test";
+import { expect, test, describe, beforeEach, afterEach } from "bun:test";
 import { SpritesheetRepository } from "../repository/SpritesheetRepository";
 
 describe("SpritesheetRepository", () => {
-  const testId = "bab4b9b3-6268-4478-b986-27e0059f6642";
-  const testSha = "57246cae8f7901d4bc63072f9632685d1e3b507d";
+  const testSha = "27aca39126c0f021e543516119c9d3b2500575ac";
+  const mockSpritesheets = {
+    "POSS": {
+      "sheet-1": {
+        spritesheetId: "sheet-1",
+        commitSha: testSha,
+        fileName: "poss-sheet.webp",
+        date: "2023-01-01",
+        author: "Artist A",
+        commitMessage: "Initial commit",
+        commitUrl: "url1",
+        source: "freedoom",
+        sprites: []
+      }
+    }
+  };
 
-  test("getAllSpritesheets returns all spritesheets", () => {
-    const spritesheets = SpritesheetRepository.getAllSpritesheets();
+  beforeEach(() => {
+    SpritesheetRepository.setData(mockSpritesheets as any);
+  });
+
+  afterEach(() => {
+    SpritesheetRepository.reset();
+  });
+
+  test("getAllSpritesheets returns all spritesheets", async () => {
+    const spritesheets = await SpritesheetRepository.getAllSpritesheets();
     expect(spritesheets).toBeDefined();
     expect(Object.keys(spritesheets).length).toBeGreaterThan(0);
-    expect(spritesheets["BOSS_57246cae8f7901d4bc63072f9632685d1e3b507d_0"]).toBeDefined();
+    expect(spritesheets["POSS"]).toBeDefined();
   });
 
-  test("getSpritesheetById returns a single spritesheet", () => {
-    const spritesheet = SpritesheetRepository.getSpritesheetById(testId);
+  test("getSpritesheetById returns a single spritesheet", async () => {
+    const spritesheet = await SpritesheetRepository.getSpritesheetById("POSS", "sheet-1");
     expect(spritesheet).toBeDefined();
-    expect(spritesheet.spritesheetId).toBe(testId);
-    expect(spritesheet.commitSha).toBe(testSha);
+    expect(spritesheet.spritesheetId).toBe("sheet-1");
   });
 
-  test("getSpritesheetById throws error for invalid id", () => {
-    expect(() => {
-      SpritesheetRepository.getSpritesheetById("00000000-0000-0000-0000-000000000000");
-    }).toThrow("Spritesheet with ID 00000000-0000-0000-0000-000000000000 not found");
+  test("getSpritesheetById throws error for invalid id", async () => {
+    try {
+      await SpritesheetRepository.getSpritesheetById("POSS", "invalid-id");
+      expect(true).toBe(false);
+    } catch (e) {
+      expect((e as Error).message).toBe("Spritesheet with ID invalid-id not found for character POSS");
+    }
   });
 
-  test("getSpritesheetsByCommit returns spritesheets for a specific commit", () => {
-    const spritesheets = SpritesheetRepository.getSpritesheetsByCommit(testSha);
+  test("getSpritesheetById throws error for invalid character", async () => {
+    try {
+      await SpritesheetRepository.getSpritesheetById("INVALID", "sheet-1");
+      expect(true).toBe(false);
+    } catch (e) {
+      expect((e as Error).message).toBe("No spritesheets found for character INVALID");
+    }
+  });
+
+  test("getSpritesheetsByCommit returns spritesheets for a specific commit", async () => {
+    const spritesheets = await SpritesheetRepository.getSpritesheetsByCommit(testSha);
     expect(spritesheets).toBeArray();
-    expect(spritesheets.length).toBeGreaterThan(0);
-    expect(spritesheets.every(s => s.commitSha === testSha)).toBeTrue();
+    expect(spritesheets.length).toBe(1);
+    expect(spritesheets[0].commitSha).toBe(testSha);
   });
 
-  test("getSpritesheetsByCommit returns empty array for non-existent commit", () => {
-    const spritesheets = SpritesheetRepository.getSpritesheetsByCommit("invalid-sha");
+  test("getSpritesheetsByCommit returns empty array for non-existent commit", async () => {
+    const spritesheets = await SpritesheetRepository.getSpritesheetsByCommit("invalid-sha");
     expect(spritesheets).toBeArray();
     expect(spritesheets.length).toBe(0);
   });

@@ -1,91 +1,83 @@
-import { useLoaderData, Link } from "react-router";
+import { Link } from "react-router";
 import styles from "../src/components/CharacterItem.module.css";
 import { Header } from "../src/components/Header.tsx";
 import { Animator } from "../src/components/animator/Animator.tsx";
-import { bestiary } from "../src/models/SpritesheetsCollection.ts";
-import spriteMeta from "@sprites_meta/sprites_meta.json";
+import { createSpritesheetsCollection } from "../src/models/SpritesheetsCollection.ts";
+import { SpritesheetRepository, CharacterRepository } from "@freedoom-bestiary/database";
 import type { Route } from "./+types/character.$code";
-import type { SpriteCode } from "../src/models/schema.ts";
+import type { CharacterCode, Spritesheet } from "@freedoom-bestiary/database";
 
 export function meta({ params }: Route.MetaArgs) {
-  const code = params.code as SpriteCode;
-  const meta = (spriteMeta as any).find((m: any) => m.spriteCode === code);
+  const code = params.code as CharacterCode;
+  const character = CharacterRepository.getCharacter(code);
   return [
-    { title: `${meta?.freedoomName || code} - Freedoom Bestiary` },
-    { name: "description", content: `Historical spritesheets for ${meta?.freedoomName || code}` },
+    { title: `${character.freedoomName || code} - Freedoom Bestiary` },
+    { name: "description", content: `Historical spritesheets for ${character.freedoomName || code}` },
   ];
 }
 
-export async function clientLoader({ params }: Route.ClientLoaderArgs) {
-  const code = params.code as SpriteCode;
-  const history = bestiary.getHistory(code);
-  const meta = (spriteMeta as any).find((m: any) => m.spriteCode === code);
-
+// This runs at BUILD TIME during SSG
+export async function loader({ params }: Route.LoaderArgs) {
+  const code = params.code.toUpperCase() as CharacterCode;
+  
+  const allSheets = await SpritesheetRepository.getAllSpritesheets();
+  const collection = createSpritesheetsCollection(allSheets);
+  
+  const history = collection.getHistory(code);
+  const character = CharacterRepository.getCharacter(code);
+  
   // Sort: Freedoom first (by date desc), then Attic (by date desc)
   const freedoomVersions = history
-    .filter((v) => v.source === "freedoom")
-    .sort((a, b) => b.date.localeCompare(a.date));
+    .filter((v) => !collection.isAtticEntry(v))
+    .sort((a, b) => new Date(b.commitDate).getTime() - new Date(a.commitDate).getTime());
   
   const atticVersions = history
-    .filter((v) => v.source === "attic")
-    .sort((a, b) => b.date.localeCompare(a.date));
+    .filter((v) => collection.isAtticEntry(v))
+    .sort((a, b) => new Date(b.commitDate).getTime() - new Date(a.commitDate).getTime());
 
   const sortedHistory = [...freedoomVersions, ...atticVersions];
 
   return {
     code,
     history: sortedHistory,
-    meta,
+    character,
   };
 }
 
-export default function CharacterDetail() {
-  const { code, history, meta } = useLoaderData<typeof clientLoader>();
+export default function CharacterDetail({ loaderData }: Route.ComponentProps) {
+  const { code, history, character } = loaderData;
 
   return (
     <>
       <Header />
       
       <div style={{ marginBottom: '2rem' }}>
-        <h1 style={{fontSize: "40px", marginBottom: '0.5rem' }}>{meta?.freedoomName || code}</h1>
-        <p>{meta?.description}</p>
+        <h1 style={{fontSize: "40px", marginBottom: '0.5rem' }}>{character.freedoomName || code}</h1>
+        <p>{character.description}</p>
       </div>
 
       <div className={styles.characterGrid}>
         {history.map((version) => (
-          <div key={version.sha} className={styles.characterItem}>
+          <div key={version.spritesheetId} className={styles.characterItem}>
             <div className={styles.characterDetails}>
               <div className={styles.metaGroup}>
                 <div className={styles.metaLabel}>Source</div>
                 <div className={styles.metaValue} style={{ textTransform: 'capitalize' }}>
-                  {version.source}
+                  {version.commitUrl.includes("/attic/") ? "attic" : "freedoom"}
                 </div>
               </div>
 
               <div className={styles.metaGroup}>
                 <div className={styles.metaLabel}>Date</div>
                 <div className={styles.metaValue}>
-                  {new Date(version.date).toISOString().slice(0, 10)}
+                  {new Date(version.commitDate).toISOString().slice(0, 10)}
                 </div>
               </div>
 
               <div className={styles.metaGroup}>
                 <div className={styles.metaLabel}>Authors</div>
                 <div className={styles.metaValue}>
-                  <ul style={{ listStyle: 'none', padding: 0, margin: 0 }}>
-                    {bestiary.getAuthorsWithRelations(version).map((author, i) => (
-                      <li key={i} style={{ marginBottom: '4px' }}>
-                        <Link to={`/authors/${author.name}`}>
-                          <strong>{author.name}</strong>
-                        </Link>
-                        {author.relation && (
-                          <span style={{ display: 'block', fontSize: '0.75rem' }}>
-                            {author.relation}
-                          </span>
-                        )}
-                      </li>
-                    ))}
-                  </ul>
+                  {/* Authors component */}
                 </div>
               </div>
 
@@ -98,7 +90,7 @@ export default function CharacterDetail() {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {version.sha.slice(0, 7)}
+                    {version.commitSha.slice(0, 7)}
                   </a>
                 </div>
               </div>
@@ -116,7 +108,7 @@ export default function CharacterDetail() {
                 </div>
               </div>
             </div>
-            {meta && <Animator code={code} version={version} meta={meta} />}
+            <Animator code={code} version={version} meta={character} />
           </div>
         ))}
       </div>

@@ -5,6 +5,16 @@ import { CharacterSchema, CharactersMapSchema, type Character, type CharacterCod
 export class CharacterRepository {
   static data: CharactersMap = CharactersMapSchema.parse(charactersJson)
 
+  /** Sets isolated mock data for testing */
+  static setData(data: CharactersMap): void {
+    this.data = data;
+  }
+
+  /** Resets data to original production state */
+  static reset(): void {
+    this.data = CharactersMapSchema.parse(charactersJson);
+  }
+
   /** Returns all characters' data with animation sequences */
   static getAllCharacters(): CharactersMap {
     return this.data

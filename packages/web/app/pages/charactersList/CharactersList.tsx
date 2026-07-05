@@ -1,18 +1,36 @@
 import { Outlet } from "react-router"
-import CharacterSnippet from "./CharacterSnippet"
+import styles from "./CharacterSnippet.module.css"
+import { CharacterItem } from "../../src/components/CharacterItem"
 
-/**
-  * New component
-  */
-function CharactersList() {
+import type { CharacterCode, Spritesheet } from "@freedoom-bestiary/database";
+
+type CharacterEntry = {
+  code: CharacterCode;
+  name: string;
+  description: string;
+  latest: Spritesheet;
+  authors: string[];
+};
+
+type CharactersListProps = {
+  characters: CharacterEntry[];
+};
+
+function CharactersList({ characters }: CharactersListProps) {
   return (
-    <div>
-      <CharacterSnippet title="123"  />
-      <CharacterSnippet title="123"  />
-      <CharacterSnippet title="123" secondaryText="lolojs" />
+    <div className={styles.characterGrid}>
+      {characters.map(({ code, name, description, latest, authors }) => (
+        latest && (
+          <CharacterItem
+            key={code}
+            spritesheet={latest}
+            code={code}
+            authors={authors}
+          />
+        )
+      ))}
       <Outlet />
     </div>
-    
   )
 }
 

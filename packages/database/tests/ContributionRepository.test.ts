@@ -1,14 +1,30 @@
-import { expect, test, describe } from "bun:test";
+import { expect, test, describe, beforeEach, afterEach } from "bun:test";
 import { ContributionRepository } from "../repository/ContributionRepository";
 
 describe("ContributionRepository", () => {
-  const testUrl = "https://github.com/freedoom/freedoom/blob/57246cae8f7901d4bc63072f9632685d1e3b507d/sprites/possa1.png";
+  const testUrl = "https://example.com/sprite.png";
+  const mockContributions = {
+    [testUrl]: [
+      {
+        contributorId: "test-artist",
+        relation: "Artist"
+      }
+    ]
+  };
+
+  beforeEach(() => {
+    ContributionRepository.setData(mockContributions as any);
+  });
+
+  afterEach(() => {
+    ContributionRepository.reset();
+  });
 
   test("getContribution returns contributions for existing sprite", () => {
     const contributions = ContributionRepository.getContribution(testUrl);
     expect(contributions).toBeArray();
-    expect(contributions.length).toBeGreaterThan(0);
-    expect(contributions[0]?.contributorId).toBe("simon-howard");
+    expect(contributions.length).toBe(1);
+    expect(contributions[0]?.contributorId).toBe("test-artist");
   });
 
   test("getContribution returns empty array for non-existent sprite", () => {
@@ -20,8 +36,8 @@ describe("ContributionRepository", () => {
   test("addContribution adds a new contribution", () => {
     const newUrl = "https://example.com/new-sprite.png";
     const newContribution = {
-      contributorId: "test-user",
-      relation: "Artist"
+      contributorId: "new-artist",
+      relation: "Refinement"
     };
 
     ContributionRepository.addContribution(newUrl, newContribution);

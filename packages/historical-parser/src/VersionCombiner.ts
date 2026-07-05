@@ -226,10 +226,15 @@ export class VersionCombiner {
     const authorsMap = new Map<string, { name: string; relation: string; contributorId: string }>();
     for (const s of sprites) {
       for (const a of s.spriteAuthors) {
-        // Only add authors that have a contributorId
-        if (a.contributorId) {
-          authorsMap.set(a.name, { name: a.name, relation: a.relation, contributorId: a.contributorId });
+        let contributorId = a.contributorId;
+        
+        // If contributorId is missing, try to resolve it
+        if (!contributorId) {
+          const found = ContributorRepository.findByNameOrAlias(a.name);
+          contributorId = found ? found.id : "unknown";
         }
+        
+        authorsMap.set(a.name, { name: a.name, relation: a.relation, contributorId });
       }
     }
     const authors = Array.from(authorsMap.values());

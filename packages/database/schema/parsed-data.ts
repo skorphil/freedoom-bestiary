@@ -1,5 +1,6 @@
 import { z } from 'zod'
 import { ContributionSchema } from './contribution'
+import { CharacterCodeSchema } from './character'
 
 /**
  * Metadata for a single sprite frame extracted by a parser.
@@ -51,7 +52,7 @@ export const ParsedSnapshotSchema = z.object({
  */
 export const ParsedCharacterSchema = z.object({
   /** 4-character sprite code (e.g., "POSS", "CYBR") */
-  code: z.string(),
+  code: CharacterCodeSchema,
   /** Chronological list of snapshots */
   versions: z.array(ParsedSnapshotSchema),
 })

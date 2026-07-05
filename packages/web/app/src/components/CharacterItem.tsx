@@ -1,36 +1,35 @@
 import styles from "./CharacterItem.module.css";
-import { SpriteCode, SpritesheetVersion } from "../models/schema.ts";
-import { Animator } from "./animator/Animator.tsx";
-import spriteMeta from "@sprites_meta/sprites_meta.json";
 import { Link } from "react-router";
+import type { CharacterCode, Spritesheet } from "@freedoom-bestiary/database";
+import { Animator } from "./animator/Animator.tsx";
+import { CharacterRepository } from "@freedoom-bestiary/database";
 
 type CharacterItemProps = {
-  spritesheet: SpritesheetVersion;
-  spriteCode: SpriteCode;
-  contributors: string[];
+  spritesheet: Spritesheet;
+  code: CharacterCode;
+  authors: string[];
 };
 
 export function CharacterItem({
   spritesheet,
-  spriteCode,
-  contributors,
+  code,
+  authors,
 }: CharacterItemProps) {
   const {
-    date,
-    sha,
+    commitDate,
+    commitSha,
     commitUrl,
     commitMessage,
   } = spritesheet;
-  const dateLabel = new Date(date).toISOString().slice(0, 10);
-  const meta = (spriteMeta as any).find((m: any) => m.spriteCode === spriteCode);
+  const dateLabel = new Date(commitDate).toISOString().slice(0, 10);
+  const character = CharacterRepository.getCharacter(code);
+  
   return (
     <div className={styles.characterItem}>
-     
-
       <div className={styles.characterDetails}>
         <h2 className={styles.characterName}>
-          <Link to={`/character/${spriteCode}`} className={styles.characterLink}>
-            {meta?.freedoomName || spriteCode}
+          <Link to={`/character/${code}`} className={styles.characterLink}>
+            {character.freedoomName || code}
           </Link>
         </h2>
         
@@ -38,7 +37,7 @@ export function CharacterItem({
           <div className={styles.metaLabel}>Latest commit</div>
           <div className={styles.metaValue}>
             <a href={commitUrl} title={commitMessage}>
-              {dateLabel} · {sha.slice(0, 7)}
+              {dateLabel} · {commitSha.slice(0, 7)}
             </a>
           </div>
         </div>
@@ -46,16 +45,16 @@ export function CharacterItem({
         <div className={styles.metaGroup}>
           <div className={styles.metaLabel}>Contributors</div>
           <div className={styles.metaValue}>
-            {contributors.map((name, i) => (
+            {authors.map((name, i) => (
               <span key={name}>
                 <Link to={`/authors/${name}`}>{name}</Link>
-                {i < contributors.length - 1 ? ", " : ""}
+                {i < authors.length - 1 ? ", " : ""}
               </span>
             ))}
           </div>
         </div>
       </div>
-       {meta && <Animator code={spriteCode} version={spritesheet} meta={meta} />}
+      <Animator code={code} version={spritesheet} meta={character} />
     </div>
   );
 }
