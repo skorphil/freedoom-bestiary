@@ -8,7 +8,8 @@
   ],
   "scripts": {
     "test": "bun test",
-    "dev:web": "bun --filter @freedoom-bestiary/web dev"
+    "dev:web": "bun --filter @freedoom-bestiary/web dev",
+    "build:web": "bun --filter @freedoom-bestiary/web build"
   },
   "devDependencies": {
     "typescript": "^6.0.3",

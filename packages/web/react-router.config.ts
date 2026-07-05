@@ -2,7 +2,7 @@ import type { Config } from "@react-router/dev/config";
 import { SpritesheetRepository } from "@freedoom-bestiary/database";
 
 export default {
-  ssr: false,
+  ssr: true,
   basename: "/freedoom-bestiary/",
   async prerender() {
     const allSheets = await SpritesheetRepository.getAllSpritesheets();

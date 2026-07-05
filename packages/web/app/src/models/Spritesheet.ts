@@ -7,7 +7,7 @@ import type {
 
 export type RenderTask = {
   image: HTMLImageElement;
-  source: Sprite;  // Database type
+  source: Sprite;
   offset: { dx: number; dy: number };
   stageSize: { width: number; height: number };
 };
@@ -20,8 +20,8 @@ export class Spritesheet {
 
   constructor(
     private _code: CharacterCode,
-    private atlas: SpritesheetData,  // Database type
-    private meta: Character          // Database type
+    private atlas: SpritesheetData,
+    private meta: Character
   ) {
     this.calculateBoundingBox();
     this.imageLoaded = this.loadImage();
@@ -29,8 +29,6 @@ export class Spritesheet {
 
   private async loadImage(): Promise<void> {
     if (typeof Image === 'undefined') {
-      // In test environment (Bun), Image is not defined. 
-      // We skip actual image loading but still resolve for testing logic.
       return Promise.resolve();
     }
     return new Promise((resolve, reject) => {
@@ -40,9 +38,15 @@ export class Spritesheet {
         this.image = img;
         resolve();
       };
-      img.onerror = reject;
-      // Use symlinked path from public/spritesheets
-      img.src = `${import.meta.env.BASE_URL}spritesheets/${this.atlas.fileName}`;
+      img.onerror = () => {
+        reject(new Error(`Failed to load spritesheet image: ${img.src}`));
+      };
+      
+      const baseUrl = import.meta.env.BASE_URL.endsWith('/') 
+        ? import.meta.env.BASE_URL 
+        : `${import.meta.env.BASE_URL}/`;
+      
+      img.src = `${baseUrl}spritesheets/${this.atlas.fileName}`;
     });
   }
 
@@ -64,10 +68,8 @@ export class Spritesheet {
   }
 
   private getAvailableAnimationKeys(): string[] {
-    const keys: (keyof Character["animations"])[] = [
-      "idling", "chasing", "attacking", "hurting", "dying", "gibbing"
-    ];
-    return keys.filter((key) => Array.isArray(this.meta.animations[key]));
+    const keys = Object.keys(this.meta.animations);
+    return keys.filter((key) => Array.isArray(this.meta.animations[key as keyof Character["animations"]]));
   }
 
   getAnimationsWithAngles(): { name: string; angles: number[] }[] {

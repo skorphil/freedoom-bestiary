@@ -1,19 +1,20 @@
 import styles from "./CharacterItem.module.css";
 import { Link } from "react-router";
-import type { CharacterCode, Spritesheet } from "@freedoom-bestiary/database";
+import type { CharacterCode, Spritesheet, Character } from "@freedoom-bestiary/database";
 import { Animator } from "./animator/Animator.tsx";
-import { CharacterRepository } from "@freedoom-bestiary/database";
 
 type CharacterItemProps = {
   spritesheet: Spritesheet;
   code: CharacterCode;
   authors: string[];
+  character: Character;
 };
 
 export function CharacterItem({
   spritesheet,
   code,
   authors,
+  character,
 }: CharacterItemProps) {
   const {
     commitDate,
@@ -22,7 +23,6 @@ export function CharacterItem({
     commitMessage,
   } = spritesheet;
   const dateLabel = new Date(commitDate).toISOString().slice(0, 10);
-  const character = CharacterRepository.getCharacter(code);
   
   return (
     <div className={styles.characterItem}>

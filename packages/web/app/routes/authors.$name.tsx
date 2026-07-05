@@ -21,15 +21,37 @@ export async function loader({ params }: Route.LoaderArgs) {
   
   const allSheets = await SpritesheetRepository.getAllSpritesheets();
   const collection = createSpritesheetsCollection(allSheets);
-  const contributions = collection.getAuthorContributions(name);
+  
+  // Find contributor by name to get ID
+  const allContributors = ContributorRepository.getAllContributors();
+  const contributor = Object.values(allContributors).find(c => c.name === name);
+  const contributorId = contributor ? contributor.contributorId : name;
+  
+  const contributions = collection.getAuthorContributions(contributorId);
 
   // Pre-process contributions to include character data
-  const processedContributions = contributions.map(({ code, sheet }) => ({
-    code,
-    sheet,
-    character: CharacterRepository.getCharacter(code),
-    authorsWithRelations: collection.getAuthorsWithRelations(sheet)
-  }));
+  const processedContributions = contributions.map(({ code, sheet }) => {
+    const character = CharacterRepository.getCharacter(code);
+    
+    // Resolve authors with relations in loader
+    const authorsWithRelations = sheet.contributions.map(c => {
+      try {
+        return {
+          name: ContributorRepository.getContributorById(c.contributorId).name,
+          relation: c.relation
+        };
+      } catch {
+        return { name: c.contributorId, relation: c.relation };
+      }
+    });
+
+    return {
+      code,
+      sheet,
+      character,
+      authorsWithRelations
+    };
+  });
 
   return {
     name,

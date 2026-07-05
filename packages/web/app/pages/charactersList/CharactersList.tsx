@@ -2,7 +2,7 @@ import { Outlet } from "react-router"
 import styles from "./CharacterSnippet.module.css"
 import { CharacterItem } from "../../src/components/CharacterItem"
 
-import type { CharacterCode, Spritesheet } from "@freedoom-bestiary/database";
+import type { CharacterCode, Spritesheet, Character } from "@freedoom-bestiary/database";
 
 type CharacterEntry = {
   code: CharacterCode;
@@ -10,6 +10,7 @@ type CharacterEntry = {
   description: string;
   latest: Spritesheet;
   authors: string[];
+  character: Character;
 };
 
 type CharactersListProps = {
@@ -19,13 +20,14 @@ type CharactersListProps = {
 function CharactersList({ characters }: CharactersListProps) {
   return (
     <div className={styles.characterGrid}>
-      {characters.map(({ code, name, description, latest, authors }) => (
+      {characters.map(({ code, name, description, latest, authors, character }) => (
         latest && (
           <CharacterItem
             key={code}
             spritesheet={latest}
             code={code}
             authors={authors}
+            character={character}
           />
         )
       ))}

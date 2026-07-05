@@ -4,7 +4,6 @@ import type {
   CharacterCode,
   SpritesheetsMap
 } from "@freedoom-bestiary/database";
-import { ContributorRepository, CharacterRepository } from "@freedoom-bestiary/database";
 
 export type CharacterSpritesheetsMap = Record<CharacterCode, SpritesheetData[]>;
 
@@ -12,20 +11,9 @@ export type CharacterSpritesheetsMap = Record<CharacterCode, SpritesheetData[]>;
 export function organizeSpritesheetsByCharacter(spritesheets: SpritesheetsMap): CharacterSpritesheetsMap {
   const result: CharacterSpritesheetsMap = {} as CharacterSpritesheetsMap;
   
-  // Iterate through the nested structure: Record<CharacterCode, Record<string, Spritesheet>>
   for (const [characterCode, characterSheets] of Object.entries(spritesheets)) {
     const code = characterCode as CharacterCode;
-    
-    // Validate that it's a known character code
-    try {
-      CharacterRepository.getCharacter(code); // This will throw if invalid
-      
-      // Get all spritesheets for this character
-      result[code] = Object.values(characterSheets);
-    } catch (e) {
-      // Skip unknown character codes
-      console.warn(`Unknown character code: ${characterCode}`);
-    }
+    result[code] = Object.values(characterSheets);
   }
   
   return result;
@@ -49,7 +37,7 @@ export class SpritesheetsCollection {
     const history = this.getHistory(code);
     if (history.length === 0) return undefined;
     
-    return history.sort((a, b) => 
+    return [...history].sort((a, b) => 
       new Date(b.commitDate).getTime() - new Date(a.commitDate).getTime()
     )[0];
   }
@@ -59,7 +47,7 @@ export class SpritesheetsCollection {
     const history = this.getHistory(code);
     if (history.length === 0) return undefined;
     
-    return history.sort((a, b) => 
+    return [...history].sort((a, b) => 
       new Date(a.commitDate).getTime() - new Date(b.commitDate).getTime()
     )[0];
   }
@@ -74,7 +62,7 @@ export class SpritesheetsCollection {
     const live = sheets.filter(s => !this.isAtticEntry(s));
     if (live.length === 0) return undefined;
     
-    return live.sort((a, b) => 
+    return [...live].sort((a, b) => 
       new Date(b.commitDate).getTime() - new Date(a.commitDate).getTime()
     )[0];
   }
@@ -83,6 +71,11 @@ export class SpritesheetsCollection {
   getUniqueAuthors(sheet: SpritesheetData): string[] {
     const contributorIds = new Set<string>();
     
+    // Collect from sheet-level contributions
+    for (const contrib of sheet.contributions) {
+      contributorIds.add(contrib.contributorId);
+    }
+    
     // Collect from sprite-level contributions
     for (const sprite of sheet.sprites) {
       for (const contrib of sprite.contributions) {
@@ -90,23 +83,7 @@ export class SpritesheetsCollection {
       }
     }
     
-    // Collect from sheet-level contributions
-    for (const contrib of sheet.contributions) {
-      contributorIds.add(contrib.contributorId);
-    }
-    
-    // Resolve IDs to names
-    const names: string[] = [];
-    for (const id of contributorIds) {
-      try {
-        const contributor = ContributorRepository.getContributorById(id);
-        names.push(contributor.name);
-      } catch {
-        // Skip if contributor not found
-      }
-    }
-    
-    return [...new Set(names)].sort((a, b) => a.localeCompare(b));
+    return [...contributorIds].sort((a, b) => a.localeCompare(b));
   }
 
   /** Gets authors with their relations for a specific version */
@@ -130,12 +107,7 @@ export class SpritesheetsCollection {
     // Resolve IDs to names
     const result: { name: string; relation?: string }[] = [];
     for (const [id, relation] of authorsMap.entries()) {
-      try {
-        const contributor = ContributorRepository.getContributorById(id);
-        result.push({ name: contributor.name, relation });
-      } catch {
-        // Skip if not found
-      }
+      result.push({ name: id, relation });
     }
     
     return result.sort((a, b) => a.name.localeCompare(b.name));
@@ -156,7 +128,7 @@ export class SpritesheetsCollection {
     return [...allAuthors].sort((a, b) => a.localeCompare(b));
   }
 
-  /** Gets all contributions for a specific author */
+  /** Gets all contributions for a specific author name */
   getAuthorContributions(authorName: string): { code: CharacterCode; sheet: SpritesheetData }[] {
     const contributions: { code: CharacterCode; sheet: SpritesheetData }[] = [];
     const codes = this.getAllCodes();
@@ -174,11 +146,6 @@ export class SpritesheetsCollection {
     return contributions.sort((a, b) => 
       new Date(b.sheet.commitDate).getTime() - new Date(a.sheet.commitDate).getTime()
     );
-  }
-
-  /** Get character metadata */
-  getCharacter(code: CharacterCode): Character {
-    return CharacterRepository.getCharacter(code);
   }
 }
 

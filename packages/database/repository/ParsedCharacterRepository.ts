@@ -4,7 +4,9 @@ import {
   type ParsedCharacter, 
   type ParsedSnapshot 
 } from "../schema/parsed-data";
-import * as JSONC from "comment-json";
+import { readJsoncSync, writeJsoncSync, resolveDataPath } from "../utils/jsonc";
+import * as fs from "node:fs";
+import { fileURLToPath } from "node:url";
 
 /**
  * Repository for managing parsed character data stored in .jsonc files.
@@ -12,7 +14,7 @@ import * as JSONC from "comment-json";
  */
 export class ParsedCharacterRepository {
   private static getFileUrl(spriteCode: string): URL {
-    return new URL(
+    return resolveDataPath(
       `../data/parsedCharacters/${spriteCode.toUpperCase()}.jsonc`,
       import.meta.url
     );
@@ -24,9 +26,9 @@ export class ParsedCharacterRepository {
    */
   static async getParsedCharacter(spriteCode: string): Promise<ParsedCharacter> {
     const fileUrl = this.getFileUrl(spriteCode);
-    const file = Bun.file(fileUrl);
+    const pathString = fileURLToPath(fileUrl);
 
-    if (!(await file.exists())) {
+    if (!fs.existsSync(pathString)) {
       return {
         code: spriteCode.toUpperCase(),
         versions: []
@@ -34,10 +36,7 @@ export class ParsedCharacterRepository {
     }
 
     try {
-      const content = await file.text();
-      const parsed = JSONC.parse(content);
-      console.log(`Parsed character data for ${spriteCode} from ${fileUrl}`);
-      console.log(`Data being parsed: ${JSON.stringify(parsed, null, 2)}`);
+      const parsed = readJsoncSync(fileUrl);
       return ParsedCharacterSchema.parse(parsed);
     } catch (error) {
       if (error instanceof Error && error.name === "ZodError") {
@@ -70,8 +69,6 @@ export class ParsedCharacterRepository {
     }
     
     // Sort versions by index to maintain chronological order
-    // Note: We need a better sort if index is just per-SHA. 
-    // Usually we want chronological by date first.
     character.versions.sort((a, b) => {
       const dateA = new Date(a.date).getTime();
       const dateB = new Date(b.date).getTime();
@@ -90,8 +87,14 @@ export class ParsedCharacterRepository {
     const fileUrl = this.getFileUrl(validatedCharacter.code);
     
     try {
-      const content = JSONC.stringify(validatedCharacter, null, 2);
-      await Bun.write(fileUrl, content);
+      // Ensure directory exists
+      const pathString = fileURLToPath(fileUrl);
+      const dir = pathString.substring(0, pathString.lastIndexOf("/") + 1);
+      if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir, { recursive: true });
+      }
+
+      writeJsoncSync(fileUrl, validatedCharacter);
     } catch (error) {
       console.error(`Failed to write ${fileUrl}:`, error);
       throw new Error(`Could not save parsed character data for ${validatedCharacter.code}`);

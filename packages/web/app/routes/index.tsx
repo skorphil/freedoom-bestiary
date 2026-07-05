@@ -1,7 +1,7 @@
 import CharactersList from "~/pages/charactersList/CharactersList.tsx";
 import { Header } from "../src/components/Header.tsx";
 import { createSpritesheetsCollection } from "../src/models/SpritesheetsCollection.ts";
-import { SpritesheetRepository, CharacterRepository } from "@freedoom-bestiary/database";
+import { SpritesheetRepository, CharacterRepository, ContributorRepository } from "@freedoom-bestiary/database";
 import type { Route } from "./+types/index";
 import type { CharacterCode } from "@freedoom-bestiary/database";
 
@@ -21,14 +21,23 @@ export async function loader() {
     const history = collection.getHistory(code);
     const latest = collection.getLatestLiveEntry(history);
     const character = CharacterRepository.getCharacter(code);
-    const authors = latest ? collection.getUniqueAuthors(latest) : [];
+    
+    // Resolve author names here in the loader (server-side)
+    const authorNames = latest ? latest.contributions.map(c => {
+      try {
+        return ContributorRepository.getContributorById(c.contributorId).name;
+      } catch {
+        return c.contributorId;
+      }
+    }) : [];
     
     return {
       code,
       name: character.freedoomName,
       description: character.description,
       latest,
-      authors,
+      authors: [...new Set(authorNames)].sort(),
+      character,
     };
   }).filter((entry): entry is typeof entry & { latest: NonNullable<typeof entry.latest> } => entry.latest !== undefined);
   

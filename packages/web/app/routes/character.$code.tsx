@@ -41,11 +41,27 @@ export async function loader({ params }: Route.LoaderArgs) {
     code,
     history: sortedHistory,
     character,
+    // Provide a way to get authors in component
+    authorsMap: sortedHistory.reduce((acc, sheet) => {
+      // Resolve IDs to names here in loader
+      const authors = sheet.contributions.map(c => {
+        try {
+          return {
+            name: ContributorRepository.getContributorById(c.contributorId).name,
+            relation: c.relation
+          };
+        } catch {
+          return { name: c.contributorId, relation: c.relation };
+        }
+      });
+      acc[sheet.spritesheetId] = authors;
+      return acc;
+    }, {} as Record<string, { name: string; relation?: string }[]>)
   };
 }
 
 export default function CharacterDetail({ loaderData }: Route.ComponentProps) {
-  const { code, history, character } = loaderData;
+  const { code, history, character, authorsMap } = loaderData;
 
   return (
     <>
@@ -77,7 +93,7 @@ export default function CharacterDetail({ loaderData }: Route.ComponentProps) {
               <div className={styles.metaGroup}>
                 <div className={styles.metaLabel}>Authors</div>
                 <div className={styles.metaValue}>
-                  {/* Authors component */}
+                  {authorsMap[version.spritesheetId].map(a => a.name).join(", ")}
                 </div>
               </div>
 

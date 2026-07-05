@@ -1,37 +1,42 @@
-import contributorsJson from "../data/contributors.jsonc"
 import { ContributorsMapSchema, ContributorSchema, type Contributor, type ContributorsMap } from "../schema/contributor";
-import * as JSONC from "comment-json";
+import { readJsoncSync, writeJsoncSync, resolveDataPath } from "../utils/jsonc";
+
+const FILE_URL = resolveDataPath("../data/contributors.jsonc", import.meta.url);
 
 /** Reads Contributor's data from local FS and returns typed data */
 export class ContributorRepository {
-  private static readonly FILE_URL = new URL(
-    "../data/contributors.jsonc",
-    import.meta.url
-  );
-  static data: ContributorsMap = ContributorsMapSchema.parse(contributorsJson)
+  private static cachedData: ContributorsMap | null = null;
+
+  private static loadData(): ContributorsMap {
+    if (this.cachedData) return this.cachedData;
+    const json = readJsoncSync(FILE_URL);
+    this.cachedData = ContributorsMapSchema.parse(json);
+    return this.cachedData;
+  }
 
   /** Sets isolated mock data for testing */
   static setData(data: ContributorsMap): void {
-    this.data = data;
+    this.cachedData = data;
   }
 
   /** Resets data to original production state */
   static reset(): void {
-    this.data = ContributorsMapSchema.parse(contributorsJson);
+    this.cachedData = null;
   }
 
   /** Returns all contributors' data */
   static getAllContributors(): ContributorsMap {
-    return this.data
+    return this.loadData();
   }
 
   /** Returns single contributor's data by ID */
   static getContributorById(contributorId: string): Contributor {
-    const contributor = this.data[contributorId]
+    const data = this.loadData();
+    const contributor = data[contributorId];
     if (!contributor) {
-      throw new Error(`Contributor with id ${contributorId} not found`)
+      throw new Error(`Contributor with id ${contributorId} not found`);
     }
-    return contributor
+    return contributor;
   }
 
   /**
@@ -40,8 +45,9 @@ export class ContributorRepository {
    */
   static findByNameOrAlias(name: string): { id: string; contributor: Contributor } | null {
     if (!name) return null;
+    const data = this.loadData();
     const searchName = name.toLowerCase().trim();
-    for (const [id, contributor] of Object.entries(this.data)) {
+    for (const [id, contributor] of Object.entries(data)) {
       if (contributor.name.toLowerCase() === searchName) {
         return { id, contributor };
       }
@@ -54,23 +60,19 @@ export class ContributorRepository {
 
   /** Adds a new contributor and persists to disk */
   static async addContributor(id: string, contributor: Contributor): Promise<void> {
+    const data = this.loadData();
     const validatedContributor = ContributorSchema.parse(contributor);
-    if (this.data[id]) {
-      // Update existing if needed, but for now we just skip or overwrite
-      this.data[id] = validatedContributor;
-    } else {
-      this.data[id] = validatedContributor;
-    }
+    data[id] = validatedContributor;
     await this.save();
   }
 
   /** Persists current data to disk */
   private static async save(): Promise<void> {
     try {
-      const content = JSONC.stringify(this.data, null, 2);
-      await Bun.write(this.FILE_URL, content);
+      const data = this.loadData();
+      writeJsoncSync(FILE_URL, data);
     } catch (error) {
-      console.error(`Failed to write contributors to ${this.FILE_URL}:`, error);
+      console.error(`Failed to write contributors to ${FILE_URL}:`, error);
     }
   }
 }

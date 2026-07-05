@@ -79,9 +79,13 @@ export function useAnimation({
 
   // The generator for the current animation state
   const generator = useMemo(() => {
-    if (!isReady || !animations.includes(animName)) return undefined;
+    if (!isReady) return undefined;
+    // Check if the current animName is valid, otherwise use the first available
+    const activeAnim = animations.includes(animName) ? animName : animations[0];
+    if (!activeAnim) return undefined;
+    
     try {
-      return spritesheet.play(animName, angle);
+      return spritesheet.play(activeAnim, angle);
     } catch (e) {
       console.error(e);
       return undefined;
