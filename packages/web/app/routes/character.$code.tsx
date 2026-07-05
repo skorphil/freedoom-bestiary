@@ -21,7 +21,8 @@ export async function loader({ params }: Route.LoaderArgs) {
   const code = params.code.toUpperCase() as CharacterCode;
   
   const allSheets = await SpritesheetRepository.getAllSpritesheets();
-  const collection = createSpritesheetsCollection(allSheets);
+  const allCharacters = CharacterRepository.getAllCharacters();
+  const collection = createSpritesheetsCollection(allSheets, allCharacters);
   
   const history = collection.getHistory(code);
   const character = CharacterRepository.getCharacter(code);
@@ -29,32 +30,23 @@ export async function loader({ params }: Route.LoaderArgs) {
   // Sort: Freedoom first (by date desc), then Attic (by date desc)
   const freedoomVersions = history
     .filter((v) => !collection.isAtticEntry(v))
-    .sort((a, b) => new Date(b.commitDate).getTime() - new Date(a.commitDate).getTime());
+    .sort((a, b) => new Date(b.data.commitDate).getTime() - new Date(a.data.commitDate).getTime());
   
   const atticVersions = history
     .filter((v) => collection.isAtticEntry(v))
-    .sort((a, b) => new Date(b.commitDate).getTime() - new Date(a.commitDate).getTime());
+    .sort((a, b) => new Date(b.data.commitDate).getTime() - new Date(a.data.commitDate).getTime());
 
   const sortedHistory = [...freedoomVersions, ...atticVersions];
 
   return {
     code,
-    history: sortedHistory,
+    history: sortedHistory.map(v => v.data),
     character,
     // Provide a way to get authors in component
     authorsMap: sortedHistory.reduce((acc, sheet) => {
       // Resolve IDs to names here in loader
-      const authors = sheet.contributions.map(c => {
-        try {
-          return {
-            name: ContributorRepository.getContributorById(c.contributorId).name,
-            relation: c.relation
-          };
-        } catch {
-          return { name: c.contributorId, relation: c.relation };
-        }
-      });
-      acc[sheet.spritesheetId] = authors;
+      const authors = collection.getAuthorsWithRelations(sheet);
+      acc[sheet.id] = authors;
       return acc;
     }, {} as Record<string, { name: string; relation?: string }[]>)
   };
@@ -124,7 +116,7 @@ export default function CharacterDetail({ loaderData }: Route.ComponentProps) {
                 </div>
               </div>
             </div>
-            <Animator code={code} version={version} meta={character} />
+            <Animator uuid={version.spritesheetId} />
           </div>
         ))}
       </div>

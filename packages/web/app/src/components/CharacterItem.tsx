@@ -1,6 +1,6 @@
 import styles from "./CharacterItem.module.css";
 import { Link } from "react-router";
-import type { CharacterCode, Spritesheet, Character } from "@freedoom-bestiary/database";
+import type { CharacterCode, Spritesheet, Character } from "@freedoom-bestiary/database/schema";
 import { Animator } from "./animator/Animator.tsx";
 
 type CharacterItemProps = {
@@ -22,7 +22,7 @@ export function CharacterItem({
     commitUrl,
     commitMessage,
   } = spritesheet;
-  const dateLabel = new Date(commitDate).toISOString().slice(0, 10);
+  const dateLabel = commitDate ? new Date(commitDate).toISOString().slice(0, 10) : "Unknown";
   
   return (
     <div className={styles.characterItem}>
@@ -37,7 +37,7 @@ export function CharacterItem({
           <div className={styles.metaLabel}>Latest commit</div>
           <div className={styles.metaValue}>
             <a href={commitUrl} title={commitMessage}>
-              {dateLabel} · {commitSha.slice(0, 7)}
+              {dateLabel} · {commitSha?.slice(0, 7) || "unknown"}
             </a>
           </div>
         </div>
@@ -54,7 +54,7 @@ export function CharacterItem({
           </div>
         </div>
       </div>
-      <Animator code={code} version={spritesheet} meta={character} />
+      <Animator uuid={spritesheet.spritesheetId} />
     </div>
   );
 }

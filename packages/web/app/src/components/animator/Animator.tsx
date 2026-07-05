@@ -1,21 +1,17 @@
 import styles from './Animator.module.css'
 
 import { useRef } from "react";
-import type { Spritesheet, Character, CharacterCode } from "@freedoom-bestiary/database";
+import type { AnimationName } from "@freedoom-bestiary/database/schema";
 import { useAnimation } from "./useAnimation.ts";
 
 export type AnimatorProps = {
-  code: CharacterCode;
-  version: Spritesheet;
-  meta: Character;
-  initialAnimation?: string;
+  uuid: string;
+  initialAnimation?: AnimationName;
   authorName?: string;
 };
 
 export function Animator({ 
-  code,
-  version, 
-  meta, 
+  uuid, 
   initialAnimation = "idling",
   authorName
 }: AnimatorProps) {
@@ -31,9 +27,7 @@ export function Animator({
     currentAngles,
     stageSize,
   } = useAnimation({
-    code,
-    version,
-    meta,
+    uuid,
     initialAnimation,
     canvasRef,
   });
@@ -82,7 +76,7 @@ export function Animator({
             <select 
               className={styles.stateSelect}
               value={animName} 
-              onChange={(e) => setAnimName(e.target.value)}
+              onChange={(e) => setAnimName(e.target.value as AnimationName)}
             >
               {animations.map((anim) => (
                 <option key={anim} value={anim}>{`${anim}`}</option>

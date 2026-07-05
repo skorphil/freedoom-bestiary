@@ -2,8 +2,10 @@ import type {
   Spritesheet as SpritesheetData, 
   Sprite, 
   Character,
-  CharacterCode 
-} from "@freedoom-bestiary/database";
+  CharacterCode,
+  AnimationName,
+  AnimationStep
+} from "@freedoom-bestiary/database/schema";
 
 export type RenderTask = {
   image: HTMLImageElement;
@@ -21,10 +23,18 @@ export class Spritesheet {
   constructor(
     private _code: CharacterCode,
     private atlas: SpritesheetData,
-    private meta: Character
+    private getMeta: () => Character | undefined
   ) {
     this.calculateBoundingBox();
     this.imageLoaded = this.loadImage();
+  }
+
+  get id(): string {
+    return this.atlas.spritesheetId;
+  }
+
+  get data(): SpritesheetData {
+    return this.atlas;
   }
 
   private async loadImage(): Promise<void> {
@@ -63,22 +73,55 @@ export class Spritesheet {
     return this._code;
   }
 
+  /** Gets character metadata for this spritesheet. Throws if not found. */
+  private get characterMeta(): Character {
+    const meta = this.getMeta();
+    if (!meta) {
+      throw new Error(`Character metadata not found for code: ${this._code}`);
+    }
+    return meta;
+  }
+
+  /** 
+   * Returns a localized date string. 
+   * @warning This method uses the system locale and will cause hydration mismatches 
+   * if rendered on the server. Use within a useEffect or a hydration guard.
+   */
+  getDate(): string {
+    const date = new Date(this.atlas.commitDate);
+    return date.toLocaleDateString(undefined, {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+  }
+
+  getCharacterName(): string {
+    return this.characterMeta.freedoomName;
+  }
+
+  getCharacterDescription(): string {
+    return this.characterMeta.description;
+  }
+
   getStageSize() {
     return { width: this.maxWidth, height: Math.ceil(this.maxHeight * 1.2) };
   }
 
-  private getAvailableAnimationKeys(): string[] {
-    const keys = Object.keys(this.meta.animations);
-    return keys.filter((key) => Array.isArray(this.meta.animations[key as keyof Character["animations"]]));
+  private getAvailableAnimationKeys(meta: Character): string[] {
+    const keys = Object.keys(meta.animations);
+    return keys.filter((key) => Array.isArray(meta.animations[key as keyof Character["animations"]]));
   }
 
-  getAnimationsWithAngles(): { name: string; angles: number[] }[] {
-    const availableAnims = this.getAvailableAnimationKeys();
+  getAnimations(): Partial<Record<AnimationName, { steps: AnimationStep[]; angles: number[] }>> {
+    const meta = this.characterMeta;
+    const availableAnims = this.getAvailableAnimationKeys(meta) as AnimationName[];
     const sprites = this.atlas.sprites;
+    const result: Partial<Record<AnimationName, { steps: AnimationStep[]; angles: number[] }>> = {};
 
-    return availableAnims.map((animName) => {
-      const sequence = this.meta.animations[animName as keyof Character["animations"]];
-      if (!sequence || !Array.isArray(sequence)) return { name: animName, angles: [] };
+    for (const animName of availableAnims) {
+      const sequence = meta.animations[animName];
+      if (!sequence || !Array.isArray(sequence)) continue;
 
       const framesInAnim = new Set(sequence.map((step) => step.frame));
       const angles = new Set<number>();
@@ -98,17 +141,31 @@ export class Spritesheet {
         }
       });
 
-      return {
-        name: animName,
-        angles: Array.from(angles).sort((a, b) => a - b),
-      };
-    });
+      if (angles.size > 0) {
+        result[animName] = {
+          steps: sequence,
+          angles: Array.from(angles).sort((a, b) => a - b),
+        };
+      }
+    }
+
+    return result;
   }
 
-  *play(animName: string, angle: number): Generator<RenderTask> {
-    const sequence = this.meta.animations[animName as keyof Character["animations"]];
+  /** @deprecated Use getAnimations() instead */
+  getAnimationsWithAngles(meta: Character): { name: AnimationName; angles: number[] }[] {
+    const anims = this.getAnimations();
+    return Object.entries(anims).map(([name, data]) => ({
+      name: name as AnimationName,
+      angles: data!.angles
+    }));
+  }
+
+  *play(animName: AnimationName, angle: number): Generator<RenderTask> {
+    const meta = this.characterMeta;
+    const sequence = meta.animations[animName];
     if (!sequence || !Array.isArray(sequence)) {
-      const available = this.getAnimationsWithAngles().map(a => a.name).join(", ");
+      const available = Object.keys(this.getAnimations()).join(", ");
       throw new Error(`Animation "${animName}" does not exist for ${this.code}. Available: ${available}`);
     }
 

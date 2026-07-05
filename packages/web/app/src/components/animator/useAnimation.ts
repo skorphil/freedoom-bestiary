@@ -1,37 +1,40 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import type { Character, Spritesheet, CharacterCode } from "@freedoom-bestiary/database";
-import { type RenderTask, Spritesheet as LocalSpritesheet } from "../../models/Spritesheet.ts";
+import { useCallback, useEffect, useMemo, useState } from "react";
+import type { AnimationName } from "@freedoom-bestiary/database/schema";
+import { type RenderTask } from "../../models/Spritesheet.ts";
 import { useAnimationLoop } from "./useAnimationLoop.ts";
+import { useSpritesheets } from "../../context/SpritesheetsContext";
 
 export type UseAnimationOptions = {
-  code: CharacterCode;
-  version: Spritesheet;
-  meta: Character;
-  initialAnimation?: string;
+  uuid: string;
+  initialAnimation?: AnimationName;
+  initialAngle?: number
   canvasRef: React.RefObject<HTMLCanvasElement | null>;
 };
 
 export function useAnimation({
-  code,
-  version,
-  meta,
+  uuid,
   initialAnimation = "idling",
+  initialAngle = 1,
   canvasRef,
 }: UseAnimationOptions) {
-  const [animName, setAnimName] = useState(initialAnimation);
-  const [angle, setAngle] = useState(1);
+  const collection = useSpritesheets();
+  const [animName, setAnimName] = useState<AnimationName>(initialAnimation);
+  const [angle, setAngle] = useState(initialAngle);
   
   const [error, setError] = useState<string | null>(null);
 
-  // Initialize Spritesheet instance
-  const spritesheet = useMemo(() => {
-    return new LocalSpritesheet(code, version, meta);
-  }, [code, version, meta]);
+  // Resolve Spritesheet model and metadata from the global collection
+  const spritesheet = useMemo(() => collection.getByUuid(uuid), [collection, uuid]);
 
   // Wait for image to load
   const [isReady, setIsReady] = useState(false);
   
   useEffect(() => {
+    if (!spritesheet) {
+      setError(`Spritesheet ${uuid} not found`);
+      return;
+    }
+
     let cancelled = false;
     
     spritesheet.ready().then(() => {
@@ -41,46 +44,44 @@ export function useAnimation({
       }
     }).catch((err) => {
       if (!cancelled) {
-        setError(`Failed to load spritesheet for ${code}: ${err.message}`);
+        setError(`Failed to load spritesheet ${uuid}: ${err.message}`);
       }
     });
     
     return () => {
       cancelled = true;
     };
-  }, [spritesheet, code]);
+  }, [spritesheet, uuid]);
 
-  const animationsWithAngles = useMemo(() => {
-    return isReady ? spritesheet.getAnimationsWithAngles() : [];
+  const animationsData = useMemo(() => {
+    return (isReady && spritesheet) ? spritesheet.getAnimations() : {};
   }, [spritesheet, isReady]);
 
   const animations = useMemo(() => {
-    return animationsWithAngles.map((a) => a.name);
-  }, [animationsWithAngles]);
+    return Object.keys(animationsData) as AnimationName[];
+  }, [animationsData]);
 
   const currentAngles = useMemo(() => {
-    return animationsWithAngles.find((a) => a.name === animName)?.angles ?? [1];
-  }, [animationsWithAngles, animName]);
+    return animationsData[animName]?.angles ?? [1];
+  }, [animationsData, animName]);
 
   // Ensure animName is valid for the current spritesheet
   useEffect(() => {
-    if (animations.length > 0 && !animations.includes(animName)) {
+    if (isReady && animations.length > 0 && !animations.includes(animName)) {
       setAnimName(animations[0]);
     }
-  }, [animations, animName]);
+  }, [animations, animName, isReady]);
 
   // Ensure angle is valid for the current animation
   useEffect(() => {
-    if (currentAngles.length > 0 && !currentAngles.includes(angle)) {
-      // Try to stay on the same angle if possible, otherwise pick the first available
+    if (isReady && currentAngles.length > 0 && !currentAngles.includes(angle)) {
       setAngle(currentAngles[0]);
     }
-  }, [currentAngles, angle]);
+  }, [currentAngles, angle, isReady]);
 
   // The generator for the current animation state
   const generator = useMemo(() => {
-    if (!isReady) return undefined;
-    // Check if the current animName is valid, otherwise use the first available
+    if (!isReady || !spritesheet) return undefined;
     const activeAnim = animations.includes(animName) ? animName : animations[0];
     if (!activeAnim) return undefined;
     
@@ -101,7 +102,6 @@ export function useAnimation({
     const scaledWidth = task.stageSize.width;
     const scaledHeight = task.stageSize.height * 1.2;
 
-    // Set canvas dimensions to the scaled stage size if they don't match
     if (canvas.width !== scaledWidth || canvas.height !== scaledHeight) {
       canvas.width = scaledWidth;
       canvas.height = scaledHeight;
@@ -124,11 +124,10 @@ export function useAnimation({
     }
   }, [canvasRef]);
 
-  // Run the heartbeat
   useAnimationLoop(generator, onTick);
 
   const stageSize = useMemo(
-    () => isReady ? spritesheet.getStageSize() : { width: 64, height: 64 },
+    () => (isReady && spritesheet) ? spritesheet.getStageSize() : { width: 64, height: 64 },
     [spritesheet, isReady],
   );
 
@@ -142,5 +141,7 @@ export function useAnimation({
     animations,
     currentAngles,
     stageSize,
+    characterName: spritesheet?.getCharacterName(),
+    characterDescription: spritesheet?.getCharacterDescription(),
   };
 }

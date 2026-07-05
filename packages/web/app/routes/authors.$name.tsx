@@ -3,7 +3,7 @@ import styles from "../src/components/CharacterItem.module.css";
 import { Header } from "../src/components/Header.tsx";
 import { Animator } from "../src/components/animator/Animator.tsx";
 import { createSpritesheetsCollection } from "../src/models/SpritesheetsCollection.ts";
-import { SpritesheetRepository, CharacterRepository } from "@freedoom-bestiary/database";
+import { SpritesheetRepository, CharacterRepository, ContributorRepository } from "@freedoom-bestiary/database";
 import type { Route } from "./+types/authors.$name";
 import type { CharacterCode, Spritesheet } from "@freedoom-bestiary/database";
 
@@ -20,7 +20,8 @@ export async function loader({ params }: Route.LoaderArgs) {
   const name = decodeURIComponent(params.name || "");
   
   const allSheets = await SpritesheetRepository.getAllSpritesheets();
-  const collection = createSpritesheetsCollection(allSheets);
+  const allCharacters = CharacterRepository.getAllCharacters();
+  const collection = createSpritesheetsCollection(allSheets, allCharacters);
   
   // Find contributor by name to get ID
   const allContributors = ContributorRepository.getAllContributors();
@@ -135,7 +136,7 @@ export default function AuthorPage({ loaderData }: Route.ComponentProps) {
                   </div>
                 </div>
               </div>
-              <Animator code={code} version={sheet} meta={character} authorName={name} />
+              <Animator uuid={sheet.data.spritesheetId} authorName={name} />
             </div>
           );
         })}

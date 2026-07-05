@@ -1,19 +1,24 @@
 import { expect, test } from "bun:test";
 import { Spritesheet } from "../app/src/models/Spritesheet.ts";
-import type { SpritesheetVersion, SpriteMeta } from "../app/src/models/schema.ts";
 
 // Mock data
-const mockAtlas: Partial<SpritesheetVersion> = {
-  sha: "test-sha",
+const mockAtlas = {
+  spritesheetId: "uuid-1",
+  fileName: "test.webp",
+  commitDate: new Date("2023-01-01"),
+  commitSha: "test-sha",
+  commitMessage: "test",
+  commitUrl: "test",
   sprites: [
-    { frame: "A", angle: "1", x: 0, y: 0, width: 20, height: 20, author: "", state: "", url: "" },
-    { frame: "A", angle: "0", x: 20, y: 0, width: 20, height: 20, author: "", state: "", url: "" },
-    { frame: "B", angle: "1", x: 40, y: 0, width: 20, height: 20, author: "", state: "", url: "" },
+    { frame: "A", angle: 1, x: 0, y: 0, width: 20, height: 20, contributions: [], state: "new", spriteUrl: "" },
+    { frame: "A", angle: 0, x: 20, y: 0, width: 20, height: 20, contributions: [], state: "new", spriteUrl: "" },
+    { frame: "B", angle: 1, x: 40, y: 0, width: 20, height: 20, contributions: [], state: "new", spriteUrl: "" },
   ]
 } as any;
 
-const mockMeta: Partial<SpriteMeta> = {
+const mockMeta = {
   freedoomName: "Test Monster",
+  description: "A test monster",
   animations: {
     idling: [
       { frame: "A", delay: 2 },
@@ -22,11 +27,13 @@ const mockMeta: Partial<SpriteMeta> = {
   }
 } as any;
 
+const getMeta = () => mockMeta;
+
 test("Spritesheet - bounding box calculation", () => {
   const sheet = new Spritesheet(
     "TEST" as any,
     mockAtlas as any,
-    mockMeta as any
+    getMeta
   );
   
   const size = sheet.getStageSize();
@@ -34,21 +41,32 @@ test("Spritesheet - bounding box calculation", () => {
   expect(size.height).toBe(24);
 });
 
-test("Spritesheet - getAnimationsWithAngles", () => {
+test("Spritesheet - getAnimations", () => {
   const sheet = new Spritesheet(
     "TEST" as any,
     mockAtlas as any,
-    mockMeta as any
+    getMeta
   );
   
-  const anims = sheet.getAnimationsWithAngles();
-  const idling = anims.find(a => a.name === "idling");
+  const anims = sheet.getAnimations();
+  const idling = anims.idling;
   expect(idling).toBeDefined();
-  // Frame A has angle 0, so it ignores angle 1.
+  // Frame A has angle 0, so it includes angle 0.
   // Frame B has only angle 1, so angle 1 is included.
-  expect(idling?.angles).toContain("0" as any);
-  expect(idling?.angles).toContain("1" as any);
-  expect(idling?.angles).not.toContain("2" as any);
+  expect(idling?.angles).toContain(0);
+  expect(idling?.angles).toContain(1);
+  expect(idling?.angles).not.toContain(2);
+});
+
+test("Spritesheet - getCharacterName and getCharacterDescription", () => {
+  const sheet = new Spritesheet(
+    "TEST" as any,
+    mockAtlas as any,
+    getMeta
+  );
+  
+  expect(sheet.getCharacterName()).toBe("Test Monster");
+  expect(sheet.getCharacterDescription()).toBe("A test monster");
 });
 
 test("Spritesheet - angle 0 takes precedence", () => {
@@ -57,11 +75,11 @@ test("Spritesheet - angle 0 takes precedence", () => {
     {
       ...mockAtlas,
       sprites: [
-        { frame: "A", angle: 0, x: 20, y: 0, width: 20, height: 20, author: "", state: "", url: "" },
-        { frame: "A", angle: 1, x: 0, y: 0, width: 20, height: 20, author: "", state: "", url: "" },
+        { frame: "A", angle: 0, x: 20, y: 0, width: 20, height: 20, contributions: [], state: "new", spriteUrl: "" },
+        { frame: "A", angle: 1, x: 0, y: 0, width: 20, height: 20, contributions: [], state: "new", spriteUrl: "" },
       ]
     } as any,
-    mockMeta as any
+    getMeta
   );
   
   // Frame A has both angle 0 and angle 1. Angle 0 should take precedence.
@@ -75,7 +93,7 @@ test("Spritesheet - play generator timing", () => {
   const sheet = new Spritesheet(
     "TEST" as any,
     mockAtlas as any,
-    mockMeta as any
+    getMeta
   );
   
   const gen = sheet.play("idling", 1);
@@ -101,23 +119,22 @@ test("Spritesheet - angle fallback", () => {
   const sheet = new Spritesheet(
     "TEST" as any,
     mockAtlas as any,
-    mockMeta as any
+    getMeta
   );
   
   // Angle 2 doesn't exist for A, should fallback to 0 or 1
   const gen = sheet.play("idling", 2);
   const result = gen.next().value;
   expect(result.source.frame).toBe("A");
-  // We'll define specific fallback logic: if requested angle is missing, try 0, then any.
-  expect(["0", "1"]).toContain(result.source.angle);
+  expect([0, 1]).toContain(result.source.angle);
 });
 
 test("Spritesheet - invalid animation throws", () => {
   const sheet = new Spritesheet(
     "TEST" as any,
     mockAtlas as any,
-    mockMeta as any
+    getMeta
   );
   
-  expect(() => sheet.play("non-existent", 1).next()).toThrow();
+  expect(() => sheet.play("non-existent" as any, 1).next()).toThrow();
 });

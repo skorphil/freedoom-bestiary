@@ -5,6 +5,7 @@
   "main": "./index.ts",
   "exports": {
     ".": "./index.ts",
+    "./schema": "./schema/index.ts",
     "./schema/*": "./schema/*.ts"
   },
   "devDependencies": {

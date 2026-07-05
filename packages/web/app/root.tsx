@@ -4,11 +4,23 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
+  useLoaderData,
 } from "react-router";
 
 import "./assets/styles.css";
+import { SpritesheetRepository, CharacterRepository, ContributorRepository } from "@freedoom-bestiary/database";
+import { SpritesheetsProvider } from "./src/context/SpritesheetsContext";
+
+export async function loader() {
+  const allSheets = await SpritesheetRepository.getAllSpritesheets();
+  const allCharacters = CharacterRepository.getAllCharacters();
+  const allContributors = ContributorRepository.getAllContributors();
+  return { allSheets, allCharacters, allContributors };
+}
 
 export function Layout({ children }: { children: React.ReactNode }) {
+  const data = useLoaderData<typeof loader>();
+
   return (
     <html lang="en">
       <head>
@@ -21,7 +33,17 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body>
-        <main>{children}</main>
+        {data ? (
+          <SpritesheetsProvider 
+            data={data.allSheets} 
+            characters={data.allCharacters}
+            contributors={data.allContributors}
+          >
+            <main>{children}</main>
+          </SpritesheetsProvider>
+        ) : (
+          <main>{children}</main>
+        )}
         <ScrollRestoration />
         <Scripts />
       </body>

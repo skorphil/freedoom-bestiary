@@ -1,63 +1,64 @@
 import { expect, test, beforeEach, afterEach } from "bun:test";
 import { SpritesheetsCollection } from "../app/src/models/SpritesheetsCollection.ts";
-import { ContributorRepository } from "@freedoom-bestiary/database";
+import { CharacterRepository } from "@freedoom-bestiary/database";
 
 const mockData = {
-  "CYBR": [
-    {
-      date: "2023-01-02",
-      sha: "sha2",
-      author: "Author 2",
+  "CYBR": {
+    "uuid2": {
+      commitDate: "2023-01-02",
+      commitSha: "sha2",
       commitMessage: "Updated Cyberdemon",
       commitUrl: "https://github.com/freedoom/freedoom/commit/sha2",
-      spritesheetPath: "path2.webp",
+      fileName: "path2.webp",
+      filePath: "path2.webp",
       source: "freedoom",
+      spritesheetId: "uuid2",
       contributions: [],
       sprites: [
         { 
-          author: "Author 2", 
-          contributions: [{ contributorId: "author-2", relation: "Artist" }] 
-        } as any
+          contributions: [{ contributorId: "author-2", relation: "Artist" }],
+          frame: "A", angle: 0, x: 0, y: 0, width: 10, height: 10, state: "new", spriteUrl: ""
+        }
       ],
     },
-    {
-      date: "2023-01-01",
-      sha: "sha1",
-      author: "Author 1",
+    "uuid1": {
+      commitDate: "2023-01-01",
+      commitSha: "sha1",
       commitMessage: "Original Cyberdemon",
       commitUrl: "https://github.com/freedoom/attic/commit/sha1",
-      spritesheetPath: "path1.webp",
+      fileName: "path1.webp",
+      filePath: "path1.webp",
       source: "attic",
+      spritesheetId: "uuid1",
       contributions: [],
       sprites: [],
     },
-  ],
-  "SPID": [
-    {
-      date: "2023-01-01",
-      sha: "sha3",
-      author: "Author 3",
+  },
+  "SPID": {
+    "uuid3": {
+      commitDate: "2023-01-01",
+      commitSha: "sha3",
       commitMessage: "Spider Mastermind",
       commitUrl: "https://github.com/freedoom/freedoom/commit/sha3",
-      spritesheetPath: "path3.webp",
+      fileName: "path3.webp",
+      filePath: "path3.webp",
       source: "freedoom",
+      spritesheetId: "uuid3",
       contributions: [],
       sprites: [],
     },
-  ],
+  },
 };
 
 beforeEach(() => {
-  ContributorRepository.setData({
-    "author-2": {
-      name: "Author 2",
-      links: []
-    }
+  CharacterRepository.setData({
+    "CYBR": { freedoomName: "Cyberdemon", animations: {} },
+    "SPID": { freedoomName: "Spider Mastermind", animations: {} }
   } as any);
 });
 
 afterEach(() => {
-  ContributorRepository.reset();
+  CharacterRepository.reset();
 });
 
 test("SpritesheetsCollection - getAllCodes", () => {
@@ -68,34 +69,35 @@ test("SpritesheetsCollection - getAllCodes", () => {
 test("SpritesheetsCollection - getHistory", () => {
   const collection = new SpritesheetsCollection(mockData as any);
   expect(collection.getHistory("CYBR" as any).length).toEqual(2);
-  expect(collection.getHistory("CYBR" as any)[0].sha).toEqual("sha2"); 
+  expect(collection.getHistory("CYBR" as any).map(s => s.data.commitSha)).toContain("sha2"); 
   expect(collection.getHistory("NONEXISTENT" as any)).toEqual([]);
 });
 
 test("SpritesheetsCollection - getLatest", () => {
   const collection = new SpritesheetsCollection(mockData as any);
   const latest = collection.getLatest("CYBR" as any);
-  expect(latest?.sha).toEqual("sha2");
-  expect(latest?.date).toEqual("2023-01-02");
+  expect(latest?.data.commitSha).toEqual("sha2");
 });
 
 test("SpritesheetsCollection - isAtticEntry", () => {
   const collection = new SpritesheetsCollection(mockData as any);
-  const history = collection.getHistory("CYBR" as any);
-  expect(collection.isAtticEntry(history[0])).toEqual(false);
-  expect(collection.isAtticEntry(history[1])).toEqual(true);
+  const history = collection.getHistory("CYBR" as any).sort((a, b) => 
+    new Date(a.data.commitDate).getTime() - new Date(b.data.commitDate).getTime()
+  );
+  expect(collection.isAtticEntry(history[1])).toEqual(false); // sha2 is later
+  expect(collection.isAtticEntry(history[0])).toEqual(true);  // sha1 is earlier and attic
 });
 
 test("SpritesheetsCollection - getLatestLiveEntry", () => {
   const collection = new SpritesheetsCollection(mockData as any);
   const history = collection.getHistory("CYBR" as any);
   const latestLive = collection.getLatestLiveEntry(history);
-  expect(latestLive?.sha).toEqual("sha2");
+  expect(latestLive?.data.commitSha).toEqual("sha2");
 });
 
 test("SpritesheetsCollection - getUniqueAuthors", () => {
   const collection = new SpritesheetsCollection(mockData as any);
-  const history = collection.getHistory("CYBR" as any);
-  const authors = collection.getUniqueAuthors(history[0]);
-  expect(authors).toEqual(["Author 2"]);
+  const latest = collection.getLatest("CYBR" as any);
+  const authors = collection.getUniqueAuthors(latest!);
+  expect(authors).toEqual(["author-2"]);
 });
