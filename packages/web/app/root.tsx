@@ -1,3 +1,9 @@
+import "./assets/styles.css";
+import {
+	CharacterRepository,
+	ContributorRepository,
+	SpritesheetRepository,
+} from "@freedoom-bestiary/database";
 import {
 	Links,
 	Meta,
@@ -6,13 +12,6 @@ import {
 	ScrollRestoration,
 	useLoaderData,
 } from "react-router";
-
-import "./assets/styles.css";
-import {
-	CharacterRepository,
-	ContributorRepository,
-	SpritesheetRepository,
-} from "@freedoom-bestiary/database";
 import { SpritesheetsProvider } from "./src/context/SpritesheetsContext";
 
 export async function loader() {
@@ -53,7 +52,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 						{children}
 					</SpritesheetsProvider>
 				) : (
-					<p>lol</p>
+					<p>Error loading spritesheet data</p>
 				)}
 				<ScrollRestoration />
 				<Scripts />

@@ -1,4 +1,3 @@
-import { Outlet } from "react-router";
 import { useSpritesheets } from "~/src/context/SpritesheetsContext";
 import CharacterSnippet from "./CharacterSnippet";
 import styles from "./CharacterSnippet.module.css";
@@ -25,8 +24,6 @@ function CharactersList() {
 					/>
 				);
 			})}
-
-			<Outlet />
 		</div>
 	);
 }

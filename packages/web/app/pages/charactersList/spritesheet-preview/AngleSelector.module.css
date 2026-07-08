@@ -1,0 +1,40 @@
+.grid {
+  display: inline-grid;
+  grid-template-columns: repeat(3, 36px);
+  grid-template-rows: repeat(3, 36px);
+  gap: 2px;
+}
+
+.cell {
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid var(--color-accent);
+  color: var(--color-text-primary);
+  cursor: pointer;
+}
+
+.cell:hover:not(.selected) {
+  background: var(--color-accent);
+}
+
+.cell.selected {
+  background: var(--color-green-500);
+  border-color: var(--color-green-300);
+}
+
+.empty {
+  width: 36px;
+  height: 36px;
+  visibility: hidden;
+}
+
+.centerDot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: currentColor;
+}

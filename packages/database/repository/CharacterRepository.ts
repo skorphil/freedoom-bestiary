@@ -32,6 +32,10 @@ function getAllCharacters(): CharactersMap {
 	return loadData();
 }
 
+function getCharactersList() {
+	return Object.keys(loadData()) as CharacterCode[];
+}
+
 /** Returns single character's data with animation sequences */
 function getCharacter(characterCode: CharacterCode): Character {
 	const data = loadData();
@@ -47,4 +51,5 @@ export const CharacterRepository = {
 	reset,
 	getAllCharacters,
 	getCharacter,
+	getCharactersList,
 };

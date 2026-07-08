@@ -27,7 +27,7 @@ function CharacterSnippet({
 	const onKeyDown = (e: React.KeyboardEvent) => {
 		if (e.key === "Enter" || e.key === " ") {
 			e.preventDefault();
-			navigate(`/${spritesheetId}`);
+			navigate(`/spritesheets/${spritesheetId}`);
 		}
 	};
 
@@ -35,7 +35,7 @@ function CharacterSnippet({
 		<button
 			type="button"
 			onKeyDown={onKeyDown}
-			onClick={() => navigate(`/${spritesheetId}`)}
+			onClick={() => navigate(`/spritesheets/${spritesheetId}`)}
 			className={styles.snippetContainer}
 		>
 			<p className={styles.title}>{title}</p>

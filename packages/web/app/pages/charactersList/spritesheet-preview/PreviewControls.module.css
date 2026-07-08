@@ -1,0 +1,142 @@
+/* Desktop */
+.desktopControls {
+	display: flex;
+	flex-direction: row;
+	gap: 1rem;
+	margin-top: auto;
+}
+
+.sectionLabel {
+	display: block;
+	font-size: var(--text-sm);
+	color: var(--color-text-secondary);
+	margin-bottom: 0.35rem;
+}
+
+.animSection {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+}
+
+.animList {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.checkboxItem {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 36px;
+	padding: 0 0.5rem;
+	background: transparent;
+	border: 1px solid transparent;
+	color: var(--color-text-primary);
+	font-family: var(--text-font-main);
+	font-size: var(--text-md);
+	cursor: pointer;
+	text-align: left;
+	gap: 0.5rem;
+	width: 100%;
+}
+
+.checkboxItem:hover {
+	border-color: var(--color-accent);
+}
+
+.checkboxItem.selected {
+	border-color: var(--color-green-300);
+}
+
+.animName {
+	flex: 1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.checkIcon {
+	flex-shrink: 0;
+	color: var(--color-text-secondary);
+}
+
+.checkboxItem.selected .checkIcon {
+	color: var(--color-green-100);
+}
+
+.angleSection {
+	display: flex;
+	flex-direction: column;
+	flex-shrink: 0;
+}
+
+/* Mobile */
+.mobileBar {
+	display: flex;
+	align-items: center;
+	gap: 1.2rem;
+	height: 3.2rem;
+	padding: 0.6rem;
+	border-top: 1px solid var(--color-accent);
+}
+
+.iconBtn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 40px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid var(--color-accent);
+	color: var(--color-text-primary);
+	cursor: pointer;
+	flex-shrink: 0;
+}
+
+.iconBtn:hover:not(:disabled) {
+	background: var(--color-accent);
+}
+
+.iconBtn:disabled {
+	opacity: 0.4;
+	cursor: not-allowed;
+}
+
+.animSelect {
+	flex: 1;
+	position: relative;
+	display: flex;
+	align-items: center;
+	height: 40px;
+	border: 1px solid var(--color-accent);
+	background: transparent;
+}
+
+.selectChevron {
+	position: absolute;
+	left: 0.4rem;
+	pointer-events: none;
+	color: var(--color-text-primary);
+}
+
+.selectNative {
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border: none;
+	color: var(--color-text-primary);
+	font-family: var(--text-font-main);
+	font-size: var(--text-md);
+	padding: 0 0.5rem 0 1.8rem;
+	appearance: none;
+	cursor: pointer;
+	outline: none;
+}
+
+.selectNative option {
+	background: var(--color-green-700);
+	color: var(--color-text-primary);
+}

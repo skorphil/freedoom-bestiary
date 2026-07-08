@@ -9,6 +9,9 @@ export default defineConfig(({ command }) => ({
 	build: {
 		minify: command === "build",
 	},
+	define: {
+		"process.env.NODE_ENV": JSON.stringify(command === "build" ? "production" : "development"),
+	},
 	server: {
 		fs: {
 			allow: ["../../"],

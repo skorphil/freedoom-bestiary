@@ -1,6 +1,14 @@
 import { useEffect, useState } from "react";
 
-// 1. Define the custom hook
+/**
+ * Custom hook to track the state of a media query.
+ * 
+ * @example
+ * const isMobile = useMediaQuery("(max-width: 768px)");
+ * 
+ * @example
+ * const isDarkMode = useMediaQuery("(prefers-color-scheme: dark)");
+ */
 export function useMediaQuery(query: string) {
 	const [matches, setMatches] = useState(false);
 

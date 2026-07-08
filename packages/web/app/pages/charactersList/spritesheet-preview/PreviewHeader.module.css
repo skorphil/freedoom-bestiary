@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.title {
+  font-family: var(--text-font-main);
+  color: var(--color-text-primary);
+  margin: 0;
+  line-height: 1;
+}
+
+.header.lg .title {
+  font-size: var(--text-xxl);
+}
+
+.header.sm .title {
+  font-size: var(--text-xl);
+}
+
+.spritesLink {
+  font-size: var(--text-md);
+  color: var(--color-text-primary);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.spritesLink:hover {
+  color: var(--color-green-100);
+}
