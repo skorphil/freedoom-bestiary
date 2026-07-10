@@ -1,21 +1,16 @@
 import type { AnimationName } from "@freedoom-bestiary/database/schema";
 
 import { useRef } from "react";
-import { RadioCheckbox } from "../../../shared/ui/checkbox/Checkbox";
+import { Radio } from "../../../shared/ui/radio/Radio";
 import styles from "./Animator.module.css";
 import { useAnimation } from "./useAnimation.ts";
 
 export type AnimatorProps = {
 	uuid: string;
 	initialAnimation?: AnimationName;
-	authorName?: string;
 };
 
-export function Animator({
-	uuid,
-	initialAnimation = "idling",
-	authorName,
-}: AnimatorProps) {
+export function Animator({ uuid, initialAnimation = "idling" }: AnimatorProps) {
 	const canvasRef = useRef<HTMLCanvasElement>(null);
 	const {
 		animName,
@@ -36,8 +31,7 @@ export function Animator({
 	const handleAngleChange = (delta: number) => {
 		const currentIndex = currentAngles.indexOf(angle);
 		if (currentIndex === -1) return;
-		const nextIndex =
-			(currentIndex + delta + currentAngles.length) % currentAngles.length;
+		const nextIndex = (currentIndex + delta + currentAngles.length) % currentAngles.length;
 		setAngle(currentAngles[nextIndex]);
 	};
 
@@ -48,9 +42,7 @@ export function Animator({
 			data-ready={isReady ? "true" : "false"}
 		>
 			<div className={styles.animatorDisplay}>
-				{!isReady && !error && (
-					<div className={styles.loadingOverlay}>Loading...</div>
-				)}
+				{!isReady && !error && <div className={styles.loadingOverlay}>Loading...</div>}
 				{error && <div className={styles.errorOverlay}>{error}</div>}
 
 				<div
@@ -92,7 +84,7 @@ export function Animator({
 
 					<div className={styles.stateControl} role="radiogroup" aria-label="Animation selection">
 						{animations.map((anim) => (
-							<RadioCheckbox
+							<Radio
 								key={anim}
 								label={anim}
 								isSelected={anim === animName}

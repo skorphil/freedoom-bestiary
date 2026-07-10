@@ -10,11 +10,27 @@ export default {
 	async prerender() {
 		const spritesheetsMap = await SpritesheetRepository.getAllSpritesheets();
 
-		const spritesheetPaths = Object.values(spritesheetsMap).flatMap(
+		const rootSpritesheetPaths = Object.values(spritesheetsMap).flatMap(
 			(characterGroup) =>
 				Object.keys(characterGroup).map((id) => `/${id}`),
 		);
 
-		return ["/", ...spritesheetPaths];
+		const characterPaths = Object.keys(spritesheetsMap).map(
+			(code) => `/${code.toLowerCase()}`,
+		);
+
+		const nestedSpritesheetPaths = Object.entries(spritesheetsMap).flatMap(
+			([code, characterGroup]) =>
+				Object.keys(characterGroup).map(
+					(id) => `/${code.toLowerCase()}/${id}`,
+				),
+		);
+
+		return [
+			"/",
+			...rootSpritesheetPaths,
+			...characterPaths,
+			...nestedSpritesheetPaths,
+		];
 	},
 } satisfies Config;

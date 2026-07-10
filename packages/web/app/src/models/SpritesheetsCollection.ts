@@ -214,6 +214,16 @@ export class SpritesheetsCollection {
 				new Date(a.sheet.data.commitDate).getTime(),
 		);
 	};
+
+	/** Gets contributor ID by name */
+	getContributorIdByName = (name: string): string | null => {
+		for (const [id, contributor] of Object.entries(this.contributors)) {
+			if (contributor.name === name) {
+				return id;
+			}
+		}
+		return null;
+	};
 }
 
 /** Factory function to create collection from repository data */

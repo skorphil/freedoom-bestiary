@@ -82,6 +82,21 @@
 	display: block;
 }
 
+.authorsList {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 0.2rem;
+}
+
+.authorLink {
+	color: var(--color-link);
+	text-decoration: none;
+}
+
+.authorLink:hover {
+	text-decoration: underline;
+}
+
 /* 2-column main layout with minimal preview */
 @media (min-width: 600px) {
 	.previewLayout {

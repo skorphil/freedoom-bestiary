@@ -1,6 +1,6 @@
 import type { AnimationName } from "@freedoom-bestiary/database/schema";
 import { ReactElement, useMemo, useRef } from "react";
-import { useParams } from "react-router";
+import { Link, useParams } from "react-router";
 import { useAnimation } from "~/src/components/animator/useAnimation";
 import { useSpritesheets } from "~/src/context/SpritesheetsContext";
 import { PreviewControls } from "./PreviewControls";
@@ -13,10 +13,11 @@ export function SpritesheetPreview() {
 	const collection = useSpritesheets();
 
 	const spritesheet = useMemo(() => {
-		if (params.id) {
-			return collection.getByUuid(params.id);
+		const id = params.id || params.slug;
+		if (id) {
+			return collection.getByUuid(id);
 		}
-	}, [params.id, collection]);
+	}, [params.id, params.slug, collection]);
 
 	const {
 		animName,
@@ -44,7 +45,7 @@ export function SpritesheetPreview() {
 	const allAuthors = collection.getAuthors(code);
 	const spritesheetAuthors = collection.getUniqueAuthors(spritesheet);
 	const versionsCount = collection.getHistory(code).length;
-	const spritesHref = `/character/${spritesheet.code.toLowerCase()}`;
+	const spritesHref = `/${spritesheet.code.toLowerCase()}`;
 	const commitDate = new Date(spritesheet.data.commitDate).toISOString().split("T")[0];
 	const commitUrl = spritesheet.data.commitUrl;
 	const commitUrlLabel = [commitDate, spritesheet.data.commitSha.substring(0, 7)]
@@ -61,18 +62,48 @@ export function SpritesheetPreview() {
 					<span>{characterDescription}</span>
 				</MetaBlock>
 				<MetaBlock key="Versions" label="Versions Total">
-					<span>{versionsCount} versions</span>
-					{/* TODO URL to character page */}
+					<Link to={`/${code.toLowerCase()}`}>{versionsCount} versions</Link>
 				</MetaBlock>
 				<MetaBlock key="Authors" label="All character contributors">
-					<span>{allAuthors.join(", ")}</span>
-					{/* TODO URL to author page */}
+					<div className={styles.authorsList}>
+						{allAuthors.map((authorName, index) => {
+							// Find the contributor ID for this author name
+							const contributorId = collection.getContributorIdByName(authorName);
+
+							return (
+								<span key={authorName}>
+									{contributorId ? (
+										<a href={`/freedoom-bestiary/authors/${contributorId}`}>{authorName}</a>
+									) : (
+										authorName
+									)}
+									{index < allAuthors.length - 1 ? ", " : ""}
+								</span>
+							);
+						})}
+					</div>
 				</MetaBlock>
 			</div>
 
 			<div className={styles.metaListFull}>
 				<MetaBlock key="Version contributors" label="Current version contributors">
-					<span>{spritesheetAuthors.join(", ")}</span>
+					<div className={styles.authorsList}>
+						{spritesheetAuthors.map((authorName, index) => {
+							// Find the contributor ID for this author name
+							const contributorId = collection.getContributorIdByName(authorName);
+
+							return (
+								<span key={authorName}>
+									{contributorId ? (
+										<a href={`/freedoom-bestiary/authors/${contributorId}`}>{authorName}</a>
+									) : (
+										authorName
+									)}
+									{index < spritesheetAuthors.length - 1 ? ", " : ""}
+								</span>
+							);
+						})}
+					</div>
 				</MetaBlock>
 				<MetaBlock key="Commit" label="Version Commit">
 					<a href={commitUrl}>{commitUrlLabel}</a>

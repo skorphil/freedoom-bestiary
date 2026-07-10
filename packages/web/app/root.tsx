@@ -1,10 +1,5 @@
 import "./assets/styles.css";
 import {
-	CharacterRepository,
-	ContributorRepository,
-	SpritesheetRepository,
-} from "@freedoom-bestiary/database";
-import {
 	Links,
 	Meta,
 	Outlet,
@@ -15,6 +10,12 @@ import {
 import { SpritesheetsProvider } from "./src/context/SpritesheetsContext";
 
 export async function loader() {
+	const {
+		CharacterRepository,
+		ContributorRepository,
+		SpritesheetRepository,
+	} = await import("./repositories.server");
+
 	const allSheets = await SpritesheetRepository.getAllSpritesheets();
 	const allCharacters = CharacterRepository.getAllCharacters();
 	const allContributors = ContributorRepository.getAllContributors();

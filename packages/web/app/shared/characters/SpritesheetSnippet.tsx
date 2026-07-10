@@ -1,20 +1,22 @@
 import { useRef } from "react";
 import { useNavigate } from "react-router";
 import { useAnimation } from "~/src/components/animator/useAnimation";
-import styles from "./CharacterSnippet.module.css";
+import styles from "./SpritesheetSnippet.module.css";
 
-type CharacterSnippetProps = {
+type SpritesheetSnippetProps = {
 	spritesheetId: string;
 	title: string;
 	secondaryText?: string;
+	to?: string;
 };
 
 /** Snippet, showcasing given spritesheet */
-function CharacterSnippet({
+function SpritesheetSnippet({
 	secondaryText,
 	title,
 	spritesheetId,
-}: CharacterSnippetProps) {
+	to,
+}: SpritesheetSnippetProps) {
 	const canvasRef = useRef<HTMLCanvasElement>(null);
 	const navigate = useNavigate();
 	const { stageSize } = useAnimation({
@@ -24,10 +26,18 @@ function CharacterSnippet({
 		initialAngle: 2,
 	});
 
+	const handleClick = () => {
+		if (to) {
+			navigate(to);
+		} else {
+			navigate(`/${spritesheetId}`);
+		}
+	};
+
 	const onKeyDown = (e: React.KeyboardEvent) => {
 		if (e.key === "Enter" || e.key === " ") {
 			e.preventDefault();
-			navigate(`/${spritesheetId}`);
+			handleClick();
 		}
 	};
 
@@ -35,7 +45,7 @@ function CharacterSnippet({
 		<button
 			type="button"
 			onKeyDown={onKeyDown}
-			onClick={() => navigate(`/${spritesheetId}`)}
+			onClick={handleClick}
 			className={styles.snippetContainer}
 		>
 			<p className={styles.title}>{title}</p>
@@ -53,4 +63,4 @@ function CharacterSnippet({
 	);
 }
 
-export default CharacterSnippet;
+export default SpritesheetSnippet;
