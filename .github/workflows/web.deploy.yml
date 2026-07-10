@@ -3,7 +3,7 @@ name: Build and deploy site
 on:
   push:
     branches:
-      - main
+      - 'release/web/**'
   workflow_dispatch:
 
 permissions:
