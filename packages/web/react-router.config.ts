@@ -1,5 +1,5 @@
 import {
-	CharacterRepository,
+	ContributorRepository,
 	SpritesheetRepository,
 } from "@freedoom-bestiary/database";
 import type { Config } from "@react-router/dev/config";
@@ -26,11 +26,17 @@ export default {
 				),
 		);
 
+		const contributors = await ContributorRepository.getAllContributors();
+		const authorPaths = Object.keys(contributors).map(
+			(id) => `/authors/${id}`,
+		);
+
 		return [
 			"/",
 			...rootSpritesheetPaths,
 			...characterPaths,
 			...nestedSpritesheetPaths,
+			...authorPaths,
 		];
 	},
 } satisfies Config;
