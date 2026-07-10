@@ -1,5 +1,5 @@
 import { Outlet, useMatches } from "react-router";
-import CharactersList from "~/pages/charactersList/CharactersList.tsx";
+import CharactersList from "~/pages/main-page/CharactersList";
 import styles from "./index.module.css";
 
 export function meta() {

@@ -1,0 +1,49 @@
+.checkboxWrapper {
+	display: block;
+	width: 100%;
+}
+
+.hiddenInput {
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+
+.checkboxItem {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+	height: 36px;
+	background: none;
+	padding: 0 0.2rem;
+	border: 2px solid transparent;
+	cursor: pointer;
+	text-align: left;
+}
+
+/* Focus styles for accessibility */
+.hiddenInput:focus-visible + .checkboxItem {
+	outline: 2px dashed var(--color-text-primary);
+	outline-offset: 4px;
+}
+
+.checkboxItem:hover {
+	border: 2px solid var(--color-accent);
+}
+
+.label {
+	text-transform: capitalize;
+}
+
+.checkIcon {
+	margin-left: 8px;
+	opacity: 0.5;
+}
+
+.selected .checkIcon {
+	opacity: 1;
+	color: #fff;
+}

@@ -1,6 +1,7 @@
 import type { AnimationName } from "@freedoom-bestiary/database/schema";
 
 import { useRef } from "react";
+import { RadioCheckbox } from "../../../shared/ui/checkbox/Checkbox";
 import styles from "./Animator.module.css";
 import { useAnimation } from "./useAnimation.ts";
 
@@ -72,35 +73,35 @@ export function Animator({
 			</div>
 			<div className={styles.animatorControls}>
 				<div className={styles.angleControl}>
-					<button
-						className={styles.angleButton}
-						onClick={() => handleAngleChange(-1)}
-						title="Rotate Left"
-					>
-						{"[<]"}
-					</button>
-
-					<div className={styles.stateControl}>
-						<span>[</span>
-						<select
-							className={styles.stateSelect}
-							value={animName}
-							onChange={(e) => setAnimName(e.target.value as AnimationName)}
+					<div className={styles.angleButtons}>
+						<button
+							className={styles.angleButton}
+							onClick={() => handleAngleChange(-1)}
+							title="Rotate Left"
 						>
-							{animations.map((anim) => (
-								<option key={anim} value={anim}>{`${anim}`}</option>
-							))}
-						</select>
-						<span>]</span>
+							{"[<]"}
+						</button>
+						<button
+							className={styles.angleButton}
+							onClick={() => handleAngleChange(1)}
+							title="Rotate Right"
+						>
+							{"[>]"}
+						</button>
 					</div>
 
-					<button
-						className={styles.angleButton}
-						onClick={() => handleAngleChange(1)}
-						title="Rotate Right"
-					>
-						{"[>]"}
-					</button>
+					<div className={styles.stateControl} role="radiogroup" aria-label="Animation selection">
+						{animations.map((anim) => (
+							<RadioCheckbox
+								key={anim}
+								label={anim}
+								isSelected={anim === animName}
+								onChange={() => setAnimName(anim)}
+								name={`anim-selection-${uuid}`}
+								value={anim}
+							/>
+						))}
+					</div>
 				</div>
 			</div>
 		</div>

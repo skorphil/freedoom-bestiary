@@ -9,7 +9,7 @@ export default [
 	layout("routes/layout.tsx", [
 		layout("routes/index.tsx", [
 			index("routes/home.tsx"),
-			route("spritesheets/:id", "routes/spritesheets.$id.tsx"),
+			route(":id", "routes/spritesheets.$id.tsx"),
 		]),
 	]),
 ] satisfies RouteConfig;

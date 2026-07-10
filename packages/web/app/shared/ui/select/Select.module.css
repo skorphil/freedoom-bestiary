@@ -1,0 +1,64 @@
+.animSelect {
+	position: relative;
+	flex: 1;
+	display: flex;
+	align-items: center;
+	height: 40px;
+	border: 1px solid var(--color-accent);
+	background: transparent;
+	padding: 0 0.8rem;
+}
+
+/* @media (hover: hover) {
+	.animSelect:hover {
+		border-color: var(--color-text-primary);
+	}
+} */
+
+.animSelect:has(select:focus-visible) {
+	outline: 2px dashed var(--color-text-primary);
+	outline-offset: 4px;
+}
+
+@media (hover: none) {
+	.animSelect:has(select:focus) {
+		border-color: var(--color-accent);
+		outline: none;
+	}
+}
+
+.chevronWrapper {
+	pointer-events: none;
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+
+.selectChevron {
+	color: var(--color-text-primary);
+}
+
+.selectNative {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: transparent;
+	border: none;
+	color: var(--color-text-primary);
+	font-family: var(--text-font-main);
+	font-size: var(--text-md);
+	appearance: none;
+	-webkit-appearance: none;
+	cursor: pointer;
+	outline: none;
+	padding: 0 2.5rem 0 0.8rem;
+	margin: 0;
+	opacity: 1;
+}
+
+.selectNative option {
+	background: var(--color-green-700);
+	color: var(--color-text-primary);
+}

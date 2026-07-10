@@ -9,7 +9,6 @@
 
 .animatorDisplay {
 	position: relative;
-	background-color: transparent;
 	width: 100%;
 	height: 400px;
 	display: flex;
@@ -41,7 +40,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background: rgba(0, 0, 0, 0.5);
 	z-index: 1;
 }
 
@@ -63,7 +61,8 @@
 
 .stateControl {
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	align-items: stretch;
 	gap: 4px;
 	flex-grow: 1;
 	justify-content: center;
@@ -74,7 +73,6 @@
 }
 
 .stateSelect {
-	background: transparent;
 	border: none;
 	font-family: var(--font-main);
 	color: var(--color-green-30);
@@ -96,13 +94,19 @@
 
 .angleControl {
 	display: flex;
-	align-items: center;
+	flex-direction: column;
+	align-items: stretch;
 	width: 100%;
+	gap: 16px;
+}
+
+.angleButtons {
+	display: flex;
 	justify-content: space-between;
+	align-items: center;
 }
 
 .angleButton {
-	background: transparent;
 	border: none;
 	color: var(--color-green-30);
 	cursor: pointer;

@@ -107,7 +107,7 @@ export function useAnimation({
 			if (!canvas || !ctx) return;
 
 			const stageWidth = task.stageSize.width;
-			const stageHeight = task.stageSize.height * 1.2;
+			const stageHeight = task.stageSize.height;
 
 			// Ensure canvas internal resolution matches the stage size (with 1.2 aspect correction)
 			if (canvas.width !== stageWidth || canvas.height !== stageHeight) {
@@ -121,16 +121,22 @@ export function useAnimation({
 			if (task.image.complete) {
 				// doom sprites are rendered with 1.2 aspect ratio correction
 				// the sprites are already pre-aligned to bottom-center in the spritesheet cells
+				const drawWidth = task.source.width;
+				const drawHeight = task.source.height * 1.2;
+
+				const dx = (stageWidth - drawWidth) / 2;
+				const dy = (stageHeight - drawHeight) / 2;
+
 				ctx.drawImage(
 					task.image,
 					task.source.x,
 					task.source.y,
 					task.source.width,
 					task.source.height,
-					0,
-					0,
-					task.source.width,
-					task.source.height * 1.2,
+					dx,
+					dy,
+					drawWidth,
+					drawHeight,
 				);
 			}
 		},

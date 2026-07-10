@@ -1,0 +1,83 @@
+/* max 1023 */
+.controlsMini {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: 1.2rem;
+}
+
+/* min 1024 */
+.controlsFull {
+	display: none;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: auto repeat(3, 36px);
+	row-gap: 1px;
+	column-gap: 24px;
+	grid-template-areas:
+		"header-1 header-1 header-2"
+		"checkbox-1 header-4 angle-selector"
+		"checkbox-2 header-5 angle-selector"
+		"checkbox-3 header-6 angle-selector";
+	grid-auto-flow: column;
+}
+
+.sectionLabel {
+	display: block;
+	grid-area: header-1;
+	font-size: var(--text-sm);
+	color: var(--color-text-secondary);
+	margin-bottom: 0.2rem;
+}
+
+.angleLabel {
+	display: block;
+	grid-area: header-2;
+	font-size: var(--text-sm);
+	color: var(--color-text-secondary);
+	margin-bottom: 0.2rem;
+}
+
+.animSection {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	min-width: 0;
+}
+
+.animList {
+	display: flex;
+	flex-direction: column;
+	gap: 2px;
+}
+
+.animName {
+	flex: 1;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.checkIcon {
+	flex-shrink: 0;
+	color: var(--color-accent);
+}
+
+.checkboxItem.selected .checkIcon {
+	color: var(--color-green-100);
+}
+
+.angleSection {
+	display: flex;
+	grid-area: angle-selector;
+	flex-direction: column;
+	flex-shrink: 0;
+}
+
+@media (min-width: 1024px) {
+	.controlsMini {
+		display: none;
+	}
+	.controlsFull {
+		display: grid;
+	}
+}

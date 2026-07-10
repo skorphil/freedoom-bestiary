@@ -1,17 +1,17 @@
 :root {
 	/* Base tokens */
-	--color-green-100: #95fe4e;
-	--color-green-300: #72c836;
-	--color-green-500: #50872d;
-	--color-green-700: #345123;
-	--color-green-900: #0f1a09;
+	--color-green-100: oklch(90% 0.229 135);
+	--color-green-300: oklch(75% 0.195 135);
+	--color-green-500: oklch(57% 0.135 135);
+	--color-green-700: oklch(40% 0.079 135);
+	--color-green-900: oklch(13% 0.037 135);
 
 	--text-font-main: "VT323", monospace;
-	--text-md: "1rem";
-	--text-sm: "0.8rem";
-	--text-xxl: "2rem";
-	--text-xl: "1.6rem";
-	--text-lg: "1.2rem";
+	--text-md: 1rem;
+	--text-sm: 0.8rem;
+	--text-xxl: 2rem;
+	--text-xl: 1.6rem;
+	--text-lg: 1.2rem;
 
 	/* Semantical tokens */
 	--color-text-primary: var(--color-green-100);
@@ -23,9 +23,11 @@
 
 /*
   media sizes
-  sm: 0-767
-  md: 768-1919
-  lg: 1920+
+
+  sm: 0-599
+  md: 600-1023
+  lg: 1024-1919
+  xl: 1920+
 */
 
 * {
@@ -48,7 +50,6 @@ body {
 	width: 100%;
 	height: 100%;
 	margin: 0 auto;
-	/* padding: 1.2rem; */
 
 	display: flex;
 	flex-direction: column;
@@ -65,18 +66,13 @@ a:hover {
 	text-decoration: solid;
 }
 
-footer {
-	margin: 2.4rem 0;
-	font-size: 1.2rem;
-}
-
 @media (min-width: 1920px) {
 	html {
 		font-size: 24px;
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 599px) {
 	html {
 		font-size: 16px;
 	}

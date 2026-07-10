@@ -25,9 +25,7 @@ export const AngleSelector: FC<AngleSelectorProps> = ({
 		<div className={styles.grid}>
 			{ANGLE_MAP.flatMap((row) =>
 				row.map((angle) => {
-					const isVisible = showOnlyCenter
-						? angle === 0
-						: availableAngles.includes(angle);
+					const isVisible = showOnlyCenter ? angle === 0 : availableAngles.includes(angle);
 					const isSelected = currentAngle === angle;
 
 					if (!isVisible) {

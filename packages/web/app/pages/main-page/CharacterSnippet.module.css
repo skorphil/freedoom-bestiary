@@ -34,8 +34,6 @@
 	left: 0px;
 	margin: 0;
 	padding: 2px;
-
-	background-color: var(--color-bg);
 }
 
 .footer {
@@ -44,8 +42,6 @@
 	left: 0px;
 	margin: 0;
 	padding: 2px;
-
-	background-color: var(--color-bg);
 }
 
 .spriteWrapper {
