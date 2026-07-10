@@ -11,20 +11,20 @@ type AuthorContributionsListProps = {
  */
 export function AuthorContributionsList({ authorId }: AuthorContributionsListProps) {
 	const collection = useSpritesheets();
-	
+
 	// Resolve author ID to name
 	const authorName = collection.getContributorName(authorId);
-	
+
 	// Get all contributions for this author
 	const contributions = collection.getAuthorContributions(authorName);
 
 	return (
 		<div className={styles.characterGrid}>
-			{contributions.map(({ code, sheet }) => (
+			{contributions.map(({ sheet }) => (
 				<SpritesheetSnippet
 					key={sheet.id}
 					spritesheetId={sheet.id}
-					title={`${code}: ${new Date(sheet.data.commitDate).toISOString().split("T")[0]}`}
+					title={new Date(sheet.data.commitDate).toISOString().split("T")[0]}
 					to={`/authors/${authorId}/${sheet.id}`}
 				/>
 			))}

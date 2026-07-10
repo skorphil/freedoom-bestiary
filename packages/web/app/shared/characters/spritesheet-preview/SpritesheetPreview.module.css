@@ -5,13 +5,20 @@
 	grid-template-rows: auto auto auto 1fr auto;
 	grid-template-areas:
 		"header"
-		"metaMini"
-		"metaFull"
+		"meta"
 		"preview"
 		"preview-controls";
 	overflow: hidden;
 	height: 100%;
 	border-top: 4px solid var(--color-accent);
+}
+
+.metaSidebar {
+	grid-area: meta;
+	display: flex;
+	flex-direction: column;
+	overflow-y: auto;
+	min-height: 0;
 }
 
 .previewHeader {
@@ -21,7 +28,6 @@
 }
 
 .metaListMini {
-	grid-area: metaMini;
 	display: flex;
 	flex-direction: column;
 	gap: 0.6rem;
@@ -29,7 +35,6 @@
 }
 
 .metaListFull {
-	grid-area: metaFull;
 	display: none;
 	flex-direction: column;
 	gap: 0.6rem;
@@ -108,15 +113,17 @@
 @media (min-width: 1024px) {
 	.previewLayout {
 		grid-template-columns: 440px 1fr;
-		grid-template-rows: auto auto auto 1fr auto;
+		grid-template-rows: auto 1fr auto;
 		grid-template-areas:
 			"header preview"
 			"meta preview"
-			"metaMini preview"
-			"metaFull preview"
-			"none preview"
 			"preview-controls preview";
 	}
+
+	.metaSidebar {
+		border-right: 1px solid var(--color-accent);
+	}
+
 	.preview {
 		border-left: 1px solid var(--color-accent);
 	}

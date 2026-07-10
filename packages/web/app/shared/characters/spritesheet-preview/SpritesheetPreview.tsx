@@ -29,7 +29,7 @@ export function SpritesheetPreview() {
 		animations,
 		currentAngles,
 		stageSize,
-		characterName,
+		characterName, // TODO move to collection?
 		characterDescription, // TODO move to collection?
 	} = useAnimation({
 		canvasRef,
@@ -45,69 +45,87 @@ export function SpritesheetPreview() {
 	const allAuthors = collection.getAuthors(code);
 	const spritesheetAuthors = collection.getUniqueAuthors(spritesheet);
 	const versionsCount = collection.getHistory(code).length;
-	const spritesHref = `/${spritesheet.code.toLowerCase()}`;
+	// const spritesHref = `/${spritesheet.code.toLowerCase()}`;
 	const commitDate = new Date(spritesheet.data.commitDate).toISOString().split("T")[0];
 	const commitUrl = spritesheet.data.commitUrl;
+	const commitMessage = spritesheet.data.commitMessage;
 	const commitUrlLabel = [commitDate, spritesheet.data.commitSha.substring(0, 7)]
 		.filter(Boolean)
 		.join(" | ");
 
+	const { authorId } = params;
+	const authorName = authorId ? collection.getContributorName(authorId) : null;
+	const authorRelation = authorName
+		? collection.getAuthorsWithRelations(spritesheet).find((a) => a.name === authorName)?.relation
+		: null;
+
 	return (
 		<div className={styles.previewLayout}>
 			<div className={styles.previewHeader}>
-				<PreviewHeader characterName={characterName || ""} spritesHref={spritesHref} />
-			</div>
-			<div className={styles.metaListMini}>
-				<MetaBlock key="Descr" label="Description">
-					<span>{characterDescription}</span>
-				</MetaBlock>
-				<MetaBlock key="Versions" label="Versions Total">
-					<Link to={`/${code.toLowerCase()}`}>{versionsCount} versions</Link>
-				</MetaBlock>
-				<MetaBlock key="Authors" label="All character contributors">
-					<div className={styles.authorsList}>
-						{allAuthors.map((authorName, index) => {
-							// Find the contributor ID for this author name
-							const contributorId = collection.getContributorIdByName(authorName);
-
-							return (
-								<span key={authorName}>
-									{contributorId ? (
-										<a href={`/freedoom-bestiary/authors/${contributorId}`}>{authorName}</a>
-									) : (
-										authorName
-									)}
-									{index < allAuthors.length - 1 ? ", " : ""}
-								</span>
-							);
-						})}
-					</div>
-				</MetaBlock>
+				<PreviewHeader characterName={characterName || ""} />
 			</div>
 
-			<div className={styles.metaListFull}>
-				<MetaBlock key="Version contributors" label="Current version contributors">
-					<div className={styles.authorsList}>
-						{spritesheetAuthors.map((authorName, index) => {
-							// Find the contributor ID for this author name
-							const contributorId = collection.getContributorIdByName(authorName);
+			<div className={styles.metaSidebar}>
+				<div className={styles.metaListMini}>
+					<MetaBlock key="Descr" label="Description">
+						<span>{characterDescription}</span>
+					</MetaBlock>
+					<MetaBlock key="Versions" label="Versions Total">
+						<Link to={`/${code.toLowerCase()}`}>{versionsCount} versions</Link>
+					</MetaBlock>
+					<MetaBlock key="Authors" label="All character contributors">
+						<div className={styles.authorsList}>
+							{allAuthors.map((authorName, index) => {
+								// Find the contributor ID for this author name
+								const contributorId = collection.getContributorIdByName(authorName);
 
-							return (
-								<span key={authorName}>
-									{contributorId ? (
-										<a href={`/freedoom-bestiary/authors/${contributorId}`}>{authorName}</a>
-									) : (
-										authorName
-									)}
-									{index < spritesheetAuthors.length - 1 ? ", " : ""}
-								</span>
-							);
-						})}
-					</div>
-				</MetaBlock>
-				<MetaBlock key="Commit" label="Version Commit">
-					<a href={commitUrl}>{commitUrlLabel}</a>
-				</MetaBlock>
+								return (
+									<span key={authorName}>
+										{contributorId ? (
+											<a href={`/freedoom-bestiary/authors/${contributorId}`}>{authorName}</a>
+										) : (
+											authorName
+										)}
+										{index < allAuthors.length - 1 ? ", " : ""}
+									</span>
+								);
+							})}
+						</div>
+					</MetaBlock>
+				</div>
+
+				<div className={styles.metaListFull}>
+					{authorId && authorName && authorRelation && (
+						<MetaBlock key="AuthorRelation" label={`${authorName} relation`}>
+							<p>{authorRelation}</p>
+						</MetaBlock>
+					)}
+					<MetaBlock key="Version contributors" label="Current version contributors">
+						<div className={styles.authorsList}>
+							{spritesheetAuthors.map((authorName, index) => {
+								// Find the contributor ID for this author name
+								const contributorId = collection.getContributorIdByName(authorName);
+
+								return (
+									<span key={authorName}>
+										{contributorId ? (
+											<a href={`/freedoom-bestiary/authors/${contributorId}`}>{authorName}</a>
+										) : (
+											authorName
+										)}
+										{index < spritesheetAuthors.length - 1 ? ", " : ""}
+									</span>
+								);
+							})}
+						</div>
+					</MetaBlock>
+					<MetaBlock key="Commit" label="Version commit">
+						<a href={commitUrl}>{commitUrlLabel}</a>
+					</MetaBlock>
+					<MetaBlock key="commit-message" label="Commit message">
+						<span> {commitMessage}</span>
+					</MetaBlock>
+				</div>
 			</div>
 
 			<div className={styles.preview}>
