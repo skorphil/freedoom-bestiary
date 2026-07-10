@@ -7,10 +7,8 @@ import type { Config } from "@react-router/dev/config";
 export default {
 	ssr: true,
 	basename: "/freedoom-bestiary/",
-	// Disable lazy route discovery to avoid __manifest 404s on static hosts
-	// future: {
-	// 	unstable_optimizeDeps: true,
-	// },
+	// Disable lazy route discovery — static hosts (GitHub Pages) can't serve /__manifest
+	routeDiscovery: { mode: "initial" },
 	async prerender() {
 		const spritesheetsMap = await SpritesheetRepository.getAllSpritesheets();
 
