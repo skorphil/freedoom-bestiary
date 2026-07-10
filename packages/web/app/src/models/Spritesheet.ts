@@ -89,11 +89,7 @@ export class Spritesheet {
 	 */
 	getDate(): string {
 		const date = new Date(this.atlas.commitDate);
-		return date.toLocaleDateString(undefined, {
-			year: "numeric",
-			month: "long",
-			day: "numeric",
-		});
+		return date.toISOString().split("T")[0];
 	}
 
 	getCharacterName(): string {
@@ -115,17 +111,11 @@ export class Spritesheet {
 		);
 	}
 
-	getAnimations(): Partial<
-		Record<AnimationName, { steps: AnimationStep[]; angles: number[] }>
-	> {
+	getAnimations(): Partial<Record<AnimationName, { steps: AnimationStep[]; angles: number[] }>> {
 		const meta = this.characterMeta;
-		const availableAnims = this.getAvailableAnimationKeys(
-			meta,
-		) as AnimationName[];
+		const availableAnims = this.getAvailableAnimationKeys(meta) as AnimationName[];
 		const sprites = this.atlas.sprites;
-		const result: Partial<
-			Record<AnimationName, { steps: AnimationStep[]; angles: number[] }>
-		> = {};
+		const result: Partial<Record<AnimationName, { steps: AnimationStep[]; angles: number[] }>> = {};
 
 		for (const animName of availableAnims) {
 			const sequence = meta.animations[animName];
@@ -161,9 +151,7 @@ export class Spritesheet {
 	}
 
 	/** @deprecated Use getAnimations() instead */
-	getAnimationsWithAngles(
-		meta: Character,
-	): { name: AnimationName; angles: number[] }[] {
+	getAnimationsWithAngles(): { name: AnimationName; angles: number[] }[] {
 		const anims = this.getAnimations();
 		return Object.entries(anims).map(([name, data]) => ({
 			name: name as AnimationName,
