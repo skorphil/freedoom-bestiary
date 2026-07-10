@@ -33,12 +33,31 @@ export default {
 			(id) => `/authors/${id}`,
 		);
 
+		const authorSpritesheetPaths = Object.values(spritesheetsMap).flatMap(
+			(characterGroup) =>
+				Object.entries(characterGroup).flatMap(([sheetId, sheet]) => {
+					const contributorIds = new Set<string>();
+					for (const contrib of sheet.contributions) {
+						contributorIds.add(contrib.contributorId);
+					}
+					for (const sprite of sheet.sprites) {
+						for (const contrib of sprite.contributions) {
+							contributorIds.add(contrib.contributorId);
+						}
+					}
+					return [...contributorIds].map(
+						(authorId) => `/authors/${authorId}/${sheetId}`,
+					);
+				}),
+		);
+
 		return [
 			"/",
 			...rootSpritesheetPaths,
 			...characterPaths,
 			...nestedSpritesheetPaths,
 			...authorPaths,
+			...authorSpritesheetPaths,
 		];
 	},
 } satisfies Config;
