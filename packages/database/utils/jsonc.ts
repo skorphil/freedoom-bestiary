@@ -14,13 +14,22 @@ export function resolveDataPath(
 	relativePath: string,
 	importMetaUrl: string,
 ): URL {
+	// 1. Priority: process.env.FREEDOOM_DATA_DIR
 	if (process.env.FREEDOOM_DATA_DIR) {
-		// relativePath is usually something like "../data/characters.jsonc"
-		// We want the filename part if FREEDOOM_DATA_DIR is provided
-		const filename = path.basename(relativePath);
-		const absolutePath = path.resolve(process.env.FREEDOOM_DATA_DIR, filename);
+		const dataPart = relativePath.split("/data/")[1] || path.basename(relativePath);
+		const absolutePath = path.resolve(process.env.FREEDOOM_DATA_DIR, dataPart);
 		return pathToFileURL(absolutePath);
 	}
+
+	// 2. Fallback: try to find the data directory relative to the current working directory
+	// This is useful when running bundled code in a monorepo
+	const cwdDataPath = path.resolve(process.cwd(), "packages/database/data");
+	if (fs.existsSync(cwdDataPath)) {
+		const dataPart = relativePath.split("/data/")[1] || path.basename(relativePath);
+		return pathToFileURL(path.resolve(cwdDataPath, dataPart));
+	}
+
+	// 3. Last resort: relative to importMetaUrl (works in dev)
 	return new URL(relativePath, importMetaUrl);
 }
 

@@ -1,5 +1,7 @@
+import { useEffect, useState } from "react";
 import Typewriter from "typewriter-effect";
 import styles from "./home.module.css";
+
 export function meta() {
 	return [
 		{ title: "Freedoom Bestiary" },
@@ -8,6 +10,21 @@ export function meta() {
 }
 
 export default function Home() {
+	const [isHydrated, setIsHydrated] = useState(false);
+
+	useEffect(() => {
+		setIsHydrated(true);
+	}, []);
+
+	if (!isHydrated) {
+		return (
+			<div>
+				<h1 className={styles.mainHeader}>Welcome</h1>
+				<p>Bestiary database loaded</p>
+			</div>
+		);
+	}
+
 	return (
 		<div>
 			<h1 className={styles.mainHeader}>

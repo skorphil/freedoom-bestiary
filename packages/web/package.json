@@ -4,9 +4,9 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
-		"build": "FREEDOOM_DATA_DIR=$(pwd)/../database/data react-router build",
+		"build": "FREEDOOM_DATA_DIR=$(pwd)/../database/data react-router build && cp build/client/freedoom-bestiary/index.html build/client/404.html",
 		"dev": "NODE_ENV=development react-router dev",
-		"start": "react-router-serve ./build/server/index.js",
+		"start": "FREEDOOM_DATA_DIR=$(pwd)/../database/data react-router-serve ./build/server/index.js",
 		"typecheck": "react-router typegen && tsc"
 	},
 	"dependencies": {
