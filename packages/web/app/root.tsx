@@ -1,5 +1,6 @@
 import "./assets/styles.css";
 import {
+	isRouteErrorResponse,
 	Links,
 	Meta,
 	Outlet,
@@ -23,8 +24,6 @@ export async function loader() {
 }
 
 export function Layout({ children }: { children: React.ReactNode }) {
-	const data = useLoaderData<typeof loader>();
-
 	return (
 		<html lang="en">
 			<head>
@@ -44,17 +43,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
 				<Links />
 			</head>
 			<body>
-				{data ? (
-					<SpritesheetsProvider
-						data={data.allSheets}
-						characters={data.allCharacters}
-						contributors={data.allContributors}
-					>
-						{children}
-					</SpritesheetsProvider>
-				) : (
-					<p>Error loading spritesheet data</p>
-				)}
+				{children}
 				<ScrollRestoration />
 				<Scripts />
 			</body>
@@ -63,5 +52,44 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-	return <Outlet />;
+	const data = useLoaderData<typeof loader>();
+
+	return (
+		<SpritesheetsProvider
+			data={data.allSheets}
+			characters={data.allCharacters}
+			contributors={data.allContributors}
+		>
+			<Outlet />
+		</SpritesheetsProvider>
+	);
+}
+
+export function ErrorBoundary({ error }: { error: unknown }) {
+	let message = "Oops!";
+	let details = "An unexpected error occurred.";
+	let stack: string | undefined;
+
+	if (isRouteErrorResponse(error)) {
+		message = error.status === 404 ? "404" : "Error";
+		details =
+			error.status === 404
+				? "The requested page could not be found."
+				: error.statusText || details;
+	} else if (import.meta.env.DEV && error && error instanceof Error) {
+		details = error.message;
+		stack = error.stack;
+	}
+
+	return (
+		<main className="pt-16 p-4 container mx-auto">
+			<h1>{message}</h1>
+			<p>{details}</p>
+			{stack && (
+				<pre className="w-full p-4 overflow-x-auto">
+					<code>{stack}</code>
+				</pre>
+			)}
+		</main>
+	);
 }

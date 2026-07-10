@@ -16,7 +16,9 @@ export default function Home() {
 						typewriter
 							.typeString("Welcome")
 							.callFunction((state) => {
-								state.elements.cursor.style.display = "none";
+								if (state.elements.cursor) {
+									state.elements.cursor.style.display = "none";
+								}
 							})
 							.start();
 					}}
@@ -33,11 +35,15 @@ export default function Home() {
 					onInit={(typewriter) => {
 						typewriter
 							.callFunction((state) => {
-								state.elements.cursor.style.display = "none";
+								if (state.elements.cursor) {
+									state.elements.cursor.style.display = "none";
+								}
 							})
 							.pauseFor(1000)
 							.callFunction((state) => {
-								state.elements.cursor.style.display = "inline-block";
+								if (state.elements.cursor) {
+									state.elements.cursor.style.display = "inline-block";
+								}
 							})
 							.typeString("Bestiary database loaded")
 
