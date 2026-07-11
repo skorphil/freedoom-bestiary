@@ -1,18 +1,27 @@
-.env
+# Local files
 .DS_Store
 .react-router/
 *.git
-webp*/
-historical-parser/out/
+_site
+_cache
+*.log
+node_modules
+.cache*
+*.tsbuildinfo
+dist
+build
 
 # AI Tools
 .kilo
 AGENTS.md
+CLAUDE.md
 .codemie
 .opencode
 .claude
 
+# Secrets
 *.local
-.cache*
+.env
 
-node_modules
+
+
