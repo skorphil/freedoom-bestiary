@@ -101,7 +101,7 @@ export class Spritesheet {
 	}
 
 	getStageSize() {
-		return { width: this.maxWidth, height: Math.ceil(this.maxHeight * 1.2) };
+		return { width: this.maxWidth * 5, height: Math.ceil(this.maxHeight * 6.2) };
 	}
 
 	private getAvailableAnimationKeys(meta: Character): string[] {

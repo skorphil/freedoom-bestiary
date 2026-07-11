@@ -24,10 +24,7 @@ export function useAnimation({
 	const [error, setError] = useState<string | null>(null);
 
 	// Resolve Spritesheet model and metadata from the global collection
-	const spritesheet = useMemo(
-		() => collection.getByUuid(uuid),
-		[collection, uuid],
-	);
+	const spritesheet = useMemo(() => collection.getByUuid(uuid), [collection, uuid]);
 
 	// Wait for image to load
 	const [isReady, setIsReady] = useState(false);
@@ -121,8 +118,8 @@ export function useAnimation({
 			if (task.image.complete) {
 				// doom sprites are rendered with 1.2 aspect ratio correction
 				// the sprites are already pre-aligned to bottom-center in the spritesheet cells
-				const drawWidth = task.source.width;
-				const drawHeight = task.source.height * 1.2;
+				const drawWidth = task.source.width * 5;
+				const drawHeight = task.source.height * 6;
 
 				const dx = (stageWidth - drawWidth) / 2;
 				const dy = (stageHeight - drawHeight) / 2;
@@ -146,10 +143,7 @@ export function useAnimation({
 	useAnimationLoop(generator, onTick);
 
 	const stageSize = useMemo(
-		() =>
-			isReady && spritesheet
-				? spritesheet.getStageSize()
-				: { width: 64, height: 64 },
+		() => (isReady && spritesheet ? spritesheet.getStageSize() : { width: 64, height: 64 }),
 		[spritesheet, isReady],
 	);
 
