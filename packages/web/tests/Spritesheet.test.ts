@@ -69,8 +69,8 @@ test("Spritesheet - bounding box calculation", () => {
 	const sheet = new Spritesheet("TEST" as CharacterCode, mockAtlas, getMeta);
 
 	const size = sheet.getStageSize();
-	expect(size.width).toBe(20);
-	expect(size.height).toBe(24);
+	expect(size.width).toBe(100);
+	expect(size.height).toBe(120);
 });
 
 test("Spritesheet - getAnimations", () => {

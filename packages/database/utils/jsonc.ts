@@ -35,21 +35,14 @@ export function resolveDataPath(
 
 /**
  * Reads a JSONC file and parses it.
- * Uses Bun's native JSONC support if available, otherwise falls back to comment-json.
+ * Uses comment-json to support comments and trailing commas.
  */
 export function readJsoncSync(filePath: string | URL): CommentJSONValue {
 	const pathString =
 		filePath instanceof URL ? fileURLToPath(filePath) : filePath;
 
-	if (typeof Bun !== "undefined") {
-		// In Bun, we can read the file and JSON.parse handles JSONC
-		const content = fs.readFileSync(pathString, "utf8");
-		return JSON.parse(content);
-	} else {
-		// In Node.js, we use comment-json
-		const content = fs.readFileSync(pathString, "utf8");
-		return JSONC.parse(content);
-	}
+	const content = fs.readFileSync(pathString, "utf8");
+	return JSONC.parse(content);
 }
 
 /**

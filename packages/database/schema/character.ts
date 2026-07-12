@@ -26,6 +26,8 @@ export const CharacterCodeSchema = z.enum([
 export const AnimationNameSchema = z.enum([
 	"idling", // Idling | Chasing ...
 	"chasing",
+	"melee",
+	"missile",
 	"attacking",
 	"hurting",
 	"dying",
@@ -39,14 +41,7 @@ export const AnimationStepSchema = z.object({
 });
 
 /** Record of all animations for a character */
-export const AnimationsMapSchema = z.object({
-	idling: z.array(AnimationStepSchema).optional(),
-	chasing: z.array(AnimationStepSchema).optional(),
-	attacking: z.array(AnimationStepSchema).optional(),
-	hurting: z.array(AnimationStepSchema).optional(),
-	dying: z.array(AnimationStepSchema).optional(),
-	gibbing: z.array(AnimationStepSchema).optional(),
-});
+export const AnimationsMapSchema = z.record(z.string(), z.array(AnimationStepSchema));
 
 /** Character entity schema */
 export const CharacterSchema = z.object({
@@ -60,10 +55,7 @@ export const CharacterSchema = z.object({
 });
 
 /** Database of characters keyed by spriteCode */
-export const CharactersMapSchema = z.record(
-	CharacterCodeSchema,
-	CharacterSchema,
-);
+export const CharactersMapSchema = z.record(CharacterCodeSchema, CharacterSchema);
 
 export type CharacterCode = z.infer<typeof CharacterCodeSchema>;
 export type AnimationName = z.infer<typeof AnimationNameSchema>;

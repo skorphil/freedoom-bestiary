@@ -825,7 +825,7 @@
 					"delay": 2,
 				},
 			],
-			"attacking": [
+			"melee": [
 				{
 					"frame": "G",
 					"delay": 6,
@@ -837,6 +837,24 @@
 				{
 					"frame": "I",
 					"delay": 6,
+				},
+			],
+			"missile": [
+				{
+					"frame": "J",
+					"delay": 0,
+				},
+				{
+					"frame": "J",
+					"delay": 10,
+				},
+				{
+					"frame": "K",
+					"delay": 10,
+				},
+				{
+					"frame": "K",
+					"delay": 10,
 				},
 			],
 			"hurting": [
@@ -1769,6 +1787,16 @@
 					"delay": 10,
 				},
 			],
+			// "healing": [
+			// 	{
+			// 		"frame": "A",
+			// 		"delay": 10,
+			// 	},
+			// 	{
+			// 		"frame": "B",
+			// 		"delay": 10,
+			// 	},
+			// ],
 			"chasing": [
 				{
 					"frame": "A",
