@@ -1,6 +1,6 @@
 {
 	"alberto-bonis": {
-		"name": "Alberto Bonis"
+		"name": "Alberto Bonis",
 	},
 	"andrew-stine": {
 		"name": "Andrew Stine",
@@ -8,239 +8,227 @@
 			"Andrew Stine (Linguica)",
 			"Linguica",
 			"Linguica (Andrew Stine)",
-			"N: Andrew Stine"
-		]
+			"N: Andrew Stine",
+		],
 	},
 	"archfile": {
 		"name": "Archfile",
-		"aliases": ["archvile46"]
+		"aliases": ["archvile46"],
 	},
 	"cascade": {
 		"name": "Cascade",
-		"aliases": ["cascade"]
+		"aliases": ["cascade"],
 	},
 	"catoptromancy": {
 		"name": "Catoptromancy",
-		"aliases": ["Cato"]
+		"aliases": ["Cato"],
 	},
 	"cheapalert": {
 		"name": "CheapAlert",
-		"aliases": ["cheapalert"]
+		"aliases": ["cheapalert"],
 	},
 	"colin-phipps": {
-		"name": "Colin Phipps"
+		"name": "Colin Phipps",
 	},
 	"craneo": {
 		"name": "Craneo",
-		"aliases": ["craneo"]
+		"aliases": ["craneo"],
 	},
 	"fernando-carmona-varo": {
 		"name": "Fernando Carmona Varo",
-		"aliases": ["ferk"]
+		"aliases": ["ferk"],
 	},
 	"geekmarine": {
 		"name": "GeekMarine",
-		"aliases": ["geekmarine"]
+		"aliases": ["geekmarine"],
 	},
 	"georgy-samoilov": {
 		"name": "Georgy Samoilov",
-		"aliases": ["georgy_samoilov"]
+		"aliases": ["georgy_samoilov"],
 	},
 	"horrormovierei": {
 		"name": "HorrorMovieRei",
-		"aliases": [
-			"HorrorMovieGuy",
-			"HorroMovieGuy",
-			"horrormovierei",
-			"Horrormovierei",
-			"Rei"
-		]
+		"aliases": ["HorrorMovieGuy", "HorroMovieGuy", "horrormovierei", "Horrormovierei", "Rei"],
 	},
 	"jonathan-dowland": {
 		"name": "Jonathan Dowland",
-		"aliases": ["Jon Dowland"]
+		"aliases": ["Jon Dowland"],
 	},
 	"korp": {
 		"name": "Korp",
-		"aliases": ["korp"]
+		"aliases": ["korp"],
 	},
 	"lokito": {
 		"name": "Lokito",
-		"aliases": ["loki", "lokito"]
+		"aliases": ["loki", "lokito"],
 	},
 	"matthewtheglutton": {
-		"name": "MatthewTheGlutton"
+		"name": "MatthewTheGlutton",
 	},
 	"michael-swanson": {
 		"name": "Michael Swanson",
-		"aliases": ["Mike Swanson"]
+		"aliases": ["Mike Swanson"],
 	},
 	"mothramaster": {
-		"name": "MothraMaster"
+		"name": "MothraMaster",
 	},
 	"reinaldo": {
-		"name": "Reinaldo"
+		"name": "Reinaldo",
 	},
 	"maz-hades": {
-		"name": "Maz Hades"
+		"name": "Maz Hades",
 	},
 	"sodaholic": {
-		"name": "Sodaholic"
+		"name": "Sodaholic",
 	},
 	"mc776": {
-		"name": "mc776"
+		"name": "mc776",
 	},
 	"xindage": {
-		"name": "Xindage"
+		"name": "Xindage",
 	},
 	"kurt-kesler": {
-		"name": "Kurt Kesler"
+		"name": "Kurt Kesler",
 	},
 	"luckypunk": {
-		"name": "luckypunk"
+		"name": "luckypunk",
 	},
 	"heng": {
-		"name": "Heng"
+		"name": "Heng",
 	},
 	"samuel-oliver": {
-		"name": "Samuel Oliver"
+		"name": "Samuel Oliver",
 	},
 	"freedoom-team": {
-		"name": "Freedoom team"
+		"name": "Freedoom team",
 	},
 	"julian-aubourg": {
-		"name": "Julian Aubourg"
+		"name": "Julian Aubourg",
 	},
 	"emmanuel-rousseau": {
-		"name": "Emmanuel Rousseau"
+		"name": "Emmanuel Rousseau",
 	},
 	"ralph-vickers": {
-		"name": "Ralph Vickers"
+		"name": "Ralph Vickers",
 	},
 	"id-software": {
-		"name": "id Software"
+		"name": "id Software",
 	},
 	"m015": {
-		"name": "M015"
+		"name": "M015",
 	},
 	"keen": {
-		"name": "keen"
+		"name": "keen",
 	},
 	"mazmon": {
-		"name": "mazmon"
+		"name": "mazmon",
 	},
 	"emulator": {
-		"name": "emulator"
+		"name": "emulator",
 	},
 	"fredrik-johansson": {
-		"name": "Fredrik Johansson"
+		"name": "Fredrik Johansson",
 	},
 	"scuba-steve": {
-		"name": "Scuba Steve"
+		"name": "Scuba Steve",
 	},
 	"adrian-cabrera": {
-		"name": "Adrian Cabrera"
+		"name": "Adrian Cabrera",
 	},
 	"nightfang": {
-		"name": "Nightfang"
+		"name": "Nightfang",
 	},
 	"ralphis": {
-		"name": "Ralphis"
+		"name": "Ralphis",
 	},
 	"ryam": {
-		"name": "Ryam"
+		"name": "Ryam",
 	},
 	"mouse": {
-		"name": "mouse"
+		"name": "mouse",
 	},
 	"ian-bogie": {
-		"name": "Ian Bogie"
+		"name": "Ian Bogie",
 	},
 	"unknown": {
-		"name": "Unknown"
+		"name": "Unknown",
 	},
 	"lavamander": {
-		"name": "Lavamander"
+		"name": "Lavamander",
 	},
 	"locust": {
-		"name": "locust"
+		"name": "locust",
 	},
 	"thesuperdave938": {
-		"name": "TheSuperDave938"
+		"name": "TheSuperDave938",
 	},
 	"kman": {
-		"name": "KMan"
+		"name": "KMan",
 	},
 	"boogiebogus": {
-		"name": "boogiebogus"
+		"name": "boogiebogus",
 	},
 	"redztag": {
-		"name": "RedZTag"
+		"name": "RedZTag",
 	},
 	"ryuan": {
-		"name": "RyuaN"
+		"name": "RyuaN",
 	},
 	"gargoylol": {
-		"name": "gargoylol"
+		"name": "gargoylol",
 	},
 	"kevin-caccamo": {
-		"name": "Kevin Caccamo"
+		"name": "Kevin Caccamo",
 	},
 	"matt": {
-		"name": "Matt"
+		"name": "Matt",
 	},
 	"ravage": {
-		"name": "ravage"
+		"name": "ravage",
 	},
 	"captain-mellow": {
-		"name": "Captain Mellow"
+		"name": "Captain Mellow",
 	},
 	"nickz": {
-		"name": "NickZ"
+		"name": "NickZ",
 	},
 	"slayer226": {
-		"name": "Slayer226"
+		"name": "Slayer226",
 	},
 	"sarah-blodgett": {
-		"name": "Sarah Blodgett"
+		"name": "Sarah Blodgett",
 	},
 	"ayub-ahmed": {
-		"name": "Ayub Ahmed"
+		"name": "Ayub Ahmed",
 	},
 	"hexereticdoom": {
-		"name": "hexereticdoom"
+		"name": "hexereticdoom",
 	},
 	"ola-bjorling": {
 		"name": "Ola Bjorling",
-		"aliases": ["Ola Bjorling (Citrus)"]
+		"aliases": ["Ola Bjorling (Citrus)"],
 	},
 	"raymoohawk": {
 		"name": "Raymoohawk",
-		"aliases": ["Raymohawk", "raymoohawk"]
+		"aliases": ["Raymohawk", "raymoohawk"],
 	},
 	"simon-howard": {
 		"name": "Simon Howard",
-		"aliases": ["Steven Elliott"]
+		"aliases": ["Steven Elliott"],
 	},
 	"pov": {
-		"name": "pov"
+		"name": "pov",
 	},
 	"rjy": {
 		"name": "RjY",
-		"aliases": ["RJY"]
+		"aliases": ["RJY"],
 	},
 	"ulises-lozano": {
 		"name": "Ulises Lozano",
-		"aliases": [
-			"Ulises \"Urric Hammersong\" Lozano",
-			"Urri",
-			"Urric",
-			"urric",
-			"Urric Hammersong"
-		]
+		"aliases": ["Ulises \"Urric Hammersong\" Lozano", "Urri", "Urric", "urric", "Urric Hammersong"],
 	},
 	"wesley-johnson": {
 		"name": "Wesley Johnson",
-		"aliases": ["wesley", "Wesley", "Wesley D. Johnson"]
-	}
+		"aliases": ["wesley", "Wesley", "Wesley D. Johnson"],
+	},
 }
