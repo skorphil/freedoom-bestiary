@@ -1787,16 +1787,20 @@
 					"delay": 10,
 				},
 			],
-			// "healing": [
-			// 	{
-			// 		"frame": "A",
-			// 		"delay": 10,
-			// 	},
-			// 	{
-			// 		"frame": "B",
-			// 		"delay": 10,
-			// 	},
-			// ],
+			"healing": [
+				{
+					"frame": "[",
+					"delay": 10,
+				},
+				{
+					"frame": "^",
+					"delay": 10,
+				},
+				{
+					"frame": "]",
+					"delay": 10,
+				},
+			],
 			"chasing": [
 				{
 					"frame": "A",

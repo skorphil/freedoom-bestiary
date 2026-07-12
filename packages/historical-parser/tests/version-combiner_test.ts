@@ -149,4 +149,42 @@ describe("VersionCombiner", () => {
 		expect(result.spriteVersions[0].sprites[0].url).toBe("url2");
 		expect(result.spriteVersions[1].sprites[0].url).toBe("url1");
 	});
+
+	test("combine should support special characters in filenames", () => {
+		const vileCombiner = new VersionCombiner("VILE");
+		const snapshots: CommitSnapshot[] = [
+			{
+				commitDate: "2023-01-01T12:00:00Z",
+				commitAuthor: "John Doe",
+				commitMessage: "Add special frames",
+				commitSha: "sha1",
+				commitUrl: "url1",
+				commitSource: "freedoom",
+				commitIndex: 0,
+				folder: null,
+				commitSprites: [
+					{
+						code: "VILE",
+						filename: "vile[1.png",
+						url: "blob[",
+						status: "A",
+						authorNames: [],
+					},
+					{
+						code: "VILE",
+						filename: "vile^1.png",
+						url: "blob^",
+						status: "A",
+						authorNames: [],
+					},
+				],
+			},
+		];
+
+		const result = vileCombiner.combine(snapshots, []);
+		expect(result.spriteVersions.length).toBe(1);
+		const sprites = result.spriteVersions[0].sprites;
+		expect(sprites.find((s) => s.name === "vile[1.png")).toBeDefined();
+		expect(sprites.find((s) => s.name === "vile^1.png")).toBeDefined();
+	});
 });

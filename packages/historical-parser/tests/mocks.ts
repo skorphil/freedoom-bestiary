@@ -35,14 +35,14 @@ export const TEST_COMMIT_MESSAGE = "Add new sprite frames";
 export function createMockSpritePattern(code: string) {
 	// Lightweight mock that matches the minimal SpritePattern surface used by tests
 	const upper = code.toUpperCase();
-	const regex = new RegExp(`${upper}[a-z]\\d.*\\.(png|gif)$`, "i");
+	const regex = new RegExp(`${upper}[a-z\\[\\]\\^]\\d.*\\.(png|gif)$`, "i");
 
 	return {
 		code: upper,
 		// match using extraction helpers to mirror real SpritePattern behavior
 		matches: (path: string) => {
 			const base = path.split("/").pop() || "";
-			const code = (base.match(/^([a-zA-Z0-9]{4})[a-z]\d.*\.(png|gif)$/i) ||
+			const code = (base.match(/^([a-zA-Z0-9]{4})[a-z\\[\\]\\^]\d.*\.(png|gif)$/i) ||
 				[])[1];
 			if (code && code.toUpperCase() === upper) return true;
 			// fallback to regex test
@@ -51,13 +51,13 @@ export function createMockSpritePattern(code: string) {
 		// Extract the 4-letter code from a path (or null if not present)
 		extractCodeFromPath: (path: string) => {
 			const base = path.split("/").pop() || "";
-			const match = base.match(/^([a-zA-Z0-9]{4})[a-z]/i);
+			const match = base.match(/^([a-zA-Z0-9]{4})[a-z\[\]\^]/i);
 			return match ? match[1].toUpperCase() : null;
 		},
 		// Extract frame key (single letter) after the code
 		extractFrameKey: (path: string) => {
 			const base = path.split("/").pop() || "";
-			const match = base.match(new RegExp(`^${upper}([a-z])`, "i"));
+			const match = base.match(new RegExp(`^${upper}([a-z\\[\\]\\^])`, "i"));
 			return match ? match[1] : null;
 		},
 		// static helpers used by tests

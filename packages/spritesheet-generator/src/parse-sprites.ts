@@ -32,7 +32,7 @@ export function parseSpriteName(
 	// We use a dynamic regex based on the code to avoid ambiguity when the code contains digits (e.g. BOS2)
 	const escapedCode = code.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 	const pattern = new RegExp(
-		`^(${escapedCode})([a-z])(\\d)(?:([a-z])?(\\d))?\\.(png|gif)$`,
+		`^(${escapedCode})([a-z\\[\\]\\^])(\\d)(?:([a-z\\[\\]\\^])?(\\d))?\\.(png|gif)$`,
 		"i",
 	);
 

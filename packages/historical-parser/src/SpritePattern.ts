@@ -20,9 +20,10 @@ export class SpritePattern {
 		this.code = code.toUpperCase();
 		// Matches standard Doom sprite filenames: <CODE><FRAME><ANGLE>[<FRAME><ANGLE>].(png|gif)
 		// Examples: POSSA1.png, POSSA2A8.gif
+		// Special frames: VILE[1, VILE^1, VILE]1
 		// Strictly excludes suffixes like .mirror.gif
 		this.regex = new RegExp(
-			`^${this.code}[a-z][0-9]([a-z][0-9])?\\.(png|gif)$`,
+			`^${this.code}[a-z\\[\\]\\^][0-9]([a-z\\[\\]\\^][0-9])?\\.(png|gif)$`,
 			"i",
 		);
 	}
@@ -44,7 +45,7 @@ export class SpritePattern {
 	 */
 	extractCodeFromPath(filePath: string): string | null {
 		const basename = SpritePattern.basename(filePath);
-		const match = basename.match(/^([a-zA-Z0-9]{4})[a-z]/i);
+		const match = basename.match(/^([a-zA-Z0-9]{4})[a-z\[\]\^]/i);
 		return match ? match[1].toUpperCase() : null;
 	}
 
@@ -56,7 +57,7 @@ export class SpritePattern {
 	extractFrameKey(filePath: string): string | null {
 		const basename = SpritePattern.basename(filePath);
 		// Capture letter + angle digit (e.g. "possa2a8.png" with code POSS → "a2")
-		const match = basename.match(new RegExp(`^${this.code}([a-z]\\d)`, "i"));
+		const match = basename.match(new RegExp(`^${this.code}([a-z\\[\\]\\^]\\d)`, "i"));
 		return match ? match[1].toLowerCase() : null;
 	}
 

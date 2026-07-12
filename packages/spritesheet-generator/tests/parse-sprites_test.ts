@@ -79,6 +79,24 @@ test("parseSpriteName - uppercase input", () => {
 	expect(result[0].angle).toEqual(1);
 });
 
+test("parseSpriteName - special characters", () => {
+	const vile = "VILE";
+	const res1 = parseSpriteName("vile[1.png", vile);
+	expect(res1.length).toEqual(1);
+	expect(res1[0].frame).toEqual("[");
+	expect(res1[0].angle).toEqual(1);
+
+	const res2 = parseSpriteName("vile^1.png", vile);
+	expect(res2.length).toEqual(1);
+	expect(res2[0].frame).toEqual("^");
+	expect(res2[0].angle).toEqual(1);
+
+	const res3 = parseSpriteName("vile]1.png", vile);
+	expect(res3.length).toEqual(1);
+	expect(res3[0].frame).toEqual("]");
+	expect(res3[0].angle).toEqual(1);
+});
+
 test("parseSpriteName - wrong code", () => {
 	const result = parseSpriteName("trooa1.png", "POSS");
 	expect(result.length).toEqual(0);

@@ -157,7 +157,7 @@ export class VersionCombiner {
 					(e) => e.commitIndex === maxIndex,
 				);
 				const winWith0 = winningEntries.some((e) =>
-					e.name.match(/[a-z]0\.(png|gif)$/i),
+					e.name.match(/[a-z\[\]\^]0\.(png|gif)$/i),
 				);
 
 				if (winWith0) {
@@ -197,7 +197,7 @@ export class VersionCombiner {
 	private extractFrameKeys(filename: string): string[] {
 		const base = filename.split("/").pop() || filename;
 		const match = base.match(
-			/^[A-Z]{4}(([a-z][0-9]?)+)[a-z0-9_]*\.(png|gif)$/i,
+			/^[A-Z]{4}(([a-z\[\]\^][0-9]?)+)[a-z0-9_]*\.(png|gif)$/i,
 		);
 		if (!match) return [base.toLowerCase()];
 		const framesStr = match[1].toLowerCase();
