@@ -75,12 +75,13 @@ async function loadData(
 		cachedData = SpritesheetsMapSchema.parse(json);
 		return cachedData;
 	} catch (e) {
-		console.warn(
-			"SpritesheetRepository: Failed to load data, starting empty",
+		console.error(
+			`SpritesheetRepository: Critical failure loading data from ${dataUrl.toString()}`,
 			e,
 		);
-		cachedData = {};
-		return cachedData;
+		throw new Error(
+			`Could not load spritesheet data index. Please check ${dataUrl.toString()} for JSON errors.`,
+		);
 	}
 }
 

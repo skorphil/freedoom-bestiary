@@ -37,7 +37,9 @@ export const SpritesheetSchema = z.object({
 
 /** Map of spritesheets by character code (enum), then by spritesheet ID */
 export const SpritesheetsMapSchema = z.record(
-	CharacterCodeSchema, // Character code enum (POSS, SPOS, etc.)
+	z.string().refine((val) => CharacterCodeSchema.safeParse(val).success, {
+		message: "Invalid character code",
+	}),
 	z.record(
 		z.string(), // spritesheetId (UUID)
 		SpritesheetSchema,

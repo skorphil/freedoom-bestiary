@@ -1,6 +1,7 @@
 import type { Contributor } from "@freedoom-bestiary/database";
 import { useLoaderData } from "react-router";
-import Typewriter from "typewriter-effect";
+import Typewriter from "~/src/components/Typewriter";
+import { useEffect, useState } from "react";
 import styles from "./home.module.css";
 
 type RouteData = {
@@ -45,16 +46,33 @@ export async function loader({ params }: { params: { authorId: string } }) {
 
 function AuthorHome() {
 	const { name, contributionsCount } = useLoaderData<typeof loader>();
+	const [isHydrated, setIsHydrated] = useState(false);
+
+	useEffect(() => {
+		setIsHydrated(true);
+	}, []);
+
+	if (!isHydrated) {
+		return (
+			<div>
+				<h1 className={styles.mainHeader}>Contributor &gt;&gt; {name}</h1>
+				<p>{contributionsCount} contributions loaded</p>
+			</div>
+		);
+	}
 
 	return (
 		<div>
 			<h1 className={styles.mainHeader}>
 				<Typewriter
-					onInit={(typewriter) => {
+					component="span"
+					onInit={(typewriter: any) => {
 						typewriter
 							.typeString(`Contributor >> ${name}`)
-							.callFunction((state) => {
-								state.elements.cursor.style.display = "none";
+							.callFunction((state: any) => {
+								if (state.elements.cursor) {
+									state.elements.cursor.style.display = "none";
+								}
 							})
 							.start();
 					}}
@@ -68,14 +86,19 @@ function AuthorHome() {
 			</h1>
 			<p>
 				<Typewriter
-					onInit={(typewriter) => {
+					component="span"
+					onInit={(typewriter: any) => {
 						typewriter
-							.callFunction((state) => {
-								state.elements.cursor.style.display = "none";
+							.callFunction((state: any) => {
+								if (state.elements.cursor) {
+									state.elements.cursor.style.display = "none";
+								}
 							})
 							.pauseFor(1000)
-							.callFunction((state) => {
-								state.elements.cursor.style.display = "inline-block";
+							.callFunction((state: any) => {
+								if (state.elements.cursor) {
+									state.elements.cursor.style.display = "inline-block";
+								}
 							})
 							.typeString(`${contributionsCount} contributions loaded`)
 

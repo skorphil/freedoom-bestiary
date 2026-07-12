@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import Typewriter from "typewriter-effect";
+import Typewriter from "~/src/components/Typewriter";
 import styles from "./home.module.css";
 
 export function meta() {
@@ -29,10 +29,11 @@ export default function Home() {
 		<div>
 			<h1 className={styles.mainHeader}>
 				<Typewriter
-					onInit={(typewriter) => {
+					component="span"
+					onInit={(typewriter: any) => {
 						typewriter
 							.typeString("Welcome")
-							.callFunction((state) => {
+							.callFunction((state: any) => {
 								if (state.elements.cursor) {
 									state.elements.cursor.style.display = "none";
 								}
@@ -47,17 +48,18 @@ export default function Home() {
 					}}
 				/>
 			</h1>
-			<p>
+			<div className={styles.bestiaryStatus}>
 				<Typewriter
-					onInit={(typewriter) => {
+					component="span"
+					onInit={(typewriter: any) => {
 						typewriter
-							.callFunction((state) => {
+							.callFunction((state: any) => {
 								if (state.elements.cursor) {
 									state.elements.cursor.style.display = "none";
 								}
 							})
 							.pauseFor(1000)
-							.callFunction((state) => {
+							.callFunction((state: any) => {
 								if (state.elements.cursor) {
 									state.elements.cursor.style.display = "inline-block";
 								}
@@ -73,7 +75,7 @@ export default function Home() {
 						delay: 10,
 					}}
 				/>
-			</p>
+			</div>
 		</div>
 	);
 }

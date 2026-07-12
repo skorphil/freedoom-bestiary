@@ -3,7 +3,7 @@ import { Header } from "~/src/components/Header";
 import styles from "./layout.module.css";
 
 /** Main website Layout */
-function layout() {
+export default function Layout() {
 	return (
 		<>
 			<Header />
@@ -13,5 +13,3 @@ function layout() {
 		</>
 	);
 }
-
-export default layout;

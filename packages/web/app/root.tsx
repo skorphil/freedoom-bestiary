@@ -50,15 +50,6 @@ export function Layout({ children }: { children: React.ReactNode }) {
             `,
 					}}
 				/>
-				<script
-					dangerouslySetInnerHTML={{
-						__html: `
-              window.__reactRouterContext && window.__reactRouterContext.routeDiscovery && (
-                window.__reactRouterContext.routeDiscovery.manifestPath = window.__reactRouterContext.basename.replace(/\\/$/, '') + "/__manifest"
-              )
-            `,
-					}}
-				/>
 			</head>
 			<body>
 				{children}

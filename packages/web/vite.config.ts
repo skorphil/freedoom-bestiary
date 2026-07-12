@@ -1,16 +1,14 @@
 import { reactRouter } from "@react-router/dev/vite";
 import { defineConfig } from "vite";
 
-export default defineConfig(({ command }) => ({
+export default defineConfig({
 	plugins: [reactRouter()],
 	resolve: {
 		tsconfigPaths: true,
 	},
 	build: {
-		minify: command === "build",
-	},
-	define: {
-		"process.env.NODE_ENV": JSON.stringify(command === "build" ? "production" : "development"),
+		minify: false,
+		sourcemap: true,
 	},
 	server: {
 		fs: {
@@ -19,4 +17,4 @@ export default defineConfig(({ command }) => ({
 	},
 	// Use the repository name as the base for GitHub Pages subpath deployment
 	base: "/freedoom-bestiary/",
-}));
+});

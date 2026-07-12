@@ -1,6 +1,7 @@
 import { useLoaderData } from "react-router";
 import { SpritesheetPreview } from "~/shared/characters/spritesheet-preview/SpritesheetPreview";
-import Typewriter from "typewriter-effect";
+import Typewriter from "~/src/components/Typewriter";
+import { useEffect, useState } from "react";
 import styles from "./home.module.css";
 
 /**
@@ -8,18 +9,36 @@ import styles from "./home.module.css";
  */
 function CharacterHome() {
 	const data = useLoaderData<typeof loader>();
+	const [isHydrated, setIsHydrated] = useState(false);
+
+	useEffect(() => {
+		setIsHydrated(true);
+	}, []);
+
 	if (data.type !== "character") return null;
 	const { character } = data;
+
+	if (!isHydrated) {
+		return (
+			<div>
+				<h1 className={styles.mainHeader}>{character.freedoomName}</h1>
+				<p>Character versions loaded</p>
+			</div>
+		);
+	}
 
 	return (
 		<div>
 			<h1 className={styles.mainHeader}>
 				<Typewriter
-					onInit={(typewriter) => {
+					component="span"
+					onInit={(typewriter: any) => {
 						typewriter
 							.typeString(character.freedoomName)
-							.callFunction((state) => {
-								state.elements.cursor.style.display = "none";
+							.callFunction((state: any) => {
+								if (state.elements.cursor) {
+									state.elements.cursor.style.display = "none";
+								}
 							})
 							.start();
 					}}
@@ -33,14 +52,19 @@ function CharacterHome() {
 			</h1>
 			<p>
 				<Typewriter
-					onInit={(typewriter) => {
+					component="span"
+					onInit={(typewriter: any) => {
 						typewriter
-							.callFunction((state) => {
-								state.elements.cursor.style.display = "none";
+							.callFunction((state: any) => {
+								if (state.elements.cursor) {
+									state.elements.cursor.style.display = "none";
+								}
 							})
 							.pauseFor(1000)
-							.callFunction((state) => {
-								state.elements.cursor.style.display = "inline-block";
+							.callFunction((state: any) => {
+								if (state.elements.cursor) {
+									state.elements.cursor.style.display = "inline-block";
+								}
 							})
 							.typeString("Character versions loaded")
 
