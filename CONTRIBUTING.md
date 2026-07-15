@@ -2,9 +2,9 @@ Contributions to the project are highly welcome. Please submit PR or start discu
 
 ## Tech
 
-- **Bun** — Fast JavaScript runtime and package manager
+- **Bun** — runtime and package manager
 - **React Router v8** — Framework with SSG (Static Site Generation)
-- **Sharp** — High-performance image processing (replaces ImageMagick)
+- **Sharp** — image processing (replaces ImageMagick)
 
 ## Quick Start
 
@@ -69,3 +69,8 @@ This approach chosen for several reasons:
 - To create independent collection. Having sprites copies inside this project reduce dependency
   on a freedoom source code, for example in case of git provider or url changes.
   This is why having copies chosen over using freedoom's original sprites' urls
+
+## References
+
+- [Sprites naming rules](https://zdoom.org/w/index.php?title=Sprite#Naming_rules) Note: frame `\` is replaced with `^` in freedoom git
+- [Animation frames and timings](https://zdoom.org/w/index.php?title=Classes:Demon) – look for specific character class
